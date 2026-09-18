@@ -1,0 +1,45 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:14:47.247314+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "candidate_replay_v1"
+  },
+  "optimizer_json": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\smoke_seed0.json",
+  "optimizer_json_sha256": "ed40836852a2fbd2f09cf50704e933e1a3333784b5e397a0f42b136ed6e03edc",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "8e7aebe0eaeac87850a1d3ea40aa54f5d475add9070ff738464c62a4ae5d3469",
+  "candidate_count": 1,
+  "accepted_candidate_count": 1,
+  "candidates": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 19.015553854117684,
+      "terminal_arm_angle_rad": 1.075144568985572,
+      "kinematic_objective": 7.450533285630537,
+      "kinematic_feasible": true,
+      "dynamic_objective": 7.565547528080063,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_seed0_candidates\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_seed0_candidates\\candidate_01\\validation.json",
+      "dynamic_rank": 1
+    }
+  ],
+  "dynamic_ranking": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 19.015553854117684,
+      "terminal_arm_angle_rad": 1.075144568985572,
+      "kinematic_objective": 7.450533285630537,
+      "kinematic_feasible": true,
+      "dynamic_objective": 7.565547528080063,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_seed0_candidates\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_seed0_candidates\\candidate_01\\validation.json",
+      "dynamic_rank": 1
+    }
+  ]
+}

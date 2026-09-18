@@ -1,0 +1,243 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:27:27.896614+00:00",
+    "verification_status": "UNVERIFIED",
+    "version_label": "exp_result_v1"
+  },
+  "experiment_id": "flexiv_rizon4s_fpmfc_precontact",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "d43db135890bb1258fc9b85e01db8b6585019594032ce9fa67802f59a2ecd8f2",
+  "effective_config_sha256": "407ce31e0f7547d3026108d36c0fa9b02e25ad9eb02ca3609d2fd01e2d275f40",
+  "model_identity": {
+    "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+    "source_bundle_sha256": "4816538e3f89e9a09a739eb5f8d8290fc91d353048ff2e5b5704fc6df1892531",
+    "mujoco_version": "3.3.2",
+    "joint_names": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6",
+      "joint7"
+    ],
+    "actuator_names": [
+      "torque_joint1",
+      "torque_joint2",
+      "torque_joint3",
+      "torque_joint4",
+      "torque_joint5",
+      "torque_joint6",
+      "torque_joint7"
+    ],
+    "home_joint_position_rad": [
+      0.0,
+      -0.6981317007977318,
+      0.0,
+      1.5707963267948966,
+      0.0,
+      0.6981317007977318,
+      0.0
+    ],
+    "torque_limits_nm": [
+      123.0,
+      123.0,
+      64.0,
+      64.0,
+      39.0,
+      39.0,
+      39.0
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "base_mass_kg": 500.0,
+    "base_diagonal_inertia_kg_m2": [
+      20.833333333,
+      20.833333333,
+      20.833333333
+    ],
+    "actuation": "seven_direct_joint_torque_motors",
+    "runtime_contract_sha256": "e64027710bd07974fa9c4e0e15b2dbe9e7383e395e6fbd8007801dacb7fd59c6"
+  },
+  "progress_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\fixed_psi_pi2_smoke_v2.jsonl",
+  "fixed_arm_angle_rad": 1.5707963267949,
+  "optimizer": {
+    "seed": 0,
+    "population": 4,
+    "generations_requested": 2,
+    "generations_completed": 2,
+    "converged": false,
+    "best_position": [
+      8.69654990691531,
+      1.5707963267949
+    ],
+    "best_objective": 26751.876628816357,
+    "best_rollout": {
+      "capture_time_s": 8.69654990691531,
+      "terminal_arm_angle_rad": 1.5707963267949,
+      "objective": 26751.876628816357,
+      "base_cost": 77.53476558683154,
+      "alignment_cost": 0.8758959485661226,
+      "constraint_penalty": 26672.590071332394,
+      "feasible": false,
+      "controller_failure_count": 0,
+      "task_tick_count": 436,
+      "maximum_base_angular_velocity_rad_s": 0.08805382762085447,
+      "rms_base_angular_velocity_rad_s": 0.024420333449397976,
+      "maximum_base_linear_velocity_m_s": 0.005701040112157564,
+      "maximum_base_orientation_drift_rad": 0.047257354832995625,
+      "terminal_position_error_m": 1.1177039180570148e-05,
+      "terminal_orientation_error_rad": 9.44241267423709e-06,
+      "terminal_arm_angle_error_rad": 0.10759171699340442,
+      "terminal_linear_velocity_m_s": 5.549501027532442e-05,
+      "terminal_angular_velocity_rad_s": 7.555991282091125e-05,
+      "alignment_angle_rad": 1.470097489017696,
+      "impulse_torque_proxy_m2_s": 0.01293025001449058,
+      "minimum_clearance_m": null,
+      "maximum_hierarchy_linear_degradation_m_s": 2.2887833992611187e-16,
+      "maximum_hierarchy_angular_degradation_rad_s": 9.155133597044475e-16,
+      "maximum_momentum_map_residual": 2.0071066796194845e-15
+    },
+    "history": [
+      26751.876628816357,
+      26751.876628816357
+    ],
+    "evaluations": 8,
+    "top_candidates": [
+      {
+        "position": [
+          8.69654990691531,
+          1.5707963267949
+        ],
+        "objective": 26751.876628816357,
+        "rollout": {
+          "capture_time_s": 8.69654990691531,
+          "terminal_arm_angle_rad": 1.5707963267949,
+          "objective": 26751.876628816357,
+          "base_cost": 77.53476558683154,
+          "alignment_cost": 0.8758959485661226,
+          "constraint_penalty": 26672.590071332394,
+          "feasible": false,
+          "controller_failure_count": 0,
+          "task_tick_count": 436,
+          "maximum_base_angular_velocity_rad_s": 0.08805382762085447,
+          "rms_base_angular_velocity_rad_s": 0.024420333449397976,
+          "maximum_base_linear_velocity_m_s": 0.005701040112157564,
+          "maximum_base_orientation_drift_rad": 0.047257354832995625,
+          "terminal_position_error_m": 1.1177039180570148e-05,
+          "terminal_orientation_error_rad": 9.44241267423709e-06,
+          "terminal_arm_angle_error_rad": 0.10759171699340442,
+          "terminal_linear_velocity_m_s": 5.549501027532442e-05,
+          "terminal_angular_velocity_rad_s": 7.555991282091125e-05,
+          "alignment_angle_rad": 1.470097489017696,
+          "impulse_torque_proxy_m2_s": 0.01293025001449058,
+          "minimum_clearance_m": null,
+          "maximum_hierarchy_linear_degradation_m_s": 2.2887833992611187e-16,
+          "maximum_hierarchy_angular_degradation_rad_s": 9.155133597044475e-16,
+          "maximum_momentum_map_residual": 2.0071066796194845e-15
+        }
+      },
+      {
+        "position": [
+          16.612808188042056,
+          1.5707963267949
+        ],
+        "objective": 4498617.719212319,
+        "rollout": {
+          "capture_time_s": 16.612808188042056,
+          "terminal_arm_angle_rad": 1.5707963267949,
+          "objective": 4498617.719212319,
+          "base_cost": 139.80380674477752,
+          "alignment_cost": 0.13680225951167188,
+          "constraint_penalty": 4498477.641801055,
+          "feasible": false,
+          "controller_failure_count": 0,
+          "task_tick_count": 832,
+          "maximum_base_angular_velocity_rad_s": 0.1182386598134373,
+          "rms_base_angular_velocity_rad_s": 0.025204044059398245,
+          "maximum_base_linear_velocity_m_s": 0.007663195160559745,
+          "maximum_base_orientation_drift_rad": 0.06715679688974564,
+          "terminal_position_error_m": 0.06776156115421934,
+          "terminal_orientation_error_rad": 0.002556625280820589,
+          "terminal_arm_angle_error_rad": 0.1297141861237785,
+          "terminal_linear_velocity_m_s": 6.028699152775557e-05,
+          "terminal_angular_velocity_rad_s": 2.114655004663739e-05,
+          "alignment_angle_rad": 0.5809871303556055,
+          "impulse_torque_proxy_m2_s": 0.008196566141209208,
+          "minimum_clearance_m": 0.1266116908887768,
+          "maximum_hierarchy_linear_degradation_m_s": 2.779024842816778e-16,
+          "maximum_hierarchy_angular_degradation_rad_s": 8.95090418262362e-16,
+          "maximum_momentum_map_residual": 1.9017966418416448e-15
+        }
+      },
+      {
+        "position": [
+          17.128348684464722,
+          1.5707963267949
+        ],
+        "objective": 5296207.331115849,
+        "rollout": {
+          "capture_time_s": 17.128348684464722,
+          "terminal_arm_angle_rad": 1.5707963267949,
+          "objective": 5296207.331115849,
+          "base_cost": 120.56655840511048,
+          "alignment_cost": 0.11425289319262857,
+          "constraint_penalty": 5296086.536051658,
+          "feasible": false,
+          "controller_failure_count": 0,
+          "task_tick_count": 858,
+          "maximum_base_angular_velocity_rad_s": 0.1098028043380999,
+          "rms_base_angular_velocity_rad_s": 0.024428571307081575,
+          "maximum_base_linear_velocity_m_s": 0.00768860122267166,
+          "maximum_base_orientation_drift_rad": 0.07108650547992648,
+          "terminal_position_error_m": 0.07352897654715282,
+          "terminal_orientation_error_rad": 0.002597962463039564,
+          "terminal_arm_angle_error_rad": 0.12163950421408298,
+          "terminal_linear_velocity_m_s": 7.914556212402433e-05,
+          "terminal_angular_velocity_rad_s": 1.9907173262016287e-05,
+          "alignment_angle_rad": 0.5309498228390229,
+          "impulse_torque_proxy_m2_s": 0.007667459749086785,
+          "minimum_clearance_m": 0.13403303771893935,
+          "maximum_hierarchy_linear_degradation_m_s": 3.5135752366389115e-16,
+          "maximum_hierarchy_angular_degradation_rad_s": 8.899114524108741e-16,
+          "maximum_momentum_map_residual": 2.052923850622476e-15
+        }
+      },
+      {
+        "position": [
+          20.125594066404634,
+          1.5707963267949
+        ],
+        "objective": 10549545.335668303,
+        "rollout": {
+          "capture_time_s": 20.125594066404634,
+          "terminal_arm_angle_rad": 1.5707963267949,
+          "objective": 10549545.335668303,
+          "base_cost": 87.01239113909625,
+          "alignment_cost": 0.030534487563072813,
+          "constraint_penalty": 10549458.262208188,
+          "feasible": false,
+          "controller_failure_count": 0,
+          "task_tick_count": 1008,
+          "maximum_base_angular_velocity_rad_s": 0.09328043264216576,
+          "rms_base_angular_velocity_rad_s": 0.02178790124883028,
+          "maximum_base_linear_velocity_m_s": 0.007753537409187183,
+          "maximum_base_orientation_drift_rad": 0.09511845110058695,
+          "terminal_position_error_m": 0.10366680372422891,
+          "terminal_orientation_error_rad": 0.0028115377447352897,
+          "terminal_arm_angle_error_rad": 0.0697714845031383,
+          "terminal_linear_velocity_m_s": 0.00019489529817071706,
+          "terminal_angular_velocity_rad_s": 1.4454742931789372e-05,
+          "alignment_angle_rad": 0.27448283773193893,
+          "impulse_torque_proxy_m2_s": 0.004460053027833291,
+          "minimum_clearance_m": null,
+          "maximum_hierarchy_linear_degradation_m_s": 3.387999773988765e-16,
+          "maximum_hierarchy_angular_degradation_rad_s": 8.899114524108741e-16,
+          "maximum_momentum_map_residual": 2.0038146102831676e-15
+        }
+      }
+    ]
+  }
+}

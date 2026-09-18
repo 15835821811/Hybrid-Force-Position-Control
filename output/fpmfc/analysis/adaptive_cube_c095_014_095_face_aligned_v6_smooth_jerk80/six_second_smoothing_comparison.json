@@ -1,0 +1,33 @@
+{
+  "window_s": [
+    5.5,
+    7.2
+  ],
+  "selected_joints": [
+    3,
+    5,
+    7
+  ],
+  "before_trace": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\seed_00\\candidate_01\\trace.npz",
+  "after_trace": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\selected_candidate\\trace.npz",
+  "figure_png": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\analysis\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\six_second_smoothing_comparison.png",
+  "figure_pdf": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\analysis\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\six_second_smoothing_comparison.pdf",
+  "before": {
+    "maximum_command_acceleration_rad_s2": 4.0050000000004555,
+    "maximum_command_jerk_rad_s3": 229.55722263000087,
+    "maximum_actual_acceleration_rad_s2": 4.52110204885922,
+    "maximum_actual_jerk_rad_s3": 1292.2202451060089
+  },
+  "after": {
+    "maximum_command_acceleration_rad_s2": 4.0000000000000036,
+    "maximum_command_jerk_rad_s3": 80.00000000000888,
+    "maximum_actual_acceleration_rad_s2": 4.204458195746611,
+    "maximum_actual_jerk_rad_s3": 455.39135256729725
+  },
+  "reduction_percent": {
+    "maximum_command_acceleration_rad_s2": 0.12484394507993526,
+    "maximum_command_jerk_rad_s3": 65.1503014875936,
+    "maximum_actual_acceleration_rad_s2": 7.003687368492505,
+    "maximum_actual_jerk_rad_s3": 64.75899876263442
+  }
+}

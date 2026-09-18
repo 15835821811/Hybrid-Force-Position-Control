@@ -1,0 +1,66 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "preflight",
+    "origin_date": "2026-09-15T20:04:51+08:00",
+    "verification_status": "CONFIRMED_AND_LAUNCHED",
+    "version_label": "r021_batch_03_09_preflight_v1"
+  },
+  "scope": "R021 cumulative completion for fixed seeds 0 through 9",
+  "frozen_contract": {
+    "source_config_sha256": "e13a4070dd034f0b925997e4332919e1a7a3dda4c36a46a3435fe65896f272af",
+    "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+    "model_runtime_contract_sha256": "e64027710bd07974fa9c4e0e15b2dbe9e7383e395e6fbd8007801dacb7fd59c6",
+    "implementation_identity_sha256": "6763e400f685cc6a46f8392187aeb8bf1543c67a58985b38c244322c7a8f5ae7",
+    "planning_clearance_m": 0.045,
+    "acceptance_clearance_m": 0.04,
+    "population": 20,
+    "maximum_generations": 1000,
+    "stagnation_generations": 20,
+    "parallel_processes": 3
+  },
+  "existing_batch": {
+    "seeds": [0, 1, 2],
+    "all_optimizer_resume_contracts_match": true,
+    "all_dynamic_resume_contracts_match": true,
+    "optimizer_suite_summary_sha256": "d60f7dc1135fee8c8d8b994f91226fa31e10879c0f720756b02cab843b8fa039",
+    "dynamic_suite_summary_sha256": "d022e4056f0a2fbff8d9e5ef4dd89d5f3ecb40bde984a0ca91db4322115f6ae1"
+  },
+  "pending_batch": {
+    "seeds": [3, 4, 5, 6, 7, 8, 9],
+    "all_optimizer_outputs_absent": true,
+    "all_dynamic_output_directories_absent": true
+  },
+  "hardware": {
+    "cpu": "Intel(R) Core(TM) i9-14900KF",
+    "physical_cores": 24,
+    "logical_processors": 32,
+    "total_memory_gb": 31.76,
+    "free_memory_gb_at_preflight": 12.22,
+    "no_active_python_experiment": true
+  },
+  "optimizer_command": "C:\\Users\\admin\\.conda\\envs\\rltoorch\\python.exe -m v6_mujoco.fpmfc.pso_suite --config configs/fpmfc_paper.yaml --variants joint --seeds 0 1 2 3 4 5 6 7 8 9 --population 20 --generations 1000 --planning-clearance 0.045 --parallel 3 --output-root output/fpmfc/optimization/formal_planning45",
+  "dynamic_command": "C:\\Users\\admin\\.conda\\envs\\rltoorch\\python.exe -m v6_mujoco.fpmfc.run_suite_candidates --suite-summary output/fpmfc/optimization/formal_planning45/pso_suite_summary.json --config configs/fpmfc_paper.yaml --top-k 5 --parallel 3 --output-root output/fpmfc/precontact/formal_planning45_batch_00_02",
+  "resume_behavior": {
+    "optimizer": "Seeds 0-2 are hash-checked and skipped; only seeds 3-9 are dispatched. The final suite summary covers all seeds 0-9.",
+    "dynamics": "Existing seed 0-2 candidate replays are hash-checked and skipped; seeds 3-9 are replayed. The historical output-root name is retained so existing evidence paths remain valid; its final summary becomes cumulative for seeds 0-9."
+  },
+  "monitoring": {
+    "progress_files": "output/fpmfc/optimization/formal_planning45/joint/pso_seed_03.jsonl through pso_seed_09.jsonl",
+    "check_interval_seconds": 30,
+    "typical_optimizer_wall_time_hours": [1.0, 3.0],
+    "per_seed_hard_timeout_hours": 8,
+    "no_silent_retry": true,
+    "preserve_infeasible_and_crashed_results": true
+  },
+  "tests": {
+    "unit_tests_passed": true,
+    "test_count": 33
+  },
+  "launch": {
+    "confirmed_by_user": true,
+    "started_at": "2026-09-15T20:09:37+08:00",
+    "resume_observation": "Seeds 0-2 were reported skip-complete; seeds 3-5 were dispatched as the first parallel wave."
+  },
+  "status": "running_pending_seeds_3_9"
+}

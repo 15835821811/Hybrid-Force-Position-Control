@@ -1,0 +1,68 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T11:14:31.565251+00:00",
+    "verification_status": "UNVERIFIED_DYNAMIC",
+    "version_label": "pso_suite_v1"
+  },
+  "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+  "implementation_identity_sha256": "6763e400f685cc6a46f8392187aeb8bf1543c67a58985b38c244322c7a8f5ae7",
+  "variants": {
+    "joint": {
+      "fixed_arm_angle_rad": null,
+      "seed_count": 2,
+      "feasible_seed_count": 0,
+      "feasible_seed_fraction": 0.0,
+      "best_objective_mean": 1498117.354435563,
+      "best_objective_std": 864639.2613023287,
+      "best_objective_median": 1498117.354435563,
+      "best_objective_min": 886725.0694885592,
+      "best_objective_max": 2109509.639382567,
+      "selected_seed": 103,
+      "selected_result_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_identity_contract_smoke\\joint\\pso_seed_103.json",
+      "runs": [
+        {
+          "seed": 103,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_identity_contract_smoke\\joint\\pso_seed_103.json",
+          "sha256": "54327489ac1b290f3ca5c1bd77b8d0287bed082ba18a11490c826342a0d1069c",
+          "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "6763e400f685cc6a46f8392187aeb8bf1543c67a58985b38c244322c7a8f5ae7",
+          "best_objective": 886725.0694885592,
+          "capture_time_s": 11.094165377603188,
+          "terminal_arm_angle_rad": 2.2630691739524966,
+          "feasible": false,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.09013112762993337,
+          "alignment_angle_rad": 1.1830499333377162,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 104,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_identity_contract_smoke\\joint\\pso_seed_104.json",
+          "sha256": "979e819ca771d5cba34718e5fc736ad2e70952547cfe41ac20da8058e29b72b7",
+          "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "6763e400f685cc6a46f8392187aeb8bf1543c67a58985b38c244322c7a8f5ae7",
+          "best_objective": 2109509.639382567,
+          "capture_time_s": 22.255601810282105,
+          "terminal_arm_angle_rad": 1.2073024242571062,
+          "feasible": false,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.03150892214240205,
+          "alignment_angle_rad": 0.1781028153839669,
+          "minimum_clearance_m": 0.05142555989015033
+        }
+      ]
+    }
+  }
+}

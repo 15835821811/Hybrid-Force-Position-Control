@@ -1,0 +1,29 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-16T03:18:40.916261+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "validation_v1"
+  },
+  "passed": true,
+  "checks": {
+    "trace_hash_matches_metrics": true,
+    "reported_candidate_passed_acceptance": true,
+    "deterministic_qpos_replay": true,
+    "deterministic_qvel_replay": true,
+    "deterministic_flange_replay": true,
+    "deterministic_clearance_replay": true
+  },
+  "replay": {
+    "maximum_qpos_error": 0.0,
+    "maximum_qvel_error": 0.0,
+    "maximum_flange_position_error_m": 0.0,
+    "maximum_clearance_error_m": 0.0,
+    "recomputed_minimum_clearance_m": 0.19452987713668374
+  },
+  "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\adaptive_cube_095_v1_precheck_seed0_top5\\candidate_01\\metrics.json",
+  "metrics_sha256": "ff557fce50b6af0f1cc4e647791fc3600de37c5c5db40e01cca646d8944623a2",
+  "trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\adaptive_cube_095_v1_precheck_seed0_top5\\candidate_01\\trace.npz",
+  "trace_sha256": "5416ad7a5c3834a23610c80274d2a4b349768df636c17800b2d622fe6d79318d"
+}

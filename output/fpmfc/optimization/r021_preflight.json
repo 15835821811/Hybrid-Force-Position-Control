@@ -1,0 +1,96 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "preflight",
+    "origin_date": "2026-09-15T19:16:34+08:00",
+    "verification_status": "BATCH_00_02_COMPLETED",
+    "version_label": "r021_preflight_v1"
+  },
+  "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+  "model_runtime_contract_sha256": "e64027710bd07974fa9c4e0e15b2dbe9e7383e395e6fbd8007801dacb7fd59c6",
+  "implementation_identity_sha256": "6763e400f685cc6a46f8392187aeb8bf1543c67a58985b38c244322c7a8f5ae7",
+  "planning_clearance_m": 0.045,
+  "acceptance_clearance_m": 0.04,
+  "population": 20,
+  "maximum_generations": 1000,
+  "stagnation_generations": 20,
+  "batch_seeds": [0, 1, 2],
+  "parallel_processes": 3,
+  "per_seed_timeout_hours": 8,
+  "hardware": {
+    "cpu": "Intel(R) Core(TM) i9-14900KF",
+    "physical_cores": 24,
+    "logical_processors": 32,
+    "total_memory_gb": 31.76,
+    "free_memory_gb_at_preflight": 12.63
+  },
+  "preflight_checks": {
+    "no_active_python_experiment": true,
+    "formal_output_root_absent": true,
+    "r020b_passed": true,
+    "top5_dynamic_replay_completed": true,
+    "test_suite_passed": true,
+    "test_count": 33
+  },
+  "implementation_files_sha256": {
+    "models/flexiv_rizon4s_scene.xml": "f9efbb8732c24f24cc9bb54b12d4a2e46413ed70e25d266c6fc7782900888ea2",
+    "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+    "v6_mujoco/fpmfc/config.py": "19901aba84c3cacce0214f0bdec9ef799a329d332570879a5ab8f0223dd57cac",
+    "v6_mujoco/fpmfc/controller.py": "6fee40c63a27c98ba700004e5f54c1efe8a83292623b0ed507f63ce641d5a86f",
+    "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+    "v6_mujoco/fpmfc/optimizer.py": "aa74e2c5bc7f0513d3cd2552fe725f0a7ba76ac92dfe21711d03784b1c9dd643",
+    "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+    "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+    "v6_mujoco/fpmfc/rollout.py": "e46cae5b8002ae6771c8819cd473ec8ed2c697cc80a085922155798653700ce3",
+    "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+    "v6_mujoco/fpmfc/run_capture.py": "0d31446433b3b59a0b2eee4b2c8f473a13312a3fb8ce275bbe2475d5c1e22433",
+    "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+    "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+    "v6_mujoco/fpmfc/target.py": "2f6ddcb38d5947a99ad6b4a59d865be49f8222c991c5076ce65a03692538437a",
+    "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+    "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+    "v6_mujoco/hierarchical_qp.py": "741985d6afd80d8ba65f74677750c5338607ac55b8079846c7012e48ca769fe1",
+    "v6_mujoco/model.py": "207a3e7f3e05337e9cd8a4e4ce5fab302607cb05e9c58a1d3ee77e4f56822331",
+    "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+  },
+  "output_root": "output/fpmfc/optimization/formal_planning45",
+  "parallel_dispatch_smoke": {
+    "passed": true,
+    "seeds": [101, 102],
+    "population": 2,
+    "generations": 1,
+    "resume_skip_passed": true,
+    "note": "Candidate feasibility was not a contract-smoke pass condition."
+  },
+  "parallel_dynamic_replay_smoke": {
+    "passed": true,
+    "seeds": [101, 102],
+    "top_k": 1,
+    "resume_skip_passed": true,
+    "joint_qualification_filter_passed": true
+  },
+  "implementation_identity_contract_smoke": {
+    "passed": true,
+    "optimization_seeds": [103, 104],
+    "dynamic_replay_checked": true,
+    "resume_skip_passed": true,
+    "optimization_dynamic_identity_match": true,
+    "note": "Random candidates were infeasible and were retained; feasibility was not a contract-smoke pass condition."
+  },
+  "launch": {
+    "confirmed_by_user": true,
+    "started_at": "2026-09-15T19:17:00+08:00",
+    "command": "C:\\Users\\admin\\.conda\\envs\\rltoorch\\python.exe -m v6_mujoco.fpmfc.pso_suite --config configs/fpmfc_paper.yaml --variants joint --seeds 0 1 2 --population 20 --generations 1000 --planning-clearance 0.045 --parallel 3 --output-root output/fpmfc/optimization/formal_planning45"
+  },
+  "completion": {
+    "completed_at": "2026-09-15T19:51:42+08:00",
+    "optimization_seed_count": 3,
+    "optimization_feasible_seed_count": 3,
+    "optimization_evaluations": 3440,
+    "dynamic_candidate_count": 15,
+    "dynamic_accepted_candidate_count": 15,
+    "jointly_qualified_candidate_count": 14,
+    "top1_preserved_count": 3
+  },
+  "status": "completed_batch_seeds_0_2"
+}

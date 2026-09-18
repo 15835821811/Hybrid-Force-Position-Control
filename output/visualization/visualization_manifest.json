@@ -1,0 +1,189 @@
+{
+  "passed": true,
+  "checks": {
+    "five_distinct_views": true,
+    "all_videos_h264_readable": true,
+    "all_video_dimensions_match": true,
+    "all_video_frame_counts_match": true,
+    "all_video_durations_match": true,
+    "all_video_rates_match": true,
+    "five_static_figures_nonempty": true,
+    "preview_is_1440x720": true,
+    "source_suite_contains_five_scenarios": true
+  },
+  "video_config": {
+    "scenario_index": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "crf": 20
+  },
+  "source_metrics": "output\\migration_metrics.json",
+  "source_metrics_sha256": "ab2e7d0c51e8816714f7c3c486905088974374d27fd073816ad1b01b78e66925",
+  "source_trace": "output\\traces\\flexiv_mujoco_scenario_00.npz",
+  "source_trace_sha256": "b275777d6a2392a39eaf194af716bc915c1668ae44465e82490f24e781c52f44",
+  "views": [
+    {
+      "key": "isometric",
+      "title": "Isometric",
+      "azimuth_deg": 135.0,
+      "elevation_deg": -24.0,
+      "distance_m": 2.05
+    },
+    {
+      "key": "front",
+      "title": "Front",
+      "azimuth_deg": 180.0,
+      "elevation_deg": -8.0,
+      "distance_m": 2.05
+    },
+    {
+      "key": "right",
+      "title": "Right side",
+      "azimuth_deg": 90.0,
+      "elevation_deg": -10.0,
+      "distance_m": 2.05
+    },
+    {
+      "key": "top",
+      "title": "Top",
+      "azimuth_deg": 180.0,
+      "elevation_deg": -89.0,
+      "distance_m": 2.0
+    },
+    {
+      "key": "rear",
+      "title": "Rear",
+      "azimuth_deg": 0.0,
+      "elevation_deg": -14.0,
+      "distance_m": 2.05
+    }
+  ],
+  "coordinate_frames": {
+    "axis_color_order": [
+      "x_red",
+      "y_green",
+      "z_blue"
+    ],
+    "target_axis_length_m": 0.16,
+    "end_effector_axis_length_m": 0.1,
+    "waypoint_axis_length_m": 0.05,
+    "video_waypoint_axis_length_m": 0.055,
+    "target_style": "long_translucent_arrows",
+    "end_effector_style": "short_opaque_arrows",
+    "video_frames_rendered": [
+      "live_target_point_frame",
+      "live_flexiv_flange_frame",
+      "W1_to_W7_target_frames"
+    ],
+    "path_figure_frames_rendered": [
+      "W1_to_W7_target_frames",
+      "final_target_frame",
+      "final_flexiv_flange_frame"
+    ]
+  },
+  "video_target_path": {
+    "geometry": "W1_to_W7_capsule_polyline",
+    "waypoint_count": 7,
+    "waypoint_markers": "gold_spheres",
+    "waypoint_labels": "W1_to_W7_in_front_view",
+    "transition_to_W1": "blue_gray_connector",
+    "path_color": "green"
+  },
+  "figures": [
+    {
+      "path": "output\\visualization\\tracking_paths_3d.png",
+      "sha256": "f68f9294c6e697263abcf6a40be542d8fd1704fdb3134c7aab3f7ddc2bd1e4f5",
+      "width": 2779,
+      "height": 1586,
+      "bytes": 699282
+    },
+    {
+      "path": "output\\visualization\\tracking_error_curves.png",
+      "sha256": "dc160b9a5ebe7479a4377d8c898485ce372aa845c2c827c691754b04b6f7e0ad",
+      "width": 2540,
+      "height": 1460,
+      "bytes": 716506
+    },
+    {
+      "path": "output\\visualization\\base_pose_drift.png",
+      "sha256": "85b8b55626a3a2ba0a711ed5c4dfb34a1e3a3d34094faba737bd6dd099b90920",
+      "width": 2540,
+      "height": 1460,
+      "bytes": 389704
+    },
+    {
+      "path": "output\\visualization\\safety_and_qp_diagnostics.png",
+      "sha256": "fee833d1a26bfbb1ad676b1b875111673f3f1527dd600b6211c273052fbaec26",
+      "width": 2720,
+      "height": 1640,
+      "bytes": 502913
+    },
+    {
+      "path": "output\\visualization\\joint_tracking_and_torque.png",
+      "sha256": "b6a734949394f35b336f0cedc6a82ca6957d0d9d9e86ef3d1fb38d73d9db6b07",
+      "width": 2540,
+      "height": 1640,
+      "bytes": 558462
+    }
+  ],
+  "preview": {
+    "path": "output\\visualization\\five_view_preview.png",
+    "sha256": "82296011b3734679aeef72d949eb1b6cd6d6b571e7ab4283ff4e86a49f59a7ac",
+    "width": 1440,
+    "height": 720,
+    "bytes": 223159
+  },
+  "videos": [
+    {
+      "path": "output\\visualization\\videos\\scenario_00_isometric.mp4",
+      "sha256": "04f8e4505b5d06a30ad8f368d83b9a19149eb3da3a7f2736757b1a5fea78baed",
+      "bytes": 769062,
+      "width": 640,
+      "height": 480,
+      "fps": 30.0,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_front.mp4",
+      "sha256": "9ab9c73c046a86f3bed87345c6fbf9ec81ab298d917fa79e86d208097297ebc1",
+      "bytes": 738374,
+      "width": 640,
+      "height": 480,
+      "fps": 30.0,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_right.mp4",
+      "sha256": "5c1b606d4d82c5f50777df714d90eb3d2c84039dd67c4a310b46632231336dc0",
+      "bytes": 697232,
+      "width": 640,
+      "height": 480,
+      "fps": 30.0,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_top.mp4",
+      "sha256": "8271a311ba5960af70b7063ee89561759eca26ffcccc268256325fce584a6d26",
+      "bytes": 688238,
+      "width": 640,
+      "height": 480,
+      "fps": 30.0,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_rear.mp4",
+      "sha256": "51bc38a49992de083560715680a887d8423b9590049540d5f8ddce3045f7198d",
+      "bytes": 616722,
+      "width": 640,
+      "height": 480,
+      "fps": 30.0,
+      "frames": 765,
+      "duration_s": 25.5
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "material_passport": {
+    "origin_skill": "visualize",
+    "origin_mode": "verified-trace-five-view-render",
+    "verification_status": "VERIFIED",
+    "version_label": "fpmfc_five_view_joint_kinematics_v1"
+  },
+  "source_trace": "output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\selected_candidate\\trace.npz",
+  "source_trace_sha256": "fc67c2229a168a5e2de7dfe44a2ea2f0088c382b37d4dc3d7fdb88360bf5419c",
+  "source_metrics": "output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\selected_candidate\\metrics.json",
+  "source_metrics_sha256": "85eff6b01e2107f693ee1f3def2b94facd295ba6017b5da5de679e3cd4280660",
+  "video_config": {
+    "tile_width": 640,
+    "tile_height": 360,
+    "composite_width": 1920,
+    "composite_height": 1080,
+    "fps": 30,
+    "crf": 20,
+    "expected_frames": 241,
+    "expected_duration_s": 8.033333333333333
+  },
+  "views": [
+    {
+      "key": "isometric",
+      "title": "Isometric",
+      "azimuth_deg": 137.0,
+      "elevation_deg": -24.0,
+      "distance_m": 1.85
+    },
+    {
+      "key": "front",
+      "title": "Front",
+      "azimuth_deg": 180.0,
+      "elevation_deg": -8.0,
+      "distance_m": 1.85
+    },
+    {
+      "key": "right",
+      "title": "Right side",
+      "azimuth_deg": 90.0,
+      "elevation_deg": -10.0,
+      "distance_m": 1.85
+    },
+    {
+      "key": "top",
+      "title": "Top",
+      "azimuth_deg": 180.0,
+      "elevation_deg": -89.0,
+      "distance_m": 1.75
+    },
+    {
+      "key": "rear",
+      "title": "Rear",
+      "azimuth_deg": 0.0,
+      "elevation_deg": -14.0,
+      "distance_m": 1.85
+    }
+  ],
+  "joint_signals": {
+    "position_source": "qpos[:, 7:14]",
+    "velocity_source": "qvel[:, 6:13]",
+    "acceleration_source": "numpy.gradient(joint_velocity, time, edge_order=2)",
+    "sample_count": 4000,
+    "sample_period_s": 0.0019999999999997797,
+    "units": {
+      "position": "rad",
+      "velocity": "rad/s",
+      "acceleration": "rad/s^2"
+    }
+  },
+  "view_videos": [
+    {
+      "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\selected_capture_isometric.mp4",
+      "sha256": "6a139fbd819cd9167561719e3dfade6952900dcb7a31b6ec4db708f8bf18134e",
+      "bytes": 255479,
+      "width": 640,
+      "height": 360,
+      "fps": 30.0,
+      "frames": 241,
+      "duration_s": 8.033333,
+      "key": "isometric",
+      "title": "Isometric",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\selected_capture_front.mp4",
+      "sha256": "d829471df1af80e9d3d82006379452af3925bdd56d31834db647eeee736f0de8",
+      "bytes": 210133,
+      "width": 640,
+      "height": 360,
+      "fps": 30.0,
+      "frames": 241,
+      "duration_s": 8.033333,
+      "key": "front",
+      "title": "Front",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\selected_capture_right.mp4",
+      "sha256": "c18156eca7575e6babe5fbf9d37a69be02808f6bb8fe580caad67953971ae0b1",
+      "bytes": 269001,
+      "width": 640,
+      "height": 360,
+      "fps": 30.0,
+      "frames": 241,
+      "duration_s": 8.033333,
+      "key": "right",
+      "title": "Right side",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\selected_capture_top.mp4",
+      "sha256": "6b4e23cbd0d996bf458082134a736879b73781e7a1f7731d6f3a25256addb6ef",
+      "bytes": 234755,
+      "width": 640,
+      "height": 360,
+      "fps": 30.0,
+      "frames": 241,
+      "duration_s": 8.033333,
+      "key": "top",
+      "title": "Top",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\selected_capture_rear.mp4",
+      "sha256": "e7bc72aefc6939bd11c95cb3d70c7038017a89e99baa342453aa3ec464f00a7f",
+      "bytes": 213551,
+      "width": 640,
+      "height": 360,
+      "fps": 30.0,
+      "frames": 241,
+      "duration_s": 8.033333,
+      "key": "rear",
+      "title": "Rear",
+      "decoded": true
+    }
+  ],
+  "composite_video": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\selected_capture_five_view_joint_kinematics.mp4",
+    "sha256": "bd02a11c38937dbbf3bce9966bd935050905e21b79913001b29e3fab1c6e4ba1",
+    "bytes": 1566176,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "frames": 241,
+    "duration_s": 8.033333,
+    "decoded": true
+  },
+  "static_joint_figures": [
+    {
+      "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\joint_position_velocity_acceleration.png",
+      "sha256": "cd1b67dfd4d2bb67681f3b7d249b54e1133d56c31e3d00ca36645d49b319d0d5",
+      "bytes": 412280
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\joint_position_velocity_acceleration.pdf",
+      "sha256": "28fedc163297e66b8ee24ef0da9af28a1bcbf02928ecc723038ebd61f616db12",
+      "bytes": 71547
+    }
+  ],
+  "preview": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\five_view_joint_kinematics\\five_view_joint_kinematics_preview.png",
+    "sha256": "34d738a944a80b28b36130d15c0fa90aa03257e71e5587093954ff4f5782ca19",
+    "bytes": 210469,
+    "width": 1920,
+    "height": 1080
+  },
+  "checks": {
+    "source_trace_matches_metrics": true,
+    "five_camera_definitions_unique": true,
+    "five_view_videos_present": true,
+    "all_view_videos_decode": true,
+    "all_view_dimensions_match": true,
+    "all_view_frames_match": true,
+    "all_view_durations_match": true,
+    "composite_video_decodes": true,
+    "composite_dimensions_match": true,
+    "composite_frames_match": true,
+    "composite_duration_matches": true,
+    "joint_arrays_are_synchronized": true,
+    "joint_acceleration_is_finite": true,
+    "static_curves_nonempty": true,
+    "preview_dimensions_match": true
+  },
+  "passed": true
+}

@@ -1,0 +1,4 @@
+{"event": "start", "seed": 0, "population": 4, "generations": 2, "fixed_arm_angle_rad": 0.0, "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml", "started_at": "2026-09-15T09:15:40.980722+00:00"}
+{"event": "generation", "generation": 1, "objective": 14.70440257219949, "capture_time_s": 8.69654990691531, "terminal_arm_angle_rad": 0.0, "feasible": true, "timestamp": "2026-09-15T09:15:46.932758+00:00"}
+{"event": "generation", "generation": 2, "objective": 11.569762644544484, "capture_time_s": 9.6630617825272, "terminal_arm_angle_rad": 0.0, "feasible": true, "timestamp": "2026-09-15T09:15:52.114256+00:00"}
+{"event": "complete", "generations_completed": 2, "evaluations": 8, "best_objective": 11.569762644544484, "completed_at": "2026-09-15T09:15:52.121359+00:00", "output_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\fixed_psi_0_smoke.json"}

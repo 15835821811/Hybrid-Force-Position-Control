@@ -1,0 +1,110 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:43:39.597927+00:00",
+    "verification_status": "PARTIALLY_VERIFIED",
+    "version_label": "precontact_comparison_v1"
+  },
+  "mode": "controller-ablation",
+  "comparison_contract": {
+    "same_model_contract": true,
+    "configuration_contract_valid": true,
+    "same_target_contract": true,
+    "fixed_time_within_one_physics_step": true,
+    "all_replay_integrity_passed": true
+  },
+  "comparison_diagnostics": {
+    "same_effective_config": false,
+    "all_config_snapshot_hashes_valid": true,
+    "controller_ablation_differences_only": true,
+    "controller_variants": [
+      "full",
+      "no-shape",
+      "no-base-reaction"
+    ]
+  },
+  "method_order": [
+    "Full",
+    "No shape",
+    "No base reaction"
+  ],
+  "methods": [
+    {
+      "method": "Full",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_controller_ablation_v1\\full\\metrics.json",
+      "metrics_sha256": "cffdb930e3395522537093776896494ca0113fc7f1fd0f8ffe8a501496b568ad",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_controller_ablation_v1\\full\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": true,
+      "qualification": "qualified",
+      "controller_variant": "full",
+      "requested_capture_time_s": 19.0155538541,
+      "executed_capture_time_s": 19.016000000000002,
+      "terminal_arm_angle_rad": 1.07514456899,
+      "dynamic_objective": 7.570137728899558,
+      "constraint_penalty": 0.0,
+      "maximum_base_angular_velocity_rad_s": 0.02732136265465448,
+      "rms_base_angular_velocity_rad_s": 0.008111689019495227,
+      "maximum_base_orientation_drift_rad": 0.11533686846253412,
+      "terminal_position_error_m": 2.3182892671176165e-06,
+      "terminal_orientation_error_rad": 3.610713865609632e-06,
+      "terminal_arm_angle_error_rad": 1.451006823582901e-05,
+      "minimum_clearance_m": 0.11111227617398962,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": null
+    },
+    {
+      "method": "No shape",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_controller_ablation_v1\\no_shape\\metrics.json",
+      "metrics_sha256": "028ce51b3101e81e3049abe4d5678077587e90452fd1b253a6ca85a22e427b4e",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_controller_ablation_v1\\no_shape\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": false,
+      "qualification": "unqualified",
+      "controller_variant": "no-shape",
+      "requested_capture_time_s": 19.0155538541,
+      "executed_capture_time_s": 19.016000000000002,
+      "terminal_arm_angle_rad": 1.07514456899,
+      "dynamic_objective": 13003072.806928461,
+      "constraint_penalty": 13003014.292933179,
+      "maximum_base_angular_velocity_rad_s": 0.07642539346751169,
+      "rms_base_angular_velocity_rad_s": 0.012009368898607212,
+      "maximum_base_orientation_drift_rad": 0.08519548441544766,
+      "terminal_position_error_m": 1.0940032965568127e-05,
+      "terminal_orientation_error_rad": 1.0932458623449017e-05,
+      "terminal_arm_angle_error_rad": 2.0076655081801222,
+      "minimum_clearance_m": 0.08135860347780004,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": null
+    },
+    {
+      "method": "No base reaction",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_controller_ablation_v1\\no_base_reaction\\metrics.json",
+      "metrics_sha256": "ea528df493b8a348b9108e39f8705c20c05075f959d3ae883a9b738d96fd35f8",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_controller_ablation_v1\\no_base_reaction\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": true,
+      "qualification": "qualified",
+      "controller_variant": "no-base-reaction",
+      "requested_capture_time_s": 19.0155538541,
+      "executed_capture_time_s": 19.016000000000002,
+      "terminal_arm_angle_rad": 1.07514456899,
+      "dynamic_objective": 7.2268744500647735,
+      "constraint_penalty": 0.0,
+      "maximum_base_angular_velocity_rad_s": 0.026685774000514067,
+      "rms_base_angular_velocity_rad_s": 0.008119660963699496,
+      "maximum_base_orientation_drift_rad": 0.11527499925594183,
+      "terminal_position_error_m": 2.3716795374828358e-06,
+      "terminal_orientation_error_rad": 3.601679079414294e-06,
+      "terminal_arm_angle_error_rad": 1.536939080537536e-05,
+      "minimum_clearance_m": 0.11113314060156561,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": -2.3817508689392617
+    }
+  ],
+  "claim_gate": {
+    "all_methods_qualified": false,
+    "relative_improvement_claim_allowed": false
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "material_passport": {
+    "origin_skill": "paper-figure",
+    "origin_mode": "experiment-visualization",
+    "verification_status": "VERIFIED",
+    "version_label": "fpmfc_full_process_figures_v1"
+  },
+  "suite_summary": {
+    "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\pso_suite_summary.json",
+    "sha256": "873dbc012866ef8089b605b7b97bd0b286da41f0681fe95793c8bc6db09e84a3"
+  },
+  "optimization": {
+    "seed_count": 10,
+    "feasible_seed_count": 9,
+    "selected_seed": 0,
+    "best_objective": 41.208647776993246,
+    "objective_mean": 58.448510909581444,
+    "objective_std": 9.850603671443984,
+    "capture_time_s": 8.0,
+    "terminal_arm_angle_deg": -87.76880042400101,
+    "optimizer_files": [
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_00.json",
+        "sha256": "dcfc329637fdc3088a80d652a7e7b0fc6b9016e0340073f5e32b7630c5ff41dc"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_01.json",
+        "sha256": "8c83b579979f68d7ba19ef21aac98e7996c02e55db03a1f1949ddc76cff687f2"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_02.json",
+        "sha256": "2295f292d8256b7bdcc11ce316a5cb0ef2ee24810e6d24b1f61ec945e4a53168"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_03.json",
+        "sha256": "b96491bd3475157c853c7678cdf08811baa6bff871bba9803930cb7b8090102f"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_04.json",
+        "sha256": "00ccb4866895d5e6974d4887e69b47192ab89367d71cd4c928ea4c5ac4b9cdec"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_05.json",
+        "sha256": "3e72bfe6300e004c85a73413af7da764947fb50f0d433ae0f06058e4185905c7"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_06.json",
+        "sha256": "3824f22840da6e92b1316a0cc110bc703d81696bab8cb7fdbe30af1b96efc516"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_07.json",
+        "sha256": "e92d2afb326e7da79f91809444668b7465cbc7ae8bb0d32302ef2c05d275cb1c"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_08.json",
+        "sha256": "56f17938ce66ba9f8157b4ce81292eef5c717cac174a6ef50d381510ffd81593"
+      },
+      {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\pso_seed_09.json",
+        "sha256": "a92c688fc5e4b1c9bf02e0c19c785213d84f7a273325cdc6f1105888a2c8fb13"
+      }
+    ]
+  },
+  "tracking": {
+    "trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\seed_00\\candidate_01\\trace.npz",
+    "trace_sha256": "802d06b2532d599643ebf9ce8ad1f69fade9b0d8d161b2a5cc2e77b2087cb430",
+    "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\seed_00\\candidate_01\\metrics.json",
+    "metrics_sha256": "39bdc8c3d4f8da21b3c308e97edc6046ed994b5c751f4e37404ac5face21ae8e",
+    "metrics_trace_hash_matches": true,
+    "acceptance_passed": true,
+    "terminal_face_normal_dot": -0.9999999981967789,
+    "terminal_face_to_face_error_deg": 0.0034408213470507112,
+    "terminal_position_error_mm": 0.049826157163008845,
+    "terminal_orientation_error_deg": 0.003446497485232766,
+    "maximum_base_translation_drift_mm": 5.161962160916233,
+    "maximum_base_attitude_drift_deg": 6.550913775625789,
+    "maximum_base_angular_speed_rad_s": 0.06278287093565456,
+    "minimum_clearance_mm": 131.79196012233683
+  },
+  "outputs": {
+    "optimization_process": {
+      "pdf": {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v2_selected\\fig_optimization_process.pdf",
+        "bytes": 56763,
+        "sha256": "faae45ea63f1ec4e763eea5ff6beed68e0053ee539ff429c4f723d0d0e828630"
+      },
+      "png": {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v2_selected\\fig_optimization_process.png",
+        "bytes": 128975,
+        "sha256": "65ac4551d71daf13adcd17f4939ced965860dbd269065e8f369ec37784e6c6ee"
+      }
+    },
+    "tracking_error_base_drift": {
+      "pdf": {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v2_selected\\fig_tracking_error_base_drift.pdf",
+        "bytes": 57877,
+        "sha256": "0398b31c17d7c129673c32a5424857f7ddca8046f9fe73d907792a4f15832370"
+      },
+      "png": {
+        "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v2_selected\\fig_tracking_error_base_drift.png",
+        "bytes": 278873,
+        "sha256": "86138f8b62b3b4bd74bdefd12bcdb0da73333b7ffbdd667bf20165be235b6ed6"
+      }
+    }
+  },
+  "checks": {
+    "has_feasible_seed": true,
+    "dynamic_acceptance_passed": true,
+    "trace_hash_matches_metrics": true,
+    "terminal_faces_opposed": true,
+    "all_outputs_nonempty": true
+  },
+  "passed": true
+}

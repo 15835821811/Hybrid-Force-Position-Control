@@ -1,0 +1,127 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:38:06.094350+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "simscape_cross_validation_v1"
+  },
+  "passed": true,
+  "source_export": "E:\\桌面\\力位形混合控制\\diagnostics\\simscape_jacobian_home.mat",
+  "source_export_sha256": "3812e115515e7a12cb08e5e1557eca4385275a033af7f390e5c43f9451a96d38",
+  "source_model": "E:\\matlab2023b\\workfile\\matlab23b_workfiles\\flexiv_rizon4s\\simscape_of_flexiv\\flexiv_rizon4s_kinematics_2025_5_14.slx",
+  "source_sample_time_s": 0.001,
+  "row_order": [
+    "vx",
+    "vy",
+    "vz",
+    "wx",
+    "wy",
+    "wz"
+  ],
+  "joint_order": [
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6",
+    "joint7"
+  ],
+  "mujoco_model_identity": {
+    "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+    "source_bundle_sha256": "4816538e3f89e9a09a739eb5f8d8290fc91d353048ff2e5b5704fc6df1892531",
+    "mujoco_version": "3.3.2",
+    "joint_names": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6",
+      "joint7"
+    ],
+    "actuator_names": [
+      "torque_joint1",
+      "torque_joint2",
+      "torque_joint3",
+      "torque_joint4",
+      "torque_joint5",
+      "torque_joint6",
+      "torque_joint7"
+    ],
+    "home_joint_position_rad": [
+      0.0,
+      -0.6981317007977318,
+      0.0,
+      1.5707963267948966,
+      0.0,
+      0.6981317007977318,
+      0.0
+    ],
+    "torque_limits_nm": [
+      123.0,
+      123.0,
+      64.0,
+      64.0,
+      39.0,
+      39.0,
+      39.0
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "base_mass_kg": 500.0,
+    "base_diagonal_inertia_kg_m2": [
+      20.833333333,
+      20.833333333,
+      20.833333333
+    ],
+    "actuation": "seven_direct_joint_torque_motors",
+    "runtime_contract_sha256": "e64027710bd07974fa9c4e0e15b2dbe9e7383e395e6fbd8007801dacb7fd59c6"
+  },
+  "metrics": {
+    "flange_position_error_m": 7.506034619208561e-05,
+    "jg_relative_frobenius_error": 0.0018701233149044532,
+    "jg_maximum_absolute_error": 0.0036228429904986426,
+    "jg_rmse": 0.0008127795352367742,
+    "jg_column_relative_errors": [
+      0.0040370016252710625,
+      8.486685037628562e-05,
+      0.002598436182503594,
+      0.00011405973083002876,
+      0.0005858868422337175,
+      0.00011051369158491129,
+      5.1304925915408854e-05
+    ],
+    "reaction_relative_frobenius_error": 0.021459113441723302,
+    "reaction_maximum_absolute_error": 0.0036228432011109896,
+    "reaction_rmse": 0.0006888316364478633,
+    "reaction_column_absolute_errors": [
+      0.0036531429153211594,
+      0.0003092344811911361,
+      0.00247290318148513,
+      7.582686148681038e-05,
+      0.0006028167895774239,
+      3.428341799917179e-05,
+      4.35495696126314e-05
+    ],
+    "mujoco_internal_momentum_map_residual": 1.165291737429153e-15
+  },
+  "thresholds": {
+    "flange_position_error_m": 0.001,
+    "jg_relative_frobenius_error": 0.005,
+    "jg_maximum_absolute_error": 0.005,
+    "reaction_relative_frobenius_error": 0.03,
+    "reaction_maximum_absolute_error": 0.005,
+    "mujoco_internal_momentum_map_residual": 1e-08
+  },
+  "checks": {
+    "flange_position_error_m": true,
+    "jg_relative_frobenius_error": true,
+    "jg_maximum_absolute_error": true,
+    "reaction_relative_frobenius_error": true,
+    "reaction_maximum_absolute_error": true,
+    "mujoco_internal_momentum_map_residual": true
+  },
+  "known_model_difference": "The source Simscape plant permits zero distal-link principal inertias. MuJoCo requires positive-definite inertia tensors, so only those entries were regularized from the adjacent Rizon ROS description. The source sample is logged at 0.001 s while MuJoCo is evaluated at its exact keyframe."
+}

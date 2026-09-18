@@ -1,0 +1,29 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T11:12:00.452700+00:00",
+    "verification_status": "FAILED_GATE",
+    "version_label": "validation_v1"
+  },
+  "passed": false,
+  "checks": {
+    "trace_hash_matches_metrics": true,
+    "reported_candidate_passed_acceptance": false,
+    "deterministic_qpos_replay": true,
+    "deterministic_qvel_replay": true,
+    "deterministic_flange_replay": true,
+    "deterministic_clearance_replay": true
+  },
+  "replay": {
+    "maximum_qpos_error": 0.0,
+    "maximum_qvel_error": 0.0,
+    "maximum_flange_position_error_m": 0.0,
+    "maximum_clearance_error_m": 0.0,
+    "recomputed_minimum_clearance_m": 0.03998740796186919
+  },
+  "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_101\\candidate_01\\metrics.json",
+  "metrics_sha256": "4ba34d4928d63f7b016e9e3f8115cb77cf03031e4aa78c7227d04afb2e9cb345",
+  "trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_101\\candidate_01\\trace.npz",
+  "trace_sha256": "d098a2fc086d8059b52c87ae40320d1e5170b923f5d386c606bb6809c072e12b"
+}

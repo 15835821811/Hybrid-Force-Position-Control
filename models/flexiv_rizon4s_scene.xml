@@ -1,0 +1,145 @@
+<mujoco model="flexiv_rizon4s_free_floating">
+  <compiler angle="radian" autolimits="true" meshdir="../assets/meshes" balanceinertia="true"/>
+  <option timestep="0.002" gravity="0 0 0" integrator="implicitfast" iterations="50" tolerance="1e-10"/>
+
+  <default>
+    <joint armature="0.02" damping="0.1" frictionloss="0.0"/>
+    <geom condim="3" friction="0.8 0.005 0.0001" margin="0.001" rgba="0.62 0.68 0.76 1"/>
+    <motor ctrllimited="true" forcelimited="true" gear="1"/>
+  </default>
+
+  <asset>
+    <mesh name="rizon_link0" file="rizon4s/collision/link0.stl"/>
+    <mesh name="rizon_link1" file="rizon4s/collision/link1.stl"/>
+    <mesh name="rizon_link2" file="rizon4s/collision/link2.stl"/>
+    <mesh name="rizon_link3" file="rizon4s/collision/link3.stl"/>
+    <mesh name="rizon_link4" file="rizon4s/collision/link4.stl"/>
+    <mesh name="rizon_link5" file="rizon4s/collision/link5.stl"/>
+    <mesh name="rizon_link6" file="rizon4s/collision/link6.stl"/>
+    <mesh name="rizon_link7" file="rizon4s/collision/link7.stl"/>
+    <material name="satellite_material" rgba="0.32 0.38 0.48 1"/>
+    <material name="arm_material" rgba="0.72 0.75 0.80 1"/>
+    <material name="target_material" rgba="0.10 0.85 0.25 0.8"/>
+    <material name="target_cube_material" rgba="0.10 0.85 0.25 0.28"/>
+  </asset>
+
+  <worldbody>
+    <light name="key" pos="1.5 -1.5 2.5" dir="-1 1 -2" diffuse="0.9 0.9 0.9"/>
+    <camera name="overview" pos="2.0 -2.3 1.7" xyaxes="0.75 0.66 0 -0.30 0.34 0.89"/>
+    <camera name="side" pos="0 -2.8 0.8" xyaxes="1 0 0 0 0.2 0.98"/>
+
+    <geom name="workspace_obstacle_0" type="sphere" pos="0.62 0.16 0.48" size="0.035"
+          rgba="0.90 0.25 0.18 0.65" contype="1" conaffinity="1"/>
+
+    <body name="reference_marker" mocap="true" pos="0.6872020966 -0.1097882899 0.4935020091">
+      <geom name="reference_marker_geom" type="sphere" size="0.012" material="target_material"
+            contype="0" conaffinity="0"/>
+      <site name="reference_frame" type="sphere" size="0.004" rgba="0.1 1 0.2 1"/>
+    </body>
+
+    <body name="tumbling_target" mocap="true" pos="0.95 0.14 0.95" quat="0.5 0.5 0.5 -0.5">
+      <geom name="tumbling_target_geom" type="box" size="0.15 0.15 0.15"
+            material="target_cube_material" contype="0" conaffinity="0"/>
+      <site name="target_center_frame" type="sphere" size="0.006" rgba="1 0.76 0.08 1"/>
+    </body>
+
+    <body name="base_link_0" pos="0 0 0">
+      <freejoint name="base_free_joint"/>
+      <inertial pos="0 0 0" mass="500" diaginertia="20.833333333 20.833333333 20.833333333"/>
+      <geom name="satellite_base_collision" type="box" size="0.25 0.25 0.25"
+            material="satellite_material"/>
+      <site name="base_frame" type="sphere" size="0.008" rgba="0.2 0.5 1 1"/>
+
+      <body name="base_link" pos="0 0 0.25">
+        <inertial pos="0 0 0.09" mass="3.7" diaginertia="0.02 0.02 0.01"/>
+        <geom name="link0_collision" type="mesh" mesh="rizon_link0" material="arm_material"/>
+
+        <body name="link1" pos="0 0 0.155" euler="0 0 -3.141592653589793">
+          <joint name="joint1" type="hinge" axis="0 0 1" range="-2.7925 2.7925"
+                 ref="0"/>
+          <inertial pos="0 0.01 0.15" mass="3.7" diaginertia="0.03 0.03 0.01"/>
+          <geom name="link1_collision" type="mesh" mesh="rizon_link1" material="arm_material"/>
+
+          <body name="link2" pos="0 0.03 0.21">
+            <joint name="joint2" type="hinge" axis="0 1 0" range="-2.2689 2.2689"
+                   ref="0"/>
+            <inertial pos="0 0.04 0.1" mass="2.7" diaginertia="0.02 0.02 0.004"/>
+            <geom name="link2_collision" type="mesh" mesh="rizon_link2" material="arm_material"/>
+
+            <body name="link3" pos="0 0.035 0.205">
+              <joint name="joint3" type="hinge" axis="0 0 1" range="-2.9671 2.9671"
+                     ref="0"/>
+              <inertial pos="-0.01 0 0.13" mass="2.4" diaginertia="0.01 0.01 0.004"/>
+              <geom name="link3_collision" type="mesh" mesh="rizon_link3" material="arm_material"/>
+
+              <body name="link4" pos="-0.02 -0.03 0.19" euler="0 0 -3.141592653589793">
+                <joint name="joint4" type="hinge" axis="0 1 0" range="-1.8675 2.6878"
+                       ref="0"/>
+                <inertial pos="-0.01 0.03 0.1" mass="2.4" diaginertia="0.02 0.02 0.003"/>
+                <geom name="link4_collision" type="mesh" mesh="rizon_link4" material="arm_material"/>
+
+                <body name="link5" pos="-0.02 0.025 0.195" euler="0 0 -3.141592653589793">
+                  <joint name="joint5" type="hinge" axis="0 0 1" range="-2.9671 2.9671"
+                         ref="0"/>
+                  <inertial pos="0 0 0.13" mass="2.4" diaginertia="0.01 0.01 0.004"/>
+                  <geom name="link5_collision" type="mesh" mesh="rizon_link5" material="arm_material"/>
+
+                  <body name="link6" pos="0 0.03 0.19">
+                    <joint name="joint6" type="hinge" axis="0 1 0" range="-1.3963 4.5379"
+                           ref="0"/>
+                    <inertial pos="-0.01 0.06 0.07" mass="2.1" diaginertia="0.01 0.01 0.004"/>
+                    <geom name="link6_collision" type="mesh" mesh="rizon_link6" material="arm_material"/>
+
+                    <body name="link7" pos="-0.055 0.07 0.11" euler="0 -1.5707963478683205 0">
+                      <joint name="joint7" type="hinge" axis="0 0 1" range="-2.9671 2.9671"
+                             ref="0"/>
+                      <inertial pos="0 0 0.05" mass="1.4" diaginertia="0.001 0.001 0.001"/>
+                      <geom name="link7_collision" type="mesh" mesh="rizon_link7" material="arm_material"/>
+
+                      <body name="flange" pos="0 0 0.124" euler="0 0 -3.141592653589793">
+                        <site name="flange_site" type="sphere" size="0.010" rgba="0.1 0.35 1 1"/>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <contact>
+    <exclude body1="base_link_0" body2="base_link"/>
+    <exclude body1="base_link" body2="link1"/>
+    <exclude body1="link1" body2="link2"/>
+    <exclude body1="link2" body2="link3"/>
+    <exclude body1="link3" body2="link4"/>
+    <exclude body1="link4" body2="link5"/>
+    <exclude body1="link5" body2="link6"/>
+    <exclude body1="link6" body2="link7"/>
+  </contact>
+
+  <actuator>
+    <motor name="torque_joint1" joint="joint1" ctrlrange="-123 123" forcerange="-123 123"/>
+    <motor name="torque_joint2" joint="joint2" ctrlrange="-123 123" forcerange="-123 123"/>
+    <motor name="torque_joint3" joint="joint3" ctrlrange="-64 64" forcerange="-64 64"/>
+    <motor name="torque_joint4" joint="joint4" ctrlrange="-64 64" forcerange="-64 64"/>
+    <motor name="torque_joint5" joint="joint5" ctrlrange="-39 39" forcerange="-39 39"/>
+    <motor name="torque_joint6" joint="joint6" ctrlrange="-39 39" forcerange="-39 39"/>
+    <motor name="torque_joint7" joint="joint7" ctrlrange="-39 39" forcerange="-39 39"/>
+  </actuator>
+
+  <sensor>
+    <framepos name="flange_position" objtype="site" objname="flange_site"/>
+    <framequat name="flange_quaternion" objtype="site" objname="flange_site"/>
+    <framelinvel name="flange_linear_velocity" objtype="site" objname="flange_site"/>
+    <frameangvel name="flange_angular_velocity" objtype="site" objname="flange_site"/>
+  </sensor>
+
+  <keyframe>
+    <key name="simscape_home"
+         qpos="0 0 0 1 0 0 0 0 -0.6981317007977318 0 1.5707963267948966 0 0.6981317007977318 0"/>
+  </keyframe>
+</mujoco>

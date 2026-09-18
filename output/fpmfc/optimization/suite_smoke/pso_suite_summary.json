@@ -1,0 +1,98 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:21:41.989756+00:00",
+    "verification_status": "UNVERIFIED_DYNAMIC",
+    "version_label": "pso_suite_v1"
+  },
+  "variants": {
+    "joint": {
+      "fixed_arm_angle_rad": null,
+      "seed_count": 1,
+      "feasible_seed_count": 0,
+      "feasible_seed_fraction": 0.0,
+      "best_objective_mean": 4079872.720529853,
+      "best_objective_std": 0.0,
+      "best_objective_median": 4079872.720529853,
+      "best_objective_min": 4079872.720529853,
+      "best_objective_max": 4079872.720529853,
+      "selected_seed": 0,
+      "selected_result_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_smoke\\joint\\pso_seed_00.json",
+      "runs": [
+        {
+          "seed": 0,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_smoke\\joint\\pso_seed_00.json",
+          "sha256": "02572236e9b80c59cd619af7475c7c93603d3e3ce3a1ff5dbb4f376a1291bffc",
+          "best_objective": 4079872.720529853,
+          "capture_time_s": 18.82834868446472,
+          "terminal_arm_angle_rad": -1.4464727375963786,
+          "feasible": false,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.018244014893571338,
+          "alignment_angle_rad": 0.3766937066366251,
+          "minimum_clearance_m": 0.039953275466966524
+        }
+      ]
+    },
+    "fixed0": {
+      "fixed_arm_angle_rad": 0.0,
+      "seed_count": 1,
+      "feasible_seed_count": 1,
+      "feasible_seed_fraction": 1.0,
+      "best_objective_mean": 14.70440257219949,
+      "best_objective_std": 0.0,
+      "best_objective_median": 14.70440257219949,
+      "best_objective_min": 14.70440257219949,
+      "best_objective_max": 14.70440257219949,
+      "selected_seed": 0,
+      "selected_result_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_smoke\\fixed0\\pso_seed_00.json",
+      "runs": [
+        {
+          "seed": 0,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_smoke\\fixed0\\pso_seed_00.json",
+          "sha256": "ba25737ba460419dde66ba84ea5ed3843b4e1ca050f381b3736ca8f0877813e9",
+          "best_objective": 14.70440257219949,
+          "capture_time_s": 8.69654990691531,
+          "terminal_arm_angle_rad": 0.0,
+          "feasible": true,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.03598937412970153,
+          "alignment_angle_rad": 1.470206652918125,
+          "minimum_clearance_m": 0.13320256764121358
+        }
+      ]
+    },
+    "fixedpi2": {
+      "fixed_arm_angle_rad": 1.5707963267948966,
+      "seed_count": 1,
+      "feasible_seed_count": 0,
+      "feasible_seed_fraction": 0.0,
+      "best_objective_mean": 26751.87662886642,
+      "best_objective_std": 0.0,
+      "best_objective_median": 26751.87662886642,
+      "best_objective_min": 26751.87662886642,
+      "best_objective_max": 26751.87662886642,
+      "selected_seed": 0,
+      "selected_result_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_smoke\\fixedpi2\\pso_seed_00.json",
+      "runs": [
+        {
+          "seed": 0,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_smoke\\fixedpi2\\pso_seed_00.json",
+          "sha256": "736acad586f8e077abc6bafaf78ca95d7d196bf3a74363dce5387fc242e60de4",
+          "best_objective": 26751.87662886642,
+          "capture_time_s": 8.69654990691531,
+          "terminal_arm_angle_rad": 1.5707963267948966,
+          "feasible": false,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.08805382764689187,
+          "alignment_angle_rad": 1.4700974890176461,
+          "minimum_clearance_m": null
+        }
+      ]
+    }
+  }
+}

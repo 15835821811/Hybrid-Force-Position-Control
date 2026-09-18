@@ -1,0 +1,54 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T11:11:56.748727+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "candidate_replay_v1"
+  },
+  "optimizer_json": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_parallel_contract_smoke\\joint\\pso_seed_102.json",
+  "optimizer_json_sha256": "637faf23228b2bade3fc15050bde9ba204c54120b9ee43fd819e0b8c1d354851",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "e13a4070dd034f0b925997e4332919e1a7a3dda4c36a46a3435fe65896f272af",
+  "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+  "runtime_overrides": {
+    "objective_weights": null,
+    "planning_clearance_m": 0.045
+  },
+  "candidate_count": 1,
+  "accepted_candidate_count": 1,
+  "dynamic_accepted_candidate_count": 1,
+  "planning_and_dynamic_qualified_candidate_count": 1,
+  "candidates": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 10.719849465073162,
+      "terminal_arm_angle_rad": 0.5399990296914869,
+      "kinematic_objective": 7.368143201831545,
+      "kinematic_feasible": true,
+      "dynamic_objective": 7.379654459902822,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_102\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_102\\candidate_01\\validation.json",
+      "planning_and_dynamic_qualified": true,
+      "dynamic_rank": 1
+    }
+  ],
+  "dynamic_ranking": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 10.719849465073162,
+      "terminal_arm_angle_rad": 0.5399990296914869,
+      "kinematic_objective": 7.368143201831545,
+      "kinematic_feasible": true,
+      "dynamic_objective": 7.379654459902822,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_102\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_102\\candidate_01\\validation.json",
+      "planning_and_dynamic_qualified": true,
+      "dynamic_rank": 1
+    }
+  ]
+}

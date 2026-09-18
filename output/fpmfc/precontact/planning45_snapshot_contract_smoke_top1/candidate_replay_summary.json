@@ -1,0 +1,35 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T10:36:40.772277+00:00",
+    "verification_status": "PARTIALLY_VERIFIED",
+    "version_label": "candidate_replay_v1"
+  },
+  "optimizer_json": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\planning45_snapshot_contract_smoke.json",
+  "optimizer_json_sha256": "79adb84a1cd82ac68971ec0751695eac5d8ee8d32b4ffb36cfb80d6f2f06d60c",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "e13a4070dd034f0b925997e4332919e1a7a3dda4c36a46a3435fe65896f272af",
+  "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+  "runtime_overrides": {
+    "objective_weights": null,
+    "planning_clearance_m": 0.045
+  },
+  "candidate_count": 1,
+  "accepted_candidate_count": 0,
+  "candidates": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 12.14609934820845,
+      "terminal_arm_angle_rad": -1.040161180708575,
+      "kinematic_objective": 797714.6168535515,
+      "kinematic_feasible": false,
+      "dynamic_objective": 795622.7262777137,
+      "dynamic_acceptance_passed": false,
+      "independent_replay_passed": false,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\planning45_snapshot_contract_smoke_top1\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\planning45_snapshot_contract_smoke_top1\\candidate_01\\validation.json"
+    }
+  ],
+  "dynamic_ranking": []
+}

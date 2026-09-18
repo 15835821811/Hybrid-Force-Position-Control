@@ -1,0 +1,73 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:30:15.932514+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "precontact_comparison_v1"
+  },
+  "mode": "reoptimized-time",
+  "comparison_contract": {
+    "same_model_contract": true,
+    "same_effective_config": true,
+    "same_target_contract": true,
+    "fixed_time_within_one_physics_step": true,
+    "all_replay_integrity_passed": true
+  },
+  "method_order": [
+    "JointOptimized",
+    "FixedPsi0"
+  ],
+  "methods": [
+    {
+      "method": "JointOptimized",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_joint_best_v3\\candidate_01\\metrics.json",
+      "metrics_sha256": "526b84d152d313879400c8da51b03d3208c21dfc68bc55c86338727e212ca4b4",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_joint_best_v3\\candidate_01\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": true,
+      "qualification": "qualified",
+      "requested_capture_time_s": 19.015553854117684,
+      "executed_capture_time_s": 19.016000000000002,
+      "terminal_arm_angle_rad": 1.075144568985572,
+      "dynamic_objective": 7.570137727549744,
+      "constraint_penalty": 0.0,
+      "maximum_base_angular_velocity_rad_s": 0.027321362652184225,
+      "rms_base_angular_velocity_rad_s": 0.008111689019549178,
+      "maximum_base_orientation_drift_rad": 0.11533686846247247,
+      "terminal_position_error_m": 2.318289266318216e-06,
+      "terminal_orientation_error_rad": 3.6107138673707057e-06,
+      "terminal_arm_angle_error_rad": 1.451006819053191e-05,
+      "minimum_clearance_m": 0.11111227617371286,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": null
+    },
+    {
+      "method": "FixedPsi0",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_fixed0_best_v3\\candidate_01\\metrics.json",
+      "metrics_sha256": "5af867269c644673ac457b4161d2a4bc89b7637c66cc52cb2bfd07a6a9478408",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_fixed0_best_v3\\candidate_01\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": true,
+      "qualification": "qualified",
+      "requested_capture_time_s": 9.6630617825272,
+      "executed_capture_time_s": 9.664,
+      "terminal_arm_angle_rad": 0.0,
+      "dynamic_objective": 11.595255838459144,
+      "constraint_penalty": 0.0,
+      "maximum_base_angular_velocity_rad_s": 0.03179702271715399,
+      "rms_base_angular_velocity_rad_s": 0.01926424299576946,
+      "maximum_base_orientation_drift_rad": 0.14841172318248677,
+      "terminal_position_error_m": 1.4106972496510148e-05,
+      "terminal_orientation_error_rad": 1.5114504250950636e-05,
+      "terminal_arm_angle_error_rad": 0.000308515313293789,
+      "minimum_clearance_m": 0.11918467026381013,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": 14.075720562841305
+    }
+  ],
+  "claim_gate": {
+    "all_methods_qualified": true,
+    "relative_improvement_claim_allowed": true
+  }
+}

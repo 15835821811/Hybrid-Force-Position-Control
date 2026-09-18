@@ -1,0 +1,50 @@
+{
+  "material_passport": {
+    "origin_skill": "visualize",
+    "origin_mode": "verified-trace-render",
+    "verification_status": "VERIFIED",
+    "version_label": "fpmfc_capture_visualization_v1"
+  },
+  "source_trace": "output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\selected_candidate\\trace.npz",
+  "source_trace_sha256": "fc67c2229a168a5e2de7dfe44a2ea2f0088c382b37d4dc3d7fdb88360bf5419c",
+  "source_metrics": "output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\selected_candidate\\metrics.json",
+  "source_metrics_sha256": "85eff6b01e2107f693ee1f3def2b94facd295ba6017b5da5de679e3cd4280660",
+  "video": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\single_view\\selected_capture_isometric.mp4",
+    "sha256": "ad4268552729cc329fdec76516dc74e83b1bf33a50ac633458cf27c9d9e2cfaf",
+    "bytes": 540003,
+    "width": 960,
+    "height": 720,
+    "frames": 241,
+    "duration_s": 8.033333,
+    "fps": 30
+  },
+  "storyboard": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\single_view\\selected_capture_storyboard.png",
+    "sha256": "8c0e235ea182c56bf68f44b570076f2cc3295585f959d8793ab82501614cb355",
+    "bytes": 133834,
+    "width": 1440,
+    "height": 360
+  },
+  "gif": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_c095_014_095_face_aligned_v6_smooth_jerk80\\single_view\\selected_capture_isometric.gif",
+    "sha256": "2175c17e8b19cb58ba5f3b43c4eacf252ac8ca3b215b0a4d91770046ee354ab2",
+    "bytes": 3697159,
+    "width": 720,
+    "height": 540,
+    "frames": 96,
+    "duration_s": 8.0,
+    "fps": 12
+  },
+  "checks": {
+    "source_trace_matches_metrics": true,
+    "video_dimensions_match": true,
+    "video_frame_count_matches": true,
+    "video_duration_matches": true,
+    "storyboard_complete": true,
+    "gif_dimensions_match": true,
+    "gif_frame_count_matches": true,
+    "gif_duration_matches": true
+  },
+  "passed": true
+}

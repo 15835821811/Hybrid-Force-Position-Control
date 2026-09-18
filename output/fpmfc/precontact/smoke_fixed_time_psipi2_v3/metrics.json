@@ -1,0 +1,189 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:28:46.889979+00:00",
+    "verification_status": "UNVERIFIED",
+    "version_label": "exp_result_v1"
+  },
+  "experiment_id": "flexiv_rizon4s_fpmfc_precontact",
+  "effective_config_sha256": "2d25ad9a3ef8f9924d2bf2d36fb7f20539a74da618065f17f0eb22beb711d57e",
+  "scope": "paper_precontact_zero_desired_force",
+  "candidate": {
+    "requested_capture_time_s": 19.0155538541177,
+    "executed_capture_time_s": 19.016000000000002,
+    "capture_time_quantization_error_s": 0.00044614588230018626,
+    "terminal_arm_angle_rad": 1.5707963267949
+  },
+  "dynamic_run_config": {
+    "reference_tracking_band_rad": 0.012,
+    "servo_natural_frequency_rad_s": 34.0,
+    "servo_acceleration_limit_rad_s2": 70.0
+  },
+  "model_identity": {
+    "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+    "source_bundle_sha256": "4816538e3f89e9a09a739eb5f8d8290fc91d353048ff2e5b5704fc6df1892531",
+    "mujoco_version": "3.3.2",
+    "joint_names": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6",
+      "joint7"
+    ],
+    "actuator_names": [
+      "torque_joint1",
+      "torque_joint2",
+      "torque_joint3",
+      "torque_joint4",
+      "torque_joint5",
+      "torque_joint6",
+      "torque_joint7"
+    ],
+    "home_joint_position_rad": [
+      0.0,
+      -0.6981317007977318,
+      0.0,
+      1.5707963267948966,
+      0.0,
+      0.6981317007977318,
+      0.0
+    ],
+    "torque_limits_nm": [
+      123.0,
+      123.0,
+      64.0,
+      64.0,
+      39.0,
+      39.0,
+      39.0
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "base_mass_kg": 500.0,
+    "base_diagonal_inertia_kg_m2": [
+      20.833333333,
+      20.833333333,
+      20.833333333
+    ],
+    "actuation": "seven_direct_joint_torque_motors",
+    "runtime_contract_sha256": "e64027710bd07974fa9c4e0e15b2dbe9e7383e395e6fbd8007801dacb7fd59c6"
+  },
+  "target": {
+    "mode": "prescribed_principal_axis_tumbling",
+    "initial_center_position_world_m": [
+      0.65,
+      0.14,
+      0.55
+    ],
+    "center_linear_velocity_world_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "initial_rotation_world": [
+      [
+        0.0,
+        1.0000000000000004,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0000000000000004
+      ],
+      [
+        -1.0000000000000004,
+        0.0,
+        0.0
+      ]
+    ],
+    "angular_velocity_body_rad_s": [
+      0.0,
+      0.0,
+      0.08726646259971647
+    ],
+    "grasp_offset_body_m": [
+      0.0,
+      -0.25,
+      0.0
+    ],
+    "grasp_rotation_body": [
+      [
+        -2.1073424200102053e-08,
+        0.0,
+        1.0000000000000002
+      ],
+      [
+        -1.0000000000000002,
+        0.0,
+        -2.1073424172346478e-08
+      ],
+      [
+        0.0,
+        -1.0000000000000004,
+        -2.7755575615628914e-17
+      ]
+    ]
+  },
+  "elapsed_wall_s": 4.0508913,
+  "physics_steps": 9508,
+  "task_ticks": 951,
+  "metrics": {
+    "dynamic_objective": 8617974.757489499,
+    "base_cost": 84.94470285251234,
+    "alignment_cost": 0.052752990205283255,
+    "constraint_penalty": 8617889.707280666,
+    "alignment_angle_rad": 0.3607808005911233,
+    "impulse_torque_proxy_m2_s": 0.005631249604671856,
+    "task_success_rate": 1.0,
+    "tracking_position_rms_m": 0.06937531350811062,
+    "tracking_position_max_m": 0.14950593699455494,
+    "tracking_orientation_max_rad": 0.010435630368170107,
+    "terminal_position_error_m": 0.09373745350014484,
+    "terminal_orientation_error_rad": 0.002730666520002319,
+    "terminal_arm_angle_error_rad": 0.09078708807683533,
+    "terminal_linear_speed_m_s": 0.00016058850094996565,
+    "terminal_angular_speed_rad_s": 2.9257493324069672e-05,
+    "maximum_base_angular_velocity_rad_s": 0.09216545060515483,
+    "rms_base_angular_velocity_rad_s": 0.02268358630775561,
+    "maximum_base_linear_velocity_m_s": 0.008031223629963558,
+    "maximum_base_orientation_drift_rad": 0.08294862815083927,
+    "minimum_clearance_m": 0.1744660672549723,
+    "maximum_momentum_delta": 0.02140138349711964,
+    "maximum_torque_nm": [
+      5.012618485317181,
+      5.362596418239804,
+      3.0702988299606453,
+      3.657321030250109,
+      0.5350658056987676,
+      0.343053045276812,
+      0.3393192457694411
+    ],
+    "torque_saturation_fraction": 0.0,
+    "task_latency_p99_ms": 2.865999999999813,
+    "maximum_hierarchy_linear_degradation_m_s": 3.3335590258932494e-16,
+    "maximum_hierarchy_angular_degradation_rad_s": 8.955206467987463e-16,
+    "maximum_momentum_map_residual": 2.20267197186449e-15,
+    "qpos_write_count_after_initialization": 0,
+    "qvel_write_count_after_initialization": 0
+  },
+  "acceptance": {
+    "task_success_rate": true,
+    "terminal_position_error": false,
+    "terminal_orientation_error": true,
+    "terminal_shape_error": false,
+    "minimum_clearance_ge_0p04m": true,
+    "terminal_linear_speed": true,
+    "terminal_angular_speed": true,
+    "torque_saturation_fraction": true,
+    "momentum_delta": true,
+    "passed": false
+  },
+  "trace": {
+    "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\smoke_fixed_time_psipi2_v3\\trace.npz",
+    "sha256": "f6fba2a4e743f93d14926fce7d910de65f991a660ac37db1305b675c609654ad"
+  }
+}

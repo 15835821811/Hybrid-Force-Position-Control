@@ -1,0 +1,169 @@
+Source: E:\matlab2023b\workfile\matlab23b_workfiles\flexiv_rizon4s\simscape_of_flexiv\flexiv_rizon4s_kinematics_2025_5_14.slx
+Model: flexiv_rizon4s_kinematics_2025_5_14
+Solver: ode8
+Fixed step: 0.001
+Stop time: 200
+Block count: 1162
+
+Top-level connections:
+  flexiv_rizon4s_kinematics_2025_5_14/Add2:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display4:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function7:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add2:0
+  flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function7:0
+  flexiv_rizon4s_kinematics_2025_5_14/Reshape:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace:0
+  flexiv_rizon4s_kinematics_2025_5_14/Constant:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Mux2:0 -> flexiv_rizon4s_kinematics_2025_5_14/Reshape:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function7:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Reshape4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Reshape4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function7:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Reshape4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function7:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Mux1:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope12:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux:0
+  flexiv_rizon4s_kinematics_2025_5_14/Mux:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope11:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope10:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope10:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function3:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0 -> flexiv_rizon4s_kinematics_2025_5_14/Radians
+to Degrees13:0
+  flexiv_rizon4s_kinematics_2025_5_14/Clock:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function3:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function3:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Reshape16:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Reshape16:0
+  flexiv_rizon4s_kinematics_2025_5_14/Reshape16:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Gain1:0 -> flexiv_rizon4s_kinematics_2025_5_14/Reshape8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Reshape8:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function4:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0 -> flexiv_rizon4s_kinematics_2025_5_14/Terminator:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function4:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Radians
+to Degrees12:0 -> flexiv_rizon4s_kinematics_2025_5_14/Designed_joint_traj:0
+  flexiv_rizon4s_kinematics_2025_5_14/Radians
+to Degrees13:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope16:0
+  flexiv_rizon4s_kinematics_2025_5_14/Mux25:0 -> flexiv_rizon4s_kinematics_2025_5_14/Gain4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Gain4:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope15:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0 -> flexiv_rizon4s_kinematics_2025_5_14/Stop Simulation:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux25:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0 -> flexiv_rizon4s_kinematics_2025_5_14/Integrator:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux25:0
+  flexiv_rizon4s_kinematics_2025_5_14/Integrator:0 -> flexiv_rizon4s_kinematics_2025_5_14/Radians
+to Degrees12:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0 -> flexiv_rizon4s_kinematics_2025_5_14/Mux25:0
+  flexiv_rizon4s_kinematics_2025_5_14/Reshape4:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display21:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope4:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add3:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add3:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope4:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add3:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope4:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display21:0
+  flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0
+  flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function4:0
+  flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function4:0
+  flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope5:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope5:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope4:0
+  flexiv_rizon4s_kinematics_2025_5_14/Add3:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Gain:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add1:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function1:0 -> flexiv_rizon4s_kinematics_2025_5_14/Gain:0
+  flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Add1:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope6:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope6:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add:0
+  flexiv_rizon4s_kinematics_2025_5_14/Add:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Gain1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Gain1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Gain1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace3:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add:0
+  flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0 -> flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0
+  flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display1:0
+  flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope1:0
+  flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope1:0
+  flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display1:0
+  flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0 -> flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope7:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope7:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/Display:0
+  flexiv_rizon4s_kinematics_2025_5_14/BASE_C_P:0 -> flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/BASE_C_P:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/BASE_C_P:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/BASE_C_P:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0 -> flexiv_rizon4s_kinematics_2025_5_14/SYS_COM:0
+  flexiv_rizon4s_kinematics_2025_5_14/JOINT_ANGLES_CONFIG:0 -> flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0
+  flexiv_rizon4s_kinematics_2025_5_14/JOINT_ANGLES_CONFIG:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace1:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/JOINT_ANGLES_CONFIG:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope9:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope9:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/JOINT_ANGLES_CONFIG:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/Scope9:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/JOINT_ANGLES_CONFIG:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/To Workspace1:0
+  flexiv_rizon4s_kinematics_2025_5_14/TF_FROM_WORLD_2_BASE OF SATELLITE:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function5:0
+  flexiv_rizon4s_kinematics_2025_5_14/TF_FROM_WORLD_2_BASE OF SATELLITE:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0
+  flexiv_rizon4s_kinematics_2025_5_14/TF_FROM_WORLD_2_BASE OF SATELLITE:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2:0
+  flexiv_rizon4s_kinematics_2025_5_14/TF_FROM_WORLD_2_BASE OF SATELLITE:0 -> flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function5:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function5:0 -> flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function5:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add2:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function5:0 -> flexiv_rizon4s_kinematics_2025_5_14/Add2:0
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function5:0 -> flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/TF_FROM_WORLD_2_BASE OF SATELLITE:0
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0 -> flexiv_rizon4s_kinematics_2025_5_14/TF_FROM_WORLD_2_BASE OF SATELLITE:0
+  flexiv_rizon4s_kinematics_2025_5_14/Designed_joint_traj:0 -> flexiv_rizon4s_kinematics_2025_5_14/Subsystem:0
+
+MATLAB Function charts:
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function/MATLAB Function
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function1/MATLAB Function1
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function2/MATLAB Function2
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function3/MATLAB Function3
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function4/MATLAB Function4
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function5/MATLAB Function5
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function6/MATLAB Function6
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function7/MATLAB Function7
+  flexiv_rizon4s_kinematics_2025_5_14/MATLAB Function8/MATLAB Function8
+  flexiv_rizon4s_kinematics_2025_5_14/THE_JACOBIAN_OF_SYSTEM/THE_JACOBIAN_OF_SYSTEM
+  flexiv_rizon4s_kinematics_2025_5_14/SYS_COM/COM_OF_SYSTEM/COM_OF_SYSTEM
+  flexiv_rizon4s_kinematics_2025_5_14/Subsystem/MATLAB Function/MATLAB Function
+  flexiv_rizon4s_kinematics_2025_5_14/TF_FROM_WORLD_2_BASE OF SATELLITE/MATLAB Function/MATLAB Function

@@ -1,0 +1,3 @@
+{"event": "start", "seed": 0, "population": 2, "generations": 1, "fixed_arm_angle_rad": 0.0, "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml", "started_at": "2026-09-15T09:21:36.755451+00:00"}
+{"event": "generation", "generation": 1, "objective": 14.70440257219949, "capture_time_s": 8.69654990691531, "terminal_arm_angle_rad": 0.0, "feasible": true, "timestamp": "2026-09-15T09:21:39.042383+00:00"}
+{"event": "complete", "generations_completed": 1, "evaluations": 2, "best_objective": 14.70440257219949, "completed_at": "2026-09-15T09:21:39.048456+00:00", "output_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_smoke\\fixed0\\pso_seed_00.json"}

@@ -1,0 +1,50 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T10:32:00.450071+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "candidate_replay_v1"
+  },
+  "optimizer_json": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\planning45_accept40_smoke.json",
+  "optimizer_json_sha256": "e0cf9657c3fff9d6abcf80f2c2734cac96ee386e8eb0ef66b5a63c97a7a07771",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "e13a4070dd034f0b925997e4332919e1a7a3dda4c36a46a3435fe65896f272af",
+  "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+  "runtime_overrides": {
+    "objective_weights": null,
+    "planning_clearance_m": 0.045
+  },
+  "candidate_count": 1,
+  "accepted_candidate_count": 1,
+  "candidates": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 19.015553854117684,
+      "terminal_arm_angle_rad": 1.075144568985572,
+      "kinematic_objective": 7.450533285630537,
+      "kinematic_feasible": true,
+      "dynamic_objective": 7.570137727549744,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\planning45_accept40_smoke_top1\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\planning45_accept40_smoke_top1\\candidate_01\\validation.json",
+      "dynamic_rank": 1
+    }
+  ],
+  "dynamic_ranking": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 19.015553854117684,
+      "terminal_arm_angle_rad": 1.075144568985572,
+      "kinematic_objective": 7.450533285630537,
+      "kinematic_feasible": true,
+      "dynamic_objective": 7.570137727549744,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\planning45_accept40_smoke_top1\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\planning45_accept40_smoke_top1\\candidate_01\\validation.json",
+      "dynamic_rank": 1
+    }
+  ]
+}

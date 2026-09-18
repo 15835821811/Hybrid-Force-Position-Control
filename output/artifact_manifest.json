@@ -1,0 +1,79 @@
+{
+  "metrics": "output\\migration_metrics.json",
+  "metrics_sha256": "ab2e7d0c51e8816714f7c3c486905088974374d27fd073816ad1b01b78e66925",
+  "traces": [
+    {
+      "path": "output\\traces\\flexiv_mujoco_scenario_00.npz",
+      "sha256": "b275777d6a2392a39eaf194af716bc915c1668ae44465e82490f24e781c52f44"
+    },
+    {
+      "path": "output\\traces\\flexiv_mujoco_scenario_01.npz",
+      "sha256": "8931ec31946ff9da87bfa39036256486f7b493e7336ca5683dcda63f7a0478ce"
+    },
+    {
+      "path": "output\\traces\\flexiv_mujoco_scenario_02.npz",
+      "sha256": "de329a37be3a7e9a8033be2b26ee676197541b7e533ded36a2219dea43c8f749"
+    },
+    {
+      "path": "output\\traces\\flexiv_mujoco_scenario_03.npz",
+      "sha256": "5f5d516f89c34ff26daf901a3f8a8fb5ca0dccced6d7375869300637e4fe38d5"
+    },
+    {
+      "path": "output\\traces\\flexiv_mujoco_scenario_04.npz",
+      "sha256": "36f89f5d26130d1f93f64eebdc7440f88eb79f321e5681db9d44e6e2f8e927a7"
+    }
+  ],
+  "model_identity": {
+    "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+    "source_bundle_sha256": "4816538e3f89e9a09a739eb5f8d8290fc91d353048ff2e5b5704fc6df1892531",
+    "mujoco_version": "3.3.2",
+    "joint_names": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6",
+      "joint7"
+    ],
+    "actuator_names": [
+      "torque_joint1",
+      "torque_joint2",
+      "torque_joint3",
+      "torque_joint4",
+      "torque_joint5",
+      "torque_joint6",
+      "torque_joint7"
+    ],
+    "home_joint_position_rad": [
+      0.0,
+      -0.6981317007977318,
+      0.0,
+      1.5707963267948966,
+      0.0,
+      0.6981317007977318,
+      0.0
+    ],
+    "torque_limits_nm": [
+      123.0,
+      123.0,
+      64.0,
+      64.0,
+      39.0,
+      39.0,
+      39.0
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "base_mass_kg": 500.0,
+    "base_diagonal_inertia_kg_m2": [
+      20.833333333,
+      20.833333333,
+      20.833333333
+    ],
+    "actuation": "seven_direct_joint_torque_motors",
+    "runtime_contract_sha256": "e64027710bd07974fa9c4e0e15b2dbe9e7383e395e6fbd8007801dacb7fd59c6"
+  },
+  "validation": "output\\validation.json",
+  "validation_sha256": "b5cb330d6c87525aa5c8f1f79e433519410ce43622a2530c2b676682fb2a3df0"
+}

@@ -1,0 +1,135 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T10:24:49.690313+00:00",
+    "verification_status": "PARTIALLY_VERIFIED",
+    "version_label": "candidate_replay_v1"
+  },
+  "optimizer_json": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\precheck_seed0.json",
+  "optimizer_json_sha256": "fac43f50bd52938812c78e73da07c36a547a7dea2853b0c364254b512c54263d",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "e13a4070dd034f0b925997e4332919e1a7a3dda4c36a46a3435fe65896f272af",
+  "candidate_count": 5,
+  "accepted_candidate_count": 4,
+  "candidates": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 17.12799261834359,
+      "terminal_arm_angle_rad": -0.7939644475323482,
+      "kinematic_objective": 3.796927120195149,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.8028180118630623,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_01\\validation.json",
+      "dynamic_rank": 1
+    },
+    {
+      "kinematic_rank": 2,
+      "capture_time_s": 17.073104044694844,
+      "terminal_arm_angle_rad": -0.7767578896259434,
+      "kinematic_objective": 3.811695902849679,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.818873751468349,
+      "dynamic_acceptance_passed": false,
+      "independent_replay_passed": false,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_02\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_02\\validation.json"
+    },
+    {
+      "kinematic_rank": 3,
+      "capture_time_s": 17.030808600467402,
+      "terminal_arm_angle_rad": -0.7873100069545348,
+      "kinematic_objective": 3.8425024173603544,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.8489281002871896,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_03\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_03\\validation.json",
+      "dynamic_rank": 2
+    },
+    {
+      "kinematic_rank": 4,
+      "capture_time_s": 17.010834668603835,
+      "terminal_arm_angle_rad": -0.7795889120276298,
+      "kinematic_objective": 3.846784648982876,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.853233580175169,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_04\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_04\\validation.json",
+      "dynamic_rank": 4
+    },
+    {
+      "kinematic_rank": 5,
+      "capture_time_s": 16.991001262302454,
+      "terminal_arm_angle_rad": -0.7678903659163383,
+      "kinematic_objective": 3.8477350036942823,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.853201932901437,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_05\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_05\\validation.json",
+      "dynamic_rank": 3
+    }
+  ],
+  "dynamic_ranking": [
+    {
+      "kinematic_rank": 1,
+      "capture_time_s": 17.12799261834359,
+      "terminal_arm_angle_rad": -0.7939644475323482,
+      "kinematic_objective": 3.796927120195149,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.8028180118630623,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_01\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_01\\validation.json",
+      "dynamic_rank": 1
+    },
+    {
+      "kinematic_rank": 3,
+      "capture_time_s": 17.030808600467402,
+      "terminal_arm_angle_rad": -0.7873100069545348,
+      "kinematic_objective": 3.8425024173603544,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.8489281002871896,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_03\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_03\\validation.json",
+      "dynamic_rank": 2
+    },
+    {
+      "kinematic_rank": 5,
+      "capture_time_s": 16.991001262302454,
+      "terminal_arm_angle_rad": -0.7678903659163383,
+      "kinematic_objective": 3.8477350036942823,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.853201932901437,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_05\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_05\\validation.json",
+      "dynamic_rank": 3
+    },
+    {
+      "kinematic_rank": 4,
+      "capture_time_s": 17.010834668603835,
+      "terminal_arm_angle_rad": -0.7795889120276298,
+      "kinematic_objective": 3.846784648982876,
+      "kinematic_feasible": true,
+      "dynamic_objective": 3.853233580175169,
+      "dynamic_acceptance_passed": true,
+      "independent_replay_passed": true,
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_04\\metrics.json",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\precheck_seed0_top5\\candidate_04\\validation.json",
+      "dynamic_rank": 4
+    }
+  ]
+}

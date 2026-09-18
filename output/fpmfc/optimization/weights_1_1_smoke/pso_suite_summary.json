@@ -1,0 +1,40 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T09:34:06.740511+00:00",
+    "verification_status": "UNVERIFIED_DYNAMIC",
+    "version_label": "pso_suite_v1"
+  },
+  "variants": {
+    "joint": {
+      "fixed_arm_angle_rad": null,
+      "seed_count": 1,
+      "feasible_seed_count": 0,
+      "feasible_seed_fraction": 0.0,
+      "best_objective_mean": 4079872.6630206993,
+      "best_objective_std": 0.0,
+      "best_objective_median": 4079872.6630206993,
+      "best_objective_min": 4079872.6630206993,
+      "best_objective_max": 4079872.6630206993,
+      "selected_seed": 0,
+      "selected_result_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\weights_1_1_smoke\\joint\\pso_seed_00.json",
+      "runs": [
+        {
+          "seed": 0,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\weights_1_1_smoke\\joint\\pso_seed_00.json",
+          "sha256": "37804fda3d8ecbb298043b88d417cfeff8ee028d1cbf2483035b1d15b40d6426",
+          "best_objective": 4079872.6630206993,
+          "capture_time_s": 18.82834868446472,
+          "terminal_arm_angle_rad": -1.4464727375963786,
+          "feasible": false,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.018244014893571338,
+          "alignment_angle_rad": 0.3766937066366251,
+          "minimum_clearance_m": 0.039953275466966524
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "checks": {
+    "model_identity_and_artifact_hashes": true,
+    "simscape_home_fk_within_1_mm": true,
+    "physics_500_hz_and_task_50_hz": true,
+    "one_qp_succeeded_each_task_tick": true,
+    "no_state_teleport_after_initialization": true,
+    "signed_clearance_above_5_mm": true,
+    "tracking_max_below_50_mm": true,
+    "deterministic_torque_replay": true
+  },
+  "home_fk_error_m": 0.00029954035801802245,
+  "replay": [
+    {
+      "scenario_id": "flexiv_mujoco_scenario_00",
+      "maximum_qpos_error": 0.0,
+      "maximum_qvel_error": 0.0,
+      "maximum_flange_position_error_m": 0.0,
+      "maximum_clearance_error_m": 0.0,
+      "recomputed_minimum_clearance_m": 0.142121565234731,
+      "recomputed_clearance_samples_50hz": 1276
+    },
+    {
+      "scenario_id": "flexiv_mujoco_scenario_01",
+      "maximum_qpos_error": 0.0,
+      "maximum_qvel_error": 0.0,
+      "maximum_flange_position_error_m": 0.0,
+      "maximum_clearance_error_m": 0.0,
+      "recomputed_minimum_clearance_m": 0.17367033548110483,
+      "recomputed_clearance_samples_50hz": 1276
+    },
+    {
+      "scenario_id": "flexiv_mujoco_scenario_02",
+      "maximum_qpos_error": 0.0,
+      "maximum_qvel_error": 0.0,
+      "maximum_flange_position_error_m": 0.0,
+      "maximum_clearance_error_m": 0.0,
+      "recomputed_minimum_clearance_m": 0.16531733054453038,
+      "recomputed_clearance_samples_50hz": 1276
+    },
+    {
+      "scenario_id": "flexiv_mujoco_scenario_03",
+      "maximum_qpos_error": 0.0,
+      "maximum_qvel_error": 0.0,
+      "maximum_flange_position_error_m": 0.0,
+      "maximum_clearance_error_m": 0.0,
+      "recomputed_minimum_clearance_m": 0.17373280065499766,
+      "recomputed_clearance_samples_50hz": 1276
+    },
+    {
+      "scenario_id": "flexiv_mujoco_scenario_04",
+      "maximum_qpos_error": 0.0,
+      "maximum_qvel_error": 0.0,
+      "maximum_flange_position_error_m": 0.0,
+      "maximum_clearance_error_m": 0.0,
+      "recomputed_minimum_clearance_m": 0.1798228617266986,
+      "recomputed_clearance_samples_50hz": 1276
+    }
+  ],
+  "acceptance_thresholds": {
+    "home_fk_error_m": 0.001,
+    "minimum_signed_clearance_m": 0.005,
+    "maximum_tracking_error_m": 0.05
+  }
+}

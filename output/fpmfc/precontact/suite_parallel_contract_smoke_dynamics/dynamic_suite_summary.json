@@ -1,0 +1,60 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T11:12:07.765848+00:00",
+    "verification_status": "PARTIALLY_VERIFIED",
+    "version_label": "dynamic_suite_summary_v1"
+  },
+  "suite_summary": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_parallel_contract_smoke\\pso_suite_summary.json",
+  "suite_summary_sha256": "213c6521cac1dbf3a484b64b694204df71f66c13b1516d218fb215d4f1fae9bc",
+  "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "e13a4070dd034f0b925997e4332919e1a7a3dda4c36a46a3435fe65896f272af",
+  "top_k": 1,
+  "variants": {
+    "joint": {
+      "seed_count": 2,
+      "qualified_seed_count": 1,
+      "qualified_seed_fraction": 0.5,
+      "top1_preserved_count": 1,
+      "selected_dynamic_candidate": {
+        "seed": 102,
+        "kinematic_rank": 1,
+        "capture_time_s": 10.719849465073162,
+        "terminal_arm_angle_rad": 0.5399990296914869,
+        "kinematic_objective": 7.368143201831545,
+        "kinematic_feasible": true,
+        "dynamic_objective": 7.379654459902822,
+        "dynamic_acceptance_passed": true,
+        "independent_replay_passed": true,
+        "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_102\\candidate_01\\metrics.json",
+        "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_102\\candidate_01\\validation.json",
+        "planning_and_dynamic_qualified": true,
+        "dynamic_rank": 1
+      },
+      "seeds": [
+        {
+          "seed": 101,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_101\\candidate_replay_summary.json",
+          "summary_sha256": "1a54c4793333186bea6673f78e53c81c017b98ed977a0c187f65efa3c1541572",
+          "candidate_count": 1,
+          "dynamic_accepted_candidate_count": 0,
+          "jointly_qualified_candidate_count": 0,
+          "top1_preserved": false,
+          "best_dynamic_objective": null
+        },
+        {
+          "seed": 102,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\suite_parallel_contract_smoke_dynamics\\joint\\seed_102\\candidate_replay_summary.json",
+          "summary_sha256": "2f66cd6335064211d7940054193b8303186466bccc6db11db08b08a733b58040",
+          "candidate_count": 1,
+          "dynamic_accepted_candidate_count": 1,
+          "jointly_qualified_candidate_count": 1,
+          "top1_preserved": true,
+          "best_dynamic_objective": 7.379654459902822
+        }
+      ]
+    }
+  }
+}

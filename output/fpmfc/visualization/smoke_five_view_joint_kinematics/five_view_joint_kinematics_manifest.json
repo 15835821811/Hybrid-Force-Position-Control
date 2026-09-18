@@ -1,0 +1,186 @@
+{
+  "material_passport": {
+    "origin_skill": "visualize",
+    "origin_mode": "verified-trace-five-view-render",
+    "verification_status": "VERIFIED",
+    "version_label": "fpmfc_five_view_joint_kinematics_v1"
+  },
+  "source_trace": "output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\seed_00\\candidate_01\\trace.npz",
+  "source_trace_sha256": "802d06b2532d599643ebf9ce8ad1f69fade9b0d8d161b2a5cc2e77b2087cb430",
+  "source_metrics": "output\\fpmfc\\precontact\\adaptive_cube_c095_014_095_face_aligned_v2\\formal_planning45\\joint\\seed_00\\candidate_01\\metrics.json",
+  "source_metrics_sha256": "39bdc8c3d4f8da21b3c308e97edc6046ed994b5c751f4e37404ac5face21ae8e",
+  "video_config": {
+    "tile_width": 640,
+    "tile_height": 360,
+    "composite_width": 1920,
+    "composite_height": 1080,
+    "fps": 2,
+    "crf": 24,
+    "expected_frames": 17,
+    "expected_duration_s": 8.5
+  },
+  "views": [
+    {
+      "key": "isometric",
+      "title": "Isometric",
+      "azimuth_deg": 137.0,
+      "elevation_deg": -24.0,
+      "distance_m": 1.85
+    },
+    {
+      "key": "front",
+      "title": "Front",
+      "azimuth_deg": 180.0,
+      "elevation_deg": -8.0,
+      "distance_m": 1.85
+    },
+    {
+      "key": "right",
+      "title": "Right side",
+      "azimuth_deg": 90.0,
+      "elevation_deg": -10.0,
+      "distance_m": 1.85
+    },
+    {
+      "key": "top",
+      "title": "Top",
+      "azimuth_deg": 180.0,
+      "elevation_deg": -89.0,
+      "distance_m": 1.75
+    },
+    {
+      "key": "rear",
+      "title": "Rear",
+      "azimuth_deg": 0.0,
+      "elevation_deg": -14.0,
+      "distance_m": 1.85
+    }
+  ],
+  "joint_signals": {
+    "position_source": "qpos[:, 7:14]",
+    "velocity_source": "qvel[:, 6:13]",
+    "acceleration_source": "numpy.gradient(joint_velocity, time, edge_order=2)",
+    "sample_count": 4000,
+    "sample_period_s": 0.0019999999999997797,
+    "units": {
+      "position": "rad",
+      "velocity": "rad/s",
+      "acceleration": "rad/s^2"
+    }
+  },
+  "view_videos": [
+    {
+      "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\selected_capture_isometric.mp4",
+      "sha256": "2be39b855f82ab3b7b2e174591905d352fc729d3046e30361c8bdd27fb0ab0bc",
+      "bytes": 63441,
+      "width": 640,
+      "height": 360,
+      "fps": 2.0,
+      "frames": 17,
+      "duration_s": 8.5,
+      "key": "isometric",
+      "title": "Isometric",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\selected_capture_front.mp4",
+      "sha256": "9ee63a6da69de2023289783c66b61c2ed8a3248f682b9efbb74855a6c5d6966f",
+      "bytes": 48616,
+      "width": 640,
+      "height": 360,
+      "fps": 2.0,
+      "frames": 17,
+      "duration_s": 8.5,
+      "key": "front",
+      "title": "Front",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\selected_capture_right.mp4",
+      "sha256": "d2123dc1647b504a26cbc99e6115634ec6b217dfbbe57a1fc55fa6c414ff8122",
+      "bytes": 66742,
+      "width": 640,
+      "height": 360,
+      "fps": 2.0,
+      "frames": 17,
+      "duration_s": 8.5,
+      "key": "right",
+      "title": "Right side",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\selected_capture_top.mp4",
+      "sha256": "114015ab9195992554a037d13f59f5319cf76ddf1ac7bcf0614e8f98a8a182e3",
+      "bytes": 55905,
+      "width": 640,
+      "height": 360,
+      "fps": 2.0,
+      "frames": 17,
+      "duration_s": 8.5,
+      "key": "top",
+      "title": "Top",
+      "decoded": true
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\selected_capture_rear.mp4",
+      "sha256": "e4da13b32e2890adeeacd05f584ed5a9d0b79d2a5633bcf167171acd6a425a3e",
+      "bytes": 50806,
+      "width": 640,
+      "height": 360,
+      "fps": 2.0,
+      "frames": 17,
+      "duration_s": 8.5,
+      "key": "rear",
+      "title": "Rear",
+      "decoded": true
+    }
+  ],
+  "composite_video": {
+    "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\selected_capture_five_view_joint_kinematics.mp4",
+    "sha256": "4155ec11a8b5b819673560f80e00558651515cbdc742d28ddc36fe3a914ea4aa",
+    "bytes": 407657,
+    "width": 1920,
+    "height": 1080,
+    "fps": 2.0,
+    "frames": 17,
+    "duration_s": 8.5,
+    "decoded": true
+  },
+  "static_joint_figures": [
+    {
+      "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\joint_position_velocity_acceleration.png",
+      "sha256": "8d0d6847e49486434297d603025ade544e88f58956ff086171d37de12f56aaef",
+      "bytes": 387573
+    },
+    {
+      "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\joint_position_velocity_acceleration.pdf",
+      "sha256": "c96491c8db7b4d91b0f47cb74ac07f22a601ccc31b728db2ceebb20b58de885d",
+      "bytes": 70151
+    }
+  ],
+  "preview": {
+    "path": "output\\fpmfc\\visualization\\smoke_five_view_joint_kinematics\\five_view_joint_kinematics_preview.png",
+    "sha256": "9f2c1387d6994cfdcea7cd4a8b96edb30d5bd8dd498aa104e28e5738da4fdd54",
+    "bytes": 207878,
+    "width": 1920,
+    "height": 1080
+  },
+  "checks": {
+    "source_trace_matches_metrics": true,
+    "five_camera_definitions_unique": true,
+    "five_view_videos_present": true,
+    "all_view_videos_decode": true,
+    "all_view_dimensions_match": true,
+    "all_view_frames_match": true,
+    "all_view_durations_match": true,
+    "composite_video_decodes": true,
+    "composite_dimensions_match": true,
+    "composite_frames_match": true,
+    "composite_duration_matches": true,
+    "joint_arrays_are_synchronized": true,
+    "joint_acceleration_is_finite": true,
+    "static_curves_nonempty": true,
+    "preview_dimensions_match": true
+  },
+  "passed": true
+}

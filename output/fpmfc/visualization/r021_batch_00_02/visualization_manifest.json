@@ -1,0 +1,37 @@
+{
+  "material_passport": {
+    "origin_skill": "visualize",
+    "origin_mode": "verified-trace-render",
+    "verification_status": "VERIFIED",
+    "version_label": "fpmfc_capture_visualization_v1"
+  },
+  "source_trace": "output\\fpmfc\\precontact\\formal_planning45_batch_00_02\\joint\\seed_02\\candidate_01\\trace.npz",
+  "source_trace_sha256": "83244db5fd525b8db04d1cfb03a30d2364ffcde766662881dc6a936d40671ac6",
+  "source_metrics": "output\\fpmfc\\precontact\\formal_planning45_batch_00_02\\joint\\seed_02\\candidate_01\\metrics.json",
+  "source_metrics_sha256": "666e0107e534341959a94eec6e8d829d177f42b48a5705228b100fbe28415c67",
+  "video": {
+    "path": "output\\fpmfc\\visualization\\r021_batch_00_02\\selected_capture_isometric.mp4",
+    "sha256": "00219130f3a1b2db3b0e8059791e31ba49e25059dd4a06b8e5c344cdc33fda82",
+    "bytes": 484833,
+    "width": 640,
+    "height": 480,
+    "frames": 515,
+    "duration_s": 17.166667,
+    "fps": 30
+  },
+  "storyboard": {
+    "path": "output\\fpmfc\\visualization\\r021_batch_00_02\\selected_capture_storyboard.png",
+    "sha256": "71b686e1a7c7659bd3ca1f3f65f1ddb3764ddd25470480e2c738c2df898d74e5",
+    "bytes": 133482,
+    "width": 1440,
+    "height": 360
+  },
+  "checks": {
+    "source_trace_matches_metrics": true,
+    "video_dimensions_match": true,
+    "video_frame_count_matches": true,
+    "video_duration_matches": true,
+    "storyboard_complete": true
+  },
+  "passed": true
+}

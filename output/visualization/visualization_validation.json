@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "checks": {
+    "generator_report_passed": true,
+    "all_six_png_files_decode_and_match_hashes": true,
+    "five_complete_mp4_streams_decode_and_match_hashes": true,
+    "source_metrics_hash_matches": true,
+    "source_trace_hash_matches": true,
+    "five_camera_definitions_are_unique": true,
+    "coordinate_frame_contract_matches_v6_style": true,
+    "video_contains_full_target_path_and_seven_waypoints": true
+  },
+  "figures": [
+    {
+      "path": "output\\visualization\\tracking_paths_3d.png",
+      "valid": true
+    },
+    {
+      "path": "output\\visualization\\tracking_error_curves.png",
+      "valid": true
+    },
+    {
+      "path": "output\\visualization\\base_pose_drift.png",
+      "valid": true
+    },
+    {
+      "path": "output\\visualization\\safety_and_qp_diagnostics.png",
+      "valid": true
+    },
+    {
+      "path": "output\\visualization\\joint_tracking_and_torque.png",
+      "valid": true
+    },
+    {
+      "path": "output\\visualization\\five_view_preview.png",
+      "valid": true
+    }
+  ],
+  "videos": [
+    {
+      "path": "output\\visualization\\videos\\scenario_00_isometric.mp4",
+      "valid": true,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_front.mp4",
+      "valid": true,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_right.mp4",
+      "valid": true,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_top.mp4",
+      "valid": true,
+      "frames": 765,
+      "duration_s": 25.5
+    },
+    {
+      "path": "output\\visualization\\videos\\scenario_00_rear.mp4",
+      "valid": true,
+      "frames": 765,
+      "duration_s": 25.5
+    }
+  ],
+  "manifest": "output\\visualization\\visualization_manifest.json",
+  "manifest_sha256": "62b9a1d3f06ee4222bc292cef63bedc55251fb49af8d4881fe38db4f8d83b751"
+}

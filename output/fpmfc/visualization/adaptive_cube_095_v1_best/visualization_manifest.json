@@ -1,0 +1,50 @@
+{
+  "material_passport": {
+    "origin_skill": "visualize",
+    "origin_mode": "verified-trace-render",
+    "verification_status": "VERIFIED",
+    "version_label": "fpmfc_capture_visualization_v1"
+  },
+  "source_trace": "output\\fpmfc\\precontact\\adaptive_cube_095_v1_formal_planning45\\joint\\seed_04\\candidate_01\\trace.npz",
+  "source_trace_sha256": "8d8a9282edc60b033805c03efc22eaaed34c421768c17033e4d9a6d3a5b1d707",
+  "source_metrics": "output\\fpmfc\\precontact\\adaptive_cube_095_v1_formal_planning45\\joint\\seed_04\\candidate_01\\metrics.json",
+  "source_metrics_sha256": "a4f03b396f12e7758358ec0ebb502e2c2d913d9c33b6d3478bb2d25015fde7c2",
+  "video": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_095_v1_best\\selected_capture_isometric.mp4",
+    "sha256": "0056d34c596094af699939928b1fdb9286666b0917172fd40d0c371f3a15cc0e",
+    "bytes": 749335,
+    "width": 960,
+    "height": 720,
+    "frames": 410,
+    "duration_s": 13.666667,
+    "fps": 30
+  },
+  "storyboard": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_095_v1_best\\selected_capture_storyboard.png",
+    "sha256": "05b8db1472f734ce72d28011a2c38659f4720e0afb22c73ad83718bdd4f0629f",
+    "bytes": 135283,
+    "width": 1440,
+    "height": 360
+  },
+  "gif": {
+    "path": "output\\fpmfc\\visualization\\adaptive_cube_095_v1_best\\selected_capture_isometric.gif",
+    "sha256": "926731401e4b448d4cf52717793e6ff6191f8f11389f1b2fb8958547e628bd38",
+    "bytes": 6457296,
+    "width": 720,
+    "height": 540,
+    "frames": 164,
+    "duration_s": 13.66,
+    "fps": 12
+  },
+  "checks": {
+    "source_trace_matches_metrics": true,
+    "video_dimensions_match": true,
+    "video_frame_count_matches": true,
+    "video_duration_matches": true,
+    "storyboard_complete": true,
+    "gif_dimensions_match": true,
+    "gif_frame_count_matches": true,
+    "gif_duration_matches": true
+  },
+  "passed": true
+}

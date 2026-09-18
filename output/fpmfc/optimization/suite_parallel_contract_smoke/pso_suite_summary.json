@@ -1,0 +1,65 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-15T11:09:39.694836+00:00",
+    "verification_status": "UNVERIFIED_DYNAMIC",
+    "version_label": "pso_suite_v1"
+  },
+  "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+  "variants": {
+    "joint": {
+      "fixed_arm_angle_rad": null,
+      "seed_count": 2,
+      "feasible_seed_count": 1,
+      "feasible_seed_fraction": 0.5,
+      "best_objective_mean": 763727.1834071117,
+      "best_objective_std": 1080062.920599296,
+      "best_objective_median": 763727.1834071117,
+      "best_objective_min": 7.368143201831545,
+      "best_objective_max": 1527446.9986710215,
+      "selected_seed": 102,
+      "selected_result_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_parallel_contract_smoke\\joint\\pso_seed_102.json",
+      "runs": [
+        {
+          "seed": 101,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_parallel_contract_smoke\\joint\\pso_seed_101.json",
+          "sha256": "709586878809360958a701bf55420feb285086210b266f7c25a009117bc27e1a",
+          "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "best_objective": 1527446.9986710215,
+          "capture_time_s": 21.341692003489612,
+          "terminal_arm_angle_rad": 0.5735177522994568,
+          "feasible": false,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.059730249506147394,
+          "alignment_angle_rad": 0.20287169886544595,
+          "minimum_clearance_m": 0.03998922835540059
+        },
+        {
+          "seed": 102,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\suite_parallel_contract_smoke\\joint\\pso_seed_102.json",
+          "sha256": "637faf23228b2bade3fc15050bde9ba204c54120b9ee43fd819e0b8c1d354851",
+          "effective_config_sha256": "18f42a25d89a6ffa4e80d392288c1ee5a88522479bde16c46ed62cb8b37ffd4f",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "best_objective": 7.368143201831545,
+          "capture_time_s": 10.719849465073162,
+          "terminal_arm_angle_rad": 0.5399990296914869,
+          "feasible": true,
+          "generations_completed": 1,
+          "evaluations": 2,
+          "maximum_base_angular_velocity_rad_s": 0.024793503950382708,
+          "alignment_angle_rad": 1.2273161657423024,
+          "minimum_clearance_m": null
+        }
+      ]
+    }
+  }
+}
