@@ -1,0 +1,85 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-plan",
+    "origin_mode": "run",
+    "origin_date": "2026-09-24T03:10:38.892604+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "n100_n101_contact_precheck_v1"
+  },
+  "experiment_ids": [
+    "N100",
+    "N101"
+  ],
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_contact.yaml",
+  "config_sha256": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+  "contact_implementation_identity": {
+    "schema_version": "fpmfc_contact_implementation_identity_v1",
+    "files": {
+      "configs/fpmfc_contact.yaml": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+      "models/flexiv_rizon4s_contact_scene.xml": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+      "v6_mujoco/fpmfc/contact.py": "2530a240dc59605e9d940e1fe64fecacebceb532062bc2499d66363e25043471",
+      "v6_mujoco/fpmfc/contact_config.py": "8b0772ee2dce3e1449ced70574edea54a0b69c0f6d41189b248b05b17dafb4cf",
+      "v6_mujoco/fpmfc/contact_model.py": "ffa6fda7fbaab060a20049f9746351bccb8b30648125a6240970a8ff34d6549d",
+      "v6_mujoco/fpmfc/contact_precheck.py": "1074e1c76cbddfe042c191b7c91869cf9f568bdfc7789d9da509ce0e5f439c2b",
+      "v6_mujoco/fpmfc/run_contact.py": "bfda536c3aa1687f0454334e3917d49e6419a417f792cb2ce053455d98cf7d6d"
+    },
+    "composite_sha256": "7d4e44bcc9238fa957487629ea40481f5cc62cace26f3ed459e467fc6b494e5c"
+  },
+  "checks": {
+    "n100_four_contacts_detected": true,
+    "n100_support_force_matches_weight": true,
+    "n100_action_reaction_sign": true,
+    "n100_reference_point_transport": true,
+    "n101_critical_damping_from_config": true,
+    "n101_discrete_matches_continuous": true,
+    "n101_no_overshoot": true,
+    "n101_steady_state_error": true,
+    "n101_limits_respected": true
+  },
+  "passed": true,
+  "n100_contact_wrench": {
+    "contact_count": 4,
+    "box_force_world_n": [
+      -6.661338147750939e-16,
+      0.0,
+      19.620000000000005
+    ],
+    "floor_force_world_n": [
+      6.661338147750939e-16,
+      0.0,
+      -19.620000000000005
+    ],
+    "box_torque_at_reference_a_nm": [
+      -1.1102230246251565e-16,
+      1.3877787807814457e-16,
+      -3.33066907387547e-17
+    ],
+    "box_torque_at_reference_b_nm": [
+      3.924,
+      1.9620000000000004,
+      9.992007221626409e-17
+    ],
+    "support_force_error_n": 3.552713678800501e-15,
+    "action_reaction_force_error_n": 0.0,
+    "reference_transport_error_nm": 1.4043333874306805e-15
+  },
+  "n101_normal_admittance": {
+    "parameters": {
+      "virtual_mass_kg": 1.0,
+      "damping_n_s_m": 100.0,
+      "stiffness_n_m": 2500.0,
+      "damping_ratio": 1.0,
+      "timestep_s": 0.002,
+      "maximum_offset_m": 0.003,
+      "maximum_velocity_m_s": 0.02
+    },
+    "desired_force_n": 3.0,
+    "analytic_steady_offset_m": 0.0012,
+    "discrete_final_offset_m": 0.0011999999999999988,
+    "maximum_continuous_solution_error_m": 2.9100611020530887e-05,
+    "overshoot_m": 0.0,
+    "steady_state_error_m": 1.0842021724855044e-18,
+    "two_percent_settling_time_s": 0.124,
+    "maximum_velocity_m_s": 0.02
+  }
+}

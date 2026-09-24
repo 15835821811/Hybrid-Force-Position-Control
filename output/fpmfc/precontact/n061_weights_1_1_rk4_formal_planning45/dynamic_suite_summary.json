@@ -1,0 +1,165 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-21T13:55:51.965739+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "dynamic_suite_summary_v1"
+  },
+  "suite_summary": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n061_weights_1_1_rk4_formal_planning45\\pso_suite_summary.json",
+  "suite_summary_sha256": "159d9c585c96a715f7ce0879ba7b592c3d93d7a68e028f03dd61f8fc3ce7bed6",
+  "effective_config_sha256": "eb7e3091d00869b8c8125b1baf4123e4aed61aa49c5e995ba59183dceb8f1547",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper.yaml",
+  "config_sha256": "bc8dbafc49bdcef6ba9fb80c22a03a35dbcd643e48885bfcd6f80cf72bc85ee6",
+  "implementation_identity": {
+    "schema_version": "fpmfc_implementation_identity_v1",
+    "files": {
+      "models/flexiv_rizon4s_scene.xml": "a402bf78fd32c904b5e0b07ab65a9105fafdb4620da6e92eaf1c5060b8a096f5",
+      "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+      "v6_mujoco/fpmfc/config.py": "122cbe3e1ad26e48eb40d95dc69441b0c9dfac8bcd9a68153bd06916a2873560",
+      "v6_mujoco/fpmfc/controller.py": "5bd0c64905e68868d95a37166e2332ebd59b83ab0cefbdf1850e167f09f2b097",
+      "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+      "v6_mujoco/fpmfc/optimizer.py": "3c0a661a7f06246609489013c94062e5a881fbc2a84b23ce29ca75751a88d21b",
+      "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+      "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+      "v6_mujoco/fpmfc/rollout.py": "da1945df414ebe1b736a6f592c44fd6d493b512fdb91d1a3a5d8dfbc58d9e538",
+      "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+      "v6_mujoco/fpmfc/run_capture.py": "077dbe1bd17eacd1a14829c584e5397001f686b52db6f6bd577c8ada237f020f",
+      "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+      "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+      "v6_mujoco/fpmfc/target.py": "c9ab62d6e2147181f5c6fc6a760d7caf770e24a1ea72d39972959bfb14427bf0",
+      "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+      "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+      "v6_mujoco/hierarchical_qp.py": "0d274127eaadb739d95370dcff19a9b61bf770607c3d992ee72cee668c0bd812",
+      "v6_mujoco/model.py": "0f5433ee289d810f6ec13a5c76f92d371362d0f2bb86372084652bdf04c1dab5",
+      "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+    },
+    "composite_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa"
+  },
+  "top_k": 5,
+  "variants": {
+    "joint": {
+      "seed_count": 10,
+      "qualified_seed_count": 10,
+      "qualified_seed_fraction": 1.0,
+      "top1_preserved_count": 3,
+      "selected_dynamic_candidate": {
+        "seed": 0,
+        "kinematic_rank": 1,
+        "capture_time_s": 8.0,
+        "terminal_arm_angle_rad": -1.492877399060744,
+        "kinematic_objective": 42.452161159639864,
+        "kinematic_feasible": true,
+        "dynamic_objective": 42.85319329717367,
+        "dynamic_acceptance_passed": true,
+        "independent_replay_passed": true,
+        "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_00\\candidate_01\\metrics.json",
+        "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_00\\candidate_01\\validation.json",
+        "planning_and_dynamic_qualified": true,
+        "dynamic_rank": 1
+      },
+      "seeds": [
+        {
+          "seed": 0,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_00\\candidate_replay_summary.json",
+          "summary_sha256": "d2c4a8d85c03ef7462a9d9b6c526eb92d5bd05cb5bfd939e44e4de4af60c52a1",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 3,
+          "jointly_qualified_candidate_count": 3,
+          "top1_preserved": true,
+          "best_dynamic_objective": 42.85319329717367
+        },
+        {
+          "seed": 1,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_01\\candidate_replay_summary.json",
+          "summary_sha256": "e37a869fbe53e10ab0e1f13389b93a580d2cecaa11ce83e6224227c6f33f1210",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": false,
+          "best_dynamic_objective": 63.52893009430018
+        },
+        {
+          "seed": 2,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_02\\candidate_replay_summary.json",
+          "summary_sha256": "a3dc1291b62a8b87ec85b3bc0bc86dc43f0977894562c10c6b6950ca61ba0f68",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": false,
+          "best_dynamic_objective": 64.86304257241315
+        },
+        {
+          "seed": 3,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_03\\candidate_replay_summary.json",
+          "summary_sha256": "ea8aeb5439a7d1967b05fa21bffc9e2ef83694d0474b190184309bd077579faf",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": false,
+          "best_dynamic_objective": 62.9715878984891
+        },
+        {
+          "seed": 4,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_04\\candidate_replay_summary.json",
+          "summary_sha256": "6ead5f5c53c2f8d6ddebc73a9e66e6f2a6c6da4f058e03b3cb65b60f69864e3a",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": true,
+          "best_dynamic_objective": 64.83729876444006
+        },
+        {
+          "seed": 5,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_05\\candidate_replay_summary.json",
+          "summary_sha256": "12a95e0fc08c2a60daefb3ee999b7bed099949fa049e45dcbf47f094a0fad9f8",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": true,
+          "best_dynamic_objective": 63.518596546629134
+        },
+        {
+          "seed": 6,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_06\\candidate_replay_summary.json",
+          "summary_sha256": "d7f4d4dd58acc58e6b71abe82c7b6acfcbb4287f970259221054de3ed5a3aedf",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": false,
+          "best_dynamic_objective": 62.4278808038768
+        },
+        {
+          "seed": 7,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_07\\candidate_replay_summary.json",
+          "summary_sha256": "d50da7c52e45d4ce998843f1b9e6ac3317f6b722b4b40b05d66673349ba2196d",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": false,
+          "best_dynamic_objective": 59.566682640699206
+        },
+        {
+          "seed": 8,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_08\\candidate_replay_summary.json",
+          "summary_sha256": "9c130a4def1eea647e24142f97e5ae2a6117086fe3acab2d71422fa750cebdc6",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": false,
+          "best_dynamic_objective": 63.78670237491597
+        },
+        {
+          "seed": 9,
+          "summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n061_weights_1_1_rk4_formal_planning45\\joint\\seed_09\\candidate_replay_summary.json",
+          "summary_sha256": "e5f8223cc92eca32233e4a3b6627fba801851cbefbcfb6b68987bec6b60a7a2a",
+          "candidate_count": 5,
+          "dynamic_accepted_candidate_count": 5,
+          "jointly_qualified_candidate_count": 5,
+          "top1_preserved": false,
+          "best_dynamic_objective": 63.73292079789687
+        }
+      ]
+    }
+  }
+}

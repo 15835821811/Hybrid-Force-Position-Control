@@ -8,6 +8,7 @@ model:
   home_joint_position_deg: [0.0, -40.0, 0.0, 90.0, 0.0, 40.0, 0.0]
   physics_period_s: 0.002
   task_period_s: 0.020
+  integrator: RK4
 
 target:
   geometry: cube
@@ -36,6 +37,7 @@ optimization:
   variables: [capture_time_s, terminal_arm_angle_rad]
   terminal_arm_angle_bounds_rad: [-3.141592653589793, 3.141592653589793]
   objective_weights: [1.0, 2.0]
+  planning_terminal_arm_angle_error_rad: 0.01308996938995747
   base_angular_velocity_reference_rad_s: 0.01
   alignment_angle_reference_rad: 1.5707963267948966
   pso_population: 20
@@ -86,6 +88,7 @@ provenance:
   model.home_joint_position_deg: user
   model.physics_period_s: user
   model.task_period_s: user
+  model.integrator: calibrated
   target.geometry: user
   target.side_length_m: user
   target.center_position_world_m: user
@@ -105,7 +108,8 @@ provenance:
   shape.singularity_margin: calibrated
   optimization.variables: paper
   optimization.terminal_arm_angle_bounds_rad: paper
-  optimization.objective_weights: paper
+  optimization.objective_weights: calibrated
+  optimization.planning_terminal_arm_angle_error_rad: calibrated
   optimization.base_angular_velocity_reference_rad_s: calibrated
   optimization.alignment_angle_reference_rad: calibrated
   optimization.pso_population: paper

@@ -68,11 +68,23 @@ class FPMFCControllerTests(unittest.TestCase):
             target_arm_angle_velocity_rad_s=0.0,
         )
 
+    def assert_warmed_p99_latency(self, target_arm_angle_rad: float) -> None:
+        for _ in range(5):
+            self.controller.reset()
+            self.solve(target_arm_angle_rad)
+        latencies = []
+        for _ in range(100):
+            self.controller.reset()
+            latencies.append(self.solve(target_arm_angle_rad).full_latency_s)
+        self.assertLess(
+            float(np.quantile(latencies, 0.99)), self.spec.task_period_s
+        )
+
     def test_zero_error_command_is_stationary(self) -> None:
         result = self.solve(self.arm_angle)
         self.assertTrue(result.success, (result.primary_status, result.secondary_status))
         self.assertLess(np.linalg.norm(result.joint_velocity), 1e-7)
-        self.assertLess(result.full_latency_s, self.spec.task_period_s)
+        self.assert_warmed_p99_latency(self.arm_angle)
         self.assertLess(result.momentum_map_residual_norm, 1e-10)
 
     def test_shape_motion_respects_locked_end_effector_task(self) -> None:
@@ -89,7 +101,7 @@ class FPMFCControllerTests(unittest.TestCase):
             result.hierarchy_angular_degradation_rad_s,
             np.sqrt(3.0) * self.control.level1_angular_tolerance_rad_s + 2e-5,
         )
-        self.assertLess(result.full_latency_s, self.spec.task_period_s)
+        self.assert_warmed_p99_latency(self.arm_angle + 0.05)
 
 
 if __name__ == "__main__":

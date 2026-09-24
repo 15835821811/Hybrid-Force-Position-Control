@@ -1,0 +1,29 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-24T02:24:46.580874+00:00",
+    "verification_status": "FAILED_GATE",
+    "version_label": "validation_v1"
+  },
+  "passed": false,
+  "checks": {
+    "trace_hash_matches_metrics": true,
+    "reported_candidate_passed_acceptance": false,
+    "deterministic_qpos_replay": true,
+    "deterministic_qvel_replay": true,
+    "deterministic_flange_replay": true,
+    "deterministic_clearance_replay": true
+  },
+  "replay": {
+    "maximum_qpos_error": 0.0,
+    "maximum_qvel_error": 0.0,
+    "maximum_flange_position_error_m": 0.0,
+    "maximum_clearance_error_m": 0.0,
+    "recomputed_minimum_clearance_m": 0.12615323640070403
+  },
+  "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_03\\no_shape\\metrics.json",
+  "metrics_sha256": "c900d5802351795d1e00b78b751532508b25c08f5f66f09bf1e87bcc5031b1e3",
+  "trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_03\\no_shape\\trace.npz",
+  "trace_sha256": "2e34376d050c355abb3511843c3d70d023df7dfcf2da0fdd9b811e5f9898cd9f"
+}

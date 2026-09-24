@@ -1,6 +1,6 @@
 <mujoco model="flexiv_rizon4s_free_floating">
   <compiler angle="radian" autolimits="true" meshdir="../assets/meshes" balanceinertia="true"/>
-  <option timestep="0.002" gravity="0 0 0" integrator="implicitfast" iterations="50" tolerance="1e-10"/>
+  <option timestep="0.002" gravity="0 0 0" integrator="RK4" iterations="50" tolerance="1e-10"/>
 
   <default>
     <joint armature="0.02" damping="0.1" frictionloss="0.0"/>

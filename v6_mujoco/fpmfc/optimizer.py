@@ -29,6 +29,7 @@ class PSOResult:
     best_objective: float
     best_rollout: PrecontactRolloutResult
     history: np.ndarray
+    history_feasible: np.ndarray
     evaluations: int
     top_positions: np.ndarray
     top_objectives: np.ndarray
@@ -44,7 +45,9 @@ class PSOResult:
             "best_position": self.best_position.tolist(),
             "best_objective": self.best_objective,
             "best_rollout": self.best_rollout.to_dict(),
+            "selection_policy": "planning_feasible_then_objective_v1",
             "history": self.history.tolist(),
+            "history_feasible": self.history_feasible.tolist(),
             "evaluations": self.evaluations,
             "top_candidates": [
                 {
@@ -72,6 +75,29 @@ def _effective_config_sha256(config: Mapping[str, Any]) -> str:
         config, sort_keys=True, separators=(",", ":"), ensure_ascii=False
     ).encode("utf-8")
     return hashlib.sha256(encoded).hexdigest()
+
+
+def _candidate_rank(result: Any) -> tuple[int, float]:
+    """Rank feasible candidates ahead of every infeasible candidate.
+
+    The rollout objective contains smooth constraint penalties so the swarm can
+    make progress before it discovers feasibility.  Once a feasible candidate
+    exists, however, a small squared penalty must not let a boundary-violating
+    candidate become the personal or global guide.
+    """
+
+    objective = float(result.objective)
+    if not np.isfinite(objective):
+        return (2, float("inf"))
+    feasible = bool(getattr(result, "feasible", True))
+    return (0 if feasible else 1, objective)
+
+
+def _candidate_is_better(candidate: Any, incumbent: Any | None) -> bool:
+    candidate_rank = _candidate_rank(candidate)
+    if candidate_rank[0] == 2:
+        return False
+    return incumbent is None or candidate_rank < _candidate_rank(incumbent)
 
 
 def particle_swarm_optimize(
@@ -114,30 +140,40 @@ def particle_swarm_optimize(
     global_value = float("inf")
     global_result: PrecontactRolloutResult | None = None
     history: list[float] = []
+    history_feasible: list[bool] = []
     stable_count = 0
     evaluations = 0
     converged = False
 
     for generation in range(generations):
         previous_best = global_value
+        previous_feasible = (
+            None if global_result is None else bool(getattr(global_result, "feasible", True))
+        )
         for index in range(population):
             result = evaluate(float(positions[index, 0]), float(positions[index, 1]))
             evaluations += 1
             value = float(result.objective)
-            if value < personal_values[index]:
+            if _candidate_is_better(result, personal_results[index]):
                 personal_values[index] = value
                 personal_positions[index] = positions[index].copy()
                 personal_results[index] = result
-            if value < global_value:
+            if _candidate_is_better(result, global_result):
                 global_value = value
                 global_position = positions[index].copy()
                 global_result = result
         if global_result is None:
             raise RuntimeError("PSO did not evaluate a finite candidate")
         history.append(global_value)
+        history_feasible.append(bool(getattr(global_result, "feasible", True)))
         if progress is not None:
             progress(generation + 1, global_result)
-        if np.isfinite(previous_best) and abs(previous_best - global_value) <= convergence_tolerance:
+        current_feasible = bool(getattr(global_result, "feasible", True))
+        if (
+            np.isfinite(previous_best)
+            and previous_feasible == current_feasible
+            and abs(previous_best - global_value) <= convergence_tolerance
+        ):
             stable_count += 1
         else:
             stable_count = 0
@@ -156,7 +192,13 @@ def particle_swarm_optimize(
 
     if global_result is None:
         raise RuntimeError("PSO produced no result")
-    top_indices = np.argsort(personal_values)[: min(5, population)]
+    ranked_indices = sorted(
+        range(population),
+        key=lambda index: _candidate_rank(personal_results[index])
+        if personal_results[index] is not None
+        else (2, float("inf")),
+    )
+    top_indices = np.asarray(ranked_indices[: min(5, population)], dtype=np.int64)
     if any(personal_results[int(index)] is None for index in top_indices):
         raise RuntimeError("PSO top-candidate bookkeeping is incomplete")
     return PSOResult(
@@ -169,6 +211,7 @@ def particle_swarm_optimize(
         best_objective=global_value,
         best_rollout=global_result,
         history=np.asarray(history, dtype=np.float64),
+        history_feasible=np.asarray(history_feasible, dtype=np.bool_),
         evaluations=evaluations,
         top_positions=personal_positions[top_indices].copy(),
         top_objectives=personal_values[top_indices].copy(),

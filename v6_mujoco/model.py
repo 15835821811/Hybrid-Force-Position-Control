@@ -51,6 +51,7 @@ class FlexivModelSpec:
     source_urdf: Path = SOURCE_URDF
     timestep_s: float = 0.002
     task_period_s: float = 0.020
+    integrator: str = "RK4"
     joint_names: tuple[str, ...] = JOINT_NAMES
     actuator_names: tuple[str, ...] = ACTUATOR_NAMES
     home_joint_position: np.ndarray = HOME_JOINT_POSITION
@@ -85,6 +86,8 @@ class FlexivModelSpec:
             raise ValueError("simulation periods must be positive")
         if abs(self.task_period_s / self.timestep_s - 10.0) > 1e-12:
             raise ValueError("one 50 Hz task tick must contain ten 500 Hz steps")
+        if self.integrator != "RK4":
+            raise ValueError("the orbital dynamics contract requires the RK4 integrator")
 
     def _xml_and_assets(self) -> tuple[str, dict[str, bytes]]:
         """Load through bytes so a Chinese workspace path is supported by MuJoCo."""
@@ -112,6 +115,8 @@ class FlexivModelSpec:
             raise RuntimeError("compiled MuJoCo timestep differs from the contract")
         if np.linalg.norm(model.opt.gravity) > 1e-12:
             raise RuntimeError("the migrated orbital plant must use zero gravity")
+        if int(model.opt.integrator) != int(mujoco.mjtIntegrator.mjINT_RK4):
+            raise RuntimeError("compiled MuJoCo integrator differs from the RK4 contract")
         for name in self.joint_names:
             _object_id(model, mujoco.mjtObj.mjOBJ_JOINT, name)
         for name in self.actuator_names:
@@ -169,6 +174,7 @@ class FlexivModelSpec:
             "torque_limits_nm": self.torque_limits_nm.tolist(),
             "timestep_s": self.timestep_s,
             "task_period_s": self.task_period_s,
+            "integrator": self.integrator,
             "base_mass_kg": 500.0,
             "base_diagonal_inertia_kg_m2": [20.833333333] * 3,
             "actuation": "seven_direct_joint_torque_motors",

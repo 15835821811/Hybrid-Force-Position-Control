@@ -1,0 +1,29 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-21T12:07:48.543793+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "validation_v1"
+  },
+  "passed": true,
+  "checks": {
+    "trace_hash_matches_metrics": true,
+    "reported_candidate_passed_acceptance": true,
+    "deterministic_qpos_replay": true,
+    "deterministic_qvel_replay": true,
+    "deterministic_flange_replay": true,
+    "deterministic_clearance_replay": true
+  },
+  "replay": {
+    "maximum_qpos_error": 0.0,
+    "maximum_qvel_error": 0.0,
+    "maximum_flange_position_error_m": 0.0,
+    "maximum_clearance_error_m": 0.0,
+    "recomputed_minimum_clearance_m": 0.19881579009293182
+  },
+  "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_02\\candidate_05\\metrics.json",
+  "metrics_sha256": "680392db0dcc5fb5ac94d1caa753ed8e2c36f42709cd8156b3b7f5ab27d1bb88",
+  "trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_02\\candidate_05\\trace.npz",
+  "trace_sha256": "c7b775e18ab00e62b6b5aede533e41a47ef85ee5353bcf4e20312eb6e940f0b5"
+}

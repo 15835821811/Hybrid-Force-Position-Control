@@ -1,0 +1,1385 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-plan",
+    "origin_mode": "run",
+    "origin_date": "2026-09-24T02:23:37.504659+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "n073_candidate_manifest_v1"
+  },
+  "experiment_id": "N073",
+  "scope": "controller_ablation_on_preplanned_full_controller_candidates",
+  "source_root": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint",
+  "config_path": "E:\\桌面\\力位形混合控制\\configs\\fpmfc_paper_planning45_effective.yaml",
+  "config_file_sha256": "5698170e1c44a68fada8aab158c346d59912004e84c6a4b4d7c3717a294c145c",
+  "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+  "implementation_identity": {
+    "schema_version": "fpmfc_implementation_identity_v1",
+    "files": {
+      "models/flexiv_rizon4s_scene.xml": "a402bf78fd32c904b5e0b07ab65a9105fafdb4620da6e92eaf1c5060b8a096f5",
+      "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+      "v6_mujoco/fpmfc/config.py": "122cbe3e1ad26e48eb40d95dc69441b0c9dfac8bcd9a68153bd06916a2873560",
+      "v6_mujoco/fpmfc/controller.py": "5bd0c64905e68868d95a37166e2332ebd59b83ab0cefbdf1850e167f09f2b097",
+      "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+      "v6_mujoco/fpmfc/optimizer.py": "3c0a661a7f06246609489013c94062e5a881fbc2a84b23ce29ca75751a88d21b",
+      "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+      "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+      "v6_mujoco/fpmfc/rollout.py": "da1945df414ebe1b736a6f592c44fd6d493b512fdb91d1a3a5d8dfbc58d9e538",
+      "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+      "v6_mujoco/fpmfc/run_capture.py": "077dbe1bd17eacd1a14829c584e5397001f686b52db6f6bd577c8ada237f020f",
+      "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+      "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+      "v6_mujoco/fpmfc/target.py": "c9ab62d6e2147181f5c6fc6a760d7caf770e24a1ea72d39972959bfb14427bf0",
+      "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+      "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+      "v6_mujoco/hierarchical_qp.py": "0d274127eaadb739d95370dcff19a9b61bf770607c3d992ee72cee668c0bd812",
+      "v6_mujoco/model.py": "0f5433ee289d810f6ec13a5c76f92d371362d0f2bb86372084652bdf04c1dab5",
+      "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+    },
+    "composite_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa"
+  },
+  "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+  "row_count": 10,
+  "rows": [
+    {
+      "seed": 0,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 8.0,
+      "source_executed_capture_time_s": 8.0,
+      "terminal_arm_angle_rad": -1.492877399060744,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_00\\candidate_replay_summary.json",
+      "source_summary_sha256": "1f434bf9d95118e9d0881bbf95dc7b5291a1fdd8c12025508e4858851a004a5c",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_00\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "6f90e408c7ba2d6a9de8c594d5594c68b6bdd3616bebb45d425c546b49e8f71a",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_00\\candidate_01\\validation.json",
+      "source_validation_sha256": "396c57fe5fe3b26bd63265f5450285b4b00bffd5461fc9cf5bf4a4cc54aa7631",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_00\\candidate_01\\trace.npz",
+      "source_trace_sha256": "24bd80b0176946823690fc5176534846d05a62e458fb45e36e47d0462d701d6e",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 4000,
+      "source_task_ticks": 400
+    },
+    {
+      "seed": 1,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 12.559110859785916,
+      "source_executed_capture_time_s": 12.56,
+      "terminal_arm_angle_rad": 2.8186331817200623,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_01\\candidate_replay_summary.json",
+      "source_summary_sha256": "3c6294983806e50dcd75b1175d6a94efab6a06802f444cbffc20a5230df9acf9",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_01\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "01ffedacefa64802548fc2f44d50bddd691d33a911161d381d6b3d8d75549b48",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_01\\candidate_01\\validation.json",
+      "source_validation_sha256": "00c9eddd75e868eddb6cf131d9f21a862ed7320c5670c3e7935dc726ad794b0f",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_01\\candidate_01\\trace.npz",
+      "source_trace_sha256": "e38007069166296a07cb675a3177e9e8b75a9ec7ca4212a2bb87b9ec30c3ef58",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6280,
+      "source_task_ticks": 628
+    },
+    {
+      "seed": 2,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 12.815344915385959,
+      "source_executed_capture_time_s": 12.816,
+      "terminal_arm_angle_rad": 2.829958672400292,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_02\\candidate_replay_summary.json",
+      "source_summary_sha256": "fca805b4853bbff7b960cfb7847630201d0c6ea569116b204a09fc78dd952658",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_02\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "a9845cf344343485e6b745af0a0d1761a8ac841f18ee20a85a535c4c19c238b2",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_02\\candidate_01\\validation.json",
+      "source_validation_sha256": "7d9d79a9ff612bb22d95fa65b98c3a91f896d16802f34df9db24d9105d3de30f",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_02\\candidate_01\\trace.npz",
+      "source_trace_sha256": "58660e5154b944244175689b939f2bb96a5fa14e2dafeb75ff20144efcf8ef6b",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6408,
+      "source_task_ticks": 641
+    },
+    {
+      "seed": 3,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 12.797301895260375,
+      "source_executed_capture_time_s": 12.798,
+      "terminal_arm_angle_rad": 2.8351223326267916,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_03\\candidate_replay_summary.json",
+      "source_summary_sha256": "2fa3373fc75e78f87633f71c40c9202775c3e9accc80ade577484c26bf5aa090",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_03\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "80fec54c81211cdf92835ebbb484a601148049e018ad0f793311d3ee036d33dc",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_03\\candidate_01\\validation.json",
+      "source_validation_sha256": "ac4fd249adec1d625695210e94a358ec4c2c91237ace51222ad7a87b723d24d1",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_03\\candidate_01\\trace.npz",
+      "source_trace_sha256": "d1ce9488428f7b29b7de3e16796bfd8537047b30d09842004346039cadc702c3",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6399,
+      "source_task_ticks": 640
+    },
+    {
+      "seed": 4,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 12.78740739169573,
+      "source_executed_capture_time_s": 12.788,
+      "terminal_arm_angle_rad": 2.8349552702708958,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_04\\candidate_replay_summary.json",
+      "source_summary_sha256": "b3f8a065859a395a3d395ee0250c3ad04151d9619e9280e203950147e461d6af",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_04\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "d10d4ff5e458dcb1a22d80c5c5fba621f3cb9594ec6733202861101b5d825abd",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_04\\candidate_01\\validation.json",
+      "source_validation_sha256": "97e3ce508ee343c1f77a292ff4d3430e24e11a1f4974fd14c3c7d5ed36d96da9",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_04\\candidate_01\\trace.npz",
+      "source_trace_sha256": "dc0dedb944ce501f18416660fb637c2ee134ec81c1835cfb80898c41cc03c8f2",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6394,
+      "source_task_ticks": 640
+    },
+    {
+      "seed": 5,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 13.199007887472238,
+      "source_executed_capture_time_s": 13.200000000000001,
+      "terminal_arm_angle_rad": 2.875899929585624,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_05\\candidate_replay_summary.json",
+      "source_summary_sha256": "f2d754f19a31fcc444ad48367dc36ad1fae59d61aa4996b23566b5fc071996b1",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_05\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "8f8c40ca4345cd704ab64838ec96491916f0c443f7a651a4d178c7d32ec871d0",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_05\\candidate_01\\validation.json",
+      "source_validation_sha256": "01e6934980cab58dcef4c763d11ff23c24412afbb8d7178e188389d696e2dd95",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_05\\candidate_01\\trace.npz",
+      "source_trace_sha256": "c4c4a5ea0a196b4be3e63eccc2b50bdbc0f1eecb2accc14e36763b8931f37104",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6600,
+      "source_task_ticks": 660
+    },
+    {
+      "seed": 6,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 13.320103974692323,
+      "source_executed_capture_time_s": 13.32,
+      "terminal_arm_angle_rad": 2.897406507648267,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_06\\candidate_replay_summary.json",
+      "source_summary_sha256": "6093458078d30de0a59c43ea500088ec379180ab975c8efeef2b7c7252d3ebe0",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_06\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "d85b345d610d996e50a20066d8708825e8fc3165cd79aff00eea6a0d4755ca92",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_06\\candidate_01\\validation.json",
+      "source_validation_sha256": "d0bbb60537882af4aea4cd08c4d648da8a982c1d45117977186932c72b2e1573",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_06\\candidate_01\\trace.npz",
+      "source_trace_sha256": "919b91a2a907f7640cc37a183e6f1ef39450f98f282b0379989c04360d266722",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6660,
+      "source_task_ticks": 666
+    },
+    {
+      "seed": 7,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 12.408726280462089,
+      "source_executed_capture_time_s": 12.408,
+      "terminal_arm_angle_rad": 2.786538400916744,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_07\\candidate_replay_summary.json",
+      "source_summary_sha256": "db1a78f4445b350e219c4331f739a10a6224834a2628277379d2143b142d3a24",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_07\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "76115ce63d54b0514345cf7f39758210a5551bd0342434bfcfc3d4d57f2265d8",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_07\\candidate_01\\validation.json",
+      "source_validation_sha256": "4a991a4612cce624e047815ea3245435e448f89f2cfb57aa113000cabf2db56e",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_07\\candidate_01\\trace.npz",
+      "source_trace_sha256": "63305a74db5614cca4d8d9c8290b5bb336d50dfe3687e2f4350c57a072f88d8d",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6204,
+      "source_task_ticks": 621
+    },
+    {
+      "seed": 8,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 12.962271726115004,
+      "source_executed_capture_time_s": 12.962,
+      "terminal_arm_angle_rad": 2.846551222324965,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_08\\candidate_replay_summary.json",
+      "source_summary_sha256": "4a4b94d5b0781e144fe44af3b751579c3036ded08d6104deb4f1f16091b8b911",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_08\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "b59ede71d23177c1cef536c079c5c34eef92fc185ad5d422487a7fa8b4b8ed8d",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_08\\candidate_01\\validation.json",
+      "source_validation_sha256": "ce72fbd03858ccb23acec2a6139e3acb22f3b72e384d9892c08a3c06c47ca99e",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_08\\candidate_01\\trace.npz",
+      "source_trace_sha256": "033d5fa218d52cfb8ffb125dbfdf06fc7fd93288a63c497fee99970a6bafd703",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6481,
+      "source_task_ticks": 649
+    },
+    {
+      "seed": 9,
+      "selection_rule": "first_planning_and_dynamic_qualified_in_candidates",
+      "kinematic_rank": 1,
+      "requested_capture_time_s": 12.744248306183614,
+      "source_executed_capture_time_s": 12.744,
+      "terminal_arm_angle_rad": 2.819841001966392,
+      "source_summary_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_09\\candidate_replay_summary.json",
+      "source_summary_sha256": "aa1fcc28cbf4558cafb0703171e94b8a7124a249cdef5c426fcacf73ac32c787",
+      "source_metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_09\\candidate_01\\metrics.json",
+      "source_metrics_sha256": "8beab28b929f7e8491d140c10e7e7e915b642ead762aa6de4a1652a09aff61c7",
+      "source_validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_09\\candidate_01\\validation.json",
+      "source_validation_sha256": "560b582db7787c147d5cbc23a79dae415af83b8befc0883c93b0c62456c348f8",
+      "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\seed_09\\candidate_01\\trace.npz",
+      "source_trace_sha256": "3ae6c45b6adb3de0c00881311410a95eae74f7483d1d5195465f0a55c7698ee8",
+      "source_target": {
+        "mode": "prescribed_principal_axis_tumbling",
+        "geometry": "cube",
+        "side_length_m": 0.3,
+        "initial_center_position_world_m": [
+          0.95,
+          0.14,
+          0.95
+        ],
+        "center_linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "initial_rotation_world": [
+          [
+            0.0,
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0000000000000004
+          ],
+          [
+            -1.0000000000000004,
+            0.0,
+            0.0
+          ]
+        ],
+        "angular_velocity_body_rad_s": [
+          0.0,
+          0.0,
+          0.08726646259971647
+        ],
+        "grasp_offset_body_m": [
+          0.0,
+          -0.15,
+          0.0
+        ],
+        "grasp_rotation_body": [
+          [
+            1.0000000000000002,
+            -0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0000000000000002
+          ],
+          [
+            -0.0,
+            -1.0000000000000002,
+            0.0
+          ]
+        ]
+      },
+      "source_model_identity": {
+        "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+        "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+        "mujoco_version": "3.3.2",
+        "joint_names": [
+          "joint1",
+          "joint2",
+          "joint3",
+          "joint4",
+          "joint5",
+          "joint6",
+          "joint7"
+        ],
+        "actuator_names": [
+          "torque_joint1",
+          "torque_joint2",
+          "torque_joint3",
+          "torque_joint4",
+          "torque_joint5",
+          "torque_joint6",
+          "torque_joint7"
+        ],
+        "home_joint_position_rad": [
+          0.0,
+          -0.6981317007977318,
+          0.0,
+          1.5707963267948966,
+          0.0,
+          0.6981317007977318,
+          0.0
+        ],
+        "torque_limits_nm": [
+          123.0,
+          123.0,
+          64.0,
+          64.0,
+          39.0,
+          39.0,
+          39.0
+        ],
+        "timestep_s": 0.002,
+        "task_period_s": 0.02,
+        "integrator": "RK4",
+        "base_mass_kg": 500.0,
+        "base_diagonal_inertia_kg_m2": [
+          20.833333333,
+          20.833333333,
+          20.833333333
+        ],
+        "actuation": "seven_direct_joint_torque_motors",
+        "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+      },
+      "source_dynamic_run_config": {
+        "reference_tracking_band_rad": 0.012,
+        "servo_natural_frequency_rad_s": 34.0,
+        "servo_acceleration_limit_rad_s2": 70.0
+      },
+      "source_physics_steps": 6372,
+      "source_task_ticks": 638
+    }
+  ],
+  "selection_sha256": "2e634139916301f3012ac2b2fa2ae98351129f26c7941e0394fee4089f4ee72d"
+}

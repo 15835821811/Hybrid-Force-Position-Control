@@ -1,0 +1,228 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-21T12:04:55.984921+00:00",
+    "verification_status": "UNVERIFIED_DYNAMIC",
+    "version_label": "pso_suite_v1"
+  },
+  "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+  "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+  "variants": {
+    "joint": {
+      "fixed_arm_angle_rad": null,
+      "seed_count": 10,
+      "feasible_seed_count": 10,
+      "feasible_seed_fraction": 1.0,
+      "best_objective_mean": 48.88757753722042,
+      "best_objective_std": 1.8761870364053963,
+      "best_objective_median": 49.46830651188394,
+      "best_objective_min": 43.56795941590224,
+      "best_objective_max": 49.74429376617181,
+      "selected_seed": 0,
+      "selected_result_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_00.json",
+      "runs": [
+        {
+          "seed": 0,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_00.json",
+          "sha256": "a6e255d39b50b6c7267833db36f4fdb156d54706a4df9876e3d6682a3aed8ba7",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 43.56795941590224,
+          "capture_time_s": 8.0,
+          "terminal_arm_angle_rad": -1.492877399060744,
+          "feasible": true,
+          "generations_completed": 41,
+          "evaluations": 820,
+          "maximum_base_angular_velocity_rad_s": 0.06429336116845774,
+          "alignment_angle_rad": 1.6592533999313437,
+          "minimum_clearance_m": 0.1352252256616742
+        },
+        {
+          "seed": 1,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_01.json",
+          "sha256": "69eebf6887d454c501a8650a9bad2d20e221f085e55444d07c0f0d5482b4bd24",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.588727452930826,
+          "capture_time_s": 12.559110859785916,
+          "terminal_arm_angle_rad": 2.8186331817200623,
+          "feasible": true,
+          "generations_completed": 37,
+          "evaluations": 740,
+          "maximum_base_angular_velocity_rad_s": 0.06956511348278342,
+          "alignment_angle_rad": 1.214540143560775,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 2,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_02.json",
+          "sha256": "ddb026eaff727501e70c0e6fe5f1184da87d4441a55367c24618866c64a37567",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.43451402393661,
+          "capture_time_s": 12.815344915385959,
+          "terminal_arm_angle_rad": 2.829958672400292,
+          "feasible": true,
+          "generations_completed": 63,
+          "evaluations": 1260,
+          "maximum_base_angular_velocity_rad_s": 0.06948899367252828,
+          "alignment_angle_rad": 1.1897222203665598,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 3,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_03.json",
+          "sha256": "a2b4dbca113eba96d6c144f6a5a95b361cf8a3460ce64f300f7551290861f2a5",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.445237117066405,
+          "capture_time_s": 12.797301895260375,
+          "terminal_arm_angle_rad": 2.8351223326267916,
+          "feasible": true,
+          "generations_completed": 55,
+          "evaluations": 1100,
+          "maximum_base_angular_velocity_rad_s": 0.0694942741126271,
+          "alignment_angle_rad": 1.1914755590301285,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 4,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_04.json",
+          "sha256": "3fde3a9277c7dc2355c505cafb7cb55a5f4a628a103aa9e0e9e74c42a04954c9",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.286443006094466,
+          "capture_time_s": 12.78740739169573,
+          "terminal_arm_angle_rad": 2.8349552702708958,
+          "feasible": true,
+          "generations_completed": 68,
+          "evaluations": 1360,
+          "maximum_base_angular_velocity_rad_s": 0.06937859930872714,
+          "alignment_angle_rad": 1.192431307042613,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 5,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_05.json",
+          "sha256": "1b5f55b5ea34db7bde923e4d41abb1c6a714e1115cc7e46ac35b60ef295faddf",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.168073459329875,
+          "capture_time_s": 13.199007887472238,
+          "terminal_arm_angle_rad": 2.875899929585624,
+          "feasible": true,
+          "generations_completed": 38,
+          "evaluations": 760,
+          "maximum_base_angular_velocity_rad_s": 0.06934782627252571,
+          "alignment_angle_rad": 1.1526174276678929,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 6,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_06.json",
+          "sha256": "1c20cb9bdcaeed95d0fc6924b2ff3a82d4c09cb89580619602a9dcc1486c71b7",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.74429376617181,
+          "capture_time_s": 13.320103974692323,
+          "terminal_arm_angle_rad": 2.897406507648267,
+          "feasible": true,
+          "generations_completed": 48,
+          "evaluations": 960,
+          "maximum_base_angular_velocity_rad_s": 0.06977761949828798,
+          "alignment_angle_rad": 1.1409280660928494,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 7,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_07.json",
+          "sha256": "bb5fc5c635af20f9406374397d03a5020d8295231bd251b48786eadc56ba1a2d",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.560633416858686,
+          "capture_time_s": 12.408726280462089,
+          "terminal_arm_angle_rad": 2.786538400916744,
+          "feasible": true,
+          "generations_completed": 51,
+          "evaluations": 1020,
+          "maximum_base_angular_velocity_rad_s": 0.06952415790445167,
+          "alignment_angle_rad": 1.22911580283402,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 8,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_08.json",
+          "sha256": "11ebff0f2dbe4a3437fa3548f62847ce73791d923219ba36826f4cab22eb439c",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.58851780721179,
+          "capture_time_s": 12.962271726115004,
+          "terminal_arm_angle_rad": 2.846551222324965,
+          "feasible": true,
+          "generations_completed": 40,
+          "evaluations": 800,
+          "maximum_base_angular_velocity_rad_s": 0.06961928715564236,
+          "alignment_angle_rad": 1.1755111622951893,
+          "minimum_clearance_m": null
+        },
+        {
+          "seed": 9,
+          "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\optimization\\n055_smooth_jerk80_rk4_formal_planning45\\joint\\pso_seed_09.json",
+          "sha256": "df77c49e4a081dee7e3367d75a6493a83928f94fc44cc139ebfd4dad0a56af31",
+          "effective_config_sha256": "07876267e8f44bb4bff75bb1c4b6a666d3b0e248d78396c66159305eb8589b0c",
+          "runtime_overrides": {
+            "objective_weights": null,
+            "planning_clearance_m": 0.045
+          },
+          "implementation_identity_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa",
+          "best_objective": 49.49137590670148,
+          "capture_time_s": 12.744248306183614,
+          "terminal_arm_angle_rad": 2.819841001966392,
+          "feasible": true,
+          "generations_completed": 37,
+          "evaluations": 740,
+          "maximum_base_angular_velocity_rad_s": 0.06952031868877329,
+          "alignment_angle_rad": 1.1966070324337632,
+          "minimum_clearance_m": null
+        }
+      ]
+    }
+  }
+}

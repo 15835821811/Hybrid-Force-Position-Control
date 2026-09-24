@@ -1,0 +1,110 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-agent",
+    "origin_mode": "run",
+    "origin_date": "2026-09-24T02:28:23.536292+00:00",
+    "verification_status": "PARTIALLY_VERIFIED",
+    "version_label": "precontact_comparison_v1"
+  },
+  "mode": "controller-ablation",
+  "comparison_contract": {
+    "same_model_contract": true,
+    "configuration_contract_valid": true,
+    "same_target_contract": true,
+    "fixed_time_within_one_physics_step": true,
+    "all_replay_integrity_passed": true
+  },
+  "comparison_diagnostics": {
+    "same_effective_config": false,
+    "all_config_snapshot_hashes_valid": true,
+    "controller_ablation_differences_only": true,
+    "controller_variants": [
+      "full",
+      "no-shape",
+      "no-base-reaction"
+    ]
+  },
+  "method_order": [
+    "Full",
+    "No shape",
+    "No base reaction"
+  ],
+  "methods": [
+    {
+      "method": "Full",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_07\\full\\metrics.json",
+      "metrics_sha256": "48d3de348adab978ab5c16f2d036a28b6eb802d45cdc27a1d8437dce6933eed4",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_07\\full\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": true,
+      "qualification": "qualified",
+      "controller_variant": "full",
+      "requested_capture_time_s": 12.408726280462089,
+      "executed_capture_time_s": 12.408,
+      "terminal_arm_angle_rad": 2.786538400916744,
+      "dynamic_objective": 67.80900599620058,
+      "constraint_penalty": 0.0,
+      "maximum_base_angular_velocity_rad_s": 0.08159907100159336,
+      "rms_base_angular_velocity_rad_s": 0.022753195721332276,
+      "maximum_base_orientation_drift_rad": 0.05563140284974584,
+      "terminal_position_error_m": 9.242011770480853e-06,
+      "terminal_orientation_error_rad": 1.9349070855733865e-05,
+      "terminal_arm_angle_error_rad": 0.0016745862238916054,
+      "minimum_clearance_m": 0.2068545479327899,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": null
+    },
+    {
+      "method": "No shape",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_07\\no_shape\\metrics.json",
+      "metrics_sha256": "8b9a09a4833f8a548a5b7ccad8244e9d11107c4d2720276847876941546e9813",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_07\\no_shape\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": false,
+      "qualification": "unqualified",
+      "controller_variant": "no-shape",
+      "requested_capture_time_s": 12.408726280462089,
+      "executed_capture_time_s": 12.408,
+      "terminal_arm_angle_rad": 2.786538400916744,
+      "dynamic_objective": 10887795.061947146,
+      "constraint_penalty": 10887728.558615588,
+      "maximum_base_angular_velocity_rad_s": 0.08079505519880842,
+      "rms_base_angular_velocity_rad_s": 0.016998012161679694,
+      "maximum_base_orientation_drift_rad": 0.07938470700474107,
+      "terminal_position_error_m": 0.004800465616975816,
+      "terminal_orientation_error_rad": 0.0003259674402431567,
+      "terminal_arm_angle_error_rad": 1.8373961562685448,
+      "minimum_clearance_m": 0.16972170852658955,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": null
+    },
+    {
+      "method": "No base reaction",
+      "metrics_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_07\\no_base_reaction\\metrics.json",
+      "metrics_sha256": "4540e46b1005af2c6880b9a1e8f5b23f5e228d91621a61b1a34dae04471fdc11",
+      "validation_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_07\\no_base_reaction\\validation.json",
+      "replay_integrity_passed": true,
+      "acceptance_passed": true,
+      "qualification": "qualified",
+      "controller_variant": "no-base-reaction",
+      "requested_capture_time_s": 12.408726280462089,
+      "executed_capture_time_s": 12.408,
+      "terminal_arm_angle_rad": 2.786538400916744,
+      "dynamic_objective": 67.73328245101541,
+      "constraint_penalty": 0.0,
+      "maximum_base_angular_velocity_rad_s": 0.08155265804254688,
+      "rms_base_angular_velocity_rad_s": 0.022745140526330084,
+      "maximum_base_orientation_drift_rad": 0.05558005894847882,
+      "terminal_position_error_m": 9.254943958889892e-06,
+      "terminal_orientation_error_rad": 1.9353183098419716e-05,
+      "terminal_arm_angle_error_rad": 0.0018929934238185453,
+      "minimum_clearance_m": 0.204821311217547,
+      "torque_saturation_fraction": 0.0,
+      "base_angular_velocity_improvement_vs_baseline_percent": -0.05691164477099283
+    }
+  ],
+  "claim_gate": {
+    "all_methods_qualified": false,
+    "relative_improvement_claim_allowed": false
+  }
+}

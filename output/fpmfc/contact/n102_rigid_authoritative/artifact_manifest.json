@@ -1,0 +1,14 @@
+{
+  "schema_version": "fpmfc_contact_artifact_manifest_v1",
+  "variant": "rigid",
+  "verification_status": "VERIFIED",
+  "artifacts": {
+    "metrics.json": "9096d5b650c9e4366948fdf87500a0c4087bae8d1e4da82abf93c3e4d249e870",
+    "trace.npz": "5efc5d7d4c42a217a36d2f9f321ec2a73d4bfedb939cd6d7ae5aca9cefdca10a",
+    "validation.json": "8f1be24e8cd40da698db1e3bf5c34f08fa4b2b8def7f42602a417df583b193b4"
+  },
+  "source_trace": {
+    "path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+    "sha256": "f87ea06936b7c11361cac9cdd69da70655c876582fcc48f565057f147bd8d716"
+  }
+}

@@ -69,9 +69,9 @@ C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.validate_visualizati
 C:\Users\admin\.conda\envs\rltoorch\python.exe -m unittest tests.test_mujoco_migration -v
 ```
 
-## 论文力-位-型方法的适配复现
+## 论文方法复现与自定义场景验证
 
-`v6_mujoco/fpmfc` 在上述迁移基线上实现了论文范围内的接触前复现：从完整质量矩阵计算自由基座零动量映射与广义雅可比，用 Flexiv 的 S–E–W 几何臂形角替代理想 SRS 解析角，采用末端一级、臂形与基座反作用二级的严格 HQP，并联合优化捕获时间与终端臂形。论文仿真把期望力设为零且未验证真实接触，因此接触动力学不混入这一阶段的主结果。
+`v6_mujoco/fpmfc` 在上述迁移基线上重新实现论文的方法思想：从完整质量矩阵计算自由基座零动量映射与广义雅可比，用 Flexiv 的 S–E–W 几何臂形角替代理想 SRS 解析角，采用末端一级、臂形与基座反作用二级的严格 HQP，并联合优化捕获时间与终端臂形。模型、目标、抓捕点、质量惯量、约束和步长均采用本项目设置，因此目标是方法复现与用户场景验证，不是复现论文的具体数值。
 
 数学与控制回归测试：
 
@@ -87,7 +87,7 @@ C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.optimizer --co
 
 优化器同时写入同名 `.jsonl` 每代进度，并在最终 JSON 中保存该种子的前 5 个候选，供 500 Hz 动力学排序复核。
 
-论文的强固定臂形基线使用同一评估器，只固定 `ψ` 并重新优化捕获时间：
+固定 `ψ=0` 与 `ψ=π/2` 的命令仅保留用于 N071/N072 补充构型诊断；当前 Flexiv 场景下二者均落入不利构型，不作为复现成败门槛，也不再默认启动完整穷举。若论文确需性能型固定臂形对照，应先预注册并冻结一个或两个可行角度，再使用同一评估器优化捕获时间：
 
 ```powershell
 C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.optimizer --config configs/fpmfc_paper.yaml --seed 0 --fixed-arm-angle 0.0 --output output/fpmfc/optimization/fixed_psi_0_seed_00.json
@@ -100,10 +100,10 @@ C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.optimizer --co
 C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.run_candidates --optimizer-json output/fpmfc/optimization/pso_seed_00.json --config configs/fpmfc_paper.yaml --top-k 5 --output-root output/fpmfc/precontact/seed_00_candidates
 ```
 
-可断点续跑的多种子/多基线套件（已完成且配置哈希一致的种子会跳过）：
+可断点续跑的多种子联合优化套件（已完成且配置哈希一致的种子会跳过）：
 
 ```powershell
-C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.pso_suite --config configs/fpmfc_paper.yaml --variants joint fixed0 fixedpi2 --seeds 0 1 2 3 4 5 6 7 8 9 --output-root output/fpmfc/optimization/formal
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.pso_suite --config configs/fpmfc_paper.yaml --variants joint --seeds 0 1 2 3 4 5 6 7 8 9 --output-root output/fpmfc/optimization/formal
 ```
 
 独立种子可并行执行；正式第一批推荐 `--parallel 3`。每个种子仍使用独立 JSON/JSONL，完整结果会按配置哈希安全跳过：
@@ -174,6 +174,36 @@ C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.visualize_capt
 C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.run_capture --config configs/fpmfc_paper.yaml --capture-time <T> --arm-angle <psi> --controller-variant no-shape --output-dir <no_shape_output>
 C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.compare_precontact --mode controller-ablation --methods Full=<full_metrics.json> "No shape=<no_shape_metrics.json>" --output-dir <comparison_output>
 ```
+
+N073 的正式 10-seed × 3-variant 套件会先冻结原始候选顺序中的首个联合合格候选，再运行、重放并聚合 30 条轨迹；重复执行会安全跳过已通过身份与哈希审计的结果：
+
+```powershell
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.controller_ablation_suite --manifest-only
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.controller_ablation_suite --parallel 3
+```
+
+N073 当前结果为：`full` 10/10 合格、`no-shape` 0/10、`no-base-reaction` 10/10。证据边界和收窄后的论文主张见 `paper/N073_CONTROLLER_ABLATION_REPORT.md`。
+
+接触扩展使用独立的 `configs/fpmfc_contact.yaml`，不会改变已冻结的接触前配置与实现身份。N100/N101 会验证接触 wrench 的 geom 符号、世界坐标变换、参考点力矩搬移，以及 2 ms 法向导纳离散器与临界阻尼连续解的一致性：
+
+```powershell
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.contact_precheck
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m unittest tests.test_fpmfc_contact -v
+```
+
+预检结果写入 `output/fpmfc/contact/n100_n101_precheck.json`。N102–N104 使用独立物理目标场景、1 s 单边接触瞬态和同一 N073 seed-00 终态，可分别运行与重放：
+
+```powershell
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.run_contact --variant rigid --output-dir output/fpmfc/contact/n102_rigid_authoritative
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.run_contact --variant admittance --output-dir output/fpmfc/contact/n103_admittance_authoritative
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.run_contact --variant admittance-no-shape --output-dir output/fpmfc/contact/n104_admittance_no_shape_authoritative
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.validate_contact --output-dir <run-dir>
+C:\Users\admin\.conda\envs\rltoorch\python.exe -m v6_mujoco.fpmfc.contact_comparison
+```
+
+三组均通过公共安全/接触门和独立力矩重放。N103 相对刚性基线降低力冲量 `18.42%`、接触角冲量 `39.47%` 和基座峰值角速度 `18.51%`，但峰值力增加 `27.60%`，稳态力 RMSE 为 `41.28% F_d`，未通过预注册的 10% 力跟踪门。该负结果与后续改进路线见 `paper/N102_N104_CONTACT_VALIDATION_REPORT.md`。
+
+最新正式结果的图表、轨迹视频和来源说明见 [2026-09-24 结果图集](output/fpmfc/visualization/latest_results_20260924/README.md)。本分支收录 N055R、N061、N070–N073 和 N100–N104 的正式或补充输出；较大的 `trace.npz` 使用 Git LFS 保存，克隆后需启用 Git LFS 才能取得完整轨迹。
 
 参数来源、可复现实验矩阵与 A/B 级证据边界见 `paper/EXPERIMENT_PLAN.md`，逐次运行状态见 `paper/EXPERIMENT_TRACKER.md`。
 

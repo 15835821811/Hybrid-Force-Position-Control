@@ -45,6 +45,9 @@ class MigrationTests(unittest.TestCase):
         self.assertEqual((self.model.nq, self.model.nv, self.model.nu), (14, 13, 7))
         self.assertAlmostEqual(float(self.model.opt.timestep), 0.002)
         self.assertLess(np.linalg.norm(self.model.opt.gravity), 1e-12)
+        self.assertEqual(
+            int(self.model.opt.integrator), int(mujoco.mjtIntegrator.mjINT_RK4)
+        )
         flange = site_id(self.model, "flange_site")
         self.assertLess(np.linalg.norm(self.data.site_xpos[flange] - SIMSCAPE_HOME_FLANGE_POSITION_M), 0.001)
 

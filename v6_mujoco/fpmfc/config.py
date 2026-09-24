@@ -68,6 +68,8 @@ def validate_fpmfc_config(config: Mapping[str, Any]) -> None:
         raise ValueError("base inertia must have three diagonal entries")
     if len(model["home_joint_position_deg"]) != 7:
         raise ValueError("Flexiv home configuration must contain seven joints")
+    if model.get("integrator") != "RK4":
+        raise ValueError("model.integrator must be 'RK4' for momentum-preserving replay")
 
     target = config["target"]
     if target.get("geometry") != "cube":
@@ -116,6 +118,13 @@ def validate_fpmfc_config(config: Mapping[str, Any]) -> None:
     if not 0.0 < float(optimizer["pso_velocity_fraction"]) <= 1.0:
         raise ValueError("PSO velocity fraction must be in (0, 1]")
     acceptance = config["acceptance"]
+    planning_shape_limit = float(optimizer["planning_terminal_arm_angle_error_rad"])
+    acceptance_shape_limit = float(acceptance["terminal_arm_angle_error_rad"])
+    if not 0.0 < planning_shape_limit <= acceptance_shape_limit:
+        raise ValueError(
+            "planning terminal arm-angle error must be positive and no greater "
+            "than the dynamic acceptance threshold"
+        )
     controller = config["controller"]
     planning_clearance = float(controller["minimum_clearance_m"])
     if planning_clearance <= 0.0:

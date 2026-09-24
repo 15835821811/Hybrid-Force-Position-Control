@@ -1,0 +1,50 @@
+{
+  "material_passport": {
+    "origin_skill": "visualize",
+    "origin_mode": "verified-trace-render",
+    "verification_status": "VERIFIED",
+    "version_label": "fpmfc_capture_visualization_v1"
+  },
+  "source_trace": "output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+  "source_trace_sha256": "f87ea06936b7c11361cac9cdd69da70655c876582fcc48f565057f147bd8d716",
+  "source_metrics": "output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\metrics.json",
+  "source_metrics_sha256": "d3f79b8ba118ad3ebbd5059bc695cfc462f47b1a51bc75919ec0d66d14bdd01b",
+  "video": {
+    "path": "output\\fpmfc\\visualization\\latest_results_20260924\\motion_full\\selected_capture_isometric.mp4",
+    "sha256": "65ba98d8495f4d073efc33184bf3a869fe0b242bb41f2fa089c64b43041ea414",
+    "bytes": 256209,
+    "width": 640,
+    "height": 480,
+    "frames": 121,
+    "duration_s": 8.066667,
+    "fps": 15
+  },
+  "storyboard": {
+    "path": "output\\fpmfc\\visualization\\latest_results_20260924\\motion_full\\selected_capture_storyboard.png",
+    "sha256": "ba425c5a77aa3a4d6558197227bba69bce768692a48f7f6730ef1c14bfb2808f",
+    "bytes": 140217,
+    "width": 1440,
+    "height": 360
+  },
+  "gif": {
+    "path": "output\\fpmfc\\visualization\\latest_results_20260924\\motion_full\\selected_capture_isometric.gif",
+    "sha256": "ecf0c87455806bb97327b21e78dd45d958525107dd870b18ad284ef1388f89bb",
+    "bytes": 1476044,
+    "width": 480,
+    "height": 360,
+    "frames": 65,
+    "duration_s": 8.13,
+    "fps": 8
+  },
+  "checks": {
+    "source_trace_matches_metrics": true,
+    "video_dimensions_match": true,
+    "video_frame_count_matches": true,
+    "video_duration_matches": true,
+    "storyboard_complete": true,
+    "gif_dimensions_match": true,
+    "gif_frame_count_matches": true,
+    "gif_duration_matches": true
+  },
+  "passed": true
+}

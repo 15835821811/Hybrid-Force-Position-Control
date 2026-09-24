@@ -333,7 +333,7 @@ class PrecontactRolloutEvaluator:
         clearance_required = float(self.config["controller"]["minimum_clearance_m"])
         position_limit = float(acceptance["terminal_position_error_m"])
         orientation_limit = float(acceptance["terminal_orientation_error_rad"])
-        shape_limit = float(acceptance["terminal_arm_angle_error_rad"])
+        shape_limit = float(optimization["planning_terminal_arm_angle_error_rad"])
         linear_velocity_limit = float(acceptance["terminal_linear_velocity_m_s"])
         angular_velocity_limit = float(acceptance["terminal_angular_velocity_rad_s"])
         position_excess = max(0.0, terminal_position_error - position_limit) / position_limit

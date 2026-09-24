@@ -1,0 +1,113 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-result-to-claim",
+    "origin_mode": "run",
+    "origin_date": "2026-09-24T03:10:43.194203+00:00",
+    "verification_status": "VERIFIED",
+    "version_label": "n102_n104_contact_comparison_v1"
+  },
+  "experiment_ids": [
+    "N102",
+    "N103",
+    "N104"
+  ],
+  "scope": "one_second_unilateral_contact_transient_on_custom_free_target",
+  "contract_checks": {
+    "same_config_model_implementation": true,
+    "same_source_handoff": true,
+    "all_independent_replays_verified": true
+  },
+  "runs": {
+    "rigid": {
+      "peak_normal_force_n": 4.0117057013778865,
+      "normal_force_impulse_ns": 2.4132468778963614,
+      "steady_force_rmse_n": 1.0673209335315523,
+      "maximum_penetration_m": 0.000285640039445398,
+      "maximum_base_angular_speed_rad_s": 0.010263980816303295,
+      "robot_contact_angular_impulse_about_initial_com_norm_nms": 0.2294042584650775,
+      "contact_loss_events": 3,
+      "maximum_sustained_contact_loss_s": 0.052000000000000005,
+      "common_passed": true,
+      "force_tracking_passed": null,
+      "overall_passed": true,
+      "replay_verified": true
+    },
+    "admittance": {
+      "peak_normal_force_n": 5.118885792420957,
+      "normal_force_impulse_ns": 1.9687744961820057,
+      "steady_force_rmse_n": 1.2383079734442908,
+      "maximum_penetration_m": 0.00027900704396027103,
+      "maximum_base_angular_speed_rad_s": 0.008364192595383381,
+      "robot_contact_angular_impulse_about_initial_com_norm_nms": 0.13884931962787198,
+      "contact_loss_events": 3,
+      "maximum_sustained_contact_loss_s": 0.08600000000000001,
+      "common_passed": true,
+      "force_tracking_passed": false,
+      "overall_passed": false,
+      "replay_verified": true
+    },
+    "admittance-no-shape": {
+      "peak_normal_force_n": 5.895242015496829,
+      "normal_force_impulse_ns": 1.5765755487654456,
+      "steady_force_rmse_n": 1.5934291306476887,
+      "maximum_penetration_m": 0.00019096363758646238,
+      "maximum_base_angular_speed_rad_s": 0.011614317061603449,
+      "robot_contact_angular_impulse_about_initial_com_norm_nms": 0.13313340083501413,
+      "contact_loss_events": 6,
+      "maximum_sustained_contact_loss_s": 0.08600000000000001,
+      "common_passed": true,
+      "force_tracking_passed": false,
+      "overall_passed": false,
+      "replay_verified": true
+    }
+  },
+  "admittance_vs_rigid_lower_is_better_improvement_percent": {
+    "peak_normal_force_n": -27.598736633716456,
+    "normal_force_impulse_ns": 18.41802369187376,
+    "steady_force_rmse_n": -16.020208593396212,
+    "maximum_penetration_m": 2.3221518586839798,
+    "maximum_base_angular_speed_rad_s": 18.5092729119514,
+    "robot_contact_angular_impulse_about_initial_com_norm_nms": 39.47395721557228
+  },
+  "admittance_with_shape_vs_without_shape_lower_is_better_improvement_percent": {
+    "peak_normal_force_n": 13.169200196278013,
+    "normal_force_impulse_ns": -24.876635168145018,
+    "steady_force_rmse_n": 22.286598780772263,
+    "maximum_penetration_m": -46.10480167144143,
+    "maximum_base_angular_speed_rad_s": 27.983775963589565,
+    "robot_contact_angular_impulse_about_initial_com_norm_nms": -4.293376986546986
+  },
+  "artifact_provenance": {
+    "rigid": {
+      "output_dir": "output\\fpmfc\\contact\\n102_rigid_authoritative",
+      "metrics_path": "output\\fpmfc\\contact\\n102_rigid_authoritative\\metrics.json",
+      "metrics_sha256": "9096d5b650c9e4366948fdf87500a0c4087bae8d1e4da82abf93c3e4d249e870",
+      "validation_path": "output\\fpmfc\\contact\\n102_rigid_authoritative\\validation.json",
+      "validation_sha256": "8f1be24e8cd40da698db1e3bf5c34f08fa4b2b8def7f42602a417df583b193b4"
+    },
+    "admittance": {
+      "output_dir": "output\\fpmfc\\contact\\n103_admittance_authoritative",
+      "metrics_path": "output\\fpmfc\\contact\\n103_admittance_authoritative\\metrics.json",
+      "metrics_sha256": "921c26c164853d35f60cdb4890c9bf264c4d693e0ff0a482c0c6950156a3c9e1",
+      "validation_path": "output\\fpmfc\\contact\\n103_admittance_authoritative\\validation.json",
+      "validation_sha256": "b77d61bbf19f3b465765a1515edb379f28acf9e021b3eb57a65c98f0bfa5dbbe"
+    },
+    "admittance-no-shape": {
+      "output_dir": "output\\fpmfc\\contact\\n104_admittance_no_shape_authoritative",
+      "metrics_path": "output\\fpmfc\\contact\\n104_admittance_no_shape_authoritative\\metrics.json",
+      "metrics_sha256": "4898d78f4d299f3da6d3a0861af80b1964e203b399fd8c27eab53fa4d499ca95",
+      "validation_path": "output\\fpmfc\\contact\\n104_admittance_no_shape_authoritative\\validation.json",
+      "validation_sha256": "258335979f7bce6ff21ad6e0175e59ab361b9df24f4848aab101bde43debd113"
+    }
+  },
+  "gated_interpretation": {
+    "rigid_common_safety_and_contact_gate": true,
+    "admittance_common_safety_and_contact_gate": true,
+    "admittance_force_tracking_gate": false,
+    "no_shape_common_safety_and_contact_gate": true,
+    "no_shape_force_tracking_gate": false,
+    "supports_peak_force_reduction_claim": false,
+    "supports_impulse_reduction_claim": true,
+    "supports_angular_impulse_reduction_claim": true
+  }
+}

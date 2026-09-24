@@ -1,0 +1,218 @@
+{
+  "material_passport": {
+    "origin_skill": "experiment-plan",
+    "origin_mode": "run",
+    "origin_date": "2026-09-24T03:10:40.467637+00:00",
+    "verification_status": "UNVERIFIED",
+    "version_label": "contact_result_v1"
+  },
+  "experiment_id": "flexiv_rizon4s_fpmfc_contact",
+  "scope": "custom_flexiv_physical_target_contact_extension",
+  "variant": "admittance",
+  "controller_variant": "full",
+  "contact_config_path": "configs\\fpmfc_contact.yaml",
+  "contact_config_sha256": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+  "effective_contact_config_sha256": "ebcb40ab18435e192f4579e276eec21aeaf3ff86d1ce6a47149bc13688f3adda",
+  "effective_contact_config": {
+    "schema_version": "fpmfc_contact_extension_v1",
+    "experiment_id": "flexiv_rizon4s_fpmfc_contact",
+    "precontact_config": "configs/fpmfc_paper_planning45_effective.yaml",
+    "physical_target": {
+      "mass_kg": 20.0,
+      "diagonal_inertia_kg_m2": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "parameter_sensitivity_fraction": 0.2
+    },
+    "interface": {
+      "tool_pad_radius_m": 0.035,
+      "tool_pad_half_thickness_m": 0.005,
+      "tool_pad_face_recess_m": 0.0002,
+      "target_plate_half_size_m": [
+        0.05,
+        0.05,
+        0.005
+      ],
+      "friction": [
+        0.8,
+        0.005,
+        0.0001
+      ],
+      "contact_margin_m": 0.0,
+      "solver_time_constant_s": 0.05,
+      "solver_damping_ratio": 1.0,
+      "contact_detection_force_n": 0.2,
+      "contact_release_force_n": 0.1
+    },
+    "force_control": {
+      "desired_normal_force_n": 3.0,
+      "force_ramp_duration_s": 0.5,
+      "contact_stage_duration_s": 1.0,
+      "steady_evaluation_window_s": 0.2,
+      "rigid_normal_offset_m": 0.0012,
+      "virtual_mass_kg": 1.0,
+      "stiffness_n_m": 2500.0,
+      "damping_ratio": 1.0,
+      "maximum_offset_m": 0.003,
+      "maximum_velocity_m_s": 0.02,
+      "reset_on_contact_loss": true
+    },
+    "acceptance": {
+      "maximum_peak_contact_force_n": 20.0,
+      "maximum_steady_force_rmse_fraction": 0.1,
+      "maximum_penetration_m": 0.002,
+      "maximum_sustained_contact_loss_s": 0.1
+    },
+    "provenance": {
+      "precontact_config": "user",
+      "physical_target.mass_kg": "calibrated",
+      "physical_target.diagonal_inertia_kg_m2": "calibrated",
+      "physical_target.parameter_sensitivity_fraction": "calibrated",
+      "interface.tool_pad_radius_m": "calibrated",
+      "interface.tool_pad_half_thickness_m": "calibrated",
+      "interface.tool_pad_face_recess_m": "calibrated",
+      "interface.target_plate_half_size_m": "calibrated",
+      "interface.friction": "user",
+      "interface.contact_margin_m": "calibrated",
+      "interface.solver_time_constant_s": "calibrated",
+      "interface.solver_damping_ratio": "calibrated",
+      "interface.contact_detection_force_n": "calibrated",
+      "interface.contact_release_force_n": "calibrated",
+      "force_control.desired_normal_force_n": "calibrated",
+      "force_control.force_ramp_duration_s": "calibrated",
+      "force_control.contact_stage_duration_s": "calibrated",
+      "force_control.steady_evaluation_window_s": "calibrated",
+      "force_control.rigid_normal_offset_m": "calibrated",
+      "force_control.virtual_mass_kg": "calibrated",
+      "force_control.stiffness_n_m": "calibrated",
+      "force_control.damping_ratio": "calibrated",
+      "force_control.maximum_offset_m": "calibrated",
+      "force_control.maximum_velocity_m_s": "calibrated",
+      "force_control.reset_on_contact_loss": "calibrated",
+      "acceptance.maximum_peak_contact_force_n": "calibrated",
+      "acceptance.maximum_steady_force_rmse_fraction": "calibrated",
+      "acceptance.maximum_penetration_m": "calibrated",
+      "acceptance.maximum_sustained_contact_loss_s": "calibrated"
+    }
+  },
+  "precontact_config_path": "configs\\fpmfc_paper_planning45_effective.yaml",
+  "precontact_config_sha256": "5698170e1c44a68fada8aab158c346d59912004e84c6a4b4d7c3717a294c145c",
+  "effective_controller_config": {
+    "level1_position_tolerance_m_s": 0.0001,
+    "level1_angular_tolerance_rad_s": 0.0001,
+    "minimum_clearance_m": 0.045,
+    "position_gain": 5.0,
+    "orientation_gain": 8.0,
+    "angular_saturation_transition_ratio": 0.9,
+    "joint_jerk_limit_rad_s3": 80.0,
+    "shape_gain": 2.0,
+    "shape_weight": 1.0,
+    "base_reaction_weight": 1.0,
+    "qp_tolerance": 1e-05,
+    "qp_max_iterations": 2000,
+    "feasibility_tolerance": 0.0001
+  },
+  "source_handoff": {
+    "source_trace_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+    "source_trace_sha256": "f87ea06936b7c11361cac9cdd69da70655c876582fcc48f565057f147bd8d716",
+    "capture_time_s": 8.0,
+    "terminal_arm_angle_rad": -1.492877399060744,
+    "target_transfer_errors": {
+      "center_position_m": 0.0,
+      "grasp_position_m": 1.1443916996305594e-16,
+      "grasp_rotation_frobenius": 2.719479911021037e-16,
+      "grasp_linear_velocity_m_s": 8.8689616089702e-18,
+      "grasp_angular_velocity_rad_s": 8.396834023525706e-17
+    }
+  },
+  "model_identity": {
+    "contract_version": "flexiv_rizon4s_physical_contact_v1",
+    "model_xml_sha256": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+    "source_bundle_sha256": "3ba4a9d739aafcad37af13b2aaeb1429f6de36286fda6c50ab985a6869d0e89f",
+    "contact_config_sha256": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+    "mujoco_version": "3.3.2",
+    "state_dimensions": [
+      21,
+      19,
+      7
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "integrator": "RK4",
+    "interface_geoms": [
+      "gripper_contact_pad",
+      "target_contact_plate"
+    ],
+    "runtime_contract_sha256": "8127a4ab9cf99c95c05e4820ceee814764de3f9c6c1a3571482c05069a6fdeea"
+  },
+  "implementation_identity": {
+    "schema_version": "fpmfc_contact_implementation_identity_v1",
+    "files": {
+      "configs/fpmfc_contact.yaml": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+      "models/flexiv_rizon4s_contact_scene.xml": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+      "v6_mujoco/fpmfc/contact.py": "2530a240dc59605e9d940e1fe64fecacebceb532062bc2499d66363e25043471",
+      "v6_mujoco/fpmfc/contact_config.py": "8b0772ee2dce3e1449ced70574edea54a0b69c0f6d41189b248b05b17dafb4cf",
+      "v6_mujoco/fpmfc/contact_model.py": "ffa6fda7fbaab060a20049f9746351bccb8b30648125a6240970a8ff34d6549d",
+      "v6_mujoco/fpmfc/contact_precheck.py": "1074e1c76cbddfe042c191b7c91869cf9f568bdfc7789d9da509ce0e5f439c2b",
+      "v6_mujoco/fpmfc/run_contact.py": "bfda536c3aa1687f0454334e3917d49e6419a417f792cb2ce053455d98cf7d6d"
+    },
+    "composite_sha256": "7d4e44bcc9238fa957487629ea40481f5cc62cace26f3ed459e467fc6b494e5c"
+  },
+  "run_config": {
+    "reference_tracking_band_rad": 0.012,
+    "servo_natural_frequency_rad_s": 34.0,
+    "servo_acceleration_limit_rad_s2": 70.0
+  },
+  "scene_runtime_overrides": {
+    "workspace_obstacle_position_world_m": [
+      10.0,
+      10.0,
+      10.0
+    ]
+  },
+  "physics_steps": 500,
+  "task_ticks": 50,
+  "elapsed_wall_s": 0.3359932,
+  "qpos_write_count_after_initialization": 0,
+  "qvel_write_count_after_initialization": 0,
+  "metrics": {
+    "peak_normal_force_n": 5.118885792420957,
+    "normal_force_impulse_ns": 1.9687744961820057,
+    "steady_force_rmse_n": 1.2383079734442908,
+    "steady_force_rmse_fraction": 0.4127693244814303,
+    "maximum_penetration_m": 0.00027900704396027103,
+    "contact_loss_events": 3,
+    "maximum_sustained_contact_loss_s": 0.08600000000000001,
+    "contact_detected_fraction": 0.878,
+    "final_normal_force_n": 2.751909593397147,
+    "task_success_rate": 1.0,
+    "torque_saturation_fraction": 0.0,
+    "maximum_base_angular_speed_rad_s": 0.008364192595383381,
+    "rms_base_angular_speed_rad_s": 0.0050201263884149605,
+    "robot_contact_linear_impulse_norm_ns": 1.977733319995786,
+    "robot_contact_angular_impulse_about_initial_com_norm_nms": 0.13884931962787198,
+    "robot_momentum_change_max": 1.9738215630433198,
+    "total_momentum_drift_max": 1.088710500072974e-07,
+    "relative_position_error_max_m": 0.0019314307038037965,
+    "relative_orientation_error_max_rad": 0.0009652802277018587,
+    "relative_linear_speed_max_m_s": 0.056477505335482014,
+    "maximum_command_normal_offset_m": 0.0004754950841701914
+  },
+  "acceptance": {
+    "all_numeric_finite": true,
+    "contact_acquired": true,
+    "peak_contact_force": true,
+    "maximum_penetration": true,
+    "maximum_sustained_contact_loss": true,
+    "task_success_rate": true,
+    "torque_saturation_fraction": true,
+    "total_momentum_drift": true,
+    "common_passed": true,
+    "steady_force_tracking": false,
+    "passed": false
+  },
+  "trace": "output\\fpmfc\\contact\\n103_admittance_authoritative\\trace.npz",
+  "trace_sha256": "3db5e0a3c7223c39b0a599a62e5e17ccdafabe1a280c7831eb9f207d9287094b"
+}

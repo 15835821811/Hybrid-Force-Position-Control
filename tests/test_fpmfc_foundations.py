@@ -3,13 +3,21 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 import mujoco
 import numpy as np
 from scipy.spatial.transform import Rotation
 
-from v6_mujoco.fpmfc.config import apply_runtime_overrides, load_fpmfc_config
+from v6_mujoco.fpmfc.config import (
+    apply_runtime_overrides,
+    load_fpmfc_config,
+    validate_fpmfc_config,
+)
 from v6_mujoco.fpmfc.dynamics import FreeFloatingKinematics, rotation_delta_world
+from v6_mujoco.fpmfc.rollout import PrecontactRolloutEvaluator
+from v6_mujoco.fpmfc.run_capture import run_precontact_candidate
 from v6_mujoco.fpmfc.shape import ArmShapeKinematics, unwrap_angle
 from v6_mujoco.fpmfc.target import sync_mujoco_target, target_from_config
 from v6_mujoco.fpmfc.trajectory import PoseShapeTrajectory, quintic_time_scaling
@@ -50,6 +58,26 @@ class FPMFCFoundationTests(unittest.TestCase):
             rtol=0.0,
             atol=1e-9,
         )
+        self.assertEqual(model_config["integrator"], "RK4")
+        self.assertEqual(self.spec.integrator, "RK4")
+        self.assertEqual(
+            int(self.model.opt.integrator), int(mujoco.mjtIntegrator.mjINT_RK4)
+        )
+
+    def test_rk4_replay_preserves_momentum_for_former_failure_branch(self) -> None:
+        effective = apply_runtime_overrides(
+            self.config, planning_clearance_m=0.045
+        )
+        with TemporaryDirectory() as directory:
+            result = run_precontact_candidate(
+                effective,
+                capture_time_s=12.559110859785916,
+                terminal_arm_angle_rad=2.8186331817200623,
+                output_dir=Path(directory),
+            )
+        self.assertTrue(result["acceptance"]["momentum_delta"])
+        self.assertTrue(result["acceptance"]["passed"])
+        self.assertLess(result["metrics"]["maximum_momentum_delta"], 1e-5)
 
     def test_planning_clearance_override_preserves_acceptance_threshold(self) -> None:
         effective = apply_runtime_overrides(
@@ -67,6 +95,30 @@ class FPMFCFoundationTests(unittest.TestCase):
         self.assertAlmostEqual(self.config["controller"]["minimum_clearance_m"], 0.04)
         with self.assertRaises(ValueError):
             apply_runtime_overrides(self.config, planning_clearance_m=0.035)
+
+    def test_planning_shape_margin_is_stricter_than_dynamic_acceptance(self) -> None:
+        planning_limit = float(
+            self.config["optimization"]["planning_terminal_arm_angle_error_rad"]
+        )
+        acceptance_limit = float(
+            self.config["acceptance"]["terminal_arm_angle_error_rad"]
+        )
+        self.assertAlmostEqual(np.rad2deg(planning_limit), 0.75)
+        self.assertLess(planning_limit, acceptance_limit)
+
+        invalid = apply_runtime_overrides(self.config)
+        invalid["optimization"]["planning_terminal_arm_angle_error_rad"] = (
+            acceptance_limit + 1e-6
+        )
+        with self.assertRaises(ValueError):
+            validate_fpmfc_config(invalid)
+
+        effective = apply_runtime_overrides(self.config, planning_clearance_m=0.045)
+        rollout = PrecontactRolloutEvaluator(effective).evaluate(8.0, -1.5)
+        self.assertGreater(rollout.terminal_arm_angle_error_rad, planning_limit)
+        self.assertLess(rollout.terminal_arm_angle_error_rad, acceptance_limit)
+        self.assertFalse(rollout.feasible)
+        self.assertGreater(rollout.constraint_penalty, 0.0)
 
     def test_reaction_map_zeroes_base_momentum_over_random_states(self) -> None:
         rng = np.random.default_rng(20260915)

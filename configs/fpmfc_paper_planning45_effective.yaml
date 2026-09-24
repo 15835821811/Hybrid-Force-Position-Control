@@ -1,0 +1,150 @@
+schema_version: fpmfc_flexiv_adaptive_reproduction_v1
+experiment_id: flexiv_rizon4s_fpmfc_precontact
+
+model:
+  xml: models/flexiv_rizon4s_scene.xml
+  base_mass_kg: 500.0
+  base_diagonal_inertia_kg_m2: [20.833333333, 20.833333333, 20.833333333]
+  home_joint_position_deg: [0.0, -40.0, 0.0, 90.0, 0.0, 40.0, 0.0]
+  physics_period_s: 0.002
+  task_period_s: 0.020
+  integrator: RK4
+
+target:
+  geometry: cube
+  side_length_m: 0.30
+  center_position_world_m: [0.95, 0.14, 0.95]
+  center_linear_velocity_world_m_s: [0.0, 0.0, 0.0]
+  initial_rpy_xyz_deg: [90.0, 90.0, 0.0]
+  angular_velocity_body_deg_s: [0.0, 0.0, 5.0]
+  grasp_offset_body_m: [0.0, -0.15, 0.0]
+  grasp_frame_rpy_xyz_deg: [-90.0, 0.0, 0.0]
+
+trajectory:
+  capture_time_bounds_s: [8.0, 25.0]
+  terminal_linear_velocity_world_m_s: [0.0, 0.0, 0.0]
+  terminal_angular_velocity_world_rad_s: [0.0, 0.0, 0.0]
+  interpolation: quintic_c2_so3
+
+shape:
+  shoulder_joint: joint2
+  elbow_joint: joint4
+  wrist_joint: joint6
+  finite_difference_step_rad: 1.0e-6
+  singularity_margin: 1.0e-6
+
+optimization:
+  variables: [capture_time_s, terminal_arm_angle_rad]
+  terminal_arm_angle_bounds_rad: [-3.141592653589793, 3.141592653589793]
+  objective_weights: [1.0, 2.0]
+  planning_terminal_arm_angle_error_rad: 0.01308996938995747
+  base_angular_velocity_reference_rad_s: 0.01
+  alignment_angle_reference_rad: 1.5707963267948966
+  pso_population: 20
+  pso_generations: 1000
+  pso_inertia: 0.9
+  pso_cognitive: 1.5
+  pso_social: 2.0
+  pso_velocity_fraction: 0.10
+  convergence_tolerance: 1.0e-5
+  stagnation_generations: 20
+  seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+controller:
+  level1_position_tolerance_m_s: 1.0e-4
+  level1_angular_tolerance_rad_s: 1.0e-4
+  minimum_clearance_m: 0.045
+  position_gain: 5.0
+  orientation_gain: 8.0
+  angular_saturation_transition_ratio: 0.90
+  joint_jerk_limit_rad_s3: 80.0
+  shape_gain: 2.0
+  shape_weight: 1.0
+  base_reaction_weight: 1.0
+  qp_tolerance: 1.0e-5
+  qp_max_iterations: 2000
+  feasibility_tolerance: 1.0e-4
+
+acceptance:
+  terminal_position_error_m: 0.001
+  terminal_orientation_error_rad: 0.003490658503988659
+  terminal_arm_angle_error_rad: 0.017453292519943295
+  terminal_linear_velocity_m_s: 0.001
+  terminal_angular_velocity_rad_s: 0.003490658503988659
+  minimum_task_success_rate: 1.0
+  maximum_torque_saturation_fraction: 0.001
+  maximum_momentum_delta: 0.05
+  minimum_clearance_m: 0.04
+
+contact_extension:
+  enabled_for_paper_reproduction: false
+  desired_normal_force_range_n: [2.0, 5.0]
+  damping_ratio: 1.0
+  target_parameter_sensitivity_fraction: 0.20
+
+provenance:
+  model.xml: user
+  model.base_mass_kg: paper+user
+  model.base_diagonal_inertia_kg_m2: user
+  model.home_joint_position_deg: user
+  model.physics_period_s: user
+  model.task_period_s: user
+  model.integrator: calibrated
+  target.geometry: user
+  target.side_length_m: user
+  target.center_position_world_m: user
+  target.center_linear_velocity_world_m_s: calibrated
+  target.initial_rpy_xyz_deg: paper
+  target.angular_velocity_body_deg_s: paper
+  target.grasp_offset_body_m: user
+  target.grasp_frame_rpy_xyz_deg: user
+  trajectory.capture_time_bounds_s: calibrated
+  trajectory.terminal_linear_velocity_world_m_s: paper
+  trajectory.terminal_angular_velocity_world_rad_s: paper
+  trajectory.interpolation: paper
+  shape.shoulder_joint: calibrated
+  shape.elbow_joint: calibrated
+  shape.wrist_joint: calibrated
+  shape.finite_difference_step_rad: calibrated
+  shape.singularity_margin: calibrated
+  optimization.variables: paper
+  optimization.terminal_arm_angle_bounds_rad: paper
+  optimization.objective_weights: calibrated
+  optimization.planning_terminal_arm_angle_error_rad: calibrated
+  optimization.base_angular_velocity_reference_rad_s: calibrated
+  optimization.alignment_angle_reference_rad: calibrated
+  optimization.pso_population: paper
+  optimization.pso_generations: paper
+  optimization.pso_inertia: paper
+  optimization.pso_cognitive: paper
+  optimization.pso_social: paper
+  optimization.pso_velocity_fraction: paper
+  optimization.convergence_tolerance: paper
+  optimization.stagnation_generations: calibrated
+  optimization.seeds: calibrated
+  controller.level1_position_tolerance_m_s: calibrated
+  controller.level1_angular_tolerance_rad_s: calibrated
+  controller.minimum_clearance_m: calibrated
+  controller.position_gain: user
+  controller.orientation_gain: user
+  controller.angular_saturation_transition_ratio: calibrated
+  controller.joint_jerk_limit_rad_s3: calibrated
+  controller.shape_gain: calibrated
+  controller.shape_weight: calibrated
+  controller.base_reaction_weight: calibrated
+  controller.qp_tolerance: calibrated
+  controller.qp_max_iterations: calibrated
+  controller.feasibility_tolerance: calibrated
+  acceptance.terminal_position_error_m: calibrated
+  acceptance.terminal_orientation_error_rad: calibrated
+  acceptance.terminal_arm_angle_error_rad: calibrated
+  acceptance.terminal_linear_velocity_m_s: calibrated
+  acceptance.terminal_angular_velocity_rad_s: calibrated
+  acceptance.minimum_task_success_rate: calibrated
+  acceptance.maximum_torque_saturation_fraction: calibrated
+  acceptance.maximum_momentum_delta: calibrated
+  acceptance.minimum_clearance_m: user
+  contact_extension.enabled_for_paper_reproduction: paper
+  contact_extension.desired_normal_force_range_n: calibrated
+  contact_extension.damping_ratio: calibrated
+  contact_extension.target_parameter_sensitivity_fraction: calibrated

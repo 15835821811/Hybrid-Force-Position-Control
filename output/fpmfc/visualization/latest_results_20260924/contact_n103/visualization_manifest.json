@@ -1,0 +1,18 @@
+{
+  "source": "output\\fpmfc\\contact\\n103_admittance_authoritative\\trace.npz",
+  "source_sha256": "3db5e0a3c7223c39b0a599a62e5e17ccdafabe1a280c7831eb9f207d9287094b",
+  "source_manifest_verified": true,
+  "independent_replay_verified": true,
+  "model_runtime_contract_sha256": "8127a4ab9cf99c95c05e4820ceee814764de3f9c6c1a3571482c05069a6fdeea",
+  "video": "output\\fpmfc\\visualization\\latest_results_20260924\\contact_n103\\contact_motion.mp4",
+  "video_sha256": "54f87e8c8e321f5bddbf6507f7d4e614aef8d3c6f5fe0bb2ebdcdccb28f0dded",
+  "frames": 16,
+  "resolution": [
+    640,
+    480
+  ],
+  "video_frame_contract_verified": true,
+  "storyboard": "output\\fpmfc\\visualization\\latest_results_20260924\\contact_n103\\contact_storyboard.png",
+  "storyboard_sha256": "5782c4d0c9f8d388678a1fc9ad5900cb6a38d1ccdfef73c7404bc76da1e6020c",
+  "acceptance_passed": false
+}
