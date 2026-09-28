@@ -1,0 +1,11 @@
+{
+  "schema_version": "n110_R_replay_validation_v1",
+  "archive_trace_sha256_match": true,
+  "archive_qpos_replay_error": 1.720015241346573e-10,
+  "archive_qvel_replay_error": 1.2363686741068136e-09,
+  "original_tolerances": {
+    "qpos": 1e-08,
+    "qvel": 1e-08
+  },
+  "passed": true
+}

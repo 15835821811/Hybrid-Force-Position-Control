@@ -1,0 +1,201 @@
+{
+  "schema_version": "n110_contact_consistency_paired_summary_v1",
+  "base_commit": "ef25536792318c84376b4a2aeaec2254b95c5401",
+  "branch": "codex/n110-contact-consistency-fix",
+  "source_terminal": "N073 seed-00/full",
+  "new_closed_loop_trajectories": 6,
+  "initial_qpos_qvel_identical_across_S_A": true,
+  "physics_steps_per_trajectory": 500,
+  "task_ticks_per_trajectory": 50,
+  "implementation_composite_sha256": "612a0e1bb30fc20ba4c6b5695141090472d14130c00ae65310faade3966abe7c",
+  "all_six_independent_replays_passed": true,
+  "force_rmse_gate_n": 0.3,
+  "groups": {
+    "R": {
+      "rigid": {
+        "historical": {
+          "peak_normal_force_n": 4.011705701,
+          "normal_force_impulse_ns": 2.413246878,
+          "steady_force_rmse_n": 1.067320934,
+          "contact_loss_events": null,
+          "maximum_sustained_contact_loss_s": null
+        },
+        "synchronized": {
+          "peak_normal_force_n": 4.011704632,
+          "normal_force_impulse_ns": 2.413940257,
+          "steady_force_rmse_n": 1.067133707,
+          "contact_loss_events": 3,
+          "maximum_sustained_contact_loss_s": 0.052
+        },
+        "replay_passed": true
+      },
+      "admittance": {
+        "historical": {
+          "peak_normal_force_n": 5.118885792,
+          "normal_force_impulse_ns": 1.968774496,
+          "steady_force_rmse_n": 1.238307973,
+          "contact_loss_events": null,
+          "maximum_sustained_contact_loss_s": null
+        },
+        "synchronized": {
+          "peak_normal_force_n": 5.118883755,
+          "normal_force_impulse_ns": 1.96872525,
+          "steady_force_rmse_n": 1.238271967,
+          "contact_loss_events": 3,
+          "maximum_sustained_contact_loss_s": 0.086
+        },
+        "replay_passed": true
+      },
+      "admittance-no-shape": {
+        "historical": {
+          "peak_normal_force_n": 5.895242015,
+          "normal_force_impulse_ns": 1.576575549,
+          "steady_force_rmse_n": 1.593429131,
+          "contact_loss_events": null,
+          "maximum_sustained_contact_loss_s": null
+        },
+        "synchronized": {
+          "peak_normal_force_n": 5.895232935,
+          "normal_force_impulse_ns": 1.576637275,
+          "steady_force_rmse_n": 1.593393051,
+          "contact_loss_events": 6,
+          "maximum_sustained_contact_loss_s": 0.086
+        },
+        "replay_passed": true
+      }
+    },
+    "S": {
+      "rigid": {
+        "metrics": {
+          "peak_normal_force_n": 4.011705005,
+          "normal_force_impulse_ns": 2.413956338,
+          "steady_force_rmse_n": 1.067159943,
+          "contact_loss_events": 3,
+          "maximum_sustained_contact_loss_s": 0.052
+        },
+        "common_safety_passed": true,
+        "force_tracking_passed": null,
+        "acceptance_passed": true,
+        "independent_replay_passed": true,
+        "next_physics_step_linear_prediction_rmse_m_s": 0.011322121,
+        "next_task_period_linear_prediction_rmse_m_s": 0.007654666
+      },
+      "admittance": {
+        "metrics": {
+          "peak_normal_force_n": 5.310462781,
+          "normal_force_impulse_ns": 1.900479433,
+          "steady_force_rmse_n": 1.549947275,
+          "contact_loss_events": 3,
+          "maximum_sustained_contact_loss_s": 0.086
+        },
+        "common_safety_passed": true,
+        "force_tracking_passed": false,
+        "acceptance_passed": false,
+        "independent_replay_passed": true,
+        "next_physics_step_linear_prediction_rmse_m_s": 0.009613409,
+        "next_task_period_linear_prediction_rmse_m_s": 0.005233722
+      },
+      "admittance-no-shape": {
+        "metrics": {
+          "peak_normal_force_n": 5.767110269,
+          "normal_force_impulse_ns": 1.551248362,
+          "steady_force_rmse_n": 1.797373883,
+          "contact_loss_events": 13,
+          "maximum_sustained_contact_loss_s": 0.086
+        },
+        "common_safety_passed": true,
+        "force_tracking_passed": false,
+        "acceptance_passed": false,
+        "independent_replay_passed": true,
+        "next_physics_step_linear_prediction_rmse_m_s": 0.009110546,
+        "next_task_period_linear_prediction_rmse_m_s": 0.004504917
+      }
+    },
+    "A": {
+      "rigid": {
+        "metrics": {
+          "peak_normal_force_n": 5.417472868,
+          "normal_force_impulse_ns": 2.656880574,
+          "steady_force_rmse_n": 3,
+          "contact_loss_events": 2,
+          "maximum_sustained_contact_loss_s": 0.252
+        },
+        "common_safety_passed": false,
+        "force_tracking_passed": null,
+        "acceptance_passed": false,
+        "independent_replay_passed": true,
+        "next_physics_step_linear_prediction_rmse_m_s": 0.009234567,
+        "next_task_period_linear_prediction_rmse_m_s": 0.005996716
+      },
+      "admittance": {
+        "metrics": {
+          "peak_normal_force_n": 5.484917835,
+          "normal_force_impulse_ns": 1.906418591,
+          "steady_force_rmse_n": 1.724336754,
+          "contact_loss_events": 4,
+          "maximum_sustained_contact_loss_s": 0.086
+        },
+        "common_safety_passed": true,
+        "force_tracking_passed": false,
+        "acceptance_passed": false,
+        "independent_replay_passed": true,
+        "next_physics_step_linear_prediction_rmse_m_s": 0.008330094,
+        "next_task_period_linear_prediction_rmse_m_s": 0.002515039
+      },
+      "admittance-no-shape": {
+        "metrics": {
+          "peak_normal_force_n": 3.721775151,
+          "normal_force_impulse_ns": 1.339611784,
+          "steady_force_rmse_n": 2.123461986,
+          "contact_loss_events": 18,
+          "maximum_sustained_contact_loss_s": 0.086
+        },
+        "common_safety_passed": true,
+        "force_tracking_passed": false,
+        "acceptance_passed": false,
+        "independent_replay_passed": true,
+        "next_physics_step_linear_prediction_rmse_m_s": 0.008130104,
+        "next_task_period_linear_prediction_rmse_m_s": 0.002180628
+      }
+    }
+  },
+  "paired_differences": {
+    "rigid": {
+      "S_minus_R": {
+        "peak_normal_force_n": 3.73e-7,
+        "normal_force_impulse_ns": 0.000016081,
+        "steady_force_rmse_n": 0.000026236
+      },
+      "A_minus_S": {
+        "peak_normal_force_n": 1.405767863,
+        "normal_force_impulse_ns": 0.242924235,
+        "steady_force_rmse_n": 1.932840057
+      }
+    },
+    "admittance": {
+      "S_minus_R": {
+        "peak_normal_force_n": 0.191579026,
+        "normal_force_impulse_ns": -0.068245818,
+        "steady_force_rmse_n": 0.311675307
+      },
+      "A_minus_S": {
+        "peak_normal_force_n": 0.174455053,
+        "normal_force_impulse_ns": 0.005939158,
+        "steady_force_rmse_n": 0.174389479
+      }
+    },
+    "admittance-no-shape": {
+      "S_minus_R": {
+        "peak_normal_force_n": -0.128122666,
+        "normal_force_impulse_ns": -0.025388913,
+        "steady_force_rmse_n": 0.203980832
+      },
+      "A_minus_S": {
+        "peak_normal_force_n": -2.045335118,
+        "normal_force_impulse_ns": -0.211636579,
+        "steady_force_rmse_n": 0.326088103
+      }
+    }
+  },
+  "interpretation": "R remeasures archived torques; S changes online observation/feedback; A adds opt-in affine velocity mapping. Differences across these boundaries are not all attributable to the affine map."
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "n110_contact_consistency_artifact_manifest_v1",
+  "verification_status": "VERIFIED",
+  "artifacts": {
+    "config_snapshot.json": "0d46caaafff16218e3afae7fbab88632d034bc0ebf568f50317aff80eb1aafcc",
+    "trace.npz": "544ee8649652bad9f8c543fd8413f01e0f0993bec622d324caef76e54e56e2b5",
+    "metrics.json": "1b8e6f2b0a480d1a43b22a54a034fd004d92b8bc92eab7d310d43438829fdf4a",
+    "validation.json": "88da55494ad89a4999cce1ac0190e69ec359aa64e22cdec621edf2b90b0c4fbf"
+  }
+}

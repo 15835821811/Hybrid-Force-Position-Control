@@ -1,0 +1,164 @@
+{
+  "schema_version": "n110_R_synchronized_archive_reevaluation_v1",
+  "group": "R",
+  "variant": "admittance",
+  "source_trace_path": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\contact\\n103_admittance_authoritative\\trace.npz",
+  "source_trace_sha256": "3db5e0a3c7223c39b0a599a62e5e17ccdafabe1a280c7831eb9f207d9287094b",
+  "source_metrics_sha256": "921c26c164853d35f60cdb4890c9bf264c4d693e0ff0a482c0c6950156a3c9e1",
+  "source_implementation_identity": {
+    "schema_version": "fpmfc_contact_implementation_identity_v1",
+    "files": {
+      "configs/fpmfc_contact.yaml": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+      "models/flexiv_rizon4s_contact_scene.xml": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+      "v6_mujoco/fpmfc/contact.py": "2530a240dc59605e9d940e1fe64fecacebceb532062bc2499d66363e25043471",
+      "v6_mujoco/fpmfc/contact_config.py": "8b0772ee2dce3e1449ced70574edea54a0b69c0f6d41189b248b05b17dafb4cf",
+      "v6_mujoco/fpmfc/contact_model.py": "ffa6fda7fbaab060a20049f9746351bccb8b30648125a6240970a8ff34d6549d",
+      "v6_mujoco/fpmfc/contact_precheck.py": "1074e1c76cbddfe042c191b7c91869cf9f568bdfc7789d9da509ce0e5f439c2b",
+      "v6_mujoco/fpmfc/run_contact.py": "bfda536c3aa1687f0454334e3917d49e6419a417f792cb2ce053455d98cf7d6d"
+    },
+    "composite_sha256": "7d4e44bcc9238fa957487629ea40481f5cc62cace26f3ed459e467fc6b494e5c"
+  },
+  "n110_implementation_identity": {
+    "schema_version": "n110_contact_consistency_implementation_v1",
+    "frozen_precontact_identity": {
+      "schema_version": "fpmfc_implementation_identity_v1",
+      "files": {
+        "models/flexiv_rizon4s_scene.xml": "a402bf78fd32c904b5e0b07ab65a9105fafdb4620da6e92eaf1c5060b8a096f5",
+        "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+        "v6_mujoco/fpmfc/config.py": "122cbe3e1ad26e48eb40d95dc69441b0c9dfac8bcd9a68153bd06916a2873560",
+        "v6_mujoco/fpmfc/controller.py": "5bd0c64905e68868d95a37166e2332ebd59b83ab0cefbdf1850e167f09f2b097",
+        "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+        "v6_mujoco/fpmfc/optimizer.py": "3c0a661a7f06246609489013c94062e5a881fbc2a84b23ce29ca75751a88d21b",
+        "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+        "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+        "v6_mujoco/fpmfc/rollout.py": "da1945df414ebe1b736a6f592c44fd6d493b512fdb91d1a3a5d8dfbc58d9e538",
+        "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+        "v6_mujoco/fpmfc/run_capture.py": "077dbe1bd17eacd1a14829c584e5397001f686b52db6f6bd577c8ada237f020f",
+        "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+        "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+        "v6_mujoco/fpmfc/target.py": "c9ab62d6e2147181f5c6fc6a760d7caf770e24a1ea72d39972959bfb14427bf0",
+        "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+        "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+        "v6_mujoco/hierarchical_qp.py": "0d274127eaadb739d95370dcff19a9b61bf770607c3d992ee72cee668c0bd812",
+        "v6_mujoco/model.py": "0f5433ee289d810f6ec13a5c76f92d371362d0f2bb86372084652bdf04c1dab5",
+        "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+      },
+      "composite_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa"
+    },
+    "frozen_contact_identity": {
+      "schema_version": "fpmfc_contact_implementation_identity_v1",
+      "files": {
+        "configs/fpmfc_contact.yaml": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+        "models/flexiv_rizon4s_contact_scene.xml": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+        "v6_mujoco/fpmfc/contact.py": "2530a240dc59605e9d940e1fe64fecacebceb532062bc2499d66363e25043471",
+        "v6_mujoco/fpmfc/contact_config.py": "8b0772ee2dce3e1449ced70574edea54a0b69c0f6d41189b248b05b17dafb4cf",
+        "v6_mujoco/fpmfc/contact_model.py": "ffa6fda7fbaab060a20049f9746351bccb8b30648125a6240970a8ff34d6549d",
+        "v6_mujoco/fpmfc/contact_precheck.py": "1074e1c76cbddfe042c191b7c91869cf9f568bdfc7789d9da509ce0e5f439c2b",
+        "v6_mujoco/fpmfc/run_contact.py": "bfda536c3aa1687f0454334e3917d49e6419a417f792cb2ce053455d98cf7d6d"
+      },
+      "composite_sha256": "7d4e44bcc9238fa957487629ea40481f5cc62cace26f3ed459e467fc6b494e5c"
+    },
+    "new_runtime_source_files": {
+      "v6_mujoco/fpmfc/contact_affine_controller.py": "fb39609811401e2b1c1ae8d87d66e27a4058b188963ae9dc9912a8edca007f21",
+      "v6_mujoco/fpmfc/contact_consistency_metrics.py": "f99f5b074094120f6e0024b2efa9c7694116b7f1eae67b76fc399f2d2067abfe",
+      "v6_mujoco/fpmfc/contact_consistency_provenance.py": "129bd244b8e2b526441876e268ffd2cfc3d1168aac61c460e82392ea6fc71430",
+      "v6_mujoco/fpmfc/contact_observation.py": "cfd7e3925820a0c97574ab3d30c88959427fd7b8384b40f422b9e4800a6d2d0a",
+      "v6_mujoco/fpmfc/run_contact_consistent.py": "d52a1021d63c06c161c40bbee71741ec32139150b41dda60ad41bc8df76f2752"
+    },
+    "composite_sha256": "612a0e1bb30fc20ba4c6b5695141090472d14130c00ae65310faade3966abe7c"
+  },
+  "n110_verification_identity": {
+    "schema_version": "n110_contact_consistency_verification_v1",
+    "runtime_composite_sha256": "612a0e1bb30fc20ba4c6b5695141090472d14130c00ae65310faade3966abe7c",
+    "verification_source_files": {
+      "v6_mujoco/fpmfc/audit_contact.py": "884d1b66092f9854beeb0dc4770e9320e24f74471ae721558be1164866eabae4",
+      "v6_mujoco/fpmfc/reevaluate_contact.py": "4f1698430d518c9c9ca0ef8e7c2a12aa14afa0660dc52edb5768e40b0028937f",
+      "v6_mujoco/fpmfc/validate_contact_consistent.py": "15b6831d761fffad9ef734dabb0080de1f7cffd9c4866124fc60bb57b550bd8c"
+    },
+    "composite_sha256": "56f51699174e4ef9d110aa383bf01d5587025ffaed5735c4a5bd0ae58abb2fa2"
+  },
+  "model_identity": {
+    "contract_version": "flexiv_rizon4s_physical_contact_v1",
+    "model_xml_sha256": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+    "source_bundle_sha256": "3ba4a9d739aafcad37af13b2aaeb1429f6de36286fda6c50ab985a6869d0e89f",
+    "contact_config_sha256": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+    "mujoco_version": "3.3.2",
+    "state_dimensions": [
+      21,
+      19,
+      7
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "integrator": "RK4",
+    "interface_geoms": [
+      "gripper_contact_pad",
+      "target_contact_plate"
+    ],
+    "runtime_contract_sha256": "8127a4ab9cf99c95c05e4820ceee814764de3f9c6c1a3571482c05069a6fdeea"
+  },
+  "observation_contract": {
+    "schema_version": "fpmfc_contact_observation_v1",
+    "time_definition": "data.time at current generalized state; all derived fields from mj_forward on full MjData copy",
+    "forward_control_definition": "held torque already applied in preceding physics step; initial value zero",
+    "world_frame_fields": "site pose/twist, contact wrench/normal, relative pose/twist",
+    "tool_face_definition": "flange origin minus local flange +Z times tool_face_recess_m",
+    "tool_face_recess_m": 0.0002,
+    "contact_interface_geoms": [
+      "gripper_contact_pad",
+      "target_contact_plate"
+    ],
+    "wrench_reference_point": "flange_site world position at observation time",
+    "penetration_definition": "maximum active interface -mjContact.dist clipped at zero",
+    "normal_force_definition": "max(0, -force_on_pad_world dot grasp_site local +Z in world)",
+    "integrator_state_copy": "copy.copy(MjData), including time/qpos/qvel/act/plugin_state/ctrl/applied forces/qacc_warmstart/mocap/equality state",
+    "model_disableflags": 0,
+    "model_enableflags": 0,
+    "integrator": 1,
+    "timestep_s": 0.002
+  },
+  "integration_rule": "right-endpoint rectangle, sum(F(t_i) * 0.002 s); this is not RK4 internal impulse",
+  "force_frame": "world contact wrench projected onto synchronized grasp +Z; negative sign gives compressive positive",
+  "angular_impulse_reference_point": "initial robot center of mass, world frame, from synchronized contact wrench",
+  "force_evaluation_window": {
+    "last_samples": 100,
+    "duration_s": 0.2,
+    "all_samples_included": true,
+    "contact_absent_samples": 0
+  },
+  "historical_metrics": {
+    "peak_normal_force_n": 5.118885792420957,
+    "normal_force_impulse_ns": 1.9687744961820057,
+    "steady_force_rmse_n": 1.2383079734442908
+  },
+  "synchronized_force_with_historical_desired": {
+    "peak_normal_force_n": 5.118883755361353,
+    "normal_force_impulse_ns": 1.9687252502879946,
+    "steady_force_rmse_n": 1.2382719674177896
+  },
+  "synchronized_metrics": {
+    "peak_normal_force_n": 5.118883755361353,
+    "normal_force_impulse_ns": 1.9687252502879946,
+    "steady_force_rmse_n": 1.2382719674177896,
+    "maximum_penetration_m": 0.0002790050700832612,
+    "contact_loss_events": 3,
+    "maximum_sustained_contact_loss_s": 0.08600000000000001,
+    "relative_linear_speed_max_m_s": 0.056477505392863676,
+    "relative_angular_speed_max_rad_s": 0.07839552701506457,
+    "robot_contact_linear_impulse_norm_ns": 1.9776814393831244,
+    "robot_contact_angular_impulse_about_initial_com_norm_nms": 0.13886867309292225
+  },
+  "measurement_change": {
+    "peak_normal_force_n": -2.0370596036656252e-06,
+    "normal_force_impulse_ns": -4.924589401111845e-05,
+    "steady_force_rmse_n": -3.6006026501222976e-05
+  },
+  "trace_sha256": "f4286d59a792fd23af2780163978c6304a9aae36eb56ff50e2985b0326a162c9",
+  "replay_qpos_max_abs": 1.903921464929681e-11,
+  "replay_qvel_max_abs": 1.3598917825152768e-09,
+  "legacy_replay_tolerance_preserved": {
+    "qpos": 1e-08,
+    "qvel": 1e-08
+  },
+  "replay_passed": true
+}

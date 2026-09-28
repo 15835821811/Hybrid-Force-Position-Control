@@ -1,0 +1,22 @@
+{
+  "group": "R",
+  "variant": "admittance-no-shape",
+  "replay_passed": true,
+  "historical": {
+    "peak_normal_force_n": 5.895242015496829,
+    "normal_force_impulse_ns": 1.5765755487654456,
+    "steady_force_rmse_n": 1.5934291306476887
+  },
+  "synchronized": {
+    "peak_normal_force_n": 5.89523293488232,
+    "normal_force_impulse_ns": 1.5766372748928335,
+    "steady_force_rmse_n": 1.5933930514542696,
+    "maximum_penetration_m": 0.00019096191795880694,
+    "contact_loss_events": 6,
+    "maximum_sustained_contact_loss_s": 0.08600000000000001,
+    "relative_linear_speed_max_m_s": 0.056450203279348805,
+    "relative_angular_speed_max_rad_s": 0.07840106560639266,
+    "robot_contact_linear_impulse_norm_ns": 1.58506717165904,
+    "robot_contact_angular_impulse_about_initial_com_norm_nms": 0.13318647828057617
+  }
+}

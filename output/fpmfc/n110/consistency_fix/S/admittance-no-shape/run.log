@@ -1,0 +1,43 @@
+{
+  "variant": "admittance-no-shape",
+  "metrics": {
+    "peak_normal_force_n": 5.767110269331295,
+    "normal_force_impulse_ns": 1.5512483623788185,
+    "steady_force_rmse_n": 1.7973738830749213,
+    "steady_force_rmse_fraction": 0.5991246276916404,
+    "maximum_penetration_m": 0.0002367297210720836,
+    "contact_loss_events": 13,
+    "maximum_sustained_contact_loss_s": 0.08600000000000001,
+    "contact_detected_fraction": 0.798,
+    "final_normal_force_n": 0.06666326794761296,
+    "task_success_rate": 1.0,
+    "torque_saturation_fraction": 0.0,
+    "maximum_base_angular_speed_rad_s": 0.008079991824861096,
+    "rms_base_angular_speed_rad_s": 0.0037308054837220973,
+    "robot_contact_linear_impulse_norm_ns": 1.5570661877251355,
+    "robot_contact_angular_impulse_about_initial_com_norm_nms": 0.09982278956139196,
+    "robot_momentum_change_max": 1.5531064445894802,
+    "total_momentum_drift_max": 2.001991234862514e-09,
+    "relative_position_error_max_m": 0.0019314822012536379,
+    "relative_orientation_error_max_rad": 0.000966730407529181,
+    "relative_linear_speed_max_m_s": 0.05645020327935066,
+    "maximum_command_normal_offset_m": 0.0007096072977355729,
+    "next_physics_step_linear_prediction_rmse_m_s": 0.009110545892166845,
+    "next_physics_step_angular_prediction_rmse_rad_s": 0.014863467248323724,
+    "next_task_period_linear_prediction_rmse_m_s": 0.004504917430276935,
+    "next_task_period_angular_prediction_rmse_rad_s": 0.012680792353123783
+  },
+  "acceptance": {
+    "all_numeric_finite": true,
+    "contact_acquired": true,
+    "peak_contact_force": true,
+    "maximum_penetration": true,
+    "maximum_sustained_contact_loss": true,
+    "task_success_rate": true,
+    "torque_saturation_fraction": true,
+    "total_momentum_drift": true,
+    "common_passed": true,
+    "steady_force_tracking": false,
+    "passed": false
+  }
+}
