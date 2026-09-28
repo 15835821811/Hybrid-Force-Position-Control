@@ -5,3 +5,12 @@ output/fpmfc/precontact/n061_weights_2_1_rk4_formal_planning45/**/trace.npz filt
 output/fpmfc/precontact/n070_fixed_time_rk4_formal_planning45/**/trace.npz filter=lfs diff=lfs merge=lfs -text
 output/fpmfc/precontact/n073_controller_ablation_rk4_formal_planning45/**/trace.npz filter=lfs diff=lfs merge=lfs -text
 output/fpmfc/contact/**/trace.npz filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n110/consistency_fix/**/trace.npz filter=lfs diff=lfs merge=lfs -text
+# New N110 source hashes are over checkout bytes, including line endings.
+v6_mujoco/fpmfc/contact_observation.py text eol=lf
+v6_mujoco/fpmfc/contact_consistency_metrics.py text eol=lf
+v6_mujoco/fpmfc/contact_affine_controller.py text eol=lf
+v6_mujoco/fpmfc/run_contact_consistent.py text eol=lf
+v6_mujoco/fpmfc/contact_consistency_provenance.py text eol=lf
+v6_mujoco/fpmfc/reevaluate_contact.py text eol=lf
+v6_mujoco/fpmfc/validate_contact_consistent.py text eol=lf
