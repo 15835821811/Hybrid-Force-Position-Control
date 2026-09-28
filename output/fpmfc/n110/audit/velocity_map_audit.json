@@ -1,0 +1,593 @@
+{
+  "method": "world site Jacobian times full generalized qvel versus homogeneous Jg qdot; base bias is generalized free-base qvel minus A qdot",
+  "variants": {
+    "rigid": {
+      "overall": {
+        "linear_m_s": {
+          "count": 500,
+          "max": 0.010135793348494087,
+          "rms": 0.006776215713863473,
+          "max_step": 499
+        },
+        "angular_rad_s": {
+          "count": 500,
+          "max": 0.007015562687420255,
+          "rms": 0.004968555846143331,
+          "max_step": 498
+        },
+        "linear_repaired_m_s": {
+          "count": 500,
+          "max": 1.1564407554877653e-16,
+          "rms": 3.345889136215663e-17,
+          "max_step": 452
+        },
+        "angular_repaired_rad_s": {
+          "count": 500,
+          "max": 2.7445759960914537e-16,
+          "rms": 9.896416141191487e-17,
+          "max_step": 379
+        },
+        "base_bias_norm": {
+          "count": 500,
+          "max": 0.008382769721686268,
+          "rms": 0.005647201404579227,
+          "max_step": 498
+        }
+      },
+      "phases": {
+        "pre_contact": {
+          "linear_m_s": {
+            "count": 10,
+            "max": 3.2253777447571274e-12,
+            "rms": 3.2211912420983736e-12,
+            "max_step": 9
+          },
+          "angular_rad_s": {
+            "count": 10,
+            "max": 8.392256982208102e-13,
+            "rms": 8.244520467534109e-13,
+            "max_step": 9
+          },
+          "linear_repaired_m_s": {
+            "count": 10,
+            "max": 6.6132801977008555e-18,
+            "rms": 3.7980944493140215e-18,
+            "max_step": 9
+          },
+          "angular_repaired_rad_s": {
+            "count": 10,
+            "max": 1.3442524190087661e-17,
+            "rms": 9.38357383554606e-18,
+            "max_step": 5
+          },
+          "base_bias_norm": {
+            "count": 10,
+            "max": 4.009348650283011e-12,
+            "rms": 4.006297678885355e-12,
+            "max_step": 9
+          }
+        },
+        "first_contact": {
+          "linear_m_s": {
+            "count": 1,
+            "max": 2.040828406872843e-05,
+            "rms": 2.040828406872843e-05,
+            "max_step": 0
+          },
+          "angular_rad_s": {
+            "count": 1,
+            "max": 1.6505592805280848e-05,
+            "rms": 1.6505592805280848e-05,
+            "max_step": 0
+          },
+          "linear_repaired_m_s": {
+            "count": 1,
+            "max": 1.5315308006623476e-17,
+            "rms": 1.5315308006623476e-17,
+            "max_step": 0
+          },
+          "angular_repaired_rad_s": {
+            "count": 1,
+            "max": 7.796787367202375e-18,
+            "rms": 7.796787367202375e-18,
+            "max_step": 0
+          },
+          "base_bias_norm": {
+            "count": 1,
+            "max": 1.667261212577428e-05,
+            "rms": 1.667261212577428e-05,
+            "max_step": 0
+          }
+        },
+        "sustained_contact": {
+          "linear_m_s": {
+            "count": 456,
+            "max": 0.010108154637491039,
+            "rms": 0.007003608072843463,
+            "max_step": 455
+          },
+          "angular_rad_s": {
+            "count": 456,
+            "max": 0.0069951236249797275,
+            "rms": 0.005142728517081263,
+            "max_step": 455
+          },
+          "linear_repaired_m_s": {
+            "count": 456,
+            "max": 1.1564407554877653e-16,
+            "rms": 3.466526795846996e-17,
+            "max_step": 414
+          },
+          "angular_repaired_rad_s": {
+            "count": 456,
+            "max": 2.7445759960914537e-16,
+            "rms": 1.0219865616484877e-16,
+            "max_step": 341
+          },
+          "base_bias_norm": {
+            "count": 456,
+            "max": 0.008362378297388883,
+            "rms": 0.00583743989115343,
+            "max_step": 455
+          }
+        },
+        "contact_loss": {
+          "linear_m_s": {
+            "count": 31,
+            "max": 0.010135793348494087,
+            "rms": 0.004001871628599506,
+            "max_step": 30
+          },
+          "angular_rad_s": {
+            "count": 31,
+            "max": 0.007015562687420255,
+            "rms": 0.002770387223455651,
+            "max_step": 29
+          },
+          "linear_repaired_m_s": {
+            "count": 31,
+            "max": 7.019872076999097e-17,
+            "rms": 1.892996313461734e-17,
+            "max_step": 30
+          },
+          "angular_repaired_rad_s": {
+            "count": 31,
+            "max": 2.1878890910801846e-16,
+            "rms": 6.201761311606964e-17,
+            "max_step": 28
+          },
+          "base_bias_norm": {
+            "count": 31,
+            "max": 0.008382769721686268,
+            "rms": 0.003318509385736367,
+            "max_step": 29
+          }
+        },
+        "recontact": {
+          "linear_m_s": {
+            "count": 2,
+            "max": 0.009731387201483241,
+            "rms": 0.00689366151237677,
+            "max_step": 1
+          },
+          "angular_rad_s": {
+            "count": 2,
+            "max": 0.006708341719669156,
+            "rms": 0.004754761271645475,
+            "max_step": 1
+          },
+          "linear_repaired_m_s": {
+            "count": 2,
+            "max": 1.672906736921608e-17,
+            "rms": 1.2140780153164306e-17,
+            "max_step": 1
+          },
+          "angular_repaired_rad_s": {
+            "count": 2,
+            "max": 1.1767245317053685e-16,
+            "rms": 8.38385838601548e-17,
+            "max_step": 1
+          },
+          "base_bias_norm": {
+            "count": 2,
+            "max": 0.008080414912471015,
+            "rms": 0.005724189416623902,
+            "max_step": 1
+          }
+        }
+      }
+    },
+    "admittance": {
+      "overall": {
+        "linear_m_s": {
+          "count": 500,
+          "max": 0.006626112234123151,
+          "rms": 0.004660531041317463,
+          "max_step": 499
+        },
+        "angular_rad_s": {
+          "count": 500,
+          "max": 0.004448873996705411,
+          "rms": 0.0033898577338553957,
+          "max_step": 259
+        },
+        "linear_repaired_m_s": {
+          "count": 500,
+          "max": 9.53699260999922e-17,
+          "rms": 2.3556383242965883e-17,
+          "max_step": 414
+        },
+        "angular_repaired_rad_s": {
+          "count": 500,
+          "max": 2.690567129745347e-16,
+          "rms": 7.950230707016061e-17,
+          "max_step": 495
+        },
+        "base_bias_norm": {
+          "count": 500,
+          "max": 0.00569737306636664,
+          "rms": 0.003927259297198121,
+          "max_step": 499
+        }
+      },
+      "phases": {
+        "pre_contact": {
+          "linear_m_s": {
+            "count": 10,
+            "max": 3.2253777447571274e-12,
+            "rms": 3.2211912420983736e-12,
+            "max_step": 9
+          },
+          "angular_rad_s": {
+            "count": 10,
+            "max": 8.392256982208102e-13,
+            "rms": 8.244520467534109e-13,
+            "max_step": 9
+          },
+          "linear_repaired_m_s": {
+            "count": 10,
+            "max": 6.6132801977008555e-18,
+            "rms": 3.7980944493140215e-18,
+            "max_step": 9
+          },
+          "angular_repaired_rad_s": {
+            "count": 10,
+            "max": 1.3442524190087661e-17,
+            "rms": 9.38357383554606e-18,
+            "max_step": 5
+          },
+          "base_bias_norm": {
+            "count": 10,
+            "max": 4.009348650283011e-12,
+            "rms": 4.006297678885355e-12,
+            "max_step": 9
+          }
+        },
+        "first_contact": {
+          "linear_m_s": {
+            "count": 1,
+            "max": 2.0408292535441168e-05,
+            "rms": 2.0408292535441168e-05,
+            "max_step": 0
+          },
+          "angular_rad_s": {
+            "count": 1,
+            "max": 1.650560016403377e-05,
+            "rms": 1.650560016403377e-05,
+            "max_step": 0
+          },
+          "linear_repaired_m_s": {
+            "count": 1,
+            "max": 5.40763692040944e-18,
+            "rms": 5.40763692040944e-18,
+            "max_step": 0
+          },
+          "angular_repaired_rad_s": {
+            "count": 1,
+            "max": 1.48544683559064e-17,
+            "rms": 1.48544683559064e-17,
+            "max_step": 0
+          },
+          "base_bias_norm": {
+            "count": 1,
+            "max": 1.6672619624874863e-05,
+            "rms": 1.6672619624874863e-05,
+            "max_step": 0
+          }
+        },
+        "sustained_contact": {
+          "linear_m_s": {
+            "count": 445,
+            "max": 0.006626112234123151,
+            "rms": 0.004936895292135865,
+            "max_step": 444
+          },
+          "angular_rad_s": {
+            "count": 445,
+            "max": 0.004448873996705411,
+            "rms": 0.003590462504261643,
+            "max_step": 204
+          },
+          "linear_repaired_m_s": {
+            "count": 445,
+            "max": 9.53699260999922e-17,
+            "rms": 2.485620371886985e-17,
+            "max_step": 359
+          },
+          "angular_repaired_rad_s": {
+            "count": 445,
+            "max": 2.690567129745347e-16,
+            "rms": 8.358482559886647e-17,
+            "max_step": 440
+          },
+          "base_bias_norm": {
+            "count": 445,
+            "max": 0.00569737306636664,
+            "rms": 0.004160213784530404,
+            "max_step": 444
+          }
+        },
+        "contact_loss": {
+          "linear_m_s": {
+            "count": 43,
+            "max": 0.0005705049473613355,
+            "rms": 0.0005704643531543362,
+            "max_step": 42
+          },
+          "angular_rad_s": {
+            "count": 43,
+            "max": 0.00044941269002515474,
+            "rms": 0.00044938593687158764,
+            "max_step": 11
+          },
+          "linear_repaired_m_s": {
+            "count": 43,
+            "max": 1.5465666343240252e-17,
+            "rms": 7.339883304429404e-18,
+            "max_step": 4
+          },
+          "angular_repaired_rad_s": {
+            "count": 43,
+            "max": 6.665626107204993e-17,
+            "rms": 3.3392243322284654e-17,
+            "max_step": 27
+          },
+          "base_bias_norm": {
+            "count": 43,
+            "max": 0.00047435454612387417,
+            "rms": 0.0004743288670085915,
+            "max_step": 11
+          }
+        },
+        "recontact": {
+          "linear_m_s": {
+            "count": 1,
+            "max": 0.0005698897494758821,
+            "rms": 0.0005698897494758821,
+            "max_step": 0
+          },
+          "angular_rad_s": {
+            "count": 1,
+            "max": 0.00044873257880533496,
+            "rms": 0.00044873257880533496,
+            "max_step": 0
+          },
+          "linear_repaired_m_s": {
+            "count": 1,
+            "max": 5.175585071689582e-18,
+            "rms": 5.175585071689582e-18,
+            "max_step": 0
+          },
+          "angular_repaired_rad_s": {
+            "count": 1,
+            "max": 4.7980999351062704e-17,
+            "rms": 4.7980999351062704e-17,
+            "max_step": 0
+          },
+          "base_bias_norm": {
+            "count": 1,
+            "max": 0.0004738153325793292,
+            "rms": 0.0004738153325793292,
+            "max_step": 0
+          }
+        }
+      }
+    },
+    "admittance-no-shape": {
+      "overall": {
+        "linear_m_s": {
+          "count": 500,
+          "max": 0.006056533262572512,
+          "rms": 0.0043673783887645595,
+          "max_step": 489
+        },
+        "angular_rad_s": {
+          "count": 500,
+          "max": 0.004493761860286601,
+          "rms": 0.0032674823094235384,
+          "max_step": 289
+        },
+        "linear_repaired_m_s": {
+          "count": 500,
+          "max": 7.750946089467109e-17,
+          "rms": 1.9581419261500723e-17,
+          "max_step": 490
+        },
+        "angular_repaired_rad_s": {
+          "count": 500,
+          "max": 2.272775855787126e-16,
+          "rms": 7.005263619913862e-17,
+          "max_step": 493
+        },
+        "base_bias_norm": {
+          "count": 500,
+          "max": 0.005123353996710323,
+          "rms": 0.0036422536615587147,
+          "max_step": 489
+        }
+      },
+      "phases": {
+        "pre_contact": {
+          "linear_m_s": {
+            "count": 10,
+            "max": 3.2252612164435725e-12,
+            "rms": 3.2211278625939185e-12,
+            "max_step": 9
+          },
+          "angular_rad_s": {
+            "count": 10,
+            "max": 8.389774664654918e-13,
+            "rms": 8.243252388582803e-13,
+            "max_step": 9
+          },
+          "linear_repaired_m_s": {
+            "count": 10,
+            "max": 5.223595326633406e-18,
+            "rms": 3.262060164255622e-18,
+            "max_step": 5
+          },
+          "angular_repaired_rad_s": {
+            "count": 10,
+            "max": 1.761981904962954e-17,
+            "rms": 1.011836083941502e-17,
+            "max_step": 8
+          },
+          "base_bias_norm": {
+            "count": 10,
+            "max": 4.009299963451768e-12,
+            "rms": 4.006270910174507e-12,
+            "max_step": 9
+          }
+        },
+        "first_contact": {
+          "linear_m_s": {
+            "count": 1,
+            "max": 2.0447767075456216e-05,
+            "rms": 2.0447767075456216e-05,
+            "max_step": 0
+          },
+          "angular_rad_s": {
+            "count": 1,
+            "max": 1.6537487538699693e-05,
+            "rms": 1.6537487538699693e-05,
+            "max_step": 0
+          },
+          "linear_repaired_m_s": {
+            "count": 1,
+            "max": 4.6869525501938426e-18,
+            "rms": 4.6869525501938426e-18,
+            "max_step": 0
+          },
+          "angular_repaired_rad_s": {
+            "count": 1,
+            "max": 1.8086771240664488e-17,
+            "rms": 1.8086771240664488e-17,
+            "max_step": 0
+          },
+          "base_bias_norm": {
+            "count": 1,
+            "max": 1.6704829761433196e-05,
+            "rms": 1.6704829761433196e-05,
+            "max_step": 0
+          }
+        },
+        "sustained_contact": {
+          "linear_m_s": {
+            "count": 442,
+            "max": 0.006056533262572512,
+            "rms": 0.004638848564178906,
+            "max_step": 431
+          },
+          "angular_rad_s": {
+            "count": 442,
+            "max": 0.004493761860286601,
+            "rms": 0.0034699818457541993,
+            "max_step": 231
+          },
+          "linear_repaired_m_s": {
+            "count": 442,
+            "max": 7.750946089467109e-17,
+            "rms": 2.0702822653663815e-17,
+            "max_step": 432
+          },
+          "angular_repaired_rad_s": {
+            "count": 442,
+            "max": 2.272775855787126e-16,
+            "rms": 7.379196014138004e-17,
+            "max_step": 435
+          },
+          "base_bias_norm": {
+            "count": 442,
+            "max": 0.005123353996710323,
+            "rms": 0.0038687386691313185,
+            "max_step": 431
+          }
+        },
+        "contact_loss": {
+          "linear_m_s": {
+            "count": 45,
+            "max": 0.00193108086017702,
+            "rms": 0.0006912619072476797,
+            "max_step": 43
+          },
+          "angular_rad_s": {
+            "count": 45,
+            "max": 0.0015527499754202324,
+            "rms": 0.0005484281065904869,
+            "max_step": 43
+          },
+          "linear_repaired_m_s": {
+            "count": 45,
+            "max": 1.3116581941089451e-17,
+            "rms": 6.811272812543641e-18,
+            "max_step": 16
+          },
+          "angular_repaired_rad_s": {
+            "count": 45,
+            "max": 5.4099189687002843e-17,
+            "rms": 3.107016826929532e-17,
+            "max_step": 21
+          },
+          "base_bias_norm": {
+            "count": 45,
+            "max": 0.0015852974889541602,
+            "rms": 0.0005723138283781251,
+            "max_step": 43
+          }
+        },
+        "recontact": {
+          "linear_m_s": {
+            "count": 2,
+            "max": 0.001951080957377273,
+            "rms": 0.001437492348174127,
+            "max_step": 1
+          },
+          "angular_rad_s": {
+            "count": 2,
+            "max": 0.0015687702053729117,
+            "rms": 0.0011539351986142286,
+            "max_step": 1
+          },
+          "linear_repaired_m_s": {
+            "count": 2,
+            "max": 5.728856978050531e-18,
+            "rms": 5.2760251052701625e-18,
+            "max_step": 1
+          },
+          "angular_repaired_rad_s": {
+            "count": 2,
+            "max": 3.7796353336782507e-17,
+            "rms": 3.2341846043067677e-17,
+            "max_step": 1
+          },
+          "base_bias_norm": {
+            "count": 2,
+            "max": 0.0016016579761901685,
+            "rms": 0.001181261784404335,
+            "max_step": 1
+          }
+        }
+      }
+    }
+  }
+}

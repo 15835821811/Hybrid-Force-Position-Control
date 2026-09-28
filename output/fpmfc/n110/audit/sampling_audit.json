@@ -1,0 +1,377 @@
+{
+  "method": "independently replay stored torques; copy complete post-mj_step MjData and call mj_forward on copy; original integration history untouched",
+  "variants": {
+    "rigid": {
+      "time_first_s": 0.002,
+      "time_last_s": 1.0000000000000007,
+      "time_step_max_error_s": 1.0928757898653885e-16,
+      "replay_qpos_max_abs": 3.175237850427948e-14,
+      "replay_qvel_max_abs": 1.3498091533392653e-12,
+      "fresh_poststep_vs_logged": {
+        "flange_position_m": {
+          "count": 500,
+          "max": 3.598141758769329e-07,
+          "rms": 2.3446240128605205e-08,
+          "max_step": 484
+        },
+        "grasp_position_m": {
+          "count": 500,
+          "max": 9.577921631530704e-08,
+          "rms": 7.460613932910053e-09,
+          "max_step": 487
+        },
+        "force_n": {
+          "count": 500,
+          "max": 0.29134373979314354,
+          "rms": 0.020748475106359916,
+          "max_step": 244
+        },
+        "penetration_m": {
+          "count": 500,
+          "max": 4.842860653917294e-07,
+          "rms": 3.752638481390785e-08,
+          "max_step": 244
+        },
+        "contact_count": {
+          "count": 500,
+          "max": 0.0,
+          "rms": 0.0,
+          "max_step": 0
+        }
+      },
+      "fresh_recomputed_metrics_descriptive_only": {
+        "peak_normal_force_n": 4.011704632217459,
+        "normal_force_impulse_ns": 2.413940256789503,
+        "steady_force_rmse_n": 1.067133707249839,
+        "maximum_penetration_m": 0.0002856398584773405,
+        "contact_count_disagree_steps": 0
+      },
+      "examples": [
+        {
+          "step": 10,
+          "time_s": 0.022000000000000006,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.270008531373681,
+          "fresh_force_n": 3.2327059160037477,
+          "errors": {
+            "flange_position_m": 1.0232213124451145e-10,
+            "grasp_position_m": 0.0,
+            "force_n": 0.03730261536993318,
+            "penetration_m": 3.4619864237358654e-11,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 11,
+          "time_s": 0.024000000000000007,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.0352692232464418,
+          "fresh_force_n": 3.035396235583165,
+          "errors": {
+            "flange_position_m": 3.304241480803973e-08,
+            "grasp_position_m": 9.792076333239421e-09,
+            "force_n": 0.0001270123367231868,
+            "penetration_m": 2.0286763837224295e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 12,
+          "time_s": 0.02600000000000001,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.0260673283097583,
+          "fresh_force_n": 3.026182812192135,
+          "errors": {
+            "flange_position_m": 3.066940568667408e-08,
+            "grasp_position_m": 9.009926634602542e-09,
+            "force_n": 0.000115483882376477,
+            "penetration_m": 1.8790808065331907e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 13,
+          "time_s": 0.02800000000000001,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.007341741135809,
+          "fresh_force_n": 3.007411504342341,
+          "errors": {
+            "flange_position_m": 2.812224350370653e-08,
+            "grasp_position_m": 8.525968903137454e-09,
+            "force_n": 6.976320653206969e-05,
+            "penetration_m": 1.7335062275352785e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 14,
+          "time_s": 0.030000000000000013,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 2.985752620143617,
+          "fresh_force_n": 2.985848067670493,
+          "errors": {
+            "flange_position_m": 2.6464208811954257e-08,
+            "grasp_position_m": 7.734019183662648e-09,
+            "force_n": 9.544752687595803e-05,
+            "penetration_m": 1.6096207454716982e-08,
+            "contact_count": 0
+          }
+        }
+      ],
+      "status": "FAIL"
+    },
+    "admittance": {
+      "time_first_s": 0.002,
+      "time_last_s": 1.0000000000000007,
+      "time_step_max_error_s": 1.0928757898653885e-16,
+      "replay_qpos_max_abs": 1.903921464929681e-11,
+      "replay_qvel_max_abs": 1.3598917825152768e-09,
+      "fresh_poststep_vs_logged": {
+        "flange_position_m": {
+          "count": 500,
+          "max": 8.833542124100643e-08,
+          "rms": 8.089791723786533e-09,
+          "max_step": 35
+        },
+        "grasp_position_m": {
+          "count": 500,
+          "max": 4.728745832681367e-08,
+          "rms": 5.037102617723313e-09,
+          "max_step": 297
+        },
+        "force_n": {
+          "count": 500,
+          "max": 0.03730264238788905,
+          "rms": 0.001763528784130826,
+          "max_step": 10
+        },
+        "penetration_m": {
+          "count": 500,
+          "max": 3.412625496014739e-08,
+          "rms": 3.4746240304355967e-09,
+          "max_step": 297
+        },
+        "contact_count": {
+          "count": 500,
+          "max": 0.0,
+          "rms": 0.0,
+          "max_step": 0
+        }
+      },
+      "fresh_recomputed_metrics_descriptive_only": {
+        "peak_normal_force_n": 5.118883755361354,
+        "normal_force_impulse_ns": 1.9687252502879946,
+        "steady_force_rmse_n": 1.2382719674177893,
+        "maximum_penetration_m": 0.0002790050700832612,
+        "contact_count_disagree_steps": 0
+      },
+      "examples": [
+        {
+          "step": 10,
+          "time_s": 0.022000000000000006,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.270013144690407,
+          "fresh_force_n": 3.2327105023025178,
+          "errors": {
+            "flange_position_m": 1.0231528402000472e-10,
+            "grasp_position_m": 0.0,
+            "force_n": 0.03730264238788905,
+            "penetration_m": 3.461389108298736e-11,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 11,
+          "time_s": 0.024000000000000007,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.0352740240166307,
+          "fresh_force_n": 3.0354010375484908,
+          "errors": {
+            "flange_position_m": 3.304245341391876e-08,
+            "grasp_position_m": 9.792073086044658e-09,
+            "force_n": 0.00012701353186006514,
+            "penetration_m": 2.0286769857497415e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 12,
+          "time_s": 0.02600000000000001,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.0260723708229986,
+          "fresh_force_n": 3.0261878558876982,
+          "errors": {
+            "flange_position_m": 3.066945206455522e-08,
+            "grasp_position_m": 9.009920825546145e-09,
+            "force_n": 0.00011548506469960529,
+            "penetration_m": 1.8790812306879884e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 13,
+          "time_s": 0.02800000000000001,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.0073470360492442,
+          "fresh_force_n": 3.0074167996713808,
+          "errors": {
+            "flange_position_m": 2.8122294186251868e-08,
+            "grasp_position_m": 8.525965169636054e-09,
+            "force_n": 6.976362213650944e-05,
+            "penetration_m": 1.733506895094819e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 14,
+          "time_s": 0.030000000000000013,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 2.9857583250899316,
+          "fresh_force_n": 2.9858537737330977,
+          "errors": {
+            "flange_position_m": 2.6464266506923166e-08,
+            "grasp_position_m": 7.734010854427295e-09,
+            "force_n": 9.544864316612944e-05,
+            "penetration_m": 1.609620446336253e-08,
+            "contact_count": 0
+          }
+        }
+      ],
+      "status": "FAIL"
+    },
+    "admittance-no-shape": {
+      "time_first_s": 0.002,
+      "time_last_s": 1.0000000000000007,
+      "time_step_max_error_s": 1.0928757898653885e-16,
+      "replay_qpos_max_abs": 1.720015241346573e-10,
+      "replay_qvel_max_abs": 1.2363686741068136e-09,
+      "fresh_poststep_vs_logged": {
+        "flange_position_m": {
+          "count": 500,
+          "max": 1.7419541325818567e-07,
+          "rms": 9.895819879402877e-09,
+          "max_step": 136
+        },
+        "grasp_position_m": {
+          "count": 500,
+          "max": 6.533220065742625e-08,
+          "rms": 3.791426160498325e-09,
+          "max_step": 136
+        },
+        "force_n": {
+          "count": 500,
+          "max": 0.06225875753077181,
+          "rms": 0.0032639318040076897,
+          "max_step": 136
+        },
+        "penetration_m": {
+          "count": 500,
+          "max": 1.9434161768587299e-07,
+          "rms": 9.122591233860791e-09,
+          "max_step": 136
+        },
+        "contact_count": {
+          "count": 500,
+          "max": 0.0,
+          "rms": 0.0,
+          "max_step": 0
+        }
+      },
+      "fresh_recomputed_metrics_descriptive_only": {
+        "peak_normal_force_n": 5.89523293488232,
+        "normal_force_impulse_ns": 1.5766372748928335,
+        "steady_force_rmse_n": 1.5933930514542696,
+        "maximum_penetration_m": 0.00019096191795880694,
+        "contact_count_disagree_steps": 0
+      },
+      "examples": [
+        {
+          "step": 10,
+          "time_s": 0.022000000000000006,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.2761504514993653,
+          "fresh_force_n": 3.2387756732784023,
+          "errors": {
+            "flange_position_m": 9.992681686622303e-11,
+            "grasp_position_m": 0.0,
+            "force_n": 0.03737477822096302,
+            "penetration_m": 3.4407650969363616e-11,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 11,
+          "time_s": 0.024000000000000007,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.041536218783165,
+          "fresh_force_n": 3.0416632604064313,
+          "errors": {
+            "flange_position_m": 3.3032762147592744e-08,
+            "grasp_position_m": 9.785867916009391e-09,
+            "force_n": 0.0001270416232661553,
+            "penetration_m": 2.0278156197913908e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 12,
+          "time_s": 0.02600000000000001,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.0328978125756167,
+          "fresh_force_n": 3.0330133201563525,
+          "errors": {
+            "flange_position_m": 3.066099884153331e-08,
+            "grasp_position_m": 9.003421089963798e-09,
+            "force_n": 0.00011550758073575196,
+            "penetration_m": 1.8782952790077315e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 13,
+          "time_s": 0.02800000000000001,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 3.014730353456606,
+          "fresh_force_n": 3.014800059219219,
+          "errors": {
+            "flange_position_m": 2.811354679207007e-08,
+            "grasp_position_m": 8.520110967248538e-09,
+            "force_n": 6.970576261311479e-05,
+            "penetration_m": 1.7327589371207795e-08,
+            "contact_count": 0
+          }
+        },
+        {
+          "step": 14,
+          "time_s": 0.030000000000000013,
+          "logged_count": 1,
+          "fresh_count": 1,
+          "logged_force_n": 2.9937054320627587,
+          "fresh_force_n": 2.9938008944570633,
+          "errors": {
+            "flange_position_m": 2.6458622627175197e-08,
+            "grasp_position_m": 7.72774342467063e-09,
+            "force_n": 9.546239430457959e-05,
+            "penetration_m": 1.608980310117481e-08,
+            "contact_count": 0
+          }
+        }
+      ],
+      "status": "FAIL"
+    }
+  }
+}

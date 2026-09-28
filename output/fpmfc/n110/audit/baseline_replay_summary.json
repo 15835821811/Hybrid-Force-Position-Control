@@ -1,0 +1,123 @@
+{
+  "method": "archived metrics/trace copied byte-for-byte; existing independent validators write only to replay_staging",
+  "results": {
+    "precontact": {
+      "status": "PASS",
+      "checks": {
+        "trace_hash_matches_metrics": true,
+        "reported_candidate_passed_acceptance": true,
+        "deterministic_qpos_replay": true,
+        "deterministic_qvel_replay": true,
+        "deterministic_flange_replay": true,
+        "deterministic_clearance_replay": true
+      },
+      "replay": {
+        "maximum_qpos_error": 0.0,
+        "maximum_qvel_error": 0.0,
+        "maximum_flange_position_error_m": 0.0,
+        "maximum_clearance_error_m": 0.0,
+        "recomputed_minimum_clearance_m": 0.13477656518600314
+      },
+      "validation_copy": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\n110\\audit\\replay_staging\\precontact\\validation.json"
+    },
+    "rigid": {
+      "status": "PASS",
+      "checks": {
+        "trace_sha256": true,
+        "trace_numeric_finite": true,
+        "physics_step_count": true,
+        "contact_config_sha256": true,
+        "model_identity": true,
+        "implementation_identity": true,
+        "source_trace_exists": true,
+        "source_trace_sha256": true,
+        "qpos_no_post_initialization_writes": true,
+        "qvel_no_post_initialization_writes": true,
+        "replay_qpos": true,
+        "replay_qvel": true,
+        "replay_flange_position": true,
+        "replay_target_grasp_position": true,
+        "replay_normal_force": true,
+        "replay_penetration": true,
+        "replay_contact_count": true,
+        "metrics_recomputed": true
+      },
+      "replay": {
+        "maximum_qpos_absolute_error": 3.175237850427948e-14,
+        "maximum_qvel_absolute_error": 1.3498091533392653e-12,
+        "maximum_flange_position_error_m": 1.0642263718476032e-14,
+        "maximum_target_grasp_position_error_m": 3.9511502286300045e-15,
+        "maximum_normal_force_error_n": 1.6114398704303312e-10,
+        "maximum_penetration_error_m": 1.9957629366945846e-15,
+        "contact_count_exact": true
+      },
+      "validation_copy": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\n110\\audit\\replay_staging\\rigid\\validation.json"
+    },
+    "admittance": {
+      "status": "PASS",
+      "checks": {
+        "trace_sha256": true,
+        "trace_numeric_finite": true,
+        "physics_step_count": true,
+        "contact_config_sha256": true,
+        "model_identity": true,
+        "implementation_identity": true,
+        "source_trace_exists": true,
+        "source_trace_sha256": true,
+        "qpos_no_post_initialization_writes": true,
+        "qvel_no_post_initialization_writes": true,
+        "replay_qpos": true,
+        "replay_qvel": true,
+        "replay_flange_position": true,
+        "replay_target_grasp_position": true,
+        "replay_normal_force": true,
+        "replay_penetration": true,
+        "replay_contact_count": true,
+        "metrics_recomputed": true
+      },
+      "replay": {
+        "maximum_qpos_absolute_error": 1.903921464929681e-11,
+        "maximum_qvel_absolute_error": 1.3598917825152768e-09,
+        "maximum_flange_position_error_m": 2.494258331559616e-12,
+        "maximum_target_grasp_position_error_m": 2.3310617578742462e-12,
+        "maximum_normal_force_error_n": 1.9222986402667175e-07,
+        "maximum_penetration_error_m": 3.173427070169571e-12,
+        "contact_count_exact": true
+      },
+      "validation_copy": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\n110\\audit\\replay_staging\\admittance\\validation.json"
+    },
+    "admittance-no-shape": {
+      "status": "PASS",
+      "checks": {
+        "trace_sha256": true,
+        "trace_numeric_finite": true,
+        "physics_step_count": true,
+        "contact_config_sha256": true,
+        "model_identity": true,
+        "implementation_identity": true,
+        "source_trace_exists": true,
+        "source_trace_sha256": true,
+        "qpos_no_post_initialization_writes": true,
+        "qvel_no_post_initialization_writes": true,
+        "replay_qpos": true,
+        "replay_qvel": true,
+        "replay_flange_position": true,
+        "replay_target_grasp_position": true,
+        "replay_normal_force": true,
+        "replay_penetration": true,
+        "replay_contact_count": true,
+        "metrics_recomputed": true
+      },
+      "replay": {
+        "maximum_qpos_absolute_error": 1.720015241346573e-10,
+        "maximum_qvel_absolute_error": 1.2363686741068136e-09,
+        "maximum_flange_position_error_m": 8.516136993593991e-12,
+        "maximum_target_grasp_position_error_m": 5.426264597485423e-12,
+        "maximum_normal_force_error_n": 1.7201951596490517e-07,
+        "maximum_penetration_error_m": 9.124174912790092e-12,
+        "contact_count_exact": true
+      },
+      "validation_copy": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\n110\\audit\\replay_staging\\admittance-no-shape\\validation.json"
+    }
+  }
+}

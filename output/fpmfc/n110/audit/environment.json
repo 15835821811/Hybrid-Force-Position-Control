@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-09-28T08:28:40.366715+00:00",
+  "git": {
+    "head": "c905cbf8fb6c3e6f95292687dbb4e8e14d46e0f2",
+    "branch": "codex/n110-contact-audit",
+    "status_short": "M assets/new_of_flexiv_rizon4s_kinematics.urdf\n?? output/fpmfc/n110/\n?? tests/test_n110_contact_audit.py\n?? v6_mujoco/fpmfc/audit_contact.py\n?? v6_mujoco/fpmfc/restore_archive_checkout_bytes.py"
+  },
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.19 (main, Feb 12 2026, 00:37:08) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\.venv\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.11.2",
+      "mujoco": "3.3.2",
+      "matplotlib": "3.8.0",
+      "Pillow": "10.2.0",
+      "PyYAML": "6.0.1",
+      "pytest": "9.1.1"
+    },
+    "dependency_snapshot": "absl-py==2.5.0\ncolorama==0.4.6\ncontourpy==1.2.1\ncycler==0.12.1\netils==1.13.0\nexceptiongroup==1.3.1\nfonttools==4.65.0\nfsspec==2026.9.0\nglfw==2.10.2\nimportlib-resources==7.1.0\niniconfig==2.3.0\nkiwisolver==1.5.1\nmatplotlib==3.8.0\nmujoco==3.3.2\nnumpy==1.26.4\npackaging==26.3\npillow==10.2.0\npluggy==1.6.0\npygments==2.21.0\npyopengl==3.1.10\npyparsing==3.3.3\npytest==9.1.1\npython-dateutil==2.9.0.post0\npyyaml==6.0.1\nscipy==1.11.2\nsix==1.17.0\ntomli==2.4.1\ntyping-extensions==4.16.0\nzipp==4.1.0"
+  },
+  "archives": {
+    "precontact": {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full",
+      "trace_real_npz": true,
+      "trace_sha256": "f87ea06936b7c11361cac9cdd69da70655c876582fcc48f565057f147bd8d716",
+      "trace_hash_match": true,
+      "implementation_identity_match": true
+    },
+    "rigid": {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\contact\\n102_rigid_authoritative",
+      "trace_real_npz": true,
+      "trace_sha256": "5efc5d7d4c42a217a36d2f9f321ec2a73d4bfedb939cd6d7ae5aca9cefdca10a",
+      "trace_hash_match": true,
+      "implementation_identity_match": true,
+      "stored_source_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+      "source_path_mapping": {
+        "archived": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+        "local": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz"
+      },
+      "source_hash_match_via_mapping": true,
+      "model_identity_match": true
+    },
+    "admittance": {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\contact\\n103_admittance_authoritative",
+      "trace_real_npz": true,
+      "trace_sha256": "3db5e0a3c7223c39b0a599a62e5e17ccdafabe1a280c7831eb9f207d9287094b",
+      "trace_hash_match": true,
+      "implementation_identity_match": true,
+      "stored_source_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+      "source_path_mapping": {
+        "archived": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+        "local": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz"
+      },
+      "source_hash_match_via_mapping": true,
+      "model_identity_match": true
+    },
+    "admittance-no-shape": {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\contact\\n104_admittance_no_shape_authoritative",
+      "trace_real_npz": true,
+      "trace_sha256": "2226ff0a1a5a0b73eb328d8d83e6c759caa94379f7c7481382b15465d39cc958",
+      "trace_hash_match": true,
+      "implementation_identity_match": true,
+      "stored_source_path": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+      "source_path_mapping": {
+        "archived": "E:\\桌面\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz",
+        "local": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\precontact\\n073_controller_ablation_rk4_formal_planning45\\seed_00\\full\\trace.npz"
+      },
+      "source_hash_match_via_mapping": true,
+      "model_identity_match": true
+    }
+  }
+}

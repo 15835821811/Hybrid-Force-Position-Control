@@ -1,0 +1,116 @@
+{
+  "evaluation_window_s": 0.2,
+  "variants": {
+    "rigid": {
+      "desired_force_final_n": 3.0,
+      "measured_force_min_n": 0.0,
+      "measured_force_max_n": 4.0117057013778865,
+      "mean_force_error_n": -0.16624687789636072,
+      "steady_force_rmse_all_samples_n": 1.0673209335315523,
+      "steady_window_samples": 100,
+      "steady_window_contact_absent_samples": 4,
+      "detection_uses_previous_poststep_force": true,
+      "detection_reconstruction_mismatch_steps": [],
+      "contact_loss_onset_indices": [
+        37,
+        485,
+        499
+      ],
+      "admittance_reset_times_s": [],
+      "admittance_reset_command_jumps_m": [],
+      "admittance_reset_speed_jumps_m_s": [],
+      "offset_limit_occupancy_fraction": null,
+      "velocity_limit_occupancy_fraction": null,
+      "maximum_reconstructed_state_error": null,
+      "robot_contact_angular_impulse_proxy_nms": 0.2294042584650775,
+      "robot_subtree_angular_momentum_change_norm": 0.23046760167300248,
+      "base_link_angular_momentum_change_norm_kg_m2_s": 0.10769250932089318
+    },
+    "admittance": {
+      "desired_force_final_n": 3.0,
+      "measured_force_min_n": 0.0,
+      "measured_force_max_n": 5.118885792420957,
+      "mean_force_error_n": 0.2782255038179951,
+      "steady_force_rmse_all_samples_n": 1.2383079734442908,
+      "steady_window_samples": 100,
+      "steady_window_contact_absent_samples": 0,
+      "detection_uses_previous_poststep_force": true,
+      "detection_reconstruction_mismatch_steps": [],
+      "contact_loss_onset_indices": [
+        36,
+        105,
+        130
+      ],
+      "admittance_reset_times_s": [
+        0.07400000000000005,
+        0.21200000000000016,
+        0.2620000000000002
+      ],
+      "admittance_reset_command_jumps_m": [
+        0.00043328903566807164,
+        -0.00012032843360035784,
+        8.634131355839665e-07
+      ],
+      "admittance_reset_speed_jumps_m_s": [
+        -0.0043378182613134485,
+        -0.0005706558376208436,
+        -0.007906335072194603
+      ],
+      "offset_limit_occupancy_fraction": 0.0,
+      "velocity_limit_occupancy_fraction": 0.01,
+      "maximum_reconstructed_state_error": 0.0,
+      "robot_contact_angular_impulse_proxy_nms": 0.13884931962787198,
+      "robot_subtree_angular_momentum_change_norm": 0.139115737497787,
+      "base_link_angular_momentum_change_norm_kg_m2_s": 0.19572990748752195
+    },
+    "admittance-no-shape": {
+      "desired_force_final_n": 3.0,
+      "measured_force_min_n": 0.0,
+      "measured_force_max_n": 5.895242015496829,
+      "mean_force_error_n": 0.670424451234555,
+      "steady_force_rmse_all_samples_n": 1.5934291306476887,
+      "steady_window_samples": 100,
+      "steady_window_contact_absent_samples": 0,
+      "detection_uses_previous_poststep_force": true,
+      "detection_reconstruction_mismatch_steps": [],
+      "contact_loss_onset_indices": [
+        36,
+        108,
+        130,
+        135,
+        185,
+        257
+      ],
+      "admittance_reset_times_s": [
+        0.07400000000000005,
+        0.21800000000000017,
+        0.2620000000000002,
+        0.2720000000000002,
+        0.3720000000000003,
+        0.5160000000000003
+      ],
+      "admittance_reset_command_jumps_m": [
+        0.0004352067208600361,
+        -0.00014587979366508799,
+        2.260783695636833e-05,
+        -1.867722213811934e-05,
+        2.5833429282010474e-05,
+        -0.00023010821382082636
+      ],
+      "admittance_reset_speed_jumps_m_s": [
+        -0.0042926412381694085,
+        -0.0021476905033316874,
+        -0.008698883527276949,
+        0.0015168067172532424,
+        -0.008673528273833345,
+        -0.009885324411190503
+      ],
+      "offset_limit_occupancy_fraction": 0.0,
+      "velocity_limit_occupancy_fraction": 0.02,
+      "maximum_reconstructed_state_error": 0.0,
+      "robot_contact_angular_impulse_proxy_nms": 0.13313340083501413,
+      "robot_subtree_angular_momentum_change_norm": 0.13325298599437463,
+      "base_link_angular_momentum_change_norm_kg_m2_s": 0.2607871929830545
+    }
+  }
+}

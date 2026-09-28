@@ -1,0 +1,27 @@
+N110A/N110B actual command record (Windows PowerShell, worktree codex/n110-contact-audit)
+2026-09-28 Asia/Shanghai
+
+git status --short --branch
+  Original checkout: c905cbf8fb6c3e6f95292687dbb4e8e14d46e0f2; many pre-existing untracked outputs preserved.
+git switch -c codex/n110-contact-audit
+  PASS, isolated managed worktree from c905cbf8fb6c3e6f95292687dbb4e8e14d46e0f2.
+uv venv --python 3.10 .venv
+  PASS, CPython 3.10.19.
+git lfs checkout output/fpmfc/precontact/n073_controller_ablation_rk4_formal_planning45/seed_00/full/trace.npz output/fpmfc/contact/n102_rigid_authoritative/trace.npz output/fpmfc/contact/n103_admittance_authoritative/trace.npz output/fpmfc/contact/n104_admittance_no_shape_authoritative/trace.npz
+  PASS, four local LFS objects hydrated; no repository-wide fetch.
+uv pip install --python .venv/Scripts/python.exe -r requirements.txt pytest
+  PASS install; scipy import failed because NumPy 1.21.6 and SciPy 1.11.2 wheels were binary-incompatible in this environment.
+.venv/Scripts/python.exe -m pytest -q tests/test_fpmfc_foundations.py tests/test_fpmfc_controller.py tests/test_fpmfc_contact.py tests/test_fpmfc_controller_ablation_suite.py
+  ERROR during collection: 4 modules, ValueError numpy.ndarray size changed; 0 tests executed.
+uv pip install --python .venv/Scripts/python.exe --reinstall numpy==1.26.4 scipy==1.11.2
+  PASS; version deviation from requirements.txt explicitly recorded in environment.json.
+.venv/Scripts/python.exe -m pytest -q tests/test_fpmfc_foundations.py tests/test_fpmfc_controller.py tests/test_fpmfc_contact.py tests/test_fpmfc_controller_ablation_suite.py
+  PASS: 25 passed.
+.venv/Scripts/python.exe -m v6_mujoco.fpmfc.restore_archive_checkout_bytes
+  PASS; only CRLF checkout conversions of clean tracked implementation/config/XML/URDF files were converted back to HEAD bytes, verified before write. git add -u refreshed index; staged diff empty.
+.venv/Scripts/python.exe -m v6_mujoco.fpmfc.audit_contact --mode all
+  PASS execution; four strict archived replays PASS; diagnostic findings are in six JSON files.
+.venv/Scripts/python.exe -m pytest -q tests
+  PASS: 65 passed, 0 failed, 0 skipped; 13 matplotlib/pyparsing deprecation warnings. Full stdout in tests.log.
+
+No new contact experiments, PSO, trajectory replanning, admittance tuning, historical artifact edits, push, or merge were performed.
