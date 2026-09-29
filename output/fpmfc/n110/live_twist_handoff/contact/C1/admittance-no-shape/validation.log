@@ -1,0 +1,39 @@
+{
+  "condition": "C1",
+  "variant": "admittance-no-shape",
+  "passed": true,
+  "n110c_checks": {
+    "S_independent_torque_replay": true,
+    "source_precontact_replay": true,
+    "source_handoff_qualified": true,
+    "group_S_homogeneous": true,
+    "condition_identity": true,
+    "frozen_manifest_hash": true,
+    "new_runtime_identity": true,
+    "source_trace_hash": true,
+    "target_absolute_phase_position": true,
+    "target_absolute_phase_rotation": true,
+    "contact_local_time_zero": true,
+    "force_ramp_local_time_zero": true,
+    "S_initial_feedback_zero_held_torque": true,
+    "contact_acquired_gate_consistency": true,
+    "fixed_1s_contact_grid": true
+  },
+  "maximum_errors": {
+    "qpos": 8.881784197001252e-16,
+    "qvel": 4.4325654258159375e-14,
+    "flange_position_m": 7.870063977598499e-16,
+    "grasp_position_m": 1.594436429147036e-16,
+    "flange_linear_twist": 5.05788252132691e-15,
+    "flange_angular_twist": 4.31199913985563e-14,
+    "grasp_linear_twist": 3.685893302539793e-15,
+    "grasp_angular_twist": 2.1272200096242427e-14,
+    "contact_normal": 6.455875440461582e-16,
+    "force_n": 4.221512028834695e-12,
+    "penetration_m": 7.307793693095421e-16,
+    "feedback_force_n": 4.221512028834695e-12,
+    "feedback_state": 4.4325654258159375e-14,
+    "feedback_control": 0.0,
+    "time_s": 0.0
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "n110c_contact_preflight_v1",
+  "condition": "C0",
+  "pairing_manifest_sha256": "bbb885ca1798af48e77889984e72557cee2eda257e3aafa5209049d6d58a6f7f",
+  "source_trace_sha256": "2f93926e8d1e6712bb26624753c024bce2958a4bc6e5597c0980ab376d229c9f",
+  "source_qualified": true,
+  "both_qualified": true,
+  "checks": {
+    "both_source_handoffs_and_replays_qualified": true,
+    "base_qpos_preserved": true,
+    "base_qvel_preserved": true,
+    "joint_qpos_preserved": true,
+    "joint_qvel_preserved": true,
+    "initial_penetration": true,
+    "initial_contact_force": true,
+    "target_absolute_phase": true
+  },
+  "passed": true,
+  "base_qpos_max_abs_difference": 0.0,
+  "base_qvel_max_abs_difference": 0.0,
+  "joint_qpos_max_abs_difference": 0.0,
+  "joint_qvel_max_abs_difference": 0.0,
+  "tool_face_to_grasp_normal_gap_m": 2.2257496498098623e-05,
+  "initial_penetration_m": 2.3675351850815383e-05,
+  "initial_contact_force_n": 0.2975725211490488,
+  "initial_contact_count": 1,
+  "initial_tool_face_relative_linear_speed_m_s": 0.013191240946222213,
+  "initial_relative_angular_speed_rad_s": 0.08764809762439868,
+  "initial_flange_position_world_m": [
+    0.8352765624461107,
+    0.13996566684149087,
+    0.8537092661132404
+  ],
+  "initial_tool_face_position_world_m": [
+    0.8351233586721016,
+    0.13996567066043009,
+    0.8535807024962456
+  ],
+  "initial_grasp_position_world_m": [
+    0.8350933335321532,
+    0.13999999999999999,
+    0.853581858547019
+  ],
+  "initial_target_grasp_rotation_world": [
+    [
+      0.6427876096865397,
+      -2.012407545130324e-16,
+      0.7660444431189782
+    ],
+    [
+      2.012407545130324e-16,
+      1.0000000000000004,
+      9.384010496231708e-17
+    ],
+    [
+      -0.7660444431189782,
+      9.384010496231708e-17,
+      0.6427876096865397
+    ]
+  ],
+  "initial_target_grasp_linear_velocity_world_m_s": [
+    0.008414070135040742,
+    2.8424153356447906e-18,
+    -0.010027498311774446
+  ],
+  "initial_target_grasp_angular_velocity_world_rad_s": [
+    1.9377047211159065e-17,
+    -0.08726646259971649,
+    -8.477458154882095e-18
+  ],
+  "source_terminal_torque_nm": [
+    0.02394258599686331,
+    0.015251105455202661,
+    -0.006878418250280974,
+    0.007762639430032812,
+    0.002572312125192595,
+    -0.0009872127988088323,
+    -0.0020000521198436467
+  ],
+  "source_reference_dq_rad_s": [
+    -0.016793155811018916,
+    -0.0013245614625277044,
+    -0.025672090887129677,
+    -0.02268574374114476,
+    0.061346038026618435,
+    -0.02153477463075543,
+    -0.03639943843300346
+  ],
+  "source_reference_ddq_rad_s2": [
+    0.03988232745791055,
+    0.0011479743725869196,
+    0.06396091473112875,
+    0.056954149498251484,
+    -0.1408457401797701,
+    0.056358507121761006,
+    0.08076337255998566
+  ],
+  "transfer": {
+    "source_trace_path": "C:\\Users\\admin\\.codex\\worktrees\\n110-contact-audit\\力位形混合控制\\output\\fpmfc\\n110\\live_twist_handoff\\precontact\\C0\\trace.npz",
+    "source_trace_sha256": "2f93926e8d1e6712bb26624753c024bce2958a4bc6e5597c0980ab376d229c9f",
+    "capture_time_s": 8.0,
+    "terminal_arm_angle_rad": -1.492877399060744,
+    "target_transfer_errors": {
+      "center_position_m": 0.0,
+      "grasp_position_m": 1.5700924586837752e-16,
+      "grasp_rotation_frobenius": 6.081373321887117e-16,
+      "grasp_linear_velocity_m_s": 1.115028205623147e-17,
+      "grasp_angular_velocity_rad_s": 1.6262235123331003e-17
+    }
+  },
+  "contact_local_time_s": 0.0,
+  "target_absolute_time_s": 8.0
+}

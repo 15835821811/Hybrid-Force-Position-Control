@@ -1,0 +1,42 @@
+{
+  "condition": "C0",
+  "metrics": {
+    "terminal_position_error_m": 4.562115838513325e-05,
+    "terminal_orientation_error_rad": 4.4151969032631425e-05,
+    "terminal_arm_angle_error_rad": 0.013911352973461355,
+    "terminal_absolute_linear_speed_m_s": 0.00023499034070524,
+    "terminal_absolute_angular_speed_rad_s": 0.00040807173258720377,
+    "terminal_tool_face_relative_linear_speed_m_s": 0.013191240946222194,
+    "terminal_relative_angular_speed_rad_s": 0.08764809762439867,
+    "terminal_flange_reference_linear_velocity_error_m_s": 0.0002349903407049993,
+    "terminal_flange_reference_angular_velocity_error_rad_s": 0.0004080717325881458,
+    "last_0p1s_relative_linear_speed_max_m_s": 0.01341465161662535,
+    "last_0p1s_relative_linear_speed_rms_m_s": 0.01328190607519687,
+    "last_0p1s_position_error_max_m": 7.796430530986238e-05,
+    "last_0p1s_orientation_error_max_rad": 7.893519858613811e-05,
+    "tracking_position_rms_m": 0.0010313695565358201,
+    "tracking_orientation_max_rad": 0.12415169983808497,
+    "minimum_clearance_m": 0.13492335591544727,
+    "task_success_rate": 1.0,
+    "torque_saturation_fraction": 0.0,
+    "maximum_momentum_delta": 2.110971389910887e-09,
+    "maximum_command_joint_jerk_rad_s3": 80.00000000000007,
+    "velocity_bound_conflict_count": 0,
+    "initial_qpos_qvel_write_count_after_initialization": 0
+  },
+  "acceptance": {
+    "task_success_rate": true,
+    "terminal_position_error": true,
+    "terminal_orientation_error": true,
+    "terminal_arm_angle_error": true,
+    "minimum_clearance": true,
+    "torque_saturation_fraction": true,
+    "momentum_delta": true,
+    "command_joint_jerk": true,
+    "velocity_bound_compatibility": true,
+    "zero_terminal_linear_speed": true,
+    "zero_terminal_angular_speed": true,
+    "common_passed": true,
+    "handoff_passed": true
+  }
+}

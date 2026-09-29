@@ -1,0 +1,36 @@
+{
+  "condition": "C1",
+  "replay_passed": true,
+  "handoff_passed": true,
+  "checks": {
+    "trace_hash": true,
+    "config_snapshot_hash": true,
+    "frozen_manifest_hash": true,
+    "current_implementation_identity": true,
+    "initial_state_matches_manifest": true,
+    "recorded_mocap_matches_absolute_time": true,
+    "fixed_task_schedule": true,
+    "qpos_strict_replay": true,
+    "qvel_strict_replay": true,
+    "flange_position_strict_replay": true,
+    "flange_twist_strict_replay": true,
+    "clearance_strict_replay": true,
+    "target_absolute_phase": true,
+    "reference_recomputation": true,
+    "time_grid": true,
+    "source_history_available": true
+  },
+  "maximum_errors": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "flange_position_m": 0.0,
+    "flange_linear_twist": 0.0,
+    "flange_angular_twist": 0.0,
+    "target_grasp_position_m": 0.0,
+    "reference_position_m": 0.0,
+    "reference_linear_velocity_m_s": 0.0,
+    "reference_angular_velocity_rad_s": 0.0,
+    "clearance_m": 0.0,
+    "time_s": 0.0
+  }
+}

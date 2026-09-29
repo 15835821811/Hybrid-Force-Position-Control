@@ -1,0 +1,57 @@
+{
+  "schema_version": "n110c_precontact_replay_validation_v1",
+  "condition": "C1",
+  "replay_passed": true,
+  "handoff_passed": true,
+  "checks": {
+    "trace_hash": true,
+    "config_snapshot_hash": true,
+    "frozen_manifest_hash": true,
+    "current_implementation_identity": true,
+    "initial_state_matches_manifest": true,
+    "recorded_mocap_matches_absolute_time": true,
+    "fixed_task_schedule": true,
+    "qpos_strict_replay": true,
+    "qvel_strict_replay": true,
+    "flange_position_strict_replay": true,
+    "flange_twist_strict_replay": true,
+    "clearance_strict_replay": true,
+    "target_absolute_phase": true,
+    "reference_recomputation": true,
+    "time_grid": true,
+    "source_history_available": true
+  },
+  "maximum_errors": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "flange_position_m": 0.0,
+    "flange_linear_twist": 0.0,
+    "flange_angular_twist": 0.0,
+    "target_grasp_position_m": 0.0,
+    "reference_position_m": 0.0,
+    "reference_linear_velocity_m_s": 0.0,
+    "reference_angular_velocity_rad_s": 0.0,
+    "clearance_m": 0.0,
+    "time_s": 0.0
+  },
+  "tolerances_frozen_before_runs": {
+    "qpos": 1e-11,
+    "qvel": 1e-10,
+    "flange_position_m": 1e-10,
+    "flange_twist": 1e-09,
+    "clearance_m": 1e-10
+  },
+  "trace_sha256": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998",
+  "metrics_sha256": "d2fb19316dd5b5352b512a6ba98e0cd64375b7a2fe7fd7fdf4d0ec9194085ac2",
+  "verification_identity": {
+    "schema_version": "n110c_handoff_verification_v1",
+    "parent": {
+      "runtime_composite_sha256": "e42ff0e4b4698d8c147587ccbf9a1010f4e8225bfa362d87d304f98ebbc9fd86"
+    },
+    "source_files": {
+      "v6_mujoco/fpmfc/validate_handoff_contact.py": "be9ba252fd9cef6ed7eaa4457d3def0b2f58f42a4749ae222e729e43870dce2e",
+      "v6_mujoco/fpmfc/validate_handoff_precontact.py": "9b9ef60708732aa420902344460170bc9f1943180f2a6e704d88aaf8ed48c66e"
+    },
+    "composite_sha256": "c5bf5932e7443d95483a655f93c178b58ecd6cf87bbafda258072603d3b2b624"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "n110c_precontact_artifacts_v1",
+  "artifacts": {
+    "trace.npz": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998",
+    "metrics.json": "d2fb19316dd5b5352b512a6ba98e0cd64375b7a2fe7fd7fdf4d0ec9194085ac2",
+    "config_snapshot.json": "cebf232b8d0c6a719f373578d54ee571c28badecfa98f3388b1632e8d4fb0289",
+    "validation.json": "b0f43afc82fd8394dcd2491ec19fe623335dd4928beda6414bbad3438dc86ec5"
+  }
+}

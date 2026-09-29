@@ -1,0 +1,228 @@
+{
+  "schema_version": "n110c_precontact_dynamics_v1",
+  "condition": "C1",
+  "source_candidate": {
+    "capture_time_s": 8.0,
+    "terminal_arm_angle_rad": -1.492877399060744,
+    "initial_qpos": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.6981317007977318,
+      0.0,
+      1.5707963267948966,
+      0.0,
+      0.6981317007977318,
+      0.0
+    ],
+    "initial_qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source_trace_path": "output/fpmfc/precontact/n073_controller_ablation_rk4_formal_planning45/seed_00/full/trace.npz",
+    "source_trace_sha256": "f87ea06936b7c11361cac9cdd69da70655c876582fcc48f565057f147bd8d716",
+    "source_metrics_path": "output/fpmfc/precontact/n073_controller_ablation_rk4_formal_planning45/seed_00/full/metrics.json",
+    "source_metrics_sha256": "d3f79b8ba118ad3ebbd5059bc695cfc462f47b1a51bc75919ec0d66d14bdd01b",
+    "source_implementation_identity": {
+      "schema_version": "fpmfc_implementation_identity_v1",
+      "files": {
+        "models/flexiv_rizon4s_scene.xml": "a402bf78fd32c904b5e0b07ab65a9105fafdb4620da6e92eaf1c5060b8a096f5",
+        "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+        "v6_mujoco/fpmfc/config.py": "122cbe3e1ad26e48eb40d95dc69441b0c9dfac8bcd9a68153bd06916a2873560",
+        "v6_mujoco/fpmfc/controller.py": "5bd0c64905e68868d95a37166e2332ebd59b83ab0cefbdf1850e167f09f2b097",
+        "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+        "v6_mujoco/fpmfc/optimizer.py": "3c0a661a7f06246609489013c94062e5a881fbc2a84b23ce29ca75751a88d21b",
+        "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+        "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+        "v6_mujoco/fpmfc/rollout.py": "da1945df414ebe1b736a6f592c44fd6d493b512fdb91d1a3a5d8dfbc58d9e538",
+        "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+        "v6_mujoco/fpmfc/run_capture.py": "077dbe1bd17eacd1a14829c584e5397001f686b52db6f6bd577c8ada237f020f",
+        "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+        "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+        "v6_mujoco/fpmfc/target.py": "c9ab62d6e2147181f5c6fc6a760d7caf770e24a1ea72d39972959bfb14427bf0",
+        "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+        "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+        "v6_mujoco/hierarchical_qp.py": "0d274127eaadb739d95370dcff19a9b61bf770607c3d992ee72cee668c0bd812",
+        "v6_mujoco/model.py": "0f5433ee289d810f6ec13a5c76f92d371362d0f2bb86372084652bdf04c1dab5",
+        "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+      },
+      "composite_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa"
+    }
+  },
+  "pairing_manifest_sha256": "bbb885ca1798af48e77889984e72557cee2eda257e3aafa5209049d6d58a6f7f",
+  "config_snapshot_sha256": "cebf232b8d0c6a719f373578d54ee571c28badecfa98f3388b1632e8d4fb0289",
+  "implementation_identity": {
+    "schema_version": "n110c_handoff_runtime_v1",
+    "parent": {
+      "schema_version": "n110_contact_consistency_implementation_v1",
+      "frozen_precontact_identity": {
+        "schema_version": "fpmfc_implementation_identity_v1",
+        "files": {
+          "models/flexiv_rizon4s_scene.xml": "a402bf78fd32c904b5e0b07ab65a9105fafdb4620da6e92eaf1c5060b8a096f5",
+          "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+          "v6_mujoco/fpmfc/config.py": "122cbe3e1ad26e48eb40d95dc69441b0c9dfac8bcd9a68153bd06916a2873560",
+          "v6_mujoco/fpmfc/controller.py": "5bd0c64905e68868d95a37166e2332ebd59b83ab0cefbdf1850e167f09f2b097",
+          "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+          "v6_mujoco/fpmfc/optimizer.py": "3c0a661a7f06246609489013c94062e5a881fbc2a84b23ce29ca75751a88d21b",
+          "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+          "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+          "v6_mujoco/fpmfc/rollout.py": "da1945df414ebe1b736a6f592c44fd6d493b512fdb91d1a3a5d8dfbc58d9e538",
+          "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+          "v6_mujoco/fpmfc/run_capture.py": "077dbe1bd17eacd1a14829c584e5397001f686b52db6f6bd577c8ada237f020f",
+          "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+          "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+          "v6_mujoco/fpmfc/target.py": "c9ab62d6e2147181f5c6fc6a760d7caf770e24a1ea72d39972959bfb14427bf0",
+          "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+          "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+          "v6_mujoco/hierarchical_qp.py": "0d274127eaadb739d95370dcff19a9b61bf770607c3d992ee72cee668c0bd812",
+          "v6_mujoco/model.py": "0f5433ee289d810f6ec13a5c76f92d371362d0f2bb86372084652bdf04c1dab5",
+          "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+        },
+        "composite_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa"
+      },
+      "frozen_contact_identity": {
+        "schema_version": "fpmfc_contact_implementation_identity_v1",
+        "files": {
+          "configs/fpmfc_contact.yaml": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+          "models/flexiv_rizon4s_contact_scene.xml": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+          "v6_mujoco/fpmfc/contact.py": "2530a240dc59605e9d940e1fe64fecacebceb532062bc2499d66363e25043471",
+          "v6_mujoco/fpmfc/contact_config.py": "8b0772ee2dce3e1449ced70574edea54a0b69c0f6d41189b248b05b17dafb4cf",
+          "v6_mujoco/fpmfc/contact_model.py": "ffa6fda7fbaab060a20049f9746351bccb8b30648125a6240970a8ff34d6549d",
+          "v6_mujoco/fpmfc/contact_precheck.py": "1074e1c76cbddfe042c191b7c91869cf9f568bdfc7789d9da509ce0e5f439c2b",
+          "v6_mujoco/fpmfc/run_contact.py": "bfda536c3aa1687f0454334e3917d49e6419a417f792cb2ce053455d98cf7d6d"
+        },
+        "composite_sha256": "7d4e44bcc9238fa957487629ea40481f5cc62cace26f3ed459e467fc6b494e5c"
+      },
+      "new_runtime_source_files": {
+        "v6_mujoco/fpmfc/contact_affine_controller.py": "fb39609811401e2b1c1ae8d87d66e27a4058b188963ae9dc9912a8edca007f21",
+        "v6_mujoco/fpmfc/contact_consistency_metrics.py": "f99f5b074094120f6e0024b2efa9c7694116b7f1eae67b76fc399f2d2067abfe",
+        "v6_mujoco/fpmfc/contact_consistency_provenance.py": "129bd244b8e2b526441876e268ffd2cfc3d1168aac61c460e82392ea6fc71430",
+        "v6_mujoco/fpmfc/contact_observation.py": "cfd7e3925820a0c97574ab3d30c88959427fd7b8384b40f422b9e4800a6d2d0a",
+        "v6_mujoco/fpmfc/run_contact_consistent.py": "d52a1021d63c06c161c40bbee71741ec32139150b41dda60ad41bc8df76f2752"
+      },
+      "composite_sha256": "612a0e1bb30fc20ba4c6b5695141090472d14130c00ae65310faade3966abe7c"
+    },
+    "source_files": {
+      "v6_mujoco/fpmfc/handoff_contract.py": "46ff9f06b4f6389924d4abb0057b79ea8ccc79142bc908931293010d3a6e6677",
+      "v6_mujoco/fpmfc/handoff_provenance.py": "b76e014dca1c26f673852114a6a1187e907c32a137f452cdb19a0e42ff126365",
+      "v6_mujoco/fpmfc/handoff_trajectory.py": "4de786b6f8c6852874a714d1118e14409d35aa0512d1ec92e6e239c8daafba42",
+      "v6_mujoco/fpmfc/run_handoff_contact.py": "259ffdbdd6026a8269303da98076342b6f4170d1a7d6a6b2bd7030d07041b93f",
+      "v6_mujoco/fpmfc/run_handoff_precontact.py": "8c62c82882a5c226de0b944bcf9ee6f495eb7b9a9e484610145696bd33273577"
+    },
+    "composite_sha256": "e42ff0e4b4698d8c147587ccbf9a1010f4e8225bfa362d87d304f98ebbc9fd86"
+  },
+  "model_identity": {
+    "contract_version": "flexiv_rizon4s_simscape_to_mujoco_v1",
+    "source_bundle_sha256": "a6084bc9a331168290eea1402ad0546301962bfe562a8183abd02fff81640cde",
+    "mujoco_version": "3.3.2",
+    "joint_names": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6",
+      "joint7"
+    ],
+    "actuator_names": [
+      "torque_joint1",
+      "torque_joint2",
+      "torque_joint3",
+      "torque_joint4",
+      "torque_joint5",
+      "torque_joint6",
+      "torque_joint7"
+    ],
+    "home_joint_position_rad": [
+      0.0,
+      -0.6981317007977318,
+      0.0,
+      1.5707963267948966,
+      0.0,
+      0.6981317007977318,
+      0.0
+    ],
+    "torque_limits_nm": [
+      123.0,
+      123.0,
+      64.0,
+      64.0,
+      39.0,
+      39.0,
+      39.0
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "integrator": "RK4",
+    "base_mass_kg": 500.0,
+    "base_diagonal_inertia_kg_m2": [
+      20.833333333,
+      20.833333333,
+      20.833333333
+    ],
+    "actuation": "seven_direct_joint_torque_motors",
+    "runtime_contract_sha256": "d524e1a17b40b38379d71be95aea6a6b2360c766f0f88448ebbaf2edd38a90cf"
+  },
+  "controller": "frozen FPMFCHQP full; same parameters for C0/C1",
+  "integrator": "RK4",
+  "physics_steps": 4000,
+  "task_ticks": 400,
+  "elapsed_wall_s": 4.078456799965352,
+  "trace_sha256": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998",
+  "metrics": {
+    "terminal_position_error_m": 7.08930511311957e-05,
+    "terminal_orientation_error_rad": 2.8770943797917088e-05,
+    "terminal_arm_angle_error_rad": 0.0009763504435120751,
+    "terminal_absolute_linear_speed_m_s": 0.013104920345189439,
+    "terminal_absolute_angular_speed_rad_s": 0.08686321058341882,
+    "terminal_tool_face_relative_linear_speed_m_s": 0.00015001325703307164,
+    "terminal_relative_angular_speed_rad_s": 0.00040334861023424366,
+    "terminal_flange_reference_linear_velocity_error_m_s": 0.00015003112682849672,
+    "terminal_flange_reference_angular_velocity_error_rad_s": 0.00040334861023538137,
+    "last_0p1s_relative_linear_speed_max_m_s": 0.00017304729852237036,
+    "last_0p1s_relative_linear_speed_rms_m_s": 0.00011041265221572155,
+    "last_0p1s_position_error_max_m": 7.588124495646901e-05,
+    "last_0p1s_orientation_error_max_rad": 6.796443768804064e-05,
+    "tracking_position_rms_m": 0.0006669598220392797,
+    "tracking_orientation_max_rad": 0.05785875911725996,
+    "minimum_clearance_m": 0.13637943438941075,
+    "task_success_rate": 1.0,
+    "torque_saturation_fraction": 0.0,
+    "maximum_momentum_delta": 8.843225824579367e-10,
+    "maximum_command_joint_jerk_rad_s3": 41.745924018082306,
+    "velocity_bound_conflict_count": 0,
+    "initial_qpos_qvel_write_count_after_initialization": 0
+  },
+  "acceptance": {
+    "task_success_rate": true,
+    "terminal_position_error": true,
+    "terminal_orientation_error": true,
+    "terminal_arm_angle_error": true,
+    "minimum_clearance": true,
+    "torque_saturation_fraction": true,
+    "momentum_delta": true,
+    "command_joint_jerk": true,
+    "velocity_bound_compatibility": true,
+    "tool_face_relative_linear_speed": true,
+    "relative_angular_speed": true,
+    "common_passed": true,
+    "handoff_passed": true
+  },
+  "precontact_contact_policy": "contact disabled; full torque-level dynamics; target mocap at absolute time"
+}
