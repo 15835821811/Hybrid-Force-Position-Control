@@ -1,0 +1,15 @@
+{
+  "schema_version": "n111_contact_load_artifacts_v1",
+  "verification_status": "VERIFIED",
+  "artifacts": {
+    "trace.npz": "686bffd77102141c3ed1977355a2bb47ce9f2e8c336c9494aa009268cc7912a8",
+    "metrics.json": "14e71be5f32c35fb5a3ca232d5c271b07e246b7e5c5b338900fa09771fe00fe2",
+    "config_snapshot.json": "c612ad8d3375e57035c5e0a73681501c50e603de37815ea5b4574760d828b1d7",
+    "outer_diagnostics.npz": "09829fbf5e35db8afff8f11e35cd5cfc1afdf2b78c62b689940156918e0e4e8c",
+    "servo_diagnostics.npz": "56eddfbf09f0e100a70e4f3847465492bfa715e960f5970c61068878e1f298db",
+    "execution_chain.npz": "c5f534924daa51955b07527acb57166a45ef7549ed1cd1060ef5fa658eccde02",
+    "execution_chain_summary.json": "07d57d22b9778c1e3ed1e0fd3c4120a8d3ff4c667fd246292ae11ade0a53c95c",
+    "prediction_diagnostics.npz": "ba6478f5c4afbb7dc07f9a64bf6e9790dd394f0048b2dadb2e48fa573140b150",
+    "validation.json": "7b625dee031d6608f2ecdfd0daab40f67a7e54adf927498688a3f484010eb342"
+  }
+}

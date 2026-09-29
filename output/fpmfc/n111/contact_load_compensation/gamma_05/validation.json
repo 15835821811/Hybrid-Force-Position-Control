@@ -1,0 +1,170 @@
+{
+  "schema_version": "n111_contact_load_validation_v2",
+  "cell": "gamma_05",
+  "passed": true,
+  "checks": {
+    "frozen_S_independent_torque_playback": true,
+    "independent_compensation_arithmetic": true,
+    "physics_replay": true,
+    "power_identity": true,
+    "same_state_full_dynamics_identity": true,
+    "same_state_reduced_dynamics_identity": true,
+    "trace_and_diagnostics_identity": true
+  },
+  "maximum_errors": {
+    "original_raw_torque_nm": 2.5317064000773826e-09,
+    "reduced_load_nm": 2.9708839832665035e-09,
+    "protected_compensation_nm": 1.4854419916332517e-09,
+    "applied_torque_nm": 3.0499620606860844e-09,
+    "qpos": 1.610045430311402e-12,
+    "qvel": 8.720549282692502e-11,
+    "contact_force_n": 7.73840547196869e-09,
+    "power_identity_w": 2.732189474663471e-16,
+    "full_dynamics_identity": 0.00023966659133062285,
+    "reduced_dynamics_identity": 0.00012625514326980368
+  },
+  "prediction_note": "offline 2 ms qvel increment minus instantaneous t_k acceleration from a copied state forwarded with new torque; finite-step integration/contact changes are included",
+  "prediction_qvel_error_rms": 7.493422363047113e-05,
+  "prediction_qvel_error_max": 0.0032945402322885125,
+  "verifier_identity": {
+    "original_path": "v6_mujoco/fpmfc/n111_validate.py",
+    "original_sha256": "c16f49f3f2884684e7278ba05961954c8c643a81fe017a75d9edca4b77758c0c",
+    "addendum_path": "v6_mujoco/fpmfc/n111_validate_v2.py",
+    "addendum_sha256": "982837d0fddc21709f1b1f254bea3fa2860f07a628874fa600e5017661175696"
+  },
+  "frozen_S_replay": {
+    "schema_version": "n110_contact_consistency_validation_v1",
+    "variant": "admittance",
+    "group": "S",
+    "numerical_tolerances_fixed_before_closed_loop_runs": {
+      "qpos": 1e-08,
+      "qvel": 1e-08,
+      "site_position_m": 1e-09,
+      "site_twist": 1e-08,
+      "force_n": 1e-05,
+      "penetration_m": 1e-08,
+      "normal": 1e-09,
+      "same_time_s": 1e-12
+    },
+    "checks": {
+      "trace_sha256": true,
+      "config_snapshot_sha256": true,
+      "current_n110_implementation_identity": true,
+      "model_identity": true,
+      "source_trace_sha256": true,
+      "qpos_original_replay_tolerance": true,
+      "qvel_original_replay_tolerance": true,
+      "site_position_numerical_tolerance": true,
+      "site_twist_numerical_tolerance": true,
+      "normal_numerical_tolerance": true,
+      "force_original_replay_tolerance": true,
+      "penetration_original_replay_tolerance": true,
+      "contact_count_exact": true,
+      "synchronized_time": true,
+      "desired_force_synchronized_time": true,
+      "feedback_uses_previous_control": true,
+      "feedback_state_and_force_replay": true,
+      "fixed_task_schedule": true,
+      "admittance_once_per_physics_step": true,
+      "metric_recomputation": true,
+      "contact_loss_recomputed": true,
+      "all_samples_in_force_window": true
+    },
+    "passed": true,
+    "maximum_errors": {
+      "qpos": 1.610045430311402e-12,
+      "qvel": 8.720549282692502e-11,
+      "flange_position_m": 2.0482399239534772e-13,
+      "grasp_position_m": 1.976031398514373e-13,
+      "flange_linear_twist": 1.1024147817811801e-11,
+      "flange_angular_twist": 9.144208757903394e-11,
+      "grasp_linear_twist": 9.921173278296834e-12,
+      "grasp_angular_twist": 5.76992661120786e-11,
+      "contact_normal": 1.167318273200877e-12,
+      "force_n": 7.73840547196869e-09,
+      "penetration_m": 8.192453876745831e-14,
+      "feedback_force_n": 7.73840547196869e-09,
+      "feedback_state": 8.720549282692502e-11,
+      "feedback_control": 0.0,
+      "time_s": 0.0
+    },
+    "metric_recomputation_absolute_errors": {
+      "peak_normal_force_n": 0.0,
+      "normal_force_impulse_ns": 0.0,
+      "steady_force_rmse_n": 0.0
+    },
+    "admittance_state_reconstruction_max_error": 0.0,
+    "physics_steps": 500,
+    "task_ticks": 50,
+    "trace_sha256": "0906b71fe4d24858b05c886ef6352bafc346301449cf84996340e9107fa772f2",
+    "implementation_identity": {
+      "schema_version": "n110_contact_consistency_implementation_v1",
+      "frozen_precontact_identity": {
+        "schema_version": "fpmfc_implementation_identity_v1",
+        "files": {
+          "models/flexiv_rizon4s_scene.xml": "a402bf78fd32c904b5e0b07ab65a9105fafdb4620da6e92eaf1c5060b8a096f5",
+          "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+          "v6_mujoco/fpmfc/config.py": "122cbe3e1ad26e48eb40d95dc69441b0c9dfac8bcd9a68153bd06916a2873560",
+          "v6_mujoco/fpmfc/controller.py": "5bd0c64905e68868d95a37166e2332ebd59b83ab0cefbdf1850e167f09f2b097",
+          "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+          "v6_mujoco/fpmfc/optimizer.py": "3c0a661a7f06246609489013c94062e5a881fbc2a84b23ce29ca75751a88d21b",
+          "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+          "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+          "v6_mujoco/fpmfc/rollout.py": "da1945df414ebe1b736a6f592c44fd6d493b512fdb91d1a3a5d8dfbc58d9e538",
+          "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+          "v6_mujoco/fpmfc/run_capture.py": "077dbe1bd17eacd1a14829c584e5397001f686b52db6f6bd577c8ada237f020f",
+          "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+          "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+          "v6_mujoco/fpmfc/target.py": "c9ab62d6e2147181f5c6fc6a760d7caf770e24a1ea72d39972959bfb14427bf0",
+          "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+          "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+          "v6_mujoco/hierarchical_qp.py": "0d274127eaadb739d95370dcff19a9b61bf770607c3d992ee72cee668c0bd812",
+          "v6_mujoco/model.py": "0f5433ee289d810f6ec13a5c76f92d371362d0f2bb86372084652bdf04c1dab5",
+          "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+        },
+        "composite_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa"
+      },
+      "frozen_contact_identity": {
+        "schema_version": "fpmfc_contact_implementation_identity_v1",
+        "files": {
+          "configs/fpmfc_contact.yaml": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+          "models/flexiv_rizon4s_contact_scene.xml": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+          "v6_mujoco/fpmfc/contact.py": "2530a240dc59605e9d940e1fe64fecacebceb532062bc2499d66363e25043471",
+          "v6_mujoco/fpmfc/contact_config.py": "8b0772ee2dce3e1449ced70574edea54a0b69c0f6d41189b248b05b17dafb4cf",
+          "v6_mujoco/fpmfc/contact_model.py": "ffa6fda7fbaab060a20049f9746351bccb8b30648125a6240970a8ff34d6549d",
+          "v6_mujoco/fpmfc/contact_precheck.py": "1074e1c76cbddfe042c191b7c91869cf9f568bdfc7789d9da509ce0e5f439c2b",
+          "v6_mujoco/fpmfc/run_contact.py": "bfda536c3aa1687f0454334e3917d49e6419a417f792cb2ce053455d98cf7d6d"
+        },
+        "composite_sha256": "7d4e44bcc9238fa957487629ea40481f5cc62cace26f3ed459e467fc6b494e5c"
+      },
+      "new_runtime_source_files": {
+        "v6_mujoco/fpmfc/contact_affine_controller.py": "fb39609811401e2b1c1ae8d87d66e27a4058b188963ae9dc9912a8edca007f21",
+        "v6_mujoco/fpmfc/contact_consistency_metrics.py": "f99f5b074094120f6e0024b2efa9c7694116b7f1eae67b76fc399f2d2067abfe",
+        "v6_mujoco/fpmfc/contact_consistency_provenance.py": "129bd244b8e2b526441876e268ffd2cfc3d1168aac61c460e82392ea6fc71430",
+        "v6_mujoco/fpmfc/contact_observation.py": "cfd7e3925820a0c97574ab3d30c88959427fd7b8384b40f422b9e4800a6d2d0a",
+        "v6_mujoco/fpmfc/run_contact_consistent.py": "d52a1021d63c06c161c40bbee71741ec32139150b41dda60ad41bc8df76f2752"
+      },
+      "composite_sha256": "612a0e1bb30fc20ba4c6b5695141090472d14130c00ae65310faade3966abe7c"
+    },
+    "verification_identity": {
+      "schema_version": "n110_contact_consistency_verification_v1",
+      "runtime_composite_sha256": "612a0e1bb30fc20ba4c6b5695141090472d14130c00ae65310faade3966abe7c",
+      "verification_source_files": {
+        "v6_mujoco/fpmfc/audit_contact.py": "884d1b66092f9854beeb0dc4770e9320e24f74471ae721558be1164866eabae4",
+        "v6_mujoco/fpmfc/reevaluate_contact.py": "4f1698430d518c9c9ca0ef8e7c2a12aa14afa0660dc52edb5768e40b0028937f",
+        "v6_mujoco/fpmfc/validate_contact_consistent.py": "15b6831d761fffad9ef734dabb0080de1f7cffd9c4866124fc60bb57b550bd8c"
+      },
+      "composite_sha256": "56f51699174e4ef9d110aa383bf01d5587025ffaed5735c4a5bd0ae58abb2fa2"
+    }
+  },
+  "original_verifier_passed": false,
+  "original_verifier_result_sha256": "e422872b5844c02edf5ceb936d8290f04557c674fb463fbf3b88ce7471670ade",
+  "numerical_constraint_residual_review": {
+    "full_steps_over_original_1e-7": 1,
+    "reduced_steps_over_original_1e-7": 1,
+    "full_maximum": 0.00023966659065680074,
+    "reduced_maximum": 0.0001262551428820125,
+    "declared_absolute_tolerance": 0.001
+  },
+  "dynamics_identity_interpretation": "one same-state MuJoCo forward-solve residual is bounded at 1e-3; algebraic near-zero does not validate next-step prediction or force regulation"
+}

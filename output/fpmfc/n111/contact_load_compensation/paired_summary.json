@@ -1,0 +1,275 @@
+{
+  "schema_version": "n111_contact_load_paired_summary_v1",
+  "manifest_sha256": "948e66f3e1755672b9d0fc8fa66c427e968f3e56a535b4c4c02c0f4ae53994b1",
+  "ledger": {
+    "attempts": [
+      {
+        "cell": "gamma_0",
+        "status": "completed_after_postprocessing_repair",
+        "started_utc": "2026-09-29T07:27:49.392720+00:00",
+        "finished_utc": "2026-09-29T07:27:50.442761+00:00",
+        "error": "KeyError('gamma_zero_torque_atol')",
+        "repair_utc": "2026-09-29T07:28:51.425948+00:00",
+        "repair_addendum_sha256": "1b3817d7e90aae798f2f40f0598aaac7f5d9e3084577b6ed531e3ece981fa5ca"
+      },
+      {
+        "cell": "gamma_05",
+        "status": "completed",
+        "started_utc": "2026-09-29T07:29:10.519308+00:00",
+        "finished_utc": "2026-09-29T07:29:11.873077+00:00",
+        "error": null
+      },
+      {
+        "cell": "gamma_10",
+        "status": "completed",
+        "started_utc": "2026-09-29T07:30:50.150673+00:00",
+        "finished_utc": "2026-09-29T07:30:51.493705+00:00",
+        "error": null
+      }
+    ],
+    "budget": 3
+  },
+  "cells": {
+    "gamma_0": {
+      "gamma": 0.0,
+      "physics_steps": 500,
+      "task_ticks": 50,
+      "last_window_samples": 100,
+      "last_window_zero_force_samples": 0,
+      "force_rmse_n": 1.2635704397742418,
+      "force_mean_error_n": 0.20489444479729696,
+      "force_error_std_n": 1.2468474336351172,
+      "peak_normal_force_n": 6.398702981198841,
+      "normal_execution_error_full_rms_m_s": 0.008407819763200085,
+      "normal_execution_error_last_rms_m_s": 0.007586935549987602,
+      "normal_execution_error_last_mean_m_s": 0.003112999973855309,
+      "normal_task_to_hqp_last_rms_m_s": 0.00864130725679353,
+      "normal_homogeneous_base_bias_last_rms_m_s": 0.0033122383584666113,
+      "hqp_to_reference_joint_last_rms_rad_s": 0.013033786713806877,
+      "reference_to_actual_joint_last_rms_rad_s": 0.004656225871613708,
+      "compensation_clipped_step_fraction": 0.0,
+      "compensation_clipped_joint_step_fraction": 0.0,
+      "compensation_requested_max_nm": 0.0,
+      "compensation_applied_max_nm": 0.0,
+      "contact_reduced_load_max_nm": 2.2638616741658355,
+      "torque_saturated_joint_step_fraction": 0.0,
+      "contact_loss_events": 3,
+      "detected_false_intervals": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.08,
+          "duration_s": 0.08
+        },
+        {
+          "start_s": 0.1,
+          "end_s": 0.14400000000000002,
+          "duration_s": 0.044
+        },
+        {
+          "start_s": 0.16,
+          "end_s": 0.218,
+          "duration_s": 0.058
+        },
+        {
+          "start_s": 0.24,
+          "end_s": 0.26,
+          "duration_s": 0.02
+        }
+      ],
+      "common_safety_passed": true,
+      "force_rmse_0p3_n_passed": false,
+      "independent_replay_passed": true,
+      "trace_sha256": "686bffd77102141c3ed1977355a2bb47ce9f2e8c336c9494aa009268cc7912a8",
+      "validation_sha256": "7b625dee031d6608f2ecdfd0daab40f67a7e54adf927498688a3f484010eb342"
+    },
+    "gamma_05": {
+      "gamma": 0.5,
+      "physics_steps": 500,
+      "task_ticks": 50,
+      "last_window_samples": 100,
+      "last_window_zero_force_samples": 0,
+      "force_rmse_n": 1.7052925086452266,
+      "force_mean_error_n": -0.17156407023842962,
+      "force_error_std_n": 1.6966403006662172,
+      "peak_normal_force_n": 8.739319853974212,
+      "normal_execution_error_full_rms_m_s": 0.010188976477711623,
+      "normal_execution_error_last_rms_m_s": 0.009764351958772972,
+      "normal_execution_error_last_mean_m_s": -0.0017430083452655725,
+      "normal_task_to_hqp_last_rms_m_s": 0.012772319566258893,
+      "normal_homogeneous_base_bias_last_rms_m_s": 0.0031575169482510024,
+      "hqp_to_reference_joint_last_rms_rad_s": 0.008872736675008118,
+      "reference_to_actual_joint_last_rms_rad_s": 0.003858671905769683,
+      "compensation_clipped_step_fraction": 0.0,
+      "compensation_clipped_joint_step_fraction": 0.0,
+      "compensation_requested_max_nm": 1.4928325681812014,
+      "compensation_applied_max_nm": 1.4928325681812014,
+      "contact_reduced_load_max_nm": 2.9856651363624027,
+      "torque_saturated_joint_step_fraction": 0.0,
+      "contact_loss_events": 10,
+      "detected_false_intervals": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.08,
+          "duration_s": 0.08
+        },
+        {
+          "start_s": 0.1,
+          "end_s": 0.156,
+          "duration_s": 0.056
+        },
+        {
+          "start_s": 0.16,
+          "end_s": 0.18,
+          "duration_s": 0.02
+        },
+        {
+          "start_s": 0.202,
+          "end_s": 0.244,
+          "duration_s": 0.042
+        },
+        {
+          "start_s": 0.294,
+          "end_s": 0.3,
+          "duration_s": 0.006
+        },
+        {
+          "start_s": 0.352,
+          "end_s": 0.36,
+          "duration_s": 0.008
+        },
+        {
+          "start_s": 0.392,
+          "end_s": 0.4,
+          "duration_s": 0.008
+        },
+        {
+          "start_s": 0.434,
+          "end_s": 0.44,
+          "duration_s": 0.006
+        },
+        {
+          "start_s": 0.47400000000000003,
+          "end_s": 0.48,
+          "duration_s": 0.006
+        },
+        {
+          "start_s": 0.516,
+          "end_s": 0.52,
+          "duration_s": 0.004
+        },
+        {
+          "start_s": 0.556,
+          "end_s": 0.56,
+          "duration_s": 0.004
+        }
+      ],
+      "common_safety_passed": true,
+      "force_rmse_0p3_n_passed": false,
+      "independent_replay_passed": true,
+      "trace_sha256": "0906b71fe4d24858b05c886ef6352bafc346301449cf84996340e9107fa772f2",
+      "validation_sha256": "6a323e1c86178b3b120cb92bd664b10cf4cf9ee467d130675933a0334465924d",
+      "delta_force_rmse_vs_gamma_zero_n": 0.44172206887098486,
+      "delta_normal_execution_rms_vs_gamma_zero_m_s": 0.00217741640878537,
+      "delta_force_std_vs_gamma_zero_n": 0.4497928670311
+    },
+    "gamma_10": {
+      "gamma": 1.0,
+      "physics_steps": 500,
+      "task_ticks": 50,
+      "last_window_samples": 100,
+      "last_window_zero_force_samples": 15,
+      "force_rmse_n": 2.295464807470995,
+      "force_mean_error_n": 0.5272874276505639,
+      "force_error_std_n": 2.2340829552591606,
+      "peak_normal_force_n": 9.943509739121842,
+      "normal_execution_error_full_rms_m_s": 0.013150121293465544,
+      "normal_execution_error_last_rms_m_s": 0.015130745691349777,
+      "normal_execution_error_last_mean_m_s": 0.005783637374861766,
+      "normal_task_to_hqp_last_rms_m_s": 0.013932578372718404,
+      "normal_homogeneous_base_bias_last_rms_m_s": 0.004174451408433137,
+      "hqp_to_reference_joint_last_rms_rad_s": 0.010630449846780616,
+      "reference_to_actual_joint_last_rms_rad_s": 0.0028469006176355376,
+      "compensation_clipped_step_fraction": 0.0,
+      "compensation_clipped_joint_step_fraction": 0.0,
+      "compensation_requested_max_nm": 4.404908192811673,
+      "compensation_applied_max_nm": 4.404908192811673,
+      "contact_reduced_load_max_nm": 4.404908192811673,
+      "torque_saturated_joint_step_fraction": 0.0,
+      "contact_loss_events": 9,
+      "detected_false_intervals": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.056,
+          "duration_s": 0.056
+        },
+        {
+          "start_s": 0.06,
+          "end_s": 0.08,
+          "duration_s": 0.02
+        },
+        {
+          "start_s": 0.082,
+          "end_s": 0.10200000000000001,
+          "duration_s": 0.02
+        },
+        {
+          "start_s": 0.12,
+          "end_s": 0.184,
+          "duration_s": 0.064
+        },
+        {
+          "start_s": 0.202,
+          "end_s": 0.222,
+          "duration_s": 0.02
+        },
+        {
+          "start_s": 0.27,
+          "end_s": 0.28,
+          "duration_s": 0.01
+        },
+        {
+          "start_s": 0.598,
+          "end_s": 0.6,
+          "duration_s": 0.002
+        },
+        {
+          "start_s": 0.626,
+          "end_s": 0.64,
+          "duration_s": 0.014
+        },
+        {
+          "start_s": 0.844,
+          "end_s": 0.862,
+          "duration_s": 0.018000000000000002
+        },
+        {
+          "start_s": 0.9440000000000001,
+          "end_s": 0.96,
+          "duration_s": 0.016
+        }
+      ],
+      "common_safety_passed": true,
+      "force_rmse_0p3_n_passed": false,
+      "independent_replay_passed": true,
+      "trace_sha256": "bdaa8b1499a512534dcc1426732bb2a34d6b876e6e640beddede8b1e8096a4a2",
+      "validation_sha256": "b779b9d4189a3c4f6945cf91eb607e2841dab4e60bfbf9b1ca7a68e626bcb48a",
+      "delta_force_rmse_vs_gamma_zero_n": 1.0318943676967531,
+      "delta_normal_execution_rms_vs_gamma_zero_m_s": 0.007543810141362175,
+      "delta_force_std_vs_gamma_zero_n": 0.9872355216240434
+    }
+  },
+  "qualification": {
+    "engineering": true,
+    "performance": {
+      "gamma_0": false,
+      "gamma_05": false,
+      "gamma_10": false
+    },
+    "candidate_for_independent_validation": null
+  },
+  "interpretation_limit": "one fixed C1 source and contact scenario, one deterministic run per gamma; same-state algebra and lag correlation do not prove force mechanism or robust improvement",
+  "summarizer_identity": {
+    "path": "v6_mujoco/fpmfc/n111_summarize.py",
+    "sha256": "6dab132a4b6722fd4d90a848c7dd6cb8ec0a218b08d747eee56a94ff7e14fe92"
+  }
+}

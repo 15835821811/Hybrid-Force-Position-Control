@@ -36,3 +36,8 @@ v6_mujoco/fpmfc/validate_force_regulation_v2.py text eol=lf
 v6_mujoco/fpmfc/derive_force_regulation_tracking.py text eol=lf
 configs/fpmfc_n110_force_regulation.yaml text eol=lf
 output/fpmfc/n110/force_regulation/**/trace.npz filter=lfs diff=lfs merge=lfs -text
+
+# N111 checkout-byte runtime and verification identities; archived physical traces.
+configs/fpmfc_n111_contact_load.yaml text eol=lf
+v6_mujoco/fpmfc/n111_*.py text eol=lf
+output/fpmfc/n111/contact_load_compensation/**/trace.npz filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,54 @@
+{
+  "schema_version": "n111_dynamics_residual_summary_v1",
+  "cells": {
+    "gamma_0": {
+      "same_state_full_residual_max": 5.329070518200751e-15,
+      "same_state_full_residual_p99": 3.26762922275847e-15,
+      "same_state_reduced_residual_max": 2.6023669852889947e-15,
+      "same_state_reduced_residual_p99": 1.807501390478566e-15,
+      "all_dof_constraint_minus_robot_interface_norm_max_including_target": 6.261602456509961,
+      "robot_constraint_minus_interface_norm_max": 2.220118223299666e-15,
+      "target_counterpart_constraint_norm_max": 6.261602456509961,
+      "other_contact_step_count": 0,
+      "joint_limit_constraint_step_count": 0,
+      "power_identity_max_w": 3.885780586188048e-16,
+      "offline_next_step_joint_qvel_prediction_rms_rad_s": 0.00015757782628425141,
+      "offline_next_step_base_linear_qvel_prediction_rms_m_s": 1.0011730854504924e-07,
+      "offline_next_step_base_angular_qvel_prediction_rms_rad_s": 1.376104453895278e-06,
+      "prediction_definition": "offline 2 ms qvel increment minus instantaneous t_k acceleration from a copied state forwarded with new torque; finite-step integration/contact changes are included"
+    },
+    "gamma_05": {
+      "same_state_full_residual_max": 0.00023966659065680074,
+      "same_state_full_residual_p99": 3.5571545708989975e-15,
+      "same_state_reduced_residual_max": 0.0001262551428820125,
+      "same_state_reduced_residual_p99": 2.149436507410108e-15,
+      "all_dof_constraint_minus_robot_interface_norm_max_including_target": 8.831638011388554,
+      "robot_constraint_minus_interface_norm_max": 2.5106723045327405e-15,
+      "target_counterpart_constraint_norm_max": 8.831638011388554,
+      "other_contact_step_count": 0,
+      "joint_limit_constraint_step_count": 0,
+      "power_identity_max_w": 2.7755575615628914e-16,
+      "offline_next_step_joint_qvel_prediction_rms_rad_s": 0.0001170998600215283,
+      "offline_next_step_base_linear_qvel_prediction_rms_m_s": 7.116259438473332e-08,
+      "offline_next_step_base_angular_qvel_prediction_rms_rad_s": 9.7462016240624e-07,
+      "prediction_definition": "offline 2 ms qvel increment minus instantaneous t_k acceleration from a copied state forwarded with new torque; finite-step integration/contact changes are included"
+    },
+    "gamma_10": {
+      "same_state_full_residual_max": 6.217248937900877e-15,
+      "same_state_full_residual_p99": 4.440892098500626e-15,
+      "same_state_reduced_residual_max": 3.975966294520487e-15,
+      "same_state_reduced_residual_p99": 2.5955137083745225e-15,
+      "all_dof_constraint_minus_robot_interface_norm_max_including_target": 9.96924712771835,
+      "robot_constraint_minus_interface_norm_max": 3.690532769392612e-15,
+      "target_counterpart_constraint_norm_max": 9.96924712771835,
+      "other_contact_step_count": 0,
+      "joint_limit_constraint_step_count": 0,
+      "power_identity_max_w": 6.661338147750939e-16,
+      "offline_next_step_joint_qvel_prediction_rms_rad_s": 0.00013571482839609862,
+      "offline_next_step_base_linear_qvel_prediction_rms_m_s": 5.05834135897864e-08,
+      "offline_next_step_base_angular_qvel_prediction_rms_rad_s": 6.899117967405666e-07,
+      "prediction_definition": "offline 2 ms qvel increment minus instantaneous t_k acceleration from a copied state forwarded with new torque; finite-step integration/contact changes are included"
+    }
+  },
+  "note": "same-state residual checks algebra and the observed forward solve; all-DOF remainder includes target counterpart, while robot-only remainder excludes it; offline instantaneous-acceleration prediction differs from the RK4 2 ms average and is not a stability test"
+}

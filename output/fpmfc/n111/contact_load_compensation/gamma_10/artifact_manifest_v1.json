@@ -1,0 +1,15 @@
+{
+  "schema_version": "n111_contact_load_artifacts_v1",
+  "verification_status": "VERIFIED",
+  "artifacts": {
+    "trace.npz": "bdaa8b1499a512534dcc1426732bb2a34d6b876e6e640beddede8b1e8096a4a2",
+    "metrics.json": "37014735419cbaf10fa52e6aeb3a2cc573cd39fec9633ad671cd3a4ccb72223c",
+    "config_snapshot.json": "dce1a581eabe688c57ae5c34f6ee7e79e657c5e22c86e764eae13333c433c2d6",
+    "outer_diagnostics.npz": "649440140c0d4651a3fcefc93f569b8710ed7721fe77838de80e6e31d5598604",
+    "servo_diagnostics.npz": "950d0773e67efb660dc8cb80db19dea0918e1fa960eb6b68b98184e53d73f31c",
+    "execution_chain.npz": "28db8ebeb201c92161211a9e70795b701e201c1123ae7d8d2727b428c9553646",
+    "execution_chain_summary.json": "0b09734849d1f31764a8277cd141f91c3903d9e04d3ee3fa61d4a64100e9ecca",
+    "prediction_diagnostics.npz": "3182c73fb6430669c350c11ddfea238c506a7a832e4fa982e697671a1d7255f9",
+    "validation.json": "0b1b90c8fc7e674ff2ff5140bf5df9f607d0503b1a4d982a159c27b614076935"
+  }
+}

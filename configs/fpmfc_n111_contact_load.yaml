@@ -1,0 +1,15 @@
+schema_version: n111_contact_load_v1
+baseline_commit: 85eec3a53a8806e87210be3843c9635f7a11da8b
+source_trace: output/fpmfc/n110/live_twist_handoff/precontact/C1/trace.npz
+d10_trace: output/fpmfc/n110/force_regulation/D10/trace.npz
+contact_config: configs/fpmfc_contact.yaml
+gamma_cells:
+  gamma_0: 0.0
+  gamma_05: 0.5
+  gamma_10: 1.0
+compensation_cap_fraction: 0.10
+maximum_new_closed_loop_runs: 3
+gamma_zero_state_atol: 1.0e-10
+gamma_zero_torque_atol_nm: 1.0e-10
+evaluation_last_steps: 100
+force_rmse_gate_n: 0.3

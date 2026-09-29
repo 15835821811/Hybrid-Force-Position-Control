@@ -1,0 +1,595 @@
+{
+  "schema_version": "n110_contact_consistency_config_v1",
+  "contact_config": {
+    "schema_version": "fpmfc_contact_extension_v1",
+    "experiment_id": "flexiv_rizon4s_fpmfc_contact",
+    "precontact_config": "configs/fpmfc_paper_planning45_effective.yaml",
+    "physical_target": {
+      "mass_kg": 20.0,
+      "diagonal_inertia_kg_m2": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "parameter_sensitivity_fraction": 0.2
+    },
+    "interface": {
+      "tool_pad_radius_m": 0.035,
+      "tool_pad_half_thickness_m": 0.005,
+      "tool_pad_face_recess_m": 0.0002,
+      "target_plate_half_size_m": [
+        0.05,
+        0.05,
+        0.005
+      ],
+      "friction": [
+        0.8,
+        0.005,
+        0.0001
+      ],
+      "contact_margin_m": 0.0,
+      "solver_time_constant_s": 0.05,
+      "solver_damping_ratio": 1.0,
+      "contact_detection_force_n": 0.2,
+      "contact_release_force_n": 0.1
+    },
+    "force_control": {
+      "desired_normal_force_n": 3.0,
+      "force_ramp_duration_s": 0.5,
+      "contact_stage_duration_s": 1.0,
+      "steady_evaluation_window_s": 0.2,
+      "rigid_normal_offset_m": 0.0012,
+      "virtual_mass_kg": 1.0,
+      "stiffness_n_m": 0.0,
+      "damping_ratio": 1.0,
+      "maximum_offset_m": 0.003,
+      "maximum_velocity_m_s": 0.02,
+      "reset_on_contact_loss": true
+    },
+    "acceptance": {
+      "maximum_peak_contact_force_n": 20.0,
+      "maximum_steady_force_rmse_fraction": 0.1,
+      "maximum_penetration_m": 0.002,
+      "maximum_sustained_contact_loss_s": 0.1
+    },
+    "provenance": {
+      "precontact_config": "user",
+      "physical_target.mass_kg": "calibrated",
+      "physical_target.diagonal_inertia_kg_m2": "calibrated",
+      "physical_target.parameter_sensitivity_fraction": "calibrated",
+      "interface.tool_pad_radius_m": "calibrated",
+      "interface.tool_pad_half_thickness_m": "calibrated",
+      "interface.tool_pad_face_recess_m": "calibrated",
+      "interface.target_plate_half_size_m": "calibrated",
+      "interface.friction": "user",
+      "interface.contact_margin_m": "calibrated",
+      "interface.solver_time_constant_s": "calibrated",
+      "interface.solver_damping_ratio": "calibrated",
+      "interface.contact_detection_force_n": "calibrated",
+      "interface.contact_release_force_n": "calibrated",
+      "force_control.desired_normal_force_n": "calibrated",
+      "force_control.force_ramp_duration_s": "calibrated",
+      "force_control.contact_stage_duration_s": "calibrated",
+      "force_control.steady_evaluation_window_s": "calibrated",
+      "force_control.rigid_normal_offset_m": "calibrated",
+      "force_control.virtual_mass_kg": "calibrated",
+      "force_control.stiffness_n_m": "calibrated",
+      "force_control.damping_ratio": "calibrated",
+      "force_control.maximum_offset_m": "calibrated",
+      "force_control.maximum_velocity_m_s": "calibrated",
+      "force_control.reset_on_contact_loss": "calibrated",
+      "acceptance.maximum_peak_contact_force_n": "calibrated",
+      "acceptance.maximum_steady_force_rmse_fraction": "calibrated",
+      "acceptance.maximum_penetration_m": "calibrated",
+      "acceptance.maximum_sustained_contact_loss_s": "calibrated"
+    }
+  },
+  "precontact_config": {
+    "schema_version": "fpmfc_flexiv_adaptive_reproduction_v1",
+    "experiment_id": "flexiv_rizon4s_fpmfc_precontact",
+    "model": {
+      "xml": "models/flexiv_rizon4s_scene.xml",
+      "base_mass_kg": 500.0,
+      "base_diagonal_inertia_kg_m2": [
+        20.833333333,
+        20.833333333,
+        20.833333333
+      ],
+      "home_joint_position_deg": [
+        0.0,
+        -40.0,
+        0.0,
+        90.0,
+        0.0,
+        40.0,
+        0.0
+      ],
+      "physics_period_s": 0.002,
+      "task_period_s": 0.02,
+      "integrator": "RK4"
+    },
+    "target": {
+      "geometry": "cube",
+      "side_length_m": 0.3,
+      "center_position_world_m": [
+        0.95,
+        0.14,
+        0.95
+      ],
+      "center_linear_velocity_world_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_rpy_xyz_deg": [
+        90.0,
+        90.0,
+        0.0
+      ],
+      "angular_velocity_body_deg_s": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "grasp_offset_body_m": [
+        0.0,
+        -0.15,
+        0.0
+      ],
+      "grasp_frame_rpy_xyz_deg": [
+        -90.0,
+        0.0,
+        0.0
+      ]
+    },
+    "trajectory": {
+      "capture_time_bounds_s": [
+        8.0,
+        25.0
+      ],
+      "terminal_linear_velocity_world_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "terminal_angular_velocity_world_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpolation": "quintic_c2_so3"
+    },
+    "shape": {
+      "shoulder_joint": "joint2",
+      "elbow_joint": "joint4",
+      "wrist_joint": "joint6",
+      "finite_difference_step_rad": 1e-06,
+      "singularity_margin": 1e-06
+    },
+    "optimization": {
+      "variables": [
+        "capture_time_s",
+        "terminal_arm_angle_rad"
+      ],
+      "terminal_arm_angle_bounds_rad": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "objective_weights": [
+        1.0,
+        2.0
+      ],
+      "planning_terminal_arm_angle_error_rad": 0.01308996938995747,
+      "base_angular_velocity_reference_rad_s": 0.01,
+      "alignment_angle_reference_rad": 1.5707963267948966,
+      "pso_population": 20,
+      "pso_generations": 1000,
+      "pso_inertia": 0.9,
+      "pso_cognitive": 1.5,
+      "pso_social": 2.0,
+      "pso_velocity_fraction": 0.1,
+      "convergence_tolerance": 1e-05,
+      "stagnation_generations": 20,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "controller": {
+      "level1_position_tolerance_m_s": 0.0001,
+      "level1_angular_tolerance_rad_s": 0.0001,
+      "minimum_clearance_m": 0.045,
+      "position_gain": 5.0,
+      "orientation_gain": 8.0,
+      "angular_saturation_transition_ratio": 0.9,
+      "joint_jerk_limit_rad_s3": 80.0,
+      "shape_gain": 2.0,
+      "shape_weight": 1.0,
+      "base_reaction_weight": 1.0,
+      "qp_tolerance": 1e-05,
+      "qp_max_iterations": 2000,
+      "feasibility_tolerance": 0.0001
+    },
+    "acceptance": {
+      "terminal_position_error_m": 0.001,
+      "terminal_orientation_error_rad": 0.003490658503988659,
+      "terminal_arm_angle_error_rad": 0.017453292519943295,
+      "terminal_linear_velocity_m_s": 0.001,
+      "terminal_angular_velocity_rad_s": 0.003490658503988659,
+      "minimum_task_success_rate": 1.0,
+      "maximum_torque_saturation_fraction": 0.001,
+      "maximum_momentum_delta": 0.05,
+      "minimum_clearance_m": 0.04
+    },
+    "contact_extension": {
+      "enabled_for_paper_reproduction": false,
+      "desired_normal_force_range_n": [
+        2.0,
+        5.0
+      ],
+      "damping_ratio": 1.0,
+      "target_parameter_sensitivity_fraction": 0.2
+    },
+    "provenance": {
+      "model.xml": "user",
+      "model.base_mass_kg": "paper+user",
+      "model.base_diagonal_inertia_kg_m2": "user",
+      "model.home_joint_position_deg": "user",
+      "model.physics_period_s": "user",
+      "model.task_period_s": "user",
+      "model.integrator": "calibrated",
+      "target.geometry": "user",
+      "target.side_length_m": "user",
+      "target.center_position_world_m": "user",
+      "target.center_linear_velocity_world_m_s": "calibrated",
+      "target.initial_rpy_xyz_deg": "paper",
+      "target.angular_velocity_body_deg_s": "paper",
+      "target.grasp_offset_body_m": "user",
+      "target.grasp_frame_rpy_xyz_deg": "user",
+      "trajectory.capture_time_bounds_s": "calibrated",
+      "trajectory.terminal_linear_velocity_world_m_s": "paper",
+      "trajectory.terminal_angular_velocity_world_rad_s": "paper",
+      "trajectory.interpolation": "paper",
+      "shape.shoulder_joint": "calibrated",
+      "shape.elbow_joint": "calibrated",
+      "shape.wrist_joint": "calibrated",
+      "shape.finite_difference_step_rad": "calibrated",
+      "shape.singularity_margin": "calibrated",
+      "optimization.variables": "paper",
+      "optimization.terminal_arm_angle_bounds_rad": "paper",
+      "optimization.objective_weights": "calibrated",
+      "optimization.planning_terminal_arm_angle_error_rad": "calibrated",
+      "optimization.base_angular_velocity_reference_rad_s": "calibrated",
+      "optimization.alignment_angle_reference_rad": "calibrated",
+      "optimization.pso_population": "paper",
+      "optimization.pso_generations": "paper",
+      "optimization.pso_inertia": "paper",
+      "optimization.pso_cognitive": "paper",
+      "optimization.pso_social": "paper",
+      "optimization.pso_velocity_fraction": "paper",
+      "optimization.convergence_tolerance": "paper",
+      "optimization.stagnation_generations": "calibrated",
+      "optimization.seeds": "calibrated",
+      "controller.level1_position_tolerance_m_s": "calibrated",
+      "controller.level1_angular_tolerance_rad_s": "calibrated",
+      "controller.minimum_clearance_m": "calibrated",
+      "controller.position_gain": "user",
+      "controller.orientation_gain": "user",
+      "controller.angular_saturation_transition_ratio": "calibrated",
+      "controller.joint_jerk_limit_rad_s3": "calibrated",
+      "controller.shape_gain": "calibrated",
+      "controller.shape_weight": "calibrated",
+      "controller.base_reaction_weight": "calibrated",
+      "controller.qp_tolerance": "calibrated",
+      "controller.qp_max_iterations": "calibrated",
+      "controller.feasibility_tolerance": "calibrated",
+      "acceptance.terminal_position_error_m": "calibrated",
+      "acceptance.terminal_orientation_error_rad": "calibrated",
+      "acceptance.terminal_arm_angle_error_rad": "calibrated",
+      "acceptance.terminal_linear_velocity_m_s": "calibrated",
+      "acceptance.terminal_angular_velocity_rad_s": "calibrated",
+      "acceptance.minimum_task_success_rate": "calibrated",
+      "acceptance.maximum_torque_saturation_fraction": "calibrated",
+      "acceptance.maximum_momentum_delta": "calibrated",
+      "acceptance.minimum_clearance_m": "user",
+      "contact_extension.enabled_for_paper_reproduction": "paper",
+      "contact_extension.desired_normal_force_range_n": "calibrated",
+      "contact_extension.damping_ratio": "calibrated",
+      "contact_extension.target_parameter_sensitivity_fraction": "calibrated"
+    }
+  },
+  "controller_config": {
+    "schema_version": "fpmfc_flexiv_adaptive_reproduction_v1",
+    "experiment_id": "flexiv_rizon4s_fpmfc_precontact",
+    "model": {
+      "xml": "models/flexiv_rizon4s_scene.xml",
+      "base_mass_kg": 500.0,
+      "base_diagonal_inertia_kg_m2": [
+        20.833333333,
+        20.833333333,
+        20.833333333
+      ],
+      "home_joint_position_deg": [
+        0.0,
+        -40.0,
+        0.0,
+        90.0,
+        0.0,
+        40.0,
+        0.0
+      ],
+      "physics_period_s": 0.002,
+      "task_period_s": 0.02,
+      "integrator": "RK4"
+    },
+    "target": {
+      "geometry": "cube",
+      "side_length_m": 0.3,
+      "center_position_world_m": [
+        0.95,
+        0.14,
+        0.95
+      ],
+      "center_linear_velocity_world_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_rpy_xyz_deg": [
+        90.0,
+        90.0,
+        0.0
+      ],
+      "angular_velocity_body_deg_s": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "grasp_offset_body_m": [
+        0.0,
+        -0.15,
+        0.0
+      ],
+      "grasp_frame_rpy_xyz_deg": [
+        -90.0,
+        0.0,
+        0.0
+      ]
+    },
+    "trajectory": {
+      "capture_time_bounds_s": [
+        8.0,
+        25.0
+      ],
+      "terminal_linear_velocity_world_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "terminal_angular_velocity_world_rad_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpolation": "quintic_c2_so3"
+    },
+    "shape": {
+      "shoulder_joint": "joint2",
+      "elbow_joint": "joint4",
+      "wrist_joint": "joint6",
+      "finite_difference_step_rad": 1e-06,
+      "singularity_margin": 1e-06
+    },
+    "optimization": {
+      "variables": [
+        "capture_time_s",
+        "terminal_arm_angle_rad"
+      ],
+      "terminal_arm_angle_bounds_rad": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "objective_weights": [
+        1.0,
+        2.0
+      ],
+      "planning_terminal_arm_angle_error_rad": 0.01308996938995747,
+      "base_angular_velocity_reference_rad_s": 0.01,
+      "alignment_angle_reference_rad": 1.5707963267948966,
+      "pso_population": 20,
+      "pso_generations": 1000,
+      "pso_inertia": 0.9,
+      "pso_cognitive": 1.5,
+      "pso_social": 2.0,
+      "pso_velocity_fraction": 0.1,
+      "convergence_tolerance": 1e-05,
+      "stagnation_generations": 20,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "controller": {
+      "level1_position_tolerance_m_s": 0.0001,
+      "level1_angular_tolerance_rad_s": 0.0001,
+      "minimum_clearance_m": 0.045,
+      "position_gain": 5.0,
+      "orientation_gain": 8.0,
+      "angular_saturation_transition_ratio": 0.9,
+      "joint_jerk_limit_rad_s3": 80.0,
+      "shape_gain": 2.0,
+      "shape_weight": 1.0,
+      "base_reaction_weight": 1.0,
+      "qp_tolerance": 1e-05,
+      "qp_max_iterations": 2000,
+      "feasibility_tolerance": 0.0001
+    },
+    "acceptance": {
+      "terminal_position_error_m": 0.001,
+      "terminal_orientation_error_rad": 0.003490658503988659,
+      "terminal_arm_angle_error_rad": 0.017453292519943295,
+      "terminal_linear_velocity_m_s": 0.001,
+      "terminal_angular_velocity_rad_s": 0.003490658503988659,
+      "minimum_task_success_rate": 1.0,
+      "maximum_torque_saturation_fraction": 0.001,
+      "maximum_momentum_delta": 0.05,
+      "minimum_clearance_m": 0.04
+    },
+    "contact_extension": {
+      "enabled_for_paper_reproduction": false,
+      "desired_normal_force_range_n": [
+        2.0,
+        5.0
+      ],
+      "damping_ratio": 1.0,
+      "target_parameter_sensitivity_fraction": 0.2
+    },
+    "provenance": {
+      "model.xml": "user",
+      "model.base_mass_kg": "paper+user",
+      "model.base_diagonal_inertia_kg_m2": "user",
+      "model.home_joint_position_deg": "user",
+      "model.physics_period_s": "user",
+      "model.task_period_s": "user",
+      "model.integrator": "calibrated",
+      "target.geometry": "user",
+      "target.side_length_m": "user",
+      "target.center_position_world_m": "user",
+      "target.center_linear_velocity_world_m_s": "calibrated",
+      "target.initial_rpy_xyz_deg": "paper",
+      "target.angular_velocity_body_deg_s": "paper",
+      "target.grasp_offset_body_m": "user",
+      "target.grasp_frame_rpy_xyz_deg": "user",
+      "trajectory.capture_time_bounds_s": "calibrated",
+      "trajectory.terminal_linear_velocity_world_m_s": "paper",
+      "trajectory.terminal_angular_velocity_world_rad_s": "paper",
+      "trajectory.interpolation": "paper",
+      "shape.shoulder_joint": "calibrated",
+      "shape.elbow_joint": "calibrated",
+      "shape.wrist_joint": "calibrated",
+      "shape.finite_difference_step_rad": "calibrated",
+      "shape.singularity_margin": "calibrated",
+      "optimization.variables": "paper",
+      "optimization.terminal_arm_angle_bounds_rad": "paper",
+      "optimization.objective_weights": "calibrated",
+      "optimization.planning_terminal_arm_angle_error_rad": "calibrated",
+      "optimization.base_angular_velocity_reference_rad_s": "calibrated",
+      "optimization.alignment_angle_reference_rad": "calibrated",
+      "optimization.pso_population": "paper",
+      "optimization.pso_generations": "paper",
+      "optimization.pso_inertia": "paper",
+      "optimization.pso_cognitive": "paper",
+      "optimization.pso_social": "paper",
+      "optimization.pso_velocity_fraction": "paper",
+      "optimization.convergence_tolerance": "paper",
+      "optimization.stagnation_generations": "calibrated",
+      "optimization.seeds": "calibrated",
+      "controller.level1_position_tolerance_m_s": "calibrated",
+      "controller.level1_angular_tolerance_rad_s": "calibrated",
+      "controller.minimum_clearance_m": "calibrated",
+      "controller.position_gain": "user",
+      "controller.orientation_gain": "user",
+      "controller.angular_saturation_transition_ratio": "calibrated",
+      "controller.joint_jerk_limit_rad_s3": "calibrated",
+      "controller.shape_gain": "calibrated",
+      "controller.shape_weight": "calibrated",
+      "controller.base_reaction_weight": "calibrated",
+      "controller.qp_tolerance": "calibrated",
+      "controller.qp_max_iterations": "calibrated",
+      "controller.feasibility_tolerance": "calibrated",
+      "acceptance.terminal_position_error_m": "calibrated",
+      "acceptance.terminal_orientation_error_rad": "calibrated",
+      "acceptance.terminal_arm_angle_error_rad": "calibrated",
+      "acceptance.terminal_linear_velocity_m_s": "calibrated",
+      "acceptance.terminal_angular_velocity_rad_s": "calibrated",
+      "acceptance.minimum_task_success_rate": "calibrated",
+      "acceptance.maximum_torque_saturation_fraction": "calibrated",
+      "acceptance.maximum_momentum_delta": "calibrated",
+      "acceptance.minimum_clearance_m": "user",
+      "contact_extension.enabled_for_paper_reproduction": "paper",
+      "contact_extension.desired_normal_force_range_n": "calibrated",
+      "contact_extension.damping_ratio": "calibrated",
+      "contact_extension.target_parameter_sensitivity_fraction": "calibrated"
+    }
+  },
+  "run_config": {
+    "reference_tracking_band_rad": 0.012,
+    "servo_natural_frequency_rad_s": 34.0,
+    "servo_acceleration_limit_rad_s2": 70.0
+  },
+  "mapping_mode": "homogeneous",
+  "model_identity": {
+    "contract_version": "flexiv_rizon4s_physical_contact_v1",
+    "model_xml_sha256": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+    "source_bundle_sha256": "3ba4a9d739aafcad37af13b2aaeb1429f6de36286fda6c50ab985a6869d0e89f",
+    "contact_config_sha256": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+    "mujoco_version": "3.3.2",
+    "state_dimensions": [
+      21,
+      19,
+      7
+    ],
+    "timestep_s": 0.002,
+    "task_period_s": 0.02,
+    "integrator": "RK4",
+    "interface_geoms": [
+      "gripper_contact_pad",
+      "target_contact_plate"
+    ],
+    "runtime_contract_sha256": "8127a4ab9cf99c95c05e4820ceee814764de3f9c6c1a3571482c05069a6fdeea"
+  },
+  "observation_contract": {
+    "schema_version": "fpmfc_contact_observation_v1",
+    "time_definition": "data.time at current generalized state; all derived fields from mj_forward on full MjData copy",
+    "forward_control_definition": "held torque already applied in preceding physics step; initial value zero",
+    "world_frame_fields": "site pose/twist, contact wrench/normal, relative pose/twist",
+    "tool_face_definition": "flange origin minus local flange +Z times tool_face_recess_m",
+    "tool_face_recess_m": 0.0002,
+    "contact_interface_geoms": [
+      "gripper_contact_pad",
+      "target_contact_plate"
+    ],
+    "wrench_reference_point": "flange_site world position at observation time",
+    "penetration_definition": "maximum active interface -mjContact.dist clipped at zero",
+    "normal_force_definition": "max(0, -force_on_pad_world dot grasp_site local +Z in world)",
+    "integrator_state_copy": "copy.copy(MjData), including time/qpos/qvel/act/plugin_state/ctrl/applied forces/qacc_warmstart/mocap/equality state",
+    "model_disableflags": 0,
+    "model_enableflags": 0,
+    "integrator": 1,
+    "timestep_s": 0.002
+  },
+  "n111": {
+    "cell": "gamma_0",
+    "gamma": 0.0,
+    "compensation_cap_fraction": 0.1,
+    "outer_config": {
+      "virtual_mass_kg": 1.0,
+      "damping_n_s_m": 100.0,
+      "stiffness_n_m": 0.0,
+      "timestep_s": 0.002,
+      "maximum_offset_m": 0.003,
+      "maximum_velocity_m_s": 0.02,
+      "detection_force_n": 0.2,
+      "release_force_n": 0.1,
+      "reset_on_contact_loss": true
+    },
+    "experiment_manifest_sha256": "948e66f3e1755672b9d0fc8fa66c427e968f3e56a535b4c4c02c0f4ae53994b1",
+    "postprocessing_addendum_sha256": "1b3817d7e90aae798f2f40f0598aaac7f5d9e3084577b6ed531e3ece981fa5ca"
+  }
+}

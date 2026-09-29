@@ -1,0 +1,84 @@
+{
+  "schema_version": "n111_dynamics_detail_v1",
+  "cells": {
+    "gamma_0": {
+      "robot_constraint_minus_interface_norm": {
+        "max": 2.220118223299666e-15,
+        "rms": 6.715884283011229e-16
+      },
+      "target_constraint_reaction_norm": {
+        "max": 6.261602456509961,
+        "rms": 2.603248200872433
+      },
+      "interface_robot_norm": {
+        "max": 6.716569518614485,
+        "rms": 2.8456160597177584
+      },
+      "selected_interface_contact_count": {
+        "max": 1.0,
+        "rms": 0.9643650760992956
+      },
+      "other_contact_count": {
+        "max": 0.0,
+        "rms": 0.0
+      },
+      "joint_limit_count": {
+        "max": 0.0,
+        "rms": 0.0
+      }
+    },
+    "gamma_05": {
+      "robot_constraint_minus_interface_norm": {
+        "max": 2.5106723045327405e-15,
+        "rms": 6.891971097049873e-16
+      },
+      "target_constraint_reaction_norm": {
+        "max": 8.831638011388554,
+        "rms": 2.802751712901788
+      },
+      "interface_robot_norm": {
+        "max": 9.419081098506991,
+        "rms": 3.0747515871023516
+      },
+      "selected_interface_contact_count": {
+        "max": 1.0,
+        "rms": 0.9612491872558333
+      },
+      "other_contact_count": {
+        "max": 0.0,
+        "rms": 0.0
+      },
+      "joint_limit_count": {
+        "max": 0.0,
+        "rms": 0.0
+      }
+    },
+    "gamma_10": {
+      "robot_constraint_minus_interface_norm": {
+        "max": 3.690532769392612e-15,
+        "rms": 9.00211647512908e-16
+      },
+      "target_constraint_reaction_norm": {
+        "max": 9.96924712771835,
+        "rms": 3.538975462942717
+      },
+      "interface_robot_norm": {
+        "max": 10.861713298327505,
+        "rms": 3.972560396232435
+      },
+      "selected_interface_contact_count": {
+        "max": 1.0,
+        "rms": 0.9633275663033837
+      },
+      "other_contact_count": {
+        "max": 0.0,
+        "rms": 0.0
+      },
+      "joint_limit_count": {
+        "max": 0.0,
+        "rms": 0.0
+      }
+    }
+  },
+  "interpretation": "robot constraint minus interface wrench excludes target DOFs; target constraint is the interface counterpart, not an unmodeled robot contact"
+}

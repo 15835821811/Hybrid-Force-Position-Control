@@ -1,0 +1,15 @@
+{
+  "schema_version": "n111_contact_load_artifacts_v1",
+  "verification_status": "FAILED",
+  "artifacts": {
+    "trace.npz": "0906b71fe4d24858b05c886ef6352bafc346301449cf84996340e9107fa772f2",
+    "metrics.json": "00ce236a90f2db7a2d794793610859a0b8b9db9e94b203a85317a75ad16874d4",
+    "config_snapshot.json": "0c95385fbe3473dc9acffa17e53d92cae65f3df026070313ae4832d6f0a11f64",
+    "outer_diagnostics.npz": "01bba781ed56d75630806c259a439efb1835f1e1b8e52d18bf148089ae74e676",
+    "servo_diagnostics.npz": "86c686480db7c001eea75cb118a827e4337c86a7c70da7dafdc2b9441c72ea24",
+    "execution_chain.npz": "6d687783676381ae51080f55dcbcf521b502ee40176686fbae72ebfed232ca34",
+    "execution_chain_summary.json": "950f355c26de94c5e26486ef0c2ea9691c1c919360426b0ecb8a5d429c2a851e",
+    "prediction_diagnostics.npz": "f7e09f6d6745fb03e137744dd133705e06b055ad55e635c8977f2d7a029908d0",
+    "validation.json": "e422872b5844c02edf5ceb936d8290f04557c674fb463fbf3b88ce7471670ade"
+  }
+}

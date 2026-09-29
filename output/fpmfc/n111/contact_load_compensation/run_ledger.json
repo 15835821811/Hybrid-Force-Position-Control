@@ -1,0 +1,28 @@
+{
+  "attempts": [
+    {
+      "cell": "gamma_0",
+      "status": "completed_after_postprocessing_repair",
+      "started_utc": "2026-09-29T07:27:49.392720+00:00",
+      "finished_utc": "2026-09-29T07:27:50.442761+00:00",
+      "error": "KeyError('gamma_zero_torque_atol')",
+      "repair_utc": "2026-09-29T07:28:51.425948+00:00",
+      "repair_addendum_sha256": "1b3817d7e90aae798f2f40f0598aaac7f5d9e3084577b6ed531e3ece981fa5ca"
+    },
+    {
+      "cell": "gamma_05",
+      "status": "completed",
+      "started_utc": "2026-09-29T07:29:10.519308+00:00",
+      "finished_utc": "2026-09-29T07:29:11.873077+00:00",
+      "error": null
+    },
+    {
+      "cell": "gamma_10",
+      "status": "completed",
+      "started_utc": "2026-09-29T07:30:50.150673+00:00",
+      "finished_utc": "2026-09-29T07:30:51.493705+00:00",
+      "error": null
+    }
+  ],
+  "budget": 3
+}
