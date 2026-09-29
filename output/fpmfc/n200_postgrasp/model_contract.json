@@ -1,0 +1,66 @@
+{
+  "model_scope": "idealized_postgrasp_connection",
+  "dynamic_capture_validated": false,
+  "hardware_load_rating_validated": false,
+  "gripper_mass_added": false,
+  "assumptions": {
+    "equality_name": "postgrasp_latch",
+    "tool_body": "flange",
+    "target_body": "tumbling_target",
+    "tool_site": "postgrasp_tool_interface",
+    "target_site": "target_grasp_site",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.95,
+      0.99,
+      0.001
+    ],
+    "torquescale_m": 0.15,
+    "excluded_collision_pair": [
+      "gripper_contact_pad",
+      "target_contact_plate"
+    ],
+    "load_envelope": {
+      "force_scale_n": 50.0,
+      "moment_scale_nm": 2.0,
+      "provenance": "simulation_assumption"
+    }
+  },
+  "checks": {
+    "equality_id": 0,
+    "body1": "flange",
+    "body2": "tumbling_target",
+    "solref_actual": [
+      0.02,
+      1.0
+    ],
+    "solimp_actual": [
+      0.95,
+      0.99,
+      0.001,
+      0.5,
+      2.0
+    ],
+    "torquescale_actual_m": 0.15,
+    "collision_pair_delta": {
+      "disabled": [
+        [
+          "gripper_contact_pad",
+          "target_contact_plate"
+        ]
+      ],
+      "other_collision_masks_changed": []
+    }
+  },
+  "implementation_identity": {
+    "v6_mujoco/postgrasp/__init__.py": "494c7861779263e803c0e35be223093f783c2776b8c4d11fbf221322a020b357",
+    "v6_mujoco/postgrasp/physics.py": "468c04e34430c64d11331b25a8e1a1e2ac45c115a3a1f7f13179a6045d8fd44e",
+    "v6_mujoco/postgrasp/run.py": "25f0e7cbb357b1e94f0da90201f381f69835a6dc5d0fc041941d1c1d11b435c5",
+    "models/flexiv_rizon4s_postgrasp_scene.xml": "e7110b48cd20069e6fee63dd6b549e317e3d33bcb44ace159c46bad328b5b499",
+    "configs/fpmfc_n200_postgrasp.yaml": "597c5301fa840ee2c999869300c7129aa998ec3e77806bcf1e2695b49bd10e78"
+  },
+  "source_trace_sha256": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998"
+}

@@ -1,0 +1,8 @@
+2026-09-29 N200/N201 verification
+small model known force and moment: pytest tests/test_n200_postgrasp.py -> 1 passed
+named-equality synthetic known wrench, action/reaction, power: passed, tolerance 1e-8
+C1 trace SHA256: 6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998 verified
+collision mask delta: only gripper_contact_pad and target_contact_plate disabled
+same-step replay: Z passed, D passed, D_fine passed
+step sensitivity: D versus D_fine same 2 ms control period; full-curve comparison saved in comparison.json
+formal results: Z, D, D_fine all stopped on INTERFACE_CONSTRAINT_VIOLATION

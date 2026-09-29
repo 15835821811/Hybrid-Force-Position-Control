@@ -1,0 +1,23 @@
+{
+  "formal_runs": [
+    {
+      "condition": "Z",
+      "status": "INTERFACE_CONSTRAINT_VIOLATION",
+      "trace_sha256": "887787d778f7377416e52ba50501a7090475873c8150a58ff2536b1d02d94f8e"
+    },
+    {
+      "condition": "D",
+      "status": "INTERFACE_CONSTRAINT_VIOLATION",
+      "trace_sha256": "c5d043d11250fa02462d9c4fe7113f7bd6be920f5ed5620a0d58ae0f7d53c528"
+    },
+    {
+      "condition": "D_fine",
+      "status": "INTERFACE_CONSTRAINT_VIOLATION",
+      "trace_sha256": "46c8079c7820f3dc0b7dffc4b0f9217ce5f26825a33ac053a5c596d3ab4a840d"
+    }
+  ],
+  "short_unit_tests": [
+    "known_wrench_algebra",
+    "small_model_weld"
+  ]
+}

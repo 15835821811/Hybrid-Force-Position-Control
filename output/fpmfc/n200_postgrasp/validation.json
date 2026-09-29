@@ -1,0 +1,143 @@
+{
+  "schema_version": "n200_validation_v1",
+  "source_trace_hash_verified": true,
+  "formal_implementation_hash_verified": true,
+  "model_config_hash_verified": true,
+  "collision_mask_delta": {
+    "target_contact_plate": {
+      "before": [
+        4,
+        2
+      ],
+      "after": [
+        0,
+        0
+      ]
+    },
+    "gripper_contact_pad": {
+      "before": [
+        2,
+        4
+      ],
+      "after": [
+        0,
+        0
+      ]
+    }
+  },
+  "same_step_independent_replay": {
+    "Z": {
+      "passed": true,
+      "maximum_absolute_differences": {
+        "time_s": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl_nm": 0.0,
+        "joint_position_rad": 0.0,
+        "joint_velocity_rad_s": 0.0,
+        "base_omega_world_rad_s": 0.0,
+        "target_omega_world_rad_s": 0.0,
+        "target_base_relative_omega_world_rad_s": 0.0,
+        "linear_momentum_world_kg_m_s": 0.0,
+        "angular_momentum_about_center_world_kg_m2_s": 0.0,
+        "kinetic_energy_j": 0.0,
+        "relative_energy_j": 0.0,
+        "actuator_power_w": 0.0,
+        "passive_power_w": 0.0,
+        "all_constraint_power_w": 0.0,
+        "minimum_noncontact_clearance_m": 0.0,
+        "load_fraction": 0.0,
+        "force_grasp_n": 0.0,
+        "moment_grasp_nm": 0.0,
+        "interface_translation_error_m": 0.0,
+        "interface_rotation_error_deg": 0.0,
+        "interface_relative_twist_world": 0.0,
+        "latch_constraint_power_w": 0.0
+      },
+      "strict_tolerances": {
+        "qpos": 1e-11,
+        "qvel": 1e-10,
+        "force_grasp_n": 1e-08,
+        "moment_grasp_nm": 1e-08
+      },
+      "status": "INTERFACE_CONSTRAINT_VIOLATION"
+    },
+    "D": {
+      "passed": true,
+      "maximum_absolute_differences": {
+        "time_s": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl_nm": 0.0,
+        "joint_position_rad": 0.0,
+        "joint_velocity_rad_s": 0.0,
+        "base_omega_world_rad_s": 0.0,
+        "target_omega_world_rad_s": 0.0,
+        "target_base_relative_omega_world_rad_s": 0.0,
+        "linear_momentum_world_kg_m_s": 0.0,
+        "angular_momentum_about_center_world_kg_m2_s": 0.0,
+        "kinetic_energy_j": 0.0,
+        "relative_energy_j": 0.0,
+        "actuator_power_w": 0.0,
+        "passive_power_w": 0.0,
+        "all_constraint_power_w": 0.0,
+        "minimum_noncontact_clearance_m": 0.0,
+        "load_fraction": 0.0,
+        "force_grasp_n": 0.0,
+        "moment_grasp_nm": 0.0,
+        "interface_translation_error_m": 0.0,
+        "interface_rotation_error_deg": 0.0,
+        "interface_relative_twist_world": 0.0,
+        "latch_constraint_power_w": 0.0
+      },
+      "strict_tolerances": {
+        "qpos": 1e-11,
+        "qvel": 1e-10,
+        "force_grasp_n": 1e-08,
+        "moment_grasp_nm": 1e-08
+      },
+      "status": "INTERFACE_CONSTRAINT_VIOLATION"
+    },
+    "D_fine": {
+      "passed": true,
+      "maximum_absolute_differences": {
+        "time_s": 0.0,
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "ctrl_nm": 0.0,
+        "joint_position_rad": 0.0,
+        "joint_velocity_rad_s": 0.0,
+        "base_omega_world_rad_s": 0.0,
+        "target_omega_world_rad_s": 0.0,
+        "target_base_relative_omega_world_rad_s": 0.0,
+        "linear_momentum_world_kg_m_s": 0.0,
+        "angular_momentum_about_center_world_kg_m2_s": 0.0,
+        "kinetic_energy_j": 0.0,
+        "relative_energy_j": 0.0,
+        "actuator_power_w": 0.0,
+        "passive_power_w": 0.0,
+        "all_constraint_power_w": 0.0,
+        "minimum_noncontact_clearance_m": 0.0,
+        "load_fraction": 0.0,
+        "force_grasp_n": 0.0,
+        "moment_grasp_nm": 0.0,
+        "interface_translation_error_m": 0.0,
+        "interface_rotation_error_deg": 0.0,
+        "interface_relative_twist_world": 0.0,
+        "latch_constraint_power_w": 0.0
+      },
+      "strict_tolerances": {
+        "qpos": 1e-11,
+        "qvel": 1e-10,
+        "force_grasp_n": 1e-08,
+        "moment_grasp_nm": 1e-08
+      },
+      "status": "INTERFACE_CONSTRAINT_VIOLATION"
+    }
+  },
+  "step_size_sensitivity_is_separate_from_replay": true,
+  "verification_identity": {
+    "v6_mujoco/postgrasp/validate.py": "195fd90e387f6e2533aa6f06967fac5a55df29062261a7ffc14babbff56c6f39",
+    "tests/test_n200_postgrasp.py": "6844c00dbfc68a8fdc57807ebcc0d415d99d02c1bfdd709c0b4c057bf8231a7e"
+  }
+}

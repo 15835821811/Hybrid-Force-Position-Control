@@ -1,0 +1,9 @@
+{
+  "source_trace_sha256": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998",
+  "base_qpos_max_absolute_transfer_error": 0.0,
+  "base_qvel_max_absolute_transfer_error": 0.0,
+  "named_joint_qpos_max_absolute_transfer_error": 0.0,
+  "named_joint_qvel_max_absolute_transfer_error": 0.0,
+  "target_position_error_m": 0.0,
+  "target_rotation_matrix_frobenius_error": 8.137684852887175e-14
+}
