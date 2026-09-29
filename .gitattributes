@@ -24,3 +24,15 @@ v6_mujoco/fpmfc/run_handoff_contact.py text eol=lf
 v6_mujoco/fpmfc/validate_handoff_contact.py text eol=lf
 configs/fpmfc_n110_handoff.yaml text eol=lf
 output/fpmfc/n110/live_twist_handoff/**/trace.npz filter=lfs diff=lfs merge=lfs -text
+
+# N110D frozen execution and verification bytes plus new physical traces.
+v6_mujoco/fpmfc/force_regulation_outer.py text eol=lf
+v6_mujoco/fpmfc/force_regulation_contract.py text eol=lf
+v6_mujoco/fpmfc/force_regulation_provenance.py text eol=lf
+v6_mujoco/fpmfc/run_force_regulation.py text eol=lf
+v6_mujoco/fpmfc/force_regulation_analysis.py text eol=lf
+v6_mujoco/fpmfc/validate_force_regulation.py text eol=lf
+v6_mujoco/fpmfc/validate_force_regulation_v2.py text eol=lf
+v6_mujoco/fpmfc/derive_force_regulation_tracking.py text eol=lf
+configs/fpmfc_n110_force_regulation.yaml text eol=lf
+output/fpmfc/n110/force_regulation/**/trace.npz filter=lfs diff=lfs merge=lfs -text

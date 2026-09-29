@@ -1,0 +1,9 @@
+{
+  "schema_version": "n110d_per_step_normal_tracking_v1",
+  "cell": "D00",
+  "source_trace_sha256": "4bc91cb0ea16e7486213861e86a907f79ebbe9ae809609a12363754e060f0e34",
+  "derived_npz_sha256": "d27b98dfe38c790fb7cb18f6df93fb43ea46244be8611ed4cd8d58e719300859",
+  "derivation_source_sha256": "28203738f45db45e5febf1642ea3128035301e36e03bd42475ea9c1317f8e257",
+  "time_and_reference": "post-step world-frame flange normal error (desired flange minus physical flange) projected on target grasp +Z; tool-face gap is separately projected; neither is physical penetration",
+  "samples": 500
+}

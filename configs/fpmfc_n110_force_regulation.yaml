@@ -1,0 +1,27 @@
+schema_version: n110d_force_regulation_v1
+baseline_commit: dd80807948778e8a77a0d7277553a5f6501d8067
+source_trace: output/fpmfc/n110/live_twist_handoff/precontact/C1/trace.npz
+baseline_dir: output/fpmfc/n110/live_twist_handoff/contact/C1/admittance
+contact_config: configs/fpmfc_contact.yaml
+mapping_mode: homogeneous
+variant: admittance
+virtual_mass_kg: 1.0
+explicit_damping_n_s_m: 100.0
+maximum_offset_m: 0.003
+maximum_velocity_m_s: 0.020
+conditions:
+  D00: {stiffness_n_m: 2500.0, reset_on_contact_loss: true, source: archive_only}
+  D01: {stiffness_n_m: 2500.0, reset_on_contact_loss: false, source: new_run}
+  D10: {stiffness_n_m: 0.0, reset_on_contact_loss: true, source: new_run}
+  D11: {stiffness_n_m: 0.0, reset_on_contact_loss: false, source: new_run}
+run_budget:
+  new_full_shape_contact_trajectories: 3
+  optional_no_shape_confirmation_trajectories: 1
+  no_parameter_search: true
+selection:
+  safety_gate_first: true
+  force_tracking_gate_second: true
+  qualifying_primary: smallest_full_window_force_rmse
+  near_tie_rmse_n: 0.01
+  tie_breaks: [smaller_peak_force, fewer_contact_loss_events, shorter_maximum_contact_loss]
+  no_shape_confirmation: best_qualifying_cell_only

@@ -1,0 +1,40 @@
+{
+  "full_window": {
+    "desired_force_mean_n": 3.0,
+    "measured_force_mean_n": 1.7684662794513943,
+    "signed_error_mean_n": 1.2315337205486057,
+    "force_error_variance_n2": 1.524571448317312,
+    "force_error_mse_n2": 3.041246753165603,
+    "force_rmse_n": 1.7439170717570267,
+    "bias_variance_identity_error_n2": 0.0,
+    "geometric_contact_fraction": 1.0,
+    "force_detected_fraction": 0.91,
+    "true_zero_force_fraction": 0.05,
+    "zero_force_rmse_lower_bound_n": 0.6708203932499369,
+    "mse_contribution_geometric_contact_n2": 3.041246753165603,
+    "mse_contribution_geometric_loss_n2": 0.0,
+    "mse_contribution_force_detected_n2": 2.244215534841731,
+    "mse_contribution_below_detection_n2": 0.7970312183238714,
+    "mse_contribution_true_zero_force_n2": 0.45,
+    "mse_contribution_nonzero_force_n2": 2.5912467531656023,
+    "geometric_loss_samples": 0,
+    "below_detection_samples": 9,
+    "true_zero_force_samples": 5
+  },
+  "full_stage": {
+    "desired_force_impulse_ns": 2.2530000000000006,
+    "actual_force_impulse_ns": 1.3469470024192736,
+    "force_impulse_deficit_ns": 0.9060529975807272,
+    "geometric_contact_fraction": 0.948,
+    "force_detected_fraction": 0.758,
+    "true_zero_force_fraction": 0.146,
+    "ever_force_detected": true,
+    "outer_loss_events": 11,
+    "reset_applied_count": 11,
+    "offset_limit_occupancy_fraction": 0.0,
+    "velocity_limit_occupancy_fraction": 0.006,
+    "boundary_velocity_zero_count": 0,
+    "max_abs_offset_m": 0.0007823514779832316,
+    "max_abs_velocity_m_s": 0.02
+  }
+}

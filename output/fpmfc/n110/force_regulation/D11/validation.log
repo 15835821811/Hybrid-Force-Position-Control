@@ -1,0 +1,43 @@
+{
+  "cell": "D11",
+  "passed": true,
+  "n110d_checks": {
+    "frozen_S_independent_torque_replay": true,
+    "S_homogeneous_full_shape_or_declared_confirmation": true,
+    "frozen_manifest_sha256": true,
+    "new_runtime_identity": true,
+    "new_outer_config": true,
+    "outer_diagnostics_sha256": true,
+    "causal_diagnostics_match_reconstruction": true,
+    "full_window_force_rmse": true,
+    "all_window_samples_and_bias_variance": true,
+    "source_trace_hash": true,
+    "no_state_overwrite": true,
+    "same_C1_initial_state_as_D00": true,
+    "independent_discrete_update": true,
+    "contact_loss_events_exact": true,
+    "reset_policy_exact": true,
+    "velocity_limit_flags_exact": true,
+    "offset_limit_flags_exact": true,
+    "boundary_velocity_flags_exact": true,
+    "offset_bounded": true,
+    "velocity_bounded": true
+  },
+  "maximum_errors": {
+    "qpos": 3.5216274341109965e-13,
+    "qvel": 1.3418280375709912e-11,
+    "flange_position_m": 3.5836693976812624e-14,
+    "grasp_position_m": 2.0343170766178682e-14,
+    "flange_linear_twist": 1.6006513097731842e-12,
+    "flange_angular_twist": 1.593843506740512e-11,
+    "grasp_linear_twist": 1.1938252734753186e-12,
+    "grasp_angular_twist": 6.9474996809384535e-12,
+    "contact_normal": 1.110318808128974e-13,
+    "force_n": 1.8077024321883073e-09,
+    "penetration_m": 1.3091334656947784e-14,
+    "feedback_force_n": 1.8077024321883073e-09,
+    "feedback_state": 1.3418280375709912e-11,
+    "feedback_control": 0.0,
+    "time_s": 0.0
+  }
+}

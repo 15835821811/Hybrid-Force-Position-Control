@@ -1,0 +1,12 @@
+{
+  "schema_version": "n110d_contact_artifacts_v1",
+  "verification_status": "VERIFIED",
+  "artifacts": {
+    "trace.npz": "4690efb495edb2ebc95956d780b313659ce38ef90d742fc054547381b8ca1457",
+    "metrics.json": "efe42d42b43cea5140c171179714921dbf2a984c97ddb9d3025e34e7d94e2d14",
+    "config_snapshot.json": "8c00f18c3c446c3e7e3c64313df3ff8093c3323df95b6fbbbe3a134e181c5df8",
+    "outer_diagnostics.npz": "09829fbf5e35db8afff8f11e35cd5cfc1afdf2b78c62b689940156918e0e4e8c",
+    "error_decomposition.json": "964b50ccc7e86a4b17859498ec0976411b48d3944ddd0ef560594d0840fb118f",
+    "validation.json": "b3ca92c3233760d440172fb0c34aaccef2b8312b16ab6a24e0886323384e14f9"
+  }
+}

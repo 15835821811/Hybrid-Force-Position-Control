@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\admin\.codex\worktrees\n110-contact-audit\��λ�λ�Ͽ���\v6_mujoco\fpmfc\validate_force_regulation.py", line 156, in <module>
+    main()
+  File "C:\Users\admin\.codex\worktrees\n110-contact-audit\��λ�λ�Ͽ���\v6_mujoco\fpmfc\validate_force_regulation.py", line 146, in main
+    result = validate_cell(args.cell, no_shape_confirmation=args.no_shape_confirmation,
+  File "C:\Users\admin\.codex\worktrees\n110-contact-audit\��λ�λ�Ͽ���\v6_mujoco\fpmfc\validate_force_regulation.py", line 93, in validate_cell
+    replay = frozen_validation.validate_consistent_output(output)
+  File "C:\Users\admin\.codex\worktrees\n110-contact-audit\��λ�λ�Ͽ���\v6_mujoco\fpmfc\validate_contact_consistent.py", line 40, in validate_consistent_output
+    config = load_contact_config()
+TypeError: validate_cell.<locals>.patched_load() missing 1 required positional argument: '_path'

@@ -1,0 +1,21 @@
+{
+  "D00_archived_copy_independent_replay_passed": true,
+  "admittance_state_reconstruction_max_error": 0.0,
+  "maximum_errors": {
+    "qpos": 4.440892098500626e-15,
+    "qvel": 1.043470865269569e-13,
+    "flange_position_m": 1.4456898615017774e-15,
+    "grasp_position_m": 5.79553433516819e-16,
+    "flange_linear_twist": 1.3656274826228494e-14,
+    "flange_angular_twist": 1.3489874321986211e-13,
+    "grasp_linear_twist": 1.1609745250285567e-14,
+    "grasp_angular_twist": 6.323139751813824e-14,
+    "contact_normal": 2.060384170893126e-15,
+    "force_n": 3.104494439298833e-11,
+    "penetration_m": 8.196026322904171e-16,
+    "feedback_force_n": 3.104494439298833e-11,
+    "feedback_state": 1.043470865269569e-13,
+    "feedback_control": 0.0,
+    "time_s": 0.0
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "n110d_frozen_2x2_contract_v1",
+  "frozen_at_utc": "2026-09-29T03:06:36.682004+00:00",
+  "baseline_commit": "dd80807948778e8a77a0d7277553a5f6501d8067",
+  "config_path": "configs\\fpmfc_n110_force_regulation.yaml",
+  "config_sha256": "cfe94340f93bb1a842e86d250454c2d9b074237c4ebfa89c50349289d047815d",
+  "source_trace_path": "output/fpmfc/n110/live_twist_handoff/precontact/C1/trace.npz",
+  "source_trace_sha256": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998",
+  "source_terminal_qpos": [
+    -0.0020272759891331884,
+    -0.0012356291408219845,
+    0.002436398314798647,
+    0.9992474916866041,
+    0.03675880113440734,
+    -0.011910937513236063,
+    -0.003372011973323085,
+    0.3459214704488265,
+    -1.8713427493449517,
+    -2.9040127138456033,
+    0.9680651593817559,
+    0.42526813017193005,
+    1.5279514184998,
+    2.316673998895793
+  ],
+  "source_terminal_qvel": [
+    3.4410601093135835e-05,
+    -8.027682503421181e-05,
+    9.496883800632636e-06,
+    0.001708507633446604,
+    0.000256069882899979,
+    -0.0007914975640023222,
+    0.019586638742492075,
+    -0.0105381752797957,
+    -0.004606500142310604,
+    0.09374802244063715,
+    -0.39559647359272593,
+    0.006919416076128371,
+    0.38527373721953967
+  ],
+  "source_metrics_sha256": "d2fb19316dd5b5352b512a6ba98e0cd64375b7a2fe7fd7fdf4d0ec9194085ac2",
+  "source_validation_sha256": "b0f43afc82fd8394dcd2491ec19fe623335dd4928beda6414bbad3438dc86ec5",
+  "baseline_dir": "output/fpmfc/n110/live_twist_handoff/contact/C1/admittance",
+  "baseline_trace_sha256": "4bc91cb0ea16e7486213861e86a907f79ebbe9ae809609a12363754e060f0e34",
+  "baseline_metrics_sha256": "0fe7750c46cc7aec3adaf746b588afc4eb179e57582ffeffbcd63b5e3e12eb85",
+  "baseline_validation_sha256": "e8ca9212cce0cae5d20c87494be132dba452dd79081683938a9f30c761b8f7af",
+  "D00_archive_equivalence_checks": {
+    "offset_reconstruction_exact": true,
+    "velocity_reconstruction_exact": true,
+    "explicit_damping_matches_archive": true,
+    "fixed_window_metric_matches_archive": true
+  },
+  "parent_n110c_manifest_sha256": "bbb885ca1798af48e77889984e72557cee2eda257e3aafa5209049d6d58a6f7f",
+  "parent_n110c_runtime_sha256": "e42ff0e4b4698d8c147587ccbf9a1010f4e8225bfa362d87d304f98ebbc9fd86",
+  "contact_config_path": "configs/fpmfc_contact.yaml",
+  "contact_config_sha256": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+  "runtime_identity": {
+    "schema_version": "n110d_force_regulation_runtime_v1",
+    "parent": {
+      "schema_version": "n110c_handoff_runtime_v1",
+      "parent": {
+        "schema_version": "n110_contact_consistency_implementation_v1",
+        "frozen_precontact_identity": {
+          "schema_version": "fpmfc_implementation_identity_v1",
+          "files": {
+            "models/flexiv_rizon4s_scene.xml": "a402bf78fd32c904b5e0b07ab65a9105fafdb4620da6e92eaf1c5060b8a096f5",
+            "v6_mujoco/collision.py": "5651da7b130e0f73c09d84871b66f436d3adecf6cdbd0615d4c0888803be972e",
+            "v6_mujoco/fpmfc/config.py": "122cbe3e1ad26e48eb40d95dc69441b0c9dfac8bcd9a68153bd06916a2873560",
+            "v6_mujoco/fpmfc/controller.py": "5bd0c64905e68868d95a37166e2332ebd59b83ab0cefbdf1850e167f09f2b097",
+            "v6_mujoco/fpmfc/dynamics.py": "8b0c409b3ccd9747d80443d08558dd2a15ba58d0ba7a9a4fda8d27652d69802b",
+            "v6_mujoco/fpmfc/optimizer.py": "3c0a661a7f06246609489013c94062e5a881fbc2a84b23ce29ca75751a88d21b",
+            "v6_mujoco/fpmfc/provenance.py": "31514d1e8a70b1447d6674da87274cdee28b391a1eb8601780b5737b05395648",
+            "v6_mujoco/fpmfc/pso_suite.py": "8fa028a899b2df4804bed621537b0161f060d283440b5483c1e82df3ca456d7c",
+            "v6_mujoco/fpmfc/rollout.py": "da1945df414ebe1b736a6f592c44fd6d493b512fdb91d1a3a5d8dfbc58d9e538",
+            "v6_mujoco/fpmfc/run_candidates.py": "8717aac23448a8efd0ec8df33c8258a8d9cb490abacfc19bbdfdd0f0147fb500",
+            "v6_mujoco/fpmfc/run_capture.py": "077dbe1bd17eacd1a14829c584e5397001f686b52db6f6bd577c8ada237f020f",
+            "v6_mujoco/fpmfc/run_suite_candidates.py": "76f4e35985aa450dc1298aa4ffe264377a4805fdfed884064b473879a3578d98",
+            "v6_mujoco/fpmfc/shape.py": "4eb071f2cd44742bb097886dd9d9471167ad9ce64471b348f464407bde1341e8",
+            "v6_mujoco/fpmfc/target.py": "c9ab62d6e2147181f5c6fc6a760d7caf770e24a1ea72d39972959bfb14427bf0",
+            "v6_mujoco/fpmfc/trajectory.py": "21b1c5a119a8292a8d16a1d795d9bbb76fa82142d5cfe3f7758636e2f0e5b82d",
+            "v6_mujoco/fpmfc/validate_capture.py": "4dde3fbdbf79a4b796bbe49771351df1c4bbe43f8d7c6e1a6cc20a298ded962d",
+            "v6_mujoco/hierarchical_qp.py": "0d274127eaadb739d95370dcff19a9b61bf770607c3d992ee72cee668c0bd812",
+            "v6_mujoco/model.py": "0f5433ee289d810f6ec13a5c76f92d371362d0f2bb86372084652bdf04c1dab5",
+            "v6_mujoco/run.py": "977379fe548c23e17f92d6624b9ec7a03cff70f091c2aafa480153fc5ec7b209"
+          },
+          "composite_sha256": "8e09ba7485f96c549791041a9170fa08459f6031b5a8f8100dd0929d1deb89fa"
+        },
+        "frozen_contact_identity": {
+          "schema_version": "fpmfc_contact_implementation_identity_v1",
+          "files": {
+            "configs/fpmfc_contact.yaml": "9342983b1a0676915fee344676a386b1ebe87bb9a708af27353de9f511c73ebc",
+            "models/flexiv_rizon4s_contact_scene.xml": "214a8760ceb5194f110c4af934cd16c69a6d30d04f296db3d7011018ea02df13",
+            "v6_mujoco/fpmfc/contact.py": "2530a240dc59605e9d940e1fe64fecacebceb532062bc2499d66363e25043471",
+            "v6_mujoco/fpmfc/contact_config.py": "8b0772ee2dce3e1449ced70574edea54a0b69c0f6d41189b248b05b17dafb4cf",
+            "v6_mujoco/fpmfc/contact_model.py": "ffa6fda7fbaab060a20049f9746351bccb8b30648125a6240970a8ff34d6549d",
+            "v6_mujoco/fpmfc/contact_precheck.py": "1074e1c76cbddfe042c191b7c91869cf9f568bdfc7789d9da509ce0e5f439c2b",
+            "v6_mujoco/fpmfc/run_contact.py": "bfda536c3aa1687f0454334e3917d49e6419a417f792cb2ce053455d98cf7d6d"
+          },
+          "composite_sha256": "7d4e44bcc9238fa957487629ea40481f5cc62cace26f3ed459e467fc6b494e5c"
+        },
+        "new_runtime_source_files": {
+          "v6_mujoco/fpmfc/contact_affine_controller.py": "fb39609811401e2b1c1ae8d87d66e27a4058b188963ae9dc9912a8edca007f21",
+          "v6_mujoco/fpmfc/contact_consistency_metrics.py": "f99f5b074094120f6e0024b2efa9c7694116b7f1eae67b76fc399f2d2067abfe",
+          "v6_mujoco/fpmfc/contact_consistency_provenance.py": "129bd244b8e2b526441876e268ffd2cfc3d1168aac61c460e82392ea6fc71430",
+          "v6_mujoco/fpmfc/contact_observation.py": "cfd7e3925820a0c97574ab3d30c88959427fd7b8384b40f422b9e4800a6d2d0a",
+          "v6_mujoco/fpmfc/run_contact_consistent.py": "d52a1021d63c06c161c40bbee71741ec32139150b41dda60ad41bc8df76f2752"
+        },
+        "composite_sha256": "612a0e1bb30fc20ba4c6b5695141090472d14130c00ae65310faade3966abe7c"
+      },
+      "source_files": {
+        "v6_mujoco/fpmfc/handoff_contract.py": "46ff9f06b4f6389924d4abb0057b79ea8ccc79142bc908931293010d3a6e6677",
+        "v6_mujoco/fpmfc/handoff_provenance.py": "b76e014dca1c26f673852114a6a1187e907c32a137f452cdb19a0e42ff126365",
+        "v6_mujoco/fpmfc/handoff_trajectory.py": "4de786b6f8c6852874a714d1118e14409d35aa0512d1ec92e6e239c8daafba42",
+        "v6_mujoco/fpmfc/run_handoff_contact.py": "259ffdbdd6026a8269303da98076342b6f4170d1a7d6a6b2bd7030d07041b93f",
+        "v6_mujoco/fpmfc/run_handoff_precontact.py": "8c62c82882a5c226de0b944bcf9ee6f495eb7b9a9e484610145696bd33273577"
+      },
+      "composite_sha256": "e42ff0e4b4698d8c147587ccbf9a1010f4e8225bfa362d87d304f98ebbc9fd86"
+    },
+    "source_files": {
+      "v6_mujoco/fpmfc/force_regulation_contract.py": "7b8344854cea066fea2a0f2f8acafe45e1b67fa112dbbe40dcac053749fa2829",
+      "v6_mujoco/fpmfc/force_regulation_outer.py": "9bf53f1e0f8613e99f6b15ab638b2c9e586b901fbf39dfd987f320ae512e4d65",
+      "v6_mujoco/fpmfc/force_regulation_provenance.py": "298a47d80d6f4e22595affef54fb8def43329a372cb6c0cc29002467f329aa89",
+      "v6_mujoco/fpmfc/run_force_regulation.py": "27de86c9200f6c763e2006d9f089dd9672c342fc60805e72c1ed0db5e185206a"
+    },
+    "composite_sha256": "f703d84a9698f5a13be65f6173d0bca7a4e06ef9800bf428334918eabc05ac16"
+  },
+  "verification_identity": {
+    "schema_version": "n110d_force_regulation_verification_v1",
+    "parent": {
+      "runtime_composite_sha256": "f703d84a9698f5a13be65f6173d0bca7a4e06ef9800bf428334918eabc05ac16"
+    },
+    "source_files": {
+      "v6_mujoco/fpmfc/force_regulation_analysis.py": "2fda20eba2a8871568da2769ccc4fc00d3e75ee40db59e8d8b569037f042f660",
+      "v6_mujoco/fpmfc/validate_force_regulation.py": "594a417c804203235e200019fe868e59eb81bb2294fd7884e68c31d74f51b084"
+    },
+    "composite_sha256": "ffa3291ae9c99e29733cf7f9a22c218b9fa1e6c66053017dea2cd413e21408a7"
+  },
+  "cells": {
+    "D00": {
+      "stiffness_n_m": 2500.0,
+      "reset_on_contact_loss": true,
+      "source": "archive_only"
+    },
+    "D01": {
+      "stiffness_n_m": 2500.0,
+      "reset_on_contact_loss": false,
+      "source": "new_run"
+    },
+    "D10": {
+      "stiffness_n_m": 0.0,
+      "reset_on_contact_loss": true,
+      "source": "new_run"
+    },
+    "D11": {
+      "stiffness_n_m": 0.0,
+      "reset_on_contact_loss": false,
+      "source": "new_run"
+    }
+  },
+  "virtual_mass_kg": 1.0,
+  "explicit_damping_n_s_m": 100.0,
+  "maximum_offset_m": 0.003,
+  "maximum_velocity_m_s": 0.02,
+  "mapping_mode": "homogeneous",
+  "selection": {
+    "safety_gate_first": true,
+    "force_tracking_gate_second": true,
+    "qualifying_primary": "smallest_full_window_force_rmse",
+    "near_tie_rmse_n": 0.01,
+    "tie_breaks": [
+      "smaller_peak_force",
+      "fewer_contact_loss_events",
+      "shorter_maximum_contact_loss"
+    ],
+    "no_shape_confirmation": "best_qualifying_cell_only"
+  },
+  "run_budget": {
+    "new_full_shape_contact_trajectories": 3,
+    "optional_no_shape_confirmation_trajectories": 1,
+    "no_parameter_search": true
+  },
+  "force_target_n": 3.0,
+  "ramp_duration_s": 0.5,
+  "contact_duration_s": 1.0,
+  "evaluation_window_s": 0.2,
+  "physics_timestep_s": 0.002,
+  "hqp_period_s": 0.02,
+  "baseline_error_decomposition_sha256": "cf829101d2c7b2ef220220490c89f6201ec804af93e5c2377caf9d49c3a5e829",
+  "baseline_outer_diagnostics_sha256": "8c05521e55b2da15d6e74953371e34f5550b3b4f1a3c809fa68744f89e43c198"
+}
