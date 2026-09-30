@@ -1,0 +1,189 @@
+{
+  "candidate": "candidate_2",
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "candidate_count": 2,
+  "derivation": {
+    "equilibrium_formula": "r = -(1-d)*timeconst^2*diag(efc_diagApprox)*lambda; e = solve(B,r)",
+    "B_scaled_constraint_from_physical_error": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.0814879110195774e-33
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -1.4825286137736123e-19,
+        0.0,
+        -1.2439892130271082e-19
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.04820907072649044,
+        1.2122503893226419e-17,
+        -0.05745333323392335
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.057453333233923355,
+        3.721731029828396e-17,
+        0.048209070726490444
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.1407432731174846e-17,
+        -0.075,
+        1.2766841197858347e-17
+      ]
+    ],
+    "multiplier_from_physical_wrench": [
+      [
+        -1.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        8.570501462487194,
+        1.8503717077085928e-15,
+        -10.213925908253042
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        10.213925908253039,
+        5.736152293896641e-15,
+        8.57050146248719
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        6.453743829827186e-15,
+        -13.333333333333336,
+        2.6020354100447805e-15
+      ]
+    ],
+    "normalized_physical_compliance": [
+      [
+        0.7642857142857143,
+        -0.0,
+        -0.0,
+        2.290041390393992e-43,
+        1.370163748648237e-44,
+        -5.496461399803811e-28
+      ],
+      [
+        -0.0,
+        0.7642857142857143,
+        -0.0,
+        -2.6443917792347093e-14,
+        2.2789945469470924e-30,
+        -2.218908166643909e-14
+      ],
+      [
+        -0.0,
+        -0.0,
+        0.7642857142857143,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        178370.3703703704,
+        -1.1641345341570562e-11,
+        -3.166029368809246e-11
+      ],
+      [
+        -0.0,
+        -0.0,
+        -0.0,
+        -1.1641345341570586e-11,
+        178370.37037037042,
+        -4.446435579865342e-12
+      ],
+      [
+        -0.0,
+        -0.0,
+        -0.0,
+        -7.431609198285909e-11,
+        -4.44643557986534e-12,
+        178370.37037037042
+      ]
+    ],
+    "efc_diagApprox": [
+      0.7642857142857143,
+      0.7642857142857143,
+      0.7642857142857143,
+      1003.3333333333334,
+      1003.3333333333334,
+      1003.3333333333334
+    ],
+    "physical_translation_bound_coefficient": 38.214285714285715,
+    "physical_rotation_bound_coefficient": 356740.74074074085,
+    "design_margin": 2.0,
+    "deficit_1_minus_d": 0.00015288845061983133,
+    "anchor_choice": "actual target grasp point, rather than target COM; changes soft spring datum, not the rigid reference",
+    "torquescale_choice": "retain original 0.15 m; calibration weighting checked via actual Jacobian, no increase",
+    "timeconst_choice": "4 ms = 2*formal timestep, with refsafe retained; also unchanged at 1 ms",
+    "candidate_1_rejection": "scalar acceleration approximation omitted torquescale and diagonal regularization normalization"
+  },
+  "qualification_status": "PENDING_INDEPENDENT_TESTS"
+}

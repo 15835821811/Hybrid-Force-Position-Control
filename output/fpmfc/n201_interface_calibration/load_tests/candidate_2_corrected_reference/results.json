@@ -1,0 +1,814 @@
+{
+  "label": "candidate_2_corrected_reference",
+  "geometry": {
+    "target_mass_kg": 20.0,
+    "target_inertia_kg_m2": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "tool_mass_kg": 1.4,
+    "tool_inertia_kg_m2": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "source_tool_body": "link7 inertial frame; full upstream arm excluded in isolated fixture",
+    "source_model_sha256": "e7110b48cd20069e6fee63dd6b549e317e3d33bcb44ace159c46bad328b5b499",
+    "initial_interface_point_world_m": [
+      0.8350933335321533,
+      0.13999999999999999,
+      0.8535818585470191
+    ],
+    "tool_pad_diameter_m": 0.07,
+    "target_grasp_offset_m": 0.15
+  },
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "timestep_s": 0.002,
+  "runtime_sha256": "72cc0c74a1b22f5695d9c4b9ffcc46905e5e49fe220aa207e5c10666f2d6d131",
+  "results": [
+    {
+      "case": "force_x_negative",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 9.34803668765188e-08,
+      "maximum_rotation_deg": 2.6680020940056347e-08,
+      "hold_max_translation_m": 9.348036687651876e-08,
+      "hold_max_rotation_deg": 7.42643666526971e-15,
+      "max_interface_load_fraction": 1.0000003160781776,
+      "hold_mean_wrench_grasp": [
+        49.99999999999997,
+        -3.4659746504423163e-18,
+        -5.979815102931537e-16,
+        -2.0959981931245997e-19,
+        -3.077846008861821e-16,
+        2.8637372255772647e-15
+      ],
+      "hold_mean_translation_tool_m": [
+        -9.348036687651902e-08,
+        -5.727695543347105e-17,
+        1.4564995999279922e-16
+      ],
+      "linear_momentum_drift": 2.445948386765453e-16,
+      "angular_momentum_drift": 4.664358255601938e-15,
+      "maximum_net_force_moment": 2.1334777765716796e-14,
+      "maximum_solver_residual": 2.412914603408676e-11,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.92174490842938e-07,
+      "constraint_work_j": -5.92166398534584e-07,
+      "kinetic_energy_change_j": 9.739217113875808e-28,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "force_x_positive",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 9.348036672613366e-08,
+      "maximum_rotation_deg": 2.668003366182599e-08,
+      "hold_max_translation_m": 9.348036665476989e-08,
+      "hold_max_rotation_deg": 3.507210425094419e-14,
+      "max_interface_load_fraction": 1.0000003160785114,
+      "hold_mean_wrench_grasp": [
+        -50.00000000000001,
+        -1.0334491034807303e-18,
+        2.673329104839981e-15,
+        -2.435964336141079e-18,
+        1.011292260054598e-15,
+        2.688885146863564e-15
+      ],
+      "hold_mean_translation_tool_m": [
+        9.34803666547699e-08,
+        5.374522107697617e-17,
+        1.3785606573797763e-16
+      ],
+      "linear_momentum_drift": 1.3579575804380181e-16,
+      "angular_momentum_drift": 1.9114545895752176e-15,
+      "maximum_net_force_moment": 2.1320907500235726e-14,
+      "maximum_solver_residual": 6.276842861397786e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.921747444770421e-07,
+      "constraint_work_j": -5.921666521685792e-07,
+      "kinetic_energy_change_j": 2.8299642961786467e-28,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "force_y_negative",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 9.348036703049662e-08,
+      "maximum_rotation_deg": 2.6680015344449623e-08,
+      "hold_max_translation_m": 9.348036703049662e-08,
+      "hold_max_rotation_deg": 3.2239268752118196e-14,
+      "max_interface_load_fraction": 1.000000316078266,
+      "hold_mean_wrench_grasp": [
+        -3.0208107790881937e-15,
+        49.99999999999991,
+        -4.989477033259152e-16,
+        -2.6283666053323108e-15,
+        2.736599450017476e-16,
+        1.0479736012739193e-15
+      ],
+      "hold_mean_translation_tool_m": [
+        -3.796587743144558e-18,
+        -9.348036696674101e-08,
+        2.693141505388751e-16
+      ],
+      "linear_momentum_drift": 2.9016595916213116e-17,
+      "angular_momentum_drift": 1.5979228434119066e-13,
+      "maximum_net_force_moment": 5.45963209569281e-13,
+      "maximum_solver_residual": 4.560553323873506e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.921743478688257e-07,
+      "constraint_work_j": -5.921662555591787e-07,
+      "kinetic_energy_change_j": 1.4446694818173213e-27,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "force_y_positive",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 9.348036700274082e-08,
+      "maximum_rotation_deg": 2.667996905223441e-08,
+      "hold_max_translation_m": 9.348036697498525e-08,
+      "hold_max_rotation_deg": 4.9805669221591484e-14,
+      "max_interface_load_fraction": 1.0000003160782662,
+      "hold_mean_wrench_grasp": [
+        2.8277439738734157e-14,
+        -49.99999999999925,
+        1.318502727752141e-15,
+        5.6675229116445574e-14,
+        -2.4822480733933266e-15,
+        4.2511046847997334e-15
+      ],
+      "hold_mean_translation_tool_m": [
+        -6.147672926871025e-17,
+        9.348036688897032e-08,
+        2.7876443808578076e-17
+      ],
+      "linear_momentum_drift": 6.617561367481591e-17,
+      "angular_momentum_drift": 1.6217792301798557e-13,
+      "maximum_net_force_moment": 5.504298998989814e-13,
+      "maximum_solver_residual": 8.5371640312637e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.921744569848339e-07,
+      "constraint_work_j": -5.921663646755689e-07,
+      "kinetic_energy_change_j": 1.870184213272122e-27,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "force_z_negative",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 9.348036672996233e-08,
+      "maximum_rotation_deg": 2.3645437636472106e-11,
+      "hold_max_translation_m": 9.348036672996233e-08,
+      "hold_max_rotation_deg": 4.09424685646432e-14,
+      "max_interface_load_fraction": 1.000000134855108,
+      "hold_mean_wrench_grasp": [
+        -5.346658209679962e-15,
+        -6.17081371058305e-13,
+        50.00000000000004,
+        -4.366621381221328e-14,
+        2.1017291317656428e-15,
+        -1.3328086393204617e-15
+      ],
+      "hold_mean_translation_tool_m": [
+        -4.638882157521724e-17,
+        5.538311441874127e-17,
+        -9.348036672996221e-08
+      ],
+      "linear_momentum_drift": 5.608424525251684e-17,
+      "angular_momentum_drift": 1.6188368691393142e-13,
+      "maximum_net_force_moment": 5.462818970802706e-13,
+      "maximum_solver_residual": 7.682871484485176e-14,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.921749158656683e-07,
+      "constraint_work_j": -5.921633446906826e-07,
+      "kinetic_energy_change_j": 1.4357272636452899e-27,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "force_z_positive",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 9.348036695773766e-08,
+      "maximum_rotation_deg": 2.3634132261323023e-11,
+      "hold_max_translation_m": 9.348036695773766e-08,
+      "hold_max_rotation_deg": 3.696719241401152e-14,
+      "max_interface_load_fraction": 1.0000001348551568,
+      "hold_mean_wrench_grasp": [
+        0.0,
+        -1.5970492035404104e-13,
+        -49.99999999999997,
+        -1.4147339313062114e-14,
+        -1.93024913984334e-15,
+        -6.695055184739274e-16
+      ],
+      "hold_mean_translation_tool_m": [
+        -5.227953205923194e-17,
+        1.6382174759139686e-17,
+        9.348036695773775e-08
+      ],
+      "linear_momentum_drift": 3.272948632322225e-16,
+      "angular_momentum_drift": 1.5900898214572754e-13,
+      "maximum_net_force_moment": 5.468736389879299e-13,
+      "maximum_solver_residual": 2.7331248119000888e-12,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.921750571996635e-07,
+      "constraint_work_j": -5.921634860246333e-07,
+      "kinetic_energy_change_j": 1.310701711506595e-27,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "moment_x_negative",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 6.862208609175821e-11,
+      "maximum_rotation_deg": 0.05000026228787053,
+      "hold_max_translation_m": 1.2406944514669868e-16,
+      "hold_max_rotation_deg": 0.050000006346225374,
+      "max_interface_load_fraction": 1.0002697362224429,
+      "hold_mean_wrench_grasp": [
+        -6.836721964906051e-19,
+        -8.765016484711173e-14,
+        -8.669246081082935e-18,
+        1.999999999999993,
+        6.715881031299443e-20,
+        -1.9676229842366636e-16
+      ],
+      "hold_mean_translation_tool_m": [
+        7.136376042125946e-17,
+        2.140023143653921e-18,
+        8.504624153802231e-17
+      ],
+      "linear_momentum_drift": 3.7882029653971213e-16,
+      "angular_momentum_drift": 1.808146490276389e-14,
+      "maximum_net_force_moment": 0.0,
+      "maximum_solver_residual": 2.0437227448969007e-12,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 0.00022173938270782202,
+      "constraint_work_j": -0.00021745957285469752,
+      "kinetic_energy_change_j": 3.001536225952307e-29,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "moment_x_positive",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 6.862244193022708e-11,
+      "maximum_rotation_deg": 0.05000026228814546,
+      "hold_max_translation_m": 4.0410965608141316e-16,
+      "hold_max_rotation_deg": 0.05000000634622189,
+      "max_interface_load_fraction": 1.0002697363240458,
+      "hold_mean_wrench_grasp": [
+        1.1156357342135287e-18,
+        2.6849084709117428e-14,
+        -1.137109036064853e-16,
+        -1.9999999999999971,
+        2.6346917892020893e-19,
+        4.946538228527926e-16
+      ],
+      "hold_mean_translation_tool_m": [
+        4.3995245537638504e-17,
+        -1.2969543184609972e-18,
+        3.978705933535593e-16
+      ],
+      "linear_momentum_drift": 4.284230725219808e-16,
+      "angular_momentum_drift": 1.7992459973416845e-14,
+      "maximum_net_force_moment": 0.0,
+      "maximum_solver_residual": 1.0851866212818577e-12,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 0.00022173938269090684,
+      "constraint_work_j": -0.0002174595722479472,
+      "kinetic_energy_change_j": 2.808587240051646e-28,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "moment_y_negative",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 6.862223654818973e-11,
+      "maximum_rotation_deg": 0.05000026228747451,
+      "hold_max_translation_m": 2.238627970566605e-16,
+      "hold_max_rotation_deg": 0.05000000634620805,
+      "max_interface_load_fraction": 1.0002697361329507,
+      "hold_mean_wrench_grasp": [
+        -8.301640041481873e-14,
+        1.716706534641958e-16,
+        -1.65649371034526e-14,
+        7.374395356480124e-18,
+        2.0000000000000058,
+        1.0797131206305286e-20
+      ],
+      "hold_mean_translation_tool_m": [
+        1.3918685258555445e-16,
+        2.7755573647270732e-17,
+        1.6601092245353907e-16
+      ],
+      "linear_momentum_drift": 6.373255139023609e-16,
+      "angular_momentum_drift": 1.801353812038294e-14,
+      "maximum_net_force_moment": 0.0,
+      "maximum_solver_residual": 7.744915819785092e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 0.0002217393823528874,
+      "constraint_work_j": -0.00021745957449714021,
+      "kinetic_energy_change_j": 5.277515638477264e-28,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "moment_y_positive",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 6.862223722035317e-11,
+      "maximum_rotation_deg": 0.050000262287522274,
+      "hold_max_translation_m": 2.497597550887407e-16,
+      "hold_max_rotation_deg": 0.05000000634623347,
+      "max_interface_load_fraction": 1.0002697361347757,
+      "hold_mean_wrench_grasp": [
+        1.0090761698681619e-14,
+        -1.0021199351022025e-15,
+        8.923320521377602e-15,
+        -8.629574300500921e-17,
+        -2.0,
+        -1.3522722282516179e-18
+      ],
+      "hold_mean_translation_tool_m": [
+        -1.2976996614269616e-17,
+        2.775557562473106e-17,
+        1.5725325899623504e-16
+      ],
+      "linear_momentum_drift": 3.5324294944867084e-16,
+      "angular_momentum_drift": 1.797451592600064e-14,
+      "maximum_net_force_moment": 0.0,
+      "maximum_solver_residual": 3.2225454028906368e-12,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 0.00022173938236094812,
+      "constraint_work_j": -0.00021745957449450018,
+      "kinetic_energy_change_j": 1.458859819225136e-28,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "moment_z_negative",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 5.551225471628118e-14,
+      "maximum_rotation_deg": 0.05000000634796656,
+      "hold_max_translation_m": 1.5700924586837752e-16,
+      "hold_max_rotation_deg": 0.050000006346187384,
+      "max_interface_load_fraction": 1.000024046250228,
+      "hold_mean_wrench_grasp": [
+        -6.5855936087360594e-18,
+        -2.9190023206407255e-17,
+        -1.442115264854253e-19,
+        -2.9459383227677423e-16,
+        6.467096552286583e-19,
+        2.0000000000000018
+      ],
+      "hold_mean_translation_tool_m": [
+        -1.368425744190816e-17,
+        -1.4904788762918356e-32,
+        1.5641177828546105e-16
+      ],
+      "linear_momentum_drift": 4.1668554453434374e-19,
+      "angular_momentum_drift": 4.468983797159275e-16,
+      "maximum_net_force_moment": 0.0,
+      "maximum_solver_residual": 5.895747633052354e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 0.00022122616435005552,
+      "constraint_work_j": -0.0002204813067927144,
+      "kinetic_energy_change_j": 8.900435622426512e-31,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "moment_z_positive",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 5.547220343443112e-14,
+      "maximum_rotation_deg": 0.050000006347966974,
+      "hold_max_translation_m": 1.594415710315425e-16,
+      "hold_max_rotation_deg": 0.050000006346186725,
+      "max_interface_load_fraction": 1.000024046250214,
+      "hold_mean_wrench_grasp": [
+        9.518596183467125e-18,
+        4.839372337232953e-13,
+        8.715065699097786e-17,
+        3.429160146159048e-14,
+        -7.575032420224857e-19,
+        -1.9999999999999993
+      ],
+      "hold_mean_translation_tool_m": [
+        -1.3662506784723522e-17,
+        -2.5007489363015996e-17,
+        1.5641177830278357e-16
+      ],
+      "linear_momentum_drift": 2.973662550497592e-19,
+      "angular_momentum_drift": 3.2670967358362194e-16,
+      "maximum_net_force_moment": 0.0,
+      "maximum_solver_residual": 5.869448071213999e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 0.00022122616435118992,
+      "constraint_work_j": -0.00022048130679384957,
+      "kinetic_energy_change_j": 7.614907425319564e-31,
+      "pose_holding_passed": true,
+      "numerics_passed": true,
+      "status": "QUALIFIED"
+    },
+    {
+      "case": "mixed_0",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 4.6740183703717966e-08,
+      "maximum_rotation_deg": 0.025000000794159476,
+      "hold_max_translation_m": 4.6740183703717966e-08,
+      "hold_max_rotation_deg": 0.025000000793263137,
+      "max_interface_load_fraction": 1.0000120707763855,
+      "hold_mean_wrench_grasp": [
+        -17.677669529662904,
+        -17.677669529662882,
+        3.21661289463279e-13,
+        6.436215696817046e-14,
+        -6.217209096427266e-14,
+        -0.9999999999999997
+      ],
+      "hold_mean_translation_tool_m": [
+        3.303587676188452e-08,
+        3.3064718472452394e-08,
+        1.7685263233678813e-16
+      ],
+      "linear_momentum_drift": 1.6994027765633042e-17,
+      "angular_momentum_drift": 2.0858125798305464e-10,
+      "maximum_net_force_moment": 1.5569283378734125e-10,
+      "maximum_solver_residual": 1.3451528379056137e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.5454578400894645e-05,
+      "constraint_work_j": -5.5268360419103525e-05,
+      "kinetic_energy_change_j": 3.0119396413880023e-21,
+      "pose_holding_passed": true,
+      "numerics_passed": false,
+      "status": "NUMERICAL_TEST_FAILURE"
+    },
+    {
+      "case": "mixed_1",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 4.674018352091932e-08,
+      "maximum_rotation_deg": 0.025000129285103454,
+      "hold_max_translation_m": 4.674018352091932e-08,
+      "hold_max_rotation_deg": 0.025000000833048187,
+      "max_interface_load_fraction": 1.0000856251545716,
+      "hold_mean_wrench_grasp": [
+        -2.339834007515681e-09,
+        -2.3393436045296533e-09,
+        25.000000000002935,
+        -0.7071067813869772,
+        0.7071067813870154,
+        -1.2334962534336597e-13
+      ],
+      "hold_mean_translation_tool_m": [
+        1.4421218596124686e-11,
+        1.4421241501995985e-11,
+        -4.6740178867458344e-08
+      ],
+      "linear_momentum_drift": 3.618075976841329e-16,
+      "angular_momentum_drift": 3.908076047016338e-07,
+      "maximum_net_force_moment": 2.899049401932485e-07,
+      "maximum_solver_residual": 4.4251965864583334e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.558143132333235e-05,
+      "constraint_work_j": -5.451197003087868e-05,
+      "kinetic_energy_change_j": 9.1579956826331e-15,
+      "pose_holding_passed": true,
+      "numerics_passed": false,
+      "status": "NUMERICAL_TEST_FAILURE"
+    },
+    {
+      "case": "mixed_2",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 4.674018380041484e-08,
+      "maximum_rotation_deg": 0.02500012933551724,
+      "hold_max_translation_m": 4.674018380041484e-08,
+      "hold_max_rotation_deg": 0.02500000079329849,
+      "max_interface_load_fraction": 1.0001301268950413,
+      "hold_mean_wrench_grasp": [
+        25.00000000000185,
+        6.009626834777849e-15,
+        2.1803812880606717e-12,
+        8.933813256719256e-16,
+        -1.0000000000001315,
+        1.1240151231061958e-16
+      ],
+      "hold_mean_translation_tool_m": [
+        -4.674017912399943e-08,
+        -4.852192759695496e-17,
+        2.0394344368111332e-11
+      ],
+      "linear_momentum_drift": 2.808646331362831e-16,
+      "angular_momentum_drift": 1.5456640475330054e-10,
+      "maximum_net_force_moment": 1.1747758333210022e-10,
+      "maximum_solver_residual": 7.756018050031344e-13,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.558326698929477e-05,
+      "constraint_work_j": -5.4510638826699484e-05,
+      "kinetic_energy_change_j": 4.149653020304759e-21,
+      "pose_holding_passed": true,
+      "numerics_passed": false,
+      "status": "NUMERICAL_TEST_FAILURE"
+    },
+    {
+      "case": "mixed_3",
+      "timestep_s": 0.002,
+      "parameters": {
+        "solref": [
+          0.004,
+          1
+        ],
+        "solimp": [
+          0.9998471115493802,
+          0.9998471115493802,
+          0.001,
+          0.5,
+          2
+        ],
+        "torquescale_m": 0.15,
+        "anchor_at_interface": true
+      },
+      "maximum_translation_m": 4.6740183545916046e-08,
+      "maximum_rotation_deg": 0.02500012819254799,
+      "hold_max_translation_m": 4.674018349040491e-08,
+      "hold_max_rotation_deg": 0.025000000793290025,
+      "max_interface_load_fraction": 1.000043556497178,
+      "hold_mean_wrench_grasp": [
+        -5.1912608004586116e-14,
+        -24.999999999999332,
+        1.121478420971089e-12,
+        1.000000000000055,
+        3.518856027514063e-15,
+        9.84361107477057e-16
+      ],
+      "hold_mean_translation_tool_m": [
+        -4.288965044112619e-17,
+        4.6740178999429524e-08,
+        -2.0393949391293364e-11
+      ],
+      "linear_momentum_drift": 3.991490386133544e-16,
+      "angular_momentum_drift": 1.9568869666422815e-10,
+      "maximum_net_force_moment": 1.686919389329957e-10,
+      "maximum_solver_residual": 1.552489690623271e-12,
+      "maximum_solver_iterations": 1,
+      "external_work_j": 5.5582498378362977e-05,
+      "constraint_work_j": -5.451521793652968e-05,
+      "kinetic_energy_change_j": 3.623647505380065e-22,
+      "pose_holding_passed": true,
+      "numerics_passed": false,
+      "status": "NUMERICAL_TEST_FAILURE"
+    }
+  ],
+  "all_passed": false
+}

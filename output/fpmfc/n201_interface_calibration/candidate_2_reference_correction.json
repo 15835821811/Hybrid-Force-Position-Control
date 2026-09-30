@@ -1,0 +1,190 @@
+{
+  "candidate": "candidate_2",
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "candidate_count": 2,
+  "derivation": {
+    "equilibrium_formula": "r = -(1-d)*timeconst^2*diag(efc_diagApprox)*lambda; e = solve(B,r)",
+    "B_scaled_constraint_from_physical_error": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.0814879110195774e-33
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -1.4825286137736123e-19,
+        0.0,
+        -1.2439892130271082e-19
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.04820907072649044,
+        -1.908032717635638e-17,
+        0.05745333323392335
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.8652256719395478e-17,
+        -0.07500000000000001,
+        -9.256496444991707e-18
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.05745333323392335,
+        -8.33849638757336e-18,
+        -0.04820907072649044
+      ]
+    ],
+    "multiplier_from_physical_wrench": [
+      [
+        -1.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        -1.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -1.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -0.0,
+        -8.570501462487192,
+        -3.39205816468558e-15,
+        10.213925908253044
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        3.315956750114752e-15,
+        -13.333333333333332,
+        -1.6455993679985257e-15
+      ],
+      [
+        -0.0,
+        -0.0,
+        -0.0,
+        -10.213925908253044,
+        -1.4823993577908198e-15,
+        -8.570501462487192
+      ]
+    ],
+    "normalized_physical_compliance": [
+      [
+        0.7642857142857143,
+        -0.0,
+        -0.0,
+        -6.144354004976078e-75,
+        3.813685018440025e-59,
+        -5.496461399803811e-28
+      ],
+      [
+        -0.0,
+        0.7642857142857143,
+        -0.0,
+        -2.6443917792347112e-14,
+        -1.5870762782524795e-45,
+        -2.2189081666439092e-14
+      ],
+      [
+        -0.0,
+        -0.0,
+        0.7642857142857143,
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -0.0,
+        178370.37037037045,
+        2.108999221134886e-26,
+        -0.0
+      ],
+      [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.6155871338926322e-26,
+        178370.37037037034,
+        -1.0770580892617547e-26
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.9939568748601984e-42,
+        -1.2376115462929674e-26,
+        178370.37037037042
+      ]
+    ],
+    "efc_diagApprox": [
+      0.7642857142857143,
+      0.7642857142857143,
+      0.7642857142857143,
+      1003.3333333333334,
+      1003.3333333333334,
+      1003.3333333333334
+    ],
+    "physical_translation_bound_coefficient": 38.214285714285715,
+    "physical_rotation_bound_coefficient": 356740.7407407409,
+    "design_margin": 2.0,
+    "deficit_1_minus_d": 0.00015288845061983128,
+    "anchor_choice": "actual target grasp point, rather than target COM; changes soft spring datum, not the rigid reference",
+    "torquescale_choice": "retain original 0.15 m; calibration weighting checked via actual Jacobian, no increase",
+    "timeconst_choice": "4 ms = 2*formal timestep, with refsafe retained; also unchanged at 1 ms",
+    "candidate_1_rejection": "scalar acceleration approximation omitted torquescale and diagonal regularization normalization"
+  },
+  "qualification_status": "PENDING_INDEPENDENT_TESTS",
+  "reference_correction": "site-based aligned interface; previous body-anchor fixture had 0.15 m initialization error and is invalid"
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": "n201r_completion_audit_v1",
+  "passed": true,
+  "verification_scope": "static byte identities, archived complete curves, current site-based known-wrench forward test; zero new dynamics",
+  "candidate_known_wrench_test": {
+    "known_wrench_world": [
+      3.0,
+      -4.0,
+      2.0,
+      0.1,
+      -0.2,
+      0.3
+    ],
+    "recovered_world": [
+      3.0,
+      -4.0,
+      2.0,
+      0.10000000000000002,
+      -0.20000000000000004,
+      0.29999999999999993
+    ],
+    "known_wrench_error": 6.359601310784502e-17,
+    "action_reaction_error": 4.869996334716959e-15,
+    "power_error_w": 0.0,
+    "tolerance": 1e-08,
+    "method": "named_equality_J_transpose_then_physical_target_and_tool_Jacobians",
+    "passed": true
+  },
+  "valid_suite_metrics": {
+    "original_balanced": {
+      "maximum_translation_m": 0.3277541179210896,
+      "maximum_rotation_deg": 179.94252661446808,
+      "max_interface_load_fraction": 19.890062286446035,
+      "linear_momentum_drift": 1.0731900677991188e-14,
+      "angular_momentum_drift": 1.925357916886338,
+      "maximum_net_force_moment": 2.1334777765716796e-14,
+      "maximum_solver_residual": 4.069300452158586e-12
+    },
+    "candidate_1_balanced": {
+      "maximum_translation_m": 0.20047639253997532,
+      "maximum_rotation_deg": 83.85967688584529,
+      "max_interface_load_fraction": 2.319758804057164,
+      "linear_momentum_drift": 3.1130819910653343e-15,
+      "angular_momentum_drift": 0.010991813092534608,
+      "maximum_net_force_moment": 2.135325743809934e-14,
+      "maximum_solver_residual": 1.9454205607560837e-11
+    },
+    "candidate_2_balanced": {
+      "maximum_translation_m": 9.348036708600777e-08,
+      "maximum_rotation_deg": 0.05000026228814566,
+      "max_interface_load_fraction": 1.0002697363241817,
+      "linear_momentum_drift": 8.358571738544534e-16,
+      "angular_momentum_drift": 3.6623170155505206e-07,
+      "maximum_net_force_moment": 1.5888218580782554e-14,
+      "maximum_solver_residual": 4.9462499489262184e-12
+    },
+    "candidate_2_balanced_fine": {
+      "maximum_translation_m": 9.348036705825188e-08,
+      "maximum_rotation_deg": 0.05000027114059478,
+      "max_interface_load_fraction": 1.0002638761710438,
+      "linear_momentum_drift": 4.486963559835664e-16,
+      "angular_momentum_drift": 1.8289127288294688e-07,
+      "maximum_net_force_moment": 1.588821858078255e-14,
+      "maximum_solver_residual": 2.8593180444837175e-11
+    }
+  },
+  "maximum_actual_load_event": {
+    "suite": "candidate_2_balanced",
+    "case": "moment_x_positive",
+    "time_s": 0.19800000000000015,
+    "fraction": 1.0002697363241817,
+    "wrench_grasp": [
+      -4.131315772880166e-12,
+      -0.004447874807375551,
+      8.423484654501755e-06,
+      -2.000361557337017,
+      -8.304300931800956e-12,
+      -4.539447484575021e-09
+    ],
+    "commanded_wrench_grasp": [
+      0.0,
+      0.0,
+      0.0,
+      1.9999802988000024,
+      0.0,
+      0.0
+    ]
+  },
+  "step_sensitivity_wrench_units_separated": {
+    "force_x_negative": {
+      "force_component_n": 3.15853180694603e-05,
+      "moment_component_nm": 2.2291957306741486e-06
+    },
+    "force_x_positive": {
+      "force_component_n": 3.1585321387694876e-05,
+      "moment_component_nm": 2.2291959593800904e-06
+    },
+    "force_y_negative": {
+      "force_component_n": 3.158532985025886e-05,
+      "moment_component_nm": 2.2291961560882767e-06
+    },
+    "force_y_positive": {
+      "force_component_n": 3.15853252637055e-05,
+      "moment_component_nm": 2.229195835428466e-06
+    },
+    "force_z_negative": {
+      "force_component_n": 4.583289157267245e-05,
+      "moment_component_nm": 1.9748679554410977e-09
+    },
+    "force_z_positive": {
+      "force_component_n": 4.5832892869412944e-05,
+      "moment_component_nm": 1.974476090086475e-09
+    },
+    "moment_x_negative": {
+      "force_component_n": 0.020810156934668853,
+      "moment_component_nm": 0.0017838265203848902
+    },
+    "moment_x_positive": {
+      "force_component_n": 0.020810142695378852,
+      "moment_component_nm": 0.0017838267956464815
+    },
+    "moment_y_negative": {
+      "force_component_n": 0.020810150039831127,
+      "moment_component_nm": 0.0017838257066696839
+    },
+    "moment_y_positive": {
+      "force_component_n": 0.02081014980024972,
+      "moment_component_nm": 0.0017838257111327804
+    },
+    "moment_z_negative": {
+      "force_component_n": 1.60797926632274e-05,
+      "moment_component_nm": 0.0003150212067334346
+    },
+    "moment_z_positive": {
+      "force_component_n": 1.6080073507854096e-05,
+      "moment_component_nm": 0.0003150212067251079
+    },
+    "mixed_0": {
+      "force_component_n": 1.9207218787897773e-05,
+      "moment_component_nm": 0.00015751124650537074
+    },
+    "mixed_1": {
+      "force_component_n": 0.0073549861361748015,
+      "moment_component_nm": 0.0006304638246892313
+    },
+    "mixed_2": {
+      "force_component_n": 0.010420868798682648,
+      "moment_component_nm": 0.0008930274837647967
+    },
+    "mixed_3": {
+      "force_component_n": 0.01038928614201673,
+      "moment_component_nm": 0.0008907988247384147
+    }
+  },
+  "historical_identity_preserved": true,
+  "candidate_parameter_count": 2,
+  "attempted_fixture_cases": 128,
+  "separate_fixture_replay_cases": 16,
+  "new_formal_trajectories": 0,
+  "requirements": {
+    "observation_and_initialization": "audited without rerunning historical trajectories",
+    "original_and_two_candidates": "all tests preserved; four invalid suites explicitly excluded",
+    "holding_and_actual_load": "holding passed, actual load failed, overall connection not qualified",
+    "effective_refsafety_and_step": "2 ms and 1 ms RK4, refsafe on, identical effective 4 ms time constant",
+    "protected_model_and_controller": "original assets and state/gains retained; protected compiled arrays compared",
+    "conditional_formal_runs": "skipped because independent connection qualification failed",
+    "performance": "NOT_EVALUATED; no 10 s new run and no detumbling success claim",
+    "delivery": "report, raw tests, ledger, commands, identities, and verification saved; local commit gate remains Git status/diff check"
+  }
+}

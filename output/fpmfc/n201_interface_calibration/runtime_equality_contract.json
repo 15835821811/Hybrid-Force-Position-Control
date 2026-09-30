@@ -1,0 +1,42 @@
+{
+  "definition": "body_based",
+  "equality_type": 1,
+  "object_type": 1,
+  "object1": "flange",
+  "object2": "tumbling_target",
+  "active": true,
+  "eq_data_raw": [
+    0.0,
+    0.0,
+    0.0,
+    5.296943096588791e-06,
+    5.540726492005621e-05,
+    0.14975681194352627,
+    0.707104888200688,
+    0.7071086740260771,
+    1.0440291586566351e-05,
+    -9.527637460413815e-06,
+    0.15
+  ],
+  "solref_raw": [
+    0.02,
+    1.0
+  ],
+  "solimp": [
+    0.95,
+    0.99,
+    0.001,
+    0.5,
+    2.0
+  ],
+  "torquescale_m": 0.15,
+  "refsafe": true,
+  "timeconst_effective_s": 0.02,
+  "timestep_s": 0.002,
+  "integrator": 1,
+  "solver": 2,
+  "iterations": 50,
+  "tolerance": 1e-10,
+  "disableflags": 0,
+  "enableflags": 0
+}

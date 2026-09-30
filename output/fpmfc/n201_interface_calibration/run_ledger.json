@@ -1,0 +1,98 @@
+{
+  "formal_runs": [],
+  "interface_tests": [
+    {
+      "suite": "original",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.002,
+      "all_passed": false,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests_v1.py",
+      "runtime_sha256": "25cd85a630707a7d9851596240efd3b889696513fbd2cfe2d0935b7ca0100782",
+      "validity_status": "INVALID_BALANCED_INPUT: used stale post-step COMs for wrench shifts"
+    },
+    {
+      "suite": "candidate_1",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.002,
+      "all_passed": false,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests_v1.py",
+      "runtime_sha256": "25cd85a630707a7d9851596240efd3b889696513fbd2cfe2d0935b7ca0100782",
+      "validity_status": "INVALID_BALANCED_INPUT: used stale post-step COMs for wrench shifts"
+    },
+    {
+      "suite": "candidate_2",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.002,
+      "all_passed": false,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests_v2.py",
+      "runtime_sha256": "9f0285fe372a6f82ff20ba2dd49ac250b0e7179828de0bd4e2f1ae34ee503c31",
+      "validity_status": "INVALID_REFERENCE: nonzero initial anchor residual; also stale COM inputs"
+    },
+    {
+      "suite": "candidate_2_corrected_reference",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.002,
+      "all_passed": false,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests_v3.py",
+      "runtime_sha256": "72cc0c74a1b22f5695d9c4b9ffcc46905e5e49fe220aa207e5c10666f2d6d131",
+      "validity_status": "INVALID_BALANCED_INPUT: stale COM inputs in mixed loads"
+    },
+    {
+      "suite": "original_balanced",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.002,
+      "all_passed": false,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests.py",
+      "runtime_sha256": "a4835f7afe4f0c81cc9cb4b7a8f2af2936a0f9771f392e0e971e98ffdc9dc38f",
+      "validity_status": "VALID_BALANCED_INPUT"
+    },
+    {
+      "suite": "candidate_1_balanced",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.002,
+      "all_passed": false,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests.py",
+      "runtime_sha256": "a4835f7afe4f0c81cc9cb4b7a8f2af2936a0f9771f392e0e971e98ffdc9dc38f",
+      "validity_status": "VALID_BALANCED_INPUT"
+    },
+    {
+      "suite": "candidate_2_balanced",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.002,
+      "all_passed": true,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests.py",
+      "runtime_sha256": "a4835f7afe4f0c81cc9cb4b7a8f2af2936a0f9771f392e0e971e98ffdc9dc38f",
+      "validity_status": "VALID_BALANCED_INPUT"
+    },
+    {
+      "suite": "candidate_2_balanced_fine",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "timestep_s": 0.001,
+      "all_passed": true,
+      "runtime_path": "v6_mujoco/postgrasp_calibration/load_tests.py",
+      "runtime_sha256": "a4835f7afe4f0c81cc9cb4b7a8f2af2936a0f9771f392e0e971e98ffdc9dc38f",
+      "validity_status": "VALID_BALANCED_INPUT"
+    }
+  ],
+  "independent_replays": [
+    {
+      "kind": "selected free-body fixture same-step replay",
+      "cases": 16,
+      "duration_each_s": 0.9,
+      "all_passed": true
+    }
+  ],
+  "fixed_state_audits": [
+    "historical pose/initialization/solver"
+  ],
+  "complete_robot_dynamics_attempts": [],
+  "formal_runs_skipped_reason": "CONNECTION_MODEL_NOT_QUALIFIED: actual wrench envelope violation in independent tests"
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "n201r_connection_qualification_v1",
+  "selected_candidate": "candidate_2",
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "holding_precision_passed": true,
+  "numerics_passed": true,
+  "load_envelope_passed": false,
+  "maximum_measured_load_fraction": 1.0002697363241817,
+  "status": "CONNECTION_MODEL_NOT_QUALIFIED",
+  "reason": "boundary-load transient reconstructed wrench exceeds the unchanged envelope; no formal Z/D runs authorized",
+  "model_scope": "idealized_postgrasp_connection",
+  "dynamic_capture_validated": false,
+  "hardware_load_rating_validated": false,
+  "controller_or_damping_modified": false,
+  "initial_state_reprojected": false,
+  "initial_state_sha256": "efd260192086455a7af327072fae26a389087bcd231cbab1193da69dee413ee8",
+  "damping_sha256": "844be51f1bee6d001b610d8a5a044dbe85799c14283670db3610b8a072ff4458",
+  "candidate_count": 2,
+  "load_test_all_passed_field_scope": "pose and numerical gates only; this final qualification additionally enforces measured wrench envelope"
+}

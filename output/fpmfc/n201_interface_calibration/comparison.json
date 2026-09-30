@@ -1,0 +1,359 @@
+{
+  "classification": {
+    "OBSERVATION": "PASS",
+    "CONNECTION": "CONNECTION_MODEL_NOT_QUALIFIED",
+    "HOLDING_PRECISION": "PASS",
+    "NUMERICS": "PASS",
+    "POSTGRASP": "NOT_RUN",
+    "DETUMBLING": "NOT_EVALUATED"
+  },
+  "historical_failure_cause": "physical compliance mismatch; pose and initial reference correct, fixed-state solver converged",
+  "step_sensitivity_full_curves": {
+    "force_x_negative": {
+      "qpos": 2.5394109037790713e-10,
+      "qvel": 4.8163143598741275e-08,
+      "translation_error_m": 4.296872818235456e-10,
+      "rotation_error_deg": 1.7331547331185558e-09,
+      "interface_wrench_grasp": 3.15853180694603e-05,
+      "kinetic_energy_j": 1.3628164747769977e-14
+    },
+    "force_x_positive": {
+      "qpos": 2.539408683333022e-10,
+      "qvel": 4.81631255728706e-08,
+      "translation_error_m": 4.296874382353592e-10,
+      "rotation_error_deg": 1.7331547298022961e-09,
+      "interface_wrench_grasp": 3.1585321387694876e-05,
+      "kinetic_energy_j": 1.3628155004105256e-14
+    },
+    "force_y_negative": {
+      "qpos": 3.3149591405212675e-10,
+      "qvel": 4.816321087472264e-08,
+      "translation_error_m": 4.2968731350787177e-10,
+      "rotation_error_deg": 1.733131368910259e-09,
+      "interface_wrench_grasp": 3.158532985025886e-05,
+      "kinetic_energy_j": 1.3628155931168735e-14
+    },
+    "force_y_positive": {
+      "qpos": 3.315141217097306e-10,
+      "qvel": 4.816316560696054e-08,
+      "translation_error_m": 4.296873135079247e-10,
+      "rotation_error_deg": 1.7331221636656728e-09,
+      "interface_wrench_grasp": 3.15853252637055e-05,
+      "kinetic_energy_j": 1.36281649807592e-14
+    },
+    "force_z_negative": {
+      "qpos": 3.076263688228664e-10,
+      "qvel": 1.3437954959221915e-08,
+      "translation_error_m": 4.2968851943348966e-10,
+      "rotation_error_deg": 1.5601084610468899e-12,
+      "interface_wrench_grasp": 4.583289157267245e-05,
+      "kinetic_energy_j": 1.9332754280296265e-14
+    },
+    "force_z_positive": {
+      "qpos": 3.076264798451689e-10,
+      "qvel": 1.3437946566898247e-08,
+      "translation_error_m": 4.2968836302175543e-10,
+      "rotation_error_deg": 1.5395423759922838e-12,
+      "interface_wrench_grasp": 4.5832892869412944e-05,
+      "kinetic_energy_j": 1.9332740340780808e-14
+    },
+    "moment_x_negative": {
+      "qpos": 1.7159329566402532e-06,
+      "qvel": 0.0001402037475621582,
+      "translation_error_m": 4.0109978710713147e-13,
+      "rotation_error_deg": 0.0002312134969044248,
+      "interface_wrench_grasp": 0.020810156934668853,
+      "kinetic_energy_j": 7.2217853570215e-09
+    },
+    "moment_x_positive": {
+      "qpos": 1.7159329987415854e-06,
+      "qvel": 0.00014020374707768724,
+      "translation_error_m": 4.0131874511451e-13,
+      "rotation_error_deg": 0.0002312134971077101,
+      "interface_wrench_grasp": 0.020810142695378852,
+      "kinetic_energy_j": 7.221786400464394e-09
+    },
+    "moment_y_negative": {
+      "qpos": 1.7157941608059168e-06,
+      "qvel": 0.00014020376207450093,
+      "translation_error_m": 4.0106741820980173e-13,
+      "rotation_error_deg": 0.0002312134963065697,
+      "interface_wrench_grasp": 0.020810150039831127,
+      "kinetic_energy_j": 7.221782003809359e-09
+    },
+    "moment_y_positive": {
+      "qpos": 1.7161218180961058e-06,
+      "qvel": 0.00014020376206397376,
+      "translation_error_m": 4.0118260922825067e-13,
+      "rotation_error_deg": 0.00023121349629072127,
+      "interface_wrench_grasp": 0.02081014980024972,
+      "kinetic_energy_j": 7.221781995634141e-09
+    },
+    "moment_z_negative": {
+      "qpos": 1.8136908644859851e-06,
+      "qvel": 0.00016986322910436669,
+      "translation_error_m": 5.194164714855386e-16,
+      "rotation_error_deg": 0.00023008491702392747,
+      "interface_wrench_grasp": 0.0003150212067334346,
+      "kinetic_energy_j": 1.2439974850420651e-09
+    },
+    "moment_z_positive": {
+      "qpos": 1.8136908995469421e-06,
+      "qvel": 0.00016986322910967667,
+      "translation_error_m": 4.672506814340779e-16,
+      "rotation_error_deg": 0.0002300849169965223,
+      "interface_wrench_grasp": 0.0003150212067251079,
+      "kinetic_energy_j": 1.2439974852223674e-09
+    },
+    "mixed_0": {
+      "qpos": 9.068698121296112e-07,
+      "qvel": 8.493163551183576e-05,
+      "translation_error_m": 2.1484405321188907e-10,
+      "rotation_error_deg": 0.0001150424724104971,
+      "interface_wrench_grasp": 0.00015751124650537074,
+      "kinetic_energy_j": 3.110053037659882e-10
+    },
+    "mixed_1": {
+      "qpos": 6.796680425543241e-07,
+      "qvel": 4.979342311537283e-05,
+      "translation_error_m": 2.148879973142236e-10,
+      "rotation_error_deg": 0.00011556815322326039,
+      "interface_wrench_grasp": 0.0073549861361748015,
+      "kinetic_energy_j": 1.8049113196768418e-09
+    },
+    "mixed_2": {
+      "qpos": 8.579470434644243e-07,
+      "qvel": 7.007967969641787e-05,
+      "translation_error_m": 2.154487913963122e-10,
+      "rotation_error_deg": 0.0001156076162771285,
+      "interface_wrench_grasp": 0.010420868798682648,
+      "kinetic_energy_j": 1.8099612268263095e-09
+    },
+    "mixed_3": {
+      "qpos": 8.580388045581835e-07,
+      "qvel": 7.012410445200777e-05,
+      "translation_error_m": 2.1423900665285606e-10,
+      "rotation_error_deg": 0.0001156058938324659,
+      "interface_wrench_grasp": 0.01038928614201673,
+      "kinetic_energy_j": 1.8009375423461836e-09
+    }
+  },
+  "measured_hold_compliance_6x6": [
+    [
+      1.869607334599249e-09,
+      -5.767926482136799e-19,
+      -7.725440757793678e-19,
+      1.0998811384540694e-17,
+      -3.836005909024537e-17,
+      -1.7840932520993615e-17
+    ],
+    [
+      1.1102218117462092e-18,
+      1.869607339073752e-09,
+      1.5405912275709758e-19,
+      -8.418335642156517e-19,
+      -6.938893409982487e-18,
+      1.5517447112988587e-20
+    ],
+    [
+      -9.28418718327796e-19,
+      -2.414430964746589e-18,
+      1.8696073360265216e-09,
+      9.946808529121783e-17,
+      -2.9975755151740806e-18,
+      -2.1262005167553855e-17
+    ],
+    [
+      9.452909010225918e-19,
+      5.307658404693616e-19,
+      9.58590215298617e-19,
+      0.0004363323683793997,
+      -6.041298546642355e-18,
+      8.663297886189817e-20
+    ],
+    [
+      5.551115123125784e-18,
+      -2.7096037185158524e-18,
+      -1.0992307174506337e-19,
+      2.775557913847671e-17,
+      0.0004363323683794679,
+      -1.3877789569238294e-17
+    ],
+    [
+      -3.562520937167007e-22,
+      -7.934964715891456e-20,
+      2.4152250458786905e-20,
+      -3.8799565110976966e-19,
+      9.468453074402783e-21,
+      0.0004363323683794684
+    ]
+  ],
+  "compliance_units": "rows translation m and rotation rad; columns force N then moment N*m",
+  "same_step_replay": {
+    "force_x_negative": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "force_x_positive": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "force_y_negative": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "force_y_positive": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "force_z_negative": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "force_z_positive": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "moment_x_negative": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "moment_x_positive": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "moment_y_negative": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "moment_y_positive": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "moment_z_negative": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "moment_z_positive": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "mixed_0": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "mixed_1": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "mixed_2": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    },
+    "mixed_3": {
+      "passed": true,
+      "max_absolute_differences": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "interface_wrench_grasp": 0.0
+      }
+    }
+  },
+  "initial_state_unchanged": true,
+  "damping_unchanged": true,
+  "new_formal_trajectories": 0,
+  "calibration_result": {
+    "schema_version": "n201r_connection_qualification_v1",
+    "selected_candidate": "candidate_2",
+    "parameters": {
+      "solref": [
+        0.004,
+        1
+      ],
+      "solimp": [
+        0.9998471115493802,
+        0.9998471115493802,
+        0.001,
+        0.5,
+        2
+      ],
+      "torquescale_m": 0.15,
+      "anchor_at_interface": true
+    },
+    "holding_precision_passed": true,
+    "numerics_passed": true,
+    "load_envelope_passed": false,
+    "maximum_measured_load_fraction": 1.0002697363241817,
+    "status": "CONNECTION_MODEL_NOT_QUALIFIED",
+    "reason": "boundary-load transient reconstructed wrench exceeds the unchanged envelope; no formal Z/D runs authorized",
+    "model_scope": "idealized_postgrasp_connection",
+    "dynamic_capture_validated": false,
+    "hardware_load_rating_validated": false,
+    "controller_or_damping_modified": false,
+    "initial_state_reprojected": false,
+    "initial_state_sha256": "efd260192086455a7af327072fae26a389087bcd231cbab1193da69dee413ee8",
+    "damping_sha256": "844be51f1bee6d001b610d8a5a044dbe85799c14283670db3610b8a072ff4458",
+    "candidate_count": 2,
+    "load_test_all_passed_field_scope": "pose and numerical gates only; this final qualification additionally enforces measured wrench envelope"
+  }
+}

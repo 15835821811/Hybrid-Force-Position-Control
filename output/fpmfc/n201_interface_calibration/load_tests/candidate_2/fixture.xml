@@ -1,0 +1,21 @@
+<mujoco model="n201r_free_interface_fixture">
+      <compiler angle="radian"/>
+      <option timestep="0.002" gravity="0 0 0" integrator="RK4" iterations="50" tolerance="1e-10"/>
+      <worldbody>
+        <body name="tumbling_target" pos="0.94999999999999996 0.14000000000000001 0.94999999999999996" quat="0.64085638205578865 0.64085638205578865 0.29883623873011989 -0.29883623873011972">
+          <freejoint name="target_free_joint"/>
+          <inertial pos="0 0 0" mass="20.0" diaginertia="0.29999999999999999 0.29999999999999999 0.29999999999999999"/>
+          <site name="target_grasp_site" pos="1.3877787807814457e-17 -0.14999999999999991 1.1607663811881715e-17" quat="-0.70710678118654746 0.70710678118654746 -1.0432065920350283e-17 -1.2164501735253651e-17"/>
+          <geom type="box" size=".15 .15 .15" density="0" contype="0" conaffinity="0"/>
+        </body>
+        <body name="flange" pos="0.77859299447806796 0.13994339475156312 0.80617111123629093" quat="-5.4646159869387013e-07 0.42260546512220459 2.6989044887570911e-06 0.90631375408368509">
+          <freejoint name="tool_free_joint"/>
+          <inertial pos="0 0 0" mass="1.4" diaginertia="0.001 0.001 0.001"/>
+          <site name="postgrasp_tool_interface" pos="-1.0611051682110628e-06 -5.6210357028042254e-05 0.073756812005483979" quat="-6.4534392155571763e-07 -1.411945803538416e-05 2.6769828055181196e-06 0.9999999998965291"/>
+          <geom type="sphere" size=".035" density="0" contype="0" conaffinity="0"/>
+        </body>
+      </worldbody>
+      <equality><weld name="postgrasp_latch" body1="flange" body2="tumbling_target"
+        relpose="-5.2969430966720576e-06 -5.5407264920052001e-05 0.22375681194352653 9.5276374603705159e-06 -1.04402915866489e-05 0.70710867402607713 0.70710488820068784" anchor="1.3877787807814457e-17 -0.14999999999999991 1.1607663811881715e-17" solref="0.0040000000000000001 1" solimp="0.99984711154938022 0.99984711154938022 0.001 0.5 2"
+        torquescale="0.15"/></equality>
+    </mujoco>

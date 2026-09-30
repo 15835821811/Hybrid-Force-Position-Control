@@ -1,0 +1,210 @@
+{
+  "schema_version": "n201r_frozen_load_test_v1",
+  "cases": [
+    {
+      "name": "force_x_negative",
+      "wrench_grasp": [
+        -50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_x_positive",
+      "wrench_grasp": [
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_y_negative",
+      "wrench_grasp": [
+        0.0,
+        -50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_y_positive",
+      "wrench_grasp": [
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_z_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        -50.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_z_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        50.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_x_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_x_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_y_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_y_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_z_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.0
+      ]
+    },
+    {
+      "name": "moment_z_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "name": "mixed_0",
+      "wrench_grasp": [
+        17.677669529663685,
+        17.677669529663685,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "mixed_1",
+      "wrench_grasp": [
+        0,
+        0,
+        -25,
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ]
+    },
+    {
+      "name": "mixed_2",
+      "wrench_grasp": [
+        -25,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "name": "mixed_3",
+      "wrench_grasp": [
+        0,
+        25,
+        0,
+        -1,
+        0,
+        0
+      ]
+    }
+  ],
+  "profile": {
+    "ramp_s": 0.2,
+    "hold_end_s": 0.5,
+    "unload_end_s": 0.7,
+    "end_s": 0.9,
+    "shape": "quintic smoothstep; held during each RK4 step"
+  },
+  "input_reference": "current target grasp frame and point; both sides shifted to their COM",
+  "gates": {
+    "translation_m": 0.0005,
+    "rotation_deg": 0.1,
+    "linear_momentum_drift": 0.0001,
+    "angular_momentum_drift": 1e-05,
+    "equality_kkt_acceleration_residual": 1e-07,
+    "balanced_net_force_moment": 1e-10
+  },
+  "step_sensitivity_gates": {
+    "translation_error_m": 5e-05,
+    "rotation_error_deg": 0.01
+  },
+  "load_envelope": {
+    "force_n": 50,
+    "moment_nm": 2,
+    "provenance": "simulation_assumption"
+  },
+  "approximation": "two free rigid bodies, actual target and actual distal link7 inertias; excludes upstream arm flexibility",
+  "formal_initial_mobility_is_also_used_for_parameter_derivation": true,
+  "candidate_budget": 2,
+  "parameter_selection_uses_detumbling": false
+}

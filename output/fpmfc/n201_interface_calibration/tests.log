@@ -1,0 +1,37 @@
+N201R verification record
+Environment: Python 3.10.19; MuJoCo 3.3.2; NumPy 1.26.4; SciPy 1.11.2; PyYAML 6.0.1.
+
+Historical pose and initialization audit: PASS.
+Original named-equality known-wrench test: PASS at unchanged 1e-8 tolerance.
+Old saved states: inspected only; no new historical trajectory integration.
+Independent load suites: 8 x 16 x 0.9 s = 128 short fixture cases.
+Invalid input/reference suites: 4 x 16 = 64 cases, all retained and labelled.
+Valid balanced-input suites: 4 x 16 = 64 cases.
+Original and candidate 1: holding and numerical gates failed.
+Candidate 2 at 2 ms and 1 ms: holding and numerical gates passed.
+Actual wrench envelope: FAIL at both step sizes.
+Coarse peak: 1.0002697363241817; fine peak: 1.0002638761710438.
+Same-step independent fixture replay: 16 separate cases, PASS.
+Replay errors: qpos=0, qvel=0, physical wrench=0.
+Replay tolerances: qpos 1e-11, qvel 1e-10, wrench 1e-8.
+Step sensitivity: full curves, translation and physical angle passed declared gates.
+Initial state, controller damping, old source/outputs: unchanged.
+New complete robot dynamics attempts: 0.
+Z_new, D_new, D_new_fine: NOT STARTED.
+Final connection status: CONNECTION_MODEL_NOT_QUALIFIED.
+Detumbling performance: NOT EVALUATED.
+
+Executed pytest before completion documentation:
+python -m pytest -q tests/test_n201_interface_calibration.py
+4 passed in 0.31s
+
+Executed completion static verification:
+python -m v6_mujoco.postgrasp_calibration.verify --seal
+completion_audit_passed=true; known_wrench_passed=true.
+Known-wrench errors: reconstruction 6.359601310784502e-17;
+action-reaction 4.869996334716959e-15; power 0.
+dynamics_started_by_this_verifier=0; manifest_sealed=true.
+Byte identities are resealed after final documentation/attribute edits;
+this static process starts no trajectories and does not repeat fixture replays.
+
+Commit checks are recorded in the local Git history and final task response.
