@@ -1,0 +1,157 @@
+{
+  "dimensions": [
+    21,
+    19,
+    7
+  ],
+  "addresses": {
+    "target_free_joint": {
+      "qpos": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "qvel": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "base_free_joint": {
+      "qpos": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "qvel": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "joint1": {
+      "qpos": [
+        14
+      ],
+      "qvel": [
+        12
+      ]
+    },
+    "joint2": {
+      "qpos": [
+        15
+      ],
+      "qvel": [
+        13
+      ]
+    },
+    "joint3": {
+      "qpos": [
+        16
+      ],
+      "qvel": [
+        14
+      ]
+    },
+    "joint4": {
+      "qpos": [
+        17
+      ],
+      "qvel": [
+        15
+      ]
+    },
+    "joint5": {
+      "qpos": [
+        18
+      ],
+      "qvel": [
+        16
+      ]
+    },
+    "joint6": {
+      "qpos": [
+        19
+      ],
+      "qvel": [
+        17
+      ]
+    },
+    "joint7": {
+      "qpos": [
+        20
+      ],
+      "qvel": [
+        18
+      ]
+    }
+  },
+  "actuators": [
+    "torque_joint1",
+    "torque_joint2",
+    "torque_joint3",
+    "torque_joint4",
+    "torque_joint5",
+    "torque_joint6",
+    "torque_joint7"
+  ],
+  "latch_id": 0,
+  "latch_initial_active": false,
+  "site_local_frames": {
+    "flange_site": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "postgrasp_tool_interface": {
+      "position": [
+        1.0611051681579505e-06,
+        5.621035702804646e-05,
+        -0.00024318799451632776
+      ],
+      "quaternion": [
+        0.9999999998965291,
+        2.67698280551812e-06,
+        1.4119458035370283e-05,
+        6.453439214944853e-07
+      ]
+    },
+    "target_grasp_site": {
+      "position": [
+        0.0,
+        -0.15,
+        0.0
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        -0.7071067811865476,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "tool_face": "flange_position - flange_z * original terminal_reference.tool_face_recess_m; distinct from calibrated weld site",
+  "reaction_mapping": "robot base and seven named joints only; target rows zero; model.nv sized matrices"
+}

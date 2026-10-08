@@ -1,0 +1,142 @@
+{
+  "material": "unchanged original pad/plate friction solref solimp margin",
+  "initial_mask_interactions": [
+    [
+      "target_contact_plate",
+      "gripper_contact_pad"
+    ]
+  ],
+  "pad_mask_interactions": [
+    [
+      "target_contact_plate",
+      "gripper_contact_pad"
+    ]
+  ],
+  "latch_event": "disable only the two pads; enumeration proves no other physical mask interaction removed",
+  "original_40mm_pairs": [
+    "link0_to_obstacle",
+    "link1_to_obstacle",
+    "link2_to_obstacle",
+    "link3_to_obstacle",
+    "link4_to_obstacle",
+    "link5_to_obstacle",
+    "link6_to_obstacle",
+    "link7_to_obstacle",
+    "link2_to_satellite",
+    "link3_to_satellite",
+    "link4_to_satellite",
+    "link5_to_satellite",
+    "link6_to_satellite",
+    "link7_to_satellite",
+    "link0_to_link4",
+    "link0_to_link5",
+    "link0_to_link6",
+    "link0_to_link7",
+    "link1_to_link5",
+    "link1_to_link6",
+    "link1_to_link7",
+    "link2_to_link6",
+    "link2_to_link7",
+    "link3_to_link7"
+  ],
+  "new_distance_pairs": [
+    {
+      "name": "satellite_base_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "satellite_base_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link0_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link0_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link1_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link1_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link2_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link2_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link3_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link3_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link4_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link4_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link5_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link5_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link6_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link6_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link7_collision__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "link7_collision__target_contact_plate",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": 0.001
+    },
+    {
+      "name": "gripper_contact_pad__tumbling_target_geom",
+      "coverage": "signed-distance only; no collision response",
+      "minimum_m": -0.002
+    }
+  ],
+  "pad_cube_relation": "cube surface coincides with physical plate front face; only pad-cube gets original 2mm contact penetration allowance; all link/cube and link/plate pairs remain checked",
+  "numerical_penetration_tolerance_m": 1e-05,
+  "blanket_target_or_end_effector_exclusions": false
+}

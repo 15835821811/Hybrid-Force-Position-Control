@@ -1,0 +1,23 @@
+schema: n205_v1
+latch_time_s: 8.0
+end_time_s: 18.0
+evaluation_window_s: [16.0, 18.0]
+task_period_s: 0.02
+servo_period_s: 0.002
+maximum_formal_attempts: 6
+optional_zero_control: false
+scenario_order: [nominal, fine, light, heavy]
+scenarios:
+  nominal: {mass: 20.0, inertia: [0.30, 0.30, 0.30], dt: 0.002}
+  fine: {mass: 20.0, inertia: [0.30, 0.30, 0.30], dt: 0.001}
+  light: {mass: 16.0, inertia: [0.24, 0.24, 0.24], dt: 0.002}
+  heavy: {mass: 24.0, inertia: [0.36, 0.36, 0.36], dt: 0.002}
+new_collision_margin_m: 0.001
+numerical_penetration_tolerance_m: 0.00001
+pad_cube_policy: same intended face as plate; monitor distance with original 2 mm contact penetration limit, no blanket end-effector exemption
+precontact_force_threshold_n: 0.20
+target_propagation_position_tolerance_m: 1.0e-9
+target_propagation_rotation_tolerance_rad: 1.0e-8
+warmstart_at_latch: preserve_current_trajectory_solver_history
+stop_after_nominal_physical_failure: true
+reference_policy: frozen C1 analytic reference; no trajectory or parameter search
