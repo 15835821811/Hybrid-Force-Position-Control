@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "coarse": "L_nominal",
+  "fine": "L_fine",
+  "full_curve_differences": {
+    "interface_translation_m": 4.807492518017514e-10,
+    "interface_rotation_deg": 2.7505310769103527e-08,
+    "load_fraction": 1.62795536458038e-05,
+    "target_spin_deg_s": 1.2451199428831217e-05,
+    "relative_spin_deg_s": 1.26643392777126e-05
+  },
+  "other_full_curve_differences": {
+    "qpos": 9.156025493339826e-09,
+    "qvel": 6.017630813763292e-07,
+    "force_grasp_n": 0.00040487259269061937,
+    "moment_grasp_nm": 1.7164642273304054e-05,
+    "kinetic_energy_j": 1.3857566569935864e-09,
+    "linear_momentum_world_kg_m_s": 9.492904032293303e-11,
+    "angular_momentum_about_center_world_kg_m2_s": 6.999792564153784e-11
+  },
+  "gates": {
+    "interface_translation_m": 5e-05,
+    "interface_rotation_deg": 0.01,
+    "target_spin_deg_s": 0.01,
+    "relative_spin_deg_s": 0.002,
+    "load_fraction": 0.02
+  },
+  "control_period_both_s": 0.002,
+  "common_samples": 5001,
+  "verification_identity": {
+    "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+  }
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "time_s": 0.0,
+    "state": "ARMED",
+    "eq_active": false
+  },
+  {
+    "time_s": 0.0,
+    "state": "LATCH",
+    "eq_active": true
+  },
+  {
+    "time_s": 0.0,
+    "state": "GRASP_VERIFY",
+    "eq_active": true
+  },
+  {
+    "time_s": 0.05000000000000003,
+    "state": "DAMP_TRANSFER"
+  },
+  {
+    "time_s": 5.033999999999668,
+    "state": "HOLD"
+  }
+]

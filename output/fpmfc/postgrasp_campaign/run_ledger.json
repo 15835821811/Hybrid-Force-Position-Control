@@ -343,6 +343,120 @@
       "trace_sha256": "7db79f1e6511cbfd1e0257ddb88bbfbbd7ce4caf7fa5c168ae3ce56411d7bb08",
       "actual_duration_s": 0.006,
       "controller": "Z"
+    },
+    {
+      "name": "P_D",
+      "status": "COMPLETED",
+      "maximum_duration_s": 10.0,
+      "timestep_s": 0.002,
+      "started_epoch": 1791459006.5497713,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+        "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+      },
+      "finished_epoch": 1791459016.2213788,
+      "trace_sha256": "bef9ad88a712549aa817dd83bbe78073c0e357da33fdc3c0bc6703ae3a68f0d7",
+      "actual_duration_s": 10.000000000000009,
+      "controller": "D"
+    },
+    {
+      "name": "P_D_fine",
+      "status": "COMPLETED",
+      "maximum_duration_s": 10.0,
+      "timestep_s": 0.001,
+      "started_epoch": 1791459024.2919009,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+        "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+      },
+      "finished_epoch": 1791459042.201895,
+      "trace_sha256": "d5c6daecea195328bf6cda10463fccf95734aa0e83a4d07aa04c1c21a1a96bbd",
+      "actual_duration_s": 9.999999999999897,
+      "controller": "D"
+    },
+    {
+      "name": "L_nominal",
+      "status": "COMPLETED",
+      "maximum_duration_s": 10.0,
+      "timestep_s": 0.002,
+      "started_epoch": 1791459058.3934827,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+        "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+      },
+      "finished_epoch": 1791459068.1689825,
+      "trace_sha256": "c000b32fed5c0bc3e0a371140d7555d4fea0cc5ace16fbd9708f86d6c0b9a4f9",
+      "actual_duration_s": 10.000000000000009,
+      "controller": "D"
+    },
+    {
+      "name": "L_fine",
+      "status": "COMPLETED",
+      "maximum_duration_s": 10.0,
+      "timestep_s": 0.001,
+      "started_epoch": 1791459076.2527523,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+        "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+      },
+      "finished_epoch": 1791459094.5613427,
+      "trace_sha256": "752fe1ff4a86d01fc5cae143d72bd373baaf39f09facccdcfbba366d72a68048",
+      "actual_duration_s": 9.999999999999897,
+      "controller": "D"
+    },
+    {
+      "name": "V_light",
+      "status": "COMPLETED",
+      "maximum_duration_s": 10.0,
+      "timestep_s": 0.002,
+      "started_epoch": 1791459110.905415,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+        "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+      },
+      "finished_epoch": 1791459120.8441014,
+      "trace_sha256": "e976ab9ab9d4a8e177a74fbf904f125afb32c0adad6a358434a06e2c1e63cb40",
+      "actual_duration_s": 10.000000000000009,
+      "controller": "D"
+    },
+    {
+      "name": "V_heavy",
+      "status": "COMPLETED",
+      "maximum_duration_s": 10.0,
+      "timestep_s": 0.002,
+      "started_epoch": 1791459129.0399287,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+        "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+      },
+      "finished_epoch": 1791459138.8756843,
+      "trace_sha256": "5f3d5c111515727657906c2c05ec39db2f3b03ba28d6799ec9a4d56463346eb8",
+      "actual_duration_s": 10.000000000000009,
+      "controller": "D"
     }
   ],
   "replays": [
@@ -355,6 +469,76 @@
       "verification_identity": {
         "v6_mujoco/postgrasp_campaign/validation.py": "348ec792fca4acb3db52401ad5836ea3aae75ee37c1e5cf9bf58969bdf4458f5"
       }
+    },
+    {
+      "name": "P_Z",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 3,
+      "passed": true,
+      "executed_epoch": 1791459005.8346596,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+      }
+    },
+    {
+      "name": "P_D",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 5000,
+      "passed": true,
+      "executed_epoch": 1791459024.2670076,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+      }
+    },
+    {
+      "name": "P_D_fine",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 10000,
+      "passed": true,
+      "executed_epoch": 1791459058.2876449,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+      }
+    },
+    {
+      "name": "L_nominal",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 5000,
+      "passed": true,
+      "executed_epoch": 1791459076.206632,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+      }
+    },
+    {
+      "name": "L_fine",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 10000,
+      "passed": true,
+      "executed_epoch": 1791459110.8135197,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+      }
+    },
+    {
+      "name": "V_light",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 5000,
+      "passed": true,
+      "executed_epoch": 1791459128.9931102,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+      }
+    },
+    {
+      "name": "V_heavy",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 5000,
+      "passed": true,
+      "executed_epoch": 1791459147.1136074,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+      }
     }
   ],
   "unit_tests": [
@@ -364,17 +548,31 @@
       "replay_steps": 3,
       "passed": true,
       "executed_epoch": 1791458548.1197412
+    },
+    {
+      "kind": "copied observation, initial constraints, known wrench, recorded-input minimal replay, fixed performance window, capacity gate",
+      "physics_steps": 3,
+      "replay_steps": 3,
+      "passed": true,
+      "executed_epoch": 1791459005.0909035
     }
   ],
   "predictions": [],
   "skipped": {
-    "P_D": "MODEL_NUMERICS_FAILED in P_Z",
-    "P_D_fine": "MODEL_NUMERICS_FAILED in P_Z",
-    "G_nominal": "MODEL_NUMERICS_FAILED in P_Z",
-    "G_fine": "MODEL_NUMERICS_FAILED in P_Z",
-    "L_nominal": "MODEL_NUMERICS_FAILED in P_Z",
-    "L_fine": "MODEL_NUMERICS_FAILED in P_Z",
-    "V_light": "MODEL_NUMERICS_FAILED in P_Z",
-    "V_heavy": "MODEL_NUMERICS_FAILED in P_Z"
-  }
+    "G_nominal": "NOT_NEEDED: unchanged D passed",
+    "G_fine": "NOT_NEEDED: unchanged D passed"
+  },
+  "superseded_skip_decisions": [
+    {
+      "decisions": {
+        "P_D": "MODEL_NUMERICS_FAILED in P_Z",
+        "P_D_fine": "MODEL_NUMERICS_FAILED in P_Z",
+        "L_nominal": "MODEL_NUMERICS_FAILED in P_Z",
+        "L_fine": "MODEL_NUMERICS_FAILED in P_Z",
+        "V_light": "MODEL_NUMERICS_FAILED in P_Z",
+        "V_heavy": "MODEL_NUMERICS_FAILED in P_Z"
+      },
+      "resolution": "P_Z diagnostic-only error corrected by read-only proof; newly admitted conditions executed"
+    }
+  ]
 }

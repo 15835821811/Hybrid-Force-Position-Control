@@ -1,0 +1,84 @@
+{
+  "status": "COMPLETED",
+  "complete_10s": true,
+  "end_time_s": 10.000000000000009,
+  "sample_count": 5001,
+  "evaluation_window_s": [
+    8.0,
+    10.0
+  ],
+  "full_window_evaluated": true,
+  "target_last_2s_max_deg_s": 0.02016846625346124,
+  "relative_last_2s_max_deg_s": 0.004085767819467054,
+  "target_initial_deg_s": 4.999999999999999,
+  "target_final_deg_s": 0.02016846625346124,
+  "relative_final_deg_s": 0.0018261979393341193,
+  "max_load_fraction": 0.11471972897420962,
+  "max_translation_m": 2.7051589993004346e-07,
+  "max_rotation_deg": 0.00014252269420041234,
+  "max_P_drift_kg_m_s": 9.350381345996705e-11,
+  "max_H_drift_kg_m2_s": 5.264211554821246e-09,
+  "max_P_relative_drift": 0.10574247845678547,
+  "max_H_relative_drift": 2.5134758676706644e-07,
+  "minimum_clearance_m": 0.14805400599493776,
+  "initial_joint_speed_norm_rad_s": 0.5606111860634728,
+  "final_joint_speed_norm_rad_s": 2.0631236345827318e-05,
+  "relative_energy_initial_j": 0.006616993204522346,
+  "relative_energy_final_j": 1.6688666730784826e-09,
+  "kinetic_energy_change_j": -0.006616992262186893,
+  "locked_spin_initial_deg_s": 0.02076600142796073,
+  "locked_spin_final_deg_s": 0.020766047776743506,
+  "maximum_solver_residual": 1.2729817200352045e-11,
+  "all_actual_safety_passed": true,
+  "actuator_work_j": -0.005455601858144618,
+  "passive_work_j": -0.0010775226413583603,
+  "all_constraint_work_j": -1.9113746013252532e-07,
+  "latch_constraint_work_j": -1.9113746013254763e-07,
+  "energy_balance_residual_j": -8.367662522378201e-05,
+  "performance_passed": true,
+  "constraint_activity": {
+    "load": false,
+    "pose": false,
+    "joint": false,
+    "velocity": false,
+    "torque": false,
+    "clearance": false
+  },
+  "name": "V_light",
+  "controller": "D",
+  "timestep_s": 0.002,
+  "control_period_s": 0.002,
+  "elapsed_wall_s": 9.9148090002127,
+  "implementation_identity": {
+    "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+    "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+    "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+    "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+    "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+    "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+  },
+  "input_identity": {
+    "output/fpmfc/postgrasp_campaign/campaign_manifest.json": "1541dd27109ad30486d25d2e4924209b75012b13400fb511f72a8ded9f38b969",
+    "output/fpmfc/postgrasp_campaign/source_identity.json": "c1e3b684623cabba0e4c55452cb46816fa9d3515e18f7908fefdd000fa9999ed",
+    "output/fpmfc/n200_postgrasp/initial_state.json": "efd260192086455a7af327072fae26a389087bcd231cbab1193da69dee413ee8",
+    "output/fpmfc/n200_postgrasp/damping.json": "844be51f1bee6d001b610d8a5a044dbe85799c14283670db3610b8a072ff4458"
+  },
+  "output_hashes": {
+    "independent_validation/V_light/armed_observation.json": "e07eab66fa0c6cd31f223e04db1fd6ad491951c2d3846ba3db36398fbdb929a8",
+    "independent_validation/V_light/events.json": "cf089db9bb5e11993fe50d4c5b5a1a304afc6b51c758e6fcb27afd9a97bfc031",
+    "independent_validation/V_light/governor_decisions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "independent_validation/V_light/initial.json": "568c08e048c74e3f1e237ddac8b36346e6b68b872b7a48b270608771b1751567",
+    "independent_validation/V_light/trace.npz": "e976ab9ab9d4a8e177a74fbf904f125afb32c0adad6a358434a06e2c1e63cb40"
+  },
+  "legacy_full_boundary_contract": "FAILED",
+  "raw_C1": true,
+  "scenario": {
+    "target_mass_kg": 16.0,
+    "target_inertia_kg_m2": [
+      0.24,
+      0.24,
+      0.24
+    ]
+  },
+  "real_time_ready": false
+}

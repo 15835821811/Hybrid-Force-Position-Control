@@ -1,0 +1,314 @@
+{
+  "L_nominal": {
+    "raw_C1_qpos_error": 0.0,
+    "raw_C1_qvel_error": 0.0,
+    "activation_qpos_jump": 0.0,
+    "activation_qvel_jump": 0.0,
+    "capture_translation_m": 0.0,
+    "capture_rotation_deg": 3.1805546814635085e-15,
+    "capture_linear_speed_m_s": 0.0001507621403346827,
+    "capture_angular_speed_deg_s": 0.023110173038888213,
+    "target_initial_deg_s": 4.999999999999999,
+    "continuous_weld_active": true,
+    "events": [
+      {
+        "time_s": 0.0,
+        "state": "ARMED",
+        "eq_active": false
+      },
+      {
+        "time_s": 0.0,
+        "state": "LATCH",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.0,
+        "state": "GRASP_VERIFY",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.05000000000000003,
+        "state": "DAMP_TRANSFER"
+      },
+      {
+        "time_s": 5.033999999999668,
+        "state": "HOLD"
+      }
+    ],
+    "control_jump_nm": [
+      -0.2140562573075423,
+      0.17053166507142706,
+      0.024421065125089188,
+      -0.41870505538528635,
+      0.24042258745899445,
+      -0.009589993592965411,
+      -0.1594874096246931
+    ],
+    "control_at_latch_nm": [
+      -0.15514694049597935,
+      0.13082683654348326,
+      0.013159606218756366,
+      -0.4290514926990375,
+      0.2013544167890608,
+      -0.01004385123509518,
+      -0.12214112750907054
+    ],
+    "activation_energy_jump_j": 0.0,
+    "activation_P_jump_kg_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "activation_H_jump_kg_m2_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_side_impulse_first_50ms_Ns_world": [
+      0.023366236105060726,
+      0.011319556825742752,
+      0.024646415084734075
+    ],
+    "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+      -0.0069616060294077345,
+      0.007981135332178898,
+      0.0044645793015037055
+    ],
+    "constraint_work_first_50ms_j": -3.998380965595231e-07,
+    "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+  },
+  "L_fine": {
+    "raw_C1_qpos_error": 0.0,
+    "raw_C1_qvel_error": 0.0,
+    "activation_qpos_jump": 0.0,
+    "activation_qvel_jump": 0.0,
+    "capture_translation_m": 0.0,
+    "capture_rotation_deg": 3.1805546814635085e-15,
+    "capture_linear_speed_m_s": 0.0001507621403346827,
+    "capture_angular_speed_deg_s": 0.023110173038888213,
+    "target_initial_deg_s": 4.999999999999999,
+    "continuous_weld_active": true,
+    "events": [
+      {
+        "time_s": 0.0,
+        "state": "ARMED",
+        "eq_active": false
+      },
+      {
+        "time_s": 0.0,
+        "state": "LATCH",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.0,
+        "state": "GRASP_VERIFY",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.05000000000000004,
+        "state": "DAMP_TRANSFER"
+      },
+      {
+        "time_s": 5.0330000000000155,
+        "state": "HOLD"
+      }
+    ],
+    "control_jump_nm": [
+      -0.2140562573075423,
+      0.17053166507142706,
+      0.024421065125089188,
+      -0.41870505538528635,
+      0.24042258745899445,
+      -0.009589993592965411,
+      -0.1594874096246931
+    ],
+    "control_at_latch_nm": [
+      -0.15514694049597935,
+      0.13082683654348326,
+      0.013159606218756366,
+      -0.4290514926990375,
+      0.2013544167890608,
+      -0.01004385123509518,
+      -0.12214112750907054
+    ],
+    "activation_energy_jump_j": 0.0,
+    "activation_P_jump_kg_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "activation_H_jump_kg_m2_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_side_impulse_first_50ms_Ns_world": [
+      0.023838107746333683,
+      0.011574720604551775,
+      0.025048547367552323
+    ],
+    "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+      -0.007122984877995264,
+      0.008058425839007195,
+      0.004612057527605675
+    ],
+    "constraint_work_first_50ms_j": -4.0990718318864816e-07,
+    "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+  },
+  "V_light": {
+    "raw_C1_qpos_error": 0.0,
+    "raw_C1_qvel_error": 0.0,
+    "activation_qpos_jump": 0.0,
+    "activation_qvel_jump": 0.0,
+    "capture_translation_m": 0.0,
+    "capture_rotation_deg": 3.1805546814635085e-15,
+    "capture_linear_speed_m_s": 0.0001507621403346827,
+    "capture_angular_speed_deg_s": 0.023110173038888213,
+    "target_initial_deg_s": 4.999999999999999,
+    "continuous_weld_active": true,
+    "events": [
+      {
+        "time_s": 0.0,
+        "state": "ARMED",
+        "eq_active": false
+      },
+      {
+        "time_s": 0.0,
+        "state": "LATCH",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.0,
+        "state": "GRASP_VERIFY",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.05000000000000003,
+        "state": "DAMP_TRANSFER"
+      },
+      {
+        "time_s": 4.723999999999702,
+        "state": "HOLD"
+      }
+    ],
+    "control_jump_nm": [
+      -0.2140562573075423,
+      0.17053166507142706,
+      0.024421065125089188,
+      -0.41870505538528635,
+      0.24042258745899445,
+      -0.009589993592965411,
+      -0.1594874096246931
+    ],
+    "control_at_latch_nm": [
+      -0.15514694049597935,
+      0.13082683654348326,
+      0.013159606218756366,
+      -0.4290514926990375,
+      0.2013544167890608,
+      -0.01004385123509518,
+      -0.12214112750907054
+    ],
+    "activation_energy_jump_j": 0.0,
+    "activation_P_jump_kg_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "activation_H_jump_kg_m2_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_side_impulse_first_50ms_Ns_world": [
+      0.021732528658417974,
+      0.01029367905950165,
+      0.020369761006046525
+    ],
+    "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+      -0.006866878817894248,
+      0.008894432125037237,
+      0.004234543439232447
+    ],
+    "constraint_work_first_50ms_j": -3.067179027901682e-07,
+    "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+  },
+  "V_heavy": {
+    "raw_C1_qpos_error": 0.0,
+    "raw_C1_qvel_error": 0.0,
+    "activation_qpos_jump": 0.0,
+    "activation_qvel_jump": 0.0,
+    "capture_translation_m": 0.0,
+    "capture_rotation_deg": 3.1805546814635085e-15,
+    "capture_linear_speed_m_s": 0.0001507621403346827,
+    "capture_angular_speed_deg_s": 0.023110173038888213,
+    "target_initial_deg_s": 4.999999999999999,
+    "continuous_weld_active": true,
+    "events": [
+      {
+        "time_s": 0.0,
+        "state": "ARMED",
+        "eq_active": false
+      },
+      {
+        "time_s": 0.0,
+        "state": "LATCH",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.0,
+        "state": "GRASP_VERIFY",
+        "eq_active": true
+      },
+      {
+        "time_s": 0.05000000000000003,
+        "state": "DAMP_TRANSFER"
+      },
+      {
+        "time_s": 5.541999999999612,
+        "state": "HOLD"
+      }
+    ],
+    "control_jump_nm": [
+      -0.2140562573075423,
+      0.17053166507142706,
+      0.024421065125089188,
+      -0.41870505538528635,
+      0.24042258745899445,
+      -0.009589993592965411,
+      -0.1594874096246931
+    ],
+    "control_at_latch_nm": [
+      -0.15514694049597935,
+      0.13082683654348326,
+      0.013159606218756366,
+      -0.4290514926990375,
+      0.2013544167890608,
+      -0.01004385123509518,
+      -0.12214112750907054
+    ],
+    "activation_energy_jump_j": 0.0,
+    "activation_P_jump_kg_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "activation_H_jump_kg_m2_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "target_side_impulse_first_50ms_Ns_world": [
+      0.024502398448402737,
+      0.012252525624808677,
+      0.02833839434073713
+    ],
+    "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+      -0.0070314739397088636,
+      0.007062925101906029,
+      0.004670134352434615
+    ],
+    "constraint_work_first_50ms_j": -4.964259137914992e-07,
+    "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+  }
+}
