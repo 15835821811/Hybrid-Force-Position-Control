@@ -1,0 +1,58 @@
+{
+  "formal_runs": [
+    {
+      "scenario": "nominal",
+      "started_epoch": 1791462589.951697,
+      "implementation_identity": {
+        "v6_mujoco/end_to_end_capture/__init__.py": "265bca6da41045b03d8671d24647312abb2ebfb8303a891eb5976afddac35946",
+        "v6_mujoco/end_to_end_capture/__main__.py": "85b144c1ceff285d7332c9ca4b65098b158319be8092001310c990d7a50f5191",
+        "v6_mujoco/end_to_end_capture/adapter.py": "4683ca20eeaa776fd612a90682e227f01d2f8a022c4f0ebab817a566e072bdd2",
+        "v6_mujoco/end_to_end_capture/approach.py": "52d8903e180c3de9f3f24f12ab95502e1f1921819b14bbb4737580cdd58c6688",
+        "v6_mujoco/end_to_end_capture/common.py": "eefed8d7af2557683b056a023db2a1ae77ddd52124fa250976c79ac0883453b0",
+        "v6_mujoco/end_to_end_capture/observer.py": "912f6aa38c4b92aa68cb7adc779ac4acbca31f0763b61986b3dfd635bee26ce0",
+        "v6_mujoco/end_to_end_capture/runner.py": "05afe40d85dee2531bdac640aae05b5ef6b90e49f5d9271d257274b8c7b76704",
+        "v6_mujoco/end_to_end_capture/selftest.py": "2d07cc465200f1873a2131c5a6d916b4231e1ccef2f9ddd4d7530695055bbba0",
+        "v6_mujoco/end_to_end_capture/validator.py": "ca5462eb263c1557b70f27a23c94b3467589cc72552645728452ce68d8d24492"
+      },
+      "status": "UNINTENDED_CONTACT_OR_COLLISION",
+      "end_time_s": 7.361999999999411,
+      "trace_sha256": "b95dc4caf00f22a417ebe209aca748c717f7691e5db5a36aebdbff1cafabd012",
+      "finished_epoch": 1791462603.206835
+    }
+  ],
+  "replays": [
+    {
+      "scenario": "nominal",
+      "passed": true,
+      "steps": 3681,
+      "executed_epoch": 1791462613.9769132,
+      "verification_identity": {
+        "v6_mujoco/end_to_end_capture/validator.py": "ca5462eb263c1557b70f27a23c94b3467589cc72552645728452ce68d8d24492"
+      }
+    }
+  ],
+  "unit_tests": [
+    {
+      "status": "PASSED",
+      "started_epoch": 1791462537.2525926,
+      "scope": "four 20ms target propagation probes, two 6ms approach tick/replay probes, static switch fixture; no formal trajectory",
+      "physical_steps": 69,
+      "replay_steps": 9,
+      "finished_epoch": 1791462537.49196
+    },
+    {
+      "status": "PASSED",
+      "started_epoch": 1791462589.2355292,
+      "scope": "four 20ms target propagation probes, two 6ms approach tick/replay probes, static switch fixture; no formal trajectory",
+      "physical_steps": 69,
+      "replay_steps": 9,
+      "finished_epoch": 1791462589.4336324
+    }
+  ],
+  "skipped": {
+    "fine": "upstream scenario did not pass; no automatic retry or parameter change",
+    "light": "upstream scenario did not pass; no automatic retry or parameter change",
+    "heavy": "upstream scenario did not pass; no automatic retry or parameter change"
+  },
+  "implementation_failures": []
+}

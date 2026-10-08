@@ -1,0 +1,12 @@
+{
+  "v6_mujoco/end_to_end_capture/observer.py": {
+    "archive": "output/fpmfc/n205_end_to_end/unit_source_archive/v1/observer.py",
+    "sha256": "be0da7103c53daab0227102304a9861a6a0fd35d4896e3d867cbad7b39c747fd",
+    "method": "reconstructed exact pre-formal unit source bytes; hash matches v1 unit identity"
+  },
+  "v6_mujoco/end_to_end_capture/runner.py": {
+    "archive": "output/fpmfc/n205_end_to_end/unit_source_archive/v1/runner.py",
+    "sha256": "83b3b941ade551fed0fa364b0ffc28f44423d547a45f61be0ff3898566f33393",
+    "method": "reconstructed exact pre-formal unit source bytes; hash matches v1 unit identity"
+  }
+}

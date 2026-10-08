@@ -1,0 +1,13 @@
+{
+  "status": "UNINTENDED_CONTACT_OR_COLLISION",
+  "reason": "link7_collision__tumbling_target_geom",
+  "end_time_s": 7.361999999999411,
+  "performance": "NOT_EVALUATED",
+  "elapsed_wall_s": 13.236882900353521,
+  "control_latency_s": {
+    "count": 3682,
+    "mean": 0.0005639937038784812,
+    "p99": 0.0025265270797535785,
+    "max": 0.0029231999069452286
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scenario": {
+    "mass": 20.0,
+    "inertia": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "dt": 0.002
+  },
+  "manifest_sha256": "60e718d8e1c182f5959a6b81956dbd58026c2c87efb47a413f7cb3df7acd4d2d",
+  "runtime_identity": {
+    "v6_mujoco/end_to_end_capture/__init__.py": "265bca6da41045b03d8671d24647312abb2ebfb8303a891eb5976afddac35946",
+    "v6_mujoco/end_to_end_capture/__main__.py": "85b144c1ceff285d7332c9ca4b65098b158319be8092001310c990d7a50f5191",
+    "v6_mujoco/end_to_end_capture/adapter.py": "4683ca20eeaa776fd612a90682e227f01d2f8a022c4f0ebab817a566e072bdd2",
+    "v6_mujoco/end_to_end_capture/approach.py": "52d8903e180c3de9f3f24f12ab95502e1f1921819b14bbb4737580cdd58c6688",
+    "v6_mujoco/end_to_end_capture/common.py": "eefed8d7af2557683b056a023db2a1ae77ddd52124fa250976c79ac0883453b0",
+    "v6_mujoco/end_to_end_capture/observer.py": "912f6aa38c4b92aa68cb7adc779ac4acbca31f0763b61986b3dfd635bee26ce0",
+    "v6_mujoco/end_to_end_capture/runner.py": "05afe40d85dee2531bdac640aae05b5ef6b90e49f5d9271d257274b8c7b76704",
+    "v6_mujoco/end_to_end_capture/selftest.py": "2d07cc465200f1873a2131c5a6d916b4231e1ccef2f9ddd4d7530695055bbba0",
+    "v6_mujoco/end_to_end_capture/validator.py": "ca5462eb263c1557b70f27a23c94b3467589cc72552645728452ce68d8d24492"
+  }
+}

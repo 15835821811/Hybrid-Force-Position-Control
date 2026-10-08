@@ -1,0 +1,64 @@
+{
+  "status": "UNINTENDED_CONTACT_OR_COLLISION",
+  "end_time_s": 7.361999999999411,
+  "samples": 3682,
+  "continuous_18s_completed": false,
+  "full_window_evaluated": false,
+  "evaluation_window_s": [
+    16,
+    18
+  ],
+  "target_window_max_deg_s": null,
+  "relative_window_max_deg_s": null,
+  "performance": "NOT_EVALUATED",
+  "end_to_end_passed": false,
+  "max_rho": 0.0,
+  "postgrasp_max_translation_m": null,
+  "postgrasp_max_rotation_deg": null,
+  "max_P_drift": 8.842967373863342e-10,
+  "max_H_drift": 4.8287190211045306e-11,
+  "first_geometric_contact_s": null,
+  "first_nonzero_contact_force_s": null,
+  "first_threshold_contact_s": null,
+  "peak_contact_force_n": 0.0,
+  "max_penetration_m": 0.0,
+  "phase_integrated_work_j": {
+    "approach": {
+      "actuator_power_w": 0.9004135560542821,
+      "passive_power_w": -0.891388987230345,
+      "all_constraint_power_w": 0.0,
+      "latch_constraint_power_w": 0.0
+    },
+    "postgrasp": {
+      "actuator_power_w": 0.0,
+      "passive_power_w": 0.0,
+      "all_constraint_power_w": 0.0,
+      "latch_constraint_power_w": 0.0
+    }
+  },
+  "reason": "link7_collision__tumbling_target_geom",
+  "scenario": "nominal",
+  "dt": 0.002,
+  "elapsed_wall_s": 13.236882900353521,
+  "implementation_identity": {
+    "v6_mujoco/end_to_end_capture/__init__.py": "265bca6da41045b03d8671d24647312abb2ebfb8303a891eb5976afddac35946",
+    "v6_mujoco/end_to_end_capture/__main__.py": "85b144c1ceff285d7332c9ca4b65098b158319be8092001310c990d7a50f5191",
+    "v6_mujoco/end_to_end_capture/adapter.py": "4683ca20eeaa776fd612a90682e227f01d2f8a022c4f0ebab817a566e072bdd2",
+    "v6_mujoco/end_to_end_capture/approach.py": "52d8903e180c3de9f3f24f12ab95502e1f1921819b14bbb4737580cdd58c6688",
+    "v6_mujoco/end_to_end_capture/common.py": "eefed8d7af2557683b056a023db2a1ae77ddd52124fa250976c79ac0883453b0",
+    "v6_mujoco/end_to_end_capture/observer.py": "912f6aa38c4b92aa68cb7adc779ac4acbca31f0763b61986b3dfd635bee26ce0",
+    "v6_mujoco/end_to_end_capture/runner.py": "05afe40d85dee2531bdac640aae05b5ef6b90e49f5d9271d257274b8c7b76704",
+    "v6_mujoco/end_to_end_capture/selftest.py": "2d07cc465200f1873a2131c5a6d916b4231e1ccef2f9ddd4d7530695055bbba0",
+    "v6_mujoco/end_to_end_capture/validator.py": "ca5462eb263c1557b70f27a23c94b3467589cc72552645728452ce68d8d24492"
+  },
+  "trace_sha256": "b95dc4caf00f22a417ebe209aca748c717f7691e5db5a36aebdbff1cafabd012",
+  "single_continuous_plant": true,
+  "site_and_inertia_unchanged": true,
+  "no_terminal_state_injection": true,
+  "control_latency_s": {
+    "count": 3682,
+    "mean": 0.0005639937038784812,
+    "p99": 0.0025265270797535785,
+    "max": 0.0029231999069452286
+  }
+}

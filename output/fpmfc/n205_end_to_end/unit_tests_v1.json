@@ -1,0 +1,351 @@
+{
+  "passed": true,
+  "physical_steps": 69,
+  "recorded_input_replay_steps": 9,
+  "findings": {
+    "target_free_propagation_and_changed_velocity_response": [
+      {
+        "scenario": "nominal",
+        "spin_scale": 1.0,
+        "duration_s": 0.020000000000000004,
+        "angle_error_rad": 6.353454279316118e-17,
+        "actual_rotation": [
+          [
+            0.0017453283658984686,
+            0.9999984769132885,
+            2.220446049250313e-16
+          ],
+          [
+            0.0,
+            2.220446049250313e-16,
+            -1.0000000000000009
+          ],
+          [
+            -0.9999984769132885,
+            0.0017453283658984686,
+            0.0
+          ]
+        ]
+      },
+      {
+        "scenario": "nominal",
+        "spin_scale": 1.2,
+        "duration_s": 0.020000000000000004,
+        "angle_error_rad": 5.381980086520689e-16,
+        "actual_rotation": [
+          [
+            0.002094393571219072,
+            0.9999978067553794,
+            2.220446049250313e-16
+          ],
+          [
+            0.0,
+            2.220446049250313e-16,
+            -1.0000000000000002
+          ],
+          [
+            -0.9999978067553794,
+            0.0020943935712190442,
+            0.0
+          ]
+        ]
+      },
+      {
+        "scenario": "fine",
+        "spin_scale": 1.0,
+        "duration_s": 0.02000000000000001,
+        "angle_error_rad": 4.915773031952463e-16,
+        "actual_rotation": [
+          [
+            0.0017453283658990237,
+            0.9999984769132884,
+            2.220446049250313e-16
+          ],
+          [
+            0.0,
+            2.220446049250313e-16,
+            -1.0000000000000007
+          ],
+          [
+            -0.9999984769132884,
+            0.0017453283658990237,
+            0.0
+          ]
+        ]
+      },
+      {
+        "scenario": "fine",
+        "spin_scale": 1.2,
+        "duration_s": 0.02000000000000001,
+        "angle_error_rad": 2.324530620789253e-16,
+        "actual_rotation": [
+          [
+            0.0020943935712193495,
+            0.9999978067553791,
+            2.220446049250313e-16
+          ],
+          [
+            0.0,
+            2.220446049250313e-16,
+            -0.9999999999999998
+          ],
+          [
+            -0.9999978067553791,
+            0.0020943935712193773,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "isolated_control_observation_schedules_and_replay": [
+      {
+        "scenario": "nominal",
+        "control_updates": 4,
+        "task_updates": 1,
+        "replay": {
+          "passed": true,
+          "max_errors": {
+            "qpos": 0.0,
+            "qvel": 0.0,
+            "force_grasp_n": 0.0,
+            "moment_grasp_nm": 0.0,
+            "load_fraction": 0.0,
+            "interface_translation_error_m": 0.0,
+            "interface_rotation_error_deg": 0.0,
+            "linear_momentum_world_kg_m_s": 0.0,
+            "angular_momentum_about_center_world_kg_m2_s": 0.0,
+            "contact_peak_force_n": 0.0,
+            "extra_pair_distances_m": 0.0
+          },
+          "strict_limits": {
+            "qpos": 1e-11,
+            "qvel": 1e-10,
+            "force_grasp_n": 1e-08,
+            "moment_grasp_nm": 1e-08,
+            "load_fraction": 1e-08,
+            "interface_translation_error_m": 1e-10,
+            "interface_rotation_error_deg": 1e-08,
+            "linear_momentum_world_kg_m_s": 1e-10,
+            "angular_momentum_about_center_world_kg_m2_s": 1e-10,
+            "contact_peak_force_n": 1e-08,
+            "extra_pair_distances_m": 1e-10
+          },
+          "first_safety_failure": null,
+          "events_replayed_s": [],
+          "steps": 3,
+          "controller_update_calls": 0,
+          "state_restore_count": 1,
+          "method": "initial t=0 integration state once; archived controls; only named equality and pad mask event; mj_step thereafter"
+        },
+        "short_performance": "NOT_EVALUATED"
+      },
+      {
+        "scenario": "fine",
+        "control_updates": 4,
+        "task_updates": 1,
+        "replay": {
+          "passed": true,
+          "max_errors": {
+            "qpos": 0.0,
+            "qvel": 0.0,
+            "force_grasp_n": 0.0,
+            "moment_grasp_nm": 0.0,
+            "load_fraction": 0.0,
+            "interface_translation_error_m": 0.0,
+            "interface_rotation_error_deg": 0.0,
+            "linear_momentum_world_kg_m_s": 0.0,
+            "angular_momentum_about_center_world_kg_m2_s": 0.0,
+            "contact_peak_force_n": 0.0,
+            "extra_pair_distances_m": 0.0
+          },
+          "strict_limits": {
+            "qpos": 1e-11,
+            "qvel": 1e-10,
+            "force_grasp_n": 1e-08,
+            "moment_grasp_nm": 1e-08,
+            "load_fraction": 1e-08,
+            "interface_translation_error_m": 1e-10,
+            "interface_rotation_error_deg": 1e-08,
+            "linear_momentum_world_kg_m_s": 1e-10,
+            "angular_momentum_about_center_world_kg_m2_s": 1e-10,
+            "contact_peak_force_n": 1e-08,
+            "extra_pair_distances_m": 1e-10
+          },
+          "first_safety_failure": null,
+          "events_replayed_s": [],
+          "steps": 6,
+          "controller_update_calls": 0,
+          "state_restore_count": 1,
+          "method": "initial t=0 integration state once; archived controls; only named equality and pad mask event; mj_step thereafter"
+        },
+        "short_performance": "NOT_EVALUATED"
+      }
+    ],
+    "static_switch_fixture": {
+      "origin": "existing raw C1 numerical fixture, isolated unit only, zero dynamics; no end-to-end evidence",
+      "qpos_jump": 0.0,
+      "qvel_jump": 0.0,
+      "frames_inertia_unchanged": true,
+      "premature_or_failed_capture_rejected": true
+    },
+    "C1_reference_exact_archived_samples": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "all_density_models_initialized_at_home_same_velocities": true,
+    "pair_contract": {
+      "material": "unchanged original pad/plate friction solref solimp margin",
+      "initial_mask_interactions": [
+        [
+          "target_contact_plate",
+          "gripper_contact_pad"
+        ]
+      ],
+      "pad_mask_interactions": [
+        [
+          "target_contact_plate",
+          "gripper_contact_pad"
+        ]
+      ],
+      "latch_event": "disable only the two pads; enumeration proves no other physical mask interaction removed",
+      "original_40mm_pairs": [
+        "link0_to_obstacle",
+        "link1_to_obstacle",
+        "link2_to_obstacle",
+        "link3_to_obstacle",
+        "link4_to_obstacle",
+        "link5_to_obstacle",
+        "link6_to_obstacle",
+        "link7_to_obstacle",
+        "link2_to_satellite",
+        "link3_to_satellite",
+        "link4_to_satellite",
+        "link5_to_satellite",
+        "link6_to_satellite",
+        "link7_to_satellite",
+        "link0_to_link4",
+        "link0_to_link5",
+        "link0_to_link6",
+        "link0_to_link7",
+        "link1_to_link5",
+        "link1_to_link6",
+        "link1_to_link7",
+        "link2_to_link6",
+        "link2_to_link7",
+        "link3_to_link7"
+      ],
+      "new_distance_pairs": [
+        {
+          "name": "satellite_base_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "satellite_base_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link0_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link0_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link1_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link1_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link2_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link2_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link3_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link3_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link4_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link4_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link5_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link5_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link6_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link6_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link7_collision__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "link7_collision__target_contact_plate",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": 0.001
+        },
+        {
+          "name": "gripper_contact_pad__tumbling_target_geom",
+          "coverage": "signed-distance only; no collision response",
+          "minimum_m": -0.002
+        }
+      ],
+      "pad_cube_relation": "cube surface coincides with physical plate front face; only pad-cube gets original 2mm contact penetration allowance; all link/cube and link/plate pairs remain checked",
+      "numerical_penetration_tolerance_m": 1e-05,
+      "blanket_target_or_end_effector_exclusions": false
+    }
+  },
+  "implementation_identity": {
+    "v6_mujoco/end_to_end_capture/__init__.py": "265bca6da41045b03d8671d24647312abb2ebfb8303a891eb5976afddac35946",
+    "v6_mujoco/end_to_end_capture/__main__.py": "85b144c1ceff285d7332c9ca4b65098b158319be8092001310c990d7a50f5191",
+    "v6_mujoco/end_to_end_capture/adapter.py": "4683ca20eeaa776fd612a90682e227f01d2f8a022c4f0ebab817a566e072bdd2",
+    "v6_mujoco/end_to_end_capture/approach.py": "52d8903e180c3de9f3f24f12ab95502e1f1921819b14bbb4737580cdd58c6688",
+    "v6_mujoco/end_to_end_capture/common.py": "eefed8d7af2557683b056a023db2a1ae77ddd52124fa250976c79ac0883453b0",
+    "v6_mujoco/end_to_end_capture/observer.py": "be0da7103c53daab0227102304a9861a6a0fd35d4896e3d867cbad7b39c747fd",
+    "v6_mujoco/end_to_end_capture/runner.py": "83b3b941ade551fed0fa364b0ffc28f44423d547a45f61be0ff3898566f33393",
+    "v6_mujoco/end_to_end_capture/selftest.py": "2d07cc465200f1873a2131c5a6d916b4231e1ccef2f9ddd4d7530695055bbba0",
+    "v6_mujoco/end_to_end_capture/validator.py": "ca5462eb263c1557b70f27a23c94b3467589cc72552645728452ce68d8d24492"
+  }
+}

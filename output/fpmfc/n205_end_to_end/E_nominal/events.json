@@ -1,0 +1,8 @@
+[
+  {
+    "time_s": 7.361999999999411,
+    "state": "FAILED",
+    "reason": "UNINTENDED_CONTACT_OR_COLLISION",
+    "detail": "link7_collision__tumbling_target_geom"
+  }
+]
