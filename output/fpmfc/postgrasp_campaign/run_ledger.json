@@ -324,9 +324,57 @@
       "trace_sha256": "0258b80a4a971e6655f6bad8b837fc8700ccdac60e178be3a911824d869c069c"
     }
   ],
-  "formal_runs": [],
-  "replays": [],
-  "unit_tests": [],
+  "formal_runs": [
+    {
+      "name": "P_Z",
+      "status": "MODEL_NUMERICS_FAILED",
+      "maximum_duration_s": 10.0,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458673.741323,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/engine.py": "b4abb5536128094b60b6c2d872d26c70dca268da0bebd83c08b3f0352e2385c5",
+        "v6_mujoco/postgrasp_campaign/validation.py": "348ec792fca4acb3db52401ad5836ea3aae75ee37c1e5cf9bf58969bdf4458f5",
+        "v6_mujoco/postgrasp_campaign/selftest.py": "31c169d8ba6df1e8f4c7f5d9c290b1ff3c4fe12a26f92560872bf6273517971c"
+      },
+      "finished_epoch": 1791458673.7749913,
+      "trace_sha256": "7db79f1e6511cbfd1e0257ddb88bbfbbd7ce4caf7fa5c168ae3ce56411d7bb08",
+      "actual_duration_s": 0.006,
+      "controller": "Z"
+    }
+  ],
+  "replays": [
+    {
+      "name": "P_Z",
+      "kind": "same_step_recorded_input",
+      "physics_steps": 3,
+      "passed": true,
+      "executed_epoch": 1791458673.8048434,
+      "verification_identity": {
+        "v6_mujoco/postgrasp_campaign/validation.py": "348ec792fca4acb3db52401ad5836ea3aae75ee37c1e5cf9bf58969bdf4458f5"
+      }
+    }
+  ],
+  "unit_tests": [
+    {
+      "kind": "copied observation, initial constraints, known wrench, recorded-input minimal replay, fixed performance window, capacity gate",
+      "physics_steps": 3,
+      "replay_steps": 3,
+      "passed": true,
+      "executed_epoch": 1791458548.1197412
+    }
+  ],
   "predictions": [],
-  "skipped": {}
+  "skipped": {
+    "P_D": "MODEL_NUMERICS_FAILED in P_Z",
+    "P_D_fine": "MODEL_NUMERICS_FAILED in P_Z",
+    "G_nominal": "MODEL_NUMERICS_FAILED in P_Z",
+    "G_fine": "MODEL_NUMERICS_FAILED in P_Z",
+    "L_nominal": "MODEL_NUMERICS_FAILED in P_Z",
+    "L_fine": "MODEL_NUMERICS_FAILED in P_Z",
+    "V_light": "MODEL_NUMERICS_FAILED in P_Z",
+    "V_heavy": "MODEL_NUMERICS_FAILED in P_Z"
+  }
 }

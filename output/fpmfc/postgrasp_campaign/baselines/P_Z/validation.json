@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "maximum_absolute_differences": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "force_grasp_n": 0.0,
+    "moment_grasp_nm": 0.0,
+    "load_fraction": 0.0,
+    "interface_translation_error_m": 0.0,
+    "interface_rotation_error_deg": 0.0,
+    "linear_momentum_world_kg_m_s": 0.0,
+    "angular_momentum_about_center_world_kg_m2_s": 0.0
+  },
+  "strict_tolerances": {
+    "qpos": 1e-11,
+    "qvel": 1e-10,
+    "force_grasp_n": 1e-08,
+    "moment_grasp_nm": 1e-08,
+    "load_fraction": 1e-08,
+    "interface_translation_error_m": 1e-10,
+    "interface_rotation_error_deg": 1e-08,
+    "linear_momentum_world_kg_m_s": 1e-10,
+    "angular_momentum_about_center_world_kg_m2_s": 1e-10
+  },
+  "first_reconstructed_safety_failure": {
+    "index": 3,
+    "time_s": 0.006,
+    "reason": "MODEL_NUMERICS_FAILED"
+  },
+  "physics_steps": 3,
+  "method": "recorded actuator ctrl and equality/contact-mask switch events; no controller/governor invocation",
+  "metrics_match": true,
+  "metric_differences": {},
+  "no_unstopped_safety_failure": true,
+  "name": "P_Z",
+  "trace_sha256": "7db79f1e6511cbfd1e0257ddb88bbfbbd7ce4caf7fa5c168ae3ce56411d7bb08",
+  "verification_identity": {
+    "v6_mujoco/postgrasp_campaign/validation.py": "348ec792fca4acb3db52401ad5836ea3aae75ee37c1e5cf9bf58969bdf4458f5"
+  },
+  "execution_identity": {
+    "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+    "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+    "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+    "v6_mujoco/postgrasp_campaign/engine.py": "b4abb5536128094b60b6c2d872d26c70dca268da0bebd83c08b3f0352e2385c5",
+    "v6_mujoco/postgrasp_campaign/validation.py": "348ec792fca4acb3db52401ad5836ea3aae75ee37c1e5cf9bf58969bdf4458f5",
+    "v6_mujoco/postgrasp_campaign/selftest.py": "31c169d8ba6df1e8f4c7f5d9c290b1ff3c4fe12a26f92560872bf6273517971c"
+  }
+}

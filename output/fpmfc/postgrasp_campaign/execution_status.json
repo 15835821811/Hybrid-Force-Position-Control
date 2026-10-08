@@ -1,0 +1,14 @@
+{
+  "reason": "MODEL_NUMERICS_FAILED in P_Z",
+  "skipped": {
+    "P_D": "MODEL_NUMERICS_FAILED in P_Z",
+    "P_D_fine": "MODEL_NUMERICS_FAILED in P_Z",
+    "G_nominal": "MODEL_NUMERICS_FAILED in P_Z",
+    "G_fine": "MODEL_NUMERICS_FAILED in P_Z",
+    "L_nominal": "MODEL_NUMERICS_FAILED in P_Z",
+    "L_fine": "MODEL_NUMERICS_FAILED in P_Z",
+    "V_light": "MODEL_NUMERICS_FAILED in P_Z",
+    "V_heavy": "MODEL_NUMERICS_FAILED in P_Z"
+  },
+  "formal_run_count": 1
+}
