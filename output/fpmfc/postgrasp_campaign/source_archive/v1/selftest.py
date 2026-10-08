@@ -65,9 +65,8 @@ def run():
         "verification_identity": identity([__file__, PROJECT_ROOT / "v6_mujoco/postgrasp_campaign/engine.py", PROJECT_ROOT / "v6_mujoco/postgrasp_campaign/validation.py"])}
     # The initial velocity residual uses the frozen state, not the unit endpoint.
     report["initial_constraint_velocity_norm"] = float(np.linalg.norm(J@np.asarray(read(OLD/"initial_state.json")["qvel_after"])))
-    suffix = "_v2" if (ROOT / "full_model_preflight/result.json").exists() else ""
-    save_npz(ROOT / f"full_model_preflight/unit_trace{suffix}.npz",arrays)
-    save(ROOT / f"full_model_preflight/result{suffix}.json",report)
+    save_npz(ROOT / "full_model_preflight/unit_trace.npz",arrays)
+    save(ROOT / "full_model_preflight/result.json",report)
     ledger = read(ROOT / "run_ledger.json")
     ledger["unit_tests"].append({"kind": "copied observation, initial constraints, known wrench, recorded-input minimal replay, fixed performance window, capacity gate", "physics_steps":3,"replay_steps":3,"passed":True,"executed_epoch":time.time()})
     save(ROOT / "run_ledger.json",ledger)

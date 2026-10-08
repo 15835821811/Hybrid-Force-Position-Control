@@ -1,0 +1,14 @@
+{
+  "controller": "D",
+  "coarse_evidence": "P_D",
+  "fine_evidence": "P_D_fine",
+  "damping_sha256": "844be51f1bee6d001b610d8a5a044dbe85799c14283670db3610b8a072ff4458",
+  "parameter_adaptation_after_selection": false,
+  "evidence_identity": {
+    "output/fpmfc/postgrasp_campaign/baselines/P_D/result.json": "ca2d03076724f013f2d16da47095f42f5694f5f6f8067074f82347e4f26a2162",
+    "output/fpmfc/postgrasp_campaign/baselines/P_D_fine/result.json": "7e6ff8f4c325fcd9693fc9b5f95ee91258b4b130ca033e67126435a32a67881c",
+    "output/fpmfc/postgrasp_campaign/baselines/P_D/validation.json": "8673410b84d46b14586574435cb46337c3e37c30cea8a2fe4cc91bdb65efb31c",
+    "output/fpmfc/postgrasp_campaign/baselines/P_D_fine/validation.json": "d470227778c68fb4c2bcc4fecca858beff502e450bc6562880d22deb3c214a90",
+    "output/fpmfc/postgrasp_campaign/baselines/P_D_fine/step_sensitivity.json": "054c56c5ddffbfc557d35509e1a700190c37e54a9904be594de2da037e58450c"
+  }
+}

@@ -63,10 +63,7 @@ def validate_run(name):
     ledger = read(ROOT / "run_ledger.json")
     ledger["replays"].append({"name": name, "kind": "same_step_recorded_input", "physics_steps": replay["physics_steps"], "passed": replay["passed"], "executed_epoch": time.time(), "verification_identity": replay["verification_identity"]})
     save(ROOT / "run_ledger.json", ledger)
-    validation_path = output / "validation.json"
-    if validation_path.exists() and read(validation_path)["verification_identity"] != replay["verification_identity"]:
-        validation_path = output / "validation_v2.json"
-    save(validation_path, replay)
+    save(output / "validation.json", replay)
     if not replay["passed"]:
         raise RuntimeError(f"VALIDATION_FAILED: {name}")
     print(json.dumps({"replay": name, "passed": True, "max_qpos_error": replay["maximum_absolute_differences"]["qpos"]}), flush=True)

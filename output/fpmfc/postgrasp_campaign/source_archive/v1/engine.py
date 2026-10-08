@@ -112,11 +112,6 @@ def observe(model, real, reference, pairs, H0=None):
     clearance, _ = minimum_signed_distance(model, observed, pairs)
     ids = interface_geoms(model)
     site_ids = [object_id(model, mujoco.mjtObj.mjOBJ_SITE, n) for n in ("postgrasp_tool_interface", "target_grasp_site")]
-    net_wrench = np.asarray(face["action_reaction_residual_world"])
-    # At separated soft-weld sites the pair of translational forces has the
-    # geometric couple (p_target-p_tool) x F_target about one common point.
-    # This is recorded, not removed from actual P/H or actual interface load.
-    geometric_couple = np.cross(observed.site_xpos[site_ids[1]]-observed.site_xpos[site_ids[0]], face["force_target_world_n"]) if active else np.zeros(3)
     solver = solver_diagnostics(model, observed) if active else {"equality_kkt_max_absolute": 0.}
     I = np.asarray(physical["locked_inertia_world_kg_m2"])
     omega_locked = np.linalg.solve(I, physical["angular_momentum_about_center_world_kg_m2_s"] if H0 is None else H0)
@@ -140,10 +135,6 @@ def observe(model, real, reference, pairs, H0=None):
         "minimum_noncontact_clearance_m": float(clearance), "solver_residual": solver["equality_kkt_max_absolute"],
         "wrench_reconstruction_error": face["generalized_reconstruction_error"],
         "action_reaction_error": float(np.linalg.norm(face["action_reaction_residual_world"])),
-        "net_interface_force_world_n": net_wrench[:3], "net_interface_moment_world_nm": net_wrench[3:],
-        "soft_site_geometric_couple_world_nm": geometric_couple,
-        "action_reaction_force_error_n": float(np.linalg.norm(net_wrench[:3])),
-        "action_reaction_moment_geometry_error_nm": float(np.linalg.norm(net_wrench[3:]-geometric_couple)),
         "actuator_force_nm": observed.actuator_force.copy(), "qfrc_applied": real.qfrc_applied.copy(), "xfrc_applied": real.xfrc_applied.copy(),
         "eq_active": real.eq_active.copy(), "interface_geom_masks": np.array([model.geom_contype[ids], model.geom_conaffinity[ids]]),
         "solver_warning_count": np.array([w.number for w in observed.warning])}
@@ -154,7 +145,7 @@ def safety(row, initial, model, manifest, prediction=False):
     if not all(np.all(np.isfinite(v)) for v in row.values()):
         return "MODEL_NUMERICS_FAILED"
     gates = manifest["legacy_gates"]; cfg = manifest["design"]
-    if np.any(row["solver_warning_count"]) or row["solver_residual"] > cfg["solver_residual_gate"] or row["wrench_reconstruction_error"] > 1e-8 or row["action_reaction_force_error_n"] > 1e-8 or row["action_reaction_moment_geometry_error_nm"] > 1e-8:
+    if np.any(row["solver_warning_count"]) or row["solver_residual"] > cfg["solver_residual_gate"] or row["wrench_reconstruction_error"] > 1e-8 or row["action_reaction_error"] > 1e-8:
         return "MODEL_NUMERICS_FAILED"
     P = np.linalg.norm(np.asarray(row["linear_momentum_world_kg_m_s"])-initial["linear_momentum_world_kg_m_s"])
     H = np.linalg.norm(np.asarray(row["angular_momentum_about_center_world_kg_m2_s"])-initial["angular_momentum_about_center_world_kg_m2_s"])

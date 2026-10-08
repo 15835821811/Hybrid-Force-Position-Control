@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "maximum_absolute_differences": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "force_grasp_n": 0.0,
+    "moment_grasp_nm": 0.0,
+    "load_fraction": 0.0,
+    "interface_translation_error_m": 0.0,
+    "interface_rotation_error_deg": 0.0,
+    "linear_momentum_world_kg_m_s": 0.0,
+    "angular_momentum_about_center_world_kg_m2_s": 0.0
+  },
+  "strict_tolerances": {
+    "qpos": 1e-11,
+    "qvel": 1e-10,
+    "force_grasp_n": 1e-08,
+    "moment_grasp_nm": 1e-08,
+    "load_fraction": 1e-08,
+    "interface_translation_error_m": 1e-10,
+    "interface_rotation_error_deg": 1e-08,
+    "linear_momentum_world_kg_m_s": 1e-10,
+    "angular_momentum_about_center_world_kg_m2_s": 1e-10
+  },
+  "first_reconstructed_safety_failure": null,
+  "physics_steps": 5000,
+  "method": "recorded actuator ctrl and equality/contact-mask switch events; no controller/governor invocation",
+  "metrics_match": true,
+  "metric_differences": {},
+  "no_unstopped_safety_failure": true,
+  "name": "P_D",
+  "trace_sha256": "bef9ad88a712549aa817dd83bbe78073c0e357da33fdc3c0bc6703ae3a68f0d7",
+  "verification_identity": {
+    "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+  },
+  "execution_identity": {
+    "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+    "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+    "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+    "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+    "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e",
+    "v6_mujoco/postgrasp_campaign/selftest.py": "6f3fbeaea8454d3495a1e6b3bea45a7405232cdc9528061c03a7dd8b7e4b3946"
+  }
+}

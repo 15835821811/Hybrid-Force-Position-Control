@@ -1,0 +1,113 @@
+{
+  "original_stop_is_validator_false_positive": true,
+  "original_status_retained": "MODEL_NUMERICS_FAILED",
+  "new_interpretation": "six millisecond valid saved prefix; incomplete Z due to overly strict coincident-point diagnostic; no new Z trajectory",
+  "reason": "raw common-point net moment equals separated-site geometric couple delta_p cross F, not a wrench reconstruction error",
+  "original_run_still_counts": true,
+  "source_archive_mapping": {
+    "v6_mujoco/postgrasp_campaign/io.py": {
+      "path": "v6_mujoco/postgrasp_campaign/io.py",
+      "sha256": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0"
+    },
+    "configs/postgrasp_campaign.yaml": {
+      "path": "configs/postgrasp_campaign.yaml",
+      "sha256": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09"
+    },
+    "models/flexiv_rizon4s_postgrasp_campaign.xml": {
+      "path": "models/flexiv_rizon4s_postgrasp_campaign.xml",
+      "sha256": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c"
+    },
+    "v6_mujoco/postgrasp_campaign/engine.py": {
+      "path": "output/fpmfc/postgrasp_campaign/source_archive/v1/engine.py",
+      "sha256": "b4abb5536128094b60b6c2d872d26c70dca268da0bebd83c08b3f0352e2385c5"
+    },
+    "v6_mujoco/postgrasp_campaign/validation.py": {
+      "path": "output/fpmfc/postgrasp_campaign/source_archive/v1/validation.py",
+      "sha256": "348ec792fca4acb3db52401ad5836ea3aae75ee37c1e5cf9bf58969bdf4458f5"
+    },
+    "v6_mujoco/postgrasp_campaign/selftest.py": {
+      "path": "output/fpmfc/postgrasp_campaign/source_archive/v1/selftest.py",
+      "sha256": "31c169d8ba6df1e8f4c7f5d9c290b1ff3c4fe12a26f92560872bf6273517971c"
+    }
+  },
+  "trace_sha256": "7db79f1e6511cbfd1e0257ddb88bbfbbd7ce4caf7fa5c168ae3ce56411d7bb08",
+  "rows": [
+    {
+      "time_s": 0.0,
+      "raw_net_moment_world_nm": [
+        6.938893903907228e-17,
+        -5.551115123125783e-17,
+        -1.3877787807814457e-17
+      ],
+      "geometric_couple_world_nm": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "force_error_n": 5.0515910130503314e-17,
+      "moment_geometry_error_nm": 8.993834424997155e-17,
+      "corrected_safety_failure": null
+    },
+    {
+      "time_s": 0.002,
+      "raw_net_moment_world_nm": [
+        3.0343073800093157e-09,
+        7.262333130697574e-10,
+        1.3298260582994548e-09
+      ],
+      "geometric_couple_world_nm": [
+        3.0343073573493736e-09,
+        7.262333392557781e-10,
+        1.3298260948399797e-09
+      ],
+      "force_error_n": 7.473417450352271e-17,
+      "moment_geometry_error_nm": 5.034273151282156e-17,
+      "corrected_safety_failure": null
+    },
+    {
+      "time_s": 0.004,
+      "raw_net_moment_world_nm": [
+        8.653427493662824e-09,
+        2.0776581843851005e-09,
+        3.890856241361984e-09
+      ],
+      "geometric_couple_world_nm": [
+        8.653427449819843e-09,
+        2.077658182114505e-09,
+        3.8908562783621525e-09
+      ],
+      "force_error_n": 1.136078337656897e-16,
+      "moment_geometry_error_nm": 5.741406685540132e-17,
+      "corrected_safety_failure": null
+    },
+    {
+      "time_s": 0.006,
+      "raw_net_moment_world_nm": [
+        1.4269018983742443e-08,
+        3.4246581785690733e-09,
+        6.467753808220289e-09
+      ],
+      "geometric_couple_world_nm": [
+        1.4269018989021864e-08,
+        3.424658175384518e-09,
+        6.4677538218464865e-09
+      ],
+      "force_error_n": 3.9595799592289256e-17,
+      "moment_geometry_error_nm": 1.4956167072096287e-17,
+      "corrected_safety_failure": null
+    }
+  ],
+  "read_only_replay_passed": true,
+  "new_fields_tolerance": {
+    "force_error_n": 1e-08,
+    "moment_geometry_error_nm": 1e-08,
+    "calibration_method": "known coincident wrench and all four frozen-state separated-site identities; no physical threshold change"
+  },
+  "actual_load_pose_and_PH_gates_unchanged": true,
+  "verification_identity": {
+    "v6_mujoco/postgrasp_campaign/correction_audit.py": "74e9596df5cf522c871552d671a8158763c5ccaaf5e47f4e7b8111bff2fb3d0b",
+    "v6_mujoco/postgrasp_campaign/engine.py": "44b5044a4e527706bd937380d79465c18313e0455d80079890f7d6be8a84cfc2",
+    "v6_mujoco/postgrasp_campaign/validation.py": "b23848143fd1d77312b4052336c15e29fbc1800128fe3e4d0c886da5d1b2937e"
+  },
+  "documentation": "https://mujoco.readthedocs.io/en/3.3.2/computation/index.html#equality"
+}

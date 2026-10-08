@@ -8,15 +8,6 @@ from . import engine, restricted, validation, selftest
 
 
 def verified_run(name, controller, resume):
-    correction = engine.location(name) / "verifier_correction.json"
-    if name == "P_Z" and resume and correction.exists():
-        audit = read(correction)
-        check_identity(audit["verification_identity"])
-        for archived in audit["source_archive_mapping"].values():
-            check_identity({archived["path"]: archived["sha256"]})
-        if digest(engine.location(name)/"trace.npz") != audit["trace_sha256"] or not audit["read_only_replay_passed"]:
-            raise RuntimeError("VALIDATION_FAILED: corrected historical prefix")
-        return read(engine.location(name)/"result.json")
     result = engine.run(name, controller, resume)
     path = engine.location(name) / "validation.json"
     if resume and path.exists():
@@ -54,8 +45,6 @@ def execute(stage="all", resume=False):
     if restricted.run(resume=True if stage != "S" else resume)["status"] != "VERIFIED_IN_TESTED_CASES":
         skip(manifest["formal_conditions"], "RESTRICTED_DOMAIN_FAILED"); return
     preflight = ROOT / "full_model_preflight/result.json"
-    if (ROOT / "full_model_preflight/result_v2.json").exists():
-        preflight = ROOT / "full_model_preflight/result_v2.json"
     if preflight.exists():
         check_identity(read(preflight)["verification_identity"])
         if not read(preflight)["passed"]:
@@ -63,8 +52,7 @@ def execute(stage="all", resume=False):
     else:
         selftest.run()
     z = verified_run("P_Z", "Z", resume)
-    corrected_z = engine.location("P_Z") / "verifier_correction.json"
-    if z["status"] == "MODEL_NUMERICS_FAILED" and not (corrected_z.exists() and read(corrected_z)["original_stop_is_validator_false_positive"]):
+    if z["status"] == "MODEL_NUMERICS_FAILED":
         skip(manifest["formal_conditions"][1:], "MODEL_NUMERICS_FAILED in P_Z"); return
     d = verified_run("P_D", "D", resume)
     if d["performance_passed"]:
