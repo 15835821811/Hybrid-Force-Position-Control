@@ -1,6 +1,24 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
-## 当前分支 N205：连续接近验证在 7.362 s 安全早停
+## 当前分支 N206：几何修复通过，t=8 s 实际捕获门失败
+
+旧终端 **−0.292937 mm** 干涉由原始碰撞 STL 三角面独立确认。采用有实体支撑和正质量的 **20 mm 工具安装增量**，新增约 **0.205738 kg**；这是未经硬件批准的仿真设计候选。新几何、三条全时域参考筛查和受影响接口测试已完成，标准 C1 按几何/运动学规则选中。
+
+名义真实运行到 **8.000 s**，link7—目标间隙仍为正；四项实际捕获量越门，**未锁紧、未完成18 s、未评价固定[16,18] s消旋**。一次正式尝试，独立记录输入重放通过且状态误差为零；fine/light/heavy按规则跳过。原增益、阻尼、连接参数、安全门和捕获时刻均未放宽。
+
+- [N206 完整报告](paper/N206_GEOMETRY_COMPATIBILITY_REPORT.md) · [资格矩阵](output/fpmfc/n206_geometry_capture/qualification_matrix.json) · [运行账本](output/fpmfc/n206_geometry_capture/run_ledger.json)
+- [本轮全部可视化入口](output/fpmfc/n206_geometry_capture/visualizations/index.html)：13组图及2个视频，只使用本轮实际证据。
+- [五视角与连续基座体侧合成视频](output/fpmfc/n206_geometry_capture/visualizations/overview_five_views_and_body_side.mp4) · [接口近景](output/fpmfc/n206_geometry_capture/visualizations/interface_closeup.mp4)
+- [执行命令](output/fpmfc/n206_geometry_capture/commands.md) · [完成审计](output/fpmfc/n206_geometry_capture/completion_audit.json)
+
+![N206 旧新终端剖面](output/fpmfc/n206_geometry_capture/figures/terminal_sections.png)
+![N206 实际五视角与体侧终帧](output/fpmfc/n206_geometry_capture/visualizations/overview_five_views_and_body_side_240.png)
+![N206 末端轨迹与跟踪误差](output/fpmfc/n206_geometry_capture/figures/end_effector_tracking.png)
+![N206 实际捕获门失败](output/fpmfc/n206_geometry_capture/figures/capture_gate_failure.png)
+
+以下目录与结果均为历史记录，不构成本轮新工具模型的成功证据。
+
+## 历史 N205：连续接近验证在 7.362 s 安全早停
 
 从 home 和自由目标 t=0 连续积分。link7—目标立方体距离达到 **0.989620 mm**，触发预注册的 1 mm 余量门（含10 μm数值容差）。未发生 pad/plate 接触，未到达8 s捕获检查；**锁紧、18 s完整运行及16–18 s消旋均未验证**。记录输入重放通过。fine/light/heavy按失败准入规则未运行，未放宽门或重试。
 
@@ -22,9 +40,9 @@
 - [名义五视角视频](output/fpmfc/postgrasp_campaign/visualizations/L_nominal/five_views.mp4) · [随基座运动的连续体侧视频](output/fpmfc/postgrasp_campaign/visualizations/L_nominal/body_side.mp4)
 - [执行与重放命令](output/fpmfc/postgrasp_campaign/commands.md) · [完成审计](output/fpmfc/postgrasp_campaign/completion_audit.json)
 
-![当前名义五视角](output/fpmfc/postgrasp_campaign/visualizations/L_nominal/preview_150.png)
-![当前角速度结果](output/fpmfc/postgrasp_campaign/figures/angular_velocity.png)
-![当前末端保持轨迹与误差](output/fpmfc/postgrasp_campaign/figures/end_effector_tracking.png)
+![历史名义五视角](output/fpmfc/postgrasp_campaign/visualizations/L_nominal/preview_150.png)
+![历史角速度结果](output/fpmfc/postgrasp_campaign/figures/angular_velocity.png)
+![历史末端保持轨迹与误差](output/fpmfc/postgrasp_campaign/figures/end_effector_tracking.png)
 
 下文保留原环境迁移与历史实验说明；其可视化不作为本次 campaign 证据。
 

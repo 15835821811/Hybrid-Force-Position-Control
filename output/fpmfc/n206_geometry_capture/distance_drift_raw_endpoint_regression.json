@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "pair": "satellite_base_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": 0.009108167220926396,
+      "target_point_jacobian_m_s": 0.009108167232358457,
+      "error": 1.1432061894356416e-11
+    },
+    {
+      "pair": "satellite_base_collision__target_contact_plate",
+      "target_drift_fd_m_s": 0.0034839507981608616,
+      "target_point_jacobian_m_s": 0.0034839508026047977,
+      "error": 4.4439361045200965e-12
+    },
+    {
+      "pair": "link0_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": -0.009782711847319242,
+      "target_point_jacobian_m_s": 0.0097827118436228,
+      "error": 0.01956542369094204
+    },
+    {
+      "pair": "link0_collision__target_contact_plate",
+      "target_drift_fd_m_s": -0.0034158031618649705,
+      "target_point_jacobian_m_s": 0.0034158031724018842,
+      "error": 0.006831606334266854
+    },
+    {
+      "pair": "link1_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": -0.010359142030445146,
+      "target_point_jacobian_m_s": 0.010359142027555467,
+      "error": 0.020718284058000615
+    },
+    {
+      "pair": "link1_collision__target_contact_plate",
+      "target_drift_fd_m_s": -0.00010740468135562198,
+      "target_point_jacobian_m_s": 0.0001074046879258652,
+      "error": 0.00021480936928148717
+    },
+    {
+      "pair": "link2_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": -0.012590392362238034,
+      "target_point_jacobian_m_s": 0.012590392357992058,
+      "error": 0.025180784720230092
+    },
+    {
+      "pair": "link2_collision__target_contact_plate",
+      "target_drift_fd_m_s": -0.001835273173459814,
+      "target_point_jacobian_m_s": 0.0018352731869397184,
+      "error": 0.0036705463603995325
+    },
+    {
+      "pair": "link3_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": 0.001805783342194387,
+      "target_point_jacobian_m_s": -0.0018057833398391942,
+      "error": 0.003611566682033581
+    },
+    {
+      "pair": "link3_collision__target_contact_plate",
+      "target_drift_fd_m_s": -0.0003454154373565936,
+      "target_point_jacobian_m_s": 0.0003454154478503352,
+      "error": 0.0006908308852069288
+    },
+    {
+      "pair": "link4_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": -0.0007968494238408207,
+      "target_point_jacobian_m_s": 0.0007968494151428373,
+      "error": 0.0015936988389836579
+    },
+    {
+      "pair": "link4_collision__target_contact_plate",
+      "target_drift_fd_m_s": 0.0012932534435009246,
+      "target_point_jacobian_m_s": -0.001293253439376186,
+      "error": 0.0025865068828771105
+    },
+    {
+      "pair": "link5_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": 0.002324738203482871,
+      "target_point_jacobian_m_s": -0.0023247382066341723,
+      "error": 0.004649476410117043
+    },
+    {
+      "pair": "link5_collision__target_contact_plate",
+      "target_drift_fd_m_s": 0.0021022060750072635,
+      "target_point_jacobian_m_s": -0.002102206069563827,
+      "error": 0.004204412144571091
+    },
+    {
+      "pair": "link6_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": -0.004271643778790801,
+      "target_point_jacobian_m_s": 0.004271643778503917,
+      "error": 0.008543287557294717
+    },
+    {
+      "pair": "link6_collision__target_contact_plate",
+      "target_drift_fd_m_s": -0.004271643772735474,
+      "target_point_jacobian_m_s": 0.0042716437785039075,
+      "error": 0.00854328755123938
+    },
+    {
+      "pair": "link7_collision__tumbling_target_geom",
+      "target_drift_fd_m_s": -0.0025179874221248925,
+      "target_point_jacobian_m_s": 0.0025179874229601666,
+      "error": 0.00503597484508506
+    },
+    {
+      "pair": "link7_collision__target_contact_plate",
+      "target_drift_fd_m_s": -0.0025179874156154155,
+      "target_point_jacobian_m_s": 0.0025179874229602794,
+      "error": 0.005035974838575695
+    },
+    {
+      "pair": "n206_spacer__tumbling_target_geom",
+      "target_drift_fd_m_s": -0.0029960169754099635,
+      "target_point_jacobian_m_s": -0.002996016947788125,
+      "error": 2.762183841029109e-11
+    },
+    {
+      "pair": "n206_spacer__target_contact_plate",
+      "target_drift_fd_m_s": -0.00299601700712474,
+      "target_point_jacobian_m_s": -0.002996018798491289,
+      "error": 1.7913665490212893e-09
+    }
+  ]
+}

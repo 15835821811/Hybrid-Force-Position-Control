@@ -1,0 +1,27 @@
+N206 bounded test accounting
+
+G0 static diagnostics: PASS. Zero physics steps. Native CCD signed distances match independent convex SAT signs and triangle clipping at both N205 actual samples, historical C1 and ideal mating. Original mesh reconstruction maximum error 7.502e-9 m. Rigid-transform invariance and 10 um retreat increments pass. Closed/manifold mesh checks and containment queries are saved.
+
+Design preflight initially rejected changed *massless* flange inertial-frame defaults after moving the pad geom. Corrected by preserving the old flange inertial frame explicitly, zero mass and zero inertia. No physics. All existing body mass/inertia/COM frames then matched exactly.
+
+Static unit failure 1: virtual rigid-motion consistency exposed 0.007238229 kg prescribed visual mocap marker included in old whole-system accounting. Corrected N206 physical-system observer to exclude that marker from P/H/I_lock; no plant mass, qpos, qvel, controller or scalar distance changed. Zero physics before failure.
+
+Static unit failures 2/3: direct use of raw fromto endpoint order produced opposite target drift signs for installed mesh-box queries. Preserved raw failure in distance_drift_raw_endpoint_regression.json. Endpoints now labelled by independent box signed-surface membership; finite-difference constraints already included correct target motion. Independent moving-point Jacobian checks pass after labelling correction. Zero physics before these failures.
+
+Short unit failure 4: three nominal 2 ms robot steps completed, then independent replay setup encountered singular reference transform because mj_setState does not fill derived site frames. Fixed Approach construction to forward only an isolated data copy. No replay step had executed; no long/full controller run occurred.
+
+Successful unit batch 1: 3 nominal physics steps (6 ms) + 6 fine physics steps (6 ms); matching independent recorded-input replay 9 steps. Static mesh-face crossing without an inside vertex; original transform/sign tests; positive-mass tool / 7 actuators; exact fixed tool and target frames; p/R/v/omega/a boundary jets; target rotation drift; capture rejection at actual time 8; no main-data writes; known physical wrench/action-reaction/power; whole-system virtual-twist momentum and mass-matrix energy; 12 finite capture/holding pose perturbations. PASS.
+
+Successful unit batch 2 after making explicit event evidence mandatory in replay: same 9 physics + 9 replay steps, maximum duration per short test 6 ms. PASS.
+
+Total short full-robot unit dynamics: 21 steps, including failed setup batch; total successful short replay: 18 steps. These are not complete controller trajectories.
+
+Affected-interface qualification: frozen before testing in interface_tests/frozen_scope.json. New link7 + tool composite mass/COM/full inertia and shifted interface point; original candidate2 parameters and actual 50 N / 2 Nm envelope. Sixteen restricted 0.8-load directions at 2 ms plus three original selected 1 ms comparisons. Each fixture duration 0.9 s. 19/19 PASS; 9900 fixture integration steps. No full upstream robot controller, no detumbling tuning.
+
+Planning: exactly three candidate kinematic integrations, no mj_step or servo torque. Whole 0–8 s covered at 2 ms; adaptive same-path bounds at 0.5/0.25 ms where needed. Original coarse-bound failures retained; thresholds and paths unchanged. Standard C1 selected by frozen priority. Supplemental capture audit: standard PASS, both unselected bumps FAIL stricter capture gates. Finite interpolation and finite pose-perturbation checks are not a universal continuous robustness proof.
+
+Formal dynamics: exactly one initial nominal attempt, recorded before first step in run_ledger.json. Reached actual t=8, CAPTURE_GATE_FAILED, correctly refused latch. No qpos/qvel/time reset or terminal injection. Formal controller budget used 1/4. Independent full recorded-input replay is accounted separately in the ledger. Fine/light/heavy have no dynamics attempts.
+
+Independent nominal replay: PASS, 4000 steps, zero controller calls, one initial state restore, zero error in every compared qpos/qvel/wrench/load/interface/momentum/contact/distance channel. No safety failure. Empty latch event list matches actual refused latch. Source, admission and execution identities remain valid.
+
+Media: 13 PNG/PDF scientific figure groups, 2 MP4 videos, 241 frames each at 30 fps; physical source range [0,8] s. Rendering used zero physics steps.

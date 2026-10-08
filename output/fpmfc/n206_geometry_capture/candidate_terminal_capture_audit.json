@@ -1,0 +1,26 @@
+{
+  "scope": "supplemental audit of saved planning paths; no new candidate or physics",
+  "results": {
+    "standard_C1": {
+      "capture_gates_pass": true,
+      "translation_m": 9.372308490622236e-05,
+      "rotation_deg": 0.0007314592118343093,
+      "relative_linear_m_s": 0.00017220686664626685,
+      "relative_angular_deg_s": 0.02628336146705078
+    },
+    "normal_approach_40mm": {
+      "capture_gates_pass": false,
+      "translation_m": 0.0005126894554818172,
+      "rotation_deg": 0.0005248618860705858,
+      "relative_linear_m_s": 0.0021746036418335292,
+      "relative_angular_deg_s": 0.02226701255506433
+    },
+    "normal_approach_80mm": {
+      "capture_gates_pass": false,
+      "translation_m": 0.0009467556792367686,
+      "rotation_deg": 0.0009356052562545509,
+      "relative_linear_m_s": 0.004164591699420848,
+      "relative_angular_deg_s": 0.020078396160492073
+    }
+  }
+}

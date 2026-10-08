@@ -1,0 +1,21 @@
+{
+  "method": "sum of norm of fixed ancestor offsets plus local geom center norm and geom bounding radius; applies to any joint angles",
+  "robot_bound_m": 3,
+  "max_required_robot_bound_m": 1.7241187989555404,
+  "geometry_bounds_m": {
+    "satellite_base_collision": 0.4330127018922193,
+    "link0_collision": 0.4599418514773611,
+    "link1_collision": 0.7026817149966681,
+    "link2_collision": 0.8522051661582883,
+    "link3_collision": 1.0873641833397616,
+    "link4_collision": 1.2501120358407696,
+    "link5_collision": 1.4743355670051506,
+    "link6_collision": 1.6404773197827873,
+    "link7_collision": 1.705255801761081,
+    "gripper_contact_pad": 1.7241187989555404,
+    "n206_spacer": 1.7142047954680335
+  },
+  "target_box_bound_m": 0.25980762113533157,
+  "target_bound_used_m": 0.27,
+  "passed": true
+}

@@ -1,0 +1,7 @@
+{
+  "position": true,
+  "rotation": true,
+  "shape": true,
+  "tool_face_linear_speed": false,
+  "angular_speed": false
+}

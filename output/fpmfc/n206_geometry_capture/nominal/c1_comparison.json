@@ -1,0 +1,19 @@
+{
+  "comparison": "named robot coordinates; only common 2 ms samples",
+  "pre_first_contact_common_samples": 3858,
+  "pre_first_contact_max_errors": {
+    "qpos": 0.12182242087523898,
+    "qvel": 0.17641415347231204
+  },
+  "first_difference_above_diagnostic_threshold": {
+    "time_s": 0.022000000000000006,
+    "qpos": 2.2778179342708427e-10,
+    "qvel": 2.277135958431072e-07,
+    "physical_contact_already_detected": false
+  },
+  "thresholds": {
+    "qpos": 1e-08,
+    "qvel": 1e-07
+  },
+  "not_a_requirement_for_bitwise_equality": true
+}

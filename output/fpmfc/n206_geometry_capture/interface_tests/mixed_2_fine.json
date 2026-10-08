@@ -1,0 +1,98 @@
+{
+  "case": "mixed_2",
+  "timestep_s": 0.001,
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "maximum_translation_m": 3.291463478360168e-08,
+  "maximum_rotation_deg": 0.011664965495855767,
+  "hold_max_translation_m": 3.291463471223933e-08,
+  "hold_max_rotation_deg": 0.011664928886503367,
+  "max_interface_load_fraction": 0.8000819077920087,
+  "hold_mean_wrench_grasp": [
+    20.000000000002565,
+    -2.6281629251635117e-14,
+    -7.455838047562295e-13,
+    -1.6221590550068123e-15,
+    -0.8000000000002081,
+    1.7710109879306681e-15
+  ],
+  "hold_mean_translation_tool_m": [
+    -3.291463382519008e-08,
+    3.8582087851642504e-17,
+    6.700806305028054e-12
+  ],
+  "linear_momentum_drift": 4.768808156849278e-17,
+  "angular_momentum_drift": 1.6912229295158952e-11,
+  "maximum_net_force_moment": 7.119291619286993e-15,
+  "maximum_solver_residual": 4.5399708298310415e-13,
+  "maximum_solver_iterations": 1,
+  "external_work_j": 1.9685408962564224e-05,
+  "constraint_work_j": -1.951611682056923e-05,
+  "kinetic_energy_change_j": 1.0030807029536206e-22,
+  "pose_holding_passed": true,
+  "numerics_passed": true,
+  "status": "QUALIFIED",
+  "passed": true,
+  "fine_differences": {
+    "translation_error_m": 1.5160512626288368e-10,
+    "rotation_error_deg": 5.390956109108981e-05,
+    "interface_load_fraction": 0.00044025245355827636
+  },
+  "label": "mixed_2_fine",
+  "geometry": {
+    "source_model_identity": {
+      "models/flexiv_rizon4s_n206_tool_scene.xml": "a7f52ac06d97a1b26a61c063fd5c37b58d9c3685f46e6977abaae701ae9474a6"
+    },
+    "composite_bodies": [
+      "link7",
+      "n206_rigid_tool"
+    ],
+    "mass_kg": 1.605738190494615,
+    "com_world_m": [
+      0.7715071313694423,
+      0.13994334522637455,
+      0.8002250251241374
+    ],
+    "inertia_world_kg_m2": [
+      [
+        0.0016244997923097835,
+        -4.947761224320081e-09,
+        -0.0005940374007694575
+      ],
+      [
+        -4.947761224320082e-09,
+        0.002332405400075427,
+        -4.151902718296387e-09
+      ],
+      [
+        -0.0005940374007694576,
+        -4.151902718296387e-09,
+        0.0018339202495127578
+      ]
+    ],
+    "principal_inertia_kg_m2": [
+      0.001126014641677952,
+      0.002332405400110008,
+      0.002332405400110009
+    ],
+    "interface_world_m": [
+      0.8350933335321533,
+      0.13999999999999999,
+      0.8535818585470191
+    ],
+    "scope": "distal rigid composite, excludes upstream arm and manufacturing flexibility"
+  }
+}

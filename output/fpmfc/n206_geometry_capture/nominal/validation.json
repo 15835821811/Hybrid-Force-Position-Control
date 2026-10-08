@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "max_errors": {
+    "qpos": 0.0,
+    "qvel": 0.0,
+    "force_grasp_n": 0.0,
+    "moment_grasp_nm": 0.0,
+    "load_fraction": 0.0,
+    "interface_translation_error_m": 0.0,
+    "interface_rotation_error_deg": 0.0,
+    "linear_momentum_world_kg_m_s": 0.0,
+    "angular_momentum_about_center_world_kg_m2_s": 0.0,
+    "contact_peak_force_n": 0.0,
+    "extra_pair_distances_m": 0.0
+  },
+  "strict_limits": {
+    "qpos": 1e-11,
+    "qvel": 1e-10,
+    "force_grasp_n": 1e-08,
+    "moment_grasp_nm": 1e-08,
+    "load_fraction": 1e-08,
+    "interface_translation_error_m": 1e-10,
+    "interface_rotation_error_deg": 1e-08,
+    "linear_momentum_world_kg_m_s": 1e-10,
+    "angular_momentum_about_center_world_kg_m2_s": 1e-10,
+    "contact_peak_force_n": 1e-08,
+    "extra_pair_distances_m": 1e-10
+  },
+  "first_safety_failure": null,
+  "events_replayed_s": [],
+  "steps": 4000,
+  "controller_update_calls": 0,
+  "state_restore_count": 1,
+  "method": "initial t=0 integration state once; archived controls; only named equality and pad mask event; mj_step thereafter",
+  "metrics_match": true,
+  "trace_sha256": "45dcc042f036a1514ac152adffc239aa86d18ecd91cbabc9a3dabe364119c2fb",
+  "verification_identity": {
+    "v6_mujoco/geometry_capture/validator.py": "4aeb997ce2935e2e49f68f3f39db5d136a56f0c0df01deda5c6498bbc31430df"
+  },
+  "execution_identity": {
+    "v6_mujoco/geometry_capture/__init__.py": "19f27442e08231e5ed853f774d285a1c487aa7e5600efdeff6c1963f2aec75b9",
+    "v6_mujoco/geometry_capture/__main__.py": "14c4daa45467830cc4df8a76a3c1157833196d70488e485cca0b9a3dbca5ac53",
+    "v6_mujoco/geometry_capture/adapter.py": "335af1f29bc9f579fdc6964f19ba2e09a7abd94c62cb0f043279dae56617e8ce",
+    "v6_mujoco/geometry_capture/approach.py": "c8285312623e0bd5eee7b424a24f0a9605a8c9be778406328d22feb5ec456822",
+    "v6_mujoco/geometry_capture/audit.py": "0d682f48f691417cce65e4a80539ea5f7b813c006b90446f9c380a23e7c081be",
+    "v6_mujoco/geometry_capture/common.py": "d21fbe8536d2671a003d35ce13ad1053109ec00a1e28a58f608d43443bbfd0c5",
+    "v6_mujoco/geometry_capture/design.py": "c552b78ea5706c87a6c52692c84c65e55ec0044bf9cac833bbf24ded615f1e7c",
+    "v6_mujoco/geometry_capture/geometry.py": "9bd494cd7ff7089c361d6d7fbf2c789b7752caedec8253ffd6b62c319605f16d",
+    "v6_mujoco/geometry_capture/interface_tests.py": "0fb22186569148e7c93c90eaa1e64955e16434c0c47693bb2bfd62bc5743e81b",
+    "v6_mujoco/geometry_capture/observer.py": "68b1dd1b0508472408050ea2f20bb14a91d8d215a57e050d11113744dbe0861a",
+    "v6_mujoco/geometry_capture/physics.py": "0c8ff7a47f949fe5e388c494f92f1cb8256a45720fb97b768bc905d3ff98ac8e",
+    "v6_mujoco/geometry_capture/planning.py": "3943a7dcd948e091dc2ded14c2d8c6d9898533903ef32d6c163463d257d92629",
+    "v6_mujoco/geometry_capture/reference.py": "f699d9348a99c12d3148a450cebb07cb04515deee9c80381b96ed1a6936839f9",
+    "v6_mujoco/geometry_capture/runner.py": "758477588b6efaf56d934f38e468c51347edeacf2bfe87442d3eb8916da07acf",
+    "v6_mujoco/geometry_capture/selftest.py": "bdfff18a4afddffe55b61c3d0757cb7b9afc0d1bbeb1d3bda408a9798b9db796",
+    "v6_mujoco/geometry_capture/validator.py": "4aeb997ce2935e2e49f68f3f39db5d136a56f0c0df01deda5c6498bbc31430df"
+  }
+}

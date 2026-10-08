@@ -1,0 +1,23 @@
+{
+  "first_intended_contact_s": 7.717999999999372,
+  "precontact_target_position_prediction_error_max_m": 0.0,
+  "precontact_target_rotation_prediction_error_max_rad": 5.3124232338494055e-14,
+  "capture_target_prediction_position_error_m": 0.00020079573188330616,
+  "capture_target_prediction_rotation_error_rad": 0.0011168142090570475,
+  "gates": {
+    "translation_m": 0.0001,
+    "rotation_deg": 0.05,
+    "relative_linear_speed_m_s": 0.001,
+    "relative_angular_speed_deg_s": 0.2,
+    "verify_duration_s": 0.05,
+    "first_capture_gate_failure": "abort_without_wait_or_retry"
+  },
+  "actual": {
+    "translation_m": 0.0003778480250737998,
+    "rotation_deg": 0.06293535489513534,
+    "relative_linear_speed_m_s": 0.0014479466090518956,
+    "relative_angular_speed_deg_s": 0.235418750603843
+  },
+  "latch_activated": false,
+  "scope": "diagnostic from this completed actual trace only; no counterfactual rerun; contact precedes target-reference divergence"
+}

@@ -1,0 +1,65 @@
+{
+  "original_n205_end_to_end": "FAILED_GEOMETRY",
+  "distance_representation_validated": true,
+  "original_terminal_geometry_feasible": false,
+  "interface_geometry_modified": true,
+  "hardware_design_assumption_changed": true,
+  "terminal_geometry_qualified": true,
+  "approach_reference_qualified": true,
+  "continuous_18s_completed": {
+    "nominal": false,
+    "fine": false,
+    "light": false,
+    "heavy": false
+  },
+  "final_detumbling_passed": {
+    "nominal": false,
+    "fine": "NOT_RUN_NOMINAL_FAILURE",
+    "light": "NOT_RUN_NOMINAL_FAILURE",
+    "heavy": "NOT_RUN_NOMINAL_FAILURE"
+  },
+  "capture_gate_at_8s": {
+    "nominal": false,
+    "fine": "NOT_RUN_NOMINAL_FAILURE",
+    "light": "NOT_RUN_NOMINAL_FAILURE",
+    "heavy": "NOT_RUN_NOMINAL_FAILURE"
+  },
+  "terminal_approach_diagnostics": {
+    "nominal": {
+      "position": true,
+      "rotation": true,
+      "shape": true,
+      "tool_face_linear_speed": false,
+      "angular_speed": false
+    }
+  },
+  "independent_cases": {
+    "nominal": {
+      "status": "CAPTURE_GATE_FAILED",
+      "end_time_s": 7.999999999999341,
+      "replay_passed": true
+    },
+    "fine": {
+      "status": "NOT_RUN_NOMINAL_FAILURE",
+      "replay_passed": false
+    },
+    "light": {
+      "status": "NOT_RUN_NOMINAL_FAILURE",
+      "replay_passed": false
+    },
+    "heavy": {
+      "status": "NOT_RUN_NOMINAL_FAILURE",
+      "replay_passed": false
+    }
+  },
+  "real_gripper_and_hardware_validated": false,
+  "new_controller_designed": false,
+  "legacy_postgrasp_success_inherited": false,
+  "new_restricted_fixture_passed": true,
+  "classification": "TERMINAL_MATING_GEOMETRY_INCOMPATIBLE",
+  "formal_attempt_count": 1,
+  "maximum_formal_attempts": 4,
+  "physical_system_accounting": "mocap visualization marker excluded from P/H/I_lock bookkeeping; all plant masses untouched",
+  "distance_coverage": "24 original pairs + 19 original target pairs + 20 added spacer/other tool pairs in planning/HQP and execution",
+  "scope": "supplied STL and stated rigid aluminium-equivalent tool assumption; no manufacturing geometry or hardware validation"
+}

@@ -1,0 +1,212 @@
+{
+  "reason": "Added mass and shifted point alter full 6D distal mobility; repeat only restricted fixture directions and three original fine checks. Do not repeat old controller campaigns or tune weld.",
+  "cases": [
+    {
+      "name": "force_x_negative",
+      "wrench_grasp": [
+        -40.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_x_positive",
+      "wrench_grasp": [
+        40.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_y_negative",
+      "wrench_grasp": [
+        0.0,
+        -40.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_y_positive",
+      "wrench_grasp": [
+        0.0,
+        40.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_z_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        -40.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "force_z_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        40.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_x_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        -1.6,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_x_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        1.6,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_y_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_y_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.6,
+        0.0
+      ]
+    },
+    {
+      "name": "moment_z_negative",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.6
+      ]
+    },
+    {
+      "name": "moment_z_positive",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.6
+      ]
+    },
+    {
+      "name": "mixed_0",
+      "wrench_grasp": [
+        14.14213562373095,
+        14.14213562373095,
+        0.0,
+        0.0,
+        0.0,
+        0.8
+      ]
+    },
+    {
+      "name": "mixed_1",
+      "wrench_grasp": [
+        0.0,
+        0.0,
+        -20.0,
+        0.565685424949238,
+        -0.565685424949238,
+        0.0
+      ]
+    },
+    {
+      "name": "mixed_2",
+      "wrench_grasp": [
+        -20.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8,
+        0.0
+      ]
+    },
+    {
+      "name": "mixed_3",
+      "wrench_grasp": [
+        0.0,
+        20.0,
+        0.0,
+        -0.8,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "fine_cases": [
+    "moment_x_positive",
+    "force_y_negative",
+    "mixed_2"
+  ],
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "actual_envelope": {
+    "force_n": 50,
+    "moment_nm": 2,
+    "rho_max": 1
+  },
+  "damping_retuned": false,
+  "old_full_boundary_qualification": "FAILED",
+  "implementation_identity": {
+    "v6_mujoco/geometry_capture/interface_tests.py": "0fb22186569148e7c93c90eaa1e64955e16434c0c47693bb2bfd62bc5743e81b",
+    "v6_mujoco/postgrasp_calibration/load_tests.py": "a4835f7afe4f0c81cc9cb4b7a8f2af2936a0f9771f392e0e971e98ffdc9dc38f"
+  }
+}

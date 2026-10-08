@@ -1,0 +1,520 @@
+{
+  "passed": true,
+  "real_robot_unit_steps": 9,
+  "max_unit_duration_s": 0.006,
+  "new_formal_attempts": 0,
+  "findings": {
+    "known_wrench": {
+      "known_wrench_world": [
+        3.0,
+        -4.0,
+        2.0,
+        0.1,
+        -0.2,
+        0.3
+      ],
+      "recovered_world": [
+        3.0,
+        -4.0,
+        2.0,
+        0.10000000000000002,
+        -0.19999999999999998,
+        0.29999999999999993
+      ],
+      "known_wrench_error": 6.359601310784502e-17,
+      "action_reaction_error": 3.612492394894128e-15,
+      "power_error_w": 3.1086244689504383e-15,
+      "tolerance": 1e-08,
+      "method": "named_equality_J_transpose_then_physical_target_and_tool_Jacobians",
+      "passed": true
+    },
+    "momentum_and_locked_inertia_virtual_rigid_twist": true,
+    "dimensions": [
+      21,
+      19,
+      7
+    ],
+    "triangle_face_crossing_without_inside_vertices": true,
+    "distance_and_fixed_transform_tests": {
+      "rigid_transform_distance_error_m": 3.1490652099841476e-16,
+      "rigid_transform_witness_error_m": 3.3306690738754696e-16,
+      "mesh_world_max_error_m": 7.501521554231597e-09,
+      "fixed_chain_error": 2.220446049250313e-16,
+      "microtranslation_samples": [
+        {
+          "retreat_m": -0.0001,
+          "distance_m": -0.00039293660401449823,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8539580126953246,
+            0.1525887532560044,
+            0.8317111102184833
+          ]
+        },
+        {
+          "retreat_m": -9e-05,
+          "distance_m": -0.00038293660401441304,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.15258875325600438,
+            0.8314585354380305,
+            0.8539503522508933,
+            0.1525887532560044,
+            0.8317046823423864
+          ]
+        },
+        {
+          "retreat_m": -8e-05,
+          "distance_m": -0.00037293660401438574,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8539426918064621,
+            0.15258875325600438,
+            0.8316982544662896
+          ]
+        },
+        {
+          "retreat_m": -7e-05,
+          "distance_m": -0.00036293660401437764,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8539350313620309,
+            0.1525887532560044,
+            0.8316918265901928
+          ]
+        },
+        {
+          "retreat_m": -6e-05,
+          "distance_m": -0.0003529366040143599,
+          "segment_world_m": [
+            0.853657005793321,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8539273709175996,
+            0.1525887532560044,
+            0.831685398714096
+          ]
+        },
+        {
+          "retreat_m": -5e-05,
+          "distance_m": -0.0003429366040144386,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.15258875325600438,
+            0.8314585354380305,
+            0.8539197104731686,
+            0.1525887532560044,
+            0.831678970837999
+          ]
+        },
+        {
+          "retreat_m": -3.9999999999999996e-05,
+          "distance_m": -0.0003329366040144209,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8539120500287374,
+            0.1525887532560044,
+            0.8316725429619021
+          ]
+        },
+        {
+          "retreat_m": -2.9999999999999997e-05,
+          "distance_m": -0.0003229366040144128,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8539043895843061,
+            0.1525887532560044,
+            0.8316661150858053
+          ]
+        },
+        {
+          "retreat_m": -1.9999999999999998e-05,
+          "distance_m": -0.0003129366040143951,
+          "segment_world_m": [
+            0.8536570057933212,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538967291398749,
+            0.1525887532560044,
+            0.8316596872097084
+          ]
+        },
+        {
+          "retreat_m": -9.999999999999999e-06,
+          "distance_m": -0.0003029366040143003,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538890686954437,
+            0.1525887532560044,
+            0.8316532593336114
+          ]
+        },
+        {
+          "retreat_m": 0.0,
+          "distance_m": -0.00029293660401446566,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.15258875325600438,
+            0.8314585354380305,
+            0.8538814082510127,
+            0.1525887532560044,
+            0.8316468314575146
+          ]
+        },
+        {
+          "retreat_m": 9.999999999999999e-06,
+          "distance_m": -0.0002829366040144383,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538737478065814,
+            0.1525887532560044,
+            0.8316404035814178
+          ]
+        },
+        {
+          "retreat_m": 2.0000000000000012e-05,
+          "distance_m": -0.0002729366040144206,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538660873621503,
+            0.1525887532560044,
+            0.831633975705321
+          ]
+        },
+        {
+          "retreat_m": 3.000000000000001e-05,
+          "distance_m": -0.0002629366040143355,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.853858426917719,
+            0.1525887532560044,
+            0.8316275478292241
+          ]
+        },
+        {
+          "retreat_m": 4.000000000000001e-05,
+          "distance_m": -0.00025293660401432737,
+          "segment_world_m": [
+            0.8536570057933212,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538507664732877,
+            0.1525887532560044,
+            0.8316211199531272
+          ]
+        },
+        {
+          "retreat_m": 5.000000000000001e-05,
+          "distance_m": -0.00024293660401447347,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380305,
+            0.8538431060288567,
+            0.1525887532560044,
+            0.8316146920770303
+          ]
+        },
+        {
+          "retreat_m": 6.000000000000001e-05,
+          "distance_m": -0.0002329366040144654,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538354455844255,
+            0.1525887532560044,
+            0.8316082642009336
+          ]
+        },
+        {
+          "retreat_m": 7.000000000000001e-05,
+          "distance_m": -0.00022293660401438023,
+          "segment_world_m": [
+            0.8536570057933215,
+            0.15258875325600443,
+            0.8314585354380307,
+            0.8538277851399945,
+            0.15258875325600443,
+            0.8316018363248368
+          ]
+        },
+        {
+          "retreat_m": 8e-05,
+          "distance_m": -0.0002129366040143625,
+          "segment_world_m": [
+            0.8536570057933212,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538201246955631,
+            0.15258875325600438,
+            0.8315954084487398
+          ]
+        },
+        {
+          "retreat_m": 9e-05,
+          "distance_m": -0.00020293660401433518,
+          "segment_world_m": [
+            0.853657005793321,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538124642511318,
+            0.15258875325600438,
+            0.8315889805726429
+          ]
+        },
+        {
+          "retreat_m": 0.0001,
+          "distance_m": -0.00019293660401450058,
+          "segment_world_m": [
+            0.8536570057933213,
+            0.1525887532560044,
+            0.8314585354380306,
+            0.8538048038067008,
+            0.1525887532560044,
+            0.8315825526965461
+          ]
+        }
+      ],
+      "retreat_distance_slope": 1.000000000000059,
+      "max_adjacent_distance_change_m": 1.0000000000094785e-05,
+      "threshold_7_360_pass_7_362_fail": true
+    },
+    "boundary_jet_derivatives": {
+      "velocity_fd_m_s": 2.603436073405545e-13,
+      "acceleration_fd_m_s2": 3.2022842327593674e-14,
+      "omega_fd_rad_s": 6.542266728374395e-13
+    },
+    "target_drift_including_rotation": [
+      {
+        "pair": "satellite_base_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": 0.009108167220926396,
+        "target_point_jacobian_m_s": 0.009108167232358457,
+        "error": 1.1432061894356416e-11
+      },
+      {
+        "pair": "satellite_base_collision__target_contact_plate",
+        "target_drift_fd_m_s": 0.0034839507981608616,
+        "target_point_jacobian_m_s": 0.0034839508026047977,
+        "error": 4.4439361045200965e-12
+      },
+      {
+        "pair": "link0_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": -0.009782711847319242,
+        "target_point_jacobian_m_s": -0.009782711843622803,
+        "error": 3.696438988232131e-12
+      },
+      {
+        "pair": "link0_collision__target_contact_plate",
+        "target_drift_fd_m_s": -0.0034158031618649705,
+        "target_point_jacobian_m_s": -0.003415803172401878,
+        "error": 1.0536907717878519e-11
+      },
+      {
+        "pair": "link1_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": -0.010359142030445146,
+        "target_point_jacobian_m_s": -0.010359142027555472,
+        "error": 2.8896746107065496e-12
+      },
+      {
+        "pair": "link1_collision__target_contact_plate",
+        "target_drift_fd_m_s": -0.00010740468135562198,
+        "target_point_jacobian_m_s": -0.00010740468792586943,
+        "error": 6.570247452109164e-12
+      },
+      {
+        "pair": "link2_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": -0.012590392362238034,
+        "target_point_jacobian_m_s": -0.012590392357992064,
+        "error": 4.245969895122492e-12
+      },
+      {
+        "pair": "link2_collision__target_contact_plate",
+        "target_drift_fd_m_s": -0.001835273173459814,
+        "target_point_jacobian_m_s": -0.0018352731869397166,
+        "error": 1.3479902740906602e-11
+      },
+      {
+        "pair": "link3_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": 0.001805783342194387,
+        "target_point_jacobian_m_s": 0.0018057833398391965,
+        "error": 2.355190478406377e-12
+      },
+      {
+        "pair": "link3_collision__target_contact_plate",
+        "target_drift_fd_m_s": -0.0003454154373565936,
+        "target_point_jacobian_m_s": -0.00034541544785033403,
+        "error": 1.0493740425221443e-11
+      },
+      {
+        "pair": "link4_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": -0.0007968494238408207,
+        "target_point_jacobian_m_s": -0.0007968494151428409,
+        "error": 8.697979836380654e-12
+      },
+      {
+        "pair": "link4_collision__target_contact_plate",
+        "target_drift_fd_m_s": 0.0012932534435009246,
+        "target_point_jacobian_m_s": 0.0012932534393761835,
+        "error": 4.1247411302486325e-12
+      },
+      {
+        "pair": "link5_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": 0.002324738203482871,
+        "target_point_jacobian_m_s": 0.00232473820663417,
+        "error": 3.1512991001403368e-12
+      },
+      {
+        "pair": "link5_collision__target_contact_plate",
+        "target_drift_fd_m_s": 0.0021022060750072635,
+        "target_point_jacobian_m_s": 0.0021022060695638275,
+        "error": 5.443436066482343e-12
+      },
+      {
+        "pair": "link6_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": -0.004271643778790801,
+        "target_point_jacobian_m_s": -0.004271643778503916,
+        "error": 2.868850990100924e-13
+      },
+      {
+        "pair": "link6_collision__target_contact_plate",
+        "target_drift_fd_m_s": -0.004271643772735474,
+        "target_point_jacobian_m_s": -0.0042716437785039075,
+        "error": 5.768433473940515e-12
+      },
+      {
+        "pair": "link7_collision__tumbling_target_geom",
+        "target_drift_fd_m_s": -0.0025179874221248925,
+        "target_point_jacobian_m_s": -0.0025179874229601675,
+        "error": 8.352749915341295e-13
+      },
+      {
+        "pair": "link7_collision__target_contact_plate",
+        "target_drift_fd_m_s": -0.0025179874156154155,
+        "target_point_jacobian_m_s": -0.0025179874229602794,
+        "error": 7.344863866415308e-12
+      },
+      {
+        "pair": "n206_spacer__tumbling_target_geom",
+        "target_drift_fd_m_s": -0.0029960169754099635,
+        "target_point_jacobian_m_s": -0.002996016947788125,
+        "error": 2.762183841029109e-11
+      },
+      {
+        "pair": "n206_spacer__target_contact_plate",
+        "target_drift_fd_m_s": -0.00299601700712474,
+        "target_point_jacobian_m_s": -0.002996018798491289,
+        "error": 1.7913665490212893e-09
+      }
+    ],
+    "terminal_perturbations": {
+      "samples": 12,
+      "minimum_target_clearance_m": 0.009534754943821246,
+      "scope": "axis perturbations at capture tolerance and holding deformation only; finite samples do not cover all combined disturbances",
+      "distance_numeric_allowance_m": 1e-05
+    },
+    "isolated_static_operations_preserve_main_data": true,
+    "actual_t8_bad_state_rejects_latch": true,
+    "short_isolation_clock_and_replay": [
+      {
+        "scenario": "nominal",
+        "duration_s": 0.006,
+        "replay": {
+          "passed": true,
+          "max_errors": {
+            "qpos": 0.0,
+            "qvel": 0.0,
+            "force_grasp_n": 0.0,
+            "moment_grasp_nm": 0.0,
+            "load_fraction": 0.0,
+            "interface_translation_error_m": 0.0,
+            "interface_rotation_error_deg": 0.0,
+            "linear_momentum_world_kg_m_s": 0.0,
+            "angular_momentum_about_center_world_kg_m2_s": 0.0,
+            "contact_peak_force_n": 0.0,
+            "extra_pair_distances_m": 0.0
+          },
+          "strict_limits": {
+            "qpos": 1e-11,
+            "qvel": 1e-10,
+            "force_grasp_n": 1e-08,
+            "moment_grasp_nm": 1e-08,
+            "load_fraction": 1e-08,
+            "interface_translation_error_m": 1e-10,
+            "interface_rotation_error_deg": 1e-08,
+            "linear_momentum_world_kg_m_s": 1e-10,
+            "angular_momentum_about_center_world_kg_m2_s": 1e-10,
+            "contact_peak_force_n": 1e-08,
+            "extra_pair_distances_m": 1e-10
+          },
+          "first_safety_failure": null,
+          "events_replayed_s": [],
+          "steps": 3,
+          "controller_update_calls": 0,
+          "state_restore_count": 1,
+          "method": "initial t=0 integration state once; archived controls; only named equality and pad mask event; mj_step thereafter"
+        }
+      },
+      {
+        "scenario": "fine",
+        "duration_s": 0.006,
+        "replay": {
+          "passed": true,
+          "max_errors": {
+            "qpos": 0.0,
+            "qvel": 0.0,
+            "force_grasp_n": 0.0,
+            "moment_grasp_nm": 0.0,
+            "load_fraction": 0.0,
+            "interface_translation_error_m": 0.0,
+            "interface_rotation_error_deg": 0.0,
+            "linear_momentum_world_kg_m_s": 0.0,
+            "angular_momentum_about_center_world_kg_m2_s": 0.0,
+            "contact_peak_force_n": 0.0,
+            "extra_pair_distances_m": 0.0
+          },
+          "strict_limits": {
+            "qpos": 1e-11,
+            "qvel": 1e-10,
+            "force_grasp_n": 1e-08,
+            "moment_grasp_nm": 1e-08,
+            "load_fraction": 1e-08,
+            "interface_translation_error_m": 1e-10,
+            "interface_rotation_error_deg": 1e-08,
+            "linear_momentum_world_kg_m_s": 1e-10,
+            "angular_momentum_about_center_world_kg_m2_s": 1e-10,
+            "contact_peak_force_n": 1e-08,
+            "extra_pair_distances_m": 1e-10
+          },
+          "first_safety_failure": null,
+          "events_replayed_s": [],
+          "steps": 6,
+          "controller_update_calls": 0,
+          "state_restore_count": 1,
+          "method": "initial t=0 integration state once; archived controls; only named equality and pad mask event; mj_step thereafter"
+        }
+      }
+    ]
+  },
+  "implementation_identity": {
+    "v6_mujoco/geometry_capture/selftest.py": "bdfff18a4afddffe55b61c3d0757cb7b9afc0d1bbeb1d3bda408a9798b9db796"
+  }
+}

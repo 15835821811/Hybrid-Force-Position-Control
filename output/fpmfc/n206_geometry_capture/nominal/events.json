@@ -1,0 +1,13 @@
+[
+  {
+    "time_s": 7.999999999999341,
+    "state": "CAPTURE_CHECK",
+    "capture_passed": false
+  },
+  {
+    "time_s": 7.999999999999341,
+    "state": "FAILED",
+    "reason": "CAPTURE_GATE_FAILED",
+    "detail": "fixed t=8 gate"
+  }
+]

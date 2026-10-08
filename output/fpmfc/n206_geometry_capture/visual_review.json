@@ -1,0 +1,26 @@
+{
+  "review_scope": "paper-figure skill plan review plus actual PNG/video preview review; no physics",
+  "reviewer": "independent figure_review agent",
+  "evidence_boundary_passed": true,
+  "video_previews_passed": true,
+  "fixed_plot_only_issues": [
+    "run_coverage bottom categorical margin",
+    "interface_holding annotation clear of threshold",
+    "planning pair-class gate labels moved and boxed",
+    "dimension schematic labels boxed",
+    "failure witness labels boxed"
+  ],
+  "actual_figures_checked": [
+    "end_effector_tracking",
+    "capture_gate_failure",
+    "run_coverage",
+    "interface_holding"
+  ],
+  "geometry_figures_checked": [
+    "terminal_sections",
+    "failure_witness",
+    "tool_dimension_drawing",
+    "planning_pair_classes"
+  ],
+  "no_frozen_simulation_changes": true
+}

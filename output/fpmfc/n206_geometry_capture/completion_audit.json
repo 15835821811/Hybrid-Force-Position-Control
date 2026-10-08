@@ -1,0 +1,45 @@
+{
+  "evidence_package_validated": true,
+  "physics_outcome": "CAPTURE_GATE_FAILED",
+  "checks": {
+    "original_n205_and_frozen_n206_identities": true,
+    "one_formal_attempt": true,
+    "nominal_failure_skips_dependents": true,
+    "actual_fixed_capture_failure": true,
+    "continuous_clock": true,
+    "final_window_not_claimed": true,
+    "independent_replay": true,
+    "actual_trace_hash": true,
+    "unchanged_failure_event": true,
+    "bounded_tests_recorded": true,
+    "affected_fixture_tests": true,
+    "new_unit_tests": true,
+    "three_predeclared_planning_candidates": true,
+    "qualification_boundaries": true,
+    "thirteen_figure_groups": true,
+    "exactly_two_actual_videos": true,
+    "video_overview_five_views_and_body_side": true,
+    "video_interface_closeup": true,
+    "video_actual_time_range": true,
+    "html_local_links": true,
+    "delivery_file_identities": true,
+    "separate_branch": true,
+    "exact_source_ancestry": true,
+    "historical_branch_unchanged": true,
+    "tracked_historical_files_unchanged": true
+  },
+  "audit_identity": {
+    "v6_mujoco/geometry_capture/completion_audit.py": "0e34ee756ec97b5ddab3d500cd102c074ed348f30b4c970a3523b62feaee4c13"
+  },
+  "formal_attempts": 1,
+  "replays": 1,
+  "new_physics_steps_in_audit": 0,
+  "source_commit": "f2c4cf5cc12dd299589dc4e0a3f32d52ed085403",
+  "branch": "codex/n206-terminal-geometry-feasibility",
+  "limits": [
+    "No 18 s completion or fixed-window detumbling evidence.",
+    "No real gripper, hardware design, CAD or load certification.",
+    "Finite planning bounds and perturbations do not prove robustness for every continuous disturbance."
+  ],
+  "delivery_manifest_sha256": "5c83d648f40c715ac5e3447fbad32bfcb7885a71b2da085fdad07f1beddac060"
+}

@@ -1,0 +1,424 @@
+{
+  "frozen_candidates_m": [
+    0.002,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "results": [
+    {
+      "increment_m": 0.002,
+      "spacer_length_m": -0.0082,
+      "pad_front_z_m": 0.0018,
+      "radius_m": 0.035,
+      "mass_kg": 0.018703471863146838,
+      "com_flange_m": [
+        0.0,
+        0.0,
+        0.0009
+      ],
+      "diaginertia_kg_m2": [
+        5.732988195491769e-06,
+        5.732988195491769e-06,
+        1.145587651617744e-05
+      ],
+      "qualified": false,
+      "reason": "NO_POSITIVE_EXTERNAL_SPACER: pad back lies behind frozen flange seat; no unverified recess or bore invented"
+    },
+    {
+      "increment_m": 0.005,
+      "spacer_length_m": -0.0052,
+      "pad_front_z_m": 0.0048000000000000004,
+      "radius_m": 0.035,
+      "mass_kg": 0.04987592496839158,
+      "com_flange_m": [
+        0.0,
+        0.0,
+        0.0024000000000000002
+      ],
+      "diaginertia_kg_m2": [
+        1.5370263797509234e-05,
+        1.5370263797509234e-05,
+        3.054900404313985e-05
+      ],
+      "qualified": false,
+      "reason": "NO_POSITIVE_EXTERNAL_SPACER: pad back lies behind frozen flange seat; no unverified recess or bore invented"
+    },
+    {
+      "increment_m": 0.01,
+      "spacer_length_m": -0.00020000000000000052,
+      "pad_front_z_m": 0.0098,
+      "radius_m": 0.035,
+      "mass_kg": 0.10183001347713279,
+      "com_flange_m": [
+        0.0,
+        0.0,
+        0.0049
+      ],
+      "diaginertia_kg_m2": [
+        3.200042116856724e-05,
+        3.200042116856724e-05,
+        6.237088325474384e-05
+      ],
+      "qualified": false,
+      "reason": "NO_POSITIVE_EXTERNAL_SPACER: pad back lies behind frozen flange seat; no unverified recess or bore invented"
+    },
+    {
+      "increment_m": 0.02,
+      "spacer_length_m": 0.009800000000000001,
+      "pad_front_z_m": 0.0198,
+      "radius_m": 0.035,
+      "mass_kg": 0.20573819049461525,
+      "com_flange_m": [
+        0.0,
+        0.0,
+        0.0099
+      ],
+      "diaginertia_kg_m2": [
+        6.9728787522435e-05,
+        6.9728787522435e-05,
+        0.00012601464167795185
+      ],
+      "qualified": true,
+      "all_pairs": [
+        {
+          "pair": "link0_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link1_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link2_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link3_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link4_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link5_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link6_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link7_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link2_to_satellite",
+          "distance_m": 0.25850226009480143,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link3_to_satellite",
+          "distance_m": 0.23487840481490663,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link4_to_satellite",
+          "distance_m": 0.2425223204651875,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link5_to_satellite",
+          "distance_m": 0.46600582900224496,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link6_to_satellite",
+          "distance_m": 0.5813058765988306,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link7_to_satellite",
+          "distance_m": 0.7031460056922243,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link0_to_link4",
+          "distance_m": 0.29982349963692023,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link0_to_link5",
+          "distance_m": 0.5342924024218753,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link0_to_link6",
+          "distance_m": 0.6736610421340272,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link0_to_link7",
+          "distance_m": 0.789422825353976,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link1_to_link5",
+          "distance_m": 0.47098374500049783,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link1_to_link6",
+          "distance_m": 0.5867795241189526,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link1_to_link7",
+          "distance_m": 0.7072510279889199,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link2_to_link6",
+          "distance_m": 0.44884612860068196,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link2_to_link7",
+          "distance_m": 0.5708678325136651,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "link3_to_link7",
+          "distance_m": 0.39532625925094994,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "satellite_base_collision__tumbling_target_geom",
+          "distance_m": 0.8445877546040509,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "satellite_base_collision__target_contact_plate",
+          "distance_m": 0.8455215262565583,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link0_collision__tumbling_target_geom",
+          "distance_m": 0.9119370963514084,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link0_collision__target_contact_plate",
+          "distance_m": 0.926134417253575,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link1_collision__tumbling_target_geom",
+          "distance_m": 0.7890246043577603,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link1_collision__target_contact_plate",
+          "distance_m": 0.8294546914836775,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link2_collision__tumbling_target_geom",
+          "distance_m": 0.6664433180215169,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link2_collision__target_contact_plate",
+          "distance_m": 0.6971189048028916,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link3_collision__tumbling_target_geom",
+          "distance_m": 0.5348139380448151,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link3_collision__target_contact_plate",
+          "distance_m": 0.5370399102651955,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link4_collision__tumbling_target_geom",
+          "distance_m": 0.3920295678216438,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link4_collision__target_contact_plate",
+          "distance_m": 0.3988645189694289,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link5_collision__tumbling_target_geom",
+          "distance_m": 0.14939638202388078,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link5_collision__target_contact_plate",
+          "distance_m": 0.1662507798380828,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link6_collision__tumbling_target_geom",
+          "distance_m": 0.1486682605700166,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link6_collision__target_contact_plate",
+          "distance_m": 0.14866826057001664,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link7_collision__tumbling_target_geom",
+          "distance_m": 0.01970706338772444,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "link7_collision__target_contact_plate",
+          "distance_m": 0.019707063387724363,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "gripper_contact_pad__tumbling_target_geom",
+          "distance_m": -4.406362202035793e-05,
+          "planning_minimum_m": -0.002
+        },
+        {
+          "pair": "n206_spacer__tumbling_target_geom",
+          "distance_m": 0.009955805761621367,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "n206_spacer__target_contact_plate",
+          "distance_m": 0.009955805767459113,
+          "planning_minimum_m": 0.002
+        },
+        {
+          "pair": "n206_spacer__satellite_base_collision",
+          "distance_m": 0.8278797759679465,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__link0_collision",
+          "distance_m": 0.9137695652021331,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__link1_collision",
+          "distance_m": 0.8246164225754699,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__link2_collision",
+          "distance_m": 0.690681350953857,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__link3_collision",
+          "distance_m": 0.520208608853139,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__link4_collision",
+          "distance_m": 0.38256652063215124,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__link5_collision",
+          "distance_m": 0.1569143254199787,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__link6_collision",
+          "distance_m": 0.1289140143253371,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "n206_spacer__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__satellite_base_collision",
+          "distance_m": 0.8376540902004225,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__link0_collision",
+          "distance_m": 0.9233370762850673,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__link1_collision",
+          "distance_m": 0.8334916830446356,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__link2_collision",
+          "distance_m": 0.6997985697608816,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__link3_collision",
+          "distance_m": 0.5299315463504886,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__link4_collision",
+          "distance_m": 0.39219710491784815,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__link5_collision",
+          "distance_m": 0.16510326376711537,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__link6_collision",
+          "distance_m": 0.13871401399136407,
+          "planning_minimum_m": 0.045
+        },
+        {
+          "pair": "gripper_contact_pad__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_minimum_m": 0.045
+        }
+      ],
+      "old_body_inertias_identical": true,
+      "nq_nv_nu": [
+        21,
+        19,
+        7
+      ],
+      "static_posture_scope": "old joint angles used only as arbitrary rigid assembly seed; exact mating from fixed chain, not an IK or planning result",
+      "assembly_exemptions": [
+        {
+          "pair": "n206_spacer--link7",
+          "reason": "explicit bolted-seat simulation assumption at flange; attached rigid part, not target contact"
+        },
+        {
+          "pair": "n206_spacer--pad",
+          "reason": "contiguous tool body, internal face"
+        },
+        {
+          "pair": "pad--link7",
+          "reason": "same fixed assembly; shifted pad has positive clearance, not a target exemption"
+        }
+      ]
+    }
+  ],
+  "selection_does_not_use_dynamics": true
+}

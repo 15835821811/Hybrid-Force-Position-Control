@@ -56,3 +56,9 @@ models/flexiv_rizon4s_n201_interface_candidate.xml -text whitespace=cr-at-eol
 paper/N201_INTERFACE_CALIBRATION_REPORT.md text eol=lf
 output/fpmfc/n201_interface_calibration/** -text whitespace=cr-at-eol
 output/fpmfc/n201_interface_calibration/**/*.npz filter=lfs diff=lfs merge=lfs -text
+
+# N206 byte-stable frozen evidence and implementation.
+v6_mujoco/geometry_capture/*.py -text
+configs/n206_geometry_capture.yaml -text
+models/flexiv_rizon4s_n206_tool_scene.xml -text
+paper/N206_GEOMETRY_COMPATIBILITY_REPORT.md text eol=lf

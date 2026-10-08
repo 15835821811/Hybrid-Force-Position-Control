@@ -1,0 +1,1236 @@
+{
+  "candidates": [
+    {
+      "name": "standard_C1",
+      "qualified": false,
+      "scope": "KINEMATIC_PLANNING_ONLY_NOT_REAL_CLOSED_LOOP",
+      "new_physics_steps": 0,
+      "times_s": [
+        0.0,
+        8.0
+      ],
+      "samples": 4001,
+      "all_hard_tasks_passed": true,
+      "min_QP_constraint_slack": 9.999999999961082e-05,
+      "terminal_gates": {
+        "position": true,
+        "rotation": true,
+        "shape": true
+      },
+      "terminal_errors": {
+        "position_error_m": 9.367724290033841e-05,
+        "rotation_error_rad": 1.2766371590891835e-05,
+        "shape_error_rad": 0.0010976920157172998
+      },
+      "pair_minima": [
+        {
+          "pair": "link0_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link1_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link2_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link3_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link4_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link5_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link6_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link7_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link2_to_satellite",
+          "distance_m": 0.22943858458433986,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.1318185824935878
+        },
+        {
+          "pair": "link3_to_satellite",
+          "distance_m": 0.1477286266731312,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.057158453690012864
+        },
+        {
+          "pair": "link4_to_satellite",
+          "distance_m": 0.12120211538794848,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.04112621566694792
+        },
+        {
+          "pair": "link5_to_satellite",
+          "distance_m": 0.32828055742733586,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.24800601019288365
+        },
+        {
+          "pair": "link6_to_satellite",
+          "distance_m": 0.4689566076194672,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3977149429576174
+        },
+        {
+          "pair": "link7_to_satellite",
+          "distance_m": 0.46476352793661707,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.41120602708363624
+        },
+        {
+          "pair": "link0_to_link4",
+          "distance_m": 0.2538330077495911,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.15872308578475763
+        },
+        {
+          "pair": "link0_to_link5",
+          "distance_m": 0.4514548986948527,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3783808527986171
+        },
+        {
+          "pair": "link0_to_link6",
+          "distance_m": 0.5218524997172801,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.44357664750081105
+        },
+        {
+          "pair": "link0_to_link7",
+          "distance_m": 0.5957945616965172,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5297069048978048
+        },
+        {
+          "pair": "link1_to_link5",
+          "distance_m": 0.3597732163547803,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.2851796113680173
+        },
+        {
+          "pair": "link1_to_link6",
+          "distance_m": 0.44205565385488144,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.36410887272928294
+        },
+        {
+          "pair": "link1_to_link7",
+          "distance_m": 0.5549631022351791,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.47691719336484834
+        },
+        {
+          "pair": "link2_to_link6",
+          "distance_m": 0.31340639475922094,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.23564693178722174
+        },
+        {
+          "pair": "link2_to_link7",
+          "distance_m": 0.43401318523762833,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.35762795234799405
+        },
+        {
+          "pair": "link3_to_link7",
+          "distance_m": 0.39501379167746326,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.31208755251567205
+        },
+        {
+          "pair": "satellite_base_collision__tumbling_target_geom",
+          "distance_m": 0.7694225497658975,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7531340828110407
+        },
+        {
+          "pair": "satellite_base_collision__target_contact_plate",
+          "distance_m": 0.8044721037659287,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.781581528450877
+        },
+        {
+          "pair": "link0_collision__tumbling_target_geom",
+          "distance_m": 0.8397852509869836,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.8358929672110716
+        },
+        {
+          "pair": "link0_collision__target_contact_plate",
+          "distance_m": 0.8920803215068226,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.8735404214306657
+        },
+        {
+          "pair": "link1_collision__tumbling_target_geom",
+          "distance_m": 0.7593268294193726,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7570276059581225
+        },
+        {
+          "pair": "link1_collision__target_contact_plate",
+          "distance_m": 0.7889560981719299,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7718002854054661
+        },
+        {
+          "pair": "link2_collision__tumbling_target_geom",
+          "distance_m": 0.6366042480237089,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.6183663221292605
+        },
+        {
+          "pair": "link2_collision__target_contact_plate",
+          "distance_m": 0.6424155803230978,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.6237631390779503
+        },
+        {
+          "pair": "link3_collision__tumbling_target_geom",
+          "distance_m": 0.48067944922191397,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.46471451659026036
+        },
+        {
+          "pair": "link3_collision__target_contact_plate",
+          "distance_m": 0.48753616901014546,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.47153028780062994
+        },
+        {
+          "pair": "link4_collision__tumbling_target_geom",
+          "distance_m": 0.3401428680314597,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.3380957441416559
+        },
+        {
+          "pair": "link4_collision__target_contact_plate",
+          "distance_m": 0.3573654168452665,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.3431987773752544
+        },
+        {
+          "pair": "link5_collision__tumbling_target_geom",
+          "distance_m": 0.14930574866791527,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.14131398995246294
+        },
+        {
+          "pair": "link5_collision__target_contact_plate",
+          "distance_m": 0.16610303621864528,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.15534961708115788
+        },
+        {
+          "pair": "link6_collision__tumbling_target_geom",
+          "distance_m": 0.1262882071743518,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.119528504774744
+        },
+        {
+          "pair": "link6_collision__target_contact_plate",
+          "distance_m": 0.14861203662098085,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.13767627641682237
+        },
+        {
+          "pair": "link7_collision__tumbling_target_geom",
+          "distance_m": 0.019648809044892104,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.011133634456008568
+        },
+        {
+          "pair": "link7_collision__target_contact_plate",
+          "distance_m": 0.01964880904489215,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.01113363445600862
+        },
+        {
+          "pair": "gripper_contact_pad__tumbling_target_geom",
+          "distance_m": -0.00010257351759593761,
+          "planning_margin_m": -0.002,
+          "conservative_step_envelope_slack_m": -0.004828056358158482
+        },
+        {
+          "pair": "n206_spacer__tumbling_target_geom",
+          "distance_m": 0.00989741781724377,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.0011595737879573995
+        },
+        {
+          "pair": "n206_spacer__target_contact_plate",
+          "distance_m": 0.009897417847590045,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.0011595737863011515
+        },
+        {
+          "pair": "n206_spacer__satellite_base_collision",
+          "distance_m": 0.46503842890396013,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4128872903887521
+        },
+        {
+          "pair": "n206_spacer__link0_collision",
+          "distance_m": 0.6050732877069486,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5424596869402001
+        },
+        {
+          "pair": "n206_spacer__link1_collision",
+          "distance_m": 0.5980764150503542,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5275361214428894
+        },
+        {
+          "pair": "n206_spacer__link2_collision",
+          "distance_m": 0.5266479422001628,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4483674582398497
+        },
+        {
+          "pair": "n206_spacer__link3_collision",
+          "distance_m": 0.5141650380192901,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4356883848179145
+        },
+        {
+          "pair": "n206_spacer__link4_collision",
+          "distance_m": 0.37635696541346747,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.29161780130648807
+        },
+        {
+          "pair": "n206_spacer__link5_collision",
+          "distance_m": 0.15571395683772588,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.05769386337056512
+        },
+        {
+          "pair": "n206_spacer__link6_collision",
+          "distance_m": 0.12891401432511243,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.030892083541235266
+        },
+        {
+          "pair": "n206_spacer__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.9019780692158659
+        },
+        {
+          "pair": "gripper_contact_pad__satellite_base_collision",
+          "distance_m": 0.46009254605334926,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4083645132915363
+        },
+        {
+          "pair": "gripper_contact_pad__link0_collision",
+          "distance_m": 0.6037182145753508,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5423485120571044
+        },
+        {
+          "pair": "gripper_contact_pad__link1_collision",
+          "distance_m": 0.5988399517285199,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5296185661120648
+        },
+        {
+          "pair": "gripper_contact_pad__link2_collision",
+          "distance_m": 0.53342966936639,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.45517301877679056
+        },
+        {
+          "pair": "gripper_contact_pad__link3_collision",
+          "distance_m": 0.5212297344815425,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.44519988714626413
+        },
+        {
+          "pair": "gripper_contact_pad__link4_collision",
+          "distance_m": 0.3837256543346315,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3010301836236068
+        },
+        {
+          "pair": "gripper_contact_pad__link5_collision",
+          "distance_m": 0.16414667089588503,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.06612991865027426
+        },
+        {
+          "pair": "gripper_contact_pad__link6_collision",
+          "distance_m": 0.13871401399107178,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.04069208320717396
+        },
+        {
+          "pair": "gripper_contact_pad__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.9019780692158659
+        }
+      ],
+      "step_envelope": "For piecewise constant generalized-velocity interpolation: hinge lever bound 3 m, robot base radius 3 m, target radius .27 m. Does not bound physical tracking errors or arbitrary pose disturbances.",
+      "violations": [],
+      "files_identity": {
+        "output/fpmfc/n206_geometry_capture/planning/standard_C1/kinematic_trace.npz": "3aa35a9ee34a7679c13d912618fb4b5c1735796505db41bb422d935a02d63c6e",
+        "output/fpmfc/n206_geometry_capture/planning/standard_C1/tasks.json": "be3e677471c4b9545d20e9e0e03ee973248092f01e7bafd64c77a6ff734530e1"
+      }
+    },
+    {
+      "name": "normal_approach_40mm",
+      "qualified": false,
+      "scope": "KINEMATIC_PLANNING_ONLY_NOT_REAL_CLOSED_LOOP",
+      "new_physics_steps": 0,
+      "times_s": [
+        0.0,
+        8.0
+      ],
+      "samples": 4001,
+      "all_hard_tasks_passed": true,
+      "min_QP_constraint_slack": 9.999999999961082e-05,
+      "terminal_gates": {
+        "position": true,
+        "rotation": true,
+        "shape": true
+      },
+      "terminal_errors": {
+        "position_error_m": 0.0005126963173630887,
+        "rotation_error_rad": 9.160568030351404e-06,
+        "shape_error_rad": 0.001155154357603827
+      },
+      "pair_minima": [
+        {
+          "pair": "link0_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link1_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link2_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link3_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link4_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link5_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link6_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link7_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link2_to_satellite",
+          "distance_m": 0.2239644772788417,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.1318185824935878
+        },
+        {
+          "pair": "link3_to_satellite",
+          "distance_m": 0.1477286266731312,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.057158453690012864
+        },
+        {
+          "pair": "link4_to_satellite",
+          "distance_m": 0.12120211538794848,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.04112621566694792
+        },
+        {
+          "pair": "link5_to_satellite",
+          "distance_m": 0.32828055742733586,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.24800601019288365
+        },
+        {
+          "pair": "link6_to_satellite",
+          "distance_m": 0.4689566076194672,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3977149429576174
+        },
+        {
+          "pair": "link7_to_satellite",
+          "distance_m": 0.46476352793661707,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.41120602708363624
+        },
+        {
+          "pair": "link0_to_link4",
+          "distance_m": 0.2538330077495911,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.15872308578475763
+        },
+        {
+          "pair": "link0_to_link5",
+          "distance_m": 0.4514548986948527,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3783808527986171
+        },
+        {
+          "pair": "link0_to_link6",
+          "distance_m": 0.5218524997172801,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.44357664750081105
+        },
+        {
+          "pair": "link0_to_link7",
+          "distance_m": 0.5957945616965172,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5297069048978048
+        },
+        {
+          "pair": "link1_to_link5",
+          "distance_m": 0.3597732163547803,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.2851796113680173
+        },
+        {
+          "pair": "link1_to_link6",
+          "distance_m": 0.44205565385488144,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.36410887272928294
+        },
+        {
+          "pair": "link1_to_link7",
+          "distance_m": 0.5549631022351791,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.47691719336484834
+        },
+        {
+          "pair": "link2_to_link6",
+          "distance_m": 0.31340639475922094,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.23564693178722174
+        },
+        {
+          "pair": "link2_to_link7",
+          "distance_m": 0.43401318523762833,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.35762795234799405
+        },
+        {
+          "pair": "link3_to_link7",
+          "distance_m": 0.39517560989495537,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3120877265333469
+        },
+        {
+          "pair": "satellite_base_collision__tumbling_target_geom",
+          "distance_m": 0.7694225497658975,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7531340828110407
+        },
+        {
+          "pair": "satellite_base_collision__target_contact_plate",
+          "distance_m": 0.8044721037659287,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.781581528450877
+        },
+        {
+          "pair": "link0_collision__tumbling_target_geom",
+          "distance_m": 0.8397852509869836,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.8358929672110716
+        },
+        {
+          "pair": "link0_collision__target_contact_plate",
+          "distance_m": 0.8920803215068226,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.8735404214306657
+        },
+        {
+          "pair": "link1_collision__tumbling_target_geom",
+          "distance_m": 0.7593268294193726,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7570276059581225
+        },
+        {
+          "pair": "link1_collision__target_contact_plate",
+          "distance_m": 0.7889560981719299,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7718002854054661
+        },
+        {
+          "pair": "link2_collision__tumbling_target_geom",
+          "distance_m": 0.6366042480237089,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.6183663221292605
+        },
+        {
+          "pair": "link2_collision__target_contact_plate",
+          "distance_m": 0.6424155803230978,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.6237631390779503
+        },
+        {
+          "pair": "link3_collision__tumbling_target_geom",
+          "distance_m": 0.48067944922191397,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.46471451659026036
+        },
+        {
+          "pair": "link3_collision__target_contact_plate",
+          "distance_m": 0.48753616901014546,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.47153028780062994
+        },
+        {
+          "pair": "link4_collision__tumbling_target_geom",
+          "distance_m": 0.3401428680314597,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.3380957441416559
+        },
+        {
+          "pair": "link4_collision__target_contact_plate",
+          "distance_m": 0.3573654168452665,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.3431987773752544
+        },
+        {
+          "pair": "link5_collision__tumbling_target_geom",
+          "distance_m": 0.14882641618612427,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.14080518641660583
+        },
+        {
+          "pair": "link5_collision__target_contact_plate",
+          "distance_m": 0.1660692839047868,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.15797888720398934
+        },
+        {
+          "pair": "link6_collision__tumbling_target_geom",
+          "distance_m": 0.1262882071743518,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.119528504774744
+        },
+        {
+          "pair": "link6_collision__target_contact_plate",
+          "distance_m": 0.1481281642752359,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.1382770717886445
+        },
+        {
+          "pair": "link7_collision__tumbling_target_geom",
+          "distance_m": 0.019165779952134036,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.011131799056093447
+        },
+        {
+          "pair": "link7_collision__target_contact_plate",
+          "distance_m": 0.019165779952134025,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.011131799056093461
+        },
+        {
+          "pair": "gripper_contact_pad__tumbling_target_geom",
+          "distance_m": -0.0005856013026679609,
+          "planning_margin_m": -0.002,
+          "conservative_step_envelope_slack_m": -0.00461959089345614
+        },
+        {
+          "pair": "n206_spacer__tumbling_target_geom",
+          "distance_m": 0.009414389800328703,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.0013803076806067783
+        },
+        {
+          "pair": "n206_spacer__target_contact_plate",
+          "distance_m": 0.009414389801506228,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.0013803076796319522
+        },
+        {
+          "pair": "n206_spacer__satellite_base_collision",
+          "distance_m": 0.46503842890396013,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4128872903887521
+        },
+        {
+          "pair": "n206_spacer__link0_collision",
+          "distance_m": 0.6050732877069486,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5424596869402001
+        },
+        {
+          "pair": "n206_spacer__link1_collision",
+          "distance_m": 0.5980764150503542,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5275361214428894
+        },
+        {
+          "pair": "n206_spacer__link2_collision",
+          "distance_m": 0.5266479422001628,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4483674582398497
+        },
+        {
+          "pair": "n206_spacer__link3_collision",
+          "distance_m": 0.5141650380192901,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4356883848179145
+        },
+        {
+          "pair": "n206_spacer__link4_collision",
+          "distance_m": 0.37635696541346747,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.29161780130648807
+        },
+        {
+          "pair": "n206_spacer__link5_collision",
+          "distance_m": 0.15571395683772588,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.05769386337056512
+        },
+        {
+          "pair": "n206_spacer__link6_collision",
+          "distance_m": 0.12891401432511243,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.030892083541235266
+        },
+        {
+          "pair": "n206_spacer__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.9019780692158659
+        },
+        {
+          "pair": "gripper_contact_pad__satellite_base_collision",
+          "distance_m": 0.46009254605334926,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4083645132915363
+        },
+        {
+          "pair": "gripper_contact_pad__link0_collision",
+          "distance_m": 0.6037182145753508,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5423485120571044
+        },
+        {
+          "pair": "gripper_contact_pad__link1_collision",
+          "distance_m": 0.5988399517285199,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5296185661120648
+        },
+        {
+          "pair": "gripper_contact_pad__link2_collision",
+          "distance_m": 0.53342966936639,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.45517301877679056
+        },
+        {
+          "pair": "gripper_contact_pad__link3_collision",
+          "distance_m": 0.5212297344815425,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.44519988714626413
+        },
+        {
+          "pair": "gripper_contact_pad__link4_collision",
+          "distance_m": 0.3837256543346315,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3010301836236068
+        },
+        {
+          "pair": "gripper_contact_pad__link5_collision",
+          "distance_m": 0.16414667089632626,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.06612991865027426
+        },
+        {
+          "pair": "gripper_contact_pad__link6_collision",
+          "distance_m": 0.13871401399107178,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.04069208320717396
+        },
+        {
+          "pair": "gripper_contact_pad__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.9019780692158659
+        }
+      ],
+      "step_envelope": "For piecewise constant generalized-velocity interpolation: hinge lever bound 3 m, robot base radius 3 m, target radius .27 m. Does not bound physical tracking errors or arbitrary pose disturbances.",
+      "violations": [],
+      "files_identity": {
+        "output/fpmfc/n206_geometry_capture/planning/normal_approach_40mm/kinematic_trace.npz": "06a51a63543e333fa93b33a4f7239845e3533aad1527f4e9a6cce226408b4150",
+        "output/fpmfc/n206_geometry_capture/planning/normal_approach_40mm/tasks.json": "450e6569dc96a87ea33e2ef267385f64adc4ff6eb55a56265927db9e2408de09"
+      }
+    },
+    {
+      "name": "normal_approach_80mm",
+      "qualified": false,
+      "scope": "KINEMATIC_PLANNING_ONLY_NOT_REAL_CLOSED_LOOP",
+      "new_physics_steps": 0,
+      "times_s": [
+        0.0,
+        8.0
+      ],
+      "samples": 4001,
+      "all_hard_tasks_passed": true,
+      "min_QP_constraint_slack": 9.99999999995553e-05,
+      "terminal_gates": {
+        "position": true,
+        "rotation": true,
+        "shape": true
+      },
+      "terminal_errors": {
+        "position_error_m": 0.0009467908152798581,
+        "rotation_error_rad": 1.6329392220560073e-05,
+        "shape_error_rad": 0.001475441703767011
+      },
+      "pair_minima": [
+        {
+          "pair": "link0_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link1_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link2_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link3_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link4_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link5_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link6_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link7_to_obstacle",
+          "distance_m": 1.7976931348623157e+308,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.7976931348623157e+308
+        },
+        {
+          "pair": "link2_to_satellite",
+          "distance_m": 0.20765075816296807,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.1318185824935878
+        },
+        {
+          "pair": "link3_to_satellite",
+          "distance_m": 0.11553829799808311,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.0468880657551137
+        },
+        {
+          "pair": "link4_to_satellite",
+          "distance_m": 0.1130461765137956,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.04112621566694792
+        },
+        {
+          "pair": "link5_to_satellite",
+          "distance_m": 0.32828055742733586,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.24800601019288365
+        },
+        {
+          "pair": "link6_to_satellite",
+          "distance_m": 0.4689566076194672,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3977149429576174
+        },
+        {
+          "pair": "link7_to_satellite",
+          "distance_m": 0.46476352793661707,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.41120602708363624
+        },
+        {
+          "pair": "link0_to_link4",
+          "distance_m": 0.22653080483766172,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.15526453620505148
+        },
+        {
+          "pair": "link0_to_link5",
+          "distance_m": 0.44899554892709453,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.37727767634904263
+        },
+        {
+          "pair": "link0_to_link6",
+          "distance_m": 0.5218524997172801,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.44357664750081105
+        },
+        {
+          "pair": "link0_to_link7",
+          "distance_m": 0.5957945616965172,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5297069048978048
+        },
+        {
+          "pair": "link1_to_link5",
+          "distance_m": 0.3597732163547803,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.2851796113680173
+        },
+        {
+          "pair": "link1_to_link6",
+          "distance_m": 0.44205565385488144,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.36410887272928294
+        },
+        {
+          "pair": "link1_to_link7",
+          "distance_m": 0.5549631022351791,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.47691719336484834
+        },
+        {
+          "pair": "link2_to_link6",
+          "distance_m": 0.31340639475922094,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.23564693178722174
+        },
+        {
+          "pair": "link2_to_link7",
+          "distance_m": 0.43401318523762833,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.35762795234799405
+        },
+        {
+          "pair": "link3_to_link7",
+          "distance_m": 0.39520470942939256,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3120877265333469
+        },
+        {
+          "pair": "satellite_base_collision__tumbling_target_geom",
+          "distance_m": 0.7694225497658975,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7531340828110407
+        },
+        {
+          "pair": "satellite_base_collision__target_contact_plate",
+          "distance_m": 0.8044721037659287,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.781581528450877
+        },
+        {
+          "pair": "link0_collision__tumbling_target_geom",
+          "distance_m": 0.8397852509869836,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.8358929672110716
+        },
+        {
+          "pair": "link0_collision__target_contact_plate",
+          "distance_m": 0.8920803215068226,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.8735404214306657
+        },
+        {
+          "pair": "link1_collision__tumbling_target_geom",
+          "distance_m": 0.7593268294193726,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7540903338216814
+        },
+        {
+          "pair": "link1_collision__target_contact_plate",
+          "distance_m": 0.7889560981719299,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.7718002854054661
+        },
+        {
+          "pair": "link2_collision__tumbling_target_geom",
+          "distance_m": 0.6366042480237089,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.6183663221292605
+        },
+        {
+          "pair": "link2_collision__target_contact_plate",
+          "distance_m": 0.6424155803230978,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.6237631390779503
+        },
+        {
+          "pair": "link3_collision__tumbling_target_geom",
+          "distance_m": 0.48067944922191397,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.46471451659026036
+        },
+        {
+          "pair": "link3_collision__target_contact_plate",
+          "distance_m": 0.48753616901014546,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.47153028780062994
+        },
+        {
+          "pair": "link4_collision__tumbling_target_geom",
+          "distance_m": 0.3401428680314597,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.3380957441416559
+        },
+        {
+          "pair": "link4_collision__target_contact_plate",
+          "distance_m": 0.3573654168452665,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.3431987773752544
+        },
+        {
+          "pair": "link5_collision__tumbling_target_geom",
+          "distance_m": 0.14836105058197774,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.14022683531366137
+        },
+        {
+          "pair": "link5_collision__target_contact_plate",
+          "distance_m": 0.1656748910149156,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.15744747522452976
+        },
+        {
+          "pair": "link6_collision__tumbling_target_geom",
+          "distance_m": 0.1262882071743518,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.119528504774744
+        },
+        {
+          "pair": "link6_collision__target_contact_plate",
+          "distance_m": 0.1476578729433444,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.1382770717886445
+        },
+        {
+          "pair": "link7_collision__tumbling_target_geom",
+          "distance_m": 0.01869619980540569,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.010551571849134184
+        },
+        {
+          "pair": "link7_collision__target_contact_plate",
+          "distance_m": 0.018696199805405683,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.010551571849134184
+        },
+        {
+          "pair": "gripper_contact_pad__tumbling_target_geom",
+          "distance_m": -0.001055503371126153,
+          "planning_margin_m": -0.002,
+          "conservative_step_envelope_slack_m": -0.005200895080756364
+        },
+        {
+          "pair": "n206_spacer__tumbling_target_geom",
+          "distance_m": 0.008944462092737249,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.0007990839483146429
+        },
+        {
+          "pair": "n206_spacer__target_contact_plate",
+          "distance_m": 0.008944462092612676,
+          "planning_margin_m": 0.002,
+          "conservative_step_envelope_slack_m": 0.0007990839422116498
+        },
+        {
+          "pair": "n206_spacer__satellite_base_collision",
+          "distance_m": 0.46503842890396013,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4128872903887521
+        },
+        {
+          "pair": "n206_spacer__link0_collision",
+          "distance_m": 0.6050732877069486,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5424596869402001
+        },
+        {
+          "pair": "n206_spacer__link1_collision",
+          "distance_m": 0.5980764150503542,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5275361214428894
+        },
+        {
+          "pair": "n206_spacer__link2_collision",
+          "distance_m": 0.5266479422001628,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4483674582398497
+        },
+        {
+          "pair": "n206_spacer__link3_collision",
+          "distance_m": 0.5141650380192901,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4356883848179145
+        },
+        {
+          "pair": "n206_spacer__link4_collision",
+          "distance_m": 0.37635696541346747,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.29161780130648807
+        },
+        {
+          "pair": "n206_spacer__link5_collision",
+          "distance_m": 0.15571395683772588,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.05769386337056512
+        },
+        {
+          "pair": "n206_spacer__link6_collision",
+          "distance_m": 0.12891401432511243,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.030892083541235266
+        },
+        {
+          "pair": "n206_spacer__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.9019780692158659
+        },
+        {
+          "pair": "gripper_contact_pad__satellite_base_collision",
+          "distance_m": 0.46009254605334926,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.4083645132915363
+        },
+        {
+          "pair": "gripper_contact_pad__link0_collision",
+          "distance_m": 0.6037182145753508,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5423485120571044
+        },
+        {
+          "pair": "gripper_contact_pad__link1_collision",
+          "distance_m": 0.5988399517285199,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.5296185661120648
+        },
+        {
+          "pair": "gripper_contact_pad__link2_collision",
+          "distance_m": 0.53342966936639,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.45517301877679056
+        },
+        {
+          "pair": "gripper_contact_pad__link3_collision",
+          "distance_m": 0.5212297344815425,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.44519988714626413
+        },
+        {
+          "pair": "gripper_contact_pad__link4_collision",
+          "distance_m": 0.3837256543346315,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.3010301836236068
+        },
+        {
+          "pair": "gripper_contact_pad__link5_collision",
+          "distance_m": 0.1641466708967535,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.06612991865027426
+        },
+        {
+          "pair": "gripper_contact_pad__link6_collision",
+          "distance_m": 0.13871401399107178,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 0.04069208320717396
+        },
+        {
+          "pair": "gripper_contact_pad__workspace_obstacle_0",
+          "distance_m": 2.0,
+          "planning_margin_m": 0.045,
+          "conservative_step_envelope_slack_m": 1.9019780692158659
+        }
+      ],
+      "step_envelope": "For piecewise constant generalized-velocity interpolation: hinge lever bound 3 m, robot base radius 3 m, target radius .27 m. Does not bound physical tracking errors or arbitrary pose disturbances.",
+      "violations": [],
+      "files_identity": {
+        "output/fpmfc/n206_geometry_capture/planning/normal_approach_80mm/kinematic_trace.npz": "4bb41d5861b2871b3c76cb9de102572fba46b5166468346ff299dd95f9aaf3b6",
+        "output/fpmfc/n206_geometry_capture/planning/normal_approach_80mm/tasks.json": "793e972b5429b6a428dce9c57024c2c4ad102698921ca501f64e3e7a278004c9"
+      }
+    }
+  ],
+  "selected": null,
+  "maximum_candidates": 3,
+  "formal_dynamics_attempts": 0,
+  "skipped": [],
+  "selection_uses_postgrasp_metrics": false
+}

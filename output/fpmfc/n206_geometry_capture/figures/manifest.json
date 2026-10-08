@@ -1,0 +1,39 @@
+{
+  "generator_identity": {
+    "v6_mujoco/geometry_capture/figures.py": "eeaab985f3f272df0100e9118a18fbc94290430a6619deace1a9b65c21a90539"
+  },
+  "geometry_source_identity": {
+    "output/fpmfc/n206_geometry_capture/geometry_audit.json": "6ca1b4c9323421cf8e179869816a5857e10d617ff4dab4c27f295ccb06441206",
+    "output/fpmfc/n206_geometry_capture/selected_design.json": "0122626135151f71834bd29d45a7fb7d8cd822480d97f79ebb986e5bf4981529",
+    "output/fpmfc/n206_geometry_capture/trajectory_screening.json": "1c3d696fa58a011c4a106fe5745425158db7e5d7a41ce69b968685d625c7edb0"
+  },
+  "actual_trace_sha256": "45dcc042f036a1514ac152adffc239aa86d18ecd91cbabc9a3dabe364119c2fb",
+  "files": {
+    "output/fpmfc/n206_geometry_capture/figures/angular_speed_load_contact.png": "4672b041d63a005360e3a9ba5401ffa533b6697e6e43e6733ec7e90119337335",
+    "output/fpmfc/n206_geometry_capture/figures/capture_gate_failure.png": "45289009f945f9752e89130e97a65d4a95f3858bb28c21ed5d738142dd566bbb",
+    "output/fpmfc/n206_geometry_capture/figures/distance_safety.png": "0d118d0622b8e4463d1edc5707d0826fb0ac09a5238ce482c6f98f58476ea55b",
+    "output/fpmfc/n206_geometry_capture/figures/end_effector_tracking.png": "f582f440ebff2941614b942f6c17535b7d8822bde5a9833fe94cb7298534d772",
+    "output/fpmfc/n206_geometry_capture/figures/failure_witness.png": "2d0dde65c2f487485a25d3646b506e5904e42aff05569d0e137e81e56fee170b",
+    "output/fpmfc/n206_geometry_capture/figures/interface_holding.png": "9fa8abab34b9e783e690443663ac17e87886594d40d46ae9af4f453be6448ac6",
+    "output/fpmfc/n206_geometry_capture/figures/joints_and_torque.png": "4fdf05e5784f5c84ea90a2873ba96844797eb264e69e2d8c91ed69d8d1c5b2b9",
+    "output/fpmfc/n206_geometry_capture/figures/momentum_power.png": "84589688b374a9a876cce2177534014a713dde31b665502c8eace21dead5b578",
+    "output/fpmfc/n206_geometry_capture/figures/planning_pair_classes.png": "f94b0fb0adb4bc3dd7609e02282f2bcbe932be0b8777d8b366a9e86b437fb6b4",
+    "output/fpmfc/n206_geometry_capture/figures/planning_screening.png": "6eb1ab770ffe3261966610b9737f49b2dd597fc7034a55ecb257e7f406913b0f",
+    "output/fpmfc/n206_geometry_capture/figures/run_coverage.png": "63ca5e0e413b4c37abc69b01f4720be235e23829bb5f98cdf203222ea7827485",
+    "output/fpmfc/n206_geometry_capture/figures/terminal_sections.png": "f67dd168279f0ab2d863b2f5d2fd95ad95ecfe96dcc2e5e762da5275a86861b5",
+    "output/fpmfc/n206_geometry_capture/figures/tool_dimension_drawing.png": "3682fa264416ba5ea75b0337039a2402d698620978c0d34df88af0c6ae368038",
+    "output/fpmfc/n206_geometry_capture/figures/angular_speed_load_contact.pdf": "39a1f5a19bd56eab0a221939f0e316fb638183064a6efb26ab137942fa5c67f5",
+    "output/fpmfc/n206_geometry_capture/figures/capture_gate_failure.pdf": "113c2b07bb5e4e5fe1e478e441235f556dec72cdd921b3ed9621f91e68fad047",
+    "output/fpmfc/n206_geometry_capture/figures/distance_safety.pdf": "cb0a073f915ec6f49ddf2f531f609b16977f96d1d1f198a7025342102b9613c5",
+    "output/fpmfc/n206_geometry_capture/figures/end_effector_tracking.pdf": "6c503c391bd17f9c32034b6790d74ec12518b2ccec6408642fe43becf6bb6a74",
+    "output/fpmfc/n206_geometry_capture/figures/failure_witness.pdf": "804b3ec35681cb488a073107b9ddf84b10b4bfaef7dc7a7e8aec4493222f0aab",
+    "output/fpmfc/n206_geometry_capture/figures/interface_holding.pdf": "b6955ea0f4e1f3e37fb97f8852aea86dfdedc55b33b04a6b9c435fa7c410764e",
+    "output/fpmfc/n206_geometry_capture/figures/joints_and_torque.pdf": "565a1d97c3933669fd6abfa43c94904edf1adbe63ad786e7321e92952a858373",
+    "output/fpmfc/n206_geometry_capture/figures/momentum_power.pdf": "4c655f8fd8f594be88de211dbc3270da7da37e1566412a01ce2bb18b72ad5f7a",
+    "output/fpmfc/n206_geometry_capture/figures/planning_pair_classes.pdf": "2bff4dc984538083c028219709deb86e2d286632f5efa49c73b170754b8460e2",
+    "output/fpmfc/n206_geometry_capture/figures/planning_screening.pdf": "3f7206179be288a49104ed2c5150822a1796e8aac5205d52f1b26bc76271bc68",
+    "output/fpmfc/n206_geometry_capture/figures/run_coverage.pdf": "0fc0774d41571c3591ead52c6c2cd03048dd783034c2e3c541c27ba52dd2eeac",
+    "output/fpmfc/n206_geometry_capture/figures/terminal_sections.pdf": "c4f8f31a33a1302b96fc01b6dad0262fae2d0d4ff403d5477a4d4284a74d5455",
+    "output/fpmfc/n206_geometry_capture/figures/tool_dimension_drawing.pdf": "8dfa4e3658c06105be592bb324ada036bde5e039b8c6ef25ab036d430864adde"
+  }
+}

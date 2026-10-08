@@ -1,0 +1,392 @@
+{
+  "added_body": "n206_rigid_tool",
+  "parameters": {
+    "increment_m": 0.02,
+    "spacer_length_m": 0.009800000000000001,
+    "pad_front_z_m": 0.0198,
+    "radius_m": 0.035,
+    "mass_kg": 0.20573819049461525,
+    "com_flange_m": [
+      0.0,
+      0.0,
+      0.0099
+    ],
+    "diaginertia_kg_m2": [
+      6.9728787522435e-05,
+      6.9728787522435e-05,
+      0.00012601464167795185
+    ]
+  },
+  "original_bodies_identical": true,
+  "joint_count": 7,
+  "home_system": {
+    "mass_kg": 541.0057381904945,
+    "center_world_m": [
+      0.04489880419834635,
+      0.00368825810557854,
+      0.0596723222993673
+    ],
+    "linear_momentum_world_kg_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "angular_momentum_about_center_world_kg_m2_s": [
+      5.813114163347719e-18,
+      -0.02617993877991494,
+      -2.5815412755692965e-33
+    ],
+    "locked_inertia_world_kg_m2": [
+      [
+        46.81506984174999,
+        -2.2492849541048536,
+        -20.32098913467874
+      ],
+      [
+        -2.2492849541048536,
+        66.09600587474577,
+        -1.9899726816761885
+      ],
+      [
+        -20.32098913467874,
+        -1.9899726816761885,
+        41.35261537455403
+      ]
+    ],
+    "omega_locked_prediction_world_rad_s": [
+      -3.490743803241796e-05,
+      -0.0003983711179374555,
+      -3.632421546340406e-05
+    ],
+    "kinetic_energy_j": 0.001142315324200157,
+    "relative_energy_j": 0.0011371006584605125,
+    "body_velocities": {
+      "tumbling_target": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          1.9377047211159065e-17,
+          -0.08726646259971647,
+          -4.302568792615494e-33
+        ]
+      },
+      "base_link_0": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "base_link": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "link1": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "link2": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "link3": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "link4": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "link5": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "link6": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "link7": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "n206_rigid_tool": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "excluded_visual_mocap_mass_kg": 0.007238229473870883,
+    "system_definition": "free robot and target; prescribed visual mocap marker excluded; plant unchanged"
+  },
+  "ideal_static_system": {
+    "mass_kg": 541.0057381904945,
+    "center_world_m": [
+      0.030203921292378713,
+      0.003783205717623088,
+      0.047434556697815405
+    ],
+    "linear_momentum_world_kg_m_s": [
+      0.0015978470920291568,
+      -1.1454685282722152e-05,
+      -0.0019476865597467326
+    ],
+    "angular_momentum_about_center_world_kg_m2_s": [
+      -0.00025603508903602264,
+      -0.023355054320087693,
+      -0.00022669717416329573
+    ],
+    "locked_inertia_world_kg_m2": [
+      [
+        45.69766715962506,
+        -2.887544633500184,
+        -21.49649960423418
+      ],
+      [
+        -2.887544633500184,
+        66.58119352368267,
+        -2.602037701641863
+      ],
+      [
+        -21.49649960423418,
+        -2.602037701641863,
+        43.0087336607963
+      ]
+    ],
+    "omega_locked_prediction_world_rad_s": [
+      -5.3122088809622414e-05,
+      -0.0003551627620520605,
+      -5.3309707986219876e-05
+    ],
+    "kinetic_energy_j": 0.00686490420963882,
+    "relative_energy_j": 0.006860738078022603,
+    "body_velocities": {
+      "tumbling_target": {
+        "linear_velocity_world_m_s": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_velocity_world_rad_s": [
+          1.9377047211159068e-17,
+          -0.08726646259971646,
+          -8.477458154882094e-18
+        ]
+      },
+      "base_link_0": {
+        "linear_velocity_world_m_s": [
+          3.4410601093135835e-05,
+          -8.027682503421181e-05,
+          9.496883800632636e-06
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0017285223993363382,
+          0.0003004440640794233,
+          -0.0007300562934783336
+        ]
+      },
+      "base_link": {
+        "linear_velocity_world_m_s": [
+          0.00011804173872165629,
+          -0.0006602493520308194,
+          -3.1172594235005155e-05
+        ],
+        "angular_velocity_world_rad_s": [
+          0.0017285223993363382,
+          0.0003004440640794233,
+          -0.0007300562934783336
+        ]
+      },
+      "link1": {
+        "linear_velocity_world_m_s": [
+          0.00034847087618989085,
+          -0.0009635460673277048,
+          -6.492890847959655e-05
+        ],
+        "angular_velocity_world_rad_s": [
+          0.001257427480701999,
+          -0.0011368617202398399,
+          0.01879809361604691
+        ]
+      },
+      "link2": {
+        "linear_velocity_world_m_s": [
+          0.0005520042836794862,
+          0.0010224971094739796,
+          -0.0009929703247955996
+        ],
+        "angular_velocity_world_rad_s": [
+          -0.0022564619980711084,
+          0.00877725886858419,
+          0.0194430214483819
+        ]
+      },
+      "link3": {
+        "linear_velocity_world_m_s": [
+          -0.0014897363606061142,
+          0.005130766492015417,
+          -0.003050764117202909
+        ],
+        "angular_velocity_world_rad_s": [
+          -0.006436112062151519,
+          0.007220887115558256,
+          0.020595443189465955
+        ]
+      },
+      "link4": {
+        "linear_velocity_world_m_s": [
+          -0.005177731370595202,
+          0.004967522750488654,
+          0.0034315969920190896
+        ],
+        "angular_velocity_world_rad_s": [
+          0.018296429029906483,
+          -0.07911348075370894,
+          -0.006300096352880185
+        ]
+      },
+      "link5": {
+        "linear_velocity_world_m_s": [
+          -0.015650861674574548,
+          0.0013842997074637008,
+          0.01801238382091975
+        ],
+        "angular_velocity_world_rad_s": [
+          -0.29185411296451347,
+          -0.09156091085554675,
+          -0.2515515442658899
+        ]
+      },
+      "link6": {
+        "linear_velocity_world_m_s": [
+          0.0074812663326164,
+          0.007573670288521087,
+          -0.011802996266747044
+        ],
+        "angular_velocity_world_rad_s": [
+          -0.2951210518839268,
+          -0.08686527288637241,
+          -0.24765842045667777
+        ]
+      },
+      "link7": {
+        "linear_velocity_world_m_s": [
+          0.012451087806865622,
+          -5.5148016189079246e-05,
+          -0.015049482115416991
+        ],
+        "angular_velocity_world_rad_s": [
+          8.760127193238598e-06,
+          -0.08686321013701152,
+          -9.015941629109125e-07
+        ]
+      },
+      "n206_rigid_tool": {
+        "linear_velocity_world_m_s": [
+          0.007766407618674389,
+          -5.5678409801834805e-05,
+          -0.009466817834851787
+        ],
+        "angular_velocity_world_rad_s": [
+          8.760127193238598e-06,
+          -0.08686321013701152,
+          -9.015941629109125e-07
+        ]
+      }
+    },
+    "excluded_visual_mocap_mass_kg": 0.007238229473870883,
+    "system_definition": "free robot and target; prescribed visual mocap marker excluded; plant unchanged"
+  },
+  "lever_arm_change_flange_m": [
+    0,
+    0,
+    0.02
+  ],
+  "interface_weld_parameters_unchanged": true,
+  "required_requalification": [
+    "new whole-system momentum and locked inertia",
+    "interface physical wrench and power at shifted site",
+    "candidate2 restricted load envelope with new lever arm",
+    "capture rejection and no state mutation",
+    "seven actuator joint load limits"
+  ],
+  "historical_qualification_inherited": false
+}

@@ -1,0 +1,4 @@
+** -text whitespace=cr-at-eol
+*.npz filter=lfs diff=lfs merge=lfs -text
+**/*.npz filter=lfs diff=lfs merge=lfs -text
+**/*.mp4 filter=lfs diff=lfs merge=lfs -text
