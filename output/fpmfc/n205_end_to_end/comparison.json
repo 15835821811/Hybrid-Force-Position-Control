@@ -1,0 +1,112 @@
+{
+  "results": {
+    "nominal": {
+      "status": "UNINTENDED_CONTACT_OR_COLLISION",
+      "end_time_s": 7.361999999999411,
+      "samples": 3682,
+      "continuous_18s_completed": false,
+      "full_window_evaluated": false,
+      "evaluation_window_s": [
+        16,
+        18
+      ],
+      "target_window_max_deg_s": null,
+      "relative_window_max_deg_s": null,
+      "performance": "NOT_EVALUATED",
+      "end_to_end_passed": false,
+      "max_rho": 0.0,
+      "postgrasp_max_translation_m": null,
+      "postgrasp_max_rotation_deg": null,
+      "max_P_drift": 8.842967373863342e-10,
+      "max_H_drift": 4.8287190211045306e-11,
+      "first_geometric_contact_s": null,
+      "first_nonzero_contact_force_s": null,
+      "first_threshold_contact_s": null,
+      "peak_contact_force_n": 0.0,
+      "max_penetration_m": 0.0,
+      "phase_integrated_work_j": {
+        "approach": {
+          "actuator_power_w": 0.9004135560542821,
+          "passive_power_w": -0.891388987230345,
+          "all_constraint_power_w": 0.0,
+          "latch_constraint_power_w": 0.0
+        },
+        "postgrasp": {
+          "actuator_power_w": 0.0,
+          "passive_power_w": 0.0,
+          "all_constraint_power_w": 0.0,
+          "latch_constraint_power_w": 0.0
+        }
+      },
+      "reason": "link7_collision__tumbling_target_geom",
+      "scenario": "nominal",
+      "dt": 0.002,
+      "elapsed_wall_s": 13.236882900353521,
+      "implementation_identity": {
+        "v6_mujoco/end_to_end_capture/__init__.py": "265bca6da41045b03d8671d24647312abb2ebfb8303a891eb5976afddac35946",
+        "v6_mujoco/end_to_end_capture/__main__.py": "85b144c1ceff285d7332c9ca4b65098b158319be8092001310c990d7a50f5191",
+        "v6_mujoco/end_to_end_capture/adapter.py": "4683ca20eeaa776fd612a90682e227f01d2f8a022c4f0ebab817a566e072bdd2",
+        "v6_mujoco/end_to_end_capture/approach.py": "52d8903e180c3de9f3f24f12ab95502e1f1921819b14bbb4737580cdd58c6688",
+        "v6_mujoco/end_to_end_capture/common.py": "eefed8d7af2557683b056a023db2a1ae77ddd52124fa250976c79ac0883453b0",
+        "v6_mujoco/end_to_end_capture/observer.py": "912f6aa38c4b92aa68cb7adc779ac4acbca31f0763b61986b3dfd635bee26ce0",
+        "v6_mujoco/end_to_end_capture/runner.py": "05afe40d85dee2531bdac640aae05b5ef6b90e49f5d9271d257274b8c7b76704",
+        "v6_mujoco/end_to_end_capture/selftest.py": "2d07cc465200f1873a2131c5a6d916b4231e1ccef2f9ddd4d7530695055bbba0",
+        "v6_mujoco/end_to_end_capture/validator.py": "ca5462eb263c1557b70f27a23c94b3467589cc72552645728452ce68d8d24492"
+      },
+      "trace_sha256": "b95dc4caf00f22a417ebe209aca748c717f7691e5db5a36aebdbff1cafabd012",
+      "single_continuous_plant": true,
+      "site_and_inertia_unchanged": true,
+      "no_terminal_state_injection": true,
+      "control_latency_s": {
+        "count": 3682,
+        "mean": 0.0005639937038784812,
+        "p99": 0.0025265270797535785,
+        "max": 0.0029231999069452286
+      }
+    }
+  },
+  "C1_comparison": {
+    "comparison": "named robot coordinates; only common 2 ms samples",
+    "pre_first_contact_common_samples": 3681,
+    "pre_first_contact_max_errors": {
+      "qpos": 5.588018936464323e-11,
+      "qvel": 8.170064624835049e-10
+    },
+    "first_difference_above_diagnostic_threshold": null,
+    "thresholds": {
+      "qpos": 1e-08,
+      "qvel": 1e-07
+    },
+    "not_a_requirement_for_bitwise_equality": true
+  },
+  "historical_terminal_geometry": {
+    "scope": "isolated static replay of HISTORICAL C1 terminal geometry at 8 s; zero integration steps; NOT the unexecuted N205 t=8 state and never injected into its plant",
+    "source_trace_sha256": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998",
+    "distances_m": {
+      "satellite_base_collision__tumbling_target_geom": 0.8245877546123135,
+      "satellite_base_collision__target_contact_plate": 0.8255441451616742,
+      "link0_collision__tumbling_target_geom": 0.8919441528961798,
+      "link0_collision__target_contact_plate": 0.9064547173164142,
+      "link1_collision__tumbling_target_geom": 0.7696313890530823,
+      "link1_collision__target_contact_plate": 0.8110288684737765,
+      "link2_collision__tumbling_target_geom": 0.6465912354542767,
+      "link2_collision__target_contact_plate": 0.6781654581324957,
+      "link3_collision__tumbling_target_geom": 0.5148139380530772,
+      "link3_collision__target_contact_plate": 0.5170879033974964,
+      "link4_collision__tumbling_target_geom": 0.3720336273508137,
+      "link4_collision__target_contact_plate": 0.37910667812259596,
+      "link5_collision__tumbling_target_geom": 0.12939638203214232,
+      "link5_collision__target_contact_plate": 0.14853770867182675,
+      "link6_collision__tumbling_target_geom": 0.1286682605782781,
+      "link6_collision__target_contact_plate": 0.12866826057827807,
+      "link7_collision__tumbling_target_geom": -0.0002929366040140416,
+      "link7_collision__target_contact_plate": -0.00029293660401413216,
+      "gripper_contact_pad__tumbling_target_geom": -4.406362202005831e-05
+    },
+    "diagnostic_identity": {
+      "v6_mujoco/end_to_end_capture/report.py": "c7925f51f96a82d1758dd2a9187afdfd2ca4d1136d3d3365dd4514822eab45e7"
+    }
+  },
+  "attempt_count": 1,
+  "remaining_attempt_allowance_is_not_permission_to_change_physics": true
+}

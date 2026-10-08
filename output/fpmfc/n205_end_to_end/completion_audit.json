@@ -1,0 +1,79 @@
+{
+  "delivery_audit_passed": true,
+  "physical_end_to_end_success": false,
+  "formal_attempts": 1,
+  "replays": 1,
+  "unit_batches": 2,
+  "new_unit_physics_steps": 138,
+  "new_unit_replay_steps": 18,
+  "first_distance_failure_m": 0.000989619609542949,
+  "previous_distance_m": 0.001001000414681224,
+  "unchanged_runtime_and_design_identities": true,
+  "mask_independent_distance_check": true,
+  "no_midrun_main_state_write_source_check": true,
+  "requirements": {
+    "0_goal_and_scope": {
+      "evidence": "E_nominal/metrics.json; qualification_matrix.json",
+      "verdict": "BOUNDED_EXPERIMENT_FINISHED_WITH_PHYSICAL_SAFETY_FAILURE; 18 s success NOT achieved"
+    },
+    "1_history_branch_inputs": {
+      "evidence": "experiment_manifest source hashes; git base; inherited files unchanged",
+      "verdict": "VERIFIED"
+    },
+    "2_fixed_time_contract": {
+      "evidence": "runner switch only at step=8/dt; summarize requires full16..18; actual time grid in trace",
+      "verdict": "IMPLEMENTED; 8 s and 18 s not reached"
+    },
+    "3_single_physical_system": {
+      "evidence": "runner source, initialization_contract, full-state trace, strict replay, zero external forces",
+      "verdict": "VERIFIED for actual0..7.362s"
+    },
+    "4_original_C1_control": {
+      "evidence": "approach adapter imports original algorithms; unit reference matches; tasks.json; c1_comparison.json",
+      "verdict": "VERIFIED for recorded approach; fine schedule only short-unit verified"
+    },
+    "5_contact_and_collision": {
+      "evidence": "contact_pair_contract; actual masks; 19 added distances; first-failure replay",
+      "verdict": "VERIFIED monitoring; physical safety gate FAILED before planned contact"
+    },
+    "6_state_switch": {
+      "evidence": "runner source; static event unit; events FAILED at7.362; switch_audit NOT_REACHED",
+      "verdict": "IMPLEMENTED_AND_UNIT_TESTED; continuous latch/50ms/HOLD NOT_EVALUATED"
+    },
+    "7_acceptance": {
+      "evidence": "metrics null window values; whole recorded P/H; distances",
+      "verdict": "SAFETY_FAILED; DETUMBLING_NOT_EVALUATED; no relaxed actual capacity"
+    },
+    "8_trace_and_replay": {
+      "evidence": "3682 integration states, tasks, events, model masks, strict validation",
+      "verdict": "VERIFIED recorded horizon; t8 snapshots absent because not reached"
+    },
+    "9_required_tests": {
+      "evidence": "unit_tests.json; unit_tests_v1 and source archive; this read-only mask/source audit",
+      "verdict": "COMPATIBILITY_TESTS_PASSED; no claim that unit fixtures validate a full scenario"
+    },
+    "10_matrix_budget": {
+      "evidence": "run_ledger: one formal attempt, one replay, two short batches; skipped fine/light/heavy",
+      "verdict": "CONDITIONAL_STOP_RULE_FOLLOWED; no retries/search; Z not eligible"
+    },
+    "11_failure_classification": {
+      "evidence": "UNINTENDED_CONTACT_OR_COLLISION with named pair and exact first trigger; C1 reference diagnostic",
+      "verdict": "VERIFIED; positive gap not described as collision impact"
+    },
+    "12_artifacts_CLI_media": {
+      "evidence": "source modules, contracts, report, trace, six plot groups, four actual-duration videos, commands",
+      "verdict": "DELIVERED; requested18s media impossible after safety stop and not fabricated"
+    },
+    "13_status_matrix": {
+      "evidence": "qualification_matrix.json",
+      "verdict": "DELIVERED with per-scenario NOT_RUN/NOT_EVALUATED and all hardware/perception/realtime flags false"
+    },
+    "14_non_goals": {
+      "evidence": "no old19fixture rerun, no42video copy, no new controller/gain/trajectory search",
+      "verdict": "RESPECTED"
+    }
+  },
+  "audit_identity": {
+    "v6_mujoco/end_to_end_capture/audit.py": "da05cc6db492af4af6580781a30723690b866e1a57e3a8ccdde1e246cb3b36f7"
+  }
+}

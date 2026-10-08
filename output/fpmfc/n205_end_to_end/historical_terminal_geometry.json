@@ -1,0 +1,28 @@
+{
+  "scope": "isolated static replay of HISTORICAL C1 terminal geometry at 8 s; zero integration steps; NOT the unexecuted N205 t=8 state and never injected into its plant",
+  "source_trace_sha256": "6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998",
+  "distances_m": {
+    "satellite_base_collision__tumbling_target_geom": 0.8245877546123135,
+    "satellite_base_collision__target_contact_plate": 0.8255441451616742,
+    "link0_collision__tumbling_target_geom": 0.8919441528961798,
+    "link0_collision__target_contact_plate": 0.9064547173164142,
+    "link1_collision__tumbling_target_geom": 0.7696313890530823,
+    "link1_collision__target_contact_plate": 0.8110288684737765,
+    "link2_collision__tumbling_target_geom": 0.6465912354542767,
+    "link2_collision__target_contact_plate": 0.6781654581324957,
+    "link3_collision__tumbling_target_geom": 0.5148139380530772,
+    "link3_collision__target_contact_plate": 0.5170879033974964,
+    "link4_collision__tumbling_target_geom": 0.3720336273508137,
+    "link4_collision__target_contact_plate": 0.37910667812259596,
+    "link5_collision__tumbling_target_geom": 0.12939638203214232,
+    "link5_collision__target_contact_plate": 0.14853770867182675,
+    "link6_collision__tumbling_target_geom": 0.1286682605782781,
+    "link6_collision__target_contact_plate": 0.12866826057827807,
+    "link7_collision__tumbling_target_geom": -0.0002929366040140416,
+    "link7_collision__target_contact_plate": -0.00029293660401413216,
+    "gripper_contact_pad__tumbling_target_geom": -4.406362202005831e-05
+  },
+  "diagnostic_identity": {
+    "v6_mujoco/end_to_end_capture/report.py": "c7925f51f96a82d1758dd2a9187afdfd2ca4d1136d3d3365dd4514822eab45e7"
+  }
+}

@@ -1,6 +1,19 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
-## 当前分支：C1 后等效锁紧、保持与消旋
+## 当前分支 N205：连续接近验证在 7.362 s 安全早停
+
+从 home 和自由目标 t=0 连续积分。link7—目标立方体距离达到 **0.989620 mm**，触发预注册的 1 mm 余量门（含10 μm数值容差）。未发生 pad/plate 接触，未到达8 s捕获检查；**锁紧、18 s完整运行及16–18 s消旋均未验证**。记录输入重放通过。fine/light/heavy按失败准入规则未运行，未放宽门或重试。
+
+- [N205 完整报告](paper/N205_END_TO_END_CAPTURE_DETUMBLING_REPORT.md) · [状态矩阵](output/fpmfc/n205_end_to_end/qualification_matrix.json) · [运行账本](output/fpmfc/n205_end_to_end/run_ledger.json)
+- [N205 可视化入口](output/fpmfc/n205_end_to_end/visualizations/index.html)：真实停止时域的总览、接口近景、五视角合成、连续体侧镜头及科学图。
+- [五视角视频](output/fpmfc/n205_end_to_end/visualizations/five_views.mp4) · [接口近景](output/fpmfc/n205_end_to_end/visualizations/interface_closeup.mp4) · [体侧视频](output/fpmfc/n205_end_to_end/visualizations/body_side.mp4)
+- [执行命令](output/fpmfc/n205_end_to_end/commands.md) · [完成审计](output/fpmfc/n205_end_to_end/completion_audit.json)
+
+![N205 五视角停止帧](output/fpmfc/n205_end_to_end/visualizations/five_views_221.png)
+![N205 目标间距安全停止](output/fpmfc/n205_end_to_end/figures/target_clearance_stop.png)
+![N205 末端接近轨迹与误差](output/fpmfc/n205_end_to_end/figures/end_effector_trajectory.png)
+
+## 历史 N201S–N204：C1 快照后等效锁紧、保持与消旋
 
 名义、16 kg、24 kg 三个明确模型场景均完成 10 s，通过固定最后 2 s 的角速度门与全程安全门。使用原七关节阻尼；未新增治理器。19 项受限夹具试验、7 次组合体尝试（6 条完整，P_Z 保留为 6 ms 诊断误停）、8 次记录输入重放。旧满边界资格仍失败；真实夹爪、硬件承载和完整接近抓捕未验证。
 

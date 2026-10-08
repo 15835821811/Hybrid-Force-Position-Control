@@ -1,0 +1,20 @@
+{
+  "source_trace_sha256": "b95dc4caf00f22a417ebe209aca748c717f7691e5db5a36aebdbff1cafabd012",
+  "derived_identity": {
+    "v6_mujoco/end_to_end_capture/report.py": "c7925f51f96a82d1758dd2a9187afdfd2ca4d1136d3d3365dd4514822eab45e7"
+  },
+  "files": {
+    "output/fpmfc/n205_end_to_end/figures/approach_tracking_errors.png": "22a4676d8d1c66b55239d5b764f88569e1cfb108f3e30388ce516dc74681d6d9",
+    "output/fpmfc/n205_end_to_end/figures/approach_tracking_errors.pdf": "3bb45e1914a4ba3e391cdd330dfd1877e635332b3a17e08097493f704670c551",
+    "output/fpmfc/n205_end_to_end/figures/target_clearance_stop.png": "73b54946638d776f7d7e2d138a706d20b2d2ba2f3e66ef985714f62ea02415a1",
+    "output/fpmfc/n205_end_to_end/figures/target_clearance_stop.pdf": "8606c1288723094ca29e88673f445db2e2555c7b71a6306f42f47df42422c19b",
+    "output/fpmfc/n205_end_to_end/figures/angular_speed_and_contact.png": "295784e3f9aa8734ffba133c13b13b9d87d965dc544ea40c909cdeb5b045cef2",
+    "output/fpmfc/n205_end_to_end/figures/angular_speed_and_contact.pdf": "b43803c253faa81d6cc282b247beaf1bb6d3ff74bcb9f928cf4ea42daad3d6d5",
+    "output/fpmfc/n205_end_to_end/figures/momentum.png": "ac8785df75137252740e8977d7d174b19683052609be8f80a63be47ccbfeeb40",
+    "output/fpmfc/n205_end_to_end/figures/momentum.pdf": "d4ca68e31e7ebbd320e07d03ec5d11d8edceafc6682ef44772b695158e29a9d6",
+    "output/fpmfc/n205_end_to_end/figures/end_effector_trajectory.png": "9a8baaa47797526a305ed0824c6194178e3319001f3c0470eba12a044fb97027",
+    "output/fpmfc/n205_end_to_end/figures/end_effector_trajectory.pdf": "5058eb55d753bed575ca1b8f2c5147d690669bb6732bd90a680146aac0cbacbb",
+    "output/fpmfc/n205_end_to_end/figures/joints_and_power.png": "d5f6f253b4c476743d3a0e9432e77c86d03e579d6709f0f2c99320eda073ba7f",
+    "output/fpmfc/n205_end_to_end/figures/joints_and_power.pdf": "e6923b21850791699e9eedf2001eb9fb2d9913728541b8d13ff545bf725da452"
+  }
+}

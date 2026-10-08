@@ -1,0 +1,58 @@
+{
+  "legacy_full_boundary_contract": "FAILED",
+  "restricted_fixture_domain": "inherited_verified_scope",
+  "precontact_reexecuted_from_home": true,
+  "full_8s_approach_completed": false,
+  "physical_target_from_t0": true,
+  "single_continuous_plant": true,
+  "no_terminal_state_injection": true,
+  "fixed_latch_frames": true,
+  "continuous_18s_completed": {
+    "nominal": false,
+    "fine": "NOT_RUN_UPSTREAM_FAILURE",
+    "light": "NOT_RUN_UPSTREAM_FAILURE",
+    "heavy": "NOT_RUN_UPSTREAM_FAILURE"
+  },
+  "capture_gate_at_8s": {
+    "nominal": "NOT_REACHED",
+    "fine": "NOT_RUN_UPSTREAM_FAILURE",
+    "light": "NOT_RUN_UPSTREAM_FAILURE",
+    "heavy": "NOT_RUN_UPSTREAM_FAILURE"
+  },
+  "model_latch_and_holding": {
+    "nominal": "NOT_EVALUATED",
+    "fine": "NOT_EVALUATED",
+    "light": "NOT_EVALUATED",
+    "heavy": "NOT_EVALUATED"
+  },
+  "detumbling_window_16_18s": {
+    "nominal": "NOT_EVALUATED",
+    "fine": "NOT_RUN_UPSTREAM_FAILURE",
+    "light": "NOT_RUN_UPSTREAM_FAILURE",
+    "heavy": "NOT_RUN_UPSTREAM_FAILURE"
+  },
+  "whole_horizon_momentum_and_safety": {
+    "nominal": "RECORDED_HORIZON_MOMENTUM_PASS_SAFETY_FAILED",
+    "fine": "NOT_RUN",
+    "light": "NOT_RUN",
+    "heavy": "NOT_RUN"
+  },
+  "independent_replay": {
+    "nominal": true,
+    "fine": "NOT_RUN",
+    "light": "NOT_RUN",
+    "heavy": "NOT_RUN"
+  },
+  "end_to_end_model_validation": {
+    "nominal": false,
+    "fine": "NOT_RUN_UPSTREAM_FAILURE",
+    "light": "NOT_RUN_UPSTREAM_FAILURE",
+    "heavy": "NOT_RUN_UPSTREAM_FAILURE"
+  },
+  "zero_added_control_comparison": "NOT_RUN",
+  "hardware_load_rating_validated": false,
+  "physical_gripper_capture_validated": false,
+  "perception_robustness_validated": false,
+  "real_time_ready": false,
+  "campaign_outcome": "PHYSICAL_GEOMETRY_GATE_FAILED; dependent experiments correctly not admitted"
+}

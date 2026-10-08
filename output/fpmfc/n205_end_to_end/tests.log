@@ -1,0 +1,8 @@
+N205 evidence audit PASS; physical end-to-end validation FAILED.
+Nominal:3681 physical steps,0..7.362s. First link7-cube distance violation independently replayed.
+No pad/plate contact, no latch, no full16..18 performance evaluation.
+Units:2 batches,138 short physics steps and18 replay steps, distinct from formal attempts.
+Formal replay:3681 steps, all strict comparisons passed.
+Resume:verified existing failed trace; no formal or replay count increment.
+Media:4 videos,222 frames each,30fps,7.4s encoding of0..7.362s source;6 scientific figure groups.
+Historical C1 t8 geometry:isolated static diagnostic only,zero dynamics.
