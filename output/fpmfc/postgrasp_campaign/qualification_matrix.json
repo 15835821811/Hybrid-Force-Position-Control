@@ -1,0 +1,28 @@
+{
+  "legacy_full_boundary_contract": "FAILED",
+  "restricted_fixture_domain": "VERIFIED_IN_TESTED_CASES",
+  "full_robot_postgrasp": "PASSED",
+  "nominal_detumbling": "PASSED",
+  "latch_transition": "PASSED_IN_MODEL",
+  "independent_cases": {
+    "V_light": "PASSED",
+    "V_heavy": "PASSED"
+  },
+  "hardware_load_rating_validated": false,
+  "physical_gripper_capture_validated": false,
+  "real_time_ready": false,
+  "real_time_basis": {
+    "simulation_loop_average_ms": {
+      "P_Z": 6.790100131183863,
+      "P_D": 1.9295861200429498,
+      "P_D_fine": 1.787546639982611,
+      "L_nominal": 1.9502150999382137,
+      "L_fine": 1.8274085099808872,
+      "V_light": 1.9829618000425397,
+      "V_heavy": 1.9625210399739443
+    },
+    "limitation": "measured aggregate offline wall time only; worst-case 2 ms deadlines and hardware timing were not established"
+  },
+  "P_Z": "INCOMPLETE_VALIDATOR_STOP_REEVALUATED_WITHOUT_RERUN",
+  "G": "NOT_NEEDED"
+}

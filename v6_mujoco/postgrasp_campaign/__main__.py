@@ -12,6 +12,8 @@ def main():
     parser.add_argument("--validate-only", action="store_true")
     parser.add_argument("--report", action="store_true")
     args = parser.parse_args()
+    if args.resume and not (args.stage or args.prepare or args.validate_only or args.report):
+        args.stage = "all"
     if args.prepare:
         result = prepare()
         print(json.dumps({"prepared": True, "fine_cases_frozen": True, "manifest": result["schema_version"]}))

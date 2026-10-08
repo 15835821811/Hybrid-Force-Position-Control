@@ -1,5 +1,20 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
+## 当前分支：C1 后等效锁紧、保持与消旋
+
+名义、16 kg、24 kg 三个明确模型场景均完成 10 s，通过固定最后 2 s 的角速度门与全程安全门。使用原七关节阻尼；未新增治理器。19 项受限夹具试验、7 次组合体尝试（6 条完整，P_Z 保留为 6 ms 诊断误停）、8 次记录输入重放。旧满边界资格仍失败；真实夹爪、硬件承载和完整接近抓捕未验证。
+
+- [完整报告](paper/POSTGRASP_DETUMBLING_CAMPAIGN_REPORT.md) · [最终状态矩阵](output/fpmfc/postgrasp_campaign/qualification_matrix.json) · [实际运行账本](output/fpmfc/postgrasp_campaign/run_ledger.json)
+- [全部可视化入口（下载后浏览器打开）](output/fpmfc/postgrasp_campaign/visualizations/index.html)：六条完整轨迹的五个单独视角、五视角合成及连续体侧镜头，共 42 个视频。
+- [名义五视角视频](output/fpmfc/postgrasp_campaign/visualizations/L_nominal/five_views.mp4) · [随基座运动的连续体侧视频](output/fpmfc/postgrasp_campaign/visualizations/L_nominal/body_side.mp4)
+- [执行与重放命令](output/fpmfc/postgrasp_campaign/commands.md) · [完成审计](output/fpmfc/postgrasp_campaign/completion_audit.json)
+
+![当前名义五视角](output/fpmfc/postgrasp_campaign/visualizations/L_nominal/preview_150.png)
+![当前角速度结果](output/fpmfc/postgrasp_campaign/figures/angular_velocity.png)
+![当前末端保持轨迹与误差](output/fpmfc/postgrasp_campaign/figures/end_effector_tracking.png)
+
+下文保留原环境迁移与历史实验说明；其可视化不作为本次 campaign 证据。
+
 本目录把指定的自由漂浮卫星 + Flexiv Rizon 4s Simscape 模型迁移为可独立运行的 MuJoCo 环境，并将 `v6_lite` 的确定性控制与验收架构适配到源模型真实具备的 7 个关节。
 
 ## 迁移结果

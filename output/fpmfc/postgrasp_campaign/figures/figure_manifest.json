@@ -1,0 +1,86 @@
+{
+  "artifacts": [
+    {
+      "path": "figures/angular_velocity.png",
+      "sha256": "a13ff5b19ca311aa9369bb68cf992dbbc8cff2aa2e3a71afd2a1a2ed9d9a9b1e",
+      "caption": "World-frame angular-speed norms; fixed final two seconds; no shifted evaluation window."
+    },
+    {
+      "path": "figures/angular_velocity.pdf",
+      "sha256": "1c222feaeeca8a67525e40d7484529b81e515cd224712741a98d490a30cdaebd",
+      "caption": "World-frame angular-speed norms; fixed final two seconds; no shifted evaluation window."
+    },
+    {
+      "path": "figures/interface_pose_and_load.png",
+      "sha256": "3a6cbd2e5070bcfc69a94ffb226d12ac39de3d8e6b4abd79ad7359c37c26ba39",
+      "caption": "Actual interface wrench, same grasp reference point; zero values omitted only on logarithmic axes."
+    },
+    {
+      "path": "figures/interface_pose_and_load.pdf",
+      "sha256": "28cfec513254e097b90a47c72ab03a1e431f4ee2d74051ac614d1664cdbec56c",
+      "caption": "Actual interface wrench, same grasp reference point; zero values omitted only on logarithmic axes."
+    },
+    {
+      "path": "figures/momentum_conservation.png",
+      "sha256": "2ec99e7b54085fabfb8603e602dbd7a83e417b5c35160284eab3b44bd5c4be6a",
+      "caption": "Angular momentum about the current system COM; no subtraction of the soft-site couple from actual H."
+    },
+    {
+      "path": "figures/momentum_conservation.pdf",
+      "sha256": "ac357d744e3db02145e2fc458e61cd7e5fd9131741dc08aaa6918d61a5e6fb03",
+      "caption": "Angular momentum about the current system COM; no subtraction of the soft-site couple from actual H."
+    },
+    {
+      "path": "figures/joint_states.png",
+      "sha256": "ebf69ea250d58a3aa7a0c2d8476585fa874d8a71917a00aba6f9161e9afd9385",
+      "caption": "Joint positions, velocities, accelerations and actual torque commands; no additional attitude actuators."
+    },
+    {
+      "path": "figures/joint_states.pdf",
+      "sha256": "a3365eb9e64a1365ab6082ac686ff2fdca0d0d2977eaa01e42edeb6003c782bb",
+      "caption": "Joint positions, velocities, accelerations and actual torque commands; no additional attitude actuators."
+    },
+    {
+      "path": "figures/energy_accounting.png",
+      "sha256": "ee6e0287320cdecbbcd22b235afbf542bd26c9babb3c48bc13b3711caa03612d",
+      "caption": "Sampled trapezoidal work is a diagnostic, not a proof of exact discrete energy monotonicity."
+    },
+    {
+      "path": "figures/energy_accounting.pdf",
+      "sha256": "1ffb098058fb90d08f7ef47d6d8216f31fd37397414fca0be26c5435295d802b",
+      "caption": "Sampled trapezoidal work is a diagnostic, not a proof of exact discrete energy monotonicity."
+    },
+    {
+      "path": "figures/end_effector_tracking.png",
+      "sha256": "0cb120d56230aeccd9a5623eaf07045ed27b0f2db3fbc732ef511ed9eca55705",
+      "caption": "The reference is the measured target grasp point. There is no world-frame position-tracking controller in this campaign."
+    },
+    {
+      "path": "figures/end_effector_tracking.pdf",
+      "sha256": "59d4313e4f622e92a009209295d3c391aeb78aded69223a5937188d2240a6921",
+      "caption": "The reference is the measured target grasp point. There is no world-frame position-tracking controller in this campaign."
+    },
+    {
+      "path": "figures/run_coverage.png",
+      "sha256": "39d03d1043dbe93f85d5438e57072d4131961ac461b2887e3d524906c21e3441",
+      "caption": "Seven actual attempts, six complete 10 s runs. P_Z was not rerun after the diagnostic correction."
+    },
+    {
+      "path": "figures/run_coverage.pdf",
+      "sha256": "39f589b53f73cc6d9aa9c62b513b1296500b863d83d74cc879290ca643b7b65e",
+      "caption": "Seven actual attempts, six complete 10 s runs. P_Z was not rerun after the diagnostic correction."
+    }
+  ],
+  "source_traces": {
+    "P_Z": "7db79f1e6511cbfd1e0257ddb88bbfbbd7ce4caf7fa5c168ae3ce56411d7bb08",
+    "P_D": "bef9ad88a712549aa817dd83bbe78073c0e357da33fdc3c0bc6703ae3a68f0d7",
+    "P_D_fine": "d5c6daecea195328bf6cda10463fccf95734aa0e83a4d07aa04c1c21a1a96bbd",
+    "L_nominal": "c000b32fed5c0bc3e0a371140d7555d4fea0cc5ace16fbd9708f86d6c0b9a4f9",
+    "L_fine": "752fe1ff4a86d01fc5cae143d72bd373baaf39f09facccdcfbba366d72a68048",
+    "V_light": "e976ab9ab9d4a8e177a74fbf904f125afb32c0adad6a358434a06e2c1e63cb40",
+    "V_heavy": "5f3d5c111515727657906c2c05ec39db2f3b03ba28d6799ec9a4d56463346eb8"
+  },
+  "implementation_identity": {
+    "v6_mujoco/postgrasp_campaign/report.py": "10c809d53dc1fdcfbeb53e767b31ab050a247854698386308c644a281433b660"
+  }
+}

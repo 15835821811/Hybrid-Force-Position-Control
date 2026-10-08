@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "formal_runs": 7,
+  "complete_10s_runs": 6,
+  "fixture_runs": 19,
+  "recorded_input_replays": 8,
+  "short_unit_batches": 2,
+  "prediction_rollouts": 0,
+  "videos": 42,
+  "scientific_figures": 7,
+  "checks": {
+    "P_Z": {
+      "control_formula_max_error_nm": 0.0,
+      "max_control_sample_power_w": 0.0,
+      "external_generalized_and_body_forces_zero": true,
+      "continuous_equality": true,
+      "source_samples": 4,
+      "replay_passed": true
+    },
+    "P_D": {
+      "control_formula_max_error_nm": 0.0,
+      "max_control_sample_power_w": -5.082998668627009e-10,
+      "external_generalized_and_body_forces_zero": true,
+      "continuous_equality": true,
+      "source_samples": 5001,
+      "replay_passed": true
+    },
+    "P_D_fine": {
+      "control_formula_max_error_nm": 0.0,
+      "max_control_sample_power_w": -5.083025660725903e-10,
+      "external_generalized_and_body_forces_zero": true,
+      "continuous_equality": true,
+      "source_samples": 10001,
+      "replay_passed": true
+    },
+    "L_nominal": {
+      "control_formula_max_error_nm": 0.0,
+      "max_control_sample_power_w": -5.082119632969491e-10,
+      "external_generalized_and_body_forces_zero": true,
+      "continuous_equality": true,
+      "source_samples": 5001,
+      "replay_passed": true
+    },
+    "L_fine": {
+      "control_formula_max_error_nm": 0.0,
+      "max_control_sample_power_w": -5.082157442099497e-10,
+      "external_generalized_and_body_forces_zero": true,
+      "continuous_equality": true,
+      "source_samples": 10001,
+      "replay_passed": true
+    },
+    "V_light": {
+      "control_formula_max_error_nm": 0.0,
+      "max_control_sample_power_w": -1.0307161505670004e-09,
+      "external_generalized_and_body_forces_zero": true,
+      "continuous_equality": true,
+      "source_samples": 5001,
+      "replay_passed": true
+    },
+    "V_heavy": {
+      "control_formula_max_error_nm": 0.0,
+      "max_control_sample_power_w": -1.835075843487746e-10,
+      "external_generalized_and_body_forces_zero": true,
+      "continuous_equality": true,
+      "source_samples": 5001,
+      "replay_passed": true
+    }
+  },
+  "preregistered_manifest_sha256": "1541dd27109ad30486d25d2e4924209b75012b13400fb511f72a8ded9f38b969",
+  "source_identity_sha256": "c1e3b684623cabba0e4c55452cb46816fa9d3515e18f7908fefdd000fa9999ed",
+  "wall_time_since_budget_start_s": 2897.518960237503,
+  "runtime_history_preserved": true,
+  "new_physics_steps_in_delivery": 0,
+  "audit_identity": {
+    "v6_mujoco/postgrasp_campaign/delivery.py": "ffe4c2957f12d0c90edc4e216fdc2c16a09d3d037b25bef51d975168a0a2fa37"
+  }
+}

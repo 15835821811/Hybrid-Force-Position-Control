@@ -1,0 +1,839 @@
+{
+  "schema_version": "postgrasp_campaign_results_v1",
+  "qualification_matrix": {
+    "legacy_full_boundary_contract": "FAILED",
+    "restricted_fixture_domain": "VERIFIED_IN_TESTED_CASES",
+    "full_robot_postgrasp": "PASSED",
+    "nominal_detumbling": "PASSED",
+    "latch_transition": "PASSED_IN_MODEL",
+    "independent_cases": {
+      "V_light": "PASSED",
+      "V_heavy": "PASSED"
+    },
+    "hardware_load_rating_validated": false,
+    "physical_gripper_capture_validated": false,
+    "real_time_ready": false,
+    "real_time_basis": {
+      "simulation_loop_average_ms": {
+        "P_Z": 6.790100131183863,
+        "P_D": 1.9295861200429498,
+        "P_D_fine": 1.787546639982611,
+        "L_nominal": 1.9502150999382137,
+        "L_fine": 1.8274085099808872,
+        "V_light": 1.9829618000425397,
+        "V_heavy": 1.9625210399739443
+      },
+      "limitation": "measured aggregate offline wall time only; worst-case 2 ms deadlines and hardware timing were not established"
+    },
+    "P_Z": "INCOMPLETE_VALIDATOR_STOP_REEVALUATED_WITHOUT_RERUN",
+    "G": "NOT_NEEDED"
+  },
+  "conditions": {
+    "P_Z": {
+      "status": "MODEL_NUMERICS_FAILED",
+      "complete_10s": false,
+      "end_time_s": 0.006,
+      "sample_count": 4,
+      "evaluation_window_s": [
+        8.0,
+        10.0
+      ],
+      "full_window_evaluated": false,
+      "target_last_2s_max_deg_s": null,
+      "relative_last_2s_max_deg_s": null,
+      "target_initial_deg_s": 4.993285730523616,
+      "target_final_deg_s": 4.946099729297124,
+      "relative_final_deg_s": 4.964743929055093,
+      "max_load_fraction": 0.019077914733825762,
+      "max_translation_m": 1.6246986162307185e-07,
+      "max_rotation_deg": 1.4448039267213124e-05,
+      "max_P_drift_kg_m_s": 6.029035265621041e-12,
+      "max_H_drift_kg_m2_s": 4.403151467582405e-11,
+      "max_P_relative_drift": 0.00681817245733033,
+      "max_H_relative_drift": 1.6818799686123432e-09,
+      "minimum_clearance_m": 0.14805400599493776,
+      "initial_joint_speed_norm_rad_s": 0.560683192815121,
+      "final_joint_speed_norm_rad_s": 0.5522317396553148,
+      "relative_energy_initial_j": 0.006843831161265899,
+      "relative_energy_final_j": 0.006658045997467204,
+      "kinetic_energy_change_j": -0.00018578514575677205,
+      "locked_spin_initial_deg_s": 0.02351167996060926,
+      "locked_spin_final_deg_s": 0.0235117933500445,
+      "maximum_solver_residual": 5.0253204375572125e-14,
+      "all_actual_safety_passed": false,
+      "actuator_work_j": 0.0,
+      "passive_work_j": -0.00018578206933609107,
+      "all_constraint_work_j": -5.082851235412023e-09,
+      "latch_constraint_work_j": -5.0828512354055624e-09,
+      "energy_balance_residual_j": 2.0064305544440202e-09,
+      "performance_passed": false,
+      "constraint_activity": {
+        "load": false,
+        "pose": false,
+        "joint": false,
+        "velocity": false,
+        "torque": false,
+        "clearance": false
+      },
+      "name": "P_Z",
+      "timestep_s": 0.002,
+      "raw_C1": false,
+      "scenario": null,
+      "replay_passed": true,
+      "elapsed_wall_s": 0.020370300393551588,
+      "trace_sha256": "7db79f1e6511cbfd1e0257ddb88bbfbbd7ce4caf7fa5c168ae3ce56411d7bb08"
+    },
+    "P_D": {
+      "status": "COMPLETED",
+      "complete_10s": true,
+      "end_time_s": 10.000000000000009,
+      "sample_count": 5001,
+      "evaluation_window_s": [
+        8.0,
+        10.0
+      ],
+      "full_window_evaluated": true,
+      "target_last_2s_max_deg_s": 0.023325288361951566,
+      "relative_last_2s_max_deg_s": 0.0031694805659892794,
+      "target_initial_deg_s": 4.993285730523616,
+      "target_final_deg_s": 0.023222017690373204,
+      "relative_final_deg_s": 0.001306422110597601,
+      "max_load_fraction": 0.12923579119348366,
+      "max_translation_m": 2.3492872522790468e-07,
+      "max_rotation_deg": 0.0001532959571962784,
+      "max_P_drift_kg_m_s": 1.2691365310757304e-10,
+      "max_H_drift_kg_m2_s": 6.094115159516198e-09,
+      "max_P_relative_drift": 0.143525313081428,
+      "max_H_relative_drift": 2.3277805200816172e-07,
+      "minimum_clearance_m": 0.14805400599493776,
+      "initial_joint_speed_norm_rad_s": 0.560683192815121,
+      "final_joint_speed_norm_rad_s": 1.4801497584611483e-05,
+      "relative_energy_initial_j": 0.006843831161265899,
+      "relative_energy_final_j": 1.089259191391307e-09,
+      "kinetic_energy_change_j": -0.006843832853613098,
+      "locked_spin_initial_deg_s": 0.02351167996060926,
+      "locked_spin_final_deg_s": 0.023504968639739936,
+      "maximum_solver_residual": 9.232249340018761e-11,
+      "all_actual_safety_passed": true,
+      "actuator_work_j": -0.005651125131954017,
+      "passive_work_j": -0.0011088615471374107,
+      "all_constraint_work_j": -2.5688942033566315e-07,
+      "latch_constraint_work_j": -2.5688942033565415e-07,
+      "energy_balance_residual_j": -8.358928510133427e-05,
+      "performance_passed": true,
+      "constraint_activity": {
+        "load": false,
+        "pose": false,
+        "joint": false,
+        "velocity": false,
+        "torque": false,
+        "clearance": false
+      },
+      "name": "P_D",
+      "timestep_s": 0.002,
+      "raw_C1": false,
+      "scenario": null,
+      "replay_passed": true,
+      "elapsed_wall_s": 9.64793060021475,
+      "trace_sha256": "bef9ad88a712549aa817dd83bbe78073c0e357da33fdc3c0bc6703ae3a68f0d7"
+    },
+    "P_D_fine": {
+      "status": "COMPLETED",
+      "complete_10s": true,
+      "end_time_s": 9.999999999999897,
+      "sample_count": 10001,
+      "evaluation_window_s": [
+        8.0,
+        10.0
+      ],
+      "full_window_evaluated": true,
+      "target_last_2s_max_deg_s": 0.023325286510662586,
+      "relative_last_2s_max_deg_s": 0.0031694872998375315,
+      "target_initial_deg_s": 4.993285730523616,
+      "target_final_deg_s": 0.023222016662374872,
+      "relative_final_deg_s": 0.0013064256795296237,
+      "max_load_fraction": 0.1301192168654313,
+      "max_translation_m": 2.3474256747417613e-07,
+      "max_rotation_deg": 0.000153357165053817,
+      "max_P_drift_kg_m_s": 6.773491811486702e-12,
+      "max_H_drift_kg_m2_s": 6.07519943164012e-09,
+      "max_P_relative_drift": 0.007660070521129043,
+      "max_H_relative_drift": 2.320555244267073e-07,
+      "minimum_clearance_m": 0.14805400599493776,
+      "initial_joint_speed_norm_rad_s": 0.560683192815121,
+      "final_joint_speed_norm_rad_s": 1.4801537726366336e-05,
+      "relative_energy_initial_j": 0.006843831161265899,
+      "relative_energy_final_j": 1.0892630822134333e-09,
+      "kinetic_energy_change_j": -0.00684383285357197,
+      "locked_spin_initial_deg_s": 0.02351167996060926,
+      "locked_spin_final_deg_s": 0.023504968653731226,
+      "maximum_solver_residual": 9.232249340018761e-11,
+      "all_actual_safety_passed": true,
+      "actuator_work_j": -0.005692997023427077,
+      "passive_work_j": -0.0011087182628336674,
+      "all_constraint_work_j": -2.581459565321651e-07,
+      "latch_constraint_work_j": -2.5814595653218197e-07,
+      "energy_balance_residual_j": -4.1859421354694185e-05,
+      "performance_passed": true,
+      "constraint_activity": {
+        "load": false,
+        "pose": false,
+        "joint": false,
+        "velocity": false,
+        "torque": false,
+        "clearance": false
+      },
+      "name": "P_D_fine",
+      "timestep_s": 0.001,
+      "raw_C1": false,
+      "scenario": null,
+      "replay_passed": true,
+      "elapsed_wall_s": 17.87546639982611,
+      "trace_sha256": "d5c6daecea195328bf6cda10463fccf95734aa0e83a4d07aa04c1c21a1a96bbd"
+    },
+    "L_nominal": {
+      "status": "COMPLETED",
+      "complete_10s": true,
+      "end_time_s": 10.000000000000009,
+      "sample_count": 5001,
+      "evaluation_window_s": [
+        8.0,
+        10.0
+      ],
+      "full_window_evaluated": true,
+      "target_last_2s_max_deg_s": 0.02332536405169476,
+      "relative_last_2s_max_deg_s": 0.003169204862093239,
+      "target_initial_deg_s": 4.999999999999999,
+      "target_final_deg_s": 0.023222060360559,
+      "relative_final_deg_s": 0.0013062780358085741,
+      "max_load_fraction": 0.12892957805733746,
+      "max_translation_m": 2.7058884960427187e-07,
+      "max_rotation_deg": 0.00015703792633345217,
+      "max_P_drift_kg_m_s": 1.0318691026404926e-10,
+      "max_H_drift_kg_m2_s": 6.028220778132071e-09,
+      "max_P_relative_drift": 0.11669299071197828,
+      "max_H_relative_drift": 2.3026107204710405e-07,
+      "minimum_clearance_m": 0.14805400599493776,
+      "initial_joint_speed_norm_rad_s": 0.5606111860634728,
+      "final_joint_speed_norm_rad_s": 1.479993478330928e-05,
+      "relative_energy_initial_j": 0.0068439179276026515,
+      "relative_energy_final_j": 1.0891191283262316e-09,
+      "kinetic_energy_change_j": -0.006843919620741087,
+      "locked_spin_initial_deg_s": 0.023511679960609252,
+      "locked_spin_final_deg_s": 0.02350496644727431,
+      "maximum_solver_residual": 3.078254318111817e-11,
+      "all_actual_safety_passed": true,
+      "actuator_work_j": -0.005651118814813565,
+      "passive_work_j": -0.0011088488237099917,
+      "all_constraint_work_j": -2.4449938099551245e-07,
+      "latch_constraint_work_j": -2.4449938099548725e-07,
+      "energy_balance_residual_j": -8.370748283653522e-05,
+      "performance_passed": true,
+      "constraint_activity": {
+        "load": false,
+        "pose": false,
+        "joint": false,
+        "velocity": false,
+        "torque": false,
+        "clearance": false
+      },
+      "name": "L_nominal",
+      "timestep_s": 0.002,
+      "raw_C1": true,
+      "scenario": null,
+      "replay_passed": true,
+      "elapsed_wall_s": 9.75107549969107,
+      "trace_sha256": "c000b32fed5c0bc3e0a371140d7555d4fea0cc5ace16fbd9708f86d6c0b9a4f9"
+    },
+    "L_fine": {
+      "status": "COMPLETED",
+      "complete_10s": true,
+      "end_time_s": 9.999999999999897,
+      "sample_count": 10001,
+      "evaluation_window_s": [
+        8.0,
+        10.0
+      ],
+      "full_window_evaluated": true,
+      "target_last_2s_max_deg_s": 0.023325361245854617,
+      "relative_last_2s_max_deg_s": 0.003169214772923131,
+      "target_initial_deg_s": 4.999999999999999,
+      "target_final_deg_s": 0.023222058762037433,
+      "relative_final_deg_s": 0.0013062832798437548,
+      "max_load_fraction": 0.12976060277202042,
+      "max_translation_m": 2.711167646511601e-07,
+      "max_rotation_deg": 0.00015705074617391353,
+      "max_P_drift_kg_m_s": 5.653168429015677e-12,
+      "max_H_drift_kg_m2_s": 6.108275997595501e-09,
+      "max_P_relative_drift": 0.0063931086733024535,
+      "max_H_relative_drift": 2.333189561782701e-07,
+      "minimum_clearance_m": 0.14805400599493776,
+      "initial_joint_speed_norm_rad_s": 0.5606111860634728,
+      "final_joint_speed_norm_rad_s": 1.4799993248092879e-05,
+      "relative_energy_initial_j": 0.0068439179276026515,
+      "relative_energy_final_j": 1.0891247032616152e-09,
+      "kinetic_energy_change_j": -0.0068439196207226854,
+      "locked_spin_initial_deg_s": 0.023511679960609252,
+      "locked_spin_final_deg_s": 0.023504966485617274,
+      "maximum_solver_residual": 3.078254318111817e-11,
+      "all_actual_safety_passed": true,
+      "actuator_work_j": -0.005693038509848215,
+      "passive_work_j": -0.0011087063395285235,
+      "all_constraint_work_j": -2.5150221484093376e-07,
+      "latch_constraint_work_j": -2.515022148408985e-07,
+      "energy_balance_residual_j": -4.1923269131106423e-05,
+      "performance_passed": true,
+      "constraint_activity": {
+        "load": false,
+        "pose": false,
+        "joint": false,
+        "velocity": false,
+        "torque": false,
+        "clearance": false
+      },
+      "name": "L_fine",
+      "timestep_s": 0.001,
+      "raw_C1": true,
+      "scenario": null,
+      "replay_passed": true,
+      "elapsed_wall_s": 18.27408509980887,
+      "trace_sha256": "752fe1ff4a86d01fc5cae143d72bd373baaf39f09facccdcfbba366d72a68048"
+    },
+    "V_light": {
+      "status": "COMPLETED",
+      "complete_10s": true,
+      "end_time_s": 10.000000000000009,
+      "sample_count": 5001,
+      "evaluation_window_s": [
+        8.0,
+        10.0
+      ],
+      "full_window_evaluated": true,
+      "target_last_2s_max_deg_s": 0.02016846625346124,
+      "relative_last_2s_max_deg_s": 0.004085767819467054,
+      "target_initial_deg_s": 4.999999999999999,
+      "target_final_deg_s": 0.02016846625346124,
+      "relative_final_deg_s": 0.0018261979393341193,
+      "max_load_fraction": 0.11471972897420962,
+      "max_translation_m": 2.7051589993004346e-07,
+      "max_rotation_deg": 0.00014252269420041234,
+      "max_P_drift_kg_m_s": 9.350381345996705e-11,
+      "max_H_drift_kg_m2_s": 5.264211554821246e-09,
+      "max_P_relative_drift": 0.10574247845678547,
+      "max_H_relative_drift": 2.5134758676706644e-07,
+      "minimum_clearance_m": 0.14805400599493776,
+      "initial_joint_speed_norm_rad_s": 0.5606111860634728,
+      "final_joint_speed_norm_rad_s": 2.0631236345827318e-05,
+      "relative_energy_initial_j": 0.006616993204522346,
+      "relative_energy_final_j": 1.6688666730784826e-09,
+      "kinetic_energy_change_j": -0.006616992262186893,
+      "locked_spin_initial_deg_s": 0.02076600142796073,
+      "locked_spin_final_deg_s": 0.020766047776743506,
+      "maximum_solver_residual": 1.2729817200352045e-11,
+      "all_actual_safety_passed": true,
+      "actuator_work_j": -0.005455601858144618,
+      "passive_work_j": -0.0010775226413583603,
+      "all_constraint_work_j": -1.9113746013252532e-07,
+      "latch_constraint_work_j": -1.9113746013254763e-07,
+      "energy_balance_residual_j": -8.367662522378201e-05,
+      "performance_passed": true,
+      "constraint_activity": {
+        "load": false,
+        "pose": false,
+        "joint": false,
+        "velocity": false,
+        "torque": false,
+        "clearance": false
+      },
+      "name": "V_light",
+      "timestep_s": 0.002,
+      "raw_C1": true,
+      "scenario": {
+        "target_mass_kg": 16.0,
+        "target_inertia_kg_m2": [
+          0.24,
+          0.24,
+          0.24
+        ]
+      },
+      "replay_passed": true,
+      "elapsed_wall_s": 9.9148090002127,
+      "trace_sha256": "e976ab9ab9d4a8e177a74fbf904f125afb32c0adad6a358434a06e2c1e63cb40"
+    },
+    "V_heavy": {
+      "status": "COMPLETED",
+      "complete_10s": true,
+      "end_time_s": 10.000000000000009,
+      "sample_count": 5001,
+      "evaluation_window_s": [
+        8.0,
+        10.0
+      ],
+      "full_window_evaluated": true,
+      "target_last_2s_max_deg_s": 0.027252666371756974,
+      "relative_last_2s_max_deg_s": 0.003339554954314859,
+      "target_initial_deg_s": 4.999999999999999,
+      "target_final_deg_s": 0.02616725221492589,
+      "relative_final_deg_s": 0.0007616889196852049,
+      "max_load_fraction": 0.1415329415804135,
+      "max_translation_m": 2.7066301087336157e-07,
+      "max_rotation_deg": 0.00017046637507322053,
+      "max_P_drift_kg_m_s": 1.118744234514322e-10,
+      "max_H_drift_kg_m2_s": 6.68427390099507e-09,
+      "max_P_relative_drift": 0.1265176079341752,
+      "max_H_relative_drift": 2.1276704616741235e-07,
+      "minimum_clearance_m": 0.14805400599493776,
+      "initial_joint_speed_norm_rad_s": 0.5606111860634728,
+      "final_joint_speed_norm_rad_s": 1.0478417403859949e-05,
+      "relative_energy_initial_j": 0.007070718872589531,
+      "relative_energy_final_j": 6.095361831610425e-10,
+      "kinetic_energy_change_j": -0.007070724327939626,
+      "locked_spin_initial_deg_s": 0.025869377835409314,
+      "locked_spin_final_deg_s": 0.025854143516525645,
+      "maximum_solver_residual": 1.5624697607789784e-11,
+      "all_actual_safety_passed": true,
+      "actuator_work_j": -0.005847088549386096,
+      "passive_work_j": -0.0011396034510950067,
+      "all_constraint_work_j": -2.987979159685952e-07,
+      "latch_constraint_work_j": -2.9879791596867356e-07,
+      "energy_balance_residual_j": -8.373352954255554e-05,
+      "performance_passed": true,
+      "constraint_activity": {
+        "load": false,
+        "pose": false,
+        "joint": false,
+        "velocity": false,
+        "torque": false,
+        "clearance": false
+      },
+      "name": "V_heavy",
+      "timestep_s": 0.002,
+      "raw_C1": true,
+      "scenario": {
+        "target_mass_kg": 24.0,
+        "target_inertia_kg_m2": [
+          0.36,
+          0.36,
+          0.36
+        ]
+      },
+      "replay_passed": true,
+      "elapsed_wall_s": 9.812605199869722,
+      "trace_sha256": "5f3d5c111515727657906c2c05ec39db2f3b03ba28d6799ec9a4d56463346eb8"
+    }
+  },
+  "latch_switch_audits": {
+    "L_nominal": {
+      "raw_C1_qpos_error": 0.0,
+      "raw_C1_qvel_error": 0.0,
+      "activation_qpos_jump": 0.0,
+      "activation_qvel_jump": 0.0,
+      "capture_translation_m": 0.0,
+      "capture_rotation_deg": 3.1805546814635085e-15,
+      "capture_linear_speed_m_s": 0.0001507621403346827,
+      "capture_angular_speed_deg_s": 0.023110173038888213,
+      "target_initial_deg_s": 4.999999999999999,
+      "continuous_weld_active": true,
+      "events": [
+        {
+          "time_s": 0.0,
+          "state": "ARMED",
+          "eq_active": false
+        },
+        {
+          "time_s": 0.0,
+          "state": "LATCH",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.0,
+          "state": "GRASP_VERIFY",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.05000000000000003,
+          "state": "DAMP_TRANSFER"
+        },
+        {
+          "time_s": 5.033999999999668,
+          "state": "HOLD"
+        }
+      ],
+      "control_jump_nm": [
+        -0.2140562573075423,
+        0.17053166507142706,
+        0.024421065125089188,
+        -0.41870505538528635,
+        0.24042258745899445,
+        -0.009589993592965411,
+        -0.1594874096246931
+      ],
+      "control_at_latch_nm": [
+        -0.15514694049597935,
+        0.13082683654348326,
+        0.013159606218756366,
+        -0.4290514926990375,
+        0.2013544167890608,
+        -0.01004385123509518,
+        -0.12214112750907054
+      ],
+      "activation_energy_jump_j": 0.0,
+      "activation_P_jump_kg_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "activation_H_jump_kg_m2_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target_side_impulse_first_50ms_Ns_world": [
+        0.023366236105060726,
+        0.011319556825742752,
+        0.024646415084734075
+      ],
+      "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+        -0.0069616060294077345,
+        0.007981135332178898,
+        0.0044645793015037055
+      ],
+      "constraint_work_first_50ms_j": -3.998380965595231e-07,
+      "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+    },
+    "L_fine": {
+      "raw_C1_qpos_error": 0.0,
+      "raw_C1_qvel_error": 0.0,
+      "activation_qpos_jump": 0.0,
+      "activation_qvel_jump": 0.0,
+      "capture_translation_m": 0.0,
+      "capture_rotation_deg": 3.1805546814635085e-15,
+      "capture_linear_speed_m_s": 0.0001507621403346827,
+      "capture_angular_speed_deg_s": 0.023110173038888213,
+      "target_initial_deg_s": 4.999999999999999,
+      "continuous_weld_active": true,
+      "events": [
+        {
+          "time_s": 0.0,
+          "state": "ARMED",
+          "eq_active": false
+        },
+        {
+          "time_s": 0.0,
+          "state": "LATCH",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.0,
+          "state": "GRASP_VERIFY",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.05000000000000004,
+          "state": "DAMP_TRANSFER"
+        },
+        {
+          "time_s": 5.0330000000000155,
+          "state": "HOLD"
+        }
+      ],
+      "control_jump_nm": [
+        -0.2140562573075423,
+        0.17053166507142706,
+        0.024421065125089188,
+        -0.41870505538528635,
+        0.24042258745899445,
+        -0.009589993592965411,
+        -0.1594874096246931
+      ],
+      "control_at_latch_nm": [
+        -0.15514694049597935,
+        0.13082683654348326,
+        0.013159606218756366,
+        -0.4290514926990375,
+        0.2013544167890608,
+        -0.01004385123509518,
+        -0.12214112750907054
+      ],
+      "activation_energy_jump_j": 0.0,
+      "activation_P_jump_kg_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "activation_H_jump_kg_m2_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target_side_impulse_first_50ms_Ns_world": [
+        0.023838107746333683,
+        0.011574720604551775,
+        0.025048547367552323
+      ],
+      "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+        -0.007122984877995264,
+        0.008058425839007195,
+        0.004612057527605675
+      ],
+      "constraint_work_first_50ms_j": -4.0990718318864816e-07,
+      "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+    },
+    "V_light": {
+      "raw_C1_qpos_error": 0.0,
+      "raw_C1_qvel_error": 0.0,
+      "activation_qpos_jump": 0.0,
+      "activation_qvel_jump": 0.0,
+      "capture_translation_m": 0.0,
+      "capture_rotation_deg": 3.1805546814635085e-15,
+      "capture_linear_speed_m_s": 0.0001507621403346827,
+      "capture_angular_speed_deg_s": 0.023110173038888213,
+      "target_initial_deg_s": 4.999999999999999,
+      "continuous_weld_active": true,
+      "events": [
+        {
+          "time_s": 0.0,
+          "state": "ARMED",
+          "eq_active": false
+        },
+        {
+          "time_s": 0.0,
+          "state": "LATCH",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.0,
+          "state": "GRASP_VERIFY",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.05000000000000003,
+          "state": "DAMP_TRANSFER"
+        },
+        {
+          "time_s": 4.723999999999702,
+          "state": "HOLD"
+        }
+      ],
+      "control_jump_nm": [
+        -0.2140562573075423,
+        0.17053166507142706,
+        0.024421065125089188,
+        -0.41870505538528635,
+        0.24042258745899445,
+        -0.009589993592965411,
+        -0.1594874096246931
+      ],
+      "control_at_latch_nm": [
+        -0.15514694049597935,
+        0.13082683654348326,
+        0.013159606218756366,
+        -0.4290514926990375,
+        0.2013544167890608,
+        -0.01004385123509518,
+        -0.12214112750907054
+      ],
+      "activation_energy_jump_j": 0.0,
+      "activation_P_jump_kg_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "activation_H_jump_kg_m2_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target_side_impulse_first_50ms_Ns_world": [
+        0.021732528658417974,
+        0.01029367905950165,
+        0.020369761006046525
+      ],
+      "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+        -0.006866878817894248,
+        0.008894432125037237,
+        0.004234543439232447
+      ],
+      "constraint_work_first_50ms_j": -3.067179027901682e-07,
+      "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+    },
+    "V_heavy": {
+      "raw_C1_qpos_error": 0.0,
+      "raw_C1_qvel_error": 0.0,
+      "activation_qpos_jump": 0.0,
+      "activation_qvel_jump": 0.0,
+      "capture_translation_m": 0.0,
+      "capture_rotation_deg": 3.1805546814635085e-15,
+      "capture_linear_speed_m_s": 0.0001507621403346827,
+      "capture_angular_speed_deg_s": 0.023110173038888213,
+      "target_initial_deg_s": 4.999999999999999,
+      "continuous_weld_active": true,
+      "events": [
+        {
+          "time_s": 0.0,
+          "state": "ARMED",
+          "eq_active": false
+        },
+        {
+          "time_s": 0.0,
+          "state": "LATCH",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.0,
+          "state": "GRASP_VERIFY",
+          "eq_active": true
+        },
+        {
+          "time_s": 0.05000000000000003,
+          "state": "DAMP_TRANSFER"
+        },
+        {
+          "time_s": 5.541999999999612,
+          "state": "HOLD"
+        }
+      ],
+      "control_jump_nm": [
+        -0.2140562573075423,
+        0.17053166507142706,
+        0.024421065125089188,
+        -0.41870505538528635,
+        0.24042258745899445,
+        -0.009589993592965411,
+        -0.1594874096246931
+      ],
+      "control_at_latch_nm": [
+        -0.15514694049597935,
+        0.13082683654348326,
+        0.013159606218756366,
+        -0.4290514926990375,
+        0.2013544167890608,
+        -0.01004385123509518,
+        -0.12214112750907054
+      ],
+      "activation_energy_jump_j": 0.0,
+      "activation_P_jump_kg_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "activation_H_jump_kg_m2_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "target_side_impulse_first_50ms_Ns_world": [
+        0.024502398448402737,
+        0.012252525624808677,
+        0.02833839434073713
+      ],
+      "target_side_angular_impulse_first_50ms_Nms_about_initial_system_COM": [
+        -0.0070314739397088636,
+        0.007062925101906029,
+        0.004670134352434615
+      ],
+      "constraint_work_first_50ms_j": -4.964259137914992e-07,
+      "impulse_scope": "integrated soft-constraint force over 0..50 ms; no instantaneous velocity projection or hard impulse assumed"
+    }
+  },
+  "actual_counts": {
+    "fixture_cases": 19,
+    "formal_attempts": 7,
+    "complete_10s_runs": 6,
+    "same_step_replays": 8,
+    "unit_test_batches": 2,
+    "governor_predictions": 0
+  },
+  "selected_controller": {
+    "controller": "D",
+    "coarse_evidence": "P_D",
+    "fine_evidence": "P_D_fine",
+    "damping_sha256": "844be51f1bee6d001b610d8a5a044dbe85799c14283670db3610b8a072ff4458",
+    "parameter_adaptation_after_selection": false,
+    "evidence_identity": {
+      "output/fpmfc/postgrasp_campaign/baselines/P_D/result.json": "ca2d03076724f013f2d16da47095f42f5694f5f6f8067074f82347e4f26a2162",
+      "output/fpmfc/postgrasp_campaign/baselines/P_D_fine/result.json": "7e6ff8f4c325fcd9693fc9b5f95ee91258b4b130ca033e67126435a32a67881c",
+      "output/fpmfc/postgrasp_campaign/baselines/P_D/validation.json": "8673410b84d46b14586574435cb46337c3e37c30cea8a2fe4cc91bdb65efb31c",
+      "output/fpmfc/postgrasp_campaign/baselines/P_D_fine/validation.json": "d470227778c68fb4c2bcc4fecca858beff502e450bc6562880d22deb3c214a90",
+      "output/fpmfc/postgrasp_campaign/baselines/P_D_fine/step_sensitivity.json": "054c56c5ddffbfc557d35509e1a700190c37e54a9904be594de2da037e58450c"
+    }
+  },
+  "all_three_raw_C1_scenarios_passed": true,
+  "scope": "C1 snapshot onward, idealized predeclared mechanical latch, fixed nominal D gains; no full 8 s approach re-execution, gripper mechanism or hardware rating claim",
+  "figures": [
+    {
+      "path": "figures/angular_velocity.png",
+      "sha256": "a13ff5b19ca311aa9369bb68cf992dbbc8cff2aa2e3a71afd2a1a2ed9d9a9b1e",
+      "caption": "World-frame angular-speed norms; fixed final two seconds; no shifted evaluation window."
+    },
+    {
+      "path": "figures/angular_velocity.pdf",
+      "sha256": "1c222feaeeca8a67525e40d7484529b81e515cd224712741a98d490a30cdaebd",
+      "caption": "World-frame angular-speed norms; fixed final two seconds; no shifted evaluation window."
+    },
+    {
+      "path": "figures/interface_pose_and_load.png",
+      "sha256": "3a6cbd2e5070bcfc69a94ffb226d12ac39de3d8e6b4abd79ad7359c37c26ba39",
+      "caption": "Actual interface wrench, same grasp reference point; zero values omitted only on logarithmic axes."
+    },
+    {
+      "path": "figures/interface_pose_and_load.pdf",
+      "sha256": "28cfec513254e097b90a47c72ab03a1e431f4ee2d74051ac614d1664cdbec56c",
+      "caption": "Actual interface wrench, same grasp reference point; zero values omitted only on logarithmic axes."
+    },
+    {
+      "path": "figures/momentum_conservation.png",
+      "sha256": "2ec99e7b54085fabfb8603e602dbd7a83e417b5c35160284eab3b44bd5c4be6a",
+      "caption": "Angular momentum about the current system COM; no subtraction of the soft-site couple from actual H."
+    },
+    {
+      "path": "figures/momentum_conservation.pdf",
+      "sha256": "ac357d744e3db02145e2fc458e61cd7e5fd9131741dc08aaa6918d61a5e6fb03",
+      "caption": "Angular momentum about the current system COM; no subtraction of the soft-site couple from actual H."
+    },
+    {
+      "path": "figures/joint_states.png",
+      "sha256": "ebf69ea250d58a3aa7a0c2d8476585fa874d8a71917a00aba6f9161e9afd9385",
+      "caption": "Joint positions, velocities, accelerations and actual torque commands; no additional attitude actuators."
+    },
+    {
+      "path": "figures/joint_states.pdf",
+      "sha256": "a3365eb9e64a1365ab6082ac686ff2fdca0d0d2977eaa01e42edeb6003c782bb",
+      "caption": "Joint positions, velocities, accelerations and actual torque commands; no additional attitude actuators."
+    },
+    {
+      "path": "figures/energy_accounting.png",
+      "sha256": "ee6e0287320cdecbbcd22b235afbf542bd26c9babb3c48bc13b3711caa03612d",
+      "caption": "Sampled trapezoidal work is a diagnostic, not a proof of exact discrete energy monotonicity."
+    },
+    {
+      "path": "figures/energy_accounting.pdf",
+      "sha256": "1ffb098058fb90d08f7ef47d6d8216f31fd37397414fca0be26c5435295d802b",
+      "caption": "Sampled trapezoidal work is a diagnostic, not a proof of exact discrete energy monotonicity."
+    },
+    {
+      "path": "figures/end_effector_tracking.png",
+      "sha256": "0cb120d56230aeccd9a5623eaf07045ed27b0f2db3fbc732ef511ed9eca55705",
+      "caption": "The reference is the measured target grasp point. There is no world-frame position-tracking controller in this campaign."
+    },
+    {
+      "path": "figures/end_effector_tracking.pdf",
+      "sha256": "59d4313e4f622e92a009209295d3c391aeb78aded69223a5937188d2240a6921",
+      "caption": "The reference is the measured target grasp point. There is no world-frame position-tracking controller in this campaign."
+    },
+    {
+      "path": "figures/run_coverage.png",
+      "sha256": "39d03d1043dbe93f85d5438e57072d4131961ac461b2887e3d524906c21e3441",
+      "caption": "Seven actual attempts, six complete 10 s runs. P_Z was not rerun after the diagnostic correction."
+    },
+    {
+      "path": "figures/run_coverage.pdf",
+      "sha256": "39f589b53f73cc6d9aa9c62b513b1296500b863d83d74cc879290ca643b7b65e",
+      "caption": "Seven actual attempts, six complete 10 s runs. P_Z was not rerun after the diagnostic correction."
+    }
+  ],
+  "report_implementation_identity": {
+    "v6_mujoco/postgrasp_campaign/report.py": "10c809d53dc1fdcfbeb53e767b31ab050a247854698386308c644a281433b660"
+  },
+  "immutable_design_sha256": "1541dd27109ad30486d25d2e4924209b75012b13400fb511f72a8ded9f38b969"
+}

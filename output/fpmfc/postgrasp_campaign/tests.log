@@ -1,0 +1,16 @@
+PASS: 19 restricted fixture cases (16 at 2 ms, 3 at 1 ms).
+PASS: short preflight batches v1 and v2, 3 physics steps each, nonintrusive observation/replay.
+RETAINED: P_Z stopped at 0.006 s by an incorrect raw action/reaction diagnostic; not rerun.
+PASS: geometry correction audit on 4 saved P_Z states; original source and failure archived.
+PASS: 6 complete 10 s closed-loop runs, fixed last 2 s performance and all original safety gates.
+PASS: 8 recorded-input same-step replays (P_Z original + corrected, six complete runs).
+PASS: P_D and L full-curve 2 ms versus 1 ms sensitivity, unchanged 2 ms control period.
+PASS: --resume returned with 7 formal attempts / 19 fixture cases / 8 replays / 2 unit batches unchanged.
+PASS: recorded torque equals frozen clipped damping at every control update; no applied external forces.
+PASS: raw C1 latch qpos/qvel continuity and 0..50 ms impulse/work audit.
+PASS: 42 videos probed at 300 frames, 30 fps, 10 s; no new dynamics.
+PASS: delivery input/runtime/validation/render identities and hashes.
+VISUAL QA: seven scientific plots; saved-state five-view and body-side previews; corrected crowded tracking labels.
+RENDER DEBUG: first preview had phase-field name mismatch; fixed before video encoding, no dynamics affected.
+NOT NEEDED: G_nominal / G_fine; unchanged D passed.
+NOT VALIDATED: hardware rating, physical gripper capture, full 8 s approach continuity, real-time worst-case latency.
