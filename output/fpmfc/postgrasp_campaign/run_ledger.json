@@ -1,0 +1,332 @@
+{
+  "fixture_runs": [
+    {
+      "name": "force_x_negative_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458071.62188,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458071.855084,
+      "elapsed_s": 0.22947590006515384,
+      "trace_sha256": "b8372d6f42006b590c55164e5a2a3c5ff6df6ee9a3da71e80b7212fdbcf1a87b"
+    },
+    {
+      "name": "force_x_positive_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458071.8581405,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458072.0890522,
+      "elapsed_s": 0.22751469956710935,
+      "trace_sha256": "04e57c40b9cb87a94624d5e5da3808feb969cb429e203a58c2ccffcf41dbcb0a"
+    },
+    {
+      "name": "force_y_negative_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458072.0920985,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458072.3175972,
+      "elapsed_s": 0.2220792998559773,
+      "trace_sha256": "8cc8f126da851c17430f2e4c4ed750b72fe63ed488e103d761c29100cffff795"
+    },
+    {
+      "name": "force_y_positive_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458072.320622,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458072.5445585,
+      "elapsed_s": 0.2202007002197206,
+      "trace_sha256": "795a8534b537d46627328f2321d1e7f4017ca434c8d2ccb0ed1279c580c18def"
+    },
+    {
+      "name": "force_z_negative_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458072.547584,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458072.7754903,
+      "elapsed_s": 0.22389489971101284,
+      "trace_sha256": "039205583d6af1fa33d742c7be65ea83f1d5fe2eef89290c96622bb10ecd349d"
+    },
+    {
+      "name": "force_z_positive_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458072.7785199,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458073.0074475,
+      "elapsed_s": 0.2253387998789549,
+      "trace_sha256": "e7adbd9f135da83e818b48caca785bb744b7e87b422fa7f3fe823f7e434891a3"
+    },
+    {
+      "name": "moment_x_negative_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458073.010477,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458073.2368245,
+      "elapsed_s": 0.22279320005327463,
+      "trace_sha256": "485529b7b80a6463177e5a3c5bfa2f0d9e714e69aa3a6ce969cef18366d013d2"
+    },
+    {
+      "name": "moment_x_positive_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458073.2403471,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458073.4739766,
+      "elapsed_s": 0.22939969971776009,
+      "trace_sha256": "1bea370beb8af677bcef881a3d04677e76480a673ab365a8d1f64f6f3f23d827"
+    },
+    {
+      "name": "moment_y_negative_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458073.4771664,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458073.708938,
+      "elapsed_s": 0.2283240002579987,
+      "trace_sha256": "463379cc341a5bb4bafb14b7818e84c3f16f0d1e95da7fd2b50a3fc6b6bde1b6"
+    },
+    {
+      "name": "moment_y_positive_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458073.712494,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458073.9484353,
+      "elapsed_s": 0.23253179993480444,
+      "trace_sha256": "1245cf00ca2ba674c159c0ebe68f5e9472f0bcd4c3c4e5892b0185adba4b6d58"
+    },
+    {
+      "name": "moment_z_negative_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458073.9524941,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458074.1842513,
+      "elapsed_s": 0.22914370009675622,
+      "trace_sha256": "7a103c5a700e1be1689bbb84db4cb82a75da9ad419cd6166965441ef3a12d414"
+    },
+    {
+      "name": "moment_z_positive_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458074.188351,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458074.4174378,
+      "elapsed_s": 0.22602460021153092,
+      "trace_sha256": "b23349d3c2f8eb914dee8677665beb71cc50afd5274ef7981713bb95b46a0e05"
+    },
+    {
+      "name": "mixed_0_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458074.4214754,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458074.6451998,
+      "elapsed_s": 0.22066720016300678,
+      "trace_sha256": "f1b7aad97a3c1a96c8dbb6480c6017fe0926476aa1a7da88183547e4ae977b0b"
+    },
+    {
+      "name": "mixed_1_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458074.6488492,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458074.8760533,
+      "elapsed_s": 0.2238708999939263,
+      "trace_sha256": "a190a7f858cef72e1f2cb21e49721d345fc7aa38df60998dd89a5e44a3d8db5a"
+    },
+    {
+      "name": "mixed_2_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458074.8800325,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458075.1632495,
+      "elapsed_s": 0.2794194999150932,
+      "trace_sha256": "7be194bc86bf37a1543663b2449045fd187a6b813393701e3f6412fd40636c05"
+    },
+    {
+      "name": "mixed_3_coarse",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.002,
+      "started_epoch": 1791458075.166751,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458075.4945686,
+      "elapsed_s": 0.32356599997729063,
+      "trace_sha256": "456560efe664dfc016baea87d59731e84e5a5a1293ed87194985d9503ae139f3"
+    },
+    {
+      "name": "moment_x_positive_fine",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.001,
+      "started_epoch": 1791458075.4985988,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458075.9655428,
+      "elapsed_s": 0.46315829968079925,
+      "trace_sha256": "ccf498eb9c54dad095e028a8839bbbfe3080c20fc4846327ea06e5eaf2594f3e"
+    },
+    {
+      "name": "force_y_negative_fine",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.001,
+      "started_epoch": 1791458075.9685714,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458076.421509,
+      "elapsed_s": 0.4491106001660228,
+      "trace_sha256": "f38fc10e7dbad36378a4a8623ca2113a2d8d16ef5accfd3735af6f8b505c6e5f"
+    },
+    {
+      "name": "mixed_2_fine",
+      "status": "PASSED",
+      "maximum_duration_s": 0.9,
+      "timestep_s": 0.001,
+      "started_epoch": 1791458076.424996,
+      "implementation_identity": {
+        "v6_mujoco/postgrasp_campaign/io.py": "8a471a5765e622320702ca0e8ec38f437b24c6ee8b541bc69ed95f9852ddeab0",
+        "configs/postgrasp_campaign.yaml": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+        "models/flexiv_rizon4s_postgrasp_campaign.xml": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+        "v6_mujoco/postgrasp_campaign/restricted.py": "b24a31c42c7d0beca8f32794e23a0c0df5d209d03b06ef12c2aa766f575e9c31",
+        "v6_mujoco/postgrasp_campaign/contract.py": "b3f9092050a91db50f2f7bacc6514087aa7e8e458ce0e33ebbb4aa48c3e721af"
+      },
+      "finished_epoch": 1791458076.899186,
+      "elapsed_s": 0.4710468999110162,
+      "trace_sha256": "0258b80a4a971e6655f6bad8b837fc8700ccdac60e178be3a911824d869c069c"
+    }
+  ],
+  "formal_runs": [],
+  "replays": [],
+  "unit_tests": [],
+  "predictions": [],
+  "skipped": {}
+}

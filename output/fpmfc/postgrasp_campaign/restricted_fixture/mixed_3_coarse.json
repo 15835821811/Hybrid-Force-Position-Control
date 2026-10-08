@@ -1,0 +1,74 @@
+{
+  "case": "mixed_3",
+  "timestep_s": 0.002,
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "maximum_translation_m": 3.7392146804119964e-08,
+  "maximum_rotation_deg": 0.020000102325592174,
+  "hold_max_translation_m": 3.7392146804119964e-08,
+  "hold_max_rotation_deg": 0.020000000406171347,
+  "max_interface_load_fraction": 0.8000348451966428,
+  "hold_mean_wrench_grasp": [
+    -4.426344144934116e-14,
+    -20.0000000000009,
+    6.283245250005786e-13,
+    0.7999999999999291,
+    3.3067697960612095e-15,
+    -5.071300914958574e-15
+  ],
+  "hold_mean_translation_tool_m": [
+    -4.4940846114527467e-17,
+    3.7392144476428075e-08,
+    -1.3052012202024776e-11
+  ],
+  "linear_momentum_drift": 2.4877021466268027e-16,
+  "angular_momentum_drift": 1.341706563844983e-10,
+  "maximum_net_force_moment": 7.944109290532886e-15,
+  "maximum_solver_residual": 1.342384753702519e-12,
+  "maximum_solver_iterations": 1,
+  "external_work_j": 3.557279833555008e-05,
+  "constraint_work_j": -3.488973891876924e-05,
+  "kinetic_energy_change_j": 3.3360873916107665e-22,
+  "pose_holding_passed": true,
+  "numerics_passed": true,
+  "status": "QUALIFIED",
+  "actual_capacity_passed": true,
+  "passed": true,
+  "label": "mixed_3_coarse",
+  "geometry": {
+    "target_mass_kg": 20.0,
+    "target_inertia_kg_m2": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "tool_mass_kg": 1.4,
+    "tool_inertia_kg_m2": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "source_tool_body": "link7 inertial frame; full upstream arm excluded in isolated fixture",
+    "source_model_sha256": "e7110b48cd20069e6fee63dd6b549e317e3d33bcb44ace159c46bad328b5b499",
+    "initial_interface_point_world_m": [
+      0.8350933335321533,
+      0.13999999999999999,
+      0.8535818585470191
+    ],
+    "tool_pad_diameter_m": 0.07,
+    "target_grasp_offset_m": 0.15
+  }
+}

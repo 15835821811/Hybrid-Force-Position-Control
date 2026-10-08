@@ -1,0 +1,184 @@
+{
+  "schema_version": "postgrasp_campaign_v1",
+  "frozen_utc": "2026-10-08T11:14:30.918147+00:00",
+  "baseline_commit": "79c1df133a6d3330f88a594020964d8eecbc3e0c",
+  "branch": "codex/n201s-to-n204-grasp-detumbling",
+  "config_sha256": "3fb3b47834a0459aac2789f8d3db4d1879484def9959d30d033c1f21fe5eac09",
+  "source_identity_sha256": "c1e3b684623cabba0e4c55452cb46816fa9d3515e18f7908fefdd000fa9999ed",
+  "resource_started_epoch": 1791457602,
+  "resource_budget_s": 14400,
+  "design": {
+    "schema_version": "postgrasp_campaign_v1",
+    "baseline_commit": "79c1df133a6d3330f88a594020964d8eecbc3e0c",
+    "resource_budget_s": 14400,
+    "duration_s": 10.0,
+    "evaluation_window_s": [
+      8.0,
+      10.0
+    ],
+    "standard_timestep_s": 0.002,
+    "fine_timestep_s": 0.001,
+    "control_period_s": 0.002,
+    "fixture_scale": 0.8,
+    "fixture_case_budget": 19,
+    "formal_run_budget": 9,
+    "capacity_envelope": {
+      "force_n": 50.0,
+      "moment_nm": 2.0,
+      "maximum_rho": 1.0
+    },
+    "governor": {
+      "period_s": 0.02,
+      "horizon_s": 0.1,
+      "prediction_timestep_s": 0.002,
+      "alpha_initial": 0.0,
+      "alpha_rate_per_s": 2.0,
+      "regular_candidates": 9,
+      "maximum_candidates": 10,
+      "include_emergency_zero": true,
+      "emergency_zero_policy": "immediate_brake_withdrawal_explicit_rate_exception_and_predicted",
+      "prediction_rho": 0.8,
+      "prediction_translation_m": 0.0004,
+      "prediction_rotation_deg": 0.08,
+      "parameter_knowledge": "nominal_control_model_with_actual_target_density_perturbation"
+    },
+    "latch": {
+      "translation_m": 0.0001,
+      "rotation_deg": 0.05,
+      "relative_linear_speed_m_s": 0.001,
+      "relative_angular_speed_deg_s": 0.2,
+      "verify_duration_s": 0.05,
+      "first_capture_gate_failure": "abort_without_wait_or_retry"
+    },
+    "validation_scenarios": {
+      "V_light": {
+        "target_mass_kg": 16.0,
+        "target_inertia_kg_m2": [
+          0.24,
+          0.24,
+          0.24
+        ]
+      },
+      "V_heavy": {
+        "target_mass_kg": 24.0,
+        "target_inertia_kg_m2": [
+          0.36,
+          0.36,
+          0.36
+        ]
+      }
+    },
+    "replay_tolerances": {
+      "qpos": 1e-11,
+      "qvel": 1e-10,
+      "force_grasp_n": 1e-08,
+      "moment_grasp_nm": 1e-08,
+      "load_fraction": 1e-08,
+      "interface_translation_error_m": 1e-10,
+      "interface_rotation_error_deg": 1e-08,
+      "momentum": 1e-10
+    },
+    "step_sensitivity_gates": {
+      "interface_translation_m": 5e-05,
+      "interface_rotation_deg": 0.01,
+      "target_spin_deg_s": 0.01,
+      "relative_spin_deg_s": 0.002,
+      "load_fraction": 0.02
+    },
+    "solver_residual_gate": 1e-07,
+    "controller_route": {
+      "low_load_pose_failure_rho": 0.4,
+      "active_load_rho": 0.8,
+      "active_translation_m": 0.0004,
+      "active_rotation_deg": 0.08,
+      "active_joint_margin_rad": 0.02,
+      "active_velocity_fraction": 0.9,
+      "active_torque_fraction": 0.9,
+      "active_clearance_m": 0.045
+    },
+    "github_remote": "hybrid"
+  },
+  "legacy_gates": {
+    "absolute_linear_momentum_drift_kg_m_s": 0.0001,
+    "absolute_angular_momentum_drift_kg_m2_s": 1e-05,
+    "interface_translation_m": 0.0005,
+    "interface_rotation_deg": 0.1,
+    "minimum_noncontact_clearance_m": 0.04,
+    "joint_velocity_rad_s": [
+      2.0944,
+      2.0944,
+      2.4435,
+      2.4435,
+      4.8869,
+      4.8869,
+      4.8869
+    ],
+    "target_spin_deg_s": 0.1,
+    "target_base_relative_spin_deg_s": 0.02
+  },
+  "legacy_controller": {
+    "nominal_damping_time_s": 1.0,
+    "update_period_s": 0.002,
+    "torque_limits_nm": [
+      123.0,
+      123.0,
+      64.0,
+      64.0,
+      39.0,
+      39.0,
+      39.0
+    ]
+  },
+  "connection_parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "model_sha256": "19fd0ff8ecc9e52c0ab3b033cafe1887040f565dd63e16fee1e79a2331267a0c",
+  "restricted_fixture_contract_sha256": "0645704de3ebdbd11103e08d8e1c2da08090b1ac88f82b5ea89214fe62ba712e",
+  "routes": {
+    "S": "19 fixed scaled fixture tests; any failure blocks P/G/L/V",
+    "P_Z": "baseline; load/joint/pose safety stop permits P_D only if model observation/numerics valid",
+    "P_D_success": "P_D_fine; then freeze D; then L_nominal/L_fine; then both V cases; skip G",
+    "P_D_constraint_failure": "G permitted for actual load/joint/velocity limits or pose with rho>=0.4, if model numerics valid",
+    "P_D_safe_performance_failure": "stop upgrade unless preregistered active constraint evidence exists",
+    "P_D_low_load_pose_failure": "full model compliance investigation; block G/L/V rather than conceal it",
+    "G": "only when routed; G_nominal then G_fine; failure blocks L/V; no tuning",
+    "L": "raw C1 without velocity projection; immediate capture gate; safety from latch sample; nominal then fine",
+    "V": "only after both L pass; both density scenarios independently; fixed nominal controller model",
+    "any_identity_validation_numerics_error": "stop affected dependencies and retain atomic traces",
+    "budget": "4 hours from campaign task start; checkpoint, no background promise"
+  },
+  "formal_conditions": [
+    "P_Z",
+    "P_D",
+    "P_D_fine",
+    "G_nominal",
+    "G_fine",
+    "L_nominal",
+    "L_fine",
+    "V_light",
+    "V_heavy"
+  ],
+  "environment": {
+    "python": "3.10.19",
+    "mujoco": "3.3.2",
+    "numpy": "1.26.4",
+    "scipy": "1.11.2"
+  },
+  "observer": "full MjData copy; mj_forward only on observer; real mj_step once per physics step; held ctrl between control ticks",
+  "legacy_full_boundary_contract": "FAILED",
+  "hardware_load_rating_validated": false,
+  "physical_gripper_capture_validated": false,
+  "stage_runtime_policy": "exact transitive stage implementation/verification identities frozen before each stage; later optional modules do not replace completed runtime"
+}

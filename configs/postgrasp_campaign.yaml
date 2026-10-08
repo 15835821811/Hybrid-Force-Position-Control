@@ -1,0 +1,62 @@
+schema_version: postgrasp_campaign_v1
+baseline_commit: 79c1df133a6d3330f88a594020964d8eecbc3e0c
+resource_budget_s: 14400
+duration_s: 10.0
+evaluation_window_s: [8.0, 10.0]
+standard_timestep_s: 0.002
+fine_timestep_s: 0.001
+control_period_s: 0.002
+fixture_scale: 0.8
+fixture_case_budget: 19
+formal_run_budget: 9
+capacity_envelope: {force_n: 50.0, moment_nm: 2.0, maximum_rho: 1.0}
+governor:
+  period_s: 0.02
+  horizon_s: 0.1
+  prediction_timestep_s: 0.002
+  alpha_initial: 0.0
+  alpha_rate_per_s: 2.0
+  regular_candidates: 9
+  maximum_candidates: 10
+  include_emergency_zero: true
+  emergency_zero_policy: immediate_brake_withdrawal_explicit_rate_exception_and_predicted
+  prediction_rho: 0.8
+  prediction_translation_m: 0.0004
+  prediction_rotation_deg: 0.08
+  parameter_knowledge: nominal_control_model_with_actual_target_density_perturbation
+latch:
+  translation_m: 0.0001
+  rotation_deg: 0.05
+  relative_linear_speed_m_s: 0.001
+  relative_angular_speed_deg_s: 0.2
+  verify_duration_s: 0.05
+  first_capture_gate_failure: abort_without_wait_or_retry
+validation_scenarios:
+  V_light: {target_mass_kg: 16.0, target_inertia_kg_m2: [0.24, 0.24, 0.24]}
+  V_heavy: {target_mass_kg: 24.0, target_inertia_kg_m2: [0.36, 0.36, 0.36]}
+replay_tolerances:
+  qpos: 1.0e-11
+  qvel: 1.0e-10
+  force_grasp_n: 1.0e-8
+  moment_grasp_nm: 1.0e-8
+  load_fraction: 1.0e-8
+  interface_translation_error_m: 1.0e-10
+  interface_rotation_error_deg: 1.0e-8
+  momentum: 1.0e-10
+step_sensitivity_gates:
+  interface_translation_m: 0.00005
+  interface_rotation_deg: 0.01
+  target_spin_deg_s: 0.01
+  relative_spin_deg_s: 0.002
+  load_fraction: 0.02
+solver_residual_gate: 1.0e-7
+controller_route:
+  low_load_pose_failure_rho: 0.4
+  active_load_rho: 0.8
+  active_translation_m: 0.0004
+  active_rotation_deg: 0.08
+  active_joint_margin_rad: 0.02
+  active_velocity_fraction: 0.9
+  active_torque_fraction: 0.9
+  active_clearance_m: 0.045
+github_remote: hybrid

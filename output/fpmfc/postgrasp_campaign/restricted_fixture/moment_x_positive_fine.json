@@ -1,0 +1,79 @@
+{
+  "case": "moment_x_positive",
+  "timestep_s": 0.001,
+  "parameters": {
+    "solref": [
+      0.004,
+      1
+    ],
+    "solimp": [
+      0.9998471115493802,
+      0.9998471115493802,
+      0.001,
+      0.5,
+      2
+    ],
+    "torquescale_m": 0.15,
+    "anchor_at_interface": true
+  },
+  "maximum_translation_m": 4.3882958693912946e-11,
+  "maximum_rotation_deg": 0.04000021508499237,
+  "hold_max_translation_m": 1.6656760506171979e-16,
+  "hold_max_rotation_deg": 0.040000003249271186,
+  "max_interface_load_fraction": 0.8002111008836837,
+  "hold_mean_wrench_grasp": [
+    2.3949378572418105e-18,
+    -3.710308781624514e-15,
+    -7.006536075410021e-17,
+    -1.6000000000000003,
+    -1.9192670920273559e-19,
+    -2.5408089120774728e-17
+  ],
+  "hold_mean_translation_tool_m": [
+    -1.3684257431742191e-17,
+    5.468261485249573e-17,
+    1.564476006139134e-16
+  ],
+  "linear_momentum_drift": 1.5368590114051822e-16,
+  "angular_momentum_drift": 9.790636261550344e-15,
+  "maximum_net_force_moment": 0.0,
+  "maximum_solver_residual": 1.5489928959273033e-11,
+  "maximum_solver_iterations": 1,
+  "external_work_j": 0.00013449145342421293,
+  "constraint_work_j": -0.00013319166519001446,
+  "kinetic_energy_change_j": 1.131876541049287e-28,
+  "pose_holding_passed": true,
+  "numerics_passed": true,
+  "status": "QUALIFIED",
+  "actual_capacity_passed": true,
+  "passed": true,
+  "label": "moment_x_positive_fine",
+  "geometry": {
+    "target_mass_kg": 20.0,
+    "target_inertia_kg_m2": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "tool_mass_kg": 1.4,
+    "tool_inertia_kg_m2": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "source_tool_body": "link7 inertial frame; full upstream arm excluded in isolated fixture",
+    "source_model_sha256": "e7110b48cd20069e6fee63dd6b549e317e3d33bcb44ace159c46bad328b5b499",
+    "initial_interface_point_world_m": [
+      0.8350933335321533,
+      0.13999999999999999,
+      0.8535818585470191
+    ],
+    "tool_pad_diameter_m": 0.07,
+    "target_grasp_offset_m": 0.15
+  },
+  "full_curve_step_differences": {
+    "translation_error_m": 2.6296544858364247e-13,
+    "rotation_error_deg": 0.00018497079015373022,
+    "interface_load_fraction": 0.0010464932598364673
+  }
+}
