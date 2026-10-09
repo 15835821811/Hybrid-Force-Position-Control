@@ -1,0 +1,34 @@
+schema: n208_v1
+baseline_commit: 877446208453c441c226b5b5a613856f00c4b3fd
+approach_deadline_s: 20.0
+post_duration_s: 20.0
+evaluation_width_s: 2.0
+observe_s: 0.04
+template_duration_s: 8.0
+capture_confirmation_s: 0.04
+grasp_verify_s: 0.05
+capture: {translation_m: 0.0001, rotation_deg: 0.05, linear_m_s: 0.001, angular_deg_s: 0.2}
+performance: {world_deg_s: 0.1, relative_deg_s: 0.02}
+dt_s: 0.002
+solver_tolerance: 0.000000000001
+servo_s: 0.002
+task_s: 0.02
+max_attempts: 16
+max_development: 6
+cpu_budget_s: 28800
+wall_budget_s: 28800
+measured_drift: true
+tracking_gain_scale: 3.0
+parameter_feedback: false
+brake_governor: true
+approach_energy_limit_j: 0.002
+safe_excitation: false
+margin_sigma: 3.0
+stale_limit_s: 0.04
+process_linear_accel: 0.0002
+process_angular_accel: 0.001
+contact_process_multiplier: 10.0
+information_singular_min: 5.0
+information_relative_min: 0.00001
+identification_block_s: 0.10
+identification_update_s: 0.50

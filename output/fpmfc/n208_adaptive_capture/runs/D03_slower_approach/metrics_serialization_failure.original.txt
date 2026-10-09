@@ -1,0 +1,9 @@
+{
+  "status": "POSTGRASP_SAFETY_FAILED",
+  "end_time_s": 8.427999999999484,
+  "latch_time_s": 8.427999999999484,
+  "evaluation_window_s": [
+    26.427999999999486,
+    28.427999999999486
+  ],
+  "continuous_task_completed": 

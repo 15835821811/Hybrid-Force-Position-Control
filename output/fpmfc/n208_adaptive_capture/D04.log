@@ -1,0 +1,10 @@
+{"run": "D04_noisy_development", "t": 0.0, "phase": "OBSERVE", "rank": 0, "rho": 0.0, "position_mm": 0.0, "gate": {}}
+{"run": "D04_noisy_development", "t": 1.0, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 1.525706070314515, "gate": {}}
+{"run": "D04_noisy_development", "t": 2.0, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 0.3926463142322718, "gate": {}}
+{"run": "D04_noisy_development", "t": 3.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 1.360794449951115, "gate": {}}
+{"run": "D04_noisy_development", "t": 4.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 1.3625767290793662, "gate": {}}
+{"run": "D04_noisy_development", "t": 5.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 1.583946920277876, "gate": {}}
+{"run": "D04_noisy_development", "t": 6.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 1.4537026746266217, "gate": {}}
+{"run": "D04_noisy_development", "t": 7.002, "phase": "RELATIVE_APPROACH", "rank": 0, "rho": 0.0, "position_mm": 1.2377630487409774, "gate": {}}
+{"run": "D04_noisy_development", "t": 8.002, "phase": "CAPTURE_WINDOW", "rank": 0, "rho": 0.022029883298173777, "position_mm": 1.1292208654029787, "gate": {"values": [0.0011185053288559278, 0.0013580268644827456, 0.006490478259597776, 0.022426931125138185], "margins": [0.00244417634178418, 0.008101479136819714, 0.240241202772621, 0.7997948084845241], "limits": [0.0001, 0.0008726646259971648, 0.001, 0.003490658503988659], "rho": 0.022147889829006173, "contact": true, "valid": true}}
+{"run": "D04_noisy_development", "status": "MOMENTUM_OR_NUMERICS_FAILED", "reason": "target_newton_residual_n", "end": 8.787999999999604}

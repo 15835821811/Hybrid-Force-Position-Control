@@ -1,0 +1,68 @@
+[
+  {
+    "time_s": 0.0,
+    "state": "OBSERVE"
+  },
+  {
+    "time_s": 0.04000000000000002,
+    "state": "RENDEZVOUS"
+  },
+  {
+    "time_s": 6.041999999999557,
+    "state": "RELATIVE_APPROACH"
+  },
+  {
+    "time_s": 7.841999999999358,
+    "state": "CAPTURE_WINDOW"
+  },
+  {
+    "time_s": 7.9319999999993485,
+    "state": "LATCH_REQUEST",
+    "estimated_gate": {
+      "values": [
+        3.734516824762276e-05,
+        3.407935610687034e-05,
+        0.00029246512478242566,
+        0.002127582964035819
+      ],
+      "margins": [
+        3.449924219965957e-09,
+        2.999996985624158e-09,
+        0.000252330481540889,
+        0.0007208502790274195
+      ],
+      "limits": [
+        0.0001,
+        0.0008726646259971648,
+        0.001,
+        0.003490658503988659
+      ],
+      "rho": 0.014546858763309961,
+      "contact": true,
+      "valid": true,
+      "geometry_ok": true,
+      "reference_feasible": true,
+      "prospective_latch_prediction_safe": true
+    },
+    "confirmation_start_s": 7.891999999999353,
+    "confirmation_duration_s": 0.039999999999995595,
+    "evaluation_true_capture": true
+  },
+  {
+    "time_s": 7.9319999999993485,
+    "state": "GRASP_VERIFY"
+  },
+  {
+    "time_s": 7.983999999999343,
+    "state": "DAMP_TRANSFER"
+  },
+  {
+    "time_s": 17.294000000001294,
+    "state": "HOLD"
+  },
+  {
+    "time_s": 27.931999999995398,
+    "state": "COMPLETED",
+    "reason": null
+  }
+]

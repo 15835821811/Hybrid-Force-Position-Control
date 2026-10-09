@@ -1,6 +1,19 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
-## 当前分支 N206：几何修复通过，t=8 s 实际捕获门失败
+<!-- N208 CURRENT START -->
+## 当前分支 N208：被动目标估计与事件捕获
+
+选中运行 `D06_final_gain3`：连续任务 **True**，固定末窗消旋 **True**。共记录 15 次完整机器人尝试，所有早停保留。自然任务全惯性辨识尚未验证；任务完成与参数识别分别判定。
+
+- [本轮报告](paper/N208_PASSIVE_TARGET_ESTIMATION_CAPTURE_REPORT.md) · [全部运行比较](output/fpmfc/n208_adaptive_capture/comparison.json) · [资格矩阵](output/fpmfc/n208_adaptive_capture/qualification_matrix.json)
+- [本轮全部科学图与两条视频](output/fpmfc/n208_adaptive_capture/visualizations/index.html)
+- [五个固定视角与连续体侧合成视频](output/fpmfc/n208_adaptive_capture/visualizations/overview_five_views_and_body_side.mp4) · [接口近景](output/fpmfc/n208_adaptive_capture/visualizations/interface_closeup.mp4)
+- [末端实际/参考轨迹](output/fpmfc/n208_adaptive_capture/visualizations/trajectory.png) · [末端跟踪误差](output/fpmfc/n208_adaptive_capture/visualizations/tracking.png)
+
+仿真传感器、软件锁紧与有限场景证据；无真实夹爪、硬件承载或实时就绪声明。下列 N110—N206 内容保留为历史记录。
+<!-- N208 CURRENT END -->
+
+## 历史 N206：几何修复通过，t=8 s 实际捕获门失败
 
 旧终端 **−0.292937 mm** 干涉由原始碰撞 STL 三角面独立确认。采用有实体支撑和正质量的 **20 mm 工具安装增量**，新增约 **0.205738 kg**；这是未经硬件批准的仿真设计候选。新几何、三条全时域参考筛查和受影响接口测试已完成，标准 C1 按几何/运动学规则选中。
 

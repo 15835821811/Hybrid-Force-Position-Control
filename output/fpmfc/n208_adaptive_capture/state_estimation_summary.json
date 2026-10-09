@@ -1,0 +1,1114 @@
+{
+  "D01_ideal": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 14088,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350037125996e-19,
+    "innovation_rms_components": [
+      9.508719049242273e-09,
+      1.2522245948537228e-08,
+      1.1865811746794752e-08,
+      1.0849913498624196e-07,
+      1.0581902121252069e-07,
+      1.2635189021298648e-07
+    ],
+    "state_error_rms_components": [
+      9.255736855952526e-13,
+      1.9826945022613277e-12,
+      2.06212555811957e-12,
+      3.931361907107661e-13,
+      2.7670709901833597e-13,
+      2.9804144001930794e-13,
+      1.6484865175404247e-06,
+      2.138412431713927e-06,
+      2.053598365097906e-06,
+      1.867939472438039e-05,
+      1.9087791143714704e-05,
+      2.1822777776553143e-05
+    ],
+    "state_error_max_components": [
+      3.53846951739456e-11,
+      5.421330051547102e-11,
+      4.620648308417685e-11,
+      1.9351919806202232e-11,
+      1.0323402534902483e-11,
+      2.1996974988028858e-11,
+      0.0001419170159883817,
+      0.00020852958384626587,
+      0.00017781548043368026,
+      0.001971771243998407,
+      0.0009092143213204618,
+      0.0021861467309088048
+    ],
+    "empirical_marginal_3sigma_coverage": null,
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "D02_ideal_governor": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 14088,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350037125996e-19,
+    "innovation_rms_components": [
+      9.508719049242273e-09,
+      1.2522245948537228e-08,
+      1.1865811746794752e-08,
+      1.0849913498624196e-07,
+      1.0581902121252069e-07,
+      1.2635189021298648e-07
+    ],
+    "state_error_rms_components": [
+      9.255736855952526e-13,
+      1.9826945022613277e-12,
+      2.06212555811957e-12,
+      3.931361907107661e-13,
+      2.7670709901833597e-13,
+      2.9804144001930794e-13,
+      1.6484865175404247e-06,
+      2.138412431713927e-06,
+      2.053598365097906e-06,
+      1.867939472438039e-05,
+      1.9087791143714704e-05,
+      2.1822777776553143e-05
+    ],
+    "state_error_max_components": [
+      3.53846951739456e-11,
+      5.421330051547102e-11,
+      4.620648308417685e-11,
+      1.9351919806202232e-11,
+      1.0323402534902483e-11,
+      2.1996974988028858e-11,
+      0.0001419170159883817,
+      0.00020852958384626587,
+      0.00017781548043368026,
+      0.001971771243998407,
+      0.0009092143213204618,
+      0.0021861467309088048
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999290176036343,
+      0.9999290176036343,
+      0.9999290176036343,
+      0.9999290176036343,
+      0.9999290176036343
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "D03_slower_approach": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 4213,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350037125996e-19,
+    "innovation_rms_components": [
+      5.568624972913672e-09,
+      4.459442878485987e-09,
+      7.491842601055719e-09,
+      1.6299755727111335e-08,
+      2.4999143557061766e-08,
+      2.5702963880592528e-08
+    ],
+    "state_error_rms_components": [
+      2.7987902075327196e-13,
+      2.2419261817978884e-13,
+      3.7657968607790176e-13,
+      3.281344756905098e-14,
+      5.0377818249274534e-14,
+      5.1791124366647156e-14,
+      1.0202856511975615e-06,
+      8.169055348240848e-07,
+      1.3720507419101633e-06,
+      2.9875247919983613e-06,
+      4.555900452270582e-06,
+      4.6953227028586e-06
+    ],
+    "state_error_max_components": [
+      1.8426371539703723e-12,
+      1.4803158698839525e-12,
+      2.461142400989047e-12,
+      2.1660830681194799e-13,
+      4.790620413945682e-13,
+      4.347746934609199e-13,
+      6.761514691906159e-06,
+      5.402809732688073e-06,
+      8.976318800643602e-06,
+      2.0001097562980007e-05,
+      4.403440339940945e-05,
+      4.025477516810222e-05
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "D04_noisy_development": {
+    "sensor": {
+      "pose_period_s": 0.006,
+      "delay_s": 0.012,
+      "position_sigma_m": 1e-05,
+      "rotation_sigma_rad": 3.5e-05,
+      "position_bias_m": [
+        2e-06,
+        -2e-06,
+        1e-06
+      ],
+      "rotation_bias_rad": [
+        3e-06,
+        2e-06,
+        -3e-06
+      ],
+      "force_sigma_n": 0.01,
+      "moment_sigma_nm": 0.0005,
+      "seed": 20802
+    },
+    "valid_control_ticks": 4383,
+    "max_measurement_age_s": 0.016000000000005343,
+    "minimum_covariance_eigenvalue": 4.043686189041262e-10,
+    "innovation_rms_components": [
+      2.2099421311423618e-05,
+      2.262324545079674e-05,
+      2.24607206111895e-05,
+      8.60097382622006e-05,
+      9.002623082029198e-05,
+      9.020143520141938e-05
+    ],
+    "state_error_rms_components": [
+      3.7732061653368667e-05,
+      3.794013851285039e-05,
+      3.7502572266116535e-05,
+      0.0001473997434267692,
+      0.00015879019239472595,
+      0.00015663410686180386,
+      0.0022738112631126685,
+      0.0022368151703427196,
+      0.002233072978064385,
+      0.00890006116819193,
+      0.009767397680904868,
+      0.00952016594422096
+    ],
+    "state_error_max_components": [
+      0.00018317686149305068,
+      0.00018757997818766303,
+      0.00018122078498716832,
+      0.0007576257773794047,
+      0.0008721816142162949,
+      0.0007983089661186118,
+      0.009967722643754463,
+      0.010110000384826377,
+      0.010242228274670976,
+      0.0434980495730527,
+      0.04988431666306288,
+      0.04545677736642063
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "D05_final_nominal": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 4709,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350037125996e-19,
+    "innovation_rms_components": [
+      1.0058442097755689e-08,
+      5.7914477276231895e-09,
+      1.0741133958974952e-08,
+      2.3836271735481282e-08,
+      4.587991038711643e-08,
+      3.199620125238571e-08
+    ],
+    "state_error_rms_components": [
+      1.0157772591062946e-12,
+      3.1204271063510935e-13,
+      6.172111630183644e-13,
+      7.567582589420897e-14,
+      2.1390979913156055e-13,
+      1.1842235337427597e-13,
+      1.8441341665574624e-06,
+      1.0600436121774151e-06,
+      1.9657363107111006e-06,
+      4.3667353614425695e-06,
+      8.403358804168101e-06,
+      5.854675232004895e-06
+    ],
+    "state_error_max_components": [
+      4.6272319309537124e-11,
+      5.723255203093913e-12,
+      1.548527972516922e-11,
+      2.807176366359269e-12,
+      9.847720729149402e-12,
+      5.08399052023776e-12,
+      6.982671513411495e-06,
+      5.791196902145304e-06,
+      1.0427223493824495e-05,
+      2.115721259759529e-05,
+      5.731862409348587e-05,
+      4.3792215543746876e-05
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "D06_final_gain3": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 13995,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350037125996e-19,
+    "innovation_rms_components": [
+      5.464198937943318e-09,
+      7.234865132083687e-09,
+      8.127527130701702e-09,
+      5.575311639332197e-08,
+      1.0405000080953454e-07,
+      6.36043822290883e-08
+    ],
+    "state_error_rms_components": [
+      5.244159079818092e-13,
+      1.5671730420535245e-12,
+      1.7827909349175684e-12,
+      7.036725469052846e-13,
+      3.3238339757094787e-13,
+      5.902053783363763e-13,
+      9.720368863908112e-07,
+      1.2539303557122743e-06,
+      1.4347227951978421e-06,
+      9.597363005351115e-06,
+      1.9073952582101268e-05,
+      1.1088180974785667e-05
+    ],
+    "state_error_max_components": [
+      1.6600831820312578e-11,
+      2.93290114417033e-11,
+      2.8403057683590305e-11,
+      9.730345110376204e-12,
+      5.9864866133161525e-12,
+      1.004315272438887e-11,
+      5.9610838086944984e-05,
+      0.00011050553675976023,
+      0.00010336634862026192,
+      0.0009823080847079597,
+      0.0005566810248689019,
+      0.0009475010307462778
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999285459092533,
+      1.0,
+      0.9999285459092533
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "H1_prior": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 13965,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792349882561004e-19,
+    "innovation_rms_components": [
+      4.739960282861074e-09,
+      2.379512900063079e-09,
+      8.329882983254685e-09,
+      3.9558404431246753e-08,
+      1.104948983459335e-07,
+      3.3895079195534176e-08
+    ],
+    "state_error_rms_components": [
+      3.27249862100773e-13,
+      6.257967689807505e-13,
+      5.072730575388253e-13,
+      1.9839597728471488e-12,
+      6.806905012220859e-13,
+      1.02620963636817e-12,
+      8.251175480357219e-07,
+      4.1089494524717574e-07,
+      1.443769956341493e-06,
+      6.944972095620427e-06,
+      1.989645338573967e-05,
+      5.721678245163487e-06
+    ],
+    "state_error_max_components": [
+      2.0464185901403198e-11,
+      1.0304423980755928e-11,
+      3.676858817414086e-11,
+      1.8392738720951885e-11,
+      1.7840447869011233e-11,
+      6.180694844815223e-12,
+      8.530612414101539e-05,
+      4.2482498566774444e-05,
+      0.00015030643129720705,
+      0.0006291251250161237,
+      0.0007142919531313158,
+      0.0005657252550788378
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999283924095954,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "H1_identified": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 13965,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792349882561004e-19,
+    "innovation_rms_components": [
+      4.739960282861074e-09,
+      2.379512900063079e-09,
+      8.329882983254685e-09,
+      3.9558404431246753e-08,
+      1.104948983459335e-07,
+      3.3895079195534176e-08
+    ],
+    "state_error_rms_components": [
+      3.27249862100773e-13,
+      6.257967689807505e-13,
+      5.072730575388253e-13,
+      1.9839597728471488e-12,
+      6.806905012220859e-13,
+      1.02620963636817e-12,
+      8.251175480357219e-07,
+      4.1089494524717574e-07,
+      1.443769956341493e-06,
+      6.944972095620427e-06,
+      1.989645338573967e-05,
+      5.721678245163487e-06
+    ],
+    "state_error_max_components": [
+      2.0464185901403198e-11,
+      1.0304423980755928e-11,
+      3.676858817414086e-11,
+      1.8392738720951885e-11,
+      1.7840447869011233e-11,
+      6.180694844815223e-12,
+      8.530612414101539e-05,
+      4.2482498566774444e-05,
+      0.00015030643129720705,
+      0.0006291251250161237,
+      0.0007142919531313158,
+      0.0005657252550788378
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999283924095954,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "H2_prior": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 3909,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350478712922e-19,
+    "innovation_rms_components": [
+      0.0,
+      0.0,
+      0.0,
+      1.454652391364415e-09,
+      2.0129070433597218e-10,
+      3.868605521754487e-10
+    ],
+    "state_error_rms_components": [
+      0.0,
+      0.0,
+      0.0,
+      2.9179982834297267e-13,
+      4.03791877899046e-14,
+      7.760082207777162e-14,
+      1.2496588626906242e-37,
+      1.090630896779937e-38,
+      9.693560769543478e-38,
+      2.664692831610687e-07,
+      3.687294833819224e-08,
+      7.085972953583459e-08
+    ],
+    "state_error_max_components": [
+      0.0,
+      0.0,
+      0.0,
+      3.1901773432131686e-13,
+      4.651487528484505e-14,
+      1.4700046735428407e-13,
+      2.3344286499292585e-37,
+      1.636175151733639e-38,
+      2.1290465593270783e-37,
+      2.7549556695129207e-07,
+      4.2416941486989046e-08,
+      1.3423774468390715e-07
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "H2_identified": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 3909,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350478712922e-19,
+    "innovation_rms_components": [
+      0.0,
+      0.0,
+      0.0,
+      1.454652391364415e-09,
+      2.0129070433597218e-10,
+      3.868605521754487e-10
+    ],
+    "state_error_rms_components": [
+      0.0,
+      0.0,
+      0.0,
+      2.9179982834297267e-13,
+      4.03791877899046e-14,
+      7.760082207777162e-14,
+      1.2496588626906242e-37,
+      1.090630896779937e-38,
+      9.693560769543478e-38,
+      2.664692831610687e-07,
+      3.687294833819224e-08,
+      7.085972953583459e-08
+    ],
+    "state_error_max_components": [
+      0.0,
+      0.0,
+      0.0,
+      3.1901773432131686e-13,
+      4.651487528484505e-14,
+      1.4700046735428407e-13,
+      2.3344286499292585e-37,
+      1.636175151733639e-38,
+      2.1290465593270783e-37,
+      2.7549556695129207e-07,
+      4.2416941486989046e-08,
+      1.3423774468390715e-07
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "H3_prior": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 13965,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792348139089035e-19,
+    "innovation_rms_components": [
+      6.5101601204964336e-09,
+      2.159006678348381e-09,
+      7.31290164797451e-09,
+      1.3672061652954706e-08,
+      6.100870586129181e-08,
+      9.573791853404883e-09
+    ],
+    "state_error_rms_components": [
+      6.501267776964422e-13,
+      1.0809128401901445e-12,
+      4.3010957981250407e-13,
+      2.9684809619688437e-13,
+      1.8903196303907162e-13,
+      1.9273593179213184e-13,
+      1.1431410647123392e-06,
+      3.925999140587368e-07,
+      1.262676554715896e-06,
+      2.5124764913422602e-06,
+      1.1136658928499141e-05,
+      1.7126933569614654e-06
+    ],
+    "state_error_max_components": [
+      2.6953883569547088e-11,
+      7.092271214759194e-12,
+      3.2544966721559376e-11,
+      2.8426991663386503e-12,
+      3.744298507671897e-12,
+      1.1718170480993553e-12,
+      0.00011881990330806392,
+      2.399637834193087e-05,
+      0.00013472153584257748,
+      0.00011916582860395538,
+      0.0003517939979489973,
+      0.00012809132933406655
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "H3_identified": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 13965,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792348139089035e-19,
+    "innovation_rms_components": [
+      6.5101601204964336e-09,
+      2.159006678348381e-09,
+      7.31290164797451e-09,
+      1.3672061652954706e-08,
+      6.100870586129181e-08,
+      9.573791853404883e-09
+    ],
+    "state_error_rms_components": [
+      6.501267776964422e-13,
+      1.0809128401901445e-12,
+      4.3010957981250407e-13,
+      2.9684809619688437e-13,
+      1.8903196303907162e-13,
+      1.9273593179213184e-13,
+      1.1431410647123392e-06,
+      3.925999140587368e-07,
+      1.262676554715896e-06,
+      2.5124764913422602e-06,
+      1.1136658928499141e-05,
+      1.7126933569614654e-06
+    ],
+    "state_error_max_components": [
+      2.6953883569547088e-11,
+      7.092271214759194e-12,
+      3.2544966721559376e-11,
+      2.8426991663386503e-12,
+      3.744298507671897e-12,
+      1.1718170480993553e-12,
+      0.00011881990330806392,
+      2.399637834193087e-05,
+      0.00013472153584257748,
+      0.00011916582860395538,
+      0.0003517939979489973,
+      0.00012809132933406655
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "F01_fine": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 13995,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792350124478877e-19,
+    "innovation_rms_components": [
+      5.456540296213252e-09,
+      7.220007284306455e-09,
+      8.11309714417053e-09,
+      5.578619753231323e-08,
+      1.039688533630547e-07,
+      6.347269530709643e-08
+    ],
+    "state_error_rms_components": [
+      5.238015722349004e-13,
+      1.5668269239707407e-12,
+      1.7806685282043522e-12,
+      7.028766476015234e-13,
+      3.315679534331894e-13,
+      5.884860695057318e-13,
+      9.848845747382214e-07,
+      1.2850050339835877e-06,
+      1.4599181315191863e-06,
+      9.893971011602894e-06,
+      1.9061474881743774e-05,
+      1.1321291682663204e-05
+    ],
+    "state_error_max_components": [
+      1.639177682477566e-11,
+      2.8982205524386018e-11,
+      2.8043900535124067e-11,
+      9.653908721690753e-12,
+      5.986373635638155e-12,
+      9.930927282775602e-12,
+      6.330469080321902e-05,
+      0.00011625295106361421,
+      0.00010939686601855775,
+      0.0010256950455429122,
+      0.0005545837519329577,
+      0.0009929969107283576
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999285459092533,
+      1.0,
+      0.9999285459092533
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "S01_noise_delay": {
+    "sensor": {
+      "pose_period_s": 0.006,
+      "delay_s": 0.012,
+      "position_sigma_m": 1e-05,
+      "rotation_sigma_rad": 3.5e-05,
+      "position_bias_m": [
+        2e-06,
+        -2e-06,
+        1e-06
+      ],
+      "rotation_bias_rad": [
+        3e-06,
+        2e-06,
+        -3e-06
+      ],
+      "force_sigma_n": 0.01,
+      "moment_sigma_nm": 0.0005,
+      "seed": 20802
+    },
+    "valid_control_ticks": 3759,
+    "max_measurement_age_s": 0.016000000000000014,
+    "minimum_covariance_eigenvalue": 4.043686189041262e-10,
+    "innovation_rms_components": [
+      2.1565203274162464e-05,
+      2.289021878965624e-05,
+      2.2120721167823638e-05,
+      8.71187749278181e-05,
+      8.871660481903284e-05,
+      9.097799755188877e-05
+    ],
+    "state_error_rms_components": [
+      3.6357442623666e-05,
+      3.80514052406508e-05,
+      3.654142340777576e-05,
+      0.00014874285524957057,
+      0.0001548759680934808,
+      0.0001579125117551064,
+      0.0021408451089713503,
+      0.0022380128853096448,
+      0.0021428652685258312,
+      0.008960909250888296,
+      0.009291884018031837,
+      0.009568174094345286
+    ],
+    "state_error_max_components": [
+      0.00018317686149305068,
+      0.00018757997818766303,
+      0.00018122078498716832,
+      0.0007576257773794047,
+      0.0007071217305858385,
+      0.0008574658808526662,
+      0.009967722643754463,
+      0.010367954473240532,
+      0.010242228274670976,
+      0.0434980495730527,
+      0.039200937851635254,
+      0.05939860589530639
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  },
+  "S02_contact_mismatch": {
+    "sensor": {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "position_sigma_m": 0.0,
+      "rotation_sigma_rad": 0.0,
+      "position_bias_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_bias_rad": [
+        0,
+        0,
+        0
+      ],
+      "force_sigma_n": 0.0,
+      "moment_sigma_nm": 0.0,
+      "seed": 20801
+    },
+    "valid_control_ticks": 13998,
+    "max_measurement_age_s": 0.0,
+    "minimum_covariance_eigenvalue": 9.792349737525963e-19,
+    "innovation_rms_components": [
+      4.200888115937281e-09,
+      6.350294452164454e-09,
+      5.541002535815573e-09,
+      5.6928618930899007e-08,
+      1.0315119350880897e-07,
+      6.24298752542599e-08
+    ],
+    "state_error_rms_components": [
+      4.789554212793301e-13,
+      1.4468956548047326e-12,
+      1.4697135461595356e-12,
+      7.007531217007833e-13,
+      3.3466703385478936e-13,
+      6.204216887318338e-13,
+      7.618816443349801e-07,
+      1.1024517803503593e-06,
+      9.92807933062207e-07,
+      9.85604486850162e-06,
+      1.898263778685985e-05,
+      1.092591593713311e-05
+    ],
+    "state_error_max_components": [
+      8.632539127972905e-12,
+      2.5320329166689248e-11,
+      1.5397683128526296e-11,
+      9.886534733243359e-12,
+      5.180816869120945e-12,
+      9.712751870143496e-12,
+      2.5194571861405753e-05,
+      9.412682717085008e-05,
+      4.8936646482955135e-05,
+      0.0010092425255232142,
+      0.0004778690774086686,
+      0.0009184028686700617
+    ],
+    "empirical_marginal_3sigma_coverage": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.9999285612230319,
+      1.0,
+      0.9999285612230319
+    ],
+    "scope": "World-expressed geometric-origin errors on current output ticks. Innovations can repeat between delivered poses; correlated samples, no calibrated probability guarantee."
+  }
+}

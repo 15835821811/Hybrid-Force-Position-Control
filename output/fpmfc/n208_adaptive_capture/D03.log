@@ -1,0 +1,31 @@
+{"run": "D03_slower_approach", "t": 0.0, "phase": "OBSERVE", "rank": 0, "rho": 0.0, "position_mm": 0.0, "gate": {}}
+{"run": "D03_slower_approach", "t": 1.0, "phase": "RENDEZVOUS", "rank": 3, "rho": 0.0, "position_mm": 0.1482747683892946, "gate": {}}
+{"run": "D03_slower_approach", "t": 2.0, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.12935569383220916, "gate": {}}
+{"run": "D03_slower_approach", "t": 3.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.5142263331847545, "gate": {}}
+{"run": "D03_slower_approach", "t": 4.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.47780174315642615, "gate": {}}
+{"run": "D03_slower_approach", "t": 5.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.7416387630167509, "gate": {}}
+{"run": "D03_slower_approach", "t": 6.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 1.081956652153833, "gate": {}}
+{"run": "D03_slower_approach", "t": 7.002, "phase": "RELATIVE_APPROACH", "rank": 4, "rho": 0.0, "position_mm": 0.6881360326792925, "gate": {}}
+{"run": "D03_slower_approach", "t": 8.002, "phase": "RELATIVE_APPROACH", "rank": 4, "rho": 0.0, "position_mm": 0.0910774570005896, "gate": {}}
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\admin\.codex\worktrees\n208-passive-target-estimation\��λ�λ�Ͽ���\v6_mujoco\adaptive_capture\runner.py", line 109, in <module>
+    p=argparse.ArgumentParser();p.add_argument('name');p.add_argument('--sensor',default='ideal');p.add_argument('--mode',choices=['prior','identified'],default='prior');p.add_argument('--duration',type=float);a=p.parse_args();run(a.name,a.sensor,mode=a.mode,template_duration=a.duration)
+  File "C:\Users\admin\.codex\worktrees\n208-passive-target-estimation\��λ�λ�Ͽ���\v6_mujoco\adaptive_capture\runner.py", line 103, in run
+    save(out/'events.json',events);save(out/'posteriors.json',posteriors);save(out/'metrics.json',result)
+  File "C:\Users\admin\.codex\worktrees\n208-passive-target-estimation\��λ�λ�Ͽ���\v6_mujoco\postgrasp_campaign\io.py", line 27, in save
+    json.dump(payload, stream, indent=2, ensure_ascii=False, allow_nan=False)
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool_ is not JSON serializable

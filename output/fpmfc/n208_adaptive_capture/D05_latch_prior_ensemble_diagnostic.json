@@ -1,0 +1,18 @@
+{
+  "time": 8.1779999999994,
+  "prior_models": [
+    {
+      "inertia_scale": 1,
+      "rho": 0.9009652017655612
+    },
+    {
+      "inertia_scale": 0.5,
+      "rho": 0.4026432847723821
+    },
+    {
+      "inertia_scale": 2,
+      "rho": 1.685209958057337
+    }
+  ],
+  "scope": "same saved causal packet/estimate, independent known models, no task-plant integration"
+}

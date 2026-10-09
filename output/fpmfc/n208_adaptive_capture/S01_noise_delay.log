@@ -1,0 +1,9 @@
+{"run": "S01_noise_delay", "t": 0.0, "phase": "OBSERVE", "rank": 0, "rho": 0.0, "position_mm": 0.0, "gate": {}}
+{"run": "S01_noise_delay", "t": 1.0, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 2.340586286547137, "gate": {}}
+{"run": "S01_noise_delay", "t": 2.0, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 4.669971982595796, "gate": {}}
+{"run": "S01_noise_delay", "t": 3.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 9.717334798459486, "gate": {}}
+{"run": "S01_noise_delay", "t": 4.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 25.234726949323825, "gate": {}}
+{"run": "S01_noise_delay", "t": 5.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 1.7679236503525537, "gate": {}}
+{"run": "S01_noise_delay", "t": 6.002, "phase": "RENDEZVOUS", "rank": 0, "rho": 0.0, "position_mm": 0.8247807453134661, "gate": {}}
+{"run": "S01_noise_delay", "t": 7.002, "phase": "RELATIVE_APPROACH", "rank": 0, "rho": 0.0, "position_mm": 7.17488480726883, "gate": {}}
+{"run": "S01_noise_delay", "status": "HQP_FAILED", "reason": {"time": 7.539999999999392, "success": false, "bound_conflicts": [false, false, false, false, false, false, false], "position_error_m": 0.01985101347198741, "rotation_error_rad": 0.003344329170655949, "drift": [-0.0019475975554656335, -0.004427650387085094, 0.0020367107139542388, 0.0026407723907748517, -0.0023431328740916788, -0.0025208978218349146], "minimum_slack": -0.009774551134191845}, "end": 7.539999999999392}

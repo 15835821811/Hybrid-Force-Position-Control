@@ -1,0 +1,49 @@
+{
+  "passive_target_dynamics_validated": true,
+  "controller_truth_isolation": true,
+  "state_estimation_validated": {
+    "ideal_implementation": true,
+    "noisy_task_success": false,
+    "scope": "Per-run state errors and empirical marginal coverage are in metrics.json; no calibrated probabilistic or real sensor claim."
+  },
+  "physical_inertia_constraints": true,
+  "identifiable_subspace": {
+    "D01_ideal": 3,
+    "D02_ideal_governor": 10,
+    "D03_slower_approach": 4,
+    "D04_noisy_development": 0,
+    "D05_final_nominal": 9,
+    "D06_final_gain3": 10,
+    "H1_prior": 10,
+    "H1_identified": 10,
+    "H2_prior": 4,
+    "H2_identified": 4,
+    "H3_prior": 10,
+    "H3_identified": 10,
+    "F01_fine": 10,
+    "S01_noise_delay": 0,
+    "S02_contact_mismatch": 10
+  },
+  "full_inertia_identification": false,
+  "event_based_capture": true,
+  "continuous_task_completed": true,
+  "postgrasp_detumbling": true,
+  "hidden_parameter_cases": {
+    "executed": 6,
+    "task_successes": 4,
+    "planned": 6
+  },
+  "sensor_uncertainty_cases": {
+    "executed": 2,
+    "completed": 0
+  },
+  "contact_model_mismatch_case": {
+    "executed": 1,
+    "completed": 1
+  },
+  "hardware_load_rating_validated": false,
+  "physical_gripper_capture_validated": false,
+  "real_time_ready": false,
+  "selected_run": "D06_final_gain3",
+  "scope": "Finite simulation campaign, not universal robust capture or full hardware validation."
+}

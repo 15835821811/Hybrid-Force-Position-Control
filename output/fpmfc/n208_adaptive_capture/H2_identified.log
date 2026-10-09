@@ -1,0 +1,9 @@
+{"run": "H2_identified", "t": 0.0, "phase": "OBSERVE", "rank": 0, "rho": 0.0, "position_mm": 0.0, "gate": {}}
+{"run": "H2_identified", "t": 1.0, "phase": "RENDEZVOUS", "rank": 3, "rho": 0.0, "position_mm": 0.12305497398942995, "gate": {}}
+{"run": "H2_identified", "t": 2.0, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.10281917020458728, "gate": {}}
+{"run": "H2_identified", "t": 3.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.1263822389351172, "gate": {}}
+{"run": "H2_identified", "t": 4.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.20475335298416317, "gate": {}}
+{"run": "H2_identified", "t": 5.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.41425271377748657, "gate": {}}
+{"run": "H2_identified", "t": 6.002, "phase": "RENDEZVOUS", "rank": 4, "rho": 0.0, "position_mm": 0.5108484306844815, "gate": {}}
+{"run": "H2_identified", "t": 7.002, "phase": "RELATIVE_APPROACH", "rank": 4, "rho": 0.0, "position_mm": 145.75683349224914, "gate": {}}
+{"run": "H2_identified", "status": "HQP_FAILED", "reason": {"time": 7.819999999999361, "success": false, "bound_conflicts": [false, false, false, false, false, false, false], "position_error_m": 0.01764224028336598, "rotation_error_rad": 0.0044107327478318135, "drift": [-2.4080612237185704e-12, -3.090106652028451e-11, 3.699851810856872e-12, 4.981144450251272e-12, -1.3267536677460374e-13, -5.3505168226497875e-12], "minimum_slack": -0.029230070785117468}, "end": 7.819999999999361}

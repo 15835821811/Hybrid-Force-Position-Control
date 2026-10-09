@@ -1,0 +1,107 @@
+{
+  "campaign_identification": {
+    "caption": "Independent target cases: final parameter errors and data rank for prior/identified control modes. COM error is Euclidean distance; tensor error is relative Frobenius error of COM-centered inertia. Dashed lines are preregistered accuracy targets; full rank does not guarantee those errors pass. Source runs: H1_prior, H1_identified, H2_prior, H2_identified, H3_prior, H3_identified. H1: COMPLETED at 27.932 s, latched; H2: HQP_FAILED at 7.820 s, no latch; H3: COMPLETED at 27.932 s, latched. H2 never used parameter feedback. Errors use evaluation-only truth; unequal actual horizons are retained. Control-mode names do not imply parameter use; consult comparison.json.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "H1_prior": "1138e7da0176a9b6f55e73f371f4747e86def3e02f4ca9bba30e456b30939f59",
+      "H1_identified": "3f48d497d2d7d1b5cae212831b7b4e8b5043b4a5f350f04c2a68c5e6b5f69aae",
+      "H2_prior": "cd003df1402195fdb7d28ee5495be553520386f6b7f1b925c75c5ab6683e0287",
+      "H2_identified": "cd003df1402195fdb7d28ee5495be553520386f6b7f1b925c75c5ab6683e0287",
+      "H3_prior": "894d4ee746791b92174ea70c65e9fc82cebd94381a90d1982b02768f2a0ae0d5",
+      "H3_identified": "c49ad84e9b498d5b136c7b4f49056f3c14c47ba4849e78a2cbc94e1482f351c3"
+    },
+    "png_sha256": "daf1c13d49eda29b8c98dfde805b7060074e4599786f613bc967bfa9ee1d14a2",
+    "pdf_sha256": "6915a53b9b48042ff495521ca89715ab22e2aedb1d0d34fc1d48e286b59ee4f3"
+  },
+  "trajectory": {
+    "caption": "World XY/XZ projections of actual flange and live estimated-target reference, only while approach reference is applicable. Equal spatial scales; solid actual, dashed reference. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "c6c945ce3adb8a9d4f1f663b078cfb350d7c36165688b82275200faec7866bda",
+    "pdf_sha256": "65fe7bb3653e714090b44bd0a301552ecfb13ba7e6771af02d94c33d52bca43d"
+  },
+  "tracking": {
+    "caption": "Actual flange versus live estimated-target reference during approach; reference is inactive after latch. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "705fa5dbc88c63ef26859d1796577a677b59c23c6a91afd463681e714fa7442b",
+    "pdf_sha256": "985fbc755a40bd030ff118a6fc1ae1710cf2195898cd9e597879539694904cc4"
+  },
+  "state_estimation": {
+    "caption": "Geometric-frame state estimation errors under the declared simulation sensor. Shading shows the maximum of three marginal 3-sigma model bounds, not a certified safety probability. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False. World-expressed geometric-origin errors at estimator output ticks; shading is maximum of three marginal bounds.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "ecd671c2eb951d840c0d4840c3037be569c58e39995279a386d32c2be179b8b5",
+    "pdf_sha256": "1004f80843ac3b05b1050ca163282dad7cd3dfcdf90b6d0acc9a1467008ad386"
+  },
+  "capture_and_load": {
+    "caption": "Independent true capture quantities and physical interface load. Capture gates are unchanged; event latch is marked. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False. Dashed pose lines are capture gates; dotted post-latch lines are holding gates.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "7d3fbca90ee1bae645b01d00bbde57e779910b2fc3530f910d3622595af4f8c5",
+    "pdf_sha256": "e5f6c889e9259ab01768d28e53d5478930a5cd86ea73af5d160d1d705ea62a29"
+  },
+  "detumbling": {
+    "caption": "Target world and target-base relative angular speeds, with the fixed post-latch evaluation window. A weld alone does not establish detumbling. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "c819dba67275f31188d8e4b479cdf64c885cde6610bd634d7754b6152d0564e5",
+    "pdf_sha256": "03240e676e5040f87b64ed25a54330af38be00ffb2514ec2a29f15753b5a97a8"
+  },
+  "momentum_energy": {
+    "caption": "Separate SI linear/angular momentum drift and kinetic/relative energy. Numerical residuals are not subtracted from actual momentum. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "5ddaa2752a45ea4fd96ddf0450e50a8d8331a7ed8fc52dbb0bee42602520c761",
+    "pdf_sha256": "19b2a13711813f2cdd10eeb87cbeb74e85e04d0e9fc53aafa3a84ef887e77ecf"
+  },
+  "joints": {
+    "caption": "Seven measured joint positions, velocities and applied motor torques throughout the actual run. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "b4bc235b85a1d9e82fbb3aa711de1c045096db1ec76f0082854b5757c6f708bd",
+    "pdf_sha256": "0b952ea2be8150d99044a318508cd5571e5feb4ec537e7c9d36359684d490fb9"
+  },
+  "geometry": {
+    "caption": "Minimum monitored clearances using the fixed N206 collision geometry. Intended contact and other target pairs retain separate gates. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "f2987210a80d0847b856be87624869b0acdde624582dc6f747525ed93fe0bddb",
+    "pdf_sha256": "bc54906a10dfac5ed497f78d67b50d1ed7966e9d5c864769a946bdaaa331881a"
+  },
+  "identification": {
+    "caption": "Causal inertial posterior and data rank. Truth overlays are evaluation-only; parameter identification and task success remain distinct. Run D06_final_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False. Singular values below 1e-12 are displayed at the log-axis floor.",
+    "run": "D06_final_gain3",
+    "trace_sha256": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f",
+    "source_run_trace_sha256": {
+      "D06_final_gain3": "613ca44d08a05ffa9aa4fe7f4c16cb6edc73aa99795a49e8adb12ae677e1cc7f"
+    },
+    "png_sha256": "6bc94a99f781744006bf2d3023899ba24e871045b6de73542137b9827a73c7e9",
+    "pdf_sha256": "a9d1304ccc72c0c330a1fb142f001e58a35cb7a899ffcec32beb86056e3a555b"
+  }
+}

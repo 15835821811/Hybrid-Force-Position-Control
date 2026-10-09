@@ -1,0 +1,96 @@
+{
+  "recorded_cpu_s": 4115.643376588821,
+  "unmetered_auxiliary_cpu_allowance_s": 3600.0,
+  "budget_charge_s": 7715.643376588821,
+  "budget_s": 28800.0,
+  "elapsed_wall_s_at_close": 5497.26314163208,
+  "accounting_note": "Recorded experiment/test/replay CPU includes labeled D03 wall-time recovery. Additional 3600 s is a conservative budget allowance for unmetered diagnostics, report/figure/video generation, verification and delivery; it is not measured CPU or a formal upper-bound measurement. No additional task integration after freeze campaign.",
+  "full_robot_attempts": 15,
+  "unused_compatibility_reserve": 1,
+  "internal_prediction_counts": {
+    "D02_ideal_governor": {
+      "governor_calls": 1000,
+      "candidate_evaluations": 1000,
+      "prediction_integrator_steps_upper_bound": 30000,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "D03_slower_approach": {
+      "governor_calls": 0,
+      "candidate_evaluations": 0,
+      "prediction_integrator_steps_upper_bound": 0,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "D04_noisy_development": {
+      "governor_calls": 0,
+      "candidate_evaluations": 0,
+      "prediction_integrator_steps_upper_bound": 0,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "D05_final_nominal": {
+      "governor_calls": 538,
+      "candidate_evaluations": 1076,
+      "prediction_integrator_steps_upper_bound": 32280,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "D06_final_gain3": {
+      "governor_calls": 1002,
+      "candidate_evaluations": 1002,
+      "prediction_integrator_steps_upper_bound": 30060,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "H1_prior": {
+      "governor_calls": 1002,
+      "candidate_evaluations": 1002,
+      "prediction_integrator_steps_upper_bound": 30060,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "H1_identified": {
+      "governor_calls": 1002,
+      "candidate_evaluations": 1002,
+      "prediction_integrator_steps_upper_bound": 30060,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "H2_prior": {
+      "governor_calls": 0,
+      "candidate_evaluations": 0,
+      "prediction_integrator_steps_upper_bound": 0,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "H2_identified": {
+      "governor_calls": 0,
+      "candidate_evaluations": 0,
+      "prediction_integrator_steps_upper_bound": 0,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "H3_prior": {
+      "governor_calls": 1002,
+      "candidate_evaluations": 1002,
+      "prediction_integrator_steps_upper_bound": 30060,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "H3_identified": {
+      "governor_calls": 1002,
+      "candidate_evaluations": 1002,
+      "prediction_integrator_steps_upper_bound": 30060,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "F01_fine": {
+      "governor_calls": 1002,
+      "candidate_evaluations": 1002,
+      "prediction_integrator_steps_upper_bound": 30060,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "S01_noise_delay": {
+      "governor_calls": 0,
+      "candidate_evaluations": 0,
+      "prediction_integrator_steps_upper_bound": 0,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    },
+    "S02_contact_mismatch": {
+      "governor_calls": 1002,
+      "candidate_evaluations": 1002,
+      "prediction_integrator_steps_upper_bound": 30060,
+      "scope": "Upper bound, early exits reduce steps; independent prior models only. Not full-robot task attempts."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+N208 tests, static diagnostics and run accounting
+Initial selftests: tests_initial.log, 6 groups passed. 7200 isolated physics steps; zero full-robot steps.
+Second selftests: tests_second.log, 7 groups passed (includes covariance/reference derivative checks).
+Safety cache profile: original 10 calls 4.089 s under cProfile, 590 config parses. Replacement 0.000302 s/call (50 repeats). First static test TypeError list-minus-list was fixed before any new robot attempt. Normal and six unsafe gate equivalence cases passed.
+Prediction tests: mated static 3-model forecast safe; 1 m/s target motion rejected; parameter update scaled norm <=0.001 per 20ms verified. No task-plant steps.
+Synthetic Newton-Euler validation: synthetic.log and synthetic_newton_euler_validation.json. Train70/future50 disjoint blocks, two priors, residual 1.54e-11. Synthetic external wrench is not an actuator in the robot plant.
+Source compileall passed. Static access audit passed. Full robot D01_ideal still RUNNING; no final outcome claim.
+
+Before D02 (D01 continues with archived code): exact positive three-filter progress dynamics replace clipped acceleration; static rate/acceleration/jerk and derivative checks passed. Added causal confirmation and impact/governor trace fields. Added independent full generalized wrench reconstruction, power and target Newton/Euler residuals to evaluation; nonspherical nonzero-COM static dynamic-state check passed, no added robot integration. New mission enables the optional finite-prior brake predictor equally in prior/identified modes; trusted parameter feedback remains gated. Validation supports reconstructing D01's verified archived online code.
+D01 completed: independent actuator and archived-controller decision replays both passed with zero maximum errors. D02 current implementation completed; both replays also passed with zero errors. Task outcomes are in each metrics.json; D01 inertia output remains historical diagnostic only.
+Final pre-D02 isolated test log tests_final_pre_D02.log passed all nine groups, including energized nonzero-COM/rotated-inertia mated predictive physical audit. Information-gate loss-of-trust return-to-prior test subsequently passed; bounded updates preserved. No robot integration in these fixtures.
+
+FINAL CAMPAIGN: all15 attempts closed; all15 actuator and all15 sensor/decision replays PASS, max errors zero. Frozen holdout6/fine1/pressure2 executed. Earlier RUNNING notes are historical. Online source/config/model freeze remains enforced. Ten figures and two videos visually reviewed; see visual_quality_review.md.
+Full video decode: both mp4 files PASS (ffmpeg -v error, exit0), all841 frames; no decode errors.
+Completion audit PASS: all15 checks true. Auxiliary finalization script initially hit Windows default-encoding error; retried with explicit UTF-8, no online source or run data changed.
+Git scope review PASS: only new N208 package/config/evidence/report plus README and .gitattributes; no pycache. Whitespace check with cr-at-eol reports only preserved D03 partial JSON trailing space and final blank lines in current/archived figure sources; deliberately not rewriting hash-bound evidence for cosmetic normalization.

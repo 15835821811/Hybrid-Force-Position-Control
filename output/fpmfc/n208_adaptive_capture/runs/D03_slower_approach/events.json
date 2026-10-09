@@ -1,0 +1,59 @@
+[
+  {
+    "time_s": 0.0,
+    "state": "OBSERVE"
+  },
+  {
+    "time_s": 0.04000000000000002,
+    "state": "RENDEZVOUS"
+  },
+  {
+    "time_s": 6.339999999999524,
+    "state": "RELATIVE_APPROACH"
+  },
+  {
+    "time_s": 8.229999999999418,
+    "state": "CAPTURE_WINDOW"
+  },
+  {
+    "time_s": 8.427999999999484,
+    "state": "LATCH_REQUEST",
+    "estimated_gate": {
+      "values": [
+        9.340099777778819e-05,
+        0.00018470820851480455,
+        0.00023687853090435644,
+        0.0003511271877497608
+      ],
+      "margins": [
+        3.449924219965957e-09,
+        2.9999969856241612e-09,
+        0.0002523304815409516,
+        0.0007208502790276234
+      ],
+      "limits": [
+        0.0001,
+        0.0008726646259971648,
+        0.001,
+        0.003490658503988659
+      ],
+      "rho": 0.010337937684156175,
+      "contact": true,
+      "valid": true,
+      "geometry_ok": true,
+      "reference_feasible": true
+    },
+    "confirmation_start_s": 8.38799999999947,
+    "confirmation_duration_s": 0.04000000000001336,
+    "evaluation_true_capture": true
+  },
+  {
+    "time_s": 8.427999999999484,
+    "state": "GRASP_VERIFY"
+  },
+  {
+    "time_s": 8.427999999999484,
+    "state": "POSTGRASP_SAFETY_FAILED",
+    "reason": "actual rho > 1"
+  }
+]

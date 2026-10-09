@@ -1,0 +1,47 @@
+{
+  "scope": "offline same saved state, no integration and no change to failed run",
+  "results": [
+    {
+      "solver_tolerance": 1e-10,
+      "target_translational_eom_residual_n": 0.0006421783134479245,
+      "target_rotational_eom_residual_nm": 7.418214712359552e-05,
+      "iterations": 2,
+      "target_constraint_generalized": [
+        0.3599368598089616,
+        0.30595219092490694,
+        0.7289748458233206,
+        0.057595719100312734,
+        -0.003730062014809264,
+        -0.06835414634805455
+      ]
+    },
+    {
+      "solver_tolerance": 1e-12,
+      "target_translational_eom_residual_n": 2.2887833992611187e-16,
+      "target_rotational_eom_residual_nm": 1.5570290778067972e-17,
+      "iterations": 3,
+      "target_constraint_generalized": [
+        0.36009278972270997,
+        0.30620890083797847,
+        0.7286972825866418,
+        0.057633484906054175,
+        -0.0037430041940783743,
+        -0.06830583957651681
+      ]
+    },
+    {
+      "solver_tolerance": 1e-14,
+      "target_translational_eom_residual_n": 2.2887833992611187e-16,
+      "target_rotational_eom_residual_nm": 1.5570290778067972e-17,
+      "iterations": 3,
+      "target_constraint_generalized": [
+        0.36009278972270997,
+        0.30620890083797847,
+        0.7286972825866418,
+        0.057633484906054175,
+        -0.0037430041940783743,
+        -0.06830583957651681
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+frozen_before_construction: true
+cases:
+  H1:
+    truth:
+      mass: 27.0
+      com:
+      - 0.012
+      - -0.008
+      - 0.005
+      inertia:
+      - - 0.1473429101543602
+        - -0.0032847132922756454
+        - -0.0038537975875959363
+      - - -0.003284713292275645
+        - 0.17980423481901509
+        - 0.0018939322852153688
+      - - -0.0038537975875959393
+        - 0.00189393228521537
+        - 0.16380285502662478
+      omega_body:
+      - 0.012217304763960306
+      - -0.008726646259971648
+      - 0.06981317007977318
+      contact_scale: 1.0
+    mass_support:
+      shape: uniform interior box
+      center_m:
+      - 0.012
+      - -0.008
+      - 0.005
+      half_extent_m:
+      - 0.105
+      - 0.085
+      - 0.095
+      rotation_vector:
+      - 0.15
+      - -0.2
+      - 0.1
+    sensor_mode: ideal
+    scope: nonzero COM, rotated nonspherical inertia, multi-axis spin
+  H2:
+    truth:
+      mass: 14.0
+      com:
+      - -0.01
+      - 0.012
+      - -0.008
+      inertia:
+      - - 0.07876515700352184
+        - 0.004896161683993946
+        - 0.0009223404085352204
+      - - 0.004896161683993946
+        - 0.05399492924296846
+        - 0.0035201757829273453
+      - - 0.0009223404085352204
+        - 0.003520175782927346
+        - 0.08563991375350968
+      omega_body:
+      - -0.010471975511965976
+      - 0.013962634015954637
+      - 0.09599310885968812
+      contact_scale: 1.0
+    mass_support:
+      shape: uniform interior box
+      center_m:
+      - -0.01
+      - 0.012
+      - -0.008
+      half_extent_m:
+      - 0.08
+      - 0.11
+      - 0.07
+      rotation_vector:
+      - -0.12
+      - 0.22
+      - 0.17
+    sensor_mode: ideal
+    scope: nonzero COM, rotated nonspherical inertia, multi-axis spin
+  H3:
+    truth:
+      mass: 30.0
+      com:
+      - 0.0
+      - 0.0
+      - 0.0
+      inertia:
+      - - 0.44999999999999996
+        - 0.0
+        - 0.0
+      - - 0.0
+        - 0.44999999999999996
+        - 0.0
+      - - 0.0
+        - 0.0
+        - 0.44999999999999996
+      omega_body:
+      - 0.0
+      - 0.0
+      - 0.05235987755982989
+      contact_scale: 1.0
+    mass_support:
+      shape: uniform interior box
+      center_m:
+      - 0.0
+      - 0.0
+      - 0.0
+      half_extent_m:
+      - 0.15
+      - 0.15
+      - 0.15
+      rotation_vector:
+      - 0.0
+      - 0.0
+      - 0.0
+    sensor_mode: ideal
+    scope: H3 spherical principal-axis free-motion degeneracy

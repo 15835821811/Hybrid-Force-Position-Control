@@ -62,3 +62,11 @@ v6_mujoco/geometry_capture/*.py -text
 configs/n206_geometry_capture.yaml -text
 models/flexiv_rizon4s_n206_tool_scene.xml -text
 paper/N206_GEOMETRY_COMPATIBILITY_REPORT.md text eol=lf
+
+# N208 checkout-byte identities; preserve archived and current implementation.
+v6_mujoco/adaptive_capture/** -text
+configs/adaptive_capture/** -text
+output/fpmfc/n208_adaptive_capture/** -text
+paper/N208_PASSIVE_TARGET_ESTIMATION_CAPTURE_REPORT.md text eol=lf
+output/fpmfc/n208_adaptive_capture/**/*.npz filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n208_adaptive_capture/**/*.mp4 filter=lfs diff=lfs merge=lfs -text

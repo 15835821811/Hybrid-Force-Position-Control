@@ -1,0 +1,59 @@
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{campaign_identification.pdf}
+\caption{Independent target cases: final parameter errors and data rank for prior/identified control modes. COM error is Euclidean distance; tensor error is relative Frobenius error of COM-centered inertia. Dashed lines are preregistered accuracy targets; full rank does not guarantee those errors pass. Source runs: H1\_prior, H1\_identified, H2\_prior, H2\_identified, H3\_prior, H3\_identified. H1: COMPLETED at 27.932 s, latched; H2: HQP\_FAILED at 7.820 s, no latch; H3: COMPLETED at 27.932 s, latched. H2 never used parameter feedback. Errors use evaluation-only truth; unequal actual horizons are retained. Control-mode names do not imply parameter use; consult comparison.json.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{trajectory.pdf}
+\caption{World XY/XZ projections of actual flange and live estimated-target reference, only while approach reference is applicable. Equal spatial scales; solid actual, dashed reference. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{tracking.pdf}
+\caption{Actual flange versus live estimated-target reference during approach; reference is inactive after latch. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{state_estimation.pdf}
+\caption{Geometric-frame state estimation errors under the declared simulation sensor. Shading shows the maximum of three marginal 3-sigma model bounds, not a certified safety probability. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False. World-expressed geometric-origin errors at estimator output ticks; shading is maximum of three marginal bounds.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{capture_and_load.pdf}
+\caption{Independent true capture quantities and physical interface load. Capture gates are unchanged; event latch is marked. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False. Dashed pose lines are capture gates; dotted post-latch lines are holding gates.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{detumbling.pdf}
+\caption{Target world and target-base relative angular speeds, with the fixed post-latch evaluation window. A weld alone does not establish detumbling. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{momentum_energy.pdf}
+\caption{Separate SI linear/angular momentum drift and kinetic/relative energy. Numerical residuals are not subtracted from actual momentum. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{joints.pdf}
+\caption{Seven measured joint positions, velocities and applied motor torques throughout the actual run. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{geometry.pdf}
+\caption{Minimum monitored clearances using the fixed N206 collision geometry. Intended contact and other target pairs retain separate gates. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=.95\textwidth]{identification.pdf}
+\caption{Causal inertial posterior and data rank. Truth overlays are evaluation-only; parameter identification and task success remain distinct. Run D06\_final\_gain3; sensor ideal; actual interval 0.000–27.992 s; latch 7.992 s; outcome COMPLETED; full evaluation window True; parameter feedback used False. Singular values below 1e-12 are displayed at the log-axis floor.}
+\end{figure}

@@ -1,0 +1,185 @@
+{
+  "delivery_complete": true,
+  "checks": {
+    "no_running_attempts": true,
+    "attempt_budget": true,
+    "cpu_budget": true,
+    "required_artifacts": true,
+    "selected_trace_verified": true,
+    "figure_provenance": true,
+    "figure_set_complete": true,
+    "visual_review_recorded": true,
+    "comparison_figure_sources": true,
+    "video_provenance": true,
+    "hardware_claims_remain_false": true,
+    "attempts_preserved": true,
+    "all_available_traces_replayed": true,
+    "frozen_execution_unchanged": true,
+    "independent_campaign_executed": true
+  },
+  "selected": "D06_final_gain3",
+  "attempts": [
+    {
+      "name": "D01_ideal",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "D02_ideal_governor",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "D03_slower_approach",
+      "status": "POSTGRASP_SAFETY_FAILED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "D04_noisy_development",
+      "status": "MOMENTUM_OR_NUMERICS_FAILED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "D05_final_nominal",
+      "status": "HQP_FAILED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "D06_final_gain3",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "H1_prior",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "H1_identified",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "H2_prior",
+      "status": "HQP_FAILED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "H2_identified",
+      "status": "HQP_FAILED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "H3_prior",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "H3_identified",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "F01_fine",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "S01_noise_delay",
+      "status": "HQP_FAILED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    },
+    {
+      "name": "S02_contact_mismatch",
+      "status": "COMPLETED",
+      "trace_exists": true,
+      "actuator_replay_passed": true,
+      "decision_replay_passed": true
+    }
+  ],
+  "unexecuted_planned_categories": {
+    "holdout": 0,
+    "fine": 0,
+    "pressure": 0
+  },
+  "qualification": {
+    "passive_target_dynamics_validated": true,
+    "controller_truth_isolation": true,
+    "state_estimation_validated": {
+      "ideal_implementation": true,
+      "noisy_task_success": false,
+      "scope": "Per-run state errors and empirical marginal coverage are in metrics.json; no calibrated probabilistic or real sensor claim."
+    },
+    "physical_inertia_constraints": true,
+    "identifiable_subspace": {
+      "D01_ideal": 3,
+      "D02_ideal_governor": 10,
+      "D03_slower_approach": 4,
+      "D04_noisy_development": 0,
+      "D05_final_nominal": 9,
+      "D06_final_gain3": 10,
+      "H1_prior": 10,
+      "H1_identified": 10,
+      "H2_prior": 4,
+      "H2_identified": 4,
+      "H3_prior": 10,
+      "H3_identified": 10,
+      "F01_fine": 10,
+      "S01_noise_delay": 0,
+      "S02_contact_mismatch": 10
+    },
+    "full_inertia_identification": false,
+    "event_based_capture": true,
+    "continuous_task_completed": true,
+    "postgrasp_detumbling": true,
+    "hidden_parameter_cases": {
+      "executed": 6,
+      "task_successes": 4,
+      "planned": 6
+    },
+    "sensor_uncertainty_cases": {
+      "executed": 2,
+      "completed": 0
+    },
+    "contact_model_mismatch_case": {
+      "executed": 1,
+      "completed": 1
+    },
+    "hardware_load_rating_validated": false,
+    "physical_gripper_capture_validated": false,
+    "real_time_ready": false,
+    "selected_run": "D06_final_gain3",
+    "scope": "Finite simulation campaign, not universal robust capture or full hardware validation."
+  },
+  "visual_review": "See visual_quality_review.md; automated hashes/dimensions do not replace rendered inspection.",
+  "physical_success_not_required_for_honest_delivery": true,
+  "remote_push_verified": false
+}
