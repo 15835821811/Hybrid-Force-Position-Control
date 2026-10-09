@@ -1,0 +1,386 @@
+{
+  "records": [
+    {
+      "packet_index": 0,
+      "time_s": 0.0,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 7.389998063445091e-05,
+          "rejected_invalid_or_exception": true
+        }
+      ]
+    },
+    {
+      "packet_index": 2000,
+      "time_s": 3.999999999999781,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 0.00034299958497285843,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01497539971023798,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013390699867159128,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014130199793726206,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04892509989440441,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014436200261116028,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014245199970901012,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01409690035507083,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04855220019817352,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014234900008887053,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01425600005313754,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.0138416001573205,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04882429959252477,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014542299788445234,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01415059994906187,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01456219982355833,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04920900007709861,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014421799685806036,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013799600303173065,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014179199934005737,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04853500006720424,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014322499744594097,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014332599937915802,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01414350001141429,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.048852100037038326,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013869500253349543,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014132100157439709,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014024300035089254,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04777870001271367,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014499099925160408,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014153999742120504,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014940500259399414,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.049273999873548746,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013867100235074759,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014474399853497744,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01506179990246892,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04955190001055598,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014546299818903208,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014448400121182203,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013871100265532732,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.048600099980831146,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013857599813491106,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.01401650020852685,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013935500290244818,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.047669799998402596,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "predictor",
+          "wall_s": 0.6338192000985146,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.013597599696367979,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.014480600133538246,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "distance_gradient",
+          "wall_s": 0.0143134999088943,
+          "rejected_invalid_or_exception": false
+        },
+        {
+          "module": "HQP",
+          "wall_s": 0.04831250011920929,
+          "rejected_invalid_or_exception": false
+        }
+      ]
+    },
+    {
+      "packet_index": 4000,
+      "time_s": 7.999999999999341,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 0.00033560022711753845,
+          "rejected_invalid_or_exception": false
+        }
+      ]
+    },
+    {
+      "packet_index": 6000,
+      "time_s": 12.000000000000677,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 0.0004141000099480152,
+          "rejected_invalid_or_exception": false
+        }
+      ]
+    },
+    {
+      "packet_index": 7990,
+      "time_s": 15.980000000002006,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 0.00034509971737861633,
+          "rejected_invalid_or_exception": false
+        }
+      ]
+    },
+    {
+      "packet_index": 9990,
+      "time_s": 19.979999999999805,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 0.00033559976145625114,
+          "rejected_invalid_or_exception": false
+        }
+      ]
+    },
+    {
+      "packet_index": 11990,
+      "time_s": 23.979999999997588,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 0.00033350009471178055,
+          "rejected_invalid_or_exception": false
+        }
+      ]
+    },
+    {
+      "packet_index": 13990,
+      "time_s": 27.97999999999537,
+      "calls": [
+        {
+          "module": "state_filter",
+          "wall_s": 0.00034559983760118484,
+          "rejected_invalid_or_exception": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "distance_gradient": {
+      "calls": 36,
+      "rejected_invalid_or_exception_calls": 0,
+      "sampled_states": 8,
+      "states_with_calls": 1,
+      "p50_s": 0.014207049971446395,
+      "p95_s": 0.014949225122109056,
+      "max_s": 0.01506179990246892
+    },
+    "HQP": {
+      "calls": 12,
+      "rejected_invalid_or_exception_calls": 0,
+      "sampled_states": 8,
+      "states_with_calls": 1,
+      "p50_s": 0.04871219978667796,
+      "p95_s": 0.049399054935202004,
+      "max_s": 0.04955190001055598
+    },
+    "state_filter": {
+      "calls": 8,
+      "rejected_invalid_or_exception_calls": 1,
+      "sampled_states": 8,
+      "states_with_calls": 8,
+      "p50_s": 0.00033929990604519844,
+      "p95_s": 0.00039012494962662456,
+      "max_s": 0.0004141000099480152
+    },
+    "predictor": {
+      "calls": 1,
+      "rejected_invalid_or_exception_calls": 0,
+      "sampled_states": 8,
+      "states_with_calls": 1,
+      "p50_s": 0.6338192000985146,
+      "p95_s": 0.6338192000985146,
+      "max_s": 0.6338192000985146
+    }
+  },
+  "selected_packet_indices": [
+    0,
+    2000,
+    4000,
+    6000,
+    7990,
+    9990,
+    11990,
+    13990
+  ],
+  "scope": "inclusive observed calls at prespecified same controller states; nested costs overlap; failed/invalid returns included; no extra state rollout for profiling; instrumentation overhead included"
+}

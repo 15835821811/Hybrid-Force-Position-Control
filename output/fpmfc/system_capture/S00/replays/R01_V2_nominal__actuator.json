@@ -1,0 +1,25 @@
+{
+  "run": "R01_V2_nominal",
+  "kind": "actuator",
+  "passed": true,
+  "input_commit": "007abc48fe3d804a96d4feee0a1c304444048669",
+  "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa",
+  "source_key": "67e53e2c9510403d2ddd3aec6cf9abb0d8658afc48ce0c0fdc061721e01b51c4",
+  "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+  "new_physical_attempts": 0,
+  "physics_steps": 13996,
+  "predictive_steps": 0,
+  "identity_policy": "isolated runtime directory; exact archived Python bytes and verified non-Python dependencies; no module replacement/monkey-patch",
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "masks_match": true,
+  "time_max_error_s": 0.0,
+  "latch_times_s": [
+    7.991999999999342
+  ],
+  "state_initializations": 1,
+  "saved_intermediate_state_injections": 0,
+  "actuator_channels": 7,
+  "cpu_s": 1.015625,
+  "wall_s": 1.0686884997412562
+}

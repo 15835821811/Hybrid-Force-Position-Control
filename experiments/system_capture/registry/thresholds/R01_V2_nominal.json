@@ -1,0 +1,132 @@
+[
+  {
+    "name": "capture_translation",
+    "role": "task_safety",
+    "units": "m",
+    "scale": 0.0001,
+    "source": "mission.capture",
+    "value": null,
+    "limit": 0.0001,
+    "relation": "<="
+  },
+  {
+    "name": "capture_rotation",
+    "role": "task_safety",
+    "units": "rad",
+    "scale": 0.0008726646259971648,
+    "source": "mission.capture",
+    "value": null,
+    "limit": 0.0008726646259971648,
+    "relation": "<="
+  },
+  {
+    "name": "capture_linear_speed",
+    "role": "task_safety",
+    "units": "m/s",
+    "scale": 0.001,
+    "source": "mission.capture",
+    "value": null,
+    "limit": 0.001,
+    "relation": "<="
+  },
+  {
+    "name": "capture_angular_speed",
+    "role": "task_safety",
+    "units": "rad/s",
+    "scale": 0.003490658503988659,
+    "source": "mission.capture",
+    "value": null,
+    "limit": 0.003490658503988659,
+    "relation": "<="
+  },
+  {
+    "name": "actual_load_fraction",
+    "role": "task_safety",
+    "units": "1",
+    "scale": 1.0,
+    "source": "norm(F)/50N + norm(M)/2Nm",
+    "value": null,
+    "limit": 1.0,
+    "relation": "<="
+  },
+  {
+    "name": "holding_translation",
+    "role": "task_safety",
+    "units": "m",
+    "scale": 0.0005,
+    "source": "N209 inherited holding gate",
+    "value": null,
+    "limit": 0.0005,
+    "relation": "<="
+  },
+  {
+    "name": "holding_rotation",
+    "role": "task_safety",
+    "units": "rad",
+    "scale": 0.0017453292519943296,
+    "source": "N209 inherited holding gate",
+    "value": null,
+    "limit": 0.0017453292519943296,
+    "relation": "<="
+  },
+  {
+    "name": "stale_age",
+    "role": "sensor_gate",
+    "units": "s",
+    "scale": 0.04,
+    "source": "mission.stale_limit_s",
+    "value": null,
+    "limit": 0.04,
+    "relation": "<="
+  },
+  {
+    "name": "uncertainty_multiplier",
+    "role": "sensor_gate",
+    "units": "1",
+    "scale": 1.0,
+    "source": "mission.margin_sigma; not confidence certification",
+    "value": null,
+    "limit": 3.0,
+    "relation": "<="
+  },
+  {
+    "name": "predicted_tracking",
+    "role": "algorithm_acceptance",
+    "units": "m",
+    "scale": 0.008,
+    "source": "N209 finite predictor; NOT a physical collision limit",
+    "value": null,
+    "limit": 0.008,
+    "relation": "<="
+  },
+  {
+    "name": "solver_tolerance",
+    "role": "numerical",
+    "units": "solver_internal",
+    "scale": 1.0,
+    "source": "MuJoCo solver, not safety margin",
+    "value": null,
+    "limit": 1e-12,
+    "relation": "<="
+  },
+  {
+    "name": "replay_qpos",
+    "role": "numerical",
+    "units": "mixed_m_rad",
+    "scale": 1.0,
+    "source": "original tagged validator",
+    "value": null,
+    "limit": 1e-10,
+    "relation": "<="
+  },
+  {
+    "name": "replay_qvel",
+    "role": "numerical",
+    "units": "mixed_m_s_rad_s",
+    "scale": 1.0,
+    "source": "original tagged validator",
+    "value": null,
+    "limit": 1e-09,
+    "relation": "<="
+  }
+]

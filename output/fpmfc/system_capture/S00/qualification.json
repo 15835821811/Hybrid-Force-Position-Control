@@ -1,0 +1,66 @@
+{
+  "implementation": "PASS",
+  "physical_model": "VERIFIED_IN_SCOPE",
+  "reproduction": "DECLARED_ADAPTATION",
+  "task": "NOT_EVALUATED",
+  "method_benefit": "NOT_SUPPORTED",
+  "sensor_domain": {
+    "protocol": "unchanged original N209 ideal and S01",
+    "configs": {
+      "R01_V2_nominal": {
+        "pose_period_s": 0.002,
+        "delay_s": 0.0,
+        "position_sigma_m": 0.0,
+        "rotation_sigma_rad": 0.0,
+        "position_bias_m": [
+          0,
+          0,
+          0
+        ],
+        "rotation_bias_rad": [
+          0,
+          0,
+          0
+        ],
+        "force_sigma_n": 0.0,
+        "moment_sigma_nm": 0.0,
+        "seed": 20801
+      },
+      "R03_V2_S01": {
+        "pose_period_s": 0.006,
+        "delay_s": 0.012,
+        "position_sigma_m": 1e-05,
+        "rotation_sigma_rad": 3.5e-05,
+        "position_bias_m": [
+          2e-06,
+          -2e-06,
+          1e-06
+        ],
+        "rotation_bias_rad": [
+          3e-06,
+          2e-06,
+          -3e-06
+        ],
+        "force_sigma_n": 0.01,
+        "moment_sigma_nm": 0.0005,
+        "seed": 20802
+      }
+    },
+    "validation_scope": "packet/decision compatibility only; no expanded sensor operating domain"
+  },
+  "parameter_identification": "PARTIAL",
+  "control_benefit": "NOT_DEMONSTRATED",
+  "next_stage_admission": "conditional",
+  "no_new_controller_performance": true,
+  "phase": "S00",
+  "reproduction_by_domain": {
+    "paper_compat_srs": "SOURCE_LIMITED/NOT_IMPLEMENTED",
+    "flexiv_system": "DECLARED_ADAPTATION"
+  },
+  "physical_model_scope": "two archived actuator/event reproductions with unchanged model; not new model/hardware qualification",
+  "retained_N209_status": "PARTIAL_OPERATING_DOMAIN_MISMATCH",
+  "next_stage_reason": "S01 recommended only after explicit user authorization; source gaps remain; no S02-S08 execution",
+  "hardware": "NOT_EVALUATED",
+  "realtime": "NOT_EVALUATED",
+  "full_interface_boundary": "historical failure retained"
+}

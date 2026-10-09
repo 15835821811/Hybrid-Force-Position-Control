@@ -1,0 +1,15 @@
+{"run": "R01_V2_nominal", "packet": 0, "t": 0.0, "phase": "OBSERVE"}
+{"run": "R01_V2_nominal", "packet": 1000, "t": 2.0000000000000013, "phase": "RENDEZVOUS"}
+{"run": "R01_V2_nominal", "packet": 2000, "t": 3.999999999999781, "phase": "RENDEZVOUS"}
+{"run": "R01_V2_nominal", "packet": 3000, "t": 5.999999999999561, "phase": "RENDEZVOUS"}
+{"run": "R01_V2_nominal", "packet": 4000, "t": 7.999999999999341, "phase": "GRASP_VERIFY"}
+{"run": "R01_V2_nominal", "packet": 5000, "t": 10.000000000000009, "phase": "DAMP_TRANSFER"}
+{"run": "R01_V2_nominal", "packet": 6000, "t": 12.000000000000677, "phase": "DAMP_TRANSFER"}
+{"run": "R01_V2_nominal", "packet": 7000, "t": 14.000000000001345, "phase": "HOLD"}
+{"run": "R01_V2_nominal", "packet": 8000, "t": 16.00000000000201, "phase": "HOLD"}
+{"run": "R01_V2_nominal", "packet": 9000, "t": 18.000000000000902, "phase": "HOLD"}
+{"run": "R01_V2_nominal", "packet": 10000, "t": 19.999999999999794, "phase": "HOLD"}
+{"run": "R01_V2_nominal", "packet": 11000, "t": 21.999999999998685, "phase": "HOLD"}
+{"run": "R01_V2_nominal", "packet": 12000, "t": 23.999999999997577, "phase": "HOLD"}
+{"run": "R01_V2_nominal", "packet": 13000, "t": 25.99999999999647, "phase": "HOLD"}
+{"run": "R01_V2_nominal", "kind": "decision", "passed": true, "input_commit": "007abc48fe3d804a96d4feee0a1c304444048669", "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa", "source_key": "67e53e2c9510403d2ddd3aec6cf9abb0d8658afc48ce0c0fdc061721e01b51c4", "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb", "new_physical_attempts": 0, "physics_steps": 0, "predictive_steps": 39800, "identity_policy": "isolated runtime directory; exact archived Python bytes and verified non-Python dependencies; no module replacement/monkey-patch", "packets": 13997, "torque_max_error": 0.0, "state_max_error": 0.0, "packet_mapping_max_error": 0.0, "states_checked": 1400, "events_match": true, "intermediate_match": true, "direct_return_matches_adapter": true, "packet_roundtrip_match": true, "timestamp_snapshot_audit": [], "final_outcome_matches": true, "historical_task_status": "COMPLETED", "mismatches": [], "predictive_task_solves": 4378, "original_validation_sha256": "2d6b9a890b4c40ebbc74e9f00c09bbf96f1c59f4f0e4f29a64cd573155c0dd1e", "original_control_states_sha256": "c1c9acfd6f557a00d870ce21c1b677473cb7ea125926a76fcb4d0d6f5557f338", "scope": "one archived controller stream composed with new adapter; raw return equality plus original recorded trajectory/packet/state equivalence, not independent performance evidence", "cpu_s": 248.3125, "wall_s": 252.15713129984215}

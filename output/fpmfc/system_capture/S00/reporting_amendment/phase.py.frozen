@@ -1,0 +1,167 @@
+"""Bounded S00 orchestration. No old campaign runner or cross-phase dispatch."""
+import contextlib
+import io
+import os
+import shutil
+import subprocess
+import sys
+import tempfile
+import time
+import unittest
+from pathlib import Path
+import numpy as np
+from .common import PROJECT,OUT,OLD,REGISTRY,BASE,RUNS,read,save,sha,digest,git,source_identity,environment
+from .contracts import plain,RunManifest
+from .registry import ALGORITHMS,models,scenario,thresholds
+
+PROTOCOL=PROJECT/'configs/system_capture/protocols/s00.json'
+PLAN=PROJECT/'experiments/system_capture/manifests/CODEX_SYSTEM_FRAMEWORK_AND_STEPWISE_PLAN.md'
+PAIRING='output/fpmfc/n110/live_twist_handoff/pairing_manifest.json'
+
+def historical_inputs():
+    paths=[PLAN,PROJECT/PAIRING]
+    paths+=list((PROJECT/'reference_papers').glob('*.pdf'))
+    paths+=[PROJECT/p for p in [
+       'paper/system_paper/manuscript_v1.md','paper/N073_CONTROLLER_ABLATION_REPORT.md',
+       'output/fpmfc/comparison/n073_controller_ablation_rk4_formal_planning45/controller_ablation_summary.json',
+       'output/fpmfc/n206_geometry_capture/selected_design.json','output/fpmfc/n206_geometry_capture/terminal_mating_contract.json',
+       'configs/n206_geometry_capture.yaml','models/flexiv_rizon4s_n206_tool_scene.xml']]
+    paths+=[OLD/p for p in ['qualification_matrix.json','qp_failure_diagnosis.json','uncertainty_floor.json','sensor_reference_audit.json','run_ledger.json','logging_integrity_audit.json']]
+    for name in RUNS:
+        cfg=read(OLD/'runs'/name/'config.json')
+        paths += [p for p in (OLD/'runs'/name).iterdir() if p.is_file()]
+        for rel,expected in cfg['identity'].items():
+            p=OLD/'source_versions'/cfg['source_key']/rel if rel.endswith('.py') else PROJECT/rel
+            if not p.is_file():raise FileNotFoundError('BLOCKED_MISSING_INPUT: '+str(p))
+            if sha(p)!=expected:raise RuntimeError('recorded source bytes mismatch '+str(p))
+            paths.append(p)
+    return {p.relative_to(PROJECT).as_posix():sha(p) for p in sorted(set(paths))}
+
+def selected_indices():
+    result={}
+    for name in RUNS:
+        cfg=read(OLD/'runs'/name/'config.json');m=read(OLD/'runs'/name/'metrics.json')
+        last=int(round(m['end_time_s']/cfg['mission']['servo_s']));stride=round(cfg['mission']['task_s']/cfg['mission']['servo_s'])
+        result[name]=(np.rint(np.linspace(0,last//stride,read(PROTOCOL)['profile_states_per_run'])).astype(int)*stride).tolist()
+    return result
+
+def ledger():return read(OUT/'run_ledger.json')
+
+def record_operation(kind,start,cpu,**extra):
+    book=ledger();book['operations'].append({'kind':kind,'cpu_s':time.process_time()-cpu,'wall_s':time.perf_counter()-start,**extra})
+    save(OUT/'run_ledger.json',book)
+
+def prepare():
+    start=time.perf_counter();cpu=time.process_time();protocol=read(PROTOCOL)
+    if git('branch','--show-current')!=protocol['branch']:raise RuntimeError('wrong S00 branch')
+    if git('merge-base',BASE,'HEAD')!=BASE:raise RuntimeError('wrong baseline ancestry')
+    OUT.mkdir(parents=True,exist_ok=True)
+    if not (OUT/'run_ledger.json').exists():save(OUT/'run_ledger.json',{'new_physical_attempts':[],'replays':[],'operations':[],'next_phases_started':[]})
+    previous=read(OUT/'phase_manifest.json') if (OUT/'phase_manifest.json').exists() else None
+    if previous and ledger()['replays']:
+        verify();return previous
+    from .selftest import suite
+    test_names=[t.id().split('.')[-1] for t in suite()]
+    inputs=historical_inputs()
+    for name in RUNS:
+        v=read(OLD/'runs'/name/'validation_timestamp_audited.json')
+        if not(v['actuator_replay_passed'] and v['decision_replay_passed']):raise RuntimeError('selected historical validation failed')
+        if v['trace_sha256']!=sha(OLD/'runs'/name/'trace.npz'):raise RuntimeError('trace digest')
+    save(REGISTRY/'models.json',{k:plain(v) for k,v in models().items()})
+    save(REGISTRY/'algorithms.json',{k:plain(v) for k,v in ALGORITHMS.items()})
+    for name in RUNS:
+        spec=scenario(name);save(REGISTRY/'scenarios'/(name+'.json'),spec)
+        save(REGISTRY/'thresholds'/(name+'.json'),thresholds(spec.algorithm['legacy_mission']))
+    sources=source_identity();env=environment()
+    execution=RunManifest('S00',BASE,sources,inputs,env,digest(protocol),sha(PROTOCOL))
+    manifest={**protocol,'source_identity':sources,'source_content_hash':digest(sources),'input_identity':inputs,'environment':env,
+        'execution_contract':plain(execution),'profile_packet_indices':selected_indices(),'synthetic_test_cases':test_names,
+        'static_check_accounting':{'unit_case_upper_bound':len(test_names),'additional_model_initializations':2,'recorded_profile_states':16,'total_upper_bound':len(test_names)+18},
+        'frozen_at_epoch':time.time(),'legacy_algorithm_changes':False,'output_identity_policy':'content hashes in handoff; final Git SHA is stored outside tracked content to avoid self-reference'}
+    if manifest['static_check_accounting']['total_upper_bound']>100:raise RuntimeError('static state budget')
+    if previous and previous['source_content_hash']!=manifest['source_content_hash']:
+        save(OUT/'manifest_history'/(previous['source_content_hash']+'.json'),previous)
+    save(OUT/'phase_manifest.json',manifest)
+    from .evidence import write_evidence
+    write_evidence()
+    record_operation('prepare_read_only',start,cpu,input_files=len(inputs))
+    print({'prepared':'S00','input_files':len(inputs),'source_hash':manifest['source_content_hash']})
+    return manifest
+
+def verify():
+    m=read(OUT/'phase_manifest.json')
+    if source_identity()!=m['source_identity']:raise RuntimeError('frozen S00 source/config changed')
+    if environment()!=m['environment']:raise RuntimeError('frozen execution environment changed')
+    for rel,digest_ in m['input_identity'].items():
+        if sha(PROJECT/rel)!=digest_:raise RuntimeError('historical input changed: '+rel)
+    return m
+
+def tests():
+    m=verify();start=time.perf_counter();cpu=time.process_time()
+    from .selftest import suite
+    stream=io.StringIO();res=unittest.TextTestRunner(stream=stream,verbosity=2).run(suite())
+    (OUT/'tests.log').write_text(stream.getvalue(),encoding='utf-8',newline='\n')
+    result={'passed':res.wasSuccessful(),'tests_run':res.testsRun,'failures':len(res.failures),'errors':len(res.errors),
+        'test_cases':m['synthetic_test_cases'],'source_content_hash':m['source_content_hash'],'physics_steps':0,'scope':'fixed synthetic contracts and bounded single-state legacy checks; no old campaign selftests'}
+    save(OUT/'tests.json',result);record_operation('synthetic_tests',start,cpu,cases=res.testsRun,passed=res.wasSuccessful(),physics_steps=0)
+    print(stream.getvalue());return res.wasSuccessful()
+
+def make_runtime(name):
+    """Temporary exact-byte runtime view, not a new maintained copy of a runner.
+
+    A normal fresh Python interpreter imports this directory. No sys.modules
+    replacement, method patching, changed __file__, or global legacy root patch.
+    """
+    cfg=read(OLD/'runs'/name/'config.json');parent=PROJECT/'tmp/system_capture';parent.mkdir(parents=True,exist_ok=True)
+    root=Path(tempfile.mkdtemp(prefix=name+'-',dir=parent))
+    for rel,expected in cfg['identity'].items():
+        src=OLD/'source_versions'/cfg['source_key']/rel if rel.endswith('.py') else PROJECT/rel
+        if sha(src)!=expected:raise RuntimeError('runtime source mismatch '+rel)
+        dest=root/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(src,dest)
+    dest=root/PAIRING;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(PROJECT/PAIRING,dest)
+    shutil.copytree(PROJECT/'v6_mujoco/system_capture',root/'v6_mujoco/system_capture',ignore=shutil.ignore_patterns('__pycache__'))
+    return root
+
+@contextlib.contextmanager
+def operation_lock():
+    path=OUT/'operation.lock';fd=os.open(path,os.O_CREAT|os.O_EXCL|os.O_WRONLY)
+    os.write(fd,str(os.getpid()).encode());os.close(fd)
+    try:yield
+    finally:path.unlink()
+
+def replays(resume=False):
+    m=verify()
+    if not read(OUT/'tests.json')['passed']:raise RuntimeError('tests required before replay')
+    start=time.perf_counter();cpu=time.process_time()
+    with operation_lock():
+        for key in m['replay_order']:
+            book=ledger();prior=next((x for x in book['replays'] if x['key']==key),None)
+            if prior:
+                if not resume:raise RuntimeError('existing replay; use explicit --resume')
+                if prior['status']!='PASS':raise RuntimeError('existing incomplete/failed replay; inspect saved PID/result, never automatically restart: '+key)
+                p=OUT/'replays'/(key+'.json')
+                if sha(p)!=prior['result_sha256'] or not read(p)['passed']:raise RuntimeError('stale replay result')
+                continue
+            used=sum(x.get('cpu_s',0.) for x in book['operations'])+sum(x.get('cpu_s',0.) for x in book['replays'])
+            if len(book['replays'])>=4 or used>=m['budgets']['cpu_s']:raise RuntimeError('INCOMPLETE_BUDGET')
+            name,kind=key.split('__');runtime=make_runtime(name)
+            env=os.environ.copy();env['SYSTEM_CAPTURE_PROJECT_ROOT']=str(PROJECT);env['PYTHONPATH']=str(runtime);env['PYTHONDONTWRITEBYTECODE']='1';env['PYTHONIOENCODING']='utf-8'
+            env['S00_CPU_REMAINING']=str(max(0.,m['budgets']['cpu_s']-used-(time.process_time()-cpu)))
+            log=OUT/'logs'/(key+'.log');log.parent.mkdir(exist_ok=True)
+            with log.open('wb') as f:
+                proc=subprocess.Popen([sys.executable,'-m','v6_mujoco.system_capture.replay',name,kind],cwd=runtime,env=env,stdout=f,stderr=subprocess.STDOUT,
+                    creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
+                entry={'key':key,'run':name,'kind':kind,'status':'RUNNING','pid':proc.pid,'started_epoch':time.time(),'runtime_dir':str(runtime),'source_content_hash':m['source_content_hash']}
+                book['replays'].append(entry);save(OUT/'run_ledger.json',book)
+                print('Started '+key+' pid='+str(proc.pid),flush=True)
+                code=proc.wait()
+            p=OUT/'replays'/(key+'.json');result=read(p) if p.exists() else {'passed':False,'error':'worker terminated before result','cpu_s':0.}
+            book=ledger();entry=next(x for x in book['replays'] if x['key']==key)
+            entry.update(status='PASS' if code==0 and result['passed'] else 'FAIL',exit_code=code,cpu_s=result['cpu_s'],finished_epoch=time.time(),
+                result_sha256=sha(p) if p.exists() else None,physics_steps=result.get('physics_steps',0),predictive_steps=result.get('predictive_steps',0))
+            save(OUT/'run_ledger.json',book);print(key+' '+entry['status'],flush=True)
+            if entry['status']!='PASS':
+                record_operation('replay_orchestration',start,cpu,scope='parent process only; child CPU separate')
+                return False
+        record_operation('replay_orchestration',start,cpu,scope='parent process only; child CPU separate')
+    return True

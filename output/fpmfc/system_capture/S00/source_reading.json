@@ -1,0 +1,16 @@
+{
+  "paper": "reference_papers/自由漂浮空间机器人捕获翻滚...标的力-位-型融合控制方法_梁斌.pdf",
+  "sha256": "3e3068b8431c55221241a3b91febd0e6c4024a19797348fbb43647a118232c3f",
+  "read_scope": "full extracted text; page964 rendered for Eq26-32; source page/equation maps above; no new literature reproduction",
+  "type_I": "base attitude",
+  "type_II": "arm shape; not inertia identification",
+  "source_study_scope": "precontact, per conclusion p968",
+  "source_ambiguities": [
+    "Eq27 endpoint-nullspace is not by itself base reaction cancellation",
+    "Eq34 derivative/position increment units require clarification",
+    "Table3 does not resolve every COM/inertial-frame implementation detail"
+  ],
+  "N209_H2_classification": "LINEAR_HARD_SET_INFEASIBLE",
+  "N209_scope": "PARTIAL_OPERATING_DOMAIN_MISMATCH",
+  "S01_statistics_scope": "same historical packets, changed estimator only; not a new trajectory or closed-loop success"
+}

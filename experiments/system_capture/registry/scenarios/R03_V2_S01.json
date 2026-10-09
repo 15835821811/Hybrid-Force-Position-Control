@@ -1,0 +1,223 @@
+{
+  "scenario_id": "R03_V2_S01",
+  "model_id": "flexiv_system",
+  "hardware": {
+    "active_joint_count": 7,
+    "base_actuators": false,
+    "target_actuators": false,
+    "gravity": "local_microgravity",
+    "tool_extension_m": 0.02,
+    "tool_face_from_flange_m": 0.0198,
+    "joint_names": [
+      "joint1",
+      "joint2",
+      "joint3",
+      "joint4",
+      "joint5",
+      "joint6",
+      "joint7"
+    ],
+    "interface": "calibrated software weld; not hardware certification"
+  },
+  "truth_evaluation_only": {
+    "mass": 20.0,
+    "com": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "inertia": [
+      [
+        0.3,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.3
+      ]
+    ],
+    "omega_body": [
+      4.302568792615494e-33,
+      0.0,
+      0.08726646259971647
+    ],
+    "contact_scale": 1.0
+  },
+  "prior": {
+    "mass_kg": 20.0,
+    "com_m": [
+      0,
+      0,
+      0
+    ],
+    "inertia_com_kg_m2": [
+      [
+        0.3,
+        0,
+        0
+      ],
+      [
+        0,
+        0.3,
+        0
+      ],
+      [
+        0,
+        0,
+        0.3
+      ]
+    ],
+    "mass_bounds_kg": [
+      10,
+      40
+    ],
+    "com_bound_m": 0.02,
+    "support_half_extent_m": 0.15,
+    "parameter_scales": [
+      20,
+      3,
+      3,
+      3,
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ],
+    "prior_covariance_scaled_diagonal": [
+      0.25,
+      0.018,
+      0.018,
+      0.018,
+      0.25,
+      0.25,
+      0.25,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "momentum_noise_floor": [
+      0.0002,
+      0.0002,
+      0.0002,
+      2e-05,
+      2e-05,
+      2e-05
+    ]
+  },
+  "sensors": {
+    "pose_period_s": 0.006,
+    "delay_s": 0.012,
+    "position_sigma_m": 1e-05,
+    "rotation_sigma_rad": 3.5e-05,
+    "position_bias_m": [
+      2e-06,
+      -2e-06,
+      1e-06
+    ],
+    "rotation_bias_rad": [
+      3e-06,
+      2e-06,
+      -3e-06
+    ],
+    "force_sigma_n": 0.01,
+    "moment_sigma_nm": 0.0005,
+    "seed": 20802
+  },
+  "algorithm": {
+    "id": "n209_scalar_governor",
+    "legacy_mission": {
+      "schema": "n209_candidate_v2",
+      "baseline_commit": "b1af09f89226fa6f2ae1b362f3d6225b3363cc17",
+      "approach_deadline_s": 20.0,
+      "post_duration_s": 20.0,
+      "evaluation_width_s": 2.0,
+      "observe_s": 0.04,
+      "template_duration_s": 8.0,
+      "capture_confirmation_s": 0.04,
+      "grasp_verify_s": 0.05,
+      "capture": {
+        "translation_m": 0.0001,
+        "rotation_deg": 0.05,
+        "linear_m_s": 0.001,
+        "angular_deg_s": 0.2
+      },
+      "performance": {
+        "world_deg_s": 0.1,
+        "relative_deg_s": 0.02
+      },
+      "dt_s": 0.002,
+      "solver_tolerance": 1e-12,
+      "servo_s": 0.002,
+      "task_s": 0.02,
+      "max_attempts": 16,
+      "max_development": 6,
+      "cpu_budget_s": 28800,
+      "wall_budget_s": 28800,
+      "measured_drift": true,
+      "tracking_gain_scale": 3.0,
+      "parameter_feedback": false,
+      "brake_governor": true,
+      "approach_energy_limit_j": 0.002,
+      "safe_excitation": false,
+      "margin_sigma": 3.0,
+      "stale_limit_s": 0.04,
+      "process_linear_accel": 0.003,
+      "process_angular_accel": 0.02,
+      "contact_process_multiplier": 10.0,
+      "information_singular_min": 5.0,
+      "information_relative_min": 1e-05,
+      "identification_block_s": 0.1,
+      "identification_update_s": 0.5,
+      "method": "B1",
+      "n209": {
+        "version": "V2",
+        "task_residual_startup_s": 0.2,
+        "horizon_s": 0.2,
+        "candidate_fractions": [
+          1.0,
+          0.75,
+          0.5,
+          0.25,
+          0.0
+        ],
+        "progress_tau_s": 0.3,
+        "reference_bandwidth_rad_s": 20.0,
+        "tracking_error_limit_m": 0.008,
+        "linear_residual_limit_m_s": 0.05,
+        "angular_residual_limit_rad_s": 0.1,
+        "noisy_process_linear_accel": 0.003,
+        "noisy_process_angular_accel": 0.02,
+        "model_uncertainty_scope": "finite_nominal_prior_no_global_error_bound"
+      },
+      "shape_reference": true,
+      "position_bias_bound_m": 5e-06,
+      "rotation_bias_bound_rad": 6e-06
+    }
+  },
+  "task": {
+    "capture": {
+      "translation_m": 0.0001,
+      "rotation_deg": 0.05,
+      "linear_m_s": 0.001,
+      "angular_deg_s": 0.2
+    },
+    "approach_deadline_s": 20.0,
+    "post_duration_s": 20.0,
+    "evaluation_width_s": 2.0
+  },
+  "numerical": {
+    "dt": 0.002,
+    "servo_s": 0.002,
+    "task_s": 0.02,
+    "solver_tolerance": 1e-12
+  }
+}

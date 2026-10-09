@@ -1,0 +1,39 @@
+{
+  "run": "R03_V2_S01",
+  "kind": "decision",
+  "passed": true,
+  "input_commit": "007abc48fe3d804a96d4feee0a1c304444048669",
+  "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa",
+  "source_key": "a38462fbcef29e59385abf5c5596120dbeebcad89605b8e2b31d542e2ce5d140",
+  "trace_sha256": "f73fc42a63522ebc14d797ea8a51679de9f15a25f5257eeed0c44f6aba91d3f4",
+  "new_physical_attempts": 0,
+  "physics_steps": 0,
+  "predictive_steps": 39500,
+  "identity_policy": "isolated runtime directory; exact archived Python bytes and verified non-Python dependencies; no module replacement/monkey-patch",
+  "packets": 3921,
+  "torque_max_error": 0.0,
+  "state_max_error": 0.0,
+  "packet_mapping_max_error": 0.0,
+  "states_checked": 393,
+  "events_match": true,
+  "intermediate_match": true,
+  "direct_return_matches_adapter": true,
+  "packet_roundtrip_match": true,
+  "timestamp_snapshot_audit": [
+    {
+      "time": 0.0,
+      "field": "estimate.covariance",
+      "original_difference": 9.999990000000001e-05,
+      "replacement": "same-tick independently copied trace; known invalid-t0 alias only; no input/action changed"
+    }
+  ],
+  "final_outcome_matches": true,
+  "historical_task_status": "NO_VERIFIED_CONTROL",
+  "mismatches": [],
+  "predictive_task_solves": 4345,
+  "original_validation_sha256": "7ad62ad87e78dd718d9da1cecfcece13335d64ae4a6a346ab93af6d007e3a0e1",
+  "original_control_states_sha256": "e12581d1f6707ca7106d99b4c5b4eb65f017e56999b59574d98432ae4dde33d8",
+  "scope": "one archived controller stream composed with new adapter; raw return equality plus original recorded trajectory/packet/state equivalence, not independent performance evidence",
+  "cpu_s": 197.953125,
+  "wall_s": 201.42654439993203
+}

@@ -1,0 +1,28 @@
+test_abort_not_safe_action (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_array_snapshot (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_base_body_angular_is_explicit (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_clock_grid (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_covariance_alias_t0 (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_covariance_rejects_negative (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_domains_and_reserved (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_four_gate_classes (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_future_pose_rejected (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_json_roundtrip (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_n208_single_state_adapter (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_nested_snapshot (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_nonfinite_rejected (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_packet_clock_order (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_packet_roundtrip (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_parameter_rank (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_point_shift_power (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_reference_frame_and_progress (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_rotation_rejects_reflection (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_spatial_twist_conversion (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_truth_boundary (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_unimplemented_phase_does_not_run (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+test_units_and_order (v6_mujoco.system_capture.selftest.ContractsTest) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.173s
+
+OK

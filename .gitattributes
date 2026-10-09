@@ -89,3 +89,10 @@ output/fpmfc/n209_paper_system/**/posteriors.json filter=lfs diff=lfs merge=lfs 
 output/fpmfc/n209_paper_system/**/estimator_events.json filter=lfs diff=lfs merge=lfs -text
 output/fpmfc/n209_paper_system/**/new_estimator_redecision.json filter=lfs diff=lfs merge=lfs -text
 output/fpmfc/n209_paper_system/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# S00 exact checkout-byte identities for new contracts and evidence only.
+v6_mujoco/system_capture/** -text whitespace=cr-at-eol
+configs/system_capture/** -text whitespace=cr-at-eol
+experiments/system_capture/** -text whitespace=cr-at-eol
+output/fpmfc/system_capture/** -text whitespace=cr-at-eol
+paper/system_framework/** -text whitespace=cr-at-eol

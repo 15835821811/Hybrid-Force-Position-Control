@@ -1,0 +1,41 @@
+{
+  "flexiv_system": {
+    "model_id": "flexiv_system",
+    "domain": "flexiv_system",
+    "status": "AVAILABLE",
+    "hardware": {
+      "active_joint_count": 7,
+      "base_actuators": false,
+      "target_actuators": false,
+      "gravity": "local_microgravity",
+      "tool_extension_m": 0.02,
+      "tool_face_from_flange_m": 0.0198,
+      "joint_names": [
+        "joint1",
+        "joint2",
+        "joint3",
+        "joint4",
+        "joint5",
+        "joint6",
+        "joint7"
+      ],
+      "interface": "calibrated software weld; not hardware certification"
+    },
+    "source_identity": {
+      "models/flexiv_rizon4s_n206_tool_scene.xml": "a7f52ac06d97a1b26a61c063fd5c37b58d9c3685f46e6977abaae701ae9474a6",
+      "configs/n206_geometry_capture.yaml": "952f375db296e65768ef37a8422a4f28202e1588a616e2c03f6fa6c9ebf270ed"
+    }
+  },
+  "paper_compat_srs": {
+    "model_id": "paper_compat_srs",
+    "domain": "paper_compat_srs",
+    "status": "NOT_IMPLEMENTED",
+    "hardware": {
+      "active_joint_count": 7,
+      "base_actuators": false,
+      "target_actuators": false,
+      "missing_parameters": "S01 source contract pending; no inherited Flexiv values"
+    },
+    "source_identity": {}
+  }
+}

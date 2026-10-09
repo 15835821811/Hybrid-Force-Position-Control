@@ -1,0 +1,42 @@
+{
+  "scope": "Supplement after replay; no controller execution or source mutation. metrics.decision_predictive_steps is the measured approach-governor counter only. CPU includes both approach and brake predictions.",
+  "brake_derivation": "Each retained safe brake candidate completes 3 independent models x 10 mj_step calls. Derived from original logs and exact archived source, conditional on verified decision/state equality; not directly instrumented in the replay.",
+  "per_run": {
+    "R01_V2_nominal": {
+      "approach_steps_measured_in_replay": 39800,
+      "approach_calls": 398,
+      "approach_candidates": 398,
+      "approach_rejected_candidates": 0,
+      "brake_calls_in_archived_log": 1002,
+      "brake_predictions_in_archived_log": 1002,
+      "brake_rejected_predictions": 0,
+      "brake_steps_derived_from_verified_log_and_unchanged_loop": 30060,
+      "combined_measured_plus_derived_steps": 69860,
+      "source_sha256": "9d2a0ba4c70f641a402fa6ccdc0edc42d8b50f2d85da18077b83615c789cbd3b",
+      "log_hashes": {
+        "governor.json": "6464dd6fb281a43c683736fbe09140ac1ffd48fdba5b3e2cdeb0f906ac8a5d76",
+        "progress_governor.json": "9209f8edc56bc2e49ee5a09b87c9c3fe9a5e45593bd5986d6b824cb5b4492bf4"
+      }
+    },
+    "R03_V2_S01": {
+      "approach_steps_measured_in_replay": 39500,
+      "approach_calls": 391,
+      "approach_candidates": 395,
+      "approach_rejected_candidates": 5,
+      "brake_calls_in_archived_log": 0,
+      "brake_predictions_in_archived_log": 0,
+      "brake_rejected_predictions": 0,
+      "brake_steps_derived_from_verified_log_and_unchanged_loop": 0,
+      "combined_measured_plus_derived_steps": 39500,
+      "source_sha256": "9d2a0ba4c70f641a402fa6ccdc0edc42d8b50f2d85da18077b83615c789cbd3b",
+      "log_hashes": {
+        "governor.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "progress_governor.json": "2f241679d6ec0bbd734bd5dba6e056d8c4aa69c599f2d8cb92db0ddb8f714738"
+      }
+    }
+  },
+  "combined_steps": 109360,
+  "supplement_source_sha256": "f9a88f6b646e1d0e8771f8c82526bc45cfecc4073a98050cc0ef2c44f6dd3ab3",
+  "new_physical_attempts": 0,
+  "additional_replays": 0
+}

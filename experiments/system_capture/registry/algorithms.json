@@ -1,0 +1,26 @@
+{
+  "n208_baseline": {
+    "algorithm_id": "n208_baseline",
+    "domain": "flexiv_system",
+    "status": "AVAILABLE",
+    "module": "v6_mujoco.adaptive_capture.controller",
+    "class_name": "Controller",
+    "scope": "Existing fixed relative reference and declared legacy options; no fresh N208 performance claim"
+  },
+  "n209_scalar_governor": {
+    "algorithm_id": "n209_scalar_governor",
+    "domain": "flexiv_system",
+    "status": "AVAILABLE",
+    "module": "v6_mujoco.feasible_capture.controller_adapter",
+    "class_name": "FeasibleController",
+    "scope": "Archived N209 scalar governor; no retuning"
+  },
+  "paper_compat_reserved": {
+    "algorithm_id": "paper_compat_reserved",
+    "domain": "paper_compat_srs",
+    "status": "NOT_IMPLEMENTED",
+    "module": null,
+    "class_name": null,
+    "scope": "S01 requires original-source parameter mapping; never runs Flexiv under this label"
+  }
+}

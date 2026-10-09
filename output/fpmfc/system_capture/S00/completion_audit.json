@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "requirements": [
+    {
+      "id": "S00-01",
+      "requirement": "exact baseline ancestry and independent branch",
+      "passed": true,
+      "evidence": "git merge-base; git branch"
+    },
+    {
+      "id": "S00-02",
+      "requirement": "historical source/model/config/results/media unchanged",
+      "passed": true,
+      "evidence": {
+        "unexpected_git_changes": [],
+        "verified_input_files": 421
+      }
+    },
+    {
+      "id": "S00-03",
+      "requirement": "contract unit/frame/time/deep-copy and reserved-stage tests",
+      "passed": true,
+      "evidence": "tests.json/tests.log; explicit frozen test case names"
+    },
+    {
+      "id": "S00-04",
+      "requirement": "two actuator and two decision replays within original tolerances",
+      "passed": true,
+      "evidence": "replays/*.json; ledger result identities"
+    },
+    {
+      "id": "S00-05",
+      "requirement": "actuator replays initialize once, never inject middle states",
+      "passed": true,
+      "evidence": "replay.py actuator loop; per-run result"
+    },
+    {
+      "id": "S00-06",
+      "requirement": "archived original return/packet/state/reference/guard/abort equals adapter",
+      "passed": true,
+      "evidence": "replay.py; exact archive runtime; baseline_equivalence.json"
+    },
+    {
+      "id": "S00-07",
+      "requirement": "no new physical experiments or automatic next phases",
+      "passed": true,
+      "evidence": "run_ledger.json; S00 CLI rejects all other phases"
+    },
+    {
+      "id": "S00-08",
+      "requirement": "bounded identical-state four-module profiling includes failures",
+      "passed": true,
+      "evidence": "runtime_profile.json; frozen packet indices"
+    },
+    {
+      "id": "S00-09",
+      "requirement": "model/algorithm registries and thin executable factories",
+      "passed": true,
+      "evidence": "registry.py; registry JSON; factory/unit/replay tests"
+    },
+    {
+      "id": "S00-10",
+      "requirement": "legacy_inventory.csv has real code/evidence references",
+      "passed": true,
+      "evidence": "legacy_inventory.csv"
+    },
+    {
+      "id": "S00-11",
+      "requirement": "source_traceability.csv has real code/evidence references",
+      "passed": true,
+      "evidence": "source_traceability.csv"
+    },
+    {
+      "id": "S00-12",
+      "requirement": "reproduction_map.csv has real code/evidence references",
+      "passed": true,
+      "evidence": "reproduction_map.csv"
+    },
+    {
+      "id": "S00-13",
+      "requirement": "three evidence classes and unsupported claims retained",
+      "passed": true,
+      "evidence": "paper/system_framework/claim_evidence.csv"
+    },
+    {
+      "id": "S00-14",
+      "requirement": "known S01 TS_AUDIT preserved without historical edits",
+      "passed": true,
+      "evidence": "R03 new decision result; D03 original failed validation.json; original tagged validation"
+    },
+    {
+      "id": "S00-15",
+      "requirement": "CPU and state budgets",
+      "passed": true,
+      "evidence": {
+        "recorded_process_cpu_s": 450.46875,
+        "static_check_upper_bound": 41
+      }
+    }
+  ],
+  "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa"
+}

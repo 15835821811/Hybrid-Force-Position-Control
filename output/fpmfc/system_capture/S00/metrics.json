@@ -1,0 +1,21 @@
+{
+  "phase": "S00",
+  "implementation_passed": true,
+  "new_physical_attempts": 0,
+  "replay_invocations": 4,
+  "actuator_replay_steps": 17916,
+  "decision_predictive_steps": 79300,
+  "decision_predictive_steps_scope": "measured approach governor only; brake steps are separately derived in prediction_accounting.json",
+  "combined_measured_and_derived_predictive_steps": 109360,
+  "reporting_amendment": "reporting_amendment/identity.json; replay execution identities preserved",
+  "unit_test_cases": 23,
+  "read_only_input_files": 421,
+  "profiled_saved_states": 16,
+  "recorded_process_cpu_s": 450.46875,
+  "cpu_budget_s": 14400,
+  "resource_scope": "parent S00 operations plus child replay CPU including internal predictions; interactive editing and shell metadata inspection excluded",
+  "static_or_single_state_upper_bound": 41,
+  "new_figures": 0,
+  "new_videos": 0,
+  "no_new_controller_performance": true
+}

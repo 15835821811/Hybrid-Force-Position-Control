@@ -1,0 +1,97 @@
+{
+  "new_physical_attempts": [],
+  "replays": [
+    {
+      "key": "R01_V2_nominal__actuator",
+      "run": "R01_V2_nominal",
+      "kind": "actuator",
+      "status": "PASS",
+      "pid": 131688,
+      "started_epoch": 1791551020.0867434,
+      "runtime_dir": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\力位形混合控制\\tmp\\system_capture\\R01_V2_nominal-3e8howo4",
+      "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa",
+      "exit_code": 0,
+      "cpu_s": 1.015625,
+      "finished_epoch": 1791551021.4639192,
+      "result_sha256": "856cb7dffb5894ca6e2f26a59b4aef01f4c277680082d6d527892dc018b3fc71",
+      "physics_steps": 13996,
+      "predictive_steps": 0
+    },
+    {
+      "key": "R03_V2_S01__actuator",
+      "run": "R03_V2_S01",
+      "kind": "actuator",
+      "status": "PASS",
+      "pid": 99672,
+      "started_epoch": 1791551021.7847447,
+      "runtime_dir": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\力位形混合控制\\tmp\\system_capture\\R03_V2_S01-nw01i6rv",
+      "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa",
+      "exit_code": 0,
+      "cpu_s": 0.53125,
+      "finished_epoch": 1791551022.717592,
+      "result_sha256": "a88f27efb7f828b3fd9842c8c2a4c74f8cb579fcd701892ad67929b12d60d8f2",
+      "physics_steps": 3920,
+      "predictive_steps": 0
+    },
+    {
+      "key": "R01_V2_nominal__decision",
+      "run": "R01_V2_nominal",
+      "kind": "decision",
+      "status": "PASS",
+      "pid": 60812,
+      "started_epoch": 1791551023.0396686,
+      "runtime_dir": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\力位形混合控制\\tmp\\system_capture\\R01_V2_nominal-55nousa7",
+      "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa",
+      "exit_code": 0,
+      "cpu_s": 248.3125,
+      "finished_epoch": 1791551275.5634224,
+      "result_sha256": "3cc98e6e57aeb1361ce2cb9304c8dd3c36023a023ab6f8fb12d7710b41857cca",
+      "physics_steps": 0,
+      "predictive_steps": 39800
+    },
+    {
+      "key": "R03_V2_S01__decision",
+      "run": "R03_V2_S01",
+      "kind": "decision",
+      "status": "PASS",
+      "pid": 103700,
+      "started_epoch": 1791551275.8629842,
+      "runtime_dir": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\力位形混合控制\\tmp\\system_capture\\R03_V2_S01-g1yxx6ki",
+      "source_content_hash": "c847dedddef1b625139457c9726f4c42becbe75cd4828af856303687356730fa",
+      "exit_code": 0,
+      "cpu_s": 197.953125,
+      "finished_epoch": 1791551477.6238687,
+      "result_sha256": "06aeed00e59b6dd5f13db4058c51d80d9a2003693f1c32915e7543b95a590979",
+      "physics_steps": 0,
+      "predictive_steps": 39500
+    }
+  ],
+  "operations": [
+    {
+      "kind": "prepare_read_only",
+      "cpu_s": 0.671875,
+      "wall_s": 0.7978707998991013,
+      "input_files": 421
+    },
+    {
+      "kind": "synthetic_tests",
+      "cpu_s": 0.28125,
+      "wall_s": 0.2876009000465274,
+      "cases": 23,
+      "passed": true,
+      "physics_steps": 0
+    },
+    {
+      "kind": "replay_orchestration",
+      "cpu_s": 1.140625,
+      "wall_s": 457.8377168001607,
+      "scope": "parent process only; child CPU separate"
+    },
+    {
+      "kind": "report_identity_audit",
+      "cpu_s": 0.5625,
+      "wall_s": 0.7565208002924919
+    }
+  ],
+  "next_phases_started": []
+}
