@@ -1,7 +1,19 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
+<!-- S00 CURRENT START -->
+## 当前版本：S00 契约、基线适配与完整可视化
+
+发布分支：`codex/system-s00-visual-refresh`。S00 验收快照：`80ac0f69faa258cba61a2623a4f55961e7ffbebb`。
+统一接口测试 **23/23**，既有轨迹的两类兼容性重放 **4/4**；没有新增物理实验，未执行 S01—S08。
+
+- [S00 阶段报告](output/fpmfc/system_capture/S00/report.md) · [交接清单](output/fpmfc/system_capture/S00/handoff.json) · [逐项验收](output/fpmfc/system_capture/S00/completion_audit.json)
+- [最新完整图集](output/fpmfc/n209_paper_system/visualizations/README.md) · [本地 HTML](output/fpmfc/n209_paper_system/visualizations/index.html) · [刷新与来源清单](output/fpmfc/n209_paper_system/visualizations/refresh_manifest.json)
+
+下方视频和诊断图均由已保存的 N209 轨迹刷新。S00 的接口兼容性通过不改变既有物理任务的成功/失败结论。
+<!-- S00 CURRENT END -->
+
 <!-- N209 CURRENT START -->
-## 当前分支 N209：估计不确定性与参考可实现性
+## 当前物理结果 N209：估计不确定性与参考可实现性
 
 **PARTIAL_OPERATING_DOMAIN_MISMATCH**：8 条已见开发/回归中，3 条完成、5 条早停；全部统一双重重放通过。H2/S01 未完成，独立验证未准入。论文数据审计为 WARN，无实质数值不符；这不是鲁棒性能或硬件就绪结论。
 

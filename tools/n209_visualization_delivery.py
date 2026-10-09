@@ -12,6 +12,8 @@ from v6_mujoco.feasible_capture.common import ROOT,PAPER,PROJECT_ROOT,read,save,
 from v6_mujoco.feasible_capture.visualization import OUT,CAPTIONS
 
 videos=read(OUT/'video_manifest.json');selected=videos['run'];refresh=read(OUT/'refresh_manifest.json')
+branch=subprocess.check_output(['git','branch','--show-current'],cwd=PROJECT_ROOT,text=True).strip()
+s00_snapshot=subprocess.check_output(['git','log','-1','--format=%H','--','output/fpmfc/system_capture/S00/handoff.json'],cwd=PROJECT_ROOT,text=True).strip() if (PROJECT_ROOT/'output/fpmfc/system_capture/S00/handoff.json').exists() else None
 errors=[];run_rows=[]
 for name in refresh['all_run_names']:
     folder=OUT/'runs'/name;figs=read(folder/'figure_manifest.json');metrics=read(ROOT/'runs'/name/'metrics.json');trace=sha(ROOT/'runs'/name/'trace.npz')
@@ -77,11 +79,18 @@ GitHub 文件页可下载 MP4；HTML 视频播放需本地打开图集。合成�
 for key,(title,_) in CAPTIONS.items():markdown+=f'### {title}\n\n[矢量 PDF]({key}.pdf) · [全部运行中的对应图](runs/{selected}/{key}.png)\n\n![{title}]({key}.png)\n\n'
 markdown+='## 复现与发布范围\n\n```powershell\npython -m v6_mujoco.feasible_capture --visualize\npython tools/n209_visualization_delivery.py\n```\n\n`--visualize --resume` 重建图表，并在核对 trace、渲染器和视频哈希后复用已有视频。原始实验、失败记录、审计输入和历史 N208 图均保留。\n\n本次是用户在原 N209 任务完成后另行要求的可视化刷新与 GitHub 独立分支上传。原 `commands.md` 的“本地提交、不推送”描述原任务范围；本次新增授权允许推送 `codex/n209-paper-ready-feasible-capture`，不合并主分支。显示刷新不重启实验账本、不产生新候选或新机器人尝试。\n\n[显示质量复核](visual_quality_review.md) · [完整解码及文件核验](visualization_audit.json)\n'
 (OUT/'README.md').write_text(markdown,encoding='utf-8')
+if s00_snapshot:
+    old_scope='本次是用户在原 N209 任务完成后另行要求的可视化刷新与 GitHub 独立分支上传。原 `commands.md` 的“本地提交、不推送”描述原任务范围；本次新增授权允许推送 `codex/n209-paper-ready-feasible-capture`，不合并主分支。显示刷新不重启实验账本、不产生新候选或新机器人尝试。'
+    scope=f'本次按用户新授权发布当前 S00 版本及完整可视化，发布分支 `{branch}`，S00 验收快照 `{s00_snapshot}`。S00 报告与 handoff 的“本地提交、不推送”描述验收快照产生时的范围；本次发布记录在 refresh_manifest.json。图表与视频由原 N209 trace 重新生成，S00 未产生新物理轨迹；未启动 S01—S08、未合并主分支。S00 验收复现应检出其快照提交，避免把后续媒体刷新当作验收时的文件状态。'
+    markdown=markdown.replace(old_scope,scope)
+    (OUT/'README.md').write_text(markdown,encoding='utf-8')
 readme=PROJECT_ROOT/'README.md';text=readme.read_text(encoding='utf-8');start='<!-- N209 CURRENT START -->';end='<!-- N209 CURRENT END -->'
 if start in text:
     left,right=text.split(start,1);_,right=right.split(end,1);text=left+right.lstrip('\n')
 text=text.replace('## 当前分支 N208：','## 历史 N208：',1)
 head,tail=text.split('\n',1)
+if '<!-- S00 CURRENT START -->' in tail:
+    left,right=tail.split('<!-- S00 CURRENT START -->',1);_,right=right.split('<!-- S00 CURRENT END -->',1);tail=left+right.lstrip('\n')
 prefix='output/fpmfc/n209_paper_system/visualizations'
 block=f'''{start}
 ## 当前分支 N209：估计不确定性与参考可实现性
@@ -101,7 +110,23 @@ block=f'''{start}
 下面 N208 及更早内容为历史记录，不作为当前 N209 的新增验证。
 {end}
 '''
-readme.write_text(head+'\n\n'+block+tail,encoding='utf-8')
+s00_block=''
+if s00_snapshot:
+    block=block.replace('## 当前分支 N209：','## 当前物理结果 N209：',1)
+    s00_block=f'''<!-- S00 CURRENT START -->
+## 当前版本：S00 契约、基线适配与完整可视化
+
+发布分支：`{branch}`。S00 验收快照：`{s00_snapshot}`。
+统一接口测试 **23/23**，既有轨迹的两类兼容性重放 **4/4**；没有新增物理实验，未执行 S01—S08。
+
+- [S00 阶段报告](output/fpmfc/system_capture/S00/report.md) · [交接清单](output/fpmfc/system_capture/S00/handoff.json) · [逐项验收](output/fpmfc/system_capture/S00/completion_audit.json)
+- [最新完整图集]({prefix}/README.md) · [本地 HTML]({prefix}/index.html) · [刷新与来源清单]({prefix}/refresh_manifest.json)
+
+下方视频和诊断图均由已保存的 N209 轨迹刷新。S00 的接口兼容性通过不改变既有物理任务的成功/失败结论。
+<!-- S00 CURRENT END -->
+
+'''
+readme.write_text(head+'\n\n'+s00_block+block+tail,encoding='utf-8')
 class Links(HTMLParser):
     def __init__(self):super().__init__();self.links=[]
     def handle_starttag(self,tag,attrs):
@@ -116,6 +141,8 @@ refresh['navigation_sha256']={'README.md':sha(readme),'visualizations/README.md'
 refresh['run_readme_sha256']={p.relative_to(OUT).as_posix():sha(p) for p in (OUT/'runs').glob('*/README.md')}
 refresh['quality_review_sha256']=sha(OUT/'visual_quality_review.md')
 refresh['delivery_generator_sha256']=sha(Path(__file__));save(OUT/'refresh_manifest.json',refresh)
+refresh['publication']={'branch':branch,'s00_acceptance_commit':s00_snapshot,'authorization':'User requested current version on a separate GitHub branch and all current visualizations refreshed.','scope':'Display regeneration from all eight retained N209 traces; S00 acceptance artifacts unchanged; no later research phase.','merged':False}
+save(OUT/'refresh_manifest.json',refresh)
 result={'passed':not errors,'errors':errors,'run_count':len(refresh['all_run_names']),'diagnostic_figures':refresh['run_figure_count'],
     'videos_decoded':len(probes),'decoded_streams':probes,'paper_audit_inputs_unchanged':not any('paper-audit' in e for e in errors),
     'new_physical_attempts':0,'selected_video_run':selected,'scope':'visual regeneration, exact source identity and complete video decoding; no new performance qualification',

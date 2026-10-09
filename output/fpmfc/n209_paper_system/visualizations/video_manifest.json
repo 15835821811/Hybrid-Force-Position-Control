@@ -1719,7 +1719,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.09375
+      "encoder_process_cpu_s": 2.765625
     },
     "front": {
       "title": "正面视角",
@@ -1741,7 +1741,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.0
+      "encoder_process_cpu_s": 2.71875
     },
     "right": {
       "title": "右侧视角",
@@ -1763,7 +1763,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.109375
+      "encoder_process_cpu_s": 2.6875
     },
     "top": {
       "title": "俯视视角",
@@ -1785,11 +1785,11 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.015625
+      "encoder_process_cpu_s": 2.921875
     },
     "rear": {
       "title": "后方视角",
-      "sha256": "418ff8d33e3995ed2aca66675856fcd429b71bbc55130514431e113f7d73918c",
+      "sha256": "d038d02c76b1bb706cbec75eb0699eb476900cbeca72f200e56279be4b34c6de",
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -1807,11 +1807,11 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.21875
+      "encoder_process_cpu_s": 2.859375
     },
     "overview_five_views_and_body_side": {
       "title": "五个固定视角 + 连续基座体侧总览",
-      "sha256": "a9b29a3f29c58b5fd5c353db2b8b4fd6ffb02de7ef41f52ab4053840b86ef501",
+      "sha256": "8817b2b4b92f8a14c0d4621b93358898b82a9e089d9e50a8e641b14da78d1329",
       "probe": {
         "programs": [],
         "stream_groups": [],
@@ -1829,7 +1829,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 19.828125
+      "encoder_process_cpu_s": 19.03125
     },
     "body_side": {
       "title": "独立连续基座体侧视角",
@@ -1851,7 +1851,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.234375
+      "encoder_process_cpu_s": 3.078125
     },
     "interface_closeup": {
       "title": "接口与实际几何近景",
@@ -1873,14 +1873,14 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 4.390625
+      "encoder_process_cpu_s": 3.90625
     }
   },
   "body_camera_max_adjacent_forward_angle_rad": 0.001524965395756377,
   "body_camera_max_orthogonality_error": 1.1102230246251565e-16,
   "body_camera": "continuous base-rotation forward/up vectors including roll; scene center framing; no angle wrap",
   "display_only": "recorded integration states restored for display; no mj_step, no new physics, no historical splicing; target transparency and trajectory overlays only",
-  "parent_process_cpu_s": 55.875,
-  "encoder_process_cpu_s": 42.890625,
-  "wall_s": 48.04405641555786
+  "parent_process_cpu_s": 51.078125,
+  "encoder_process_cpu_s": 39.96875,
+  "wall_s": 42.48782396316528
 }

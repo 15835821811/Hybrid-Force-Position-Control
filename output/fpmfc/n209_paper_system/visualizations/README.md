@@ -109,6 +109,6 @@ python tools/n209_visualization_delivery.py
 
 `--visualize --resume` 重建图表，并在核对 trace、渲染器和视频哈希后复用已有视频。原始实验、失败记录、审计输入和历史 N208 图均保留。
 
-本次是用户在原 N209 任务完成后另行要求的可视化刷新与 GitHub 独立分支上传。原 `commands.md` 的“本地提交、不推送”描述原任务范围；本次新增授权允许推送 `codex/n209-paper-ready-feasible-capture`，不合并主分支。显示刷新不重启实验账本、不产生新候选或新机器人尝试。
+本次按用户新授权发布当前 S00 版本及完整可视化，发布分支 `codex/system-s00-visual-refresh`，S00 验收快照 `80ac0f69faa258cba61a2623a4f55961e7ffbebb`。S00 报告与 handoff 的“本地提交、不推送”描述验收快照产生时的范围；本次发布记录在 refresh_manifest.json。图表与视频由原 N209 trace 重新生成，S00 未产生新物理轨迹；未启动 S01—S08、未合并主分支。S00 验收复现应检出其快照提交，避免把后续媒体刷新当作验收时的文件状态。
 
 [显示质量复核](visual_quality_review.md) · [完整解码及文件核验](visualization_audit.json)

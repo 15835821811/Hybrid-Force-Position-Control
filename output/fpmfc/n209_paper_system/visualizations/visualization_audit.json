@@ -58,5 +58,5 @@
   "new_physical_attempts": 0,
   "selected_video_run": "R01_V2_nominal",
   "scope": "visual regeneration, exact source identity and complete video decoding; no new performance qualification",
-  "validator_sha256": "d5e8522ddcd934d1f98fcf6b511bac154ac121f93186cc2d01da9bcf1dd316b0"
+  "validator_sha256": "7b5d5ce54a7c36f7e6e35936b398e4d4c4488e648a9f82b554b98986a49c1e3c"
 }

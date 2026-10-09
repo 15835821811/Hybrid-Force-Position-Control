@@ -96,3 +96,5 @@ configs/system_capture/** -text whitespace=cr-at-eol
 experiments/system_capture/** -text whitespace=cr-at-eol
 output/fpmfc/system_capture/** -text whitespace=cr-at-eol
 paper/system_framework/** -text whitespace=cr-at-eol
+# Preserve the published navigation digest across Windows/Linux checkouts.
+README.md -text whitespace=cr-at-eol
