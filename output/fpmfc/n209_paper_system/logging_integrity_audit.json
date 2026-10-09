@@ -1,0 +1,131 @@
+{
+  "status": "KNOWN_T0_INVALID_ESTIMATE_SNAPSHOT_ALIAS",
+  "runs": [
+    {
+      "name": "D01_V1_nominal",
+      "differences": [],
+      "control_states_sha256": "c1c9acfd6f557a00d870ce21c1b677473cb7ea125926a76fcb4d0d6f5557f338",
+      "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb"
+    },
+    {
+      "name": "D02_V1_H2",
+      "differences": [],
+      "control_states_sha256": "4a385cf2dd046db8901c573febd577e4cf409686b4c663b45652abae093aba43",
+      "trace_sha256": "0e29b05115c239158f9c3a12694a11078fb2d8c9244ebc1dbbaf797f145d5d18"
+    },
+    {
+      "name": "D03_V1_S01",
+      "differences": [
+        {
+          "time": 0.0,
+          "field": "estimate.covariance",
+          "difference": 9.999990000000001e-05,
+          "saved_diagonal": [
+            1.0000000000000002e-10,
+            1.0000000000000002e-10,
+            1.0000000000000002e-10,
+            1.2249999999999998e-09,
+            1.2249999999999998e-09,
+            1.2249999999999998e-09,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "correct_same_tick_trace_diagonal": [
+            0.0001,
+            0.0001,
+            0.0001,
+            0.0001,
+            0.0001,
+            0.0001,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "state_valid": false
+        }
+      ],
+      "control_states_sha256": "e12581d1f6707ca7106d99b4c5b4eb65f017e56999b59574d98432ae4dde33d8",
+      "trace_sha256": "f73fc42a63522ebc14d797ea8a51679de9f15a25f5257eeed0c44f6aba91d3f4"
+    },
+    {
+      "name": "D04_V2_H2",
+      "differences": [],
+      "control_states_sha256": "223a86656b992e323f050fef13f4baa6ecf911fd26c01e06832c737d6c63aed6",
+      "trace_sha256": "42155fed549e9d8a3477dccbb42e6e4ae13e6beb57c7de3d94c9ed035a2d2662"
+    },
+    {
+      "name": "R01_V2_nominal",
+      "differences": [],
+      "control_states_sha256": "c1c9acfd6f557a00d870ce21c1b677473cb7ea125926a76fcb4d0d6f5557f338",
+      "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb"
+    },
+    {
+      "name": "R02_V2_H2",
+      "differences": [],
+      "control_states_sha256": "223a86656b992e323f050fef13f4baa6ecf911fd26c01e06832c737d6c63aed6",
+      "trace_sha256": "42155fed549e9d8a3477dccbb42e6e4ae13e6beb57c7de3d94c9ed035a2d2662"
+    },
+    {
+      "name": "R03_V2_S01",
+      "differences": [
+        {
+          "time": 0.0,
+          "field": "estimate.covariance",
+          "difference": 9.999990000000001e-05,
+          "saved_diagonal": [
+            1.0000000000000002e-10,
+            1.0000000000000002e-10,
+            1.0000000000000002e-10,
+            1.2249999999999998e-09,
+            1.2249999999999998e-09,
+            1.2249999999999998e-09,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "correct_same_tick_trace_diagonal": [
+            0.0001,
+            0.0001,
+            0.0001,
+            0.0001,
+            0.0001,
+            0.0001,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "state_valid": false
+        }
+      ],
+      "control_states_sha256": "e12581d1f6707ca7106d99b4c5b4eb65f017e56999b59574d98432ae4dde33d8",
+      "trace_sha256": "f73fc42a63522ebc14d797ea8a51679de9f15a25f5257eeed0c44f6aba91d3f4"
+    },
+    {
+      "name": "R04_V2_H1",
+      "differences": [],
+      "control_states_sha256": "c61268cf47970f1a6689412550eea16471eec5a4b193d068bea36c9dcb20e1eb",
+      "trace_sha256": "a370b2219b162d89a314552d58434eda49da5dc52f294862c2cd91ee8a0611cb"
+    }
+  ],
+  "affected_runs": [
+    "D03_V1_S01",
+    "R03_V2_S01"
+  ],
+  "actual_inputs_or_plant_results_modified": false,
+  "original_failed_validation_preserved": true,
+  "resolution": "deep-copy future control snapshots; uniformly revalidate all8 original trajectories with timestamp_audited tag; compare only the known invalid t0 covariance to same-tick copied trace; no other expected field is replaced",
+  "scope": "logging correction, not a new algorithm or a retrospective physical pass"
+}

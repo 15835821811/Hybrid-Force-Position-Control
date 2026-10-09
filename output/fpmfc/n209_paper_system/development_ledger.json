@@ -1,0 +1,64 @@
+{
+  "attempts": [
+    {
+      "name": "D01_V1_nominal",
+      "category": "development",
+      "version": "V1",
+      "scenario": "nominal",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "COMPLETED",
+      "started_epoch": 1791532213.5335624,
+      "source_key": "c42b177e463ea4188cc1c8124e13846417acf8cd6ff4e599b870d96cfb8637c3",
+      "end_time_s": 27.991999999995365,
+      "cpu_s": 279.078125,
+      "finished_epoch": 1791532505.298597
+    },
+    {
+      "name": "D02_V1_H2",
+      "category": "development",
+      "version": "V1",
+      "scenario": "H2_prior",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791532538.0721915,
+      "source_key": "c42b177e463ea4188cc1c8124e13846417acf8cd6ff4e599b870d96cfb8637c3",
+      "end_time_s": 0.04000000000000002,
+      "cpu_s": 0.234375,
+      "finished_epoch": 1791532538.3343644
+    },
+    {
+      "name": "D03_V1_S01",
+      "category": "development",
+      "version": "V1",
+      "scenario": "nominal",
+      "sensor": "noisy",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791532538.9677973,
+      "source_key": "c42b177e463ea4188cc1c8124e13846417acf8cd6ff4e599b870d96cfb8637c3",
+      "end_time_s": 7.839999999999359,
+      "cpu_s": 208.6875,
+      "finished_epoch": 1791532753.1006744
+    },
+    {
+      "name": "D04_V2_H2",
+      "category": "development",
+      "version": "V2",
+      "scenario": "H2_prior",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791533051.822325,
+      "source_key": "a857a57c67da3a84cb02c330d8e31b3302ef526f1fcebbadd15a0cd13a416f67",
+      "end_time_s": 5.899999999999572,
+      "cpu_s": 122.828125,
+      "finished_epoch": 1791533178.6315262
+    }
+  ],
+  "limits": {
+    "versions": 2,
+    "attempts": 8
+  }
+}

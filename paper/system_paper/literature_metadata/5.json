@@ -1,0 +1,397 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2026-03-24T09:15:38Z",
+      "timestamp": 1774343738264,
+      "version": "3.50.1"
+    },
+    "reference-count": 28,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/isparo66239.2025.11437302",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2026-03-23T20:02:43Z",
+      "timestamp": 1774296163000
+    },
+    "page": "14-21",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Online Inertia Parameter Estimation for Unknown Objects Grasped by a Manipulator Towards Space Applications"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Akiyoshi",
+        "family": "Uchida",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tohoku University,Graduate School of Engineering,Space Robotics Lab. (SRL) Department of Aerospace Engineering,Sendai,Japan,980-8579"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Antonine",
+        "family": "Richard",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Luxembourg.,The Space Robotics Research Group at the Interdisciplinary Research Center for Security reliability Trust (SnT)"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kentaro",
+        "family": "Uno",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tohoku University,Graduate School of Engineering,Space Robotics Lab. (SRL) Department of Aerospace Engineering,Sendai,Japan,980-8579"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Miguel",
+        "family": "Olivares-Mendez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Luxembourg.,The Space Robotics Research Group at the Interdisciplinary Research Center for Security reliability Trust (SnT)"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kazuya",
+        "family": "Yoshida",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tohoku University,Graduate School of Engineering,Space Robotics Lab. (SRL) Department of Aerospace Engineering,Sendai,Japan,980-8579"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.automatica.2014.10.128"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0967-0661(02)00186-7"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "491",
+        "DOI": "10.1007/s10846-016-0396-2",
+        "article-title": "Control system for free-floating space manipulator based on nonlinear model predictive control (nmpc)",
+        "volume": "85",
+        "author": "Tomasz",
+        "year": "2017",
+        "journal-title": "J. Intell. Robot. Syst."
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.paerosci.2014.03.002"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/70.34766"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ROBOT.1991.132004"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/027836498600500306"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.1985.268838"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app11094303"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2017.2729659"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2018.2799426"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2019.2926491"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2022.3144517"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2018.8593727"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA57147.2024.10610389"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CASE59546.2024.10711467"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.35188"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asr.2020.05.044"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.actaastro.2016.12.031"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/aerospace10010038"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asr.2019.03.002"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2007.4399190"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Modeling and experimental design for the onorbit inertial parameter identification of free-flying space robots",
+        "volume-title": "Int. Des. Eng. Tech. Conf. Comput. Inf. Eng. Conf.",
+        "author": "Lampariello"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.57856"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/70.240203"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ROBOT.1988.12308"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2012.6386109"
+      },
+      {
+        "key": "ref28",
+        "article-title": "EntDiv_RLS: Entropy-based diversity regularized least squares",
+        "author": "Cho",
+        "year": "2024"
+      }
+    ],
+    "event": {
+      "name": "2025 International Conference on Space Robotics (iSpaRo)",
+      "location": "Sendai, Japan",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            4
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 International Conference on Space Robotics (iSpaRo)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11436098/11436135/11437302.pdf?arnumber=11437302",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2026-03-24T05:43:46Z",
+      "timestamp": 1774331026000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11437302/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          1
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1109/isparo66239.2025.11437302",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          1
+        ]
+      ]
+    }
+  }
+}

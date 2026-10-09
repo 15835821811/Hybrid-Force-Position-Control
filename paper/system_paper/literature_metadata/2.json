@@ -1,0 +1,617 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2026-09-08T14:52:46Z",
+      "timestamp": 1788879166010,
+      "version": "build-2803163510"
+    },
+    "reference-count": 27,
+    "publisher": "Elsevier BV",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2022-11-01T00:00:00Z",
+          "timestamp": 1667260800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2022-11-01T00:00:00Z",
+          "timestamp": 1667260800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100010905",
+        "name": "Major Research Plan",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "61690210"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "61690210"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100010905",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012659",
+        "name": "Foundation for Innovative Research Groups of the National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "51521003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "51521003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Advances in Space Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.asr.2022.07.070",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2022-08-04T01:57:30Z",
+      "timestamp": 1659578250000
+    },
+    "page": "3183-3204",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Adaptive reactionless control of free-floating space manipulators for detumbling a target with dynamic uncertainties"
+    ],
+    "prefix": "10.1016",
+    "volume": "70",
+    "author": [
+      {
+        "given": "Bowen",
+        "family": "Zhan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bosong",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sibo",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2884-3854",
+        "authenticated-orcid": false,
+        "given": "Dapeng",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Minghe",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/j.actaastro.2021.03.029",
+        "article-title": "On the guidance, navigation and control of in-orbit space robotic missions: A survey and prospective vision",
+        "volume": "184",
+        "author": "Borna",
+        "year": "2021",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.asr.2022.07.070_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "976",
+        "DOI": "10.2514/1.45874",
+        "article-title": "Least-squares-based reaction control of space manipulators",
+        "volume": "35",
+        "author": "Cocuzza",
+        "year": "2012",
+        "journal-title": "J. Guid. Control Dynam."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0015",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dimitrov, D.N., Yoshida, K., 2004. Momentum distribution in a space manipulator for facilitating the post-impact control. In: Proc of IEEE/RSJ International Conference on Intelligent Robots and Systems. Sendai, Japan. https://doi.org/10.1109/IROS.2004.1389933.",
+        "DOI": "10.1109/IROS.2004.1389933"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.asr.2022.07.070_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "531",
+        "DOI": "10.1109/70.258046",
+        "article-title": "The kinematics, dynamics, and control of free-flying and free-floating space robotic systems",
+        "volume": "9",
+        "author": "Dubowsky",
+        "year": "1993",
+        "journal-title": "IEEE T. Robot."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asr.2022.07.070_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "2014",
+        "DOI": "10.2514/1.G000003",
+        "article-title": "Optimal control of space robots for capturing a tumbling object with uncertainties",
+        "volume": "37",
+        "author": "Flores-Abad",
+        "year": "2014",
+        "journal-title": "J. Guid. Control Dynam."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.asr.2022.07.070_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "3900",
+        "DOI": "10.1016/j.asr.2019.03.002",
+        "article-title": "Detumbling of a non-cooperative target with unknown inertial parameters using a space robot",
+        "volume": "63",
+        "author": "Gangapersaud",
+        "year": "2019",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "225",
+        "DOI": "10.1016/j.actaastro.2015.01.024",
+        "article-title": "Dynamic/control interactions between flexible orbiting space-robot during grasping, docking and post-docking manoeuvres",
+        "volume": "110",
+        "author": "Gasbarri",
+        "year": "2015",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "707",
+        "DOI": "10.1016/j.actaastro.2016.08.027",
+        "article-title": "Reactionless camera inspection with a free-flying space robot under reaction null-space motion control",
+        "volume": "128",
+        "author": "Hiroki",
+        "year": "2016",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0045",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2020.106360",
+        "article-title": "Cartesian trajectory planning of space robots using a multi-objective optimization",
+        "volume": "108",
+        "author": "Jin",
+        "year": "2021",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0050",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu, J., Yang, H., 2022. Trajectory Planning of Satellite Base Attitude Disturbance Optimization for Space Robot. In: Proc of International Conference on Control and Robots. Tokyo, Japan. https://doi.org/10.1109/ICCR51572.2020.9344311.",
+        "DOI": "10.1109/ICCR51572.2020.9344311"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asr.2022.07.070_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "1011",
+        "DOI": "10.1109/70.817666",
+        "article-title": "Reaction null-space control of flexible structure mounted manipulator systems",
+        "volume": "15",
+        "author": "Nenchev",
+        "year": "1999",
+        "journal-title": "IEEE T. Robot."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.asr.2022.07.070_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.2514/1.57856",
+        "article-title": "Adaptive reactionless motion and parameter identification in postcapture of space debris",
+        "volume": "36",
+        "author": "Nguyen-Huynh",
+        "year": "2014",
+        "journal-title": "J. Guid. Control Dynam."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1016/j.paerosci.2015.11.001",
+        "article-title": "Review and comparison of active space debris capturing and removal methods",
+        "volume": "80",
+        "author": "Shan",
+        "year": "2015",
+        "journal-title": "Prog. Aerosp. Sci."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.asr.2022.07.070_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "2795",
+        "DOI": "10.1109/LRA.2022.3143586",
+        "article-title": "Direct Trajectory Optimization of Free-Floating Space Manipulator for Reducing Spacecraft Variation",
+        "volume": "7",
+        "author": "Shao",
+        "year": "2022",
+        "journal-title": "IEEE Robot. Autom. Let."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.asr.2022.07.070_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.2514/1.20591",
+        "article-title": "Hubble space telescope angular velocity estimation during the robotic servicing mission",
+        "volume": "30",
+        "author": "Thienel",
+        "year": "2007",
+        "journal-title": "J. Guid. Control Dynam."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.asr.2022.07.070_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "1010",
+        "DOI": "10.2514/3.20936",
+        "article-title": "Minimizing spacecraft attitude disturbance in space manipulator systems",
+        "volume": "15",
+        "author": "Torres",
+        "year": "1992",
+        "journal-title": "J. Guid. Control Dynam."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0085",
+        "unstructured": "Torres, M., 1989. The disturbance map and minimization of fuel consumption during space manipulator maneuvers. M.S. Thesis, Dept. of Mechanical Engineering, Massachusetts Inst. of Technology, Cambridge, MA."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0090",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vafa, Z., Dubowsky, S., 1987. On the dynamics of manipulators in space using the virtual manipulator approach. In: Proc of IEEE International Conference on Robotics and Automation. Raleigh, NC, USA. https://doi.org/10.1109/ROBOT.1987.1088032.",
+        "DOI": "10.1109/ROBOT.1987.1088032"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.asr.2022.07.070_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "693",
+        "DOI": "10.2514/1.G001219",
+        "article-title": "Novel synthesis method for minimizing attitude disturbance of the free-floating space robots",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "J. Guid. Control Dynam."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "350",
+        "DOI": "10.1016/j.actaastro.2018.04.016",
+        "article-title": "An integrated control scheme for space robot after capturing non-cooperative target",
+        "volume": "147",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1016/j.actaastro.2017.09.025",
+        "article-title": "Detumbling control for kinematically redundant space manipulator post-grasping a rotational satellite",
+        "volume": "141",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "2–3",
+        "key": "10.1016/j.asr.2022.07.070_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1016/j.actaastro.2008.07.010",
+        "article-title": "Target berthing and base reorientation of free-floating space robotic system after capturing",
+        "volume": "64",
+        "author": "Xu",
+        "year": "2009",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.asr.2022.07.070_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "2464",
+        "DOI": "10.1109/TSMC.2017.2693232",
+        "article-title": "Singularity-free trajectory planning of free-floating multi-arm space robots for keeping the base inertially stabilized",
+        "volume": "49",
+        "author": "Xu",
+        "year": "2019",
+        "journal-title": "IEEE T. Syst. Man. Cy. A."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0120",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yoshida, K., Kurazumeand, Y., Umetani, Y., 1991. Dual arm coordination in space free-flying robot. In: Proc of the International Conference on Robotics and Automation. Sacramento, CA, USA. https://doi.org/10.1109/ROBOT.1991.132004.",
+        "DOI": "10.1109/ROBOT.1991.132004"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.asr.2022.07.070_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "785",
+        "DOI": "10.1016/j.asr.2020.05.045",
+        "article-title": "A novel strategy for space manipulator detumbling a non-cooperative target with collision avoidance",
+        "volume": "66",
+        "author": "Zhan",
+        "year": "2020",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "key": "10.1016/j.asr.2022.07.070_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1016/j.actaastro.2017.01.041",
+        "article-title": "Coordinated stabilization for space robot after capturing a noncooperative target with large inertia",
+        "volume": "134",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.asr.2022.07.070_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "1490",
+        "DOI": "10.1109/TAES.2019.2934371",
+        "article-title": "Reactionless control of free-floating space manipulators",
+        "volume": "56",
+        "author": "Zong",
+        "year": "2020",
+        "journal-title": "IEEE T. Aero. Elec. Sys."
+      }
+    ],
+    "container-title": [
+      "Advances in Space Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0273117722007037?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0273117722007037?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2026-05-12T23:24:21Z",
+      "timestamp": 1778628261000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0273117722007037"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    },
+    "references-count": 27,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0273117722007037"
+    ],
+    "URL": "https://doi.org/10.1016/j.asr.2022.07.070",
+    "relation": {},
+    "ISSN": [
+      "0273-1177"
+    ],
+    "issn-type": [
+      {
+        "value": "0273-1177",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Adaptive reactionless control of free-floating space manipulators for detumbling a target with dynamic uncertainties",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Advances in Space Research",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.asr.2022.07.070",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2022 COSPAR. Published by Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

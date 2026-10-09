@@ -1,0 +1,13 @@
+{
+  "status": "NOT_EVALUATED_NOT_ADMITTED",
+  "prespecified_clusters": [
+    3,
+    6
+  ],
+  "seeds": [
+    209201,
+    209202,
+    209203
+  ],
+  "attempts": 0
+}

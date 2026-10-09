@@ -1,0 +1,359 @@
+{
+  "D01_V1_nominal": {
+    "tool_offset_min": 0.019799999999999852,
+    "tool_offset_max": 0.019800000000000175,
+    "predictor_min_s": 0.03745999978855252,
+    "predictor_p50_s": 0.49974825023673475,
+    "predictor_calls": 398,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 13997,
+    "estimator_events": 13996,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.0,
+    "latches": [
+      {
+        "time": 7.991999999999342,
+        "gate_values": [
+          5.7089398062812627e-05,
+          0.00010267097457374215,
+          0.0002529573028831783,
+          0.0006779714152721345
+        ],
+        "margins": [
+          3.4499242199659592e-09,
+          2.9999969856241695e-09,
+          0.00025233048154089564,
+          0.0007208502790274636
+        ],
+        "limits": [
+          0.0001,
+          0.0008726646259971648,
+          0.001,
+          0.003490658503988659
+        ],
+        "all_gate_inequalities": true,
+        "true_capture": true
+      }
+    ]
+  },
+  "D02_V1_H2": {
+    "tool_offset_min": 0.019799999999999988,
+    "tool_offset_max": 0.019799999999999988,
+    "predictor_min_s": 0.06345620006322861,
+    "predictor_p50_s": 0.06345620006322861,
+    "predictor_calls": 1,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 21,
+    "estimator_events": 20,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.0,
+    "latches": []
+  },
+  "D03_V1_S01": {
+    "tool_offset_min": 0.01979999999999986,
+    "tool_offset_max": 0.019800000000000144,
+    "predictor_min_s": 0.03918409999459982,
+    "predictor_p50_s": 0.5008653998374939,
+    "predictor_calls": 391,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 1305,
+    "estimator_events": 1304,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.01200000000000001,
+    "latches": [],
+    "example_pose": {
+      "stamp": 0.0,
+      "position": [
+        0.950011504674396,
+        0.13998935973084434,
+        0.9500212327553572
+      ],
+      "rotation": [
+        [
+          4.7595580029620655e-05,
+          0.9999999986966914,
+          -1.847371219552992e-05
+        ],
+        [
+          -3.567849998450192e-05,
+          -1.8472014065793444e-05,
+          -0.9999999991929147
+        ],
+        [
+          -0.9999999982308527,
+          4.759623910554724e-05,
+          3.567762075177804e-05
+        ]
+      ],
+      "covariance": [
+        [
+          1.0000000000000002e-10,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000002e-10,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000002e-10,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.2249999999999998e-09,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2249999999999998e-09,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2249999999999998e-09
+        ]
+      ]
+    }
+  },
+  "D04_V2_H2": {
+    "tool_offset_min": 0.01979999999999984,
+    "tool_offset_max": 0.01980000000000015,
+    "predictor_min_s": 0.03666110010817647,
+    "predictor_p50_s": 0.040549349738284945,
+    "predictor_calls": 294,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 2951,
+    "estimator_events": 2950,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.0,
+    "latches": []
+  },
+  "R01_V2_nominal": {
+    "tool_offset_min": 0.019799999999999852,
+    "tool_offset_max": 0.019800000000000175,
+    "predictor_min_s": 0.03740620007738471,
+    "predictor_p50_s": 0.4991549502592534,
+    "predictor_calls": 398,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 13997,
+    "estimator_events": 13996,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.0,
+    "latches": [
+      {
+        "time": 7.991999999999342,
+        "gate_values": [
+          5.7089398062812627e-05,
+          0.00010267097457374215,
+          0.0002529573028831783,
+          0.0006779714152721345
+        ],
+        "margins": [
+          3.4499242199659592e-09,
+          2.9999969856241695e-09,
+          0.00025233048154089564,
+          0.0007208502790274636
+        ],
+        "limits": [
+          0.0001,
+          0.0008726646259971648,
+          0.001,
+          0.003490658503988659
+        ],
+        "all_gate_inequalities": true,
+        "true_capture": true
+      }
+    ]
+  },
+  "R02_V2_H2": {
+    "tool_offset_min": 0.01979999999999984,
+    "tool_offset_max": 0.01980000000000015,
+    "predictor_min_s": 0.037918000016361475,
+    "predictor_p50_s": 0.04064954980276525,
+    "predictor_calls": 294,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 2951,
+    "estimator_events": 2950,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.0,
+    "latches": []
+  },
+  "R03_V2_S01": {
+    "tool_offset_min": 0.01979999999999986,
+    "tool_offset_max": 0.019800000000000144,
+    "predictor_min_s": 0.04027779959142208,
+    "predictor_p50_s": 0.49924639984965324,
+    "predictor_calls": 391,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 1305,
+    "estimator_events": 1304,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.01200000000000001,
+    "latches": [],
+    "example_pose": {
+      "stamp": 0.0,
+      "position": [
+        0.950011504674396,
+        0.13998935973084434,
+        0.9500212327553572
+      ],
+      "rotation": [
+        [
+          4.7595580029620655e-05,
+          0.9999999986966914,
+          -1.847371219552992e-05
+        ],
+        [
+          -3.567849998450192e-05,
+          -1.8472014065793444e-05,
+          -0.9999999991929147
+        ],
+        [
+          -0.9999999982308527,
+          4.759623910554724e-05,
+          3.567762075177804e-05
+        ]
+      ],
+      "covariance": [
+        [
+          1.0000000000000002e-10,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000002e-10,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000002e-10,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.2249999999999998e-09,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2249999999999998e-09,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.2249999999999998e-09
+        ]
+      ]
+    }
+  },
+  "R04_V2_H1": {
+    "tool_offset_min": 0.019799999999999842,
+    "tool_offset_max": 0.019800000000000144,
+    "predictor_min_s": 0.0371796996332705,
+    "predictor_p50_s": 0.49711389979347587,
+    "predictor_calls": 395,
+    "packet_time_error": 0.0,
+    "packet_torque_max_difference": 0.0,
+    "raw_pose_count": 13967,
+    "estimator_events": 13966,
+    "event_timestamps_strict": true,
+    "max_measurement_event_delay": 0.0,
+    "latches": [
+      {
+        "time": 7.9319999999993485,
+        "gate_values": [
+          5.183374085572039e-05,
+          5.9761873089992433e-05,
+          0.00025456265817142405,
+          0.002351777723290643
+        ],
+        "margins": [
+          3.4499242199659617e-09,
+          2.9999969856241836e-09,
+          0.0002523304815408918,
+          0.0007208502790274374
+        ],
+        "limits": [
+          0.0001,
+          0.0008726646259971648,
+          0.001,
+          0.003490658503988659
+        ],
+        "all_gate_inequalities": true,
+        "true_capture": true
+      }
+    ]
+  },
+  "mission_diff_D02_D04": [
+    {
+      "path": ".n209.version",
+      "first": "V1",
+      "second": "V2"
+    },
+    {
+      "path": ".n209.task_residual_startup_s",
+      "first": null,
+      "second": 0.2
+    },
+    {
+      "path": ".schema",
+      "first": "n209_candidate_v1",
+      "second": "n209_candidate_v2"
+    }
+  ],
+  "sensor_old_new_diff": [],
+  "old_noisy_process": {
+    "process_linear_accel": 0.03,
+    "process_angular_accel": 0.2,
+    "contact_process_multiplier": 10.0
+  }
+}

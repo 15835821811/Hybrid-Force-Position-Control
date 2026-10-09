@@ -1,0 +1,41 @@
+{
+  "base_commit": "b1af09f89226fa6f2ae1b362f3d6225b3363cc17",
+  "B0": "N208, feedback disabled; any common numerical repair explicitly shared",
+  "B1": "B0 plus audited timing/reference interface and predictive progress governor",
+  "B2": "B1 without predictive progress governor",
+  "historical_seen": [
+    "D06",
+    "D05",
+    "H1",
+    "H2",
+    "H3",
+    "S01"
+  ],
+  "capture_limits": [
+    0.0001,
+    0.05,
+    0.001,
+    0.2
+  ],
+  "capture_units": [
+    "m",
+    "deg",
+    "m/s",
+    "deg/s"
+  ],
+  "hold_limits": [
+    0.0005,
+    0.1
+  ],
+  "hold_units": [
+    "m",
+    "deg"
+  ],
+  "load": "norm(F)/50+norm(M)/2 <= 1",
+  "approach_deadline_s": 20,
+  "post_duration_s": 20,
+  "final_window_s": 2,
+  "new_robot_attempts": 0,
+  "no_push": true,
+  "N210_N211": "PLAN_ONLY"
+}

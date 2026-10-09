@@ -70,3 +70,21 @@ output/fpmfc/n208_adaptive_capture/** -text
 paper/N208_PASSIVE_TARGET_ESTIMATION_CAPTURE_REPORT.md text eol=lf
 output/fpmfc/n208_adaptive_capture/**/*.npz filter=lfs diff=lfs merge=lfs -text
 output/fpmfc/n208_adaptive_capture/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# N209 preserve exact archived-source and configuration identities.
+v6_mujoco/feasible_capture/** -text whitespace=cr-at-eol
+configs/n209_paper_system.yaml -text whitespace=cr-at-eol
+output/fpmfc/n209_paper_system/** -text whitespace=cr-at-eol
+paper/system_paper/** -text whitespace=cr-at-eol
+paper/PAPER_CLAIM_AUDIT.* -text whitespace=cr-at-eol
+paper/review-traces/** -text whitespace=cr-at-eol
+paper/N209_FEASIBILITY_AND_UNCERTAINTY_REPORT.md -text whitespace=cr-at-eol
+tools/n209_*.py -text whitespace=cr-at-eol
+output/fpmfc/n209_paper_system/**/*.npz filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n209_paper_system/**/packets.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n209_paper_system/**/hqp_diagnostics.json filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n209_paper_system/**/control_states.json filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n209_paper_system/**/snapshots.json filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n209_paper_system/**/posteriors.json filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n209_paper_system/**/estimator_events.json filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/n209_paper_system/**/new_estimator_redecision.json filter=lfs diff=lfs merge=lfs -text

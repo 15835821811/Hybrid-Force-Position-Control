@@ -1,0 +1,89 @@
+{
+  "runs": {
+    "H2_prior": {
+      "classification": "LINEAR_HARD_SET_INFEASIBLE",
+      "z": 0.019554833668535825,
+      "row_units": [
+        "m/s",
+        "m/s",
+        "m/s",
+        "m/s",
+        "m/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s"
+      ],
+      "box_witnesses": [
+        {
+          "row": "gripper_contact_pad__tumbling_target_geom",
+          "required_m_s": -0.12779809474308393,
+          "maximum_over_joint_box_m_s": -0.1619474977954096,
+          "shortfall_m_s": 0.034149403052325666
+        }
+      ],
+      "exact_reconstruction": true
+    },
+    "S01_noise_delay": {
+      "classification": "LINEAR_HARD_SET_INFEASIBLE",
+      "z": 0.005502548932376166,
+      "row_units": [
+        "m/s",
+        "m/s",
+        "m/s",
+        "m/s",
+        "m/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s"
+      ],
+      "box_witnesses": [
+        {
+          "row": "gripper_contact_pad__tumbling_target_geom",
+          "required_m_s": -0.03724633332276628,
+          "maximum_over_joint_box_m_s": -0.04672535953477194,
+          "shortfall_m_s": 0.009479026212005665
+        }
+      ],
+      "exact_reconstruction": true
+    },
+    "D05_final_nominal": {
+      "classification": "LINEAR_HARD_SET_INFEASIBLE",
+      "z": 0.0009830003257214753,
+      "row_units": [
+        "m/s",
+        "m/s",
+        "m/s",
+        "m/s",
+        "m/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s",
+        "rad/s"
+      ],
+      "box_witnesses": [
+        {
+          "row": "gripper_contact_pad__tumbling_target_geom",
+          "required_m_s": -0.02723799318389345,
+          "maximum_over_joint_box_m_s": -0.02887921627450626,
+          "shortfall_m_s": 0.0016412230906128096
+        }
+      ],
+      "exact_reconstruction": true
+    }
+  },
+  "normalization": "scale 1 m/s for clearance rows; 1 rad/s for joint rows; z is dimensionless, NOT a penetration distance",
+  "primary_is_least_squares": true,
+  "secondary_only_failure_demonstrated": false,
+  "numerical_repair_justified": false
+}

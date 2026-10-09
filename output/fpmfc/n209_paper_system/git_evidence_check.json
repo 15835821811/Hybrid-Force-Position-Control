@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "errors": [],
+  "staged_files_checked": 1163,
+  "unique_local_lfs_objects_verified": 40,
+  "checker_sha256": "6ad8e39c72cefced09a5d1a66ada9bc7b547d6deb0e429008588fcb004573594",
+  "scope": "current staged N209 source/evidence bytes and local LFS availability; excludes this self-referential report"
+}

@@ -1,0 +1,59 @@
+{
+  "status": "CONDITIONAL_IMPLEMENTED_GUARD_INCOMPATIBILITY",
+  "sample_period_s": 0.006,
+  "minimum_delay_s": 0.012,
+  "position_measurement_variance_m2": 1.0000000000000002e-10,
+  "linear_acceleration_density_m_s32": 0.003,
+  "process_multiplier_minimum": 1.0,
+  "scalar_posterior_covariance": [
+    [
+      4.1025401035832146e-11,
+      1.7845527013788977e-09
+    ],
+    [
+      1.7845527013788975e-09,
+      1.799026087224638e-07
+    ]
+  ],
+  "initial_covariance_minus_fixed_point_eigenvalues": [
+    5.897456711782711e-11,
+    0.0999998200973913
+  ],
+  "riccati_fixed_point_residual": 6.384246142133272e-19,
+  "iterated_vs_DARE_error": 5.2489572950164924e-20,
+  "minimum_velocity_3sigma_lower_bound_m_s": 0.0016096967038862244,
+  "capture_linear_limit_m_s": 0.001,
+  "assumptions": [
+    "three independent translation CV blocks, position-only observation with fixed stated covariance",
+    "sample spacing6ms; control-time measurement age at least12ms; no additional observations",
+    "each interval process density at least.003; covariance initialized as diag(R,.1) after first pose",
+    "exact covariance recursion; rounding residual checked independently; no manual covariance shrink"
+  ],
+  "scope": "lower bound on the implemented guard allowance, NOT an actual estimation-error or sensor impossibility bound; contact can only increase translation covariance in this model",
+  "sensor_configuration": {
+    "pose_period_s": 0.006,
+    "delay_s": 0.012,
+    "position_sigma_m": 1e-05,
+    "rotation_sigma_rad": 3.5e-05,
+    "position_bias_m": [
+      2e-06,
+      -2e-06,
+      1e-06
+    ],
+    "rotation_bias_rad": [
+      3e-06,
+      2e-06,
+      -3e-06
+    ],
+    "force_sigma_n": 0.01,
+    "moment_sigma_nm": 0.0005,
+    "seed": 20802
+  },
+  "implementation_sha": {
+    "v6_mujoco/feasible_capture/uncertainty_floor.py": "eaf688db70b3ad51e9b8bfe28f2eec07198f5c719077446b2db067c32b982293",
+    "v6_mujoco/adaptive_capture/state_estimator.py": "34fa805e6c6205acff37d734036d5d236be58d54887673270ce88efe0b61b500",
+    "v6_mujoco/feasible_capture/estimator_adapter.py": "faa0619fa6474212409a6c8ce8f1166a82d890813fe958c11493f9924b9cd027",
+    "configs/adaptive_capture/sensors.yaml": "4a144a63f58d465f954c81a52aeba848b4ba0fd72414dc1dd5d1c646cb42139e",
+    "configs/n209_paper_system.yaml": "08fcf9d0192b6494378c2c5addd4cb419e55bcf3e0b8df1646407b15d2de2249"
+  }
+}

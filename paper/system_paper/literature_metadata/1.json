@@ -1,0 +1,777 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T08:29:25Z",
+      "timestamp": 1791361765292,
+      "version": "4.3.1"
+    },
+    "reference-count": 45,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2018-06-01T00:00:00Z",
+          "timestamp": 1527811200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2018-06-01T00:00:00Z",
+          "timestamp": 1527811200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "61603304"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "61603304"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "61690212"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "61690212"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "61690211"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "61690211"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Shenzhen Future Industry",
+        "award": [
+          "JCYJ20160531174213774"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JCYJ20160531174213774"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Acta Astronautica"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.actaastro.2018.04.016",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          12
+        ]
+      ],
+      "date-time": "2018-04-12T20:41:44Z",
+      "timestamp": 1523565704000
+    },
+    "page": "350-363",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 45,
+    "special_numbering": "C",
+    "title": [
+      "An integrated control scheme for space robot after capturing non-cooperative target"
+    ],
+    "prefix": "10.1016",
+    "volume": "147",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1287-2733",
+        "authenticated-orcid": false,
+        "given": "Mingming",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7865-7155",
+        "authenticated-orcid": false,
+        "given": "Jianjun",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianping",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ulrich",
+        "family": "Walter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib1",
+        "first-page": "2604",
+        "article-title": "Rotex-the first remotely controlled robot in space",
+        "volume": "vol. 3",
+        "author": "Hirzinger",
+        "year": "1994"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib2",
+        "first-page": "739",
+        "article-title": "Ets-vii, space robot in-orbit experiment satellite",
+        "volume": "vol. 1",
+        "author": "Oda",
+        "year": "1996"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib3",
+        "series-title": "Proceedings of the 9th International Symposium on Artificial Intelligence, Robotics and Automation in Space",
+        "first-page": "25",
+        "article-title": "Autonomous satellite serving using the orbital express demonstration manipulator system",
+        "author": "Ogilvie",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib4",
+        "series-title": "Proceedings of AIAA Infotech@Aerospace Conference",
+        "first-page": "1",
+        "article-title": "Overview and performance of the front-end robotics enabling near-term demonstration (frend) robotic arm",
+        "author": "Debus",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib5",
+        "series-title": "Proceedings of the 2011 IEEE International Conference on Robotics and Automation",
+        "first-page": "2178",
+        "article-title": "Robonaut 2-the first humanoid robot in space",
+        "author": "Diftler",
+        "year": "2011"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.actaastro.2018.04.016_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1002/rob.20194",
+        "article-title": "Autonomous capture of a tumbling satellite",
+        "volume": "24",
+        "author": "Rekleitis",
+        "year": "2007",
+        "journal-title": "J. Field Robot."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.actaastro.2018.04.016_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "2014",
+        "DOI": "10.2514/1.G000003",
+        "article-title": "Optimal control of space robots for capturing a tumbling object with uncertainties",
+        "volume": "37",
+        "author": "Abad",
+        "year": "2014",
+        "journal-title": "J. Guid. Contr. Dynam."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib8",
+        "series-title": "Automated Rendezvous and Docking of Spacecraft",
+        "author": "Fehse",
+        "year": "2003"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.actaastro.2018.04.016_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1478",
+        "DOI": "10.2514/1.29590",
+        "article-title": "Safe trajectories for autonomous rendezvous of spacecraft",
+        "volume": "31",
+        "author": "Breger",
+        "year": "2008",
+        "journal-title": "J. Guid. Contr. Dynam."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib10",
+        "first-page": "441",
+        "article-title": "Zeros reaction maneuver: flight validation with ets-vii space robot and extension to kinematically redundant arm",
+        "volume": "vol. 1",
+        "author": "Yoshida",
+        "year": "2001"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.actaastro.2018.04.016_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.2514/1.57856",
+        "article-title": "Adaptive reactionless motion and parameter identification in postcapture of space debris",
+        "volume": "36",
+        "author": "Nguyen-Huynh",
+        "year": "2013",
+        "journal-title": "J. Guid. Contr. Dynam."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib12",
+        "series-title": "Proceedings of AIAA Guidance, Navigation, and Control Conference",
+        "article-title": "Reactionless path planning strategies for capture of tumbling objects in space using a dual-arm robotic system",
+        "author": "Shah",
+        "year": "2013"
+      },
+      {
+        "issue": "1–2",
+        "key": "10.1016/j.actaastro.2018.04.016_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1163/156855308X392708",
+        "article-title": "Study on non-holonomic cartesian path planning of a free-floating space robotic system",
+        "volume": "23",
+        "author": "Xu",
+        "year": "2009",
+        "journal-title": "Adv. Robot."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib14",
+        "first-page": "3719",
+        "article-title": "Trajectory planning for optimal robot catching in real-time",
+        "volume": "vol. 1",
+        "author": "Lampariello",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.actaastro.2015.03.008",
+        "article-title": "Trajectory planning of free-floating space robot using particle swarm optimization (pso)",
+        "volume": "112",
+        "author": "Wang",
+        "year": "2015",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1016/j.actaastro.2018.03.012",
+        "article-title": "Coordinated trajectory planning of dual-arm space robot using constrained particle swarm optimization",
+        "volume": "146",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1525",
+        "DOI": "10.1016/j.asr.2018.01.011",
+        "article-title": "Optimal trajectory planning of free-floating space manipulator using differential evolution algorithm",
+        "volume": "61",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.actaastro.2018.04.016_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "695",
+        "DOI": "10.2514/1.G001219",
+        "article-title": "Novel synthesis method for minimizing attitude disturbance of the free-floating space robots",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "J. Guid. Contr. Dynam."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib19",
+        "first-page": "2005",
+        "article-title": "Adaptive control of space robot system with an attitude controlled base",
+        "volume": "vol. 3",
+        "author": "Xu",
+        "year": "1992"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib20",
+        "first-page": "1400",
+        "article-title": "Attitude control of a space robot with initial angular momentum",
+        "volume": "vol. 2",
+        "author": "Matsuno",
+        "year": "2001"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib21",
+        "series-title": "50th IEEE Conference on Decision and Control and European Control Conference",
+        "first-page": "3547",
+        "article-title": "A model predictive control approach to attitude stabilization and trajectory tracking control of a 3d universal joint space robot with an initial angular momentum",
+        "author": "Kai",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1737",
+        "DOI": "10.1016/j.asr.2015.06.012",
+        "article-title": "A non-linear model predictive controller with obstacles avoidance for a space robot",
+        "volume": "57",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.actaastro.2018.04.016_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2227",
+        "DOI": "10.1007/s11071-016-2641-4",
+        "article-title": "Optimal sliding mode control of a robot manipulator under uncertainty using pso",
+        "volume": "84",
+        "author": "Zadeh",
+        "year": "2016",
+        "journal-title": "Nonlinear Dynam."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.actaastro.2018.04.016_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1007/s11071-016-3245-8",
+        "article-title": "A nonlinear h-infinity control method for multi-dof robotic manipulators",
+        "volume": "88",
+        "author": "Rigatos",
+        "year": "2017",
+        "journal-title": "Nonlinear Dynam."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib25",
+        "article-title": "Globally robust explicit model predictive control of constrained systems exploiting svm-based approximation",
+        "author": "Wei",
+        "year": "2016",
+        "journal-title": "Int. J. Robust Nonlinear Control"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.actaastro.2018.04.016_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "548",
+        "DOI": "10.1109/70.768186",
+        "article-title": "Impact analysis and post-impact motion control issues of a free-floating space robot subject to a force impulse",
+        "volume": "15",
+        "author": "Nenchev",
+        "year": "1999",
+        "journal-title": "IEEE Trans. Robot. Autom."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib27",
+        "series-title": "Proceedings of the 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "first-page": "4127",
+        "article-title": "On the capture of tumbling satellite by a space robot",
+        "author": "Yoshida",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib28",
+        "series-title": "2006 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "first-page": "1020",
+        "article-title": "Impedance control for a free-floating robot in the grasping of a tumbling target with parameter uncertainty",
+        "author": "Abiko",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib29",
+        "series-title": "2009 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+        "first-page": "2365",
+        "article-title": "Coordination control of a free-flying manipulator and its base attitude to capture and detumble a noncooperative satellite",
+        "author": "Aghili",
+        "year": "2009"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.actaastro.2018.04.016_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "634",
+        "DOI": "10.1109/TRO.2011.2179581",
+        "article-title": "A prediction and motion-planning scheme for visually guided robotic capturing of free-floating tumbling objects with uncertain dynamics",
+        "volume": "28",
+        "author": "Aghili",
+        "year": "2012",
+        "journal-title": "IEEE Trans. Robot."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib31",
+        "first-page": "2042",
+        "article-title": "Robot excitation trajectories for dynamic parameter estimation using optimized b-splines",
+        "volume": "vol. 1",
+        "author": "Rackl",
+        "year": "2012"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.actaastro.2018.04.016_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1007/s10846-016-0417-1",
+        "article-title": "Optimal capture of a tumbling object in orbit using a space manipulator",
+        "volume": "86",
+        "author": "Flores-Abad",
+        "year": "2017",
+        "journal-title": "J. Intell. Rob. Syst."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "75",
+        "DOI": "10.1016/j.actaastro.2017.01.041",
+        "article-title": "Coordinated stabilization for space robot after capturing a noncooperative target with large inertia",
+        "volume": "134",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1016/j.actaastro.2016.12.031",
+        "article-title": "On-orbit identifying the inertia parameters of space robotic systems using simple equivalent dynamics",
+        "volume": "132",
+        "author": "Xu",
+        "year": "2017",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1016/j.actaastro.2017.09.025",
+        "article-title": "Detumbling control for kinematically redundant space manipulator post-grasping a rotational satellite",
+        "volume": "141",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.actaastro.2018.04.016_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1023",
+        "DOI": "10.1007/s11071-018-4106-4",
+        "article-title": "Detumbling strategy and coordination control of kinematically redundant space robot after capturing a tumbling target",
+        "volume": "92",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Nonlinear Dynam."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.actaastro.2018.04.016_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "207",
+        "DOI": "10.1016/j.asr.2017.10.028",
+        "article-title": "Motion prediction of a non-cooperative space target",
+        "volume": "61",
+        "author": "Zhou",
+        "year": "2018",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.actaastro.2018.04.016_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1115/1.3140702",
+        "article-title": "Impedance control: an approach to manipulator: parts i-iii",
+        "volume": "107",
+        "author": "Hogan",
+        "year": "1985",
+        "journal-title": "ASME J. Dyn. Syst. Meas. Control"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.actaastro.2018.04.016_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "451",
+        "DOI": "10.1109/41.679003",
+        "article-title": "Neural network impedance force control of robot manipulator",
+        "volume": "45",
+        "author": "Jung",
+        "year": "1998",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib40",
+        "first-page": "554",
+        "article-title": "Unified impedance and admittance control",
+        "volume": "vol. 1",
+        "author": "Ott",
+        "year": "2010"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.actaastro.2018.04.016_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "576",
+        "DOI": "10.1109/TMECH.2008.2002816",
+        "article-title": "Six-dof impedance control of dual-arm cooperative manipulators",
+        "volume": "13",
+        "author": "Caccavale",
+        "year": "2008",
+        "journal-title": "IEEE/ASME Trans. Mechatronics"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.actaastro.2018.04.016_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1109/70.585902",
+        "article-title": "Singularity-robust task-priority redundancy resolution for real-time kinematic control of robot manipulators",
+        "volume": "13",
+        "author": "Chiaverini",
+        "year": "1997",
+        "journal-title": "IEEE Trans. Robot. Autom."
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib43",
+        "series-title": "Robotics Modelling, Planning and Control",
+        "author": "Siciliano",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib44",
+        "series-title": "Qrd-rls Adaptive Filtering",
+        "author": "Apolinario",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.actaastro.2018.04.016_bib45",
+        "first-page": "350",
+        "article-title": "A qr-decomposition lms-Newton adaptive filtering algorithm with variable convergence factor",
+        "volume": "vol. 1",
+        "author": "de Campos",
+        "year": "1993"
+      }
+    ],
+    "container-title": [
+      "Acta Astronautica"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094576517316405?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0094576517316405?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2025-09-25T14:42:42Z",
+      "timestamp": 1758811362000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0094576517316405"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "references-count": 45,
+    "alternative-id": [
+      "S0094576517316405"
+    ],
+    "URL": "https://doi.org/10.1016/j.actaastro.2018.04.016",
+    "relation": {},
+    "ISSN": [
+      "0094-5765"
+    ],
+    "issn-type": [
+      {
+        "value": "0094-5765",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "An integrated control scheme for space robot after capturing non-cooperative target",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Acta Astronautica",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.actaastro.2018.04.016",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2018 IAA. Published by Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

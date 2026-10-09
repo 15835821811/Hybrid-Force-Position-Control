@@ -1,0 +1,4 @@
+Historical run,Classification,Dimensionless z,Conflict row,Required (m/s),Box maximum (m/s),Shortfall (m/s)
+H2_prior,LINEAR_HARD_SET_INFEASIBLE,0.019554833668535825,gripper_contact_pad__tumbling_target_geom,-0.12779809474308393,-0.1619474977954096,0.034149403052325666
+S01_noise_delay,LINEAR_HARD_SET_INFEASIBLE,0.005502548932376166,gripper_contact_pad__tumbling_target_geom,-0.03724633332276628,-0.04672535953477194,0.009479026212005665
+D05_final_nominal,LINEAR_HARD_SET_INFEASIBLE,0.0009830003257214753,gripper_contact_pad__tumbling_target_geom,-0.02723799318389345,-0.02887921627450626,0.0016412230906128096

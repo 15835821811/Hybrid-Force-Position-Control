@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "errors": [],
+  "required_artifacts": 31,
+  "attempts": 8,
+  "citation_entries": 8,
+  "paper_claim_audit_status": "WARN",
+  "claim_audit_input_hashes_current": true,
+  "scope": "artifact/identity/definition consistency; not new performance, safety proof, or independent scientific peer review",
+  "validator_sha256": "121ba8fe7df3de89946a7a68e422c5aded7a556489fbf6141f33ffbdf779aa81",
+  "qualification_sha256": "ea56fa3851566cd7a1df2b6a6b446863bfbda47cbe9ed96d943d074e8d593147"
+}

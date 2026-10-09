@@ -1,0 +1,299 @@
+{
+  "started_epoch": 1791531545.0529695,
+  "cpu_s": 3578.3125,
+  "attempts": [
+    {
+      "name": "D01_V1_nominal",
+      "category": "development",
+      "version": "V1",
+      "scenario": "nominal",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "COMPLETED",
+      "started_epoch": 1791532213.5335624,
+      "source_key": "c42b177e463ea4188cc1c8124e13846417acf8cd6ff4e599b870d96cfb8637c3",
+      "end_time_s": 27.991999999995365,
+      "cpu_s": 279.078125,
+      "finished_epoch": 1791532505.298597
+    },
+    {
+      "name": "D02_V1_H2",
+      "category": "development",
+      "version": "V1",
+      "scenario": "H2_prior",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791532538.0721915,
+      "source_key": "c42b177e463ea4188cc1c8124e13846417acf8cd6ff4e599b870d96cfb8637c3",
+      "end_time_s": 0.04000000000000002,
+      "cpu_s": 0.234375,
+      "finished_epoch": 1791532538.3343644
+    },
+    {
+      "name": "D03_V1_S01",
+      "category": "development",
+      "version": "V1",
+      "scenario": "nominal",
+      "sensor": "noisy",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791532538.9677973,
+      "source_key": "c42b177e463ea4188cc1c8124e13846417acf8cd6ff4e599b870d96cfb8637c3",
+      "end_time_s": 7.839999999999359,
+      "cpu_s": 208.6875,
+      "finished_epoch": 1791532753.1006744
+    },
+    {
+      "name": "D04_V2_H2",
+      "category": "development",
+      "version": "V2",
+      "scenario": "H2_prior",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791533051.822325,
+      "source_key": "a857a57c67da3a84cb02c330d8e31b3302ef526f1fcebbadd15a0cd13a416f67",
+      "end_time_s": 5.899999999999572,
+      "cpu_s": 122.828125,
+      "finished_epoch": 1791533178.6315262
+    },
+    {
+      "name": "R01_V2_nominal",
+      "category": "regression",
+      "version": "V2",
+      "scenario": "nominal",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "COMPLETED",
+      "started_epoch": 1791533241.6077027,
+      "source_key": "67e53e2c9510403d2ddd3aec6cf9abb0d8658afc48ce0c0fdc061721e01b51c4",
+      "end_time_s": 27.991999999995365,
+      "cpu_s": 286.9375,
+      "finished_epoch": 1791533533.7557356
+    },
+    {
+      "name": "R02_V2_H2",
+      "category": "regression",
+      "version": "V2",
+      "scenario": "H2_prior",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791533534.750196,
+      "source_key": "a38462fbcef29e59385abf5c5596120dbeebcad89605b8e2b31d542e2ce5d140",
+      "end_time_s": 5.899999999999572,
+      "cpu_s": 119.25,
+      "finished_epoch": 1791533655.6919012
+    },
+    {
+      "name": "R03_V2_S01",
+      "category": "regression",
+      "version": "V2",
+      "scenario": "nominal",
+      "sensor": "noisy",
+      "method": "B1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791533656.3776908,
+      "source_key": "a38462fbcef29e59385abf5c5596120dbeebcad89605b8e2b31d542e2ce5d140",
+      "end_time_s": 7.839999999999359,
+      "cpu_s": 210.5,
+      "finished_epoch": 1791533870.0630443
+    },
+    {
+      "name": "R04_V2_H1",
+      "category": "regression",
+      "version": "V2",
+      "scenario": "H1_prior",
+      "sensor": "ideal",
+      "method": "B1",
+      "status": "COMPLETED",
+      "started_epoch": 1791533870.9049704,
+      "source_key": "1d585933f826833ce4c5fd755437eff47bdff36f25d91d2581b8864ad27c15ba",
+      "end_time_s": 27.931999999995398,
+      "cpu_s": 281.8125,
+      "finished_epoch": 1791534156.098083
+    }
+  ],
+  "operations": [
+    {
+      "kind": "historical_packet_diagnostic",
+      "cpu_s": 20.046875,
+      "wall_s": 20.211525700055063,
+      "detail": "H2_prior",
+      "epoch": 1791531566.772539
+    },
+    {
+      "kind": "historical_packet_diagnostic",
+      "cpu_s": 20.828125,
+      "wall_s": 20.96418559970334,
+      "detail": "S01_noise_delay",
+      "epoch": 1791531596.3440547
+    },
+    {
+      "kind": "historical_packet_diagnostic",
+      "cpu_s": 29.109375,
+      "wall_s": 29.657341999933124,
+      "detail": "D05_final_nominal",
+      "epoch": 1791531626.4711127
+    },
+    {
+      "kind": "tests",
+      "cpu_s": 3.46875,
+      "wall_s": 3.264246200211346,
+      "detail": "tests_1791532119361572400.json",
+      "epoch": 1791532119.3646665
+    },
+    {
+      "kind": "supporting_readonly_audits",
+      "cpu_s": 7.3125,
+      "wall_s": 7.384268700145185,
+      "detail": "sensor_reference and inertial support",
+      "epoch": 1791532997.191148
+    },
+    {
+      "kind": "tests",
+      "cpu_s": 3.46875,
+      "wall_s": 3.3787994999438524,
+      "detail": "tests_1791533212386287500.json",
+      "epoch": 1791533212.3894796
+    },
+    {
+      "kind": "tests",
+      "cpu_s": 8.25,
+      "wall_s": 8.355161599814892,
+      "detail": "tests_1791533229250947800.json",
+      "epoch": 1791533229.2541206
+    },
+    {
+      "kind": "interrupted_dual_replay",
+      "cpu_s": 252.890625,
+      "wall_s": 255.717483,
+      "detail": "D01; decode-loop implementation error, no validation produced; replay_interruption.json",
+      "epoch": 1791534412.4991596
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 200.328125,
+      "wall_s": 202.65577330021188,
+      "detail": "D01_V1_nominal",
+      "epoch": 1791534616.0020366
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 0.21875,
+      "wall_s": 0.23031939985230565,
+      "detail": "D02_V1_H2",
+      "epoch": 1791534616.7883306
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 182.734375,
+      "wall_s": 184.4783374001272,
+      "detail": "D03_V1_S01",
+      "epoch": 1791534801.7989254
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 97.265625,
+      "wall_s": 98.04663510015234,
+      "detail": "D04_V2_H2",
+      "epoch": 1791534900.370634
+    },
+    {
+      "kind": "interrupted_integrity_pause",
+      "cpu_s": 58.75,
+      "wall_s": 59.191003,
+      "detail": "Dependent validators paused uniformly for t0 invalid snapshot alias",
+      "epoch": 1791535005.3356988
+    },
+    {
+      "kind": "tests",
+      "cpu_s": 8.140625,
+      "wall_s": 8.184858599677682,
+      "detail": "tests_1791535015817095100.json",
+      "epoch": 1791535015.8200989
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 199.125,
+      "wall_s": 200.79351670015603,
+      "detail": "D01_V1_nominal",
+      "epoch": 1791535217.6164584
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 0.3125,
+      "wall_s": 0.3090503001585603,
+      "detail": "D02_V1_H2",
+      "epoch": 1791535218.4774542
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 181.484375,
+      "wall_s": 183.68545360025018,
+      "detail": "D03_V1_S01",
+      "epoch": 1791535402.6977937
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 98.265625,
+      "wall_s": 99.14852800033987,
+      "detail": "D04_V2_H2",
+      "epoch": 1791535502.3682446
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 199.921875,
+      "wall_s": 202.09430149989203,
+      "detail": "R01_V2_nominal",
+      "epoch": 1791535704.9764092
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 98.640625,
+      "wall_s": 99.86856970004737,
+      "detail": "R02_V2_H2",
+      "epoch": 1791535805.3849647
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 183.140625,
+      "wall_s": 185.81640830030665,
+      "detail": "R03_V2_S01",
+      "epoch": 1791535991.7371428
+    },
+    {
+      "kind": "dual_replay",
+      "cpu_s": 199.796875,
+      "wall_s": 202.35070180008188,
+      "detail": "R04_V2_H1",
+      "epoch": 1791536194.6166472
+    },
+    {
+      "kind": "tests",
+      "cpu_s": 8.21875,
+      "wall_s": 8.325258799828589,
+      "detail": "tests_1791536217331844300.json",
+      "epoch": 1791536217.335096
+    },
+    {
+      "kind": "supporting_readonly_audits",
+      "cpu_s": 7.265625,
+      "wall_s": 7.39952759956941,
+      "detail": "sensor_reference and inertial support",
+      "epoch": 1791536225.263594
+    }
+  ],
+  "frozen": false,
+  "limits": {
+    "development": 8,
+    "regression": 4,
+    "holdout": 36,
+    "ablation": 6,
+    "step_sensitivity": 2,
+    "implementation_reserve": 4
+  },
+  "cpu_budget_s": 28800,
+  "wall_budget_s": 28800
+}

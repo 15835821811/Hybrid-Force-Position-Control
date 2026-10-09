@@ -1,0 +1,50 @@
+{
+  "status": "PARTIAL_OPERATING_DOMAIN_MISMATCH",
+  "engineering_delivery_complete": true,
+  "performance_promotion": false,
+  "C1_improved_robust_capture": "NOT_SUPPORTED",
+  "C2_continuous_task": "SUPPORTED_ONLY_IN_RECORDED_IDEAL_SEEN_RUNS",
+  "C3_identification_control_benefit": "CONTROL_BENEFIT_NOT_DEMONSTRATED",
+  "admission": {
+    "selected_version": "V2",
+    "all_seen_regressions_pass": false,
+    "regressions": {
+      "R01_V2_nominal": {
+        "passed": true,
+        "status": "COMPLETED",
+        "source_key": "67e53e2c9510403d2ddd3aec6cf9abb0d8658afc48ce0c0fdc061721e01b51c4",
+        "metrics_sha256": "1a92311f22920541da6a1619205f287be8de0cf521cbe5d4df18aef11e9145ac"
+      },
+      "R02_V2_H2": {
+        "passed": false,
+        "status": "NO_VERIFIED_CONTROL",
+        "source_key": "a38462fbcef29e59385abf5c5596120dbeebcad89605b8e2b31d542e2ce5d140",
+        "metrics_sha256": "0941c83b76a497e9eb417a9eb5e75afa44f82e51c0adbf7f30269accebe8a485"
+      },
+      "R03_V2_S01": {
+        "passed": false,
+        "status": "NO_VERIFIED_CONTROL",
+        "source_key": "a38462fbcef29e59385abf5c5596120dbeebcad89605b8e2b31d542e2ce5d140",
+        "metrics_sha256": "47d200ad9c0ac7c2a264a3bce5bea26eade9065b2ac0b0bce2fa08b9472bd6f4"
+      },
+      "R04_V2_H1": {
+        "passed": true,
+        "status": "COMPLETED",
+        "source_key": "1d585933f826833ce4c5fd755437eff47bdff36f25d91d2581b8864ad27c15ba",
+        "metrics_sha256": "5493f8203ac29de017a29386fc39d6e7dec61c3599c166abed3aab10875e129d"
+      }
+    },
+    "selection_basis": "single final V2 startup soft-residual revision; no third candidate, no holdout-based selection"
+  },
+  "dual_replays_all_pass": true,
+  "tests_pass": true,
+  "tests_file": "tests_1791536217331844300.json",
+  "new_holdouts": "NOT_EVALUATED_NOT_ADMITTED",
+  "ablation": "NOT_EVALUATED_NOT_ADMITTED",
+  "fine_step": "NOT_EVALUATED_NOT_ADMITTED",
+  "hardware_qualification": false,
+  "recursive_safety_proof": false,
+  "realtime_ready": false,
+  "boundary": "Implemented trajectory/uncertainty/governor domain is insufficient; no proof all passive-base controllers or sensing methods are infeasible.",
+  "paper_claim_audit_status": "WARN"
+}

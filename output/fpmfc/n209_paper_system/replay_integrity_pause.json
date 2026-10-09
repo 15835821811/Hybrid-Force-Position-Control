@@ -1,0 +1,16 @@
+[
+  {
+    "pid": 174280,
+    "cpu_s": 0.0,
+    "started": "2026-10-09T08:35:00.4068687Z",
+    "terminated_utc": "2026-10-09T08:35:59.5978715Z",
+    "reason": "Pause dependent validators for common t0 invalid-estimate snapshot alias audit; preserve all evidence"
+  },
+  {
+    "pid": 180112,
+    "cpu_s": 58.75,
+    "started": "2026-10-09T08:35:00.4130263Z",
+    "terminated_utc": "2026-10-09T08:35:59.6007594Z",
+    "reason": "Pause dependent validators for common t0 invalid-estimate snapshot alias audit; preserve all evidence"
+  }
+]

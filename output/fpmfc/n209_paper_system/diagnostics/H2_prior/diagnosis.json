@@ -1,0 +1,137 @@
+{
+  "run": "H2_prior",
+  "end_s": 7.819999999999361,
+  "new_robot_attempts": 0,
+  "source_config_sha": "e4ac1ea76aa8488a01a45293ea59cc5ac37b87ed48086911afdc2431b8eecd7c",
+  "snapshot_sha": "3c33b67ab4048980edfb4942f974c5ba43a427236488028fcbb5ab57727433df",
+  "decision_torque_max_error": 0.0,
+  "decision_events_match": true,
+  "exact_historical_reconstruction": true,
+  "final_phase_one": {
+    "solver": "SciPy/HiGHS LP",
+    "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "scales": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tolerance": 1e-09,
+    "classification": "LINEAR_HARD_SET_INFEASIBLE",
+    "z": 0.019554833668535825,
+    "x": [
+      -0.33405102005628523,
+      0.3954106396525713,
+      -0.11522476998592354,
+      -1.6010275245388337,
+      1.3272540895590164,
+      -1.0336690257340122,
+      -1.0869892552939495
+    ],
+    "row_violation_original_units": [
+      0.0,
+      0.0,
+      0.019554833668535804,
+      0.0,
+      0.0,
+      0.019554833668535776,
+      0.01955483366853583,
+      0.019554833668535818,
+      0.01955483366853583,
+      0.01955483366853583,
+      0.01955483366853583,
+      0.01955483366853583
+    ],
+    "relaxed_residual": 6.938893903907228e-18,
+    "dual_inequality": [
+      -0.0,
+      -0.0,
+      -0.5726259296120869,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.2356900179871684,
+      -0.03693175206274862,
+      -0.04588251594547814,
+      -0.0,
+      -0.0,
+      -2.3269890697329492e-07,
+      -0.040323296417026505,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.00653368835576463,
+      -0.062012566920819995,
+      -0.0
+    ]
+  },
+  "final_solver": {
+    "status": "maximum_iterations",
+    "iterations": 2000,
+    "primal_residual": 0.029230070785117468,
+    "stationarity_inf": 0.03622689588786443,
+    "feasible": false
+  },
+  "final_shape": {
+    "angle_rad": -1.470299495335608,
+    "shoulder_position_base_m": [
+      0.011440740367461679,
+      -0.02773282278896856,
+      0.6150000000000001
+    ],
+    "elbow_position_base_m": [
+      0.3800853886015142,
+      0.05011647639523572,
+      0.4773628707273923
+    ],
+    "wrist_position_base_m": [
+      0.651061559393487,
+      0.0829913955034441,
+      0.7494930431977499
+    ],
+    "shoulder_wrist_length_m": 0.6629200730982439,
+    "elbow_plane_projection_m": 0.2116155602582164,
+    "reference_projection_norm": 0.9859526625860057,
+    "singular": false
+  },
+  "final_secondary_status": "empty_nullspace_interval",
+  "row_names": [
+    "link7_collision__tumbling_target_geom",
+    "link7_collision__target_contact_plate",
+    "gripper_contact_pad__tumbling_target_geom",
+    "n206_spacer__tumbling_target_geom",
+    "n206_spacer__target_contact_plate",
+    "joint_1",
+    "joint_2",
+    "joint_3",
+    "joint_4",
+    "joint_5",
+    "joint_6",
+    "joint_7"
+  ],
+  "units": [
+    "m/s",
+    "m/s",
+    "m/s",
+    "m/s",
+    "m/s",
+    "rad/s",
+    "rad/s",
+    "rad/s",
+    "rad/s",
+    "rad/s",
+    "rad/s",
+    "rad/s"
+  ],
+  "final_time": 7.819999999999361,
+  "cpu_s": 20.046875,
+  "wall_s": 20.211525700055063
+}

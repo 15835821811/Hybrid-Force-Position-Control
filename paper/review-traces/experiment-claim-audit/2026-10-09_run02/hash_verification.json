@@ -1,0 +1,956 @@
+[
+  {
+    "path": "system_paper/manuscript_v1.md",
+    "bytes": 31289,
+    "actual": "sha256:f305155f2bd02550148db2851cb3de734e3057d2ae660164ee4b0a23e73b5ce5",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\configs\\n209_paper_system.yaml",
+    "bytes": 616,
+    "actual": "sha256:08fcf9d0192b6494378c2c5addd4cb419e55bcf3e0b8df1646407b15d2de2249",
+    "match": true
+  },
+  {
+    "path": "system_paper/generated_tables/compute_and_momentum.md",
+    "bytes": 935,
+    "actual": "sha256:a5857a5e60d6c55662ad9d7f84e39f0e5a74af9c82a5d478fb28fcd326d2f6c4",
+    "match": true
+  },
+  {
+    "path": "system_paper/generated_tables/noisy_capture_gate.md",
+    "bytes": 300,
+    "actual": "sha256:7d7e616456ab7e12d811b61a26b597b9042b07c4e0e0f74171d2f37c667fbb22",
+    "match": true
+  },
+  {
+    "path": "system_paper/generated_tables/phase_one.md",
+    "bytes": 582,
+    "actual": "sha256:729409789b8556589be413409aeef7349aedba08e7b5f4c5bf51acc6c7d74ee3",
+    "match": true
+  },
+  {
+    "path": "system_paper/generated_tables/sensor_same_packets.md",
+    "bytes": 559,
+    "actual": "sha256:7d212cfd91a36d00d5ff290ca0212567e60a449294c94925b6950f8a84ac3916",
+    "match": true
+  },
+  {
+    "path": "system_paper/generated_tables/task_outcomes.md",
+    "bytes": 994,
+    "actual": "sha256:ee58f04d33aec35a042817c5528eb678b7587d2a7b53dd4f2350b3664d2fe666",
+    "match": true
+  },
+  {
+    "path": "system_paper/figure_plan.md",
+    "bytes": 5629,
+    "actual": "sha256:1904829202c0aa2def70234163550842aa2bedf718e8826017f0c4662ac635cd",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\configs\\adaptive_capture\\holdout_truth.yaml",
+    "bytes": 2395,
+    "actual": "sha256:97835f7d1ab722e705978826f9504b4cddab78620cfeeadc909f30e03d4bfe5f",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\configs\\adaptive_capture\\mission.yaml",
+    "bytes": 932,
+    "actual": "sha256:bf50da8e1a2a484b819cf3e237a7297d0ed74deb1ed690bbb1cb011fb056172c",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\configs\\adaptive_capture\\sensors.yaml",
+    "bytes": 641,
+    "actual": "sha256:4a144a63f58d465f954c81a52aeba848b4ba0fd72414dc1dd5d1c646cb42139e",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\configs\\adaptive_capture\\target_prior.yaml",
+    "bytes": 399,
+    "actual": "sha256:1cc03fd0767ee75425a3f4e4fef8be811bcc1d1fa706ec15523369c3316437e4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\config.json",
+    "bytes": 26597,
+    "actual": "sha256:d357ef9c6bedda2e316f2f74ed519b97c87870dd6711a994c147b4d8ab4ecf37",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\metrics.json",
+    "bytes": 3055,
+    "actual": "sha256:165512f88a08d4e27deed76364fe52e1ecb40452df420b39ab31b4608eb14f00",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\trace.npz",
+    "bytes": 39135328,
+    "actual": "sha256:6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\progress_governor.json",
+    "bytes": 288101,
+    "actual": "sha256:ab5d0e2399a890d150ad57ddd84a75451bcaf5597617528190c7fb5bb6f0ff57",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\control_states.json",
+    "bytes": 23374154,
+    "actual": "sha256:c1c9acfd6f557a00d870ce21c1b677473cb7ea125926a76fcb4d0d6f5557f338",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\packets.jsonl.gz",
+    "bytes": 6315083,
+    "actual": "sha256:e736335e142e4dffe0b2a3934806c3ac8c7da7da7ad6356e4a851d06448c7819",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\events.json",
+    "bytes": 1351,
+    "actual": "sha256:1ce96a57e16c6ba6e1cc0c5339e00b1908e1dce97c3ff657bf8362c85f299161",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\estimator_events.json",
+    "bytes": 10065243,
+    "actual": "sha256:d14c7f2082ee75fe88b374bc228d33de849b2cc1f79657a2d7de490950ce45e4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\posteriors.json",
+    "bytes": 10833650,
+    "actual": "sha256:2e7e2b45f7cbe0c18b3b46a70fba8ebeabbb65126c348aa96350a8b8bacb23f3",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\governor.json",
+    "bytes": 534590,
+    "actual": "sha256:6464dd6fb281a43c683736fbe09140ac1ffd48fdba5b3e2cdeb0f906ac8a5d76",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\tasks.json",
+    "bytes": 217283,
+    "actual": "sha256:a81d2e15973f4f03daeb9662b49a46b7144dd955954535bcf383330c0dea1192",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\identification.json",
+    "bytes": 49364,
+    "actual": "sha256:58e9a06c0ce4d294b681f6900ba5ba319435ff5cc61dd2ad028a37f6fbe45d40",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D01_V1_nominal\\validation_timestamp_audited.json",
+    "bytes": 24281,
+    "actual": "sha256:dfa88b46715e0407bdefdc46fcbaf3e7cc051e36f07aa23b5abdad58b78f0d19",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\config.json",
+    "bytes": 26774,
+    "actual": "sha256:7a252c41ea9eb11df82ad22f236c104538aa8ce8cbee1a8b0bf3959cb4fcffbf",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\metrics.json",
+    "bytes": 5286,
+    "actual": "sha256:416b9136323b8a109c1ebdbff99abe2e586ad8f0e48c1fa4182482c81165d103",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\trace.npz",
+    "bytes": 56752,
+    "actual": "sha256:0e29b05115c239158f9c3a12694a11078fb2d8c9244ebc1dbbaf797f145d5d18",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\progress_governor.json",
+    "bytes": 2672,
+    "actual": "sha256:0ee8a61d9389e21dc5075f82082d1c8265edd9aba300d5e7563519f1d0ea643b",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\control_states.json",
+    "bytes": 32362,
+    "actual": "sha256:4a385cf2dd046db8901c573febd577e4cf409686b4c663b45652abae093aba43",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\packets.jsonl.gz",
+    "bytes": 2499,
+    "actual": "sha256:72109d217cd8256d7e61815a43a000215bbfde15a3b263c1bc5aba0ad5edab43",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\events.json",
+    "bytes": 3029,
+    "actual": "sha256:d89b1a334dd5350124c5498cb8020bae3f210dd409f166519178598783c1d949",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\estimator_events.json",
+    "bytes": 11792,
+    "actual": "sha256:225a4307b40e12329037363a5a7b695b89dbe85c9222d28bae5ef378dcf2e32b",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\posteriors.json",
+    "bytes": 11672,
+    "actual": "sha256:9e5b41bebed3895aa8f467d0a695c92e26fa2a9d951452228eaeb113959b4b87",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\governor.json",
+    "bytes": 4,
+    "actual": "sha256:a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\tasks.json",
+    "bytes": 4,
+    "actual": "sha256:a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\identification.json",
+    "bytes": 3915,
+    "actual": "sha256:030ecf4e9b1eb74ed9923dde230e50fd1ffa38d887a7a1060569d06625227a67",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D02_V1_H2\\validation_timestamp_audited.json",
+    "bytes": 24277,
+    "actual": "sha256:ee3206789682be621705e6a5d8ce7ec46705d77c2c0b046b04d701a04ffd77d0",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\config.json",
+    "bytes": 26708,
+    "actual": "sha256:a3fcd7145db3f6767452c75533b28bcfee0c5e52412db983522cb7b4ecc617e8",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\metrics.json",
+    "bytes": 5677,
+    "actual": "sha256:02678ba85638db296703ccce0bc995857a4709cf8aeab9d258c4359060aa1775",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\trace.npz",
+    "bytes": 10574506,
+    "actual": "sha256:f73fc42a63522ebc14d797ea8a51679de9f15a25f5257eeed0c44f6aba91d3f4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\progress_governor.json",
+    "bytes": 285154,
+    "actual": "sha256:a5ce8bf4ebf1e01bbec70246e01950e4d2055280e406d1ff74ddaf79044af494",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\control_states.json",
+    "bytes": 6362917,
+    "actual": "sha256:e12581d1f6707ca7106d99b4c5b4eb65f017e56999b59574d98432ae4dde33d8",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\packets.jsonl.gz",
+    "bytes": 1725913,
+    "actual": "sha256:dd393cbf1436bc0432db6230635d0378e0c25c171fb3a648b111aaa63fa0a32c",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\events.json",
+    "bytes": 3331,
+    "actual": "sha256:7c3bb92760fc52060333816c15b5f175ae65cf999fabd37654d974bca156416b",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\estimator_events.json",
+    "bytes": 991840,
+    "actual": "sha256:b7989dfc9804f550a46e93d815f775bddddb7dc9cacc0b0a2f1e16c8cc8ce073",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\posteriors.json",
+    "bytes": 2189167,
+    "actual": "sha256:198cfa8656f2687905bb9dac223367414b8f7d7b186a5ead2a3acd4a9b0b1dff",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\governor.json",
+    "bytes": 4,
+    "actual": "sha256:a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\tasks.json",
+    "bytes": 212923,
+    "actual": "sha256:5453b990154533c751cf1ee210812413728c48bf365f64932aa0df73e1e6dde1",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\identification.json",
+    "bytes": 16764,
+    "actual": "sha256:bb391600d9134c76beaa77d4762cdfc19fbe688fcf1fca8ecae7943b07f2a780",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\validation_timestamp_audited.json",
+    "bytes": 24597,
+    "actual": "sha256:d834c9355aa83b345d0383d70f0b88cfb2f4f733676386ba81d5b5f430204f81",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\config.json",
+    "bytes": 26936,
+    "actual": "sha256:182b8cfa88cf686790f0a8dddf59fdce63ea0117e832a639e8d6b25183925a6a",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\metrics.json",
+    "bytes": 5428,
+    "actual": "sha256:8398a194c254b1ef787db41934c3cc6b5fcd1b186156a3adf78a47be9cdb5856",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\trace.npz",
+    "bytes": 8103879,
+    "actual": "sha256:42155fed549e9d8a3477dccbb42e6e4ae13e6beb57c7de3d94c9ed035a2d2662",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\progress_governor.json",
+    "bytes": 214871,
+    "actual": "sha256:0d4fb286a8ce9aa6e120fd2b162f39f61b615afd9852ea7806c995e4bc29b9dc",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\control_states.json",
+    "bytes": 4683815,
+    "actual": "sha256:223a86656b992e323f050fef13f4baa6ecf911fd26c01e06832c737d6c63aed6",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\packets.jsonl.gz",
+    "bytes": 1262839,
+    "actual": "sha256:dc5fbcdd80cb3e097c36a5c4575cc11b704f3159838e55dc13071c2cf1a2fc3d",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\events.json",
+    "bytes": 3176,
+    "actual": "sha256:341b1f0b18d0b3ad3714cd20121ca6cc0b7b208d0c98eb45b83009263a413172",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\estimator_events.json",
+    "bytes": 1771063,
+    "actual": "sha256:4c4695d2413e60c47342c8f11ff68004b1a198df8ae185a96427602db659dc43",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\posteriors.json",
+    "bytes": 2243493,
+    "actual": "sha256:ee8101f0fe7997ce5d3445dbc854cacb323bdf3326de1b7e2ac7e08591c352b7",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\governor.json",
+    "bytes": 4,
+    "actual": "sha256:a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\tasks.json",
+    "bytes": 159793,
+    "actual": "sha256:2e855e5e8b2b508ccb0f623d68775b3b7cd62ea25de751cd95dda52224a9bfb2",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\identification.json",
+    "bytes": 16014,
+    "actual": "sha256:1a29ef57381f9c2e62459f69e273a41d52bb0f971ee62a2957afef1d34371a1d",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D04_V2_H2\\validation_timestamp_audited.json",
+    "bytes": 24281,
+    "actual": "sha256:6449c277969ced13385ba90e342c0b2e1340bac0f9ca40e1b0fa80114318bfce",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\config.json",
+    "bytes": 26759,
+    "actual": "sha256:677ea2be2162f44f37b332deed59049c85110b385b3b547beb3d1dc06313418c",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\metrics.json",
+    "bytes": 3285,
+    "actual": "sha256:1a92311f22920541da6a1619205f287be8de0cf521cbe5d4df18aef11e9145ac",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\trace.npz",
+    "bytes": 39135328,
+    "actual": "sha256:6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\progress_governor.json",
+    "bytes": 288101,
+    "actual": "sha256:9209f8edc56bc2e49ee5a09b87c9c3fe9a5e45593bd5986d6b824cb5b4492bf4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\control_states.json",
+    "bytes": 23374154,
+    "actual": "sha256:c1c9acfd6f557a00d870ce21c1b677473cb7ea125926a76fcb4d0d6f5557f338",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\packets.jsonl.gz",
+    "bytes": 6315083,
+    "actual": "sha256:49821ed01c89421981957cf39e438964c152d3a5735179a61965074b1c59e864",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\events.json",
+    "bytes": 1351,
+    "actual": "sha256:1ce96a57e16c6ba6e1cc0c5339e00b1908e1dce97c3ff657bf8362c85f299161",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\estimator_events.json",
+    "bytes": 10065243,
+    "actual": "sha256:d14c7f2082ee75fe88b374bc228d33de849b2cc1f79657a2d7de490950ce45e4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\posteriors.json",
+    "bytes": 10833650,
+    "actual": "sha256:2e7e2b45f7cbe0c18b3b46a70fba8ebeabbb65126c348aa96350a8b8bacb23f3",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\governor.json",
+    "bytes": 534590,
+    "actual": "sha256:6464dd6fb281a43c683736fbe09140ac1ffd48fdba5b3e2cdeb0f906ac8a5d76",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\tasks.json",
+    "bytes": 217283,
+    "actual": "sha256:a81d2e15973f4f03daeb9662b49a46b7144dd955954535bcf383330c0dea1192",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\identification.json",
+    "bytes": 49364,
+    "actual": "sha256:58e9a06c0ce4d294b681f6900ba5ba319435ff5cc61dd2ad028a37f6fbe45d40",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R01_V2_nominal\\validation_timestamp_audited.json",
+    "bytes": 24408,
+    "actual": "sha256:2d6b9a890b4c40ebbc74e9f00c09bbf96f1c59f4f0e4f29a64cd573155c0dd1e",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\config.json",
+    "bytes": 27281,
+    "actual": "sha256:89baa114f72635b8a445a0ef4487e1dff56af99a5bd6c3fd61ba0cc2ca36d447",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\metrics.json",
+    "bytes": 5657,
+    "actual": "sha256:0941c83b76a497e9eb417a9eb5e75afa44f82e51c0adbf7f30269accebe8a485",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\trace.npz",
+    "bytes": 8103879,
+    "actual": "sha256:42155fed549e9d8a3477dccbb42e6e4ae13e6beb57c7de3d94c9ed035a2d2662",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\progress_governor.json",
+    "bytes": 214846,
+    "actual": "sha256:83b80beaeb8ffee8f4bc0eee1dea72e255ce4adfcec25531b0e0bebe33bf57cd",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\control_states.json",
+    "bytes": 4683815,
+    "actual": "sha256:223a86656b992e323f050fef13f4baa6ecf911fd26c01e06832c737d6c63aed6",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\packets.jsonl.gz",
+    "bytes": 1262839,
+    "actual": "sha256:20c288e71b41b8d7d790459297840d21127bb0ff513f2bfc1dadc6e5b9cbea6d",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\events.json",
+    "bytes": 3176,
+    "actual": "sha256:b3262834a8f781c927ed54ab7993c611b3c857a959731d64c79c87b4c4b02288",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\estimator_events.json",
+    "bytes": 1771063,
+    "actual": "sha256:4c4695d2413e60c47342c8f11ff68004b1a198df8ae185a96427602db659dc43",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\posteriors.json",
+    "bytes": 2243493,
+    "actual": "sha256:ee8101f0fe7997ce5d3445dbc854cacb323bdf3326de1b7e2ac7e08591c352b7",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\governor.json",
+    "bytes": 4,
+    "actual": "sha256:a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\tasks.json",
+    "bytes": 159793,
+    "actual": "sha256:2e855e5e8b2b508ccb0f623d68775b3b7cd62ea25de751cd95dda52224a9bfb2",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\identification.json",
+    "bytes": 16014,
+    "actual": "sha256:1a29ef57381f9c2e62459f69e273a41d52bb0f971ee62a2957afef1d34371a1d",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R02_V2_H2\\validation_timestamp_audited.json",
+    "bytes": 24405,
+    "actual": "sha256:bb557d7667b0c7de48645401580bbe4da96b8eb7081667e9f897f8bdab7648c2",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\config.json",
+    "bytes": 27215,
+    "actual": "sha256:bf9ebb98d4d927db87286526cbaade13dd855096f995b735bd796eb194417602",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\metrics.json",
+    "bytes": 5907,
+    "actual": "sha256:47d200ad9c0ac7c2a264a3bce5bea26eade9065b2ac0b0bce2fa08b9472bd6f4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\trace.npz",
+    "bytes": 10574506,
+    "actual": "sha256:f73fc42a63522ebc14d797ea8a51679de9f15a25f5257eeed0c44f6aba91d3f4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\progress_governor.json",
+    "bytes": 285133,
+    "actual": "sha256:2f241679d6ec0bbd734bd5dba6e056d8c4aa69c599f2d8cb92db0ddb8f714738",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\control_states.json",
+    "bytes": 6362917,
+    "actual": "sha256:e12581d1f6707ca7106d99b4c5b4eb65f017e56999b59574d98432ae4dde33d8",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\packets.jsonl.gz",
+    "bytes": 1725913,
+    "actual": "sha256:f41292f07c4a7c94d05235a6391baf58a000b1530a8ac1cb001584a6995f59aa",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\events.json",
+    "bytes": 3331,
+    "actual": "sha256:73212cf78bbd294b456fcf63be1fdb965336371ad1ab874c3365524e0468a651",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\estimator_events.json",
+    "bytes": 991840,
+    "actual": "sha256:b7989dfc9804f550a46e93d815f775bddddb7dc9cacc0b0a2f1e16c8cc8ce073",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\posteriors.json",
+    "bytes": 2189167,
+    "actual": "sha256:198cfa8656f2687905bb9dac223367414b8f7d7b186a5ead2a3acd4a9b0b1dff",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\governor.json",
+    "bytes": 4,
+    "actual": "sha256:a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\tasks.json",
+    "bytes": 212923,
+    "actual": "sha256:5453b990154533c751cf1ee210812413728c48bf365f64932aa0df73e1e6dde1",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\identification.json",
+    "bytes": 16764,
+    "actual": "sha256:bb391600d9134c76beaa77d4762cdfc19fbe688fcf1fca8ecae7943b07f2a780",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R03_V2_S01\\validation_timestamp_audited.json",
+    "bytes": 24721,
+    "actual": "sha256:7ad62ad87e78dd718d9da1cecfcece13335d64ae4a6a346ab93af6d007e3a0e1",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\config.json",
+    "bytes": 27284,
+    "actual": "sha256:07b36219169a814cebd3c7942008f51d32b3c18262b6c3f63d09877678e52b38",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\metrics.json",
+    "bytes": 3288,
+    "actual": "sha256:5493f8203ac29de017a29386fc39d6e7dec61c3599c166abed3aab10875e129d",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\trace.npz",
+    "bytes": 39093000,
+    "actual": "sha256:a370b2219b162d89a314552d58434eda49da5dc52f294862c2cd91ee8a0611cb",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\progress_governor.json",
+    "bytes": 286100,
+    "actual": "sha256:faead89b87cf0e2c4b0d5e3183a423bb8a61b5d11af7117211980f0fdc0c3b34",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\control_states.json",
+    "bytes": 23335685,
+    "actual": "sha256:c61268cf47970f1a6689412550eea16471eec5a4b193d068bea36c9dcb20e1eb",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\packets.jsonl.gz",
+    "bytes": 6442433,
+    "actual": "sha256:720a305eee87863f5ce3e4bb7a90449e9b6ef7843bf9a5de4c0438d35e54572b",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\events.json",
+    "bytes": 1351,
+    "actual": "sha256:91a4d50bceb1ce6de7c560a85dbd9c77a8f216bbb168aed638c36d3b61580a5a",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\estimator_events.json",
+    "bytes": 10026838,
+    "actual": "sha256:866fc8cfc25094f8ea25b4f0d020a6cf6e6d96d477052667fda1d8038037eff5",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\posteriors.json",
+    "bytes": 10829776,
+    "actual": "sha256:63331ab822ecb1f0c040af6431d5fd319972338941f8cdbc8aa262701cbf1d06",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\governor.json",
+    "bytes": 534850,
+    "actual": "sha256:4d877dc9854128e163b3a661ee73b90be05508f4c06ade2495d1f6515750c00b",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\tasks.json",
+    "bytes": 215924,
+    "actual": "sha256:573b934b7d74b4e79b966805cdcb5657eb216f3f7c7593e68dcb4d5434789db1",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\identification.json",
+    "bytes": 48779,
+    "actual": "sha256:9fa90fe884b37901f85ea1bf4fc7623004259b3e63bc934894c80564714f3af2",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\R04_V2_H1\\validation_timestamp_audited.json",
+    "bytes": 24408,
+    "actual": "sha256:21d9fa66ff04fcd8c370e8f52032ad34576ab6d99a7484993059ec64ac627028",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\runs\\D03_V1_S01\\validation.json",
+    "bytes": 23999,
+    "actual": "sha256:1b74cef171cfc9d1f979a59cdd3a97224c52335fc3708400a0ae179aa5129dbe",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\diagnostics\\D05_final_nominal\\snapshots.json",
+    "bytes": 922464,
+    "actual": "sha256:ebc3d238246053d9df9f7de0f3f1329774fe7dafa92d79a6c891fc1ca6465217",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\diagnostics\\H2_prior\\snapshots.json",
+    "bytes": 913470,
+    "actual": "sha256:3c33b67ab4048980edfb4942f974c5ba43a427236488028fcbb5ab57727433df",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\diagnostics\\S01_noise_delay\\snapshots.json",
+    "bytes": 928273,
+    "actual": "sha256:a5ab57791c66bf34d3503e07d057a74f85a90092a6a33c5db5fcdc1a076924d4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\diagnostics\\S01_noise_delay\\new_estimator_redecision.json",
+    "bytes": 3511468,
+    "actual": "sha256:26ceedf68cb8bc856f62949ece80151bbe41b3a4317fcf0c29d08f386e62b9d7",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\S01_noise_delay\\trace.npz",
+    "bytes": 10472674,
+    "actual": "sha256:7da2998b1560e89aa155a19777e053b16128a10aa0f2b3523ba9636ea8f9238c",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\S01_noise_delay\\posteriors.json",
+    "bytes": 1996623,
+    "actual": "sha256:ec5de4e49fc1b0d5be8de852ddc69ab89a21bd65e1516d9e1c2704732ce489be",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\S01_noise_delay\\governor.json",
+    "bytes": 3,
+    "actual": "sha256:37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\S01_noise_delay\\config.json",
+    "bytes": 21904,
+    "actual": "sha256:8ca9f236f62e56c239dae504c975c17a36ca703de5210f49fae1e23a3422f498",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\S01_noise_delay\\identification.json",
+    "bytes": 36280,
+    "actual": "sha256:cb7eafcfd252d70d66721bc9069e39cc7580cfa27a9139333c657042dcd8dbac",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\S01_noise_delay\\regression_blocks.npz",
+    "bytes": 34382,
+    "actual": "sha256:7e67449abe48bd1ba0896ed00e53e4fb896bdc920fc793772eb353fc715b1186",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_prior\\trace.npz",
+    "bytes": 39091990,
+    "actual": "sha256:1138e7da0176a9b6f55e73f371f4747e86def3e02f4ca9bba30e456b30939f59",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_prior\\posteriors.json",
+    "bytes": 10442785,
+    "actual": "sha256:4c88a2e195545b981787841fdf8cd75210b9aa384e0220d424735ff7baa6725a",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_prior\\governor.json",
+    "bytes": 508815,
+    "actual": "sha256:1547aa75332b1ee55b237e4ce2f0564adbfd2c6dba035a5f04441ddc10fd025d",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_prior\\config.json",
+    "bytes": 21972,
+    "actual": "sha256:f73b57dd80f776b55ea49a8295560f43be6d5d69d22ac6f89974591ec74dd325",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_prior\\identification.json",
+    "bytes": 123376,
+    "actual": "sha256:86cbd0f6cdd48a33e53c97ad0677f673b2e29b0d14f1e12096c1276431f818f5",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_prior\\regression_blocks.npz",
+    "bytes": 110705,
+    "actual": "sha256:50004f00de956fe2569c47bf4dcb8b9338a02887e1250b17c6b9174d06592e70",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_identified\\trace.npz",
+    "bytes": 39091993,
+    "actual": "sha256:3f48d497d2d7d1b5cae212831b7b4e8b5043b4a5f350f04c2a68c5e6b5f69aae",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_identified\\posteriors.json",
+    "bytes": 10442785,
+    "actual": "sha256:4c88a2e195545b981787841fdf8cd75210b9aa384e0220d424735ff7baa6725a",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_identified\\governor.json",
+    "bytes": 677543,
+    "actual": "sha256:0aa032935a6402641c9a4fe92dcdfd2adc95d72fea39d90fbb08a0c65b64a019",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_identified\\config.json",
+    "bytes": 21976,
+    "actual": "sha256:ab721c949e5b1a2266d8df321325c72d45e9a0a337d1843ac8d50b28b49cbf0d",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_identified\\identification.json",
+    "bytes": 123376,
+    "actual": "sha256:86cbd0f6cdd48a33e53c97ad0677f673b2e29b0d14f1e12096c1276431f818f5",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H1_identified\\regression_blocks.npz",
+    "bytes": 110705,
+    "actual": "sha256:50004f00de956fe2569c47bf4dcb8b9338a02887e1250b17c6b9174d06592e70",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_prior\\trace.npz",
+    "bytes": 38579002,
+    "actual": "sha256:894d4ee746791b92174ea70c65e9fc82cebd94381a90d1982b02768f2a0ae0d5",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_prior\\posteriors.json",
+    "bytes": 10341089,
+    "actual": "sha256:54140e38c7c8145723657cb8623be53882ccfb036a71a6db08f2832299094a85",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_prior\\governor.json",
+    "bytes": 508622,
+    "actual": "sha256:4043249f5ee99a874d497bb18998c20e4c2c7c051a33b3ddeca14069e3688d25",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_prior\\config.json",
+    "bytes": 21822,
+    "actual": "sha256:809b7e404f6c79935ddea2f4629a2610adf225691c2ef5b5d107757b32f72620",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_prior\\identification.json",
+    "bytes": 123506,
+    "actual": "sha256:6e84cc16bfccdf8a1872b8757b536053dfa74e5b45b1759f3549d3c8a37c0cec",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_prior\\regression_blocks.npz",
+    "bytes": 110393,
+    "actual": "sha256:ca076f5e42f4360c4b673ffebaa4c2172c2557a1558fe8fc3977930b3330dfc2",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_identified\\trace.npz",
+    "bytes": 38579005,
+    "actual": "sha256:c49ad84e9b498d5b136c7b4f49056f3c14c47ba4849e78a2cbc94e1482f351c3",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_identified\\posteriors.json",
+    "bytes": 10341089,
+    "actual": "sha256:54140e38c7c8145723657cb8623be53882ccfb036a71a6db08f2832299094a85",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_identified\\governor.json",
+    "bytes": 670194,
+    "actual": "sha256:28dc43f1585a1987e45e38ed55e5e8400c5c6f33cb40dfaab09e0c6f247258f8",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_identified\\config.json",
+    "bytes": 21826,
+    "actual": "sha256:b4586250dc44cc2fa83748611a2dae13018d3742536700700fada7d0ab4a27de",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_identified\\identification.json",
+    "bytes": 123506,
+    "actual": "sha256:6e84cc16bfccdf8a1872b8757b536053dfa74e5b45b1759f3549d3c8a37c0cec",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n208_adaptive_capture\\runs\\H3_identified\\regression_blocks.npz",
+    "bytes": 110393,
+    "actual": "sha256:ca076f5e42f4360c4b673ffebaa4c2172c2557a1558fe8fc3977930b3330dfc2",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\uncertainty_floor.json",
+    "bytes": 2434,
+    "actual": "sha256:8c29d334afc394b32b646f65201ea30a6a34b567c36467b76a23fb8c286634e3",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\run_ledger.json",
+    "bytes": 8570,
+    "actual": "sha256:e9b0f81b3f41f472e7a501a8ad27df0a2d80f3181d34651f71f66943304ce099",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\tests_1791536217331844300.json",
+    "bytes": 34913,
+    "actual": "sha256:1e76bb58349551b7c7ab15c655203fbf22084de95e35c3c829e520874d574da4",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\figures\\f1_historical_constraint_failure.png",
+    "bytes": 93902,
+    "actual": "sha256:6d520c3d0845eb647ef5b8f3cef36d1af9b7d8b2a54dcb72a36c6630bef9554a",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\figures\\f2_same_packet_estimation.png",
+    "bytes": 527359,
+    "actual": "sha256:89596d7290593c42b06ce421374c347904c196f77a34ef3651969537d2fd242c",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\figures\\f3_nominal_continuous_task.png",
+    "bytes": 191021,
+    "actual": "sha256:66fb4712e6b2a836b1c27fb5ed405760f76a58717868d70444ba7b937624a75e",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\figures\\f4_all_attempt_outcomes.png",
+    "bytes": 242380,
+    "actual": "sha256:186bf04d9593af9350555e09d2e724014433e1b82262df8dee9017b67671c4fa",
+    "match": true
+  },
+  {
+    "path": "C:\\Users\\admin\\.codex\\worktrees\\n209-feasible-capture\\\u529b\u4f4d\u5f62\u6df7\u5408\u63a7\u5236\\output\\fpmfc\\n209_paper_system\\figures\\f5_historical_identification.png",
+    "bytes": 84140,
+    "actual": "sha256:28d3488f17f2617fbe284ce88388957e899e6814b37aa41b00fd3a8243f5bf87",
+    "match": true
+  }
+]

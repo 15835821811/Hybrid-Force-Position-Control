@@ -1,0 +1,25 @@
+{
+  "status": "PLANNED_NOT_MATERIALIZED",
+  "protocol": "paper/system_paper/experiment_protocol.md",
+  "protocol_sha256": "f36a34d694d7ad06923612bb89c21199de7d6579243b015ee2d4102371360dcb",
+  "random_algorithm": "NumPy PCG64",
+  "physical_seed": 2091009,
+  "sensor_seeds": [
+    209201,
+    209202,
+    209203
+  ],
+  "clusters": 6,
+  "paired_runs": 36,
+  "B2_preselected_clusters": [
+    3,
+    6
+  ],
+  "fine_preselected_clusters": [
+    1,
+    4
+  ],
+  "mass_distribution": "positive uniform rotated box inside target cube; explicit support and triangle checks",
+  "generator_execution": "NOT_IMPLEMENTED_OR_RUN_BECAUSE_ADMISSION_FAILED",
+  "no_hidden_scenario_values": true
+}

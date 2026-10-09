@@ -1,0 +1,65 @@
+{
+  "historical_packets_sha": "83202683991ac0f1a99727aa52fa104e4d111286819e4cbb95763386bd316ff9",
+  "historical_trace_sha": "7da2998b1560e89aa155a19777e053b16128a10aa0f2b3523ba9636ea8f9238c",
+  "implementation_sha": {
+    "v6_mujoco/feasible_capture/estimator_adapter.py": "faa0619fa6474212409a6c8ce8f1166a82d890813fe958c11493f9924b9cd027",
+    "v6_mujoco/feasible_capture/supporting_audit.py": "dd45ab713521806dca965730701788b31da9bc3cb53bc548ee17540782b9aca2",
+    "configs/n209_paper_system.yaml": "08fcf9d0192b6494378c2c5addd4cb419e55bcf3e0b8df1646407b15d2de2249"
+  },
+  "scope": "same historical packets, changed estimator only; not a new trajectory or closed-loop success",
+  "window_s": [
+    1,
+    7
+  ],
+  "B0_rms_components": [
+    3.6939887148691524e-05,
+    3.70750892908875e-05,
+    3.5538952072789344e-05,
+    0.0001463488740523662,
+    0.00015464857399808332,
+    0.00015399548178699233,
+    0.002170262359072463,
+    0.0021661456594611276,
+    0.002075244415352518,
+    0.008777647393479554,
+    0.009254209672920979,
+    0.009239217770357546
+  ],
+  "new_rms_components": [
+    8.67522767890486e-06,
+    8.833753307349045e-06,
+    8.124498815443983e-06,
+    3.7043431326090713e-05,
+    3.956688531720242e-05,
+    3.829302022903009e-05,
+    0.00022671025016534385,
+    0.00022754394951209246,
+    0.0002176123466245102,
+    0.0012216585952662703,
+    0.0013085332094291222,
+    0.0012528480153747295
+  ],
+  "new_empirical_marginal_3sigma_coverage": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "innovation_samples": 1254,
+  "control_samples": 3759,
+  "NIS_mean": 5.042069031836054,
+  "new_linear_velocity_3sigma_median_m_s": 0.0016592538921161204,
+  "new_angular_velocity_3sigma_median_rad_s": 0.010009711393101726,
+  "diagnosis": "N208 .03/.2 acceleration density and current contact-mode replay propagate measurement changes into direct target/reference velocities; simultaneous hard conflict appears at7.54s. This is a mechanism hypothesis plus same-packet estimator evidence, not an isolated closed-loop causal effect.",
+  "timing_support": "Fixed delay causal stamp updates; within-batch sorting; older duplicate/out-of-order rejection;0.25s historical process modes",
+  "coverage_scope": "marginal empirical samples are temporally correlated; no calibrated joint probability",
+  "guard_reference_separated": true
+}

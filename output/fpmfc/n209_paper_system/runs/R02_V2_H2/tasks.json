@@ -1,0 +1,7034 @@
+[
+  {
+    "time": 0.04000000000000002,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.002188956412530529,
+    "rotation_error_rad": 0.0039026768378835437,
+    "drift": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.06000000000000004,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.002373916944342594,
+    "rotation_error_rad": 0.003069691004221632,
+    "drift": [
+      6.938543505925229e-16,
+      7.834510556052534e-15,
+      1.7135423828903489e-15,
+      -6.5270544734281286e-15,
+      -5.577351085907134e-16,
+      6.099581436529738e-15
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.08000000000000006,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.002793958452090864,
+    "rotation_error_rad": 0.0012604091271973138,
+    "drift": [
+      8.640259326529275e-16,
+      8.412642336877518e-15,
+      1.5630567553423025e-15,
+      -6.381870474251165e-15,
+      -4.927276632503317e-16,
+      6.093291843228839e-15
+    ],
+    "minimum_slack": -0.00010000000000000002
+  },
+  {
+    "time": 0.10000000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0031288747150152447,
+    "rotation_error_rad": 0.00013196060807195363,
+    "drift": [
+      8.64511801700381e-15,
+      1.4241658700597388e-14,
+      -9.324349544727441e-15,
+      -7.99500809561263e-15,
+      1.3885342546867293e-14,
+      1.3055981360364526e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.12000000000000009,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0029230612557654564,
+    "rotation_error_rad": 0.00012363481796130366,
+    "drift": [
+      4.262088437403393e-14,
+      1.70028181594561e-14,
+      -6.220433264123022e-14,
+      -1.8718605174410294e-15,
+      8.240967401879866e-14,
+      1.896926056868744e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.1400000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0023463342976980973,
+    "rotation_error_rad": 6.803431785729312e-05,
+    "drift": [
+      4.314105831328954e-14,
+      1.5544887620974237e-14,
+      -6.460891624315978e-14,
+      1.7186124011417165e-15,
+      8.596493764539897e-14,
+      1.5544878798283263e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.16000000000000011,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.001700003836014329,
+    "rotation_error_rad": 1.626808721826207e-05,
+    "drift": [
+      4.706504096803534e-14,
+      2.6117028480619904e-14,
+      -6.929160747523078e-14,
+      -7.027380252294148e-16,
+      9.488928044402694e-14,
+      1.774822995181036e-14
+    ],
+    "minimum_slack": -0.00010000000000000026
+  },
+  {
+    "time": 0.18000000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0010733912694944972,
+    "rotation_error_rad": 2.8507791983683143e-05,
+    "drift": [
+      3.973282169846265e-14,
+      3.7173675789937387e-14,
+      -5.679693905099641e-14,
+      -3.887839077294511e-15,
+      7.977665064497276e-14,
+      1.873191165753837e-14
+    ],
+    "minimum_slack": -9.99999999999994e-05
+  },
+  {
+    "time": 0.20000000000000015,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0005060638800193331,
+    "rotation_error_rad": 3.1844996468941136e-05,
+    "drift": [
+      3.9855373216985e-14,
+      3.964921037089899e-14,
+      -5.660462896714858e-14,
+      -3.891944026257813e-15,
+      7.961388057810216e-14,
+      1.9168114685920187e-14
+    ],
+    "minimum_slack": -9.999999999998899e-05
+  },
+  {
+    "time": 0.22000000000000017,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002070050146842172,
+    "rotation_error_rad": 3.572371381106813e-05,
+    "drift": [
+      3.989635692079266e-14,
+      3.9038505575930813e-14,
+      -5.673081723750634e-14,
+      -4.881312595671551e-15,
+      7.980513344079107e-14,
+      1.975411716940237e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.24000000000000019,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00039621671280696977,
+    "rotation_error_rad": 3.7575184080695706e-05,
+    "drift": [
+      4.222336843571448e-14,
+      4.0373039040037775e-14,
+      -5.936748870707157e-14,
+      -9.188089963754722e-15,
+      8.341267906440177e-14,
+      2.298682427415629e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.2600000000000002,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003947834593750113,
+    "rotation_error_rad": 3.551427946949979e-05,
+    "drift": [
+      3.852089467842759e-14,
+      4.5965323567153506e-14,
+      -5.308100286604828e-14,
+      -1.492115814023804e-14,
+      7.452458020015634e-14,
+      2.8122936795904347e-14
+    ],
+    "minimum_slack": -9.99999999999994e-05
+  },
+  {
+    "time": 0.2800000000000002,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00016274887061461254,
+    "rotation_error_rad": 3.174766799373226e-05,
+    "drift": [
+      3.817544174329568e-14,
+      4.379786528914219e-14,
+      -5.2907723371687364e-14,
+      -1.346194227256171e-14,
+      7.377598245866848e-14,
+      2.6102729726182244e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.3000000000000002,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00017139633885956626,
+    "rotation_error_rad": 2.954851676101217e-05,
+    "drift": [
+      4.001006557320799e-14,
+      3.965855426332492e-14,
+      -5.661096098030084e-14,
+      -1.0263859625055576e-14,
+      7.81716229732697e-14,
+      2.2356399987970058e-14
+    ],
+    "minimum_slack": -9.99999999999994e-05
+  },
+  {
+    "time": 0.32000000000000023,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000430726383029372,
+    "rotation_error_rad": 2.9111308294888875e-05,
+    "drift": [
+      4.5609981249398266e-14,
+      4.178243653739096e-14,
+      -6.524984842703144e-14,
+      -1.0570974173357716e-14,
+      8.962696144508037e-14,
+      2.4532667007298245e-14
+    ],
+    "minimum_slack": -9.99999999999994e-05
+  },
+  {
+    "time": 0.34000000000000025,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0004935591275811001,
+    "rotation_error_rad": 2.8876535730966722e-05,
+    "drift": [
+      5.5499596137706804e-14,
+      5.48482120184524e-14,
+      -7.838984909156155e-14,
+      -1.7541973814790415e-14,
+      1.0878432503475683e-13,
+      3.7236149338214016e-14
+    ],
+    "minimum_slack": -9.999999999998899e-05
+  },
+  {
+    "time": 0.36000000000000026,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00037345884768292837,
+    "rotation_error_rad": 2.7515751612273755e-05,
+    "drift": [
+      5.753644119155569e-14,
+      5.515933726122705e-14,
+      -8.182282691271562e-14,
+      -1.736261165597973e-14,
+      1.135157420373898e-13,
+      3.7874955157052126e-14
+    ],
+    "minimum_slack": -9.999999999998899e-05
+  },
+  {
+    "time": 0.3800000000000003,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022782179162895365,
+    "rotation_error_rad": 2.7368642242105817e-05,
+    "drift": [
+      5.86065967041193e-14,
+      5.482465116102112e-14,
+      -8.245081255832104e-14,
+      -1.7014526541787944e-14,
+      1.1371700727623666e-13,
+      3.741212045845317e-14
+    ],
+    "minimum_slack": -9.999999999998899e-05
+  },
+  {
+    "time": 0.4000000000000003,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00013423752105791193,
+    "rotation_error_rad": 2.8540806270903043e-05,
+    "drift": [
+      5.995075731371152e-14,
+      5.4932101631293354e-14,
+      -8.394528135475852e-14,
+      -1.697678073948454e-14,
+      1.154553566419371e-13,
+      3.7541481221784686e-14
+    ],
+    "minimum_slack": -9.999999999998899e-05
+  },
+  {
+    "time": 0.4200000000000003,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 8.297105943811712e-05,
+    "rotation_error_rad": 3.127825221451636e-05,
+    "drift": [
+      6.42550701146489e-14,
+      5.114411033156936e-14,
+      -9.148536537769064e-14,
+      -1.3668498652006916e-14,
+      1.252434296510619e-13,
+      3.4631451990038823e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.44000000000000034,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 5.419343307323295e-05,
+    "rotation_error_rad": 3.884563524409563e-05,
+    "drift": [
+      7.46939785566733e-14,
+      4.123564594421113e-14,
+      -1.0965312190200171e-13,
+      -5.443484691772276e-15,
+      1.4860677572576985e-13,
+      2.6795085207635932e-14
+    ],
+    "minimum_slack": -9.99999999999994e-05
+  },
+  {
+    "time": 0.46000000000000035,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 3.790877137605808e-05,
+    "rotation_error_rad": 4.9414164859950566e-05,
+    "drift": [
+      8.428021414798081e-14,
+      3.299022061833947e-14,
+      -1.2588699468020303e-13,
+      1.1756513343160748e-15,
+      1.6939989878470427e-13,
+      2.0260560978670647e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.48000000000000037,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.897667831556182e-05,
+    "rotation_error_rad": 5.684957263099966e-05,
+    "drift": [
+      9.367272880906701e-14,
+      2.5940144988439518e-14,
+      -1.4125734669446317e-13,
+      6.622666417196805e-15,
+      1.8902630179969135e-13,
+      1.4683525439408184e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.5000000000000003,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.3925998081730018e-05,
+    "rotation_error_rad": 5.81190331573205e-05,
+    "drift": [
+      9.651961230237347e-14,
+      2.4133412829005338e-14,
+      -1.4566046913387214e-13,
+      7.913727636659069e-15,
+      1.9450614274050842e-13,
+      1.3382731314020555e-14
+    ],
+    "minimum_slack": -9.999999999998899e-05
+  },
+  {
+    "time": 0.5200000000000004,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.100698214799663e-05,
+    "rotation_error_rad": 5.569527508943703e-05,
+    "drift": [
+      9.687144231986933e-14,
+      2.4022004652398095e-14,
+      -1.4607433233860882e-13,
+      7.934835514347322e-15,
+      1.9489527834840946e-13,
+      1.339987591032226e-14
+    ],
+    "minimum_slack": -0.00010000000000000286
+  },
+  {
+    "time": 0.5400000000000004,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 1.9775836996841596e-05,
+    "rotation_error_rad": 5.424465878674703e-05,
+    "drift": [
+      9.722716499872483e-14,
+      2.3506117352689453e-14,
+      -1.4674372095161573e-13,
+      8.317683717697812e-15,
+      1.9569066523588375e-13,
+      1.2971504906436161e-14
+    ],
+    "minimum_slack": 9.999999999996644e-05
+  },
+  {
+    "time": 0.5600000000000004,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 1.990155052615975e-05,
+    "rotation_error_rad": 5.6279933888425645e-05,
+    "drift": [
+      9.753325175078613e-14,
+      2.3037772731627455e-14,
+      -1.4731936405444674e-13,
+      8.652750921240304e-15,
+      1.9636099153987948e-13,
+      1.2580606141912902e-14
+    ],
+    "minimum_slack": 9.999999999997164e-05
+  },
+  {
+    "time": 0.5800000000000004,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.0626564895950345e-05,
+    "rotation_error_rad": 6.029750280947507e-05,
+    "drift": [
+      9.763936832408686e-14,
+      2.3007654898442552e-14,
+      -1.4743672894392898e-13,
+      8.65963828611061e-15,
+      1.9641220636163864e-13,
+      1.2611182727898312e-14
+    ],
+    "minimum_slack": 9.999999999999419e-05
+  },
+  {
+    "time": 0.6000000000000004,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.148154631275814e-05,
+    "rotation_error_rad": 6.372559965447383e-05,
+    "drift": [
+      9.775551746523554e-14,
+      2.299620102829052e-14,
+      -1.4755800240145661e-13,
+      8.648717398732574e-15,
+      1.9646812579020608e-13,
+      1.265548759995765e-14
+    ],
+    "minimum_slack": 9.999999999999246e-05
+  },
+  {
+    "time": 0.6200000000000004,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.2243658859297974e-05,
+    "rotation_error_rad": 6.60093506586049e-05,
+    "drift": [
+      9.78763011971146e-14,
+      2.299175997811213e-14,
+      -1.4767960801840131e-13,
+      8.651202995981106e-15,
+      1.9651962521047217e-13,
+      1.2717491462840252e-14
+    ],
+    "minimum_slack": 9.999999999999419e-05
+  },
+  {
+    "time": 0.6400000000000005,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.290693444970049e-05,
+    "rotation_error_rad": 6.764350808713109e-05,
+    "drift": [
+      9.800293520469288e-14,
+      2.297865056510597e-14,
+      -1.478064234161647e-13,
+      8.644632608173563e-15,
+      1.965762638314716e-13,
+      1.2758988443103549e-14
+    ],
+    "minimum_slack": 9.999999999998031e-05
+  },
+  {
+    "time": 0.6600000000000005,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.3497653322509585e-05,
+    "rotation_error_rad": 6.906753340413482e-05,
+    "drift": [
+      9.813855414453028e-14,
+      2.2972024858149462e-14,
+      -1.4793882462490876e-13,
+      8.639363457792741e-15,
+      1.9663629205609267e-13,
+      1.2809946254547844e-14
+    ],
+    "minimum_slack": 9.999999999999072e-05
+  },
+  {
+    "time": 0.6800000000000005,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4033768986806813e-05,
+    "rotation_error_rad": 7.044812482923418e-05,
+    "drift": [
+      9.828246297530262e-14,
+      2.2968527552236194e-14,
+      -1.4807619013892454e-13,
+      8.630225716359934e-15,
+      1.9669884517327271e-13,
+      1.2861709156370405e-14
+    ],
+    "minimum_slack": 9.999999999998205e-05
+  },
+  {
+    "time": 0.7000000000000005,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.45243086231046e-05,
+    "rotation_error_rad": 7.179415974208677e-05,
+    "drift": [
+      9.843791456370323e-14,
+      2.2969047820603876e-14,
+      -1.4822228059269204e-13,
+      8.617238507426937e-15,
+      1.9676912427698094e-13,
+      1.2915180208912738e-14
+    ],
+    "minimum_slack": 9.999999999998031e-05
+  },
+  {
+    "time": 0.7200000000000005,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4973523156980518e-05,
+    "rotation_error_rad": 7.307548595195037e-05,
+    "drift": [
+      9.860466320369197e-14,
+      2.2997496939540393e-14,
+      -1.4837156681477822e-13,
+      8.583013271518093e-15,
+      1.9684148255721398e-13,
+      1.2993766747739606e-14
+    ],
+    "minimum_slack": 9.999999999996817e-05
+  },
+  {
+    "time": 0.7400000000000005,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.538222208043792e-05,
+    "rotation_error_rad": 7.4272381305026e-05,
+    "drift": [
+      9.877549834382165e-14,
+      2.2972743969345143e-14,
+      -1.4853001610759916e-13,
+      8.604909240365428e-15,
+      1.9691200406574724e-13,
+      1.303392991802558e-14
+    ],
+    "minimum_slack": 9.999999999999419e-05
+  },
+  {
+    "time": 0.7600000000000006,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.57515359339633e-05,
+    "rotation_error_rad": 7.537777543257795e-05,
+    "drift": [
+      9.896550604058303e-14,
+      2.299991636960348e-14,
+      -1.4869861061555351e-13,
+      8.586484436248693e-15,
+      1.9699781772055916e-13,
+      1.3118324233766903e-14
+    ],
+    "minimum_slack": 9.999999999998899e-05
+  },
+  {
+    "time": 0.7800000000000006,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6083532808262026e-05,
+    "rotation_error_rad": 7.639004277739205e-05,
+    "drift": [
+      9.91573015055233e-14,
+      2.2987290910250206e-14,
+      -1.4887046715223746e-13,
+      8.586071393951455e-15,
+      1.9707966716591534e-13,
+      1.3156462862243792e-14
+    ],
+    "minimum_slack": 9.999999999997511e-05
+  },
+  {
+    "time": 0.8000000000000006,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6378643145953344e-05,
+    "rotation_error_rad": 7.730941215616807e-05,
+    "drift": [
+      9.936954140085853e-14,
+      2.3015266215621762e-14,
+      -1.4905511701168023e-13,
+      8.559259746017684e-15,
+      1.9717700853830809e-13,
+      1.3234595185970331e-14
+    ],
+    "minimum_slack": 9.999999999999419e-05
+  },
+  {
+    "time": 0.8200000000000006,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6636969749384568e-05,
+    "rotation_error_rad": 7.813526908352827e-05,
+    "drift": [
+      9.958292917470237e-14,
+      2.30162226154722e-14,
+      -1.49239186290059e-13,
+      8.561701041019185e-15,
+      1.9726318562558415e-13,
+      1.329127300944139e-14
+    ],
+    "minimum_slack": 9.999999999998031e-05
+  },
+  {
+    "time": 0.8400000000000006,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6858586415882632e-05,
+    "rotation_error_rad": 7.886610138296234e-05,
+    "drift": [
+      9.981980186258801e-14,
+      2.303580783321283e-14,
+      -1.4944449586519257e-13,
+      8.556047889371939e-15,
+      1.9737395043945248e-13,
+      1.3369856794963541e-14
+    ],
+    "minimum_slack": 9.999999999997337e-05
+  },
+  {
+    "time": 0.8600000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.7043605669281315e-05,
+    "rotation_error_rad": 7.950006951110895e-05,
+    "drift": [
+      1.0005802809693421e-13,
+      2.304200454507921e-14,
+      -1.4964652920271348e-13,
+      8.551060260339597e-15,
+      1.974738008137436e-13,
+      1.3426107452769594e-14
+    ],
+    "minimum_slack": 9.999999999995776e-05
+  },
+  {
+    "time": 0.8800000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.7192209504916362e-05,
+    "rotation_error_rad": 8.003535297215972e-05,
+    "drift": [
+      1.0030700163159473e-13,
+      2.3043028521435935e-14,
+      -1.498567522776633e-13,
+      8.55712889878983e-15,
+      1.9757700011937484e-13,
+      1.348005435687674e-14
+    ],
+    "minimum_slack": 9.999999999998725e-05
+  },
+  {
+    "time": 0.9000000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.7304676289793276e-05,
+    "rotation_error_rad": 8.047022884236328e-05,
+    "drift": [
+      1.0057247497473393e-13,
+      2.305397164683021e-14,
+      -1.5007948363050184e-13,
+      8.560362910385049e-15,
+      1.9769155425699707e-13,
+      1.3547321536057291e-14
+    ],
+    "minimum_slack": 9.999999999998725e-05
+  },
+  {
+    "time": 0.9200000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.738140728587952e-05,
+    "rotation_error_rad": 8.080304224317275e-05,
+    "drift": [
+      1.0084729358154077e-13,
+      2.3071035814140675e-14,
+      -1.5030621743801555e-13,
+      8.555591157900703e-15,
+      1.9780621847801677e-13,
+      1.3614891342434028e-14
+    ],
+    "minimum_slack": 9.999999999998378e-05
+  },
+  {
+    "time": 0.9400000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.7422953153967042e-05,
+    "rotation_error_rad": 8.103217226415561e-05,
+    "drift": [
+      1.0114129999531256e-13,
+      2.3113037914655115e-14,
+      -1.5054663139779903e-13,
+      8.537584096141319e-15,
+      1.979356844071387e-13,
+      1.3707100569024568e-14
+    ],
+    "minimum_slack": 9.999999999996297e-05
+  },
+  {
+    "time": 0.9600000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.7430041271579585e-05,
+    "rotation_error_rad": 8.115601970063672e-05,
+    "drift": [
+      1.0144186497235611e-13,
+      2.3129493082547224e-14,
+      -1.5079312379722688e-13,
+      8.532500767796267e-15,
+      1.9806507923089435e-13,
+      1.3769370145314744e-14
+    ],
+    "minimum_slack": 9.99999999999647e-05
+  },
+  {
+    "time": 0.9800000000000008,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.740360484023692e-05,
+    "rotation_error_rad": 8.117300919620902e-05,
+    "drift": [
+      1.0176163823694655e-13,
+      2.3170425007358668e-14,
+      -1.5105381604445398e-13,
+      8.521145775900893e-15,
+      1.9820848559729285e-13,
+      1.3858962741737148e-14
+    ],
+    "minimum_slack": 9.999999999996644e-05
+  },
+  {
+    "time": 1.0000000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.7344814699185343e-05,
+    "rotation_error_rad": 8.10815953854992e-05,
+    "drift": [
+      1.0208127999678973e-13,
+      2.318177122831338e-14,
+      -1.5131050590859251e-13,
+      8.527923288401269e-15,
+      1.9833772120043703e-13,
+      1.3917777895562754e-14
+    ],
+    "minimum_slack": 9.999999999997511e-05
+  },
+  {
+    "time": 1.0200000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.725511461349603e-05,
+    "rotation_error_rad": 8.088026827714246e-05,
+    "drift": [
+      1.0242651674609361e-13,
+      2.322832244873638e-14,
+      -1.5158924377004414e-13,
+      8.519776347462337e-15,
+      1.984923149891124e-13,
+      1.4016131696188496e-14
+    ],
+    "minimum_slack": 9.999999999998725e-05
+  },
+  {
+    "time": 1.0400000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.7136260709757936e-05,
+    "rotation_error_rad": 8.056755736404935e-05,
+    "drift": [
+      1.0277580412463716e-13,
+      2.326818809654998e-14,
+      -1.5186565720745687e-13,
+      8.482975208969692e-15,
+      1.986420655905032e-13,
+      1.4082794813487985e-14
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 1.0600000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6990365581128772e-05,
+    "rotation_error_rad": 8.014203495815225e-05,
+    "drift": [
+      1.0313757643531556e-13,
+      2.3292943809245845e-14,
+      -1.5215544019301053e-13,
+      8.512814665869615e-15,
+      1.9879437478232986e-13,
+      1.4170126098872663e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 1.0800000000000007,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.681994746589455e-05,
+    "rotation_error_rad": 7.960231932454405e-05,
+    "drift": [
+      1.0350865878527649e-13,
+      2.3324378902362505e-14,
+      -1.5244777431404803e-13,
+      8.510521938600598e-15,
+      1.989486726842617e-13,
+      1.4244046980996364e-14
+    ],
+    "minimum_slack": 9.999999999993694e-05
+  },
+  {
+    "time": 1.1000000000000008,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6627984688612358e-05,
+    "rotation_error_rad": 7.894707776405103e-05,
+    "drift": [
+      1.0389331573053728e-13,
+      2.3349485788392578e-14,
+      -1.5275187683772403e-13,
+      8.517736401437811e-15,
+      1.991120882883921e-13,
+      1.4314271544657658e-14
+    ],
+    "minimum_slack": 9.999999999997511e-05
+  },
+  {
+    "time": 1.1200000000000008,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6417975222910962e-05,
+    "rotation_error_rad": 7.817502963614566e-05,
+    "drift": [
+      1.0428668546475589e-13,
+      2.3382043454831767e-14,
+      -1.5305944673730264e-13,
+      8.51535101450356e-15,
+      1.9927540681123276e-13,
+      1.438593974642229e-14
+    ],
+    "minimum_slack": 9.999999999995082e-05
+  },
+  {
+    "time": 1.1400000000000008,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.619400074855044e-05,
+    "rotation_error_rad": 7.728494933046648e-05,
+    "drift": [
+      1.0469372677820183e-13,
+      2.3422597891558988e-14,
+      -1.5337667803897973e-13,
+      8.513784313657011e-15,
+      1.9944624070000472e-13,
+      1.44678149154916e-14
+    ],
+    "minimum_slack": 9.999999999997164e-05
+  },
+  {
+    "time": 1.1600000000000008,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.5960793833641832e-05,
+    "rotation_error_rad": 7.627566913218889e-05,
+    "drift": [
+      1.0511766306847993e-13,
+      2.3475360428011e-14,
+      -1.5370749649822782e-13,
+      8.518255391885044e-15,
+      1.9963008262823148e-13,
+      1.4566040545003266e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 1.1800000000000008,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.572380589605589e-05,
+    "rotation_error_rad": 7.514608214151795e-05,
+    "drift": [
+      1.0554120115235902e-13,
+      2.3488027590701732e-14,
+      -1.5403732394604464e-13,
+      8.539275499603369e-15,
+      1.9980401503073135e-13,
+      1.4623312383555104e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 1.2000000000000008,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.5489272166869496e-05,
+    "rotation_error_rad": 7.38951452250426e-05,
+    "drift": [
+      1.0597741311767545e-13,
+      2.3530933334773504e-14,
+      -1.5437242937765623e-13,
+      8.533365797183122e-15,
+      1.999835606537337e-13,
+      1.4700325215322457e-14
+    ],
+    "minimum_slack": 9.99999999999595e-05
+  },
+  {
+    "time": 1.2200000000000009,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.5264268153103164e-05,
+    "rotation_error_rad": 7.25218819744815e-05,
+    "drift": [
+      1.0642687083652242e-13,
+      2.356083950425775e-14,
+      -1.547209664963434e-13,
+      8.559586052207549e-15,
+      2.0017276143474599e-13,
+      1.4779081835656118e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 1.2400000000000009,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.5063079149770695e-05,
+    "rotation_error_rad": 7.102463510740631e-05,
+    "drift": [
+      1.0688546674578935e-13,
+      2.360356402781228e-14,
+      -1.5507652915946117e-13,
+      8.578023845177183e-15,
+      2.0036981738486407e-13,
+      1.4867295233396157e-14
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 1.260000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4893507433393722e-05,
+    "rotation_error_rad": 6.940297457072079e-05,
+    "drift": [
+      1.0735913665038756e-13,
+      2.3661102440857574e-14,
+      -1.5544126992994438e-13,
+      8.56616809120793e-15,
+      2.005745732417738e-13,
+      1.4955389267651244e-14
+    ],
+    "minimum_slack": 9.999999999995776e-05
+  },
+  {
+    "time": 1.280000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4757423376306e-05,
+    "rotation_error_rad": 6.765713966155366e-05,
+    "drift": [
+      1.0783414773241215e-13,
+      2.3684048619331327e-14,
+      -1.5580519509496137e-13,
+      8.586497448361997e-15,
+      2.0077157814989053e-13,
+      1.5015708564771225e-14
+    ],
+    "minimum_slack": 9.999999999994909e-05
+  },
+  {
+    "time": 1.300000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.46650326244817e-05,
+    "rotation_error_rad": 6.578624585767939e-05,
+    "drift": [
+      1.0832308025379786e-13,
+      2.3722971359146e-14,
+      -1.5618116939942957e-13,
+      8.585234874687119e-15,
+      2.0098218329234527e-13,
+      1.5082961842340598e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 1.320000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4628346642200477e-05,
+    "rotation_error_rad": 6.378939239253971e-05,
+    "drift": [
+      1.08821459956488e-13,
+      2.3775100972551742e-14,
+      -1.5656088385467466e-13,
+      8.59352828999505e-15,
+      2.0119480967529877e-13,
+      1.5172797995613303e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 1.340000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4659646926719086e-05,
+    "rotation_error_rad": 6.166597065508972e-05,
+    "drift": [
+      1.0932222715072068e-13,
+      2.3791697269248936e-14,
+      -1.5694543144183945e-13,
+      8.63059074746959e-15,
+      2.01404644667121e-13,
+      1.523321201059164e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 1.360000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4771140598747492e-05,
+    "rotation_error_rad": 5.941560974019822e-05,
+    "drift": [
+      1.098291193254531e-13,
+      2.3816096750152058e-14,
+      -1.573316197100602e-13,
+      8.640894826073621e-15,
+      2.0161799357032672e-13,
+      1.5283200332732512e-14
+    ],
+    "minimum_slack": 9.999999999995776e-05
+  },
+  {
+    "time": 1.380000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.4985381654834125e-05,
+    "rotation_error_rad": 5.704068840262715e-05,
+    "drift": [
+      1.1034289730986939e-13,
+      2.3846882445170415e-14,
+      -1.5772668652720612e-13,
+      8.655653110759753e-15,
+      2.0184362980741463e-13,
+      1.5347232091835777e-14
+    ],
+    "minimum_slack": 9.999999999990225e-05
+  },
+  {
+    "time": 1.400000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.5310589882364305e-05,
+    "rotation_error_rad": 5.454023357340769e-05,
+    "drift": [
+      1.1086060602539833e-13,
+      2.3859482320964736e-14,
+      -1.581176684696938e-13,
+      8.6817729293695e-15,
+      2.0205437264603069e-13,
+      1.5390425442164584e-14
+    ],
+    "minimum_slack": 9.999999999997337e-05
+  },
+  {
+    "time": 1.420000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.574362455659632e-05,
+    "rotation_error_rad": 5.1910578790846965e-05,
+    "drift": [
+      1.11396269929571e-13,
+      2.3872585705995114e-14,
+      -1.5853019589249527e-13,
+      8.722838938666677e-15,
+      2.0228670401076532e-13,
+      1.5442614104481772e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 1.440000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6293604859970477e-05,
+    "rotation_error_rad": 4.915228066614017e-05,
+    "drift": [
+      1.1193048358913135e-13,
+      2.3886485153380332e-14,
+      -1.589336069418112e-13,
+      8.754429575862235e-15,
+      2.0250681267110215e-13,
+      1.5491311001528102e-14
+    ],
+    "minimum_slack": 9.999999999998899e-05
+  },
+  {
+    "time": 1.460000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.6970019600863512e-05,
+    "rotation_error_rad": 4.626708333312949e-05,
+    "drift": [
+      1.1246930253288807e-13,
+      2.3880960149834636e-14,
+      -1.593431378622407e-13,
+      8.800966549659755e-15,
+      2.0273141653811306e-13,
+      1.552113506543713e-14
+    ],
+    "minimum_slack": 9.999999999998552e-05
+  },
+  {
+    "time": 1.480000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.778020550822494e-05,
+    "rotation_error_rad": 4.325679108512658e-05,
+    "drift": [
+      1.1301535130900419e-13,
+      2.388415029536966e-14,
+      -1.597568209342612e-13,
+      8.858868647167134e-15,
+      2.029569077449695e-13,
+      1.5570226124875325e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 1.500000000000001,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.8729222330271593e-05,
+    "rotation_error_rad": 4.012340658199615e-05,
+    "drift": [
+      1.135699961931159e-13,
+      2.38851913312242e-14,
+      -1.601792413461892e-13,
+      8.903987830912786e-15,
+      2.031923921094825e-13,
+      1.5609141686144393e-14
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 1.5200000000000011,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 2.9820146055517536e-05,
+    "rotation_error_rad": 3.686971346141971e-05,
+    "drift": [
+      1.1411902963310214e-13,
+      2.3882614887711347e-14,
+      -1.6058883439262081e-13,
+      8.922334279914466e-15,
+      2.034119340863756e-13,
+      1.5620240253014383e-14
+    ],
+    "minimum_slack": 9.999999999994215e-05
+  },
+  {
+    "time": 1.5400000000000011,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 3.105438533427065e-05,
+    "rotation_error_rad": 3.35000193108085e-05,
+    "drift": [
+      1.146872278706359e-13,
+      2.3901920467109914e-14,
+      -1.6101673693795848e-13,
+      8.97290002827702e-15,
+      2.0364874091897792e-13,
+      1.5685583217140512e-14
+    ],
+    "minimum_slack": 9.99999999999647e-05
+  },
+  {
+    "time": 1.5600000000000012,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 3.2431988040872725e-05,
+    "rotation_error_rad": 3.0021231845198858e-05,
+    "drift": [
+      1.152488642592819e-13,
+      2.3878696665019443e-14,
+      -1.6143744595015395e-13,
+      9.028003582357798e-15,
+      2.0387189933183893e-13,
+      1.5695472839204074e-14
+    ],
+    "minimum_slack": 9.999999999990225e-05
+  },
+  {
+    "time": 1.5800000000000012,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 3.395853812515715e-05,
+    "rotation_error_rad": 2.6443843182169638e-05,
+    "drift": [
+      1.158076652309005e-13,
+      2.385014826886997e-14,
+      -1.618559838788923e-13,
+      9.080666041273192e-15,
+      2.0409331228421523e-13,
+      1.5696871616794313e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 1.6000000000000012,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 3.562893202548091e-05,
+    "rotation_error_rad": 2.278820484467819e-05,
+    "drift": [
+      1.1640400080460023e-13,
+      2.3854372351639014e-14,
+      -1.6230647935947172e-13,
+      9.144873505455887e-15,
+      2.0434661895996143e-13,
+      1.5749234037330887e-14
+    ],
+    "minimum_slack": 9.999999999992827e-05
+  },
+  {
+    "time": 1.6200000000000012,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 3.743921865106384e-05,
+    "rotation_error_rad": 1.9095169014293872e-05,
+    "drift": [
+      1.1698415265195712e-13,
+      2.3859707296347613e-14,
+      -1.6273475916203929e-13,
+      9.157968631792671e-15,
+      2.0457602514917716e-13,
+      1.5771924969955304e-14
+    ],
+    "minimum_slack": 9.999999999992654e-05
+  },
+  {
+    "time": 1.6400000000000012,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 3.938385224869974e-05,
+    "rotation_error_rad": 1.5439810921336115e-05,
+    "drift": [
+      1.1758158276266072e-13,
+      2.3835008096870285e-14,
+      -1.6317455821081862e-13,
+      9.23450626132481e-15,
+      2.0480026208819888e-13,
+      1.579494402978913e-14
+    ],
+    "minimum_slack": 9.999999999995256e-05
+  },
+  {
+    "time": 1.6600000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 4.145857903741231e-05,
+    "rotation_error_rad": 1.1991083552851518e-05,
+    "drift": [
+      1.1817520288296224e-13,
+      2.379360146218587e-14,
+      -1.6361270780214146e-13,
+      9.305199303393078e-15,
+      2.0502396788035425e-13,
+      1.5786960383972473e-14
+    ],
+    "minimum_slack": 9.999999999990225e-05
+  },
+  {
+    "time": 1.6800000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 4.3659127087461374e-05,
+    "rotation_error_rad": 9.18637577664109e-06,
+    "drift": [
+      1.1879351078638517e-13,
+      2.3774105042583477e-14,
+      -1.6405962662836806e-13,
+      9.356044137677481e-15,
+      2.052461192244477e-13,
+      1.5799979774312398e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 1.7000000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 4.59778324267073e-05,
+    "rotation_error_rad": 7.99523943196922e-06,
+    "drift": [
+      1.1941944645191435e-13,
+      2.3767145803652052e-14,
+      -1.6450531978775785e-13,
+      9.397414529987067e-15,
+      2.054598329444124e-13,
+      1.58235183190112e-14
+    ],
+    "minimum_slack": 9.999999999993694e-05
+  },
+  {
+    "time": 1.7200000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 4.841557550199703e-05,
+    "rotation_error_rad": 9.28029378236142e-06,
+    "drift": [
+      1.2005178152157429e-13,
+      2.3724954292690412e-14,
+      -1.6495705029398003e-13,
+      9.474527117680375e-15,
+      2.0567003945047607e-13,
+      1.582131028649081e-14
+    ],
+    "minimum_slack": 9.999999999990745e-05
+  },
+  {
+    "time": 1.7400000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 5.0973796250918154e-05,
+    "rotation_error_rad": 1.2443130831531138e-05,
+    "drift": [
+      1.2068332755869634e-13,
+      2.359154266807785e-14,
+      -1.6541014892273173e-13,
+      9.615164915575308e-15,
+      2.0586828066784855e-13,
+      1.5737752946512222e-14
+    ],
+    "minimum_slack": 9.99999999999196e-05
+  },
+  {
+    "time": 1.7600000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 5.365610944449646e-05,
+    "rotation_error_rad": 1.655762841622964e-05,
+    "drift": [
+      1.213294366736619e-13,
+      2.3562905246548928e-14,
+      -1.658592296530574e-13,
+      9.669849703771948e-15,
+      2.0606273735867863e-13,
+      1.5744397275745624e-14
+    ],
+    "minimum_slack": 9.999999999997858e-05
+  },
+  {
+    "time": 1.7800000000000014,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 5.6461662372446436e-05,
+    "rotation_error_rad": 2.117215009024489e-05,
+    "drift": [
+      1.21983731181318e-13,
+      2.3514829084170844e-14,
+      -1.663068391311879e-13,
+      9.76697864425308e-15,
+      2.0623676102712652e-13,
+      1.5749277439022443e-14
+    ],
+    "minimum_slack": 9.999999999996383e-05
+  },
+  {
+    "time": 1.8000000000000014,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 5.938567215481969e-05,
+    "rotation_error_rad": 2.6095806617682898e-05,
+    "drift": [
+      1.226537439673992e-13,
+      2.3454431680842832e-14,
+      -1.667665628055806e-13,
+      9.858301740636386e-15,
+      2.0642152069541355e-13,
+      1.5731980118395917e-14
+    ],
+    "minimum_slack": 9.999999999993608e-05
+  },
+  {
+    "time": 1.8200000000000014,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 6.242710761098758e-05,
+    "rotation_error_rad": 3.1252098854732165e-05,
+    "drift": [
+      1.233462662886846e-13,
+      2.3373788627766167e-14,
+      -1.672394693448048e-13,
+      9.947209916135923e-15,
+      2.0660844707932318e-13,
+      1.5687163149715302e-14
+    ],
+    "minimum_slack": 9.999999999986062e-05
+  },
+  {
+    "time": 1.8400000000000014,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 6.558329185089713e-05,
+    "rotation_error_rad": 3.660757593604714e-05,
+    "drift": [
+      1.2406407385251377e-13,
+      2.3275947651859338e-14,
+      -1.6772040938481815e-13,
+      1.0043885478222627e-14,
+      2.067790136679628e-13,
+      1.562837769700324e-14
+    ],
+    "minimum_slack": 9.99999999998849e-05
+  },
+  {
+    "time": 1.8600000000000014,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 6.885021500326357e-05,
+    "rotation_error_rad": 4.213897916476787e-05,
+    "drift": [
+      1.248026024429617e-13,
+      2.3180835567823575e-14,
+      -1.6820360946527057e-13,
+      1.0182872757589428e-14,
+      2.0692850313240356e-13,
+      1.5602406869968207e-14
+    ],
+    "minimum_slack": 9.999999999995082e-05
+  },
+  {
+    "time": 1.8800000000000014,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 7.222614531721607e-05,
+    "rotation_error_rad": 4.7832825595221066e-05,
+    "drift": [
+      1.2557871257038724e-13,
+      2.309622456693269e-14,
+      -1.6871108344639903e-13,
+      1.030906972345036e-14,
+      2.070918426748294e-13,
+      1.5580290390818416e-14
+    ],
+    "minimum_slack": 9.999999999990659e-05
+  },
+  {
+    "time": 1.9000000000000015,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 7.570956159740076e-05,
+    "rotation_error_rad": 5.368092218571094e-05,
+    "drift": [
+      1.2637877527431926e-13,
+      2.2992383209138144e-14,
+      -1.692257595532919e-13,
+      1.0449956290676012e-14,
+      2.0724140018313178e-13,
+      1.5540707398134522e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 1.9200000000000015,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 7.929878409593091e-05,
+    "rotation_error_rad": 5.967764712827813e-05,
+    "drift": [
+      1.2719399465677634e-13,
+      2.288185349242432e-14,
+      -1.6973289999073843e-13,
+      1.0570567479746577e-14,
+      2.0735523781704483e-13,
+      1.547442327689076e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 1.9400000000000015,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 8.298956059945155e-05,
+    "rotation_error_rad": 6.581548539870214e-05,
+    "drift": [
+      1.28032685101639e-13,
+      2.2764178838998577e-14,
+      -1.702504331402739e-13,
+      1.0705921235128498e-14,
+      2.0746828955896237e-13,
+      1.5415133607188717e-14
+    ],
+    "minimum_slack": 9.999999999991613e-05
+  },
+  {
+    "time": 1.9600000000000015,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 8.677877030164552e-05,
+    "rotation_error_rad": 7.20929987807226e-05,
+    "drift": [
+      1.289228883892218e-13,
+      2.263587921386489e-14,
+      -1.7080108810527882e-13,
+      1.0852686014443811e-14,
+      2.0759128886051456e-13,
+      1.534916390878808e-14
+    ],
+    "minimum_slack": 9.999999999990225e-05
+  },
+  {
+    "time": 1.9800000000000015,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 9.066623670493926e-05,
+    "rotation_error_rad": 7.851029724799634e-05,
+    "drift": [
+      1.2989290470281233e-13,
+      2.241350464241583e-14,
+      -1.7141956391947628e-13,
+      1.1111857231189237e-14,
+      2.0775032391141094e-13,
+      1.52373441717505e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.0000000000000013,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 9.46502859171685e-05,
+    "rotation_error_rad": 8.50616597749632e-05,
+    "drift": [
+      1.3086675375520358e-13,
+      2.2407288951613e-14,
+      -1.7196799935849468e-13,
+      1.1151780894000507e-14,
+      2.078039530956895e-13,
+      1.5263322715734964e-14
+    ],
+    "minimum_slack": 9.999999999996817e-05
+  },
+  {
+    "time": 2.019999999999999,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 9.872826369051901e-05,
+    "rotation_error_rad": 9.174266616503986e-05,
+    "drift": [
+      1.3191544062111966e-13,
+      2.227832789827111e-14,
+      -1.7259353098669135e-13,
+      1.1314805799396785e-14,
+      2.0791550226397523e-13,
+      1.520919433688761e-14
+    ],
+    "minimum_slack": 9.999999999990919e-05
+  },
+  {
+    "time": 2.039999999999997,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00010289707452711277,
+    "rotation_error_rad": 9.854970258092059e-05,
+    "drift": [
+      1.3299827859511198e-13,
+      2.209749269547689e-14,
+      -1.7322787842798425e-13,
+      1.1516472154940324e-14,
+      2.0799850017775128e-13,
+      1.511095827461334e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 2.0599999999999947,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00010715333823403724,
+    "rotation_error_rad": 0.00010547902469566915,
+    "drift": [
+      1.341314603026612e-13,
+      2.1996183897474635e-14,
+      -1.738688147767538e-13,
+      1.1673350403064679e-14,
+      2.0805405688149176e-13,
+      1.5093382282089237e-14
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 2.0799999999999925,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00011149339191117202,
+    "rotation_error_rad": 0.00011252638614547429,
+    "drift": [
+      1.3534359134582455e-13,
+      2.1846846765802015e-14,
+      -1.7457368738620727e-13,
+      1.1869793764339762e-14,
+      2.0815284509313884e-13,
+      1.5040314224149997e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.0999999999999903,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00011591326460029846,
+    "rotation_error_rad": 0.00011968702448784451,
+    "drift": [
+      1.3660383748464105e-13,
+      2.1739481335206363e-14,
+      -1.752798838570313e-13,
+      1.2017883698451797e-14,
+      2.08215804009036e-13,
+      1.5005139538607848e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.119999999999988,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00012040865811515247,
+    "rotation_error_rad": 0.00012695571472152165,
+    "drift": [
+      1.3792188320326338e-13,
+      2.163017090737082e-14,
+      -1.760123884467002e-13,
+      1.2159615660575394e-14,
+      2.0826909240381014e-13,
+      1.496075048164509e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 2.139999999999986,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00012497493749966305,
+    "rotation_error_rad": 0.0001343267861826917,
+    "drift": [
+      1.3929825119981374e-13,
+      2.1468185362827537e-14,
+      -1.7677344561479852e-13,
+      1.2371249167310127e-14,
+      2.0830902528227282e-13,
+      1.488971198806999e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 2.1599999999999837,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00012960712834793065,
+    "rotation_error_rad": 0.0001417941079566923,
+    "drift": [
+      1.407543488374531e-13,
+      2.131561889571452e-14,
+      -1.7757935895056155e-13,
+      1.2590669065369182e-14,
+      2.083618648653034e-13,
+      1.4848162097681368e-14
+    ],
+    "minimum_slack": 9.999999999989271e-05
+  },
+  {
+    "time": 2.1799999999999815,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00013429991922881318,
+    "rotation_error_rad": 0.0001493510699665969,
+    "drift": [
+      1.4229797040285567e-13,
+      2.1152682972597664e-14,
+      -1.7844291444086565e-13,
+      1.2783561872034409e-14,
+      2.0845005237928715e-13,
+      1.4767289682845676e-14
+    ],
+    "minimum_slack": 9.999999999985411e-05
+  },
+  {
+    "time": 2.1999999999999793,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0001390476690802656,
+    "rotation_error_rad": 0.00015699057533022522,
+    "drift": [
+      1.4389496147685204e-13,
+      2.1061607681668247e-14,
+      -1.7930922765922217e-13,
+      1.2969407767354395e-14,
+      2.0849316857494252e-13,
+      1.477665425140112e-14
+    ],
+    "minimum_slack": 9.999999999990615e-05
+  },
+  {
+    "time": 2.219999999999977,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00014383650826897633,
+    "rotation_error_rad": 0.00016470246386659506,
+    "drift": [
+      1.455460240785416e-13,
+      2.086241335980679e-14,
+      -1.8022660707476835e-13,
+      1.3205060281199549e-14,
+      2.0857185331139279e-13,
+      1.467035181178752e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.239999999999975,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00014865679591218625,
+    "rotation_error_rad": 0.00017248092631432166,
+    "drift": [
+      1.4728186388712645e-13,
+      2.0774398312340217e-14,
+      -1.8116540293072145e-13,
+      1.3392347543388425e-14,
+      2.0862850909432555e-13,
+      1.4686052157721646e-14
+    ],
+    "minimum_slack": 9.999999999990702e-05
+  },
+  {
+    "time": 2.2599999999999727,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00015351218283086017,
+    "rotation_error_rad": 0.00018032038074510226,
+    "drift": [
+      1.4912722594296732e-13,
+      2.0689425869117437e-14,
+      -1.8216474570753175e-13,
+      1.3552791822387414e-14,
+      2.0870425494433215e-13,
+      1.4686154406737348e-14
+    ],
+    "minimum_slack": 9.999999999987666e-05
+  },
+  {
+    "time": 2.2799999999999705,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0001584015934980908,
+    "rotation_error_rad": 0.00018820963915383354,
+    "drift": [
+      1.510311656205021e-13,
+      2.0498678006491214e-14,
+      -1.8320003598692678e-13,
+      1.3831552285078425e-14,
+      2.087669533655193e-13,
+      1.4621081990653793e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.2999999999999683,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00016331705134699448,
+    "rotation_error_rad": 0.00019613864402228906,
+    "drift": [
+      1.53005127936309e-13,
+      2.040493302581313e-14,
+      -1.8425676863167722e-13,
+      1.4013696572393944e-14,
+      2.0882947941478968e-13,
+      1.4612576325884388e-14
+    ],
+    "minimum_slack": 9.999999999985758e-05
+  },
+  {
+    "time": 2.319999999999966,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0001682498698251302,
+    "rotation_error_rad": 0.0002040979448316061,
+    "drift": [
+      1.5505753881685888e-13,
+      2.0322314984979036e-14,
+      -1.8536056987460554e-13,
+      1.4196724583173576e-14,
+      2.089112629870339e-13,
+      1.4623115803276672e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.339999999999964,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00017319173213876276,
+    "rotation_error_rad": 0.00021207783473075096,
+    "drift": [
+      1.5716747783883517e-13,
+      2.0175948153426554e-14,
+      -1.8649250166051025e-13,
+      1.444258657463373e-14,
+      2.089865060618135e-13,
+      1.4585854825289706e-14
+    ],
+    "minimum_slack": 9.999999999993413e-05
+  },
+  {
+    "time": 2.3599999999999617,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0001781346099878917,
+    "rotation_error_rad": 0.00022006812978205364,
+    "drift": [
+      1.5934855862083332e-13,
+      2.007354207940631e-14,
+      -1.876631673162194e-13,
+      1.4661492407331128e-14,
+      2.0907743878217066e-13,
+      1.458480734866782e-14
+    ],
+    "minimum_slack": 9.999999999990225e-05
+  },
+  {
+    "time": 2.3799999999999595,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00018307059668075696,
+    "rotation_error_rad": 0.00022805829550400625,
+    "drift": [
+      1.6158595983469145e-13,
+      1.9953709668634497e-14,
+      -1.8885915275243226e-13,
+      1.4908508910356605e-14,
+      2.0916177699344167e-13,
+      1.4580977051596316e-14
+    ],
+    "minimum_slack": 9.999999999979405e-05
+  },
+  {
+    "time": 2.3999999999999573,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00018799182567119877,
+    "rotation_error_rad": 0.00023603760358832987,
+    "drift": [
+      1.6389972795251084e-13,
+      1.9872418175000264e-14,
+      -1.9010714061387045e-13,
+      1.5087410822676117e-14,
+      2.0928860973359712e-13,
+      1.4565692673752266e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 2.419999999999955,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00019289045228733744,
+    "rotation_error_rad": 0.000243995225524541,
+    "drift": [
+      1.6624891118117926e-13,
+      1.9843028048017422e-14,
+      -1.9134505874658943e-13,
+      1.5252123138590972e-14,
+      2.093740803164072e-13,
+      1.4619191099302163e-14
+    ],
+    "minimum_slack": 9.999999999991613e-05
+  },
+  {
+    "time": 2.439999999999953,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00019775866415929521,
+    "rotation_error_rad": 0.0002519202814545729,
+    "drift": [
+      1.686458690630132e-13,
+      1.9763442899489898e-14,
+      -1.9262213300019642e-13,
+      1.5459222676952368e-14,
+      2.0947800605583126e-13,
+      1.461861724204436e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 2.4599999999999507,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00020258870302250934,
+    "rotation_error_rad": 0.00025980187936726866,
+    "drift": [
+      1.7111693853918904e-13,
+      1.9651152014064637e-14,
+      -1.9395756291724607e-13,
+      1.5647201289164595e-14,
+      2.096468328969534e-13,
+      1.4565780454253518e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.4799999999999485,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00020737289022304152,
+    "rotation_error_rad": 0.00026762915856206904,
+    "drift": [
+      1.735858908465648e-13,
+      1.9722409899535666e-14,
+      -1.95231089624507e-13,
+      1.576444587970938e-14,
+      2.0972066557967374e-13,
+      1.4714880963466333e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.4999999999999463,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002121036530600193,
+    "rotation_error_rad": 0.00027539133745393653,
+    "drift": [
+      1.7610315828889013e-13,
+      1.965342576447316e-14,
+      -1.965681104035689e-13,
+      1.6008122064371533e-14,
+      2.0985451058487452e-13,
+      1.4745437696258715e-14
+    ],
+    "minimum_slack": 9.999999999992654e-05
+  },
+  {
+    "time": 2.519999999999944,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00021677355100886535,
+    "rotation_error_rad": 0.00028307776272679607,
+    "drift": [
+      1.7863944202531622e-13,
+      1.9612088587192677e-14,
+      -1.979096180034335e-13,
+      1.6196633895557047e-14,
+      2.0998770887729712e-13,
+      1.477666404992247e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 2.539999999999942,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002213753005741459,
+    "rotation_error_rad": 0.00029067795562674205,
+    "drift": [
+      1.8119529289643075e-13,
+      1.9629611191624662e-14,
+      -1.9925223930332617e-13,
+      1.6316222079211068e-14,
+      2.1012496663404534e-13,
+      1.482957535897184e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.5599999999999397,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022590179951601584,
+    "rotation_error_rad": 0.0002981816574321101,
+    "drift": [
+      1.8376485089687345e-13,
+      1.9655224555136417e-14,
+      -2.0060228016518083e-13,
+      1.6450363042662348e-14,
+      2.102748118367507e-13,
+      1.490444084031905e-14
+    ],
+    "minimum_slack": 9.999999999991678e-05
+  },
+  {
+    "time": 2.5799999999999375,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023034614869247154,
+    "rotation_error_rad": 0.00030557887031849043,
+    "drift": [
+      1.8631455104640106e-13,
+      1.9658496125983492e-14,
+      -2.019254701294777e-13,
+      1.66187845325865e-14,
+      2.1039300495024157e-13,
+      1.4968046089307612e-14
+    ],
+    "minimum_slack": 9.999999999992025e-05
+  },
+  {
+    "time": 2.5999999999999353,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023470167154081262,
+    "rotation_error_rad": 0.00031285989419895253,
+    "drift": [
+      1.8887249941514475e-13,
+      1.9638394897073194e-14,
+      -2.032699592206799e-13,
+      1.6788405610294143e-14,
+      2.1055215630163566e-13,
+      1.5006143373987732e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.619999999999933,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023896193199022064,
+    "rotation_error_rad": 0.0003200153619483377,
+    "drift": [
+      1.9142040907413187e-13,
+      1.973474816298609e-14,
+      -2.0460667170898002e-13,
+      1.6861616380158e-14,
+      2.1072329511487246e-13,
+      1.511832711215301e-14
+    ],
+    "minimum_slack": 9.999999999991613e-05
+  },
+  {
+    "time": 2.639999999999931,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002431207497445405,
+    "rotation_error_rad": 0.00032703627039853527,
+    "drift": [
+      1.9392253471676539e-13,
+      1.9732514752245772e-14,
+      -2.0590432658791857e-13,
+      1.70175102656922e-14,
+      2.108641201254679e-13,
+      1.5163506071607566e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.6599999999999286,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002471722131567449,
+    "rotation_error_rad": 0.00033391400748831085,
+    "drift": [
+      1.9642341756582006e-13,
+      1.9821775310261815e-14,
+      -2.0722165347003844e-13,
+      1.7078082297688053e-14,
+      2.1106528561961262e-13,
+      1.5250220238060064e-14
+    ],
+    "minimum_slack": 9.999999999991613e-05
+  },
+  {
+    "time": 2.6799999999999264,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00025111069007262515,
+    "rotation_error_rad": 0.0003406403764469591,
+    "drift": [
+      1.9882949894693568e-13,
+      1.9922191524589443e-14,
+      -2.0844090196485232e-13,
+      1.7227025276083393e-14,
+      2.111703498141339e-13,
+      1.54299577109919e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.6999999999999242,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002549308361568036,
+    "rotation_error_rad": 0.0003472076156226959,
+    "drift": [
+      2.0122695804856785e-13,
+      1.9979615699942435e-14,
+      -2.0969725961715035e-13,
+      1.7308699251723658e-14,
+      2.1136518825088917e-13,
+      1.5489331849761475e-14
+    ],
+    "minimum_slack": 9.999999999982245e-05
+  },
+  {
+    "time": 2.719999999999922,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002586276015246747,
+    "rotation_error_rad": 0.00035360841577796343,
+    "drift": [
+      2.0354699688226816e-13,
+      2.000768885721419e-14,
+      -2.1089820710695148e-13,
+      1.7417675462531898e-14,
+      2.115346846105335e-13,
+      1.553735756551595e-14
+    ],
+    "minimum_slack": 9.999999999991613e-05
+  },
+  {
+    "time": 2.73999999999992,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00026219623551580274,
+    "rotation_error_rad": 0.0003598359341735668,
+    "drift": [
+      2.058005523528692e-13,
+      2.0087442334797916e-14,
+      -2.1205969534015798e-13,
+      1.7520190950936453e-14,
+      2.1170612217780207e-13,
+      1.5655242447236027e-14
+    ],
+    "minimum_slack": 9.999999999986062e-05
+  },
+  {
+    "time": 2.7599999999999176,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00026563228941900706,
+    "rotation_error_rad": 0.00036588380466281463,
+    "drift": [
+      2.079659417199169e-13,
+      2.0197094477806535e-14,
+      -2.131632402935019e-13,
+      1.7553071637768e-14,
+      2.118633702719369e-13,
+      1.5762400196130133e-14
+    ],
+    "minimum_slack": 9.999999999983286e-05
+  },
+  {
+    "time": 2.7799999999999154,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002689316179399096,
+    "rotation_error_rad": 0.00037174614554562536,
+    "drift": [
+      2.1001104563827356e-13,
+      2.0269497213163628e-14,
+      -2.1418122041233377e-13,
+      1.7660966893884712e-14,
+      2.1196447809251652e-13,
+      1.5873675506763448e-14
+    ],
+    "minimum_slack": 9.999999999986062e-05
+  },
+  {
+    "time": 2.7999999999999132,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027209037918740056,
+    "rotation_error_rad": 0.0003774175644057724,
+    "drift": [
+      2.1204540653638126e-13,
+      2.0394193106505876e-14,
+      -2.1525085421672864e-13,
+      1.7703630010249486e-14,
+      2.1221005693602764e-13,
+      1.6013497094405516e-14
+    ],
+    "minimum_slack": 9.999999999989618e-05
+  },
+  {
+    "time": 2.819999999999911,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002751050339363463,
+    "rotation_error_rad": 0.00038289316151105587,
+    "drift": [
+      2.1389497897401823e-13,
+      2.0429607202711516e-14,
+      -2.161675265211053e-13,
+      1.779101861335419e-14,
+      2.1232121501922694e-13,
+      1.6073463608581257e-14
+    ],
+    "minimum_slack": 9.999999999993781e-05
+  },
+  {
+    "time": 2.839999999999909,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002779723436915995,
+    "rotation_error_rad": 0.00038816853029138734,
+    "drift": [
+      2.1568324891091022e-13,
+      2.0528427890833475e-14,
+      -2.1708547171219453e-13,
+      1.7853407672171767e-14,
+      2.1251815597359128e-13,
+      1.620062066318225e-14
+    ],
+    "minimum_slack": 9.999999999989618e-05
+  },
+  {
+    "time": 2.8599999999999066,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028068936790825555,
+    "rotation_error_rad": 0.00039323975553799624,
+    "drift": [
+      2.1732166164441272e-13,
+      2.0618429910120858e-14,
+      -2.1790257864298817e-13,
+      1.7921221582029577e-14,
+      2.1265750142173712e-13,
+      1.6328255281692675e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 2.8799999999999044,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028325346085015797,
+    "rotation_error_rad": 0.0003981034104423416,
+    "drift": [
+      2.188337315684765e-13,
+      2.0761248120626167e-14,
+      -2.1863940987491108e-13,
+      1.790566922227212e-14,
+      2.1278958241988356e-13,
+      1.6473129413755585e-14
+    ],
+    "minimum_slack": 9.9999999999917e-05
+  },
+  {
+    "time": 2.899999999999902,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028566226847884257,
+    "rotation_error_rad": 0.0004027565501139641,
+    "drift": [
+      2.2023442834804407e-13,
+      2.0894569230477613e-14,
+      -2.1933571675216003e-13,
+      1.7954052916492643e-14,
+      2.1296250950026484e-13,
+      1.6661750089529934e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 2.9199999999999,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002879137205714199,
+    "rotation_error_rad": 0.00040716958415760264,
+    "drift": [
+      2.2148337286373608e-13,
+      2.095890984323108e-14,
+      -2.1994905211581208e-13,
+      1.8008449889890386e-14,
+      2.1311533259218212e-13,
+      1.676930268442763e-14
+    ],
+    "minimum_slack": 9.999999999991613e-05
+  },
+  {
+    "time": 2.939999999999898,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002900059740021274,
+    "rotation_error_rad": 0.0004111817441018044,
+    "drift": [
+      2.225591154165145e-13,
+      2.1023541546042086e-14,
+      -2.204509813486247e-13,
+      1.8033529583008607e-14,
+      2.132197563845582e-13,
+      1.6856762024393245e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 2.9599999999998956,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000291937279923929,
+    "rotation_error_rad": 0.0004144622503813543,
+    "drift": [
+      2.2351051138833279e-13,
+      2.110194120868347e-14,
+      -2.209081359815038e-13,
+      1.8108907071306935e-14,
+      2.1336893817388673e-13,
+      1.70159679730363e-14
+    ],
+    "minimum_slack": 9.999999999995863e-05
+  },
+  {
+    "time": 2.9799999999998934,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029370599709676915,
+    "rotation_error_rad": 0.00041660860050131833,
+    "drift": [
+      2.24312343245821e-13,
+      2.1180983985873225e-14,
+      -2.2129442179233198e-13,
+      1.813591712979575e-14,
+      2.1353192589707604e-13,
+      1.71412805709025e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 2.999999999999891,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029531073399957343,
+    "rotation_error_rad": 0.00041724112647351374,
+    "drift": [
+      2.2495978316785466e-13,
+      2.1217483251903162e-14,
+      -2.2161331607113706e-13,
+      1.8197804838340405e-14,
+      2.137056385332269e-13,
+      1.724263509351422e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.019999999999889,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002967504506147912,
+    "rotation_error_rad": 0.00041604695498407564,
+    "drift": [
+      2.2544690654761624e-13,
+      2.1324132499200646e-14,
+      -2.21838125615105e-13,
+      1.816265864508079e-14,
+      2.1388076101879476e-13,
+      1.7372121004957252e-14
+    ],
+    "minimum_slack": 9.999999999983286e-05
+  },
+  {
+    "time": 3.039999999999887,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002980244698107922,
+    "rotation_error_rad": 0.00041280077725912057,
+    "drift": [
+      2.2577244147163188e-13,
+      2.1338655886023394e-14,
+      -2.219905347593652e-13,
+      1.8217881869303658e-14,
+      2.140694034816964e-13,
+      1.7460188861797776e-14
+    ],
+    "minimum_slack": 9.999999999990225e-05
+  },
+  {
+    "time": 3.0599999999998846,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029913244070984435,
+    "rotation_error_rad": 0.0004073942940461041,
+    "drift": [
+      2.2590859807002925e-13,
+      2.1359444382508548e-14,
+      -2.2202735622030814e-13,
+      1.8348229821515606e-14,
+      2.1421003330026595e-13,
+      1.7610838962017187e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.0799999999998824,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00030007429978373413,
+    "rotation_error_rad": 0.0003998935101974137,
+    "drift": [
+      2.258793627506688e-13,
+      2.147969813032211e-14,
+      -2.219832475091763e-13,
+      1.8298659981926597e-14,
+      2.1437203003512597e-13,
+      1.77633220165972e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.09999999999988,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003008502471497397,
+    "rotation_error_rad": 0.0003906381039133782,
+    "drift": [
+      2.2571396564721462e-13,
+      2.1504383223449023e-14,
+      -2.2191057404084169e-13,
+      1.8368943903580626e-14,
+      2.1460002911621527e-13,
+      1.7880920998848834e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.119999999999878,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003014607364654483,
+    "rotation_error_rad": 0.0003804001850324293,
+    "drift": [
+      2.253012814394555e-13,
+      2.1506748004277727e-14,
+      -2.2164404920585836e-13,
+      1.8385762093007866e-14,
+      2.1469907776750503e-13,
+      1.793472620156927e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.139999999999876,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00030190647174236875,
+    "rotation_error_rad": 0.0003706194454966548,
+    "drift": [
+      2.247809127008137e-13,
+      2.1593836390312267e-14,
+      -2.2137748062724717e-13,
+      1.8372079945293266e-14,
+      2.1491194980358068e-13,
+      1.8075552813676733e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 3.1599999999998736,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003021884081960899,
+    "rotation_error_rad": 0.0003637047463297302,
+    "drift": [
+      2.2408408053427864e-13,
+      2.1631307975076226e-14,
+      -2.2102522862602156e-13,
+      1.8399612214048454e-14,
+      2.1512395103046674e-13,
+      1.8181082462263402e-14
+    ],
+    "minimum_slack": 9.999999999993e-05
+  },
+  {
+    "time": 3.1799999999998714,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00030230775572236867,
+    "rotation_error_rad": 0.00036329743764745067,
+    "drift": [
+      2.231525444703734e-13,
+      2.1677480319397072e-14,
+      -2.2050533429656372e-13,
+      1.8444285072522873e-14,
+      2.1523053075228023e-13,
+      1.830708877516961e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.199999999999869,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00030226598527088514,
+    "rotation_error_rad": 0.0003742151021938237,
+    "drift": [
+      2.221039542939498e-13,
+      2.164861925636321e-14,
+      -2.1997423383497119e-13,
+      1.8582049054980764e-14,
+      2.1543338130370757e-13,
+      1.84002756765273e-14
+    ],
+    "minimum_slack": 9.99999999999196e-05
+  },
+  {
+    "time": 3.219999999999867,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003020648394282522,
+    "rotation_error_rad": 0.0004017307386277635,
+    "drift": [
+      2.209034972208954e-13,
+      2.17104828561963e-14,
+      -2.1938428508611218e-13,
+      1.8595985867581794e-14,
+      2.1567390052657562e-13,
+      1.8503210004323936e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.2399999999998648,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00030170634820643846,
+    "rotation_error_rad": 0.0004503211090504576,
+    "drift": [
+      2.1948911931791773e-13,
+      2.1734206038735534e-14,
+      -2.1865328972586256e-13,
+      1.8606302235529215e-14,
+      2.1583351426528358e-13,
+      1.8544671283546792e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.2599999999998626,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00030119285170199944,
+    "rotation_error_rad": 0.0005227903091123853,
+    "drift": [
+      2.1794680433480998e-13,
+      2.179207785653946e-14,
+      -2.1789212104005266e-13,
+      1.8709719281419953e-14,
+      2.160597306722172e-13,
+      1.868358575473689e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.2799999999998604,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00030052703092939005,
+    "rotation_error_rad": 0.0006204446287449265,
+    "drift": [
+      2.1626776941228667e-13,
+      2.182046539709273e-14,
+      -2.1708733686219562e-13,
+      1.8730160149654e-14,
+      2.1633132095930268e-13,
+      1.870047587393016e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 3.299999999999858,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029971194792639756,
+    "rotation_error_rad": 0.0007438864931511546,
+    "drift": [
+      2.1438493633853208e-13,
+      2.1947356378169937e-14,
+      -2.161489895593785e-13,
+      1.879722573914793e-14,
+      2.165251858625314e-13,
+      1.886079241550633e-14
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 3.319999999999856,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002987510940959847,
+    "rotation_error_rad": 0.0008936744910670782,
+    "drift": [
+      2.1235207064034628e-13,
+      2.199964137295336e-14,
+      -2.1514189060860637e-13,
+      1.8835308445345224e-14,
+      2.167292447195213e-13,
+      1.8878856007703433e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.3399999999998538,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002976484454000474,
+    "rotation_error_rad": 0.0010706014256549553,
+    "drift": [
+      2.1023815570394674e-13,
+      2.2067007494562937e-14,
+      -2.1414952338605504e-13,
+      1.891891138210179e-14,
+      2.170422368144986e-13,
+      1.892126431124778e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.3599999999998515,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002964085193346381,
+    "rotation_error_rad": 0.0012757060579987553,
+    "drift": [
+      2.0793423598560254e-13,
+      2.216652450094623e-14,
+      -2.1303474883790284e-13,
+      1.8992284191619327e-14,
+      2.1727955589495577e-13,
+      1.8957818158827226e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.3799999999998493,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029503642591487323,
+    "rotation_error_rad": 0.0015101699577111062,
+    "drift": [
+      2.0551739887971478e-13,
+      2.230102449639249e-14,
+      -2.118767894954131e-13,
+      1.9031719289950586e-14,
+      2.1755221360107186e-13,
+      1.898265999381025e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.399999999999847,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002935379035368306,
+    "rotation_error_rad": 0.0017751864063142392,
+    "drift": [
+      2.0296543347224816e-13,
+      2.2400276990487014e-14,
+      -2.106579666252735e-13,
+      1.9202447288181362e-14,
+      2.1781726140039445e-13,
+      1.9019464218358856e-14
+    ],
+    "minimum_slack": 9.999999999977735e-05
+  },
+  {
+    "time": 3.419999999999845,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002919193292336399,
+    "rotation_error_rad": 0.0020718402283336733,
+    "drift": [
+      2.0031819003236186e-13,
+      2.2577185676780455e-14,
+      -2.094255406864904e-13,
+      1.926335637646655e-14,
+      2.1813483515007241e-13,
+      1.9028936425651517e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.4399999999998427,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002901876960233099,
+    "rotation_error_rad": 0.002401015122030568,
+    "drift": [
+      1.9754957526782619e-13,
+      2.2755384623698016e-14,
+      -2.081337186441156e-13,
+      1.9385909769447642e-14,
+      2.184443936831846e-13,
+      1.90333590554953e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.4599999999998405,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002883505548500391,
+    "rotation_error_rad": 0.0027633352301960337,
+    "drift": [
+      1.9464556625839962e-13,
+      2.2983627661236186e-14,
+      -2.0675334963950714e-13,
+      1.9485203637073496e-14,
+      2.187051748192257e-13,
+      1.9040583807907077e-14
+    ],
+    "minimum_slack": 9.999999999982245e-05
+  },
+  {
+    "time": 3.4799999999998383,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002864159259517694,
+    "rotation_error_rad": 0.0031591416666763234,
+    "drift": [
+      1.917017607992753e-13,
+      2.324872894014931e-14,
+      -2.0542209862706688e-13,
+      1.9581276540645658e-14,
+      2.1907915687515006e-13,
+      1.9027916753661974e-14
+    ],
+    "minimum_slack": 9.999999999982245e-05
+  },
+  {
+    "time": 3.499999999999836,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002843921920399713,
+    "rotation_error_rad": 0.0035884997267873844,
+    "drift": [
+      1.8865979070625485e-13,
+      2.3536803549280044e-14,
+      -2.040488482103212e-13,
+      1.969736106645376e-14,
+      2.194515423046363e-13,
+      1.8993519850600082e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.519999999999834,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002822879881062218,
+    "rotation_error_rad": 0.004051228734417766,
+    "drift": [
+      1.8549911389230136e-13,
+      2.3874370143419547e-14,
+      -2.0259520505185468e-13,
+      1.9845728036023678e-14,
+      2.1976971022986127e-13,
+      1.8992345403308278e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.5399999999998317,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002801121036377986,
+    "rotation_error_rad": 0.0045469447300048845,
+    "drift": [
+      1.8230278461630107e-13,
+      2.4212593675838423e-14,
+      -2.0117754841895314e-13,
+      1.9968096774371554e-14,
+      2.2017048710548255e-13,
+      1.88961562265656e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.5599999999998295,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027787340726442334,
+    "rotation_error_rad": 0.0050751067476340886,
+    "drift": [
+      1.7904875847774948e-13,
+      2.4675792628244416e-14,
+      -1.9974889474560042e-13,
+      2.0077743455629575e-14,
+      2.205941282855426e-13,
+      1.888472325839799e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 3.5799999999998273,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027558079718080736,
+    "rotation_error_rad": 0.00563505970005782,
+    "drift": [
+      1.7570557208477526e-13,
+      2.5094157259740266e-14,
+      -1.9827876633026748e-13,
+      2.02262254046865e-14,
+      2.2099339573602411e-13,
+      1.8755572985437923e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 3.599999999999825,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002732431756862166,
+    "rotation_error_rad": 0.00622606986094818,
+    "drift": [
+      1.7230322695278804e-13,
+      2.5663321373077808e-14,
+      -1.9678651063596966e-13,
+      2.0326217817461997e-14,
+      2.213912808052854e-13,
+      1.871119443820586e-14
+    ],
+    "minimum_slack": 9.999999999983286e-05
+  },
+  {
+    "time": 3.619999999999823,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027086944051104536,
+    "rotation_error_rad": 0.006847351644640776,
+    "drift": [
+      1.6878673796033209e-13,
+      2.6268988072763934e-14,
+      -1.951873438645499e-13,
+      2.0476992062089308e-14,
+      2.2168913872044635e-13,
+      1.867851451968209e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.6399999999998207,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002684684852270673,
+    "rotation_error_rad": 0.007498086273101084,
+    "drift": [
+      1.6529565249441582e-13,
+      2.68746488730484e-14,
+      -1.9368686599405431e-13,
+      2.064511648863768e-14,
+      2.2211141177475292e-13,
+      1.85487607757784e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.6599999999998185,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002660488747001575,
+    "rotation_error_rad": 0.008177433622915203,
+    "drift": [
+      1.6181078122675752e-13,
+      2.7607540301400758e-14,
+      -1.9223741557286106e-13,
+      2.0757154761427427e-14,
+      2.226105826714382e-13,
+      1.845972404149872e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.6799999999998163,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002636196740154474,
+    "rotation_error_rad": 0.00888453999582995,
+    "drift": [
+      1.5829086810840418e-13,
+      2.8340044804924544e-14,
+      -1.907830242051342e-13,
+      2.0940769032752732e-14,
+      2.2310551034067278e-13,
+      1.8329067662083094e-14
+    ],
+    "minimum_slack": 9.999999999997164e-05
+  },
+  {
+    "time": 3.699999999999814,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002611901456263238,
+    "rotation_error_rad": 0.009618542658975725,
+    "drift": [
+      1.5468011102376083e-13,
+      2.91943769581493e-14,
+      -1.892461827986833e-13,
+      2.1077648664157294e-14,
+      2.2349586544768209e-13,
+      1.8218861149784343e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.719999999999812,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002587690968381475,
+    "rotation_error_rad": 0.010378571187483449,
+    "drift": [
+      1.511309945646459e-13,
+      3.008316508311526e-14,
+      -1.8781689984252555e-13,
+      2.1278411419921364e-14,
+      2.240190947733604e-13,
+      1.810100363683025e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.7399999999998097,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002563652815228376,
+    "rotation_error_rad": 0.011163748841679512,
+    "drift": [
+      1.475897567338127e-13,
+      3.1039595346095894e-14,
+      -1.864193411124845e-13,
+      2.147598552531098e-14,
+      2.2457139489998759e-13,
+      1.796566910696511e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.7599999999998075,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00025398742498511563,
+    "rotation_error_rad": 0.011973193193221602,
+    "drift": [
+      1.4407045706576795e-13,
+      3.213792771178578e-14,
+      -1.8507592528519253e-13,
+      2.1577557563238324e-14,
+      2.2517027519095563e-13,
+      1.7830683054958653e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.7799999999998053,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002516441949797145,
+    "rotation_error_rad": 0.012806016378996903,
+    "drift": [
+      1.4048956367406412e-13,
+      3.3207347928201896e-14,
+      -1.8366479473504257e-13,
+      2.1770345694261812e-14,
+      2.2566917309710812e-13,
+      1.7623037286339568e-14
+    ],
+    "minimum_slack": 9.99999999999196e-05
+  },
+  {
+    "time": 3.799999999999803,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002493439082999301,
+    "rotation_error_rad": 0.013661325042205472,
+    "drift": [
+      1.369627024738705e-13,
+      3.438945665840298e-14,
+      -1.8233758627596775e-13,
+      2.1986939106036567e-14,
+      2.262433319869162e-13,
+      1.7462554691020156e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 3.819999999999801,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002470948327444873,
+    "rotation_error_rad": 0.014538220531474518,
+    "drift": [
+      1.3346514684277925e-13,
+      3.565429869007616e-14,
+      -1.8105248037807627e-13,
+      2.2182844494116135e-14,
+      2.268439148404271e-13,
+      1.728795352990834e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.8399999999997987,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002449056409811769,
+    "rotation_error_rad": 0.015435799488277379,
+    "drift": [
+      1.299638829246259e-13,
+      3.699291111410411e-14,
+      -1.7975283283443873e-13,
+      2.240377990452167e-14,
+      2.2740264236808456e-13,
+      1.711560634112251e-14
+    ],
+    "minimum_slack": 9.999999999983286e-05
+  },
+  {
+    "time": 3.8599999999997965,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00024278461337094468,
+    "rotation_error_rad": 0.01635315374641067,
+    "drift": [
+      1.2651556631789951e-13,
+      3.83869399054211e-14,
+      -1.7851974154373854e-13,
+      2.259014819730847e-14,
+      2.2800297460233927e-13,
+      1.6871300828468148e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 3.8799999999997943,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00024073940043338213,
+    "rotation_error_rad": 0.01728936993247308,
+    "drift": [
+      1.2307336443124325e-13,
+      3.987322099353828e-14,
+      -1.7729712099719223e-13,
+      2.2795012992759932e-14,
+      2.285690164945572e-13,
+      1.6642035018863787e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.899999999999792,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023877737033295662,
+    "rotation_error_rad": 0.018243529863594753,
+    "drift": [
+      1.1969955040495442e-13,
+      4.150207586999352e-14,
+      -1.7614164877434097e-13,
+      2.299122277698146e-14,
+      2.2918114144561673e-13,
+      1.6471620706257667e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.91999999999979,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023690558911068307,
+    "rotation_error_rad": 0.01921471083242815,
+    "drift": [
+      1.1635345573806565e-13,
+      4.312982573344322e-14,
+      -1.7501107103311562e-13,
+      2.3254193437828008e-14,
+      2.2977106701360623e-13,
+      1.6236808033636233e-14
+    ],
+    "minimum_slack": 9.999999999972184e-05
+  },
+  {
+    "time": 3.9399999999997877,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002351307568078365,
+    "rotation_error_rad": 0.020201985807643208,
+    "drift": [
+      1.1308223170036831e-13,
+      4.485163857107511e-14,
+      -1.7394530956955786e-13,
+      2.3489885332022115e-14,
+      2.3039822973492606e-13,
+      1.598355727967826e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 3.9599999999997855,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023345915968489979,
+    "rotation_error_rad": 0.021204423630378586,
+    "drift": [
+      1.0984591182663803e-13,
+      4.66378555551879e-14,
+      -1.7290538657094226e-13,
+      2.372988555220987e-14,
+      2.309970889214154e-13,
+      1.5702273813737637e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.9799999999997833,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023189663967422797,
+    "rotation_error_rad": 0.022221089220516622,
+    "drift": [
+      1.0667581280452931e-13,
+      4.854724243840608e-14,
+      -1.7192583784077426e-13,
+      2.3941912470015753e-14,
+      2.316096583262594e-13,
+      1.5442193937615893e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 3.999999999999781,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023044854098599562,
+    "rotation_error_rad": 0.023251043801715863,
+    "drift": [
+      1.0357717944653389e-13,
+      5.048438181882204e-14,
+      -1.7100845269727917e-13,
+      2.4271731060170528e-14,
+      2.3223666455199526e-13,
+      1.5190250773786192e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 4.019999999999779,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002291196623618619,
+    "rotation_error_rad": 0.02429334513778263,
+    "drift": [
+      1.0059573878873513e-13,
+      5.2575777491641256e-14,
+      -1.7020875863040904e-13,
+      2.447182379516075e-14,
+      2.329406108375611e-13,
+      1.4911939589218273e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 4.039999999999777,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022791423975805747,
+    "rotation_error_rad": 0.025347047762267285,
+    "drift": [
+      9.764658819566705e-14,
+      5.47109473057207e-14,
+      -1.6940977047578494e-13,
+      2.471981460933577e-14,
+      2.3358229797267394e-13,
+      1.461601276397542e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.059999999999775,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022683592077732103,
+    "rotation_error_rad": 0.026411203211273812,
+    "drift": [
+      9.479330167596693e-14,
+      5.697103050580584e-14,
+      -1.686989735405342e-13,
+      2.495489210748646e-14,
+      2.3426139655917725e-13,
+      1.435029965445137e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.079999999999773,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002258877328142934,
+    "rotation_error_rad": 0.027484860272901868,
+    "drift": [
+      9.201830355107107e-14,
+      5.931475618999594e-14,
+      -1.6804246772626248e-13,
+      2.518505764101687e-14,
+      2.3493573516968143e-13,
+      1.4075998428185976e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 4.0999999999997705,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022507206227032831,
+    "rotation_error_rad": 0.028567065234319833,
+    "drift": [
+      8.92854461531854e-14,
+      6.162590382219656e-14,
+      -1.6739351450595276e-13,
+      2.552856545087498e-14,
+      2.3554629593700215e-13,
+      1.3746796158550167e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.119999999999768,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022439064139455106,
+    "rotation_error_rad": 0.02965686212626633,
+    "drift": [
+      8.664495937512471e-14,
+      6.414257063092067e-14,
+      -1.668175578100218e-13,
+      2.574335663204696e-14,
+      2.361697472288209e-13,
+      1.345307280844785e-14
+    ],
+    "minimum_slack": 9.999999999982245e-05
+  },
+  {
+    "time": 4.139999999999766,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022384454149338486,
+    "rotation_error_rad": 0.03075329296722387,
+    "drift": [
+      8.409191645814222e-14,
+      6.66440944829841e-14,
+      -1.6629692578999671e-13,
+      2.6043194316078684e-14,
+      2.367901338549084e-13,
+      1.3113689512613626e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.159999999999764,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022343417186727947,
+    "rotation_error_rad": 0.03185539800692928,
+    "drift": [
+      8.164742428907814e-14,
+      6.924088263389328e-14,
+      -1.658727234403753e-13,
+      2.6332967803584334e-14,
+      2.3744289773361343e-13,
+      1.2772590540756842e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.179999999999762,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000223159285188796,
+    "rotation_error_rad": 0.0329622159685105,
+    "drift": [
+      7.930746802564158e-14,
+      7.196128239024676e-14,
+      -1.6551554236867387e-13,
+      2.6605070528467952e-14,
+      2.3810615484547734e-13,
+      1.2471303239308557e-14
+    ],
+    "minimum_slack": 9.999999999983286e-05
+  },
+  {
+    "time": 4.1999999999997595,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002230189892176388,
+    "rotation_error_rad": 0.034072784288608375,
+    "drift": [
+      7.700379014125081e-14,
+      7.469523748994917e-14,
+      -1.6514784998454472e-13,
+      2.6912738230604936e-14,
+      2.3867810018232866e-13,
+      1.212400269853487e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 4.219999999999757,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022301176436868527,
+    "rotation_error_rad": 0.03518613935480618,
+    "drift": [
+      7.485036618699876e-14,
+      7.748284125750067e-14,
+      -1.6491861149248397e-13,
+      2.723312373082829e-14,
+      2.3932869908529047e-13,
+      1.1744393304200404e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 4.239999999999755,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022313548632583907,
+    "rotation_error_rad": 0.03630131674322329,
+    "drift": [
+      7.278062667488871e-14,
+      8.044553937439468e-14,
+      -1.647466838583624e-13,
+      2.7468462571748374e-14,
+      2.399589230893435e-13,
+      1.1424520220926142e-14
+    ],
+    "minimum_slack": 9.999999999995776e-05
+  },
+  {
+    "time": 4.259999999999753,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002233874575826435,
+    "rotation_error_rad": 0.03741735145030751,
+    "drift": [
+      7.078066783324473e-14,
+      8.33081453673232e-14,
+      -1.645788667046264e-13,
+      2.7890371719230417e-14,
+      2.405357454568936e-13,
+      1.1039664550096397e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.279999999999751,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022376444161295052,
+    "rotation_error_rad": 0.0385332781057689,
+    "drift": [
+      6.892762639840303e-14,
+      8.640312617830625e-14,
+      -1.6456767208989414e-13,
+      2.8130819793773104e-14,
+      2.411840338275167e-13,
+      1.0698493287083737e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.2999999999997485,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002242626971878527,
+    "rotation_error_rad": 0.03964813120516192,
+    "drift": [
+      6.717090006983057e-14,
+      8.950888218610728e-14,
+      -1.646028076643677e-13,
+      2.844570219948959e-14,
+      2.4181893918796126e-13,
+      1.0351589510244555e-14
+    ],
+    "minimum_slack": 9.999999999977735e-05
+  },
+  {
+    "time": 4.319999999999746,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022487802003283978,
+    "rotation_error_rad": 0.040760945334703334,
+    "drift": [
+      6.552590413355258e-14,
+      9.26771804810119e-14,
+      -1.6471999616421038e-13,
+      2.8721196636332064e-14,
+      2.424641284189178e-13,
+      9.95812660102475e-15
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.339999999999744,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002256057851534942,
+    "rotation_error_rad": 0.041870755377735026,
+    "drift": [
+      6.399504241905301e-14,
+      9.588755650714206e-14,
+      -1.6491370283327633e-13,
+      2.906927374094148e-14,
+      2.431216896087937e-13,
+      9.599806089330994e-15
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 4.359999999999742,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022644098913340627,
+    "rotation_error_rad": 0.04297659672005443,
+    "drift": [
+      6.253670365101282e-14,
+      9.918547918453855e-14,
+      -1.6513950510718797e-13,
+      2.933676264149292e-14,
+      2.437279470818603e-13,
+      9.203785729293499e-15
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 4.37999999999974,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022737829497781128,
+    "rotation_error_rad": 0.04407750546093755,
+    "drift": [
+      6.118745694347403e-14,
+      1.0252610701211357e-13,
+      -1.6543713749193657e-13,
+      2.967644867575479e-14,
+      2.443395462513784e-13,
+      8.843064112732465e-15
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 4.3999999999997375,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000228412077449686,
+    "rotation_error_rad": 0.04517251861513766,
+    "drift": [
+      5.993156200522531e-14,
+      1.0587900110301677e-13,
+      -1.6577914609604198e-13,
+      3.0025344749341244e-14,
+      2.449258705516452e-13,
+      8.435506382771096e-15
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 4.419999999999735,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00022953651335953746,
+    "rotation_error_rad": 0.04626067413746457,
+    "drift": [
+      5.87693488394652e-14,
+      1.0928390482146797e-13,
+      -1.661802582610579e-13,
+      3.037552671532715e-14,
+      2.45495294022191e-13,
+      8.024205330944767e-15
+    ],
+    "minimum_slack": 9.999999999982245e-05
+  },
+  {
+    "time": 4.439999999999733,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023074558607369178,
+    "rotation_error_rad": 0.04734101130627714,
+    "drift": [
+      5.773201611448574e-14,
+      1.1274843736350255e-13,
+      -1.666728495001447e-13,
+      3.0722081790270396e-14,
+      2.460876835463353e-13,
+      7.614427374119064e-15
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 4.459999999999731,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023203303963879713,
+    "rotation_error_rad": 0.04841257138869462,
+    "drift": [
+      5.6797233355252314e-14,
+      1.1626961395460334e-13,
+      -1.6723291657087306e-13,
+      3.106360877161716e-14,
+      2.4667510447771744e-13,
+      7.20687312340142e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.479999999999729,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002333925009029788,
+    "rotation_error_rad": 0.04947439704072276,
+    "drift": [
+      5.5957071919970426e-14,
+      1.1986027048253218e-13,
+      -1.67842930803231e-13,
+      3.1378601421150024e-14,
+      2.472450663150704e-13,
+      6.7976916695752054e-15
+    ],
+    "minimum_slack": 9.999999999997511e-05
+  },
+  {
+    "time": 4.499999999999726,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023481750924763913,
+    "rotation_error_rad": 0.05052553264638324,
+    "drift": [
+      5.5182536007297376e-14,
+      1.2352275322476976e-13,
+      -1.6848892989431258e-13,
+      3.170555749028302e-14,
+      2.4776314149098e-13,
+      6.431921442784839e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.519999999999724,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002363018061399905,
+    "rotation_error_rad": 0.051565024494558104,
+    "drift": [
+      5.456713385243886e-14,
+      1.2719278554744815e-13,
+      -1.6925605113189276e-13,
+      3.200992008164366e-14,
+      2.483498043161273e-13,
+      6.005105884893262e-15
+    ],
+    "minimum_slack": 9.999999999998899e-05
+  },
+  {
+    "time": 4.539999999999722,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023783888860437442,
+    "rotation_error_rad": 0.05259192106420322,
+    "drift": [
+      5.4035787687483656e-14,
+      1.308597432510214e-13,
+      -1.7007038253901436e-13,
+      3.239872338214241e-14,
+      2.489138578238703e-13,
+      5.5886032687752165e-15
+    ],
+    "minimum_slack": 9.999999999978082e-05
+  },
+  {
+    "time": 4.55999999999972,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00023942201186712706,
+    "rotation_error_rad": 0.05360527361891095,
+    "drift": [
+      5.3631560517775814e-14,
+      1.3457589353484438e-13,
+      -1.7096803261287303e-13,
+      3.2736829702788845e-14,
+      2.4950104610540567e-13,
+      5.143575341851861e-15
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 4.579999999999718,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002410446994740662,
+    "rotation_error_rad": 0.05460413573153169,
+    "drift": [
+      5.325772265359811e-14,
+      1.3828986494637612e-13,
+      -1.7184593595787868e-13,
+      3.313114584337548e-14,
+      2.499895526947131e-13,
+      4.698361361896737e-15
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.599999999999715,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00024270055303097552,
+    "rotation_error_rad": 0.05558756355039391,
+    "drift": [
+      5.2986405092334686e-14,
+      1.4202415554480607e-13,
+      -1.7278604961828723e-13,
+      3.3523885119412134e-14,
+      2.504751714390677e-13,
+      4.232678754559427e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.619999999999713,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00024438325450312277,
+    "rotation_error_rad": 0.05655461606493844,
+    "drift": [
+      5.283557536892774e-14,
+      1.4588128245570646e-13,
+      -1.7382130226028597e-13,
+      3.388613866712039e-14,
+      2.5099455798660317e-13,
+      3.8469337046478364e-15
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.639999999999711,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00024608658607183393,
+    "rotation_error_rad": 0.05750435527328275,
+    "drift": [
+      5.27973161816109e-14,
+      1.4970442555732918e-13,
+      -1.7493565736975173e-13,
+      3.423680458577234e-14,
+      2.515258906590246e-13,
+      3.3685378202963156e-15
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.659999999999709,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000247804446269755,
+    "rotation_error_rad": 0.058435846330958725,
+    "drift": [
+      5.2841448909948924e-14,
+      1.5361590393565511e-13,
+      -1.7609895149983587e-13,
+      3.4585569456413176e-14,
+      2.5203925259219004e-13,
+      2.966163319242301e-15
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 4.679999999999707,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002495308638605238,
+    "rotation_error_rad": 0.05934815769950908,
+    "drift": [
+      5.295974175676285e-14,
+      1.574541312245944e-13,
+      -1.7728859379896513e-13,
+      3.500026754173898e-14,
+      2.5251462305019105e-13,
+      2.4940369947127193e-15
+    ],
+    "minimum_slack": 9.999999999983633e-05
+  },
+  {
+    "time": 4.699999999999704,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00025126001113549384,
+    "rotation_error_rad": 0.06024036129740291,
+    "drift": [
+      5.317731324739345e-14,
+      1.613597900856582e-13,
+      -1.7854371518030082e-13,
+      3.536532227565608e-14,
+      2.5299512600058955e-13,
+      2.0322785517846844e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.719999999999702,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002529862166221423,
+    "rotation_error_rad": 0.0611115326525433,
+    "drift": [
+      5.351962683831982e-14,
+      1.6533350753316104e-13,
+      -1.7991197133043964e-13,
+      3.570360578354671e-14,
+      2.535199147805251e-13,
+      1.5961335591699317e-15
+    ],
+    "minimum_slack": 9.999999999997164e-05
+  },
+  {
+    "time": 4.7399999999997,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002547039770634743,
+    "rotation_error_rad": 0.06196075105595468,
+    "drift": [
+      5.392534616665561e-14,
+      1.6928652711999244e-13,
+      -1.8129482927225037e-13,
+      3.6091484433076204e-14,
+      2.5400459637089577e-13,
+      1.1531234498816498e-15
+    ],
+    "minimum_slack": 9.999999999997164e-05
+  },
+  {
+    "time": 4.759999999999698,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000256407969000012,
+    "rotation_error_rad": 0.06278709971720979,
+    "drift": [
+      5.442133100032459e-14,
+      1.7328109712039082e-13,
+      -1.8273496592443886e-13,
+      3.643858442737059e-14,
+      2.54482581532112e-13,
+      6.949182485775112e-16
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 4.779999999999696,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002580930597898504,
+    "rotation_error_rad": 0.06358966592162058,
+    "drift": [
+      5.4976267915153396e-14,
+      1.7728394332423666e-13,
+      -1.8420278974715367e-13,
+      3.680649444836209e-14,
+      2.549168807405781e-13,
+      2.448831892394564e-16
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.799999999999693,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002597543187833065,
+    "rotation_error_rad": 0.06436754119046002,
+    "drift": [
+      5.567069286962024e-14,
+      1.8127689857608722e-13,
+      -1.8577839916852016e-13,
+      3.716069867277855e-14,
+      2.5541676013437097e-13,
+      -2.5732024540614263e-16
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 4.819999999999691,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00026138702835115543,
+    "rotation_error_rad": 0.06511982144421935,
+    "drift": [
+      5.6371248042259525e-14,
+      1.8532860307668984e-13,
+      -1.8732776260161419e-13,
+      3.7536137838814946e-14,
+      2.5581049756284615e-13,
+      -6.880278621373901e-16
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 4.839999999999689,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00026298669542379824,
+    "rotation_error_rad": 0.06584560717016441,
+    "drift": [
+      5.721397773306616e-14,
+      1.8927774109631946e-13,
+      -1.8897482618133684e-13,
+      3.800139844356218e-14,
+      2.562731304592841e-13,
+      -1.186249029523958e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 4.859999999999687,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002645490635711593,
+    "rotation_error_rad": 0.066544003594715,
+    "drift": [
+      5.810332068672723e-14,
+      1.9320798413313746e-13,
+      -1.9063701264051607e-13,
+      3.8460707014281733e-14,
+      2.5667814906195135e-13,
+      -1.7309521568000755e-15
+    ],
+    "minimum_slack": 9.999999999993e-05
+  },
+  {
+    "time": 4.879999999999685,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00026607013375067366,
+    "rotation_error_rad": 0.06721412086166104,
+    "drift": [
+      5.90601718006173e-14,
+      1.972588058571119e-13,
+      -1.9234774766609528e-13,
+      3.885194507063275e-14,
+      2.57066283711147e-13,
+      -2.213170358828448e-15
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 4.899999999999682,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002675461711954323,
+    "rotation_error_rad": 0.067855074216444,
+    "drift": [
+      6.014336483634968e-14,
+      2.012440431699395e-13,
+      -1.9415506505807324e-13,
+      3.927849717635465e-14,
+      2.575080106326851e-13,
+      -2.756793381993154e-15
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 4.91999999999968,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002689737101561683,
+    "rotation_error_rad": 0.0684659841989272,
+    "drift": [
+      6.122933047617178e-14,
+      2.0526424796686657e-13,
+      -1.9593127927707287e-13,
+      3.973286160433018e-14,
+      2.5784586325192186e-13,
+      -3.254310516386732e-15
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 4.939999999999678,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002703495772766106,
+    "rotation_error_rad": 0.06904597684408337,
+    "drift": [
+      6.249598571476871e-14,
+      2.0935677441614669e-13,
+      -1.978886650924683e-13,
+      4.0120280565572094e-14,
+      2.583192918192909e-13,
+      -3.745973457335722e-15
+    ],
+    "minimum_slack": 9.999999999991613e-05
+  },
+  {
+    "time": 4.959999999999676,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027167091382992986,
+    "rotation_error_rad": 0.06959418389207873,
+    "drift": [
+      6.377456646269215e-14,
+      2.1331429055128447e-13,
+      -1.9980348627683977e-13,
+      4.062803826303413e-14,
+      2.586963833221565e-13,
+      -4.3087443381218625e-15
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.979999999999674,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027293519582227796,
+    "rotation_error_rad": 0.07010974300922472,
+    "drift": [
+      6.519413363657602e-14,
+      2.174726109023466e-13,
+      -2.018695724149296e-13,
+      4.097554655788084e-14,
+      2.5916045219839685e-13,
+      -4.7902425495204545e-15
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 4.999999999999671,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000274140391704557,
+    "rotation_error_rad": 0.070591798950163,
+    "drift": [
+      6.666763967833036e-14,
+      2.2150227016800198e-13,
+      -2.0394346623097048e-13,
+      4.141016080461006e-14,
+      2.5958173707197284e-13,
+      -5.371478276831817e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 5.019999999999669,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002752863750033579,
+    "rotation_error_rad": 0.071039504882161,
+    "drift": [
+      6.82110503271695e-14,
+      2.2547952293913826e-13,
+      -2.060573908629742e-13,
+      4.189499823682916e-14,
+      2.599872732675295e-13,
+      -5.992270498035026e-15
+    ],
+    "minimum_slack": 9.999999999990225e-05
+  },
+  {
+    "time": 5.039999999999667,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027636949295525257,
+    "rotation_error_rad": 0.07145201283918441,
+    "drift": [
+      6.977866382823751e-14,
+      2.295978108294478e-13,
+      -2.0819145090693356e-13,
+      4.230429816903964e-14,
+      2.603295628933643e-13,
+      -6.539047240690431e-15
+    ],
+    "minimum_slack": 9.999999999997511e-05
+  },
+  {
+    "time": 5.059999999999665,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027738781244784964,
+    "rotation_error_rad": 0.07182848514717459,
+    "drift": [
+      7.144433045396768e-14,
+      2.336862779594102e-13,
+      -2.1039925782739583e-13,
+      4.281008191351046e-14,
+      2.6070232628421655e-13,
+      -7.054750875024246e-15
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 5.079999999999663,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002783417581975747,
+    "rotation_error_rad": 0.0721680937624532,
+    "drift": [
+      7.321132055951833e-14,
+      2.3767878707634727e-13,
+      -2.126755450833409e-13,
+      4.333726345070941e-14,
+      2.6109078826487726e-13,
+      -7.696696222130489e-15
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 5.09999999999966,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00027923222285471496,
+    "rotation_error_rad": 0.07247001806764891,
+    "drift": [
+      7.50199966708341e-14,
+      2.419209692899695e-13,
+      -2.150137709407248e-13,
+      4.373280506436401e-14,
+      2.6145184038259076e-13,
+      -8.180378432474397e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 5.119999999999658,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002800601795810558,
+    "rotation_error_rad": 0.07273344496407955,
+    "drift": [
+      7.695816346286958e-14,
+      2.460530569224468e-13,
+      -2.1744530627609818e-13,
+      4.418527409688684e-14,
+      2.6186126630081457e-13,
+      -8.78575762383417e-15
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 5.139999999999656,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002808269159674615,
+    "rotation_error_rad": 0.07295756939669176,
+    "drift": [
+      7.890754986539669e-14,
+      2.5017300133809717e-13,
+      -2.1986875593443834e-13,
+      4.4688772518094014e-14,
+      2.6218405018750874e-13,
+      -9.387309847961891e-15
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 5.159999999999654,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028153430614359296,
+    "rotation_error_rad": 0.07314159488687401,
+    "drift": [
+      8.099206283152139e-14,
+      2.5427633373494084e-13,
+      -2.2240952920889563e-13,
+      4.520709478026398e-14,
+      2.6257137981360824e-13,
+      -1.0044659152980288e-14
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 5.1799999999996515,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028218488998053663,
+    "rotation_error_rad": 0.07328473400378299,
+    "drift": [
+      8.314440740700066e-14,
+      2.5831671377688007e-13,
+      -2.2499637905879059e-13,
+      4.5808000419982405e-14,
+      2.6293485459498517e-13,
+      -1.0745278515495774e-14
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 5.199999999999649,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002827819529350494,
+    "rotation_error_rad": 0.07338620885352366,
+    "drift": [
+      8.54049961849867e-14,
+      2.625835845633505e-13,
+      -2.2770842928939974e-13,
+      4.627023069682618e-14,
+      2.63340385981074e-13,
+      -1.1348748070122242e-14
+    ],
+    "minimum_slack": 9.999999999997164e-05
+  },
+  {
+    "time": 5.219999999999647,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028332968851111403,
+    "rotation_error_rad": 0.07344525159543046,
+    "drift": [
+      8.76995340652648e-14,
+      2.666601111072746e-13,
+      -2.3041218465733594e-13,
+      4.68934053880342e-14,
+      2.636590355473199e-13,
+      -1.2096985273403432e-14
+    ],
+    "minimum_slack": 9.999999999998552e-05
+  },
+  {
+    "time": 5.239999999999645,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002838351387797228,
+    "rotation_error_rad": 0.07346110472471797,
+    "drift": [
+      9.012376627037806e-14,
+      2.7083502825945577e-13,
+      -2.3325089515072743e-13,
+      4.7481113409918e-14,
+      2.6403551964315346e-13,
+      -1.2813284723539745e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 5.259999999999643,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028430740711517683,
+    "rotation_error_rad": 0.07343302357198556,
+    "drift": [
+      9.261765703940769e-14,
+      2.749413958998661e-13,
+      -2.361372594844724e-13,
+      4.813837379692749e-14,
+      2.6436949094770053e-13,
+      -1.3621849478876524e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 5.2799999999996405,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028475114919228117,
+    "rotation_error_rad": 0.07336027352488626,
+    "drift": [
+      9.522501543429114e-14,
+      2.791695574277179e-13,
+      -2.3914562845188825e-13,
+      4.876843183170397e-14,
+      2.6472615898649227e-13,
+      -1.4400282690663566e-14
+    ],
+    "minimum_slack": 9.999999999983633e-05
+  },
+  {
+    "time": 5.299999999999638,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028517120414122993,
+    "rotation_error_rad": 0.07324213119101039,
+    "drift": [
+      9.794360453377429e-14,
+      2.831637479620994e-13,
+      -2.4221350051030605e-13,
+      4.957598283099541e-14,
+      2.65067889475516e-13,
+      -1.5383411520149566e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 5.319999999999636,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028557810007718366,
+    "rotation_error_rad": 0.07307788856289886,
+    "drift": [
+      1.0075486064051312e-13,
+      2.8738318088289953e-13,
+      -2.4540339375577e-13,
+      5.0318109038739785e-14,
+      2.6540119888708033e-13,
+      -1.6254622790097073e-14
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 5.339999999999634,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002859850777850779,
+    "rotation_error_rad": 0.07286685267235499,
+    "drift": [
+      1.036971377889706e-13,
+      2.914080089425248e-13,
+      -2.486908881631306e-13,
+      5.123541342913048e-14,
+      2.657324832972671e-13,
+      -1.7318529128875896e-14
+    ],
+    "minimum_slack": 9.999999999996123e-05
+  },
+  {
+    "time": 5.359999999999632,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028640670408566635,
+    "rotation_error_rad": 0.07260834585486702,
+    "drift": [
+      1.0677980847211617e-13,
+      2.957347309652258e-13,
+      -2.5215169595012904e-13,
+      5.199833667666626e-14,
+      2.6609228426428824e-13,
+      -1.8283754929556982e-14
+    ],
+    "minimum_slack": 9.999999999994735e-05
+  },
+  {
+    "time": 5.3799999999996295,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002868629249552818,
+    "rotation_error_rad": 0.0723017065440933,
+    "drift": [
+      1.1003459328344898e-13,
+      3.000062031664843e-13,
+      -2.557781089869318e-13,
+      5.286663728447963e-14,
+      2.664964436341e-13,
+      -1.9352409130568618e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 5.399999999999627,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002873727127024477,
+    "rotation_error_rad": 0.07194629219955999,
+    "drift": [
+      1.1338712623399034e-13,
+      3.043401881307388e-13,
+      -2.594925253104444e-13,
+      5.379751412267013e-14,
+      2.668247837294694e-13,
+      -2.045718805059776e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 5.419999999999625,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028795576765790307,
+    "rotation_error_rad": 0.07154147835188794,
+    "drift": [
+      1.168975524756541e-13,
+      3.08712758165957e-13,
+      -2.633740016162232e-13,
+      5.475269881593744e-14,
+      2.671495057374668e-13,
+      -2.1671466679893493e-14
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 5.439999999999623,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00028863602254799596,
+    "rotation_error_rad": 0.07108666294153226,
+    "drift": [
+      1.2068032092132104e-13,
+      3.1313094588678295e-13,
+      -2.675392172535918e-13,
+      5.5815327407165013e-14,
+      2.675902811749228e-13,
+      -2.2939732325428e-14
+    ],
+    "minimum_slack": 9.999999999997164e-05
+  },
+  {
+    "time": 5.459999999999621,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002894361426939937,
+    "rotation_error_rad": 0.07058126698085979,
+    "drift": [
+      1.2455901015487807e-13,
+      3.1756761030473027e-13,
+      -2.71789201372097e-13,
+      5.696660855516866e-14,
+      2.678929952674126e-13,
+      -2.4328335844148404e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 5.4799999999996185,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029039335376566147,
+    "rotation_error_rad": 0.07002473702402126,
+    "drift": [
+      1.2868497470307435e-13,
+      3.2232904209016037e-13,
+      -2.7633380700467243e-13,
+      5.8030075301128e-14,
+      2.6825276663051217e-13,
+      -2.5654719193592808e-14
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 5.499999999999616,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029154601409183843,
+    "rotation_error_rad": 0.06941654959673113,
+    "drift": [
+      1.330520562281327e-13,
+      3.268779813132667e-13,
+      -2.8108499959622975e-13,
+      5.938572270975903e-14,
+      2.685830754360388e-13,
+      -2.726098875443703e-14
+    ],
+    "minimum_slack": 9.999999999982245e-05
+  },
+  {
+    "time": 5.519999999999614,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002929358931469819,
+    "rotation_error_rad": 0.06875621198794413,
+    "drift": [
+      1.3771173614230308e-13,
+      3.315556912540964e-13,
+      -2.8614775355971675e-13,
+      6.081953497483988e-14,
+      2.6894702133069575e-13,
+      -2.89543118251263e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 5.539999999999612,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002946113279018242,
+    "rotation_error_rad": 0.06804326795631636,
+    "drift": [
+      1.4264659574066634e-13,
+      3.3638826158052317e-13,
+      -2.915089670661781e-13,
+      6.23127557007844e-14,
+      2.6926227090009344e-13,
+      -3.0774773487093074e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 5.55999999999961,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00029662798296581697,
+    "rotation_error_rad": 0.06727730085297491,
+    "drift": [
+      1.479307284882144e-13,
+      3.412332793588639e-13,
+      -2.9722119705169606e-13,
+      6.401306778019767e-14,
+      2.6958175922354265e-13,
+      -3.279079048986228e-14
+    ],
+    "minimum_slack": 9.999999999989184e-05
+  },
+  {
+    "time": 5.5799999999996075,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0002990501792603857,
+    "rotation_error_rad": 0.06645794039085098,
+    "drift": [
+      1.5361263353730365e-13,
+      3.462797602372957e-13,
+      -3.0336137112236906e-13,
+      6.582913831232114e-14,
+      2.6990534426174737e-13,
+      -3.492729755889052e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 5.599999999999605,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003019521420190049,
+    "rotation_error_rad": 0.06558486755718991,
+    "drift": [
+      1.597069532846149e-13,
+      3.513748567151278e-13,
+      -3.099243877416809e-13,
+      6.781681796644418e-14,
+      2.7017486921694253e-13,
+      -3.735634470960268e-14
+    ],
+    "minimum_slack": 9.999999999976694e-05
+  },
+  {
+    "time": 5.619999999999603,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003054187364621184,
+    "rotation_error_rad": 0.06465782338374679,
+    "drift": [
+      1.6627396223185578e-13,
+      3.5621973208713113e-13,
+      -3.16926547779353e-13,
+      7.030406916492687e-14,
+      2.7036262154220906e-13,
+      -4.0216558873327946e-14
+    ],
+    "minimum_slack": 9.999999999993348e-05
+  },
+  {
+    "time": 5.639999999999601,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003095480838897195,
+    "rotation_error_rad": 0.06367661649494062,
+    "drift": [
+      1.734472007083478e-13,
+      3.615682414415084e-13,
+      -3.2461461162078926e-13,
+      7.27921642689108e-14,
+      2.706010343638248e-13,
+      -4.312469971885159e-14
+    ],
+    "minimum_slack": 9.999999999980858e-05
+  },
+  {
+    "time": 5.659999999999599,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003144641000692249,
+    "rotation_error_rad": 0.06264113424811288,
+    "drift": [
+      1.8115687689899496e-13,
+      3.6684433484007064e-13,
+      -3.328294510162545e-13,
+      7.570078097145736e-14,
+      2.706338401587414e-13,
+      -4.648085982775288e-14
+    ],
+    "minimum_slack": 9.999999999980858e-05
+  },
+  {
+    "time": 5.6799999999995965,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003202962147863338,
+    "rotation_error_rad": 0.06155135594523249,
+    "drift": [
+      1.8969882576608072e-13,
+      3.7248585514155455e-13,
+      -3.419431497050987e-13,
+      7.877969749057127e-14,
+      2.707247039673422e-13,
+      -5.009641824268808e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 5.699999999999594,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003271911307349145,
+    "rotation_error_rad": 0.06040736706905638,
+    "drift": [
+      1.9906924143863002e-13,
+      3.7835005172101174e-13,
+      -3.5192998227741697e-13,
+      8.222695799757813e-14,
+      2.7070178737585825e-13,
+      -5.407797933753735e-14
+    ],
+    "minimum_slack": 9.999999999994388e-05
+  },
+  {
+    "time": 5.719999999999592,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.000335303640912279,
+    "rotation_error_rad": 0.05920937814407396,
+    "drift": [
+      2.0941596325513163e-13,
+      3.8435640683388635e-13,
+      -3.6291739615191585e-13,
+      8.612933493450258e-14,
+      2.705214664106467e-13,
+      -5.858079040768968e-14
+    ],
+    "minimum_slack": 9.999999999977735e-05
+  },
+  {
+    "time": 5.73999999999959,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00034482723334656925,
+    "rotation_error_rad": 0.057957743751572394,
+    "drift": [
+      2.208716562890562e-13,
+      3.907822312505287e-13,
+      -3.7509010500060274e-13,
+      9.040992936344354e-14,
+      2.701711817868853e-13,
+      -6.348178287326978e-14
+    ],
+    "minimum_slack": 9.99999999999196e-05
+  },
+  {
+    "time": 5.759999999999588,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00035599908790039596,
+    "rotation_error_rad": 0.056652989013215284,
+    "drift": [
+      2.335940370167375e-13,
+      3.975599761963205e-13,
+      -3.8859280557130645e-13,
+      9.520802834030473e-14,
+      2.695367123216725e-13,
+      -6.891377410888094e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 5.7799999999995855,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00036906637641884724,
+    "rotation_error_rad": 0.055295838807667315,
+    "drift": [
+      2.479265503804525e-13,
+      4.045415647685439e-13,
+      -4.0375708459313523e-13,
+      1.0066786044045859e-13,
+      2.686794387369331e-13,
+      -7.512780964096278e-14
+    ],
+    "minimum_slack": 9.999999999980858e-05
+  },
+  {
+    "time": 5.799999999999583,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0003842816301163732,
+    "rotation_error_rad": 0.05388725103028034,
+    "drift": [
+      2.640833530926914e-13,
+      4.1210985091061974e-13,
+      -4.2085732190099935e-13,
+      1.0678120485722662e-13,
+      2.6746600093688305e-13,
+      -8.193385814816469e-14
+    ],
+    "minimum_slack": 9.999999999982245e-05
+  },
+  {
+    "time": 5.819999999999581,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00040195103782184397,
+    "rotation_error_rad": 0.052428452706386415,
+    "drift": [
+      2.8234501745810353e-13,
+      4.2009801328635176e-13,
+      -4.401517329301558e-13,
+      1.1365455610579752e-13,
+      2.6574605526564093e-13,
+      -8.964944957212754e-14
+    ],
+    "minimum_slack": 9.999999999987796e-05
+  },
+  {
+    "time": 5.839999999999579,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0004224423632581547,
+    "rotation_error_rad": 0.05092098610118598,
+    "drift": [
+      3.031409608721815e-13,
+      4.2871571948173836e-13,
+      -4.621075324714797e-13,
+      1.2138692411357446e-13,
+      2.634315177983129e-13,
+      -9.826498363905624e-14
+    ],
+    "minimum_slack": 9.999999999988837e-05
+  },
+  {
+    "time": 5.859999999999577,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.0004461304493261496,
+    "rotation_error_rad": 0.049366753187823124,
+    "drift": [
+      3.269934677558438e-13,
+      4.383249328312014e-13,
+      -4.873046517723366e-13,
+      1.3000561016420642e-13,
+      2.6044003680492107e-13,
+      -1.0765681328400927e-13
+    ],
+    "minimum_slack": 9.99999999999196e-05
+  },
+  {
+    "time": 5.8799999999995745,
+    "success": true,
+    "bound_conflicts": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "position_error_m": 0.00047344493309974596,
+    "rotation_error_rad": 0.04776806058792433,
+    "drift": [
+      3.54355833451894e-13,
+      4.4901044468971103e-13,
+      -5.162240110286194e-13,
+      1.3956057895056507e-13,
+      2.564350702545941e-13,
+      -1.1803507378421788e-13
+    ],
+    "minimum_slack": -9.999999999998899e-05
+  }
+]

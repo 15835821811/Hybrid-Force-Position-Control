@@ -1,0 +1,901 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2026-07-29T14:52:43Z",
+      "timestamp": 1785336763237,
+      "version": "3.55.0"
+    },
+    "reference-count": 50,
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2012CB821200"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2012CB821200"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2012CB821201"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2012CB821201"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012336",
+        "name": "973 Program",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100012336",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62133001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62133001"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62227810"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62227810"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of the Franklin Institute"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jfranklin.2023.12.044",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          21
+        ]
+      ],
+      "date-time": "2023-12-21T13:13:19Z",
+      "timestamp": 1703164399000
+    },
+    "page": "1040-1059",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Double-layer prescribed performance control of free-floating space manipulators after capturing unknown targets"
+    ],
+    "prefix": "10.1016",
+    "volume": "361",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2868-2122",
+        "authenticated-orcid": false,
+        "given": "Kai",
+        "family": "Gong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yingmin",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5294-1142",
+        "authenticated-orcid": false,
+        "given": "Yuxin",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfranklin.2023.12.044_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1973",
+        "DOI": "10.1109/TIE.2018.2838065",
+        "article-title": "Adaptive sliding mode disturbance observer-based composite control with prescribed performance of space manipulators for target capturing",
+        "volume": "66",
+        "author": "Zhu",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.jfranklin.2023.12.044_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "8383",
+        "DOI": "10.1016/j.jfranklin.2020.03.041",
+        "article-title": "Dynamics modeling and attitude stabilization control of a multiarmed space robot for on-orbit servicing",
+        "volume": "357",
+        "author": "Wu",
+        "year": "2020",
+        "journal-title": "J. Franklin Inst. B"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.jfranklin.2023.12.044_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "4274",
+        "DOI": "10.1109/TSMC.2019.2931930",
+        "article-title": "High-precision attitude tracking control of space manipulator system under multiple disturbances",
+        "volume": "51",
+        "author": "Qiao",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Syst. Man Cybern. A"
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.jfranklin.2023.12.044_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "9542",
+        "DOI": "10.1016/j.jfranklin.2021.09.030",
+        "article-title": "Predefined-time control for free-floating space robots in task space",
+        "volume": "358",
+        "author": "Jin",
+        "year": "2021",
+        "journal-title": "J. Franklin Inst. B"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.actaastro.2015.03.008",
+        "article-title": "Trajectory planning of free-floating space robot using Particle Swarm Optimization (PSO)",
+        "volume": "112",
+        "author": "Wang",
+        "year": "2015",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfranklin.2023.12.044_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2795",
+        "DOI": "10.1109/LRA.2022.3143586",
+        "article-title": "Direct trajectory optimization of free-floating space manipulator for reducing spacecraft variation",
+        "volume": "7",
+        "author": "Shao",
+        "year": "2022",
+        "journal-title": "IEEE Robot. Autom. Lett."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfranklin.2023.12.044_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1855",
+        "DOI": "10.1109/TAES.2017.2674218",
+        "article-title": "Eye-in-hand tracking control of a free-floating space manipulator",
+        "volume": "53",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfranklin.2023.12.044_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "435",
+        "DOI": "10.1109/TAES.2021.3103239",
+        "article-title": "Velocity-free trajectory tracking and active vibration control of flexible space manipulator",
+        "volume": "58",
+        "author": "Jia",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jfranklin.2023.12.044_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "3183",
+        "DOI": "10.1016/j.asr.2022.07.070",
+        "article-title": "Adaptive reactionless control of free-floating space manipulators for detumbling a target with dynamic uncertainties",
+        "volume": "70",
+        "author": "Zhan",
+        "year": "2022",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfranklin.2023.12.044_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2437",
+        "DOI": "10.1016/j.asr.2022.10.027",
+        "article-title": "Coordinated control of dual-arm robot on space structure for capturing space targets",
+        "volume": "71",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b11",
+        "first-page": "1",
+        "article-title": "Robust adaptive learning control of space robot for target capturing using neural network",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b12",
+        "first-page": "1",
+        "article-title": "Swarm trajectories generation for target capturing with uncertain information",
+        "author": "Fedele",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Control Netw. Syst."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfranklin.2023.12.044_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "496",
+        "DOI": "10.1016/j.asr.2018.09.025",
+        "article-title": "Motion prediction of an uncontrolled space target",
+        "volume": "63",
+        "author": "Zhou",
+        "year": "2019",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2019.105437",
+        "article-title": "Integrated design of trajectory tracking and inertia property identification for post-capture of non-cooperative target",
+        "volume": "95",
+        "author": "Zhao",
+        "year": "2019",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jfranklin.2023.12.044_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1985",
+        "DOI": "10.1016/j.jfranklin.2016.03.011",
+        "article-title": "Reconfigurable spacecraft attitude takeover control in post-capture of target by space manipulators",
+        "volume": "353",
+        "author": "Huang",
+        "year": "2016",
+        "journal-title": "J. Franklin Inst. B"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.jfranklin.2023.12.044_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "3952",
+        "DOI": "10.1016/j.asr.2022.03.017",
+        "article-title": "Optimal detumbling strategy for a non-cooperative target with unknown inertial parameters using a space manipulator",
+        "volume": "69",
+        "author": "Dou",
+        "year": "2022",
+        "journal-title": "Adv. Space Res."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jfranklin.2023.12.044_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "342",
+        "DOI": "10.1016/j.cja.2021.10.008",
+        "article-title": "Capture and detumbling control for active debris removal by a dual-arm space robot",
+        "volume": "35",
+        "author": "Han",
+        "year": "2022",
+        "journal-title": "Chin. J. Aeronaut."
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.jfranklin.2023.12.044_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "7913",
+        "DOI": "10.1016/j.jfranklin.2022.08.012",
+        "article-title": "Predictive motion control for autonomous capture of a tumbling target with a space manipulator",
+        "volume": "359",
+        "author": "Jiao",
+        "year": "2022",
+        "journal-title": "J. Franklin Inst. B"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b19",
+        "series-title": "Proceedings of the 1994 IEEE International Conference on Robotics and Automation, Vol. 2",
+        "first-page": "1066",
+        "article-title": "Motion estimation of unknown rigid body under no external forces and moments",
+        "author": "Masutani",
+        "year": "1994"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b20",
+        "series-title": "2009 IEEE International Conference on Robotics and Biomimetics",
+        "first-page": "1768",
+        "article-title": "Vision-based space manipulator online self-calibration",
+        "author": "Li",
+        "year": "2009"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfranklin.2023.12.044_b21",
+        "doi-asserted-by": "crossref",
+        "first-page": "538",
+        "DOI": "10.2514/1.37129",
+        "article-title": "Motion and parameter estimation of space objects using laser-vision data",
+        "volume": "32",
+        "author": "Aghili",
+        "year": "2009",
+        "journal-title": "J. Guid. Control Dyn."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfranklin.2023.12.044_b22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2015",
+        "DOI": "10.1109/TMECH.2016.2547905",
+        "article-title": "Robust relative navigation by integration of ICP and adaptive Kalman filter using laser scanner and IMU",
+        "volume": "21",
+        "author": "Aghili",
+        "year": "2016",
+        "journal-title": "IEEE/ASME Trans. Mechatronics"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b23",
+        "first-page": "1",
+        "article-title": "An integrated kinematic calibration and dynamic identification method with only static measurements for serial robot",
+        "author": "Yuan",
+        "year": "2023",
+        "journal-title": "IEEE/ASME Trans. Mechatronics"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b24",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1016/j.actaastro.2016.11.019",
+        "article-title": "Inertial parameter identification using contact force information for an unknown object captured by a space manipulator",
+        "volume": "131",
+        "author": "Chu",
+        "year": "2017",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2020/5142925",
+        "article-title": "Payload parameter identification of a flexible space manipulator system via complex eigenvalue estimation",
+        "volume": "2020",
+        "author": "Ni",
+        "year": "2020",
+        "journal-title": "Int. J. Aerosp. Eng."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b26",
+        "series-title": "2007 IEEE/RSJ International Conference on Intelligent Robots and Systems, Vols. 1-9",
+        "first-page": "853",
+        "article-title": "On-line parameter adaptation for a momentum control in the post-grasping of a tumbling target with model uncertainty",
+        "author": "Abiko",
+        "year": "2007"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfranklin.2023.12.044_b27",
+        "doi-asserted-by": "crossref",
+        "first-page": "404",
+        "DOI": "10.2514/1.57856",
+        "article-title": "Adaptive reactionless motion and parameter identification in postcapture of space debris",
+        "volume": "36",
+        "author": "Nguyen-Huynh",
+        "year": "2013",
+        "journal-title": "J. Guid. Control Dyn."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1016/j.actaastro.2016.12.031",
+        "article-title": "On-orbit identifying the inertia parameters of space robotic systems using simple equivalent dynamics",
+        "volume": "132",
+        "author": "Xu",
+        "year": "2017",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfranklin.2023.12.044_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "508",
+        "DOI": "10.2514/1.G003541",
+        "article-title": "Momentum model-based minimal parameter identification of a space robot",
+        "volume": "42",
+        "author": "Naveen",
+        "year": "2019",
+        "journal-title": "J. Guid. Control Dyn."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b30",
+        "series-title": "Adaptive Control",
+        "author": "Åström",
+        "year": "2013"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jfranklin.2023.12.044_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1007/s11071-019-04798-w",
+        "article-title": "Parameters concurrent learning and reactionless control in post-capture of unknown targets by space manipulators",
+        "volume": "96",
+        "author": "Zong",
+        "year": "2019",
+        "journal-title": "Nonlinear Dynam."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2020.106192",
+        "article-title": "Continuous integral sliding mode control for space manipulator with actuator uncertainties",
+        "volume": "106",
+        "author": "Jia",
+        "year": "2020",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfranklin.2023.12.044_b33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/aerospace9020105",
+        "article-title": "TDE-based adaptive integral sliding mode control of space manipulator for space-debris active removal",
+        "volume": "9",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Aerospace"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfranklin.2023.12.044_b34",
+        "doi-asserted-by": "crossref",
+        "first-page": "550",
+        "DOI": "10.1017/S0263574719000857",
+        "article-title": "Hybrid-trajectory based terminal sliding mode control of a flexible space manipulator with an elastic base",
+        "volume": "38",
+        "author": "Yu",
+        "year": "2020",
+        "journal-title": "Robotica"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jfranklin.2023.12.044_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "625",
+        "DOI": "10.1017/S0263574721000734",
+        "article-title": "Trajectory planning and low-chattering fixed-time nonsingular terminal sliding mode control for a dual-arm free-floating space robot",
+        "volume": "40",
+        "author": "Yan",
+        "year": "2022",
+        "journal-title": "Robotica"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b36",
+        "doi-asserted-by": "crossref",
+        "first-page": "156",
+        "DOI": "10.1016/j.actaastro.2020.06.028",
+        "article-title": "Motion control of a space manipulator using fuzzy sliding mode control with reinforcement learning",
+        "volume": "176",
+        "author": "Xie",
+        "year": "2020",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jfranklin.2023.12.044_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "178",
+        "DOI": "10.1016/j.cja.2020.12.016",
+        "article-title": "Adaptive fuzzy terminal sliding mode control for the free-floating space manipulator with free-swinging joint failure",
+        "volume": "34",
+        "author": "Jia",
+        "year": "2021",
+        "journal-title": "Chin. J. Aeronaut."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b38",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ast.2022.107649",
+        "article-title": "Output- and state-dependent Riccati equation: An output feedback controller design",
+        "volume": "126",
+        "author": "Nekoo",
+        "year": "2022",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b39",
+        "series-title": "2018 Mexican International Conference on Artificial Intelligence, Vol. 11289",
+        "first-page": "264",
+        "article-title": "Free model task space controller based on adaptive gain for robot manipulator using Jacobian estimation",
+        "author": "Gomez",
+        "year": "2018"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jfranklin.2023.12.044_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1510",
+        "DOI": "10.1016/j.automatica.2009.02.013",
+        "article-title": "Passivity based adaptive Jacobian tracking for free-floating space manipulators without using spacecraft acceleration",
+        "volume": "45",
+        "author": "Wang",
+        "year": "2009",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b41",
+        "series-title": "2005 2nd International Conference on Electrical and Electronics Engineering",
+        "first-page": "335",
+        "article-title": "Stable task space neurocontroller for robot manipulators without Jacobian matrix",
+        "author": "Loreto",
+        "year": "2005"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jfranklin.2023.12.044_b42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1177/1687814016645447",
+        "article-title": "RETRACTED: Jacobian free monotonic descent algorithm for forward kinematics of spatial parallel manipulator",
+        "volume": "8",
+        "author": "Shen",
+        "year": "2016",
+        "journal-title": "Adv. Mech. Eng."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jfranklin.2023.12.044_b43",
+        "doi-asserted-by": "crossref",
+        "first-page": "2090",
+        "DOI": "10.1109/TAC.2008.929402",
+        "article-title": "Robust adaptive control of feedback linearizable MIMO nonlinear systems with prescribed performance",
+        "volume": "53",
+        "author": "Bechlioulis",
+        "year": "2008",
+        "journal-title": "IEEE Trans. Automat. Control"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b44",
+        "doi-asserted-by": "crossref",
+        "first-page": "568",
+        "DOI": "10.1016/j.ast.2017.10.013",
+        "article-title": "Robust prescribed performance tracking control for free-floating space manipulators with kinematic and dynamic uncertainty",
+        "volume": "71",
+        "author": "Zhou",
+        "year": "2017",
+        "journal-title": "Aerosp. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b45",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1016/j.isatra.2018.01.016",
+        "article-title": "Robust inertia-free attitude takeover control of postcapture combined spacecraft with guaranteed prescribed performance",
+        "volume": "74",
+        "author": "Luo",
+        "year": "2018",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfranklin.2023.12.044_b46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1541",
+        "DOI": "10.1007/s11071-019-05071-w",
+        "article-title": "Adaptive coordinated control of uncertain free-floating space manipulators with prescribed control performance",
+        "volume": "97",
+        "author": "Lu",
+        "year": "2019",
+        "journal-title": "Nonlinear Dynam."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.jfranklin.2023.12.044_b47",
+        "doi-asserted-by": "crossref",
+        "first-page": "4571",
+        "DOI": "10.1016/j.jfranklin.2021.03.001",
+        "article-title": "Prescribed performance tracking control of a free-flying flexible-joint space robot with disturbances under input saturation",
+        "volume": "358",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "J. Franklin Inst. B"
+      },
+      {
+        "key": "10.1016/j.jfranklin.2023.12.044_b48",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1016/j.actaastro.2021.05.016",
+        "article-title": "Adaptive trajectory tracking control of a free-flying space manipulator with guaranteed prescribed performance and actuator saturation",
+        "volume": "185",
+        "author": "Yao",
+        "year": "2021",
+        "journal-title": "Acta Astronaut."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.jfranklin.2023.12.044_b49",
+        "doi-asserted-by": "crossref",
+        "first-page": "531",
+        "DOI": "10.1109/70.258046",
+        "article-title": "The kinematics, dynamics, and control of free-flying and free-floating space robotic systems",
+        "volume": "9",
+        "author": "Dubowsky",
+        "year": "1993",
+        "journal-title": "IEEE Trans. Robot. Autom."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jfranklin.2023.12.044_b50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1490",
+        "DOI": "10.1109/TAES.2019.2934371",
+        "article-title": "Reactionless control of free-floating space manipulators",
+        "volume": "56",
+        "author": "Zong",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Aerosp. Electron. Syst."
+      }
+    ],
+    "container-title": [
+      "Journal of the Franklin Institute"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0016003223008153?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0016003223008153?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2025-09-16T10:27:06Z",
+      "timestamp": 1758018426000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0016003223008153"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0016003223008153"
+    ],
+    "URL": "https://doi.org/10.1016/j.jfranklin.2023.12.044",
+    "relation": {},
+    "ISSN": [
+      "0016-0032"
+    ],
+    "issn-type": [
+      {
+        "value": "0016-0032",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Double-layer prescribed performance control of free-floating space manipulators after capturing unknown targets",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of the Franklin Institute",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jfranklin.2023.12.044",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 The Franklin Institute. Published by Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

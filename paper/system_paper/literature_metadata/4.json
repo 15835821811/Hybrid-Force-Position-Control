@@ -1,0 +1,472 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2026-08-18T15:57:56Z",
+      "timestamp": 1787068676833,
+      "version": "build-2736575974"
+    },
+    "reference-count": 42,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2025-12-01T00:00:00Z",
+          "timestamp": 1764547200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE/ASME Trans. Mechatron."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/tmech.2025.3545201",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2025-03-14T13:48:27Z",
+      "timestamp": 1741960107000
+    },
+    "page": "5710-5721",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Unified Control of an Orbital Manipulator for the Approach and Grasping of a Free-Floating Satellite"
+    ],
+    "prefix": "10.1109",
+    "volume": "30",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-7675-8485",
+        "authenticated-orcid": false,
+        "given": "Ria",
+        "family": "Vijayan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Robotics and Mechatronics, German Aerospace Center (DLR), Wessling, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3777-9487",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "De Stefano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Robotics and Mechatronics, German Aerospace Center (DLR), Wessling, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3463-5074",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Dietrich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Robotics and Mechatronics, German Aerospace Center (DLR), Wessling, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0987-7493",
+        "authenticated-orcid": false,
+        "given": "Christian",
+        "family": "Ott",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "TU Wien and German Aerospace Center (DLR), Oberpfaffenhofen-Wessling, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/ECC.2019.8796282"
+      },
+      {
+        "key": "ref2",
+        "article-title": "The DEOS automation and robotics payload",
+        "volume-title": "Proc. Symp. Adv. Space Technol. Robot. Automat.",
+        "author": "Rank",
+        "year": "2011"
+      },
+      {
+        "key": "ref3",
+        "first-page": "10",
+        "article-title": "Results of the comrade project: Combined control for robotic spacecraft and manipulator in servicing missions: Active debris removal and re-fuelling",
+        "volume-title": "Proc. 11th Int. ESA Conf. Guid., Navigation Control Syst.",
+        "author": "Colmenarejo",
+        "year": "2020"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frobt.2021.686723"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frobt.2018.00100"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G002145"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)AS.1943-5525.0000645"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2019.2895420"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.paerosci.2014.03.002"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/frobt.2024.1470950"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/70.768186"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2003.1249626"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2013.6631062"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.robot.2020.103564"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40295-022-00330-2"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G004758"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G003111"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0263574714000587"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2011.6095159"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2018.8460475"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/icra46639.2022.9812067"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ifacol.2023.01.129"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JRA.1987.1087111"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2015.7139588"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/6.2008-7273"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/1.G002405"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2019.2961167"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2018.2855799"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ROBOT.2009.5152235"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CCA.2005.1507185"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364914566516"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2019.2945876"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/027836499501400103"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/027836499701600203"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ROBOT.2008.4543500"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/70.760350"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3182/20080706-5-KR-1001.00194"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ROBOT.2003.1242165"
+      },
+      {
+        "key": "ref39",
+        "first-page": "11812",
+        "article-title": "Caesar: Space robotics technology for assembly, maintenance, and repair",
+        "volume-title": "Proc. Int. Astronautical Congr.",
+        "author": "Beyer",
+        "year": "2018"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AERO58975.2024.10521010"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Open dynamics engine",
+        "author": "Smith",
+        "year": "2024"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TRO.2022.3206716"
+      }
+    ],
+    "container-title": [
+      "IEEE/ASME Transactions on Mechatronics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/3516/11317908/10927655.pdf?arnumber=10927655",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T06:34:19Z",
+      "timestamp": 1767076459000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10927655/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "6"
+    },
+    "URL": "https://doi.org/10.1109/tmech.2025.3545201",
+    "relation": {},
+    "ISSN": [
+      "1083-4435",
+      "1941-014X"
+    ],
+    "issn-type": [
+      {
+        "value": "1083-4435",
+        "type": "print"
+      },
+      {
+        "value": "1941-014X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    }
+  }
+}
