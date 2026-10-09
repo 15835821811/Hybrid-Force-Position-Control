@@ -1,0 +1,9 @@
+{
+  "remote_url": "https://github.com/15835821811/Hybrid-Force-Position-Control.git",
+  "branch": "codex/n208-passive-target-estimation-capture",
+  "verified_content_commit": "12ecd6faf54793d9d72e4f387831c73e6de7c335",
+  "remote_acknowledged_commit": "12ecd6faf54793d9d72e4f387831c73e6de7c335",
+  "verified_utc": "2026-10-09T03:50:30.140018+00:00",
+  "lfs_upload": "git push reported27/27 objects,442 MB,successful",
+  "scope": "Source,configs,all15runs,replays,10figures,2videos and report. Receipt itself is committed in a following metadata-only commit; it does not self-certify its own hash."
+}

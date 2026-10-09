@@ -112,3 +112,5 @@ not itself proof of a passed test; inspect corresponding ledger and output.
     visual_quality_review.md. Resource allowance and prediction counts saved
     separately in resource_accounting.json (allowance is not measured CPU).
 36. Completion audit passed all15 checks, including frozen execution, all trace replays, media hashes, full validation schedule and budget. Both videos fully decoded without errors. Final Git scope review and independent-branch push follow.
+
+37. Content commit 12ecd6faf54793d9d72e4f387831c73e6de7c335 pushed to hybrid/codex/n208-passive-target-estimation-capture. Git LFS27/27 objects (442 MB) uploaded successfully. git ls-remote matched content HEAD. A metadata-only follow-up stores push_receipt.json and the remote audit flag.

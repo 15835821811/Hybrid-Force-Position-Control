@@ -181,5 +181,7 @@
   },
   "visual_review": "See visual_quality_review.md; automated hashes/dimensions do not replace rendered inspection.",
   "physical_success_not_required_for_honest_delivery": true,
-  "remote_push_verified": false
+  "remote_push_verified": true,
+  "verified_remote_content_commit": "12ecd6faf54793d9d72e4f387831c73e6de7c335",
+  "remote_verification_scope": "See push_receipt.json; content commit verified with git ls-remote, metadata receipt added afterward."
 }
