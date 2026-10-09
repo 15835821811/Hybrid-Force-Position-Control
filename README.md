@@ -1,7 +1,25 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
+<!-- N209 CURRENT START -->
+## 当前分支 N209：估计不确定性与参考可实现性
+
+**PARTIAL_OPERATING_DOMAIN_MISMATCH**：8 条已见开发/回归中，3 条完成、5 条早停；全部统一双重重放通过。H2/S01 未完成，独立验证未准入。论文数据审计为 WARN，无实质数值不符；这不是鲁棒性能或硬件就绪结论。
+
+- [完整报告](paper/N209_FEASIBILITY_AND_UNCERTAINTY_REPORT.md) · [论文 V1](paper/system_paper/manuscript_v1.md) · [审计](paper/PAPER_CLAIM_AUDIT.md)
+- [当前全部可视化：8 个视频、88 组逐运行诊断图和5组论文主图](output/fpmfc/n209_paper_system/visualizations/README.md) · [本地图集](output/fpmfc/n209_paper_system/visualizations/index.html)
+- [五视角与连续体侧总览](output/fpmfc/n209_paper_system/visualizations/overview_five_views_and_body_side.mp4) · [独立连续体侧视频](output/fpmfc/n209_paper_system/visualizations/body_side.mp4) · [接口近景](output/fpmfc/n209_paper_system/visualizations/interface_closeup.mp4)
+- [末端实际/参考轨迹](output/fpmfc/n209_paper_system/visualizations/trajectory.png) · [跟踪误差](output/fpmfc/n209_paper_system/visualizations/tracking.png) · [所有8条运行](output/fpmfc/n209_paper_system/visualizations/README.md#全部运行)
+
+视频来自最终 V2 名义回归 `R01_V2_nominal`：7.992 s 锁紧，完整运行至27.992 s。参考在锁紧后停用，抓后保持量单独展示。所有失败记录仍可在图集中查看。
+
+![N209 当前五视角与体侧终帧](output/fpmfc/n209_paper_system/visualizations/overview_five_views_and_body_side_last.png)
+![N209 当前末端轨迹跟踪误差](output/fpmfc/n209_paper_system/visualizations/tracking.png)
+
+下面 N208 及更早内容为历史记录，不作为当前 N209 的新增验证。
+<!-- N209 CURRENT END -->
+
 <!-- N208 CURRENT START -->
-## 当前分支 N208：被动目标估计与事件捕获
+## 历史 N208：被动目标估计与事件捕获
 
 选中运行 `D06_final_gain3`：连续任务 **True**，固定末窗消旋 **True**。共记录 15 次完整机器人尝试，所有早停保留。自然任务全惯性辨识尚未验证；任务完成与参数识别分别判定。
 

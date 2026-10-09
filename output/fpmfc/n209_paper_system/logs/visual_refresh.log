@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\admin\AppData\Roaming\uv\python\cpython-3.10.19-windows-x86_64-none\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\admin\.codex\worktrees\n209-feasible-capture\��λ�λ�Ͽ���\v6_mujoco\feasible_capture\__main__.py", line 54, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\admin\.codex\worktrees\n209-feasible-capture\��λ�λ�Ͽ���\v6_mujoco\feasible_capture\__main__.py", line 14, in main
+    run(a.name or SELECTED,a.resume);return
+  File "C:\Users\admin\.codex\worktrees\n209-feasible-capture\��λ�λ�Ͽ���\v6_mujoco\feasible_capture\visualization.py", line 215, in run
+    plot_run(attempt['name'])
+  File "C:\Users\admin\.codex\worktrees\n209-feasible-capture\��λ�λ�Ͽ���\v6_mujoco\feasible_capture\visualization.py", line 150, in plot_run
+    pt=np.array([x['time_s'] for x in posterior]);sv=np.array([x['singular_values'] for x in posterior]);threshold=np.maximum(cfg['mission']['information_singular_min'],sv[:,0]*cfg['mission']['information_relative_min'])
+  File "C:\Users\admin\.codex\worktrees\n209-feasible-capture\��λ�λ�Ͽ���\v6_mujoco\feasible_capture\visualization.py", line 150, in <listcomp>
+    pt=np.array([x['time_s'] for x in posterior]);sv=np.array([x['singular_values'] for x in posterior]);threshold=np.maximum(cfg['mission']['information_singular_min'],sv[:,0]*cfg['mission']['information_relative_min'])
+KeyError: 'time_s'

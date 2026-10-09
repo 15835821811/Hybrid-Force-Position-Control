@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "errors": [],
+  "run_count": 8,
+  "diagnostic_figures": 88,
+  "videos_decoded": 8,
+  "decoded_streams": {
+    "isometric": {
+      "codec_name": "h264",
+      "width": 960,
+      "height": 600,
+      "nb_read_frames": "841"
+    },
+    "front": {
+      "codec_name": "h264",
+      "width": 960,
+      "height": 600,
+      "nb_read_frames": "841"
+    },
+    "right": {
+      "codec_name": "h264",
+      "width": 960,
+      "height": 600,
+      "nb_read_frames": "841"
+    },
+    "top": {
+      "codec_name": "h264",
+      "width": 960,
+      "height": 600,
+      "nb_read_frames": "841"
+    },
+    "rear": {
+      "codec_name": "h264",
+      "width": 960,
+      "height": 600,
+      "nb_read_frames": "841"
+    },
+    "overview_five_views_and_body_side": {
+      "codec_name": "h264",
+      "width": 2880,
+      "height": 1200,
+      "nb_read_frames": "841"
+    },
+    "body_side": {
+      "codec_name": "h264",
+      "width": 960,
+      "height": 600,
+      "nb_read_frames": "841"
+    },
+    "interface_closeup": {
+      "codec_name": "h264",
+      "width": 960,
+      "height": 600,
+      "nb_read_frames": "841"
+    }
+  },
+  "paper_audit_inputs_unchanged": true,
+  "new_physical_attempts": 0,
+  "selected_video_run": "R01_V2_nominal",
+  "scope": "visual regeneration, exact source identity and complete video decoding; no new performance qualification",
+  "validator_sha256": "d5e8522ddcd934d1f98fcf6b511bac154ac121f93186cc2d01da9bcf1dd316b0"
+}

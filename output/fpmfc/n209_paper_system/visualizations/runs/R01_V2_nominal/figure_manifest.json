@@ -1,0 +1,134 @@
+{
+  "trajectory": {
+    "title": "末端实际与参考轨迹",
+    "caption": "World XY/XZ paths of the actual flange and the recorded live reference, only while the approach reference is applicable. Equal spatial scales. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "349ba2d5d8d4cf586d9a3eada2f76e399212e6e8d02f65744352225b6be75df9",
+    "pdf_sha256": "62ff31474eeb93c00b69cca0110c8df7a7832e3ffab4d9ed0de78db4827a0860",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "tracking": {
+    "title": "末端轨迹跟踪误差",
+    "caption": "Actual flange minus the recorded live reference during approach: world position components, position norm, and SO(3) rotation error. No inactive post-latch reference is extended. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "678950332629eb652a270be5b0bcb1fab278586b4118418661e2feaf12257d0b",
+    "pdf_sha256": "9e94198e43f66b0ac07a58bf0d86f6f07a7035a9d26c8f8ea48e12b89670704e",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "reference_progress": {
+    "title": "参考进度与治理候选",
+    "caption": "Virtual path time in seconds, virtual-time rate, acceleration and selected candidate. A red x means no verified candidate, not an accepted zero-speed command. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "60b22614be3cf86dc326f5f37b2fb543da85253e64d572447e0657aba1da92c6",
+    "pdf_sha256": "af464ae8822717da867810ea8fe336de9f839a91e90d07e19278d2d64c650160",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "state_estimation": {
+    "title": "状态估计误差与测量年龄",
+    "caption": "Geometric-origin estimation errors at valid estimator-output ticks. Shading is the maximum of three marginal 3-sigma values, not joint coverage or a safety certificate. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "fb1458640c3d0eff98d13f8175da3170768a0fdc9690d37a2175f3a3da2b5d40",
+    "pdf_sha256": "896e236a37f8b995aea553c899480376fe667b9a9cf89dadaa4be8e06a20260b",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "capture_and_load": {
+    "title": "实际捕获量与接口载荷",
+    "caption": "Independent physical capture quantities and actual load. Dashed pose lines denote capture gates; dotted post-latch lines denote holding gates. Values are not corrected by subtracting numerical residuals. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "4f53f9c36674824fc6600da327ed59bef88123435622b31d99be09949234cb45",
+    "pdf_sha256": "3a82778251a626a24c52960d0d74d1ed08b7031284cb2966422a570fd1091f7e",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "detumbling": {
+    "title": "世界与相对角速度",
+    "caption": "Target world and target-base relative angular-speed norms. The fixed final two-second window is shaded only for completed full-horizon runs. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "24730207a97605bd0e9ceb483dad7185010476d2e0d2a4a6c3b882a9394c58f0",
+    "pdf_sha256": "ff78db5a863060a41edc11012ccfe67b3b5155dd380f34c7661c65deebad57dc",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "momentum_energy": {
+    "title": "动量、能量与功",
+    "caption": "Separate linear/angular momentum drift, kinetic/relative energy and integrated work. Momentum and actual safety quantities retain their original SI definitions. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "91c7ebbde80eef7c29d0585905fb53ad7d5665d36ab7c523b1683134ebe89f6e",
+    "pdf_sha256": "3d6024fbd48f01b58226cc7b28c0e5f90974f7f51d2b671bcd32a804cb76f52a",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "joints": {
+    "title": "七关节状态与实际力矩",
+    "caption": "All seven joint positions, velocities and actual actuator forces from the saved physical trajectory. Line style and color identify each joint. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "77e5db64c81ff67b0f4d46f7b9bbfe9ca4b8618f21146010a1876b6ef367d503",
+    "pdf_sha256": "0737fd1aff037fb1843aa205a382c862617b1207b052ec70d286423254384a6f",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "geometry": {
+    "title": "碰撞距离与接口几何",
+    "caption": "Original and added robot-clearance pairs, other target pairs and intended interface contact are shown with their separate original thresholds. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "890417d1fd23e0c8c7cc6039160152f5c348167258863526817c5711663f35d6",
+    "pdf_sha256": "38c2f04ce9614f25d0981483b72a335e00deb9a2b05b9abda0127b55438c88dc",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "identification": {
+    "title": "影子惯性辨识",
+    "caption": "Shadow posterior parameters and finite-data rank; evaluation-only truth is dashed in the matching component color. The logarithmic singular-value display floors values below 1e-12; this floor is not measured excitation. Parameter feedback remains disabled. Numerical rank is not parameter accuracy or control benefit. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "d8befb5cce1cb757ba435362078e307772a56d297a274b0959f04482b883f84c",
+    "pdf_sha256": "1de96dca0f410690483d30bd8a4ff4cba7b6c43fbd5aedf38be774efe166f23f",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  },
+  "base_motion": {
+    "title": "被动基座漂移与角速度",
+    "caption": "Passive-base translation and geodesic attitude change relative to its initial pose, followed by world angular-velocity components. No base actuator is introduced. Run R01_V2_nominal; COMPLETED; actual interval 0.000–27.992 s; latch 7.992 s; final window EVALUATED. All runs are seen development/regression.",
+    "trace_sha256": "6c085cddf9df73debd1614ff16978ea37c0e72271cc273be0b24ce9d4bc536bb",
+    "run": "R01_V2_nominal",
+    "png_sha256": "13c7af0a0bd58d2d495ffe3f2fbb3096faebb45e286cfa81b9f6589131a0da3b",
+    "pdf_sha256": "a81c163e81d6135393547110a1f2f25daf44dc1b2026685b8037f0b7afdbe249",
+    "source_fields_time_range_s": [
+      0.0,
+      27.991999999995365
+    ]
+  }
+}

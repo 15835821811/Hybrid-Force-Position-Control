@@ -5,10 +5,13 @@ from .common import ROOT,read,save,prepare,ledger
 
 def main():
     p=argparse.ArgumentParser();g=p.add_mutually_exclusive_group(required=True)
-    for op in ['prepare','audit-existing','develop','regression','freeze','validate-holdout','replay-only','paper','all','test']:g.add_argument('--'+op,action='store_true')
+    for op in ['prepare','audit-existing','develop','regression','freeze','validate-holdout','replay-only','paper','all','test','visualize']:g.add_argument('--'+op,action='store_true')
     p.add_argument('--resume',action='store_true');p.add_argument('--budget',type=int,default=8)
     p.add_argument('--name');p.add_argument('--validation-tag',default='');p.add_argument('--sensor',default='ideal');p.add_argument('--scenario',default='nominal');p.add_argument('--method',default='B1',choices=['B0','B1','B2']);a=p.parse_args()
     if a.prepare:prepare();return
+    if a.visualize:
+        from .visualization import run,SELECTED
+        run(a.name or SELECTED,a.resume);return
     if a.audit_existing:
         for n in ['H2_prior','S01_noise_delay','D05_final_nominal']:
             if a.resume and (ROOT/'diagnostics'/n/'diagnosis.json').exists():continue
