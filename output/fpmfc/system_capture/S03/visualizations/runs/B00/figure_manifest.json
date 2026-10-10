@@ -1,0 +1,134 @@
+{
+  "trajectory": {
+    "title": "末端实际与参考轨迹",
+    "caption": "World XY/XZ paths of the actual flange and the recorded observer-evaluated approach reference, only while the approach reference is applicable. Equal spatial scales. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "bafaa07455ee1c3a96762968ca961d53bd6becad89c6e3c9d3652fdad71feed9",
+    "pdf_sha256": "95b730ca4c39750cf50fdda367c8b804584e243f2ef58053236d68142d70988d",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "tracking": {
+    "title": "末端轨迹跟踪误差",
+    "caption": "Actual flange minus the recorded observer-evaluated approach reference during approach: world position components, position norm, and SO(3) rotation error. No inactive post-latch reference is extended. This observer-sampled reference is not a freshly issued HQP task command at every servo tick. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "a0974cd62ab846e5dbb3be63049af853ccad6cfec4eb0b0fd0e2997eb05e7ef3",
+    "pdf_sha256": "8a2a06eb4cf7a2d289ff89c6a118b582f754d78a0ae014a727216221f2eb78bf",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "reference_progress": {
+    "title": "参考进度与治理候选",
+    "caption": "Virtual path time in seconds, virtual-time rate, acceleration and selected candidate. A red x means no verified candidate, not an accepted zero-speed command. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "77a55f11f8940359b648a0b21cfe6d34b262bdd1540a64f90720c60a42d24311",
+    "pdf_sha256": "906b02c86fb07357d147f2b74822c7f9eb16f3655b82fa3a4a5562ee11f1f657",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "state_estimation": {
+    "title": "状态估计误差与测量年龄",
+    "caption": "Initialization ticks without a valid estimate and stale terminal estimates are excluded here; Geometric-origin estimation errors at valid estimator-output ticks. Shading is the maximum of three marginal 3-sigma values, not joint coverage or a safety certificate. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "f741aebabe406a52b56aa9cf50bc651c9bcf99ad8584e748273ed0f16f97249b",
+    "pdf_sha256": "7209c192a38375ce6f71eb99fffbd0a06ee3c5cf5fb1c76d65cef5723aa510e0",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "capture_and_load": {
+    "title": "实际捕获量与接口载荷",
+    "caption": "Independent physical capture quantities and actual load. Dashed pose lines denote capture gates; dotted post-latch lines denote holding gates. Values are not corrected by subtracting numerical residuals. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "191f11575119a71010e4026d84cd64ea415dc5dbbddd6b105264c307331a1d6b",
+    "pdf_sha256": "7ac13849264c14ea505635c6fbb8501f45fd6f71292600523652b5189a040d4a",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "detumbling": {
+    "title": "世界与相对角速度",
+    "caption": "Target world and target-base relative angular-speed norms. The fixed final two-second window is shaded only for completed full-horizon runs. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "ba93c94e3860c7ca28ea70f0fd2da88576503f50d2368117984622c28cb79c5b",
+    "pdf_sha256": "3a9f5d8ba9e285dfc39ec967276a44c93f0d7490da52f9cbacf5eac4a52d5ba7",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "momentum_energy": {
+    "title": "动量、能量与功",
+    "caption": "Separate linear/angular momentum drift, kinetic/relative energy and integrated work. Momentum and actual safety quantities retain their original SI definitions. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "0a201c05ff578d180d071aa250bf6524eff06bb774123aa64c4d273ea277af7f",
+    "pdf_sha256": "605a3ada4ae9dbfe47c056db9393b32d86f3647415cec3642845453d4d15b4d4",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "joints": {
+    "title": "七关节状态与实际力矩",
+    "caption": "All seven joint positions, velocities and actual actuator forces from the saved physical trajectory. Line style and color identify each joint. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "06a30586458660d851dbb230112616c5502cc8537370ba491dce8e56c9319634",
+    "pdf_sha256": "7f274d7313235e0bde91b6b2940108a17ac01145a6586355a9e2526fdf668323",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "geometry": {
+    "title": "碰撞距离与接口几何",
+    "caption": "Original and added robot-clearance pairs, other target pairs and intended interface contact are shown with their separate original thresholds. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "fb9ecdad0f68f553b5265303b16ff23aa5b64ec5c90370230157bc74773ac8d0",
+    "pdf_sha256": "6466a516fa06048919d91c09002621a74724b506c4712192fe2b70f80b0e5a52",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "identification": {
+    "title": "影子惯性辨识",
+    "caption": "Saved shadow parameter and rank diagnostics; singular-value series was not persisted in the source trace and its panel is explicitly unavailable; evaluation-only truth is dashed in the matching component color. Parameter feedback remains disabled. Numerical rank is not parameter accuracy or control benefit. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "cf4c405e3af19d6f0564a5186208584fe8ba7be847bf99e92e2ebfe6216d6146",
+    "pdf_sha256": "6f027777aff543bd10c5a3281292a01873a1d44da93f18f9ca6604cf610983bc",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  },
+  "base_motion": {
+    "title": "被动基座漂移与角速度",
+    "caption": "Passive-base translation and geodesic attitude change relative to its initial pose, followed by world angular-velocity components. No base actuator is introduced. S03 run B00; COMPLETED; actual interval 0.000–27.914 s; latch 7.914 s; final window EVALUATED. All recorded attempts are retained. Noisy capture compatibility is not established.",
+    "trace_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+    "run": "B00",
+    "png_sha256": "712fe64527ada0ae72c5396945bd9e0a0f1d03efe5eca6452b968c946fad8a60",
+    "pdf_sha256": "4d9391e5e592dcae4ca05e385438de1b3700582636bcad2420823e8b332d8b62",
+    "source_fields_time_range_s": [
+      0.0,
+      27.913999999995408
+    ]
+  }
+}

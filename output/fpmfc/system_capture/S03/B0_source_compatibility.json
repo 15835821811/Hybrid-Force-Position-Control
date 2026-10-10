@@ -1,0 +1,20 @@
+{
+  "frozen_algorithm_digest": "4900f5f94473b272d0b86a94fc094c85d894faee81c45a6891950ff4f1eda964",
+  "source": "per-E0_C2 runtime SHA, not publication commit",
+  "changed_orchestration_only": {
+    "v6_mujoco/system_capture/cli.py": {
+      "expected": "69f189e906f2b5759271d824ad29c8f4ccf53e77f794ae30b806e4502e3905b3",
+      "current": "046d2b95d9772cdaa3faf5d2e0a55c37c77b0854e97edf5c4399a87d2d327a3d"
+    },
+    "v6_mujoco/system_capture/estimation/replay.py": {
+      "expected": "ca67738031415f60f52d0cf4cd1812def2b98403b5d0da9c23e64d8d4767c1a2",
+      "current": "ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a"
+    },
+    "v6_mujoco/system_capture/estimation/runner.py": {
+      "expected": "b5d5d113233c75f4b648cbc570fe754e0a3d3f3f9dfe0d0efd7f4af309ccaee0",
+      "current": "8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d"
+    }
+  },
+  "unchanged_files": 252,
+  "requires_full_decision_equivalence": true
+}

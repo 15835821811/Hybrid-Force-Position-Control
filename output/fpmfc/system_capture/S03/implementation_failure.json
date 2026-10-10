@@ -1,0 +1,13 @@
+{
+  "run": "D00",
+  "status": "NUMERICAL_OR_IMPLEMENTATION_ERROR",
+  "category": "PERSISTENCE_ATOMIC_REPLACE_PERMISSION",
+  "time_s": 6.439999999999513,
+  "original_version": "V1",
+  "corrected_version": "V2",
+  "parameter_change": false,
+  "repair": "up to10 retries of exactly the same atomic JSON write, 10ms exponential delay capped200ms; exhaustion still aborts",
+  "retry": "D00_R1",
+  "retry_consumes_implementation_reserve": true,
+  "original_failure_retained": true
+}

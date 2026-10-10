@@ -1,0 +1,79 @@
+{
+  "phase": "S03",
+  "maximum_full_robot_attempts": 12,
+  "journal_block_records": 200,
+  "run_matrix": {
+    "B01": {
+      "method": "B0_scalar",
+      "scene": "H2",
+      "kind": "baseline"
+    },
+    "D00": {
+      "method": "B2_time_path_shape",
+      "scene": "nominal",
+      "kind": "development"
+    },
+    "D01": {
+      "method": "B2_time_path_shape",
+      "scene": "H2",
+      "kind": "development"
+    },
+    "D02": {
+      "method": "B2_time_path_shape",
+      "scene": "nominal",
+      "kind": "development_reserved"
+    },
+    "D03": {
+      "method": "B2_time_path_shape",
+      "scene": "H2",
+      "kind": "development_reserved"
+    },
+    "P00": {
+      "method": "B1_time_path",
+      "scene": "nominal",
+      "kind": "paired"
+    },
+    "P01": {
+      "method": "B2_time_path_shape",
+      "scene": "nominal",
+      "kind": "paired"
+    },
+    "P02": {
+      "method": "B1_time_path",
+      "scene": "H2",
+      "kind": "paired"
+    },
+    "P03": {
+      "method": "B2_time_path_shape",
+      "scene": "H2",
+      "kind": "paired"
+    },
+    "R00": {
+      "method": "B2_time_path_shape",
+      "scene": "H1",
+      "kind": "seen_regression"
+    },
+    "D00_R1": {
+      "method": "B2_time_path_shape",
+      "scene": "nominal",
+      "kind": "one_implementation_error_retry"
+    }
+  },
+  "B00": "Reuse E0_C2 only after exact identity and both full replays; otherwise one new baseline attempt",
+  "implementation_versions_max": 2,
+  "implementation_retry_reserve": 1,
+  "limits": {
+    "cpu_s": 43200,
+    "wall_s": 43200,
+    "attempts": 12,
+    "candidates": 1000,
+    "predictive_steps": 1000000
+  },
+  "observations": "original ideal SensorPacket through frozen C2 CA18; no truth velocities",
+  "realtime": "NON_REALTIME_SIMULATION; plant paused during computation; NOT_CERTIFIED",
+  "comparison": "B1/B2 same search count, solver, weights, safety; B1 shape correction fixed zero",
+  "no_automatic_next_stage": true,
+  "push_authorized_by": "final paragraph of user objective",
+  "visual_scope": "refresh S03 run views including five views, continuous body-side and tracking; historical evidence retained",
+  "version_amendment": "V2 changes only bounded budget-write retry; V1 failure retained; no planning parameter retuning"
+}

@@ -1,0 +1,86 @@
+{
+  "recovered_V1_ancillary": [
+    "tests.py"
+  ],
+  "changed_files_by_run": {
+    "B01": [
+      {
+        "path": "v6_mujoco/system_capture/estimation/replay.py",
+        "expected_sha256": "ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a/replay.py",
+        "scope": "runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/estimation/runner.py",
+        "expected_sha256": "8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d/runner.py",
+        "scope": "runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/planning/contracts.py",
+        "expected_sha256": "e1426ebd6f69666e905aa7517fb040df44318044fa7447259d577f8cc679029d",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/e1426ebd6f69666e905aa7517fb040df44318044fa7447259d577f8cc679029d/contracts.py",
+        "scope": "runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/planning/diagnostics.py",
+        "expected_sha256": "8eb3abb1f9a7166b6e7006a83f03fff24312305f88b425078381a14c3a5d5e24",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/8eb3abb1f9a7166b6e7006a83f03fff24312305f88b425078381a14c3a5d5e24/diagnostics.py",
+        "scope": "auxiliary registration/test/diagnostic source; not part of this run controller runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/planning/phase.py",
+        "expected_sha256": "bcaacce7509d80590bcfc5cfb897e9d1ef1004d4588713c710b463ed41691665",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/bcaacce7509d80590bcfc5cfb897e9d1ef1004d4588713c710b463ed41691665/phase.py",
+        "scope": "auxiliary registration/test/diagnostic source; not part of this run controller runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/planning/prediction.py",
+        "expected_sha256": "75519db5d70e8ac03cefc39eb6fa987312648bdbc49f1aaf1643b06797eefc46",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/75519db5d70e8ac03cefc39eb6fa987312648bdbc49f1aaf1643b06797eefc46/prediction.py",
+        "scope": "runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/planning/tests.py",
+        "expected_sha256": "49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4",
+        "recovery": "output/fpmfc/system_capture/S03/versions/V1/v6_mujoco/system_capture/planning/tests.py",
+        "scope": "auxiliary registration/test/diagnostic source; not part of this run controller runtime"
+      }
+    ],
+    "D00": [
+      {
+        "path": "v6_mujoco/system_capture/planning/contracts.py",
+        "expected_sha256": "4f562b2aee26c1234a0d9adcb81e6a23d504bbf2bd65bfe424850ccf2d2cb598",
+        "recovery": "output/fpmfc/system_capture/S03/versions/V1/v6_mujoco/system_capture/planning/contracts.py",
+        "scope": "runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/planning/phase.py",
+        "expected_sha256": "d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1/phase.py",
+        "scope": "auxiliary registration/test/diagnostic source; not part of this run controller runtime"
+      },
+      {
+        "path": "v6_mujoco/system_capture/planning/tests.py",
+        "expected_sha256": "49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4",
+        "recovery": "output/fpmfc/system_capture/S03/versions/V1/v6_mujoco/system_capture/planning/tests.py",
+        "scope": "auxiliary registration/test/diagnostic source; not part of this run controller runtime"
+      }
+    ],
+    "D00_R1": [
+      {
+        "path": "v6_mujoco/system_capture/planning/phase.py",
+        "expected_sha256": "d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1",
+        "recovery": "output/fpmfc/system_capture/S03/versions/source_by_sha/d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1/phase.py",
+        "scope": "auxiliary registration/test/diagnostic source; not part of this run controller runtime"
+      }
+    ],
+    "D01": [],
+    "P00": [],
+    "P01": [],
+    "P02": [],
+    "P03": []
+  },
+  "runtime": "V1/V2 scientific runtime copies plus byte-identical files in containing commit; baseline B0 core unchanged",
+  "identity_note": "config source_identity includes a superset of invoked code; any missing ancillary bytes are listed, not fabricated"
+}

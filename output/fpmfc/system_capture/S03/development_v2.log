@@ -1,0 +1,18 @@
+V2
+{'run': 'D00_R1', 't': 0.0, 'phase': 'OBSERVE', 'status': 'RUNNING', 'steps': 0}
+{'run': 'D00_R1', 't': 1.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 500}
+{'run': 'D00_R1', 't': 2.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1000}
+{'run': 'D00_R1', 't': 3.002, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1501}
+{'run': 'D00_R1', 't': 4.004, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2002}
+{'run': 'D00_R1', 't': 5.006, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2503}
+{'run': 'D00_R1', 't': 6.008, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 3004}
+{'run': 'D00_R1', 't': 7.01, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 3505}
+D00_R1 PREDICTION_REJECTED
+{'run': 'D01', 't': 0.0, 'phase': 'OBSERVE', 'status': 'RUNNING', 'steps': 0}
+{'run': 'D01', 't': 1.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 500}
+{'run': 'D01', 't': 2.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1000}
+{'run': 'D01', 't': 3.002, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1501}
+{'run': 'D01', 't': 4.004, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2002}
+{'run': 'D01', 't': 5.006, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2503}
+{'run': 'D01', 't': 6.008, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 3004}
+D01 PREDICTION_REJECTED

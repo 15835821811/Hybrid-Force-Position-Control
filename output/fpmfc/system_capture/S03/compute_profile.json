@@ -1,0 +1,309 @@
+{
+  "cpu_s": 5015.640625,
+  "cpu_limit_s": 43200,
+  "elapsed_wall_s": 5365.1483635902405,
+  "wall_limit_s": 43200,
+  "candidate_evaluations": 791,
+  "candidate_limit": 1000,
+  "kinematic_steps": 15822,
+  "prior_physics_steps": 93990,
+  "replay_prior_physics_steps": 143230,
+  "total_predictive_physics_steps": 237220,
+  "named_evaluations_by_run": {
+    "B01": 298,
+    "authority_B01": 88,
+    "single_tick_integration": 6,
+    "D00": 49,
+    "D00_R1": 61,
+    "D01": 54,
+    "P00": 66,
+    "P01": 61,
+    "P02": 54,
+    "P03": 54
+  },
+  "named_evaluations_by_model": {
+    "independent_frozen_prior_dynamics": 455,
+    "CA_kinematic_screen": 336
+  },
+  "actuator_replay_physics_steps": 41047,
+  "physical_step_scope": "new full robot attempts only; strict archived B00 reuse is not a new sample",
+  "predictive_step_limit": 1000000,
+  "plant_steps": 27090,
+  "actual_attempts": 8,
+  "reused": [
+    "B00"
+  ],
+  "latency_s_p50_p95_max": [
+    0.5155716501176357,
+    0.892140870029107,
+    8.218899299856275
+  ],
+  "by_run": {
+    "B00": {
+      "control_s": [
+        0.006121549988165498,
+        0.011053830082528294,
+        0.8995982920564711,
+        0.9485830999910831
+      ],
+      "estimator_update_s": [
+        0.0005219001322984695,
+        0.0006818598369136451,
+        0.0008954740827903157,
+        0.0023162001743912697
+      ],
+      "snapshot_predict_s": [
+        0.00028610043227672577,
+        0.0003864997997879982,
+        0.0005241009173914792,
+        0.0016362001188099384
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 0,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "B01": {
+      "control_s": [
+        0.006144799757748842,
+        0.08585829986259341,
+        0.9165371500421315,
+        4.235419000033289
+      ],
+      "estimator_update_s": [
+        0.0005267998203635216,
+        0.0007020998746156693,
+        0.001247999956831336,
+        0.0016477997414767742
+      ],
+      "snapshot_predict_s": [
+        0.0002853996120393276,
+        0.0003934054169803857,
+        0.0005871311621740411,
+        0.0027352003380656242
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 1,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "D00": {
+      "control_s": [
+        0.006316599901765585,
+        0.009566099848598242,
+        0.07651637978851798,
+        5.309451899956912
+      ],
+      "estimator_update_s": [
+        0.000524700153619051,
+        0.0007008002139627934,
+        0.0012424998916685589,
+        0.0021000998094677925
+      ],
+      "snapshot_predict_s": [
+        0.00026540039107203484,
+        0.0007073149085044862,
+        0.00086600907612592,
+        0.002685799729079008
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 1,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "D00_R1": {
+      "control_s": [
+        0.006352100055664778,
+        0.012176800053566694,
+        0.0779783801175654,
+        8.134472699835896
+      ],
+      "estimator_update_s": [
+        0.0005266997031867504,
+        0.0007241000421345234,
+        0.0013363799080252658,
+        0.0032073003239929676
+      ],
+      "snapshot_predict_s": [
+        0.0002649999223649502,
+        0.0005982749164104472,
+        0.000833209287375212,
+        0.0014633997343480587
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 0,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "D01": {
+      "control_s": [
+        0.006323600187897682,
+        0.009325799997895956,
+        0.07813061997294427,
+        5.173581799957901
+      ],
+      "estimator_update_s": [
+        0.0005254000425338745,
+        0.0006772000342607498,
+        0.0010971599258482478,
+        0.004006400238722563
+      ],
+      "snapshot_predict_s": [
+        0.00026030000299215317,
+        0.0004267999902367592,
+        0.0007893280731514102,
+        0.0013872003182768822
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 0,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "P00": {
+      "control_s": [
+        0.006291400175541639,
+        0.013326500076800585,
+        0.07743279980495572,
+        5.270798900164664
+      ],
+      "estimator_update_s": [
+        0.0005212998948991299,
+        0.0006804000586271286,
+        0.0008988599292933963,
+        0.001581400167196989
+      ],
+      "snapshot_predict_s": [
+        0.0002560000866651535,
+        0.00034799985587596893,
+        0.0004754211241379385,
+        0.0008817999623715878
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 0,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "P01": {
+      "control_s": [
+        0.006327399984002113,
+        0.009376199916005135,
+        0.07869183998554946,
+        8.236139099579304
+      ],
+      "estimator_update_s": [
+        0.0005236002616584301,
+        0.0006849998608231544,
+        0.0008651800453662877,
+        0.0020987000316381454
+      ],
+      "snapshot_predict_s": [
+        0.0002569998614490032,
+        0.00036292008589953193,
+        0.0004995219595730309,
+        0.0009850999340415
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 0,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "P02": {
+      "control_s": [
+        0.0063911001197993755,
+        0.010536299552768469,
+        0.07901278017088773,
+        5.241331099998206
+      ],
+      "estimator_update_s": [
+        0.0005273004062473774,
+        0.0007258998230099678,
+        0.0012338196858763708,
+        0.0016713999211788177
+      ],
+      "snapshot_predict_s": [
+        0.00026030000299215317,
+        0.00044599969405680897,
+        0.0007656037760898471,
+        0.004688799846917391
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 0,
+      "realtime": "NOT_CERTIFIED"
+    },
+    "P03": {
+      "control_s": [
+        0.0063436999917030334,
+        0.00951929995790124,
+        0.07953912038356066,
+        5.303999499883503
+      ],
+      "estimator_update_s": [
+        0.0005244002677500248,
+        0.0006991997361183167,
+        0.001047400012612343,
+        0.0017634998075664043
+      ],
+      "snapshot_predict_s": [
+        0.00025769975036382675,
+        0.0003857102477923036,
+        0.0006865402217954405,
+        0.0010238001123070717
+      ],
+      "quantiles": [
+        0.5,
+        0.95,
+        0.99,
+        1.0
+      ],
+      "failed_controller_calls": 0,
+      "realtime": "NOT_CERTIFIED"
+    }
+  },
+  "trial_cpu_s": {
+    "B01": 196.4375,
+    "D00": 139.84375,
+    "D00_R1": 172.015625,
+    "D01": 149.234375,
+    "P00": 191.46875,
+    "P01": 176.875,
+    "P02": 158.921875,
+    "P03": 156.59375
+  },
+  "timing_scope": "B00 control timing is archived source-run timing; current B00 work is strict replays. Other run timing is measured this campaign. Aggregate latency is descriptive, not a synchronized hardware benchmark.",
+  "cpu_accounting_scope": "instrumented process CPU plus separately declared conservative support allowances; video encoder children included",
+  "real_time": "NON_REALTIME_SIMULATION",
+  "deadline": "NOT_CERTIFIED; computation pauses simulation; no delay protocol simulated"
+}

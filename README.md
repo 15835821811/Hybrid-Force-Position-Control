@@ -1,7 +1,26 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
+<!-- S03 CURRENT START -->
+## 当前版本：S03 时间—路径—臂形规划
+
+**局部候选权限通过，连续任务收益未建立。** 冻结理想 SensorPacket 与 C2 CA18 后，四个登记状态上的新变量能改变预测动作和命名裕量；四条 B1/B2 配对均未捕获。名义 B1/B2 分别于 8.04/7.24 s 停止，H2 两者均于 6.44 s 停止。有限策略失败不证明整个五维参数族无解。
+
+分支：`codex/system-s03-pm-feasible-planning`。8 次新增尝试（含原实现错误与唯一重试），B00 严格重放复用 S02/E0_C2；H1 因名义/H2 未准入跳过。S02 保持 `ACCURACY_IMPROVED_GUARD_NOT_COMPATIBLE`，非理想域保持 `NOT_ADMITTED`。
+
+9 个证据条目的 18 项双重放检查全部通过；本轮已刷新 110 组图和 72 段视频（含五视角、连续体侧、接口近景与末端跟踪诊断）。命名候选评价 791/1000，预测物理步数 237220/1000000；媒体仅重绘保存状态。
+
+- [S03 报告](output/fpmfc/system_capture/S03/report.md) · [资格与双重放](output/fpmfc/system_capture/S03/qualification.json) · [交接](output/fpmfc/system_capture/S03/handoff.json) · [执行入口](output/fpmfc/system_capture/S03/REPRODUCE.md)
+- [全部图表和视频](output/fpmfc/system_capture/S03/visualizations/README.md) · [本地图集](output/fpmfc/system_capture/S03/visualizations/index.html) · [发布核验](output/fpmfc/system_capture/S03/completion_audit.json)
+- [B2 名义五视角总览](output/fpmfc/system_capture/S03/visualizations/runs/P01/overview_five_views_and_body_side.mp4) · [连续体侧](output/fpmfc/system_capture/S03/visualizations/runs/P01/body_side.mp4) · [末端跟踪误差](output/fpmfc/system_capture/S03/visualizations/runs/P01/tracking.png) · [时间/路径/臂形](output/fpmfc/system_capture/S03/visualizations/runs/P01/local_planning.png)
+- [复用的完整 B0 基线](output/fpmfc/system_capture/S03/visualizations/runs/B00/README.md) · [所有有限候选与拒绝原因](output/fpmfc/system_capture/S03/search_coverage.json) · [共同执行前缀对照](output/fpmfc/system_capture/S03/same_model_comparison.json)
+
+![S03 同场景共同执行前缀](output/fpmfc/system_capture/S03/visualizations/figures/common_prefix.png)
+
+视频只显示各自保存的实际时域，未捕获运行没有抓后窗口。前缀低载荷或低基座扰动不代表完整任务收益。下方历史资料保留；S02 旧 `base_motion` 图存在目标/基座四元数索引勘误，S03 已按命名基座关节修正，历史图未重生成，该媒体问题不改变 S02 资格结论。
+<!-- S03 CURRENT END -->
+
 <!-- S02 CURRENT START -->
-## 当前版本：S02 估计器与捕获门兼容性
+## 历史 S02：估计器与捕获门兼容性
 
 S02：ACCURACY_IMPROVED_GUARD_NOT_COMPATIBLE。E0_C2 完成完整捕获与抓后消旋；原 E0 实现失败、E1/E2 噪声条件控制拒绝均保留，E3 未运行。估计 RMS 改善不等于噪声捕获合格，启动峰值反而变大。
 

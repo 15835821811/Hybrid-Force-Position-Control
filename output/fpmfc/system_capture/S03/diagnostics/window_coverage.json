@@ -1,0 +1,26 @@
+{
+  "registered_unique_states": 46,
+  "limit": 80,
+  "historical_hard_set_window_s": [
+    7.319999999999416,
+    7.819999999999361
+  ],
+  "new_ideal_H2_times_s": [
+    0.04000000000000002,
+    1.0000000000000007,
+    2.0000000000000013,
+    2.999999999999891,
+    3.999999999999781,
+    4.599999999999715,
+    4.799999999999693,
+    4.999999999999671,
+    5.199999999999649,
+    5.399999999999627,
+    5.599999999999605,
+    5.799999999999583
+  ],
+  "H2_baseline_stop_s": 5.899999999999572,
+  "terminal_rigid_geometry": "fixed terminal tool and link7 relation to target independent of upstream psi; path can change transient approach only",
+  "no_truth_action_selection": true,
+  "no_state_injection_into_actual_plant": true
+}

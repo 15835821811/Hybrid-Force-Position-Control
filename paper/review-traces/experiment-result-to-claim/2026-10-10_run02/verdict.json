@@ -1,0 +1,54 @@
+{
+  "review_phase": "final_science_before_delivery_gates",
+  "claim_supported": "no",
+  "confidence": "high",
+  "intended_claim": "The frozen low-dimensional time-path-shape strategy solves seen H2 while retaining nominal continuous capture/detumbling, and demonstrates task or shape incremental benefit.",
+  "local_authority": {
+    "claim_supported": "yes",
+    "confidence": "high",
+    "scope": "four preregistered B01 states; eleven candidates each; common 0.6 s prior rollout; frozen numerical thresholds; changes can be beneficial or adverse"
+  },
+  "task_results": {
+    "paired_attempts": 4,
+    "paired_complete_successes": 0,
+    "nominal_task": "NOT_ADMITTED",
+    "H2_task": "NOT_ADMITTED",
+    "time_path_benefit": "NOT_DEMONSTRATED",
+    "shape_incremental_benefit": "NOT_DEMONSTRATED"
+  },
+  "what_results_support": "Local predictive authority; all four implemented policy pairs fail to capture; executed prefixes passed recorded safety reevaluation; finite-policy outcome with detailed search coverage.",
+  "what_results_dont_support": "Whole parameter-box infeasibility, nominal task preservation, solving H2, complete-task disturbance benefit, noisy-domain admission, hardware recovery, real time, immediate S04 admission.",
+  "routing_action": "narrow_claim_and_negative_result_handoff",
+  "next_experiments_needed": "None executed or requested in this review. Future S03 redesign requires separate plan/authorization and refrozen comparisons.",
+  "pending_external_review": false,
+  "delivery_gates": {
+    "summary_metric_and_window_semantics": "BLOCKED_PENDING_FIX",
+    "terminal_untested_candidates": "NEEDS_EXPLICIT_REPORT",
+    "all_dual_replays": "PENDING",
+    "final_media_verification": "PENDING"
+  },
+  "figure_review": "Three scientific PNGs inspected; readable, signed and bounded comparisons; caption revisions requested.",
+  "paper_claim_audit": {
+    "verdict": "WARN",
+    "scope": "historical N209 manuscript, not current S03"
+  },
+  "critical_findings": [
+    {
+      "id": "F1",
+      "priority": "P1",
+      "finding": "base_attitude_peak_rad computed from target quaternion instead of named base quaternion"
+    },
+    {
+      "id": "F2",
+      "priority": "P2",
+      "finding": "truncated pair metrics retain complete-run latch/postgrasp completion flags"
+    },
+    {
+      "id": "F3",
+      "priority": "P2",
+      "finding": "P01 report omits two screen-passing candidates not dynamically tested"
+    }
+  ],
+  "physics_steps_executed_by_reviewer": 0
+}
+

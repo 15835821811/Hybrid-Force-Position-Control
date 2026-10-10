@@ -173,3 +173,7 @@
 | 2026-09-24 11:12 | /experiment-plan | paper/EXPERIMENT_TRACKER.md | experiment | latest v12 tracker recording N102 done and N103/N104 done-failed-gate without changing historical R-series rows |
 | 2026-09-24 11:12 | /experiment-plan | README.md | experiment | documented authoritative N102--N104 commands, negative force-gate result, and method-reproduction/custom-scenario positioning |
 | 2026-09-24 11:12 | /experiment-plan | tests/ | verification | full project regression passed 59/59 under `C:\Users\admin\.conda\envs\rltoorch\python.exe` after final contact pipeline changes |
+
+| 2026-10-10 | /experiment-plan | output/fpmfc/system_capture/S03/EXPERIMENT_PLAN.md | S03 | frozen five-dimensional finite-family comparison; historical states retained |
+| 2026-10-10 | /experiment-result-to-claim | output/fpmfc/system_capture/S03/EXPERIMENT_RESULT_TO_CLAIM.md | S03 negative result | task benefit no; four-state local predictive authority yes |
+| 2026-10-10 | /paper-figure | output/fpmfc/system_capture/S03/visualizations/ | S03 | recorded-data diagnostics, signed authority and common-prefix figures; five views and continuous body-side videos |

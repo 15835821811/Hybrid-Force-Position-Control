@@ -1,0 +1,8 @@
+{'run': 'B00', 'replay': 'actuator', 'passed': True, 'cpu_s': 14.515625}
+{'run': 'B00', 'replay': 'decision', 'passed': True, 'cpu_s': 672.09375}
+{'run': 'B01', 't': 0.0, 'phase': 'OBSERVE', 'status': 'RUNNING', 'steps': 0}
+{'run': 'B01', 't': 1.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 500}
+{'run': 'B01', 't': 2.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1000}
+{'run': 'B01', 't': 3.002, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1501}
+{'run': 'B01', 't': 4.004, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2002}
+{'run': 'B01', 't': 5.006, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2503}

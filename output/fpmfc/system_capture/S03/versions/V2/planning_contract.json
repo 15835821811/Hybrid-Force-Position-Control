@@ -1,0 +1,47 @@
+{
+  "version": "V2",
+  "dimensions": 5,
+  "theta": [
+    "remaining_time_s",
+    "normal_bump_m",
+    "tangent_bump_m",
+    "psi_mid_correction_rad",
+    "psi_end_correction_rad"
+  ],
+  "minimum_remaining_s": 0.6,
+  "offset_m": 0.02,
+  "max_offset_m": 0.04,
+  "shape_rad": 0.25,
+  "max_shape_correction_rad": 0.6,
+  "max_shape_velocity_rad_s": 0.6,
+  "max_shape_accel_rad_s2": 1.2,
+  "max_virtual_rate": 2.0,
+  "max_virtual_accel": 2.0,
+  "planning_period_s": 0.8,
+  "prediction_horizon_s": 1.2,
+  "screen_horizon_s": 2.4,
+  "dynamic_survivors": 2,
+  "candidates_per_update": 5,
+  "cache_domain": {
+    "q_rad": 0.02,
+    "dq_rad_s": 0.15,
+    "p_m": 0.003,
+    "R_rad": 0.03
+  },
+  "terminal": "Q_GE(1)=I from frozen sites; no fitted target or tool transform",
+  "timing": "u=8s; normalized s=u/8, derivatives explicitly transformed; legacy 6/7.8 phases correspond to s=.75/.975, not physical seconds",
+  "C2": "quintic from executed reference jets, sixth degree endpoint-zero bump; analytic SO(3) physical omega/alpha",
+  "time_domain": "arrival <=19.9 s; global approach deadline remains20s",
+  "range_basis": "20mm increment equals frozen tool length and half existing40mm robot clearance; total correction cap40mm. Shape correction .25rad is conservative relative to joint ranges; .6rad cap and explicit velocity/acceleration bounds. None constitutes guaranteed reachability.",
+  "horizon_basis": "1.2s covers .8s scheduling plus .4s transition lead; preflight reports measured joint braking estimates. Near arrival horizon truncates to max(.2,remaining+.06) because finite local reference ends; no all-horizon claim.",
+  "scores": "kinematic: 10*negative_margin/10mm +2*speed_excess +tracking/8mm +.05*base_omega/.02rad_s +.05 change penalty. Hard dynamic checks first; no scalar success claim from score.",
+  "rejection_limits": "unchanged HQP/physical safety; existing 8mm tracking and .05m/s/.1rad/s residual are performance rejection, not collision",
+  "sensitivity_thresholds": {
+    "reference_m": 1e-07,
+    "action_rad_s": 1e-06,
+    "margin_m": 1e-07
+  },
+  "isolation": "independent prior dynamics and copied command/reference histories; no future packet or truth parameters",
+  "real_time": "NON_REALTIME_SIMULATION",
+  "validity": "valid_until dynamic horizon; next update .8s or cache-domain exit; expired/no accepted action SIM_ABORT"
+}

@@ -1,0 +1,336 @@
+{
+  "historical": {
+    "runs": {
+      "H2_prior": {
+        "classification": "LINEAR_HARD_SET_INFEASIBLE",
+        "z": 0.019554833668535825,
+        "row_units": [
+          "m/s",
+          "m/s",
+          "m/s",
+          "m/s",
+          "m/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s"
+        ],
+        "box_witnesses": [
+          {
+            "row": "gripper_contact_pad__tumbling_target_geom",
+            "required_m_s": -0.12779809474308393,
+            "maximum_over_joint_box_m_s": -0.1619474977954096,
+            "shortfall_m_s": 0.034149403052325666
+          }
+        ],
+        "exact_reconstruction": true
+      },
+      "S01_noise_delay": {
+        "classification": "LINEAR_HARD_SET_INFEASIBLE",
+        "z": 0.005502548932376166,
+        "row_units": [
+          "m/s",
+          "m/s",
+          "m/s",
+          "m/s",
+          "m/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s"
+        ],
+        "box_witnesses": [
+          {
+            "row": "gripper_contact_pad__tumbling_target_geom",
+            "required_m_s": -0.03724633332276628,
+            "maximum_over_joint_box_m_s": -0.04672535953477194,
+            "shortfall_m_s": 0.009479026212005665
+          }
+        ],
+        "exact_reconstruction": true
+      },
+      "D05_final_nominal": {
+        "classification": "LINEAR_HARD_SET_INFEASIBLE",
+        "z": 0.0009830003257214753,
+        "row_units": [
+          "m/s",
+          "m/s",
+          "m/s",
+          "m/s",
+          "m/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s",
+          "rad/s"
+        ],
+        "box_witnesses": [
+          {
+            "row": "gripper_contact_pad__tumbling_target_geom",
+            "required_m_s": -0.02723799318389345,
+            "maximum_over_joint_box_m_s": -0.02887921627450626,
+            "shortfall_m_s": 0.0016412230906128096
+          }
+        ],
+        "exact_reconstruction": true
+      }
+    },
+    "normalization": "scale 1 m/s for clearance rows; 1 rad/s for joint rows; z is dimensionless, NOT a penetration distance",
+    "primary_is_least_squares": true,
+    "secondary_only_failure_demonstrated": false,
+    "numerical_repair_justified": false
+  },
+  "noisy_readonly": {
+    "E1": {
+      "actual_guard": {
+        "calls": 90,
+        "instantaneous_passes": 0,
+        "start_time_s": 7.841999999999358,
+        "end_time_s": 8.019999999999348,
+        "four_gate_exceedance_counts": {
+          "translation": 90,
+          "rotation": 0,
+          "linear_velocity": 90,
+          "angular_velocity": 90
+        },
+        "information_alone_exceedance_counts": {
+          "translation": 0,
+          "rotation": 0,
+          "linear_velocity": 64,
+          "angular_velocity": 68
+        },
+        "last_actual_call": {
+          "time": 8.019999999999348,
+          "passed": false,
+          "values": [
+            0.00011282736320512872,
+            0.0002702031516778678,
+            0.00026164532728568794,
+            0.002970969741915192
+          ],
+          "margins": [
+            4.6775332694163063e-05,
+            0.00012427669261661092,
+            0.0013555550132178253,
+            0.004713972913815709
+          ],
+          "limits": [
+            0.0001,
+            0.0008726646259971648,
+            0.001,
+            0.003490658503988659
+          ],
+          "rho": 0.011093355747886467,
+          "contact": true,
+          "valid": true
+        },
+        "scope": "actual unchanged guard calls; a single passing call does not establish the 40 ms confirmation or latch/task success"
+      },
+      "last_rejection": {
+        "time": 8.019999999999348,
+        "candidates": [
+          {
+            "fraction": 1.0,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980009289e-05,
+            "max_linear_residual_m_s": 0.004076148447815069,
+            "max_angular_residual_rad_s": 5.344240262308824e-05,
+            "min_linear_constraint_slack_mixed_units": -9.999999999999593e-05,
+            "max_rho": 0.010244685683171337,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.75,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980009408e-05,
+            "max_linear_residual_m_s": 0.004076147588699784,
+            "max_angular_residual_rad_s": 5.344238861451241e-05,
+            "min_linear_constraint_slack_mixed_units": -0.00010000000000000286,
+            "max_rho": 0.01024468541945036,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.5,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980013092e-05,
+            "max_linear_residual_m_s": 0.004076148002836371,
+            "max_angular_residual_rad_s": 5.3442396170830686e-05,
+            "min_linear_constraint_slack_mixed_units": -9.99999999999994e-05,
+            "max_rho": 0.010244685477869551,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.25,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980001774e-05,
+            "max_linear_residual_m_s": 0.004076148228816362,
+            "max_angular_residual_rad_s": 5.344239824040347e-05,
+            "min_linear_constraint_slack_mixed_units": -9.99999999999994e-05,
+            "max_rho": 0.010244685315957559,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.0,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.3575959800182794e-05,
+            "max_linear_residual_m_s": 0.004076148270765537,
+            "max_angular_residual_rad_s": 5.344239850231269e-05,
+            "min_linear_constraint_slack_mixed_units": -9.999999999999593e-05,
+            "max_rho": 0.010244685650681214,
+            "terminal_progress": 8.0
+          }
+        ],
+        "chosen_fraction": null,
+        "latency_s": 3.904597300104797,
+        "scope": "finite prior, covariance approximation; no recursive-feasibility or hardware guarantee"
+      },
+      "qualification": "NOT_ADMITTED; information and prediction rejection coexist"
+    },
+    "E2": {
+      "actual_guard": {
+        "calls": 490,
+        "instantaneous_passes": 0,
+        "start_time_s": 7.841999999999358,
+        "end_time_s": 8.819999999999615,
+        "four_gate_exceedance_counts": {
+          "translation": 335,
+          "rotation": 0,
+          "linear_velocity": 490,
+          "angular_velocity": 490
+        },
+        "information_alone_exceedance_counts": {
+          "translation": 0,
+          "rotation": 0,
+          "linear_velocity": 469,
+          "angular_velocity": 474
+        },
+        "last_actual_call": {
+          "time": 8.819999999999615,
+          "passed": false,
+          "values": [
+            4.333177953720734e-05,
+            0.0002380128155596565,
+            0.0006600572061324891,
+            0.002106189023081557
+          ],
+          "margins": [
+            4.2378974320940795e-05,
+            0.00010816779810270703,
+            0.0012660778642028126,
+            0.004312404377200147
+          ],
+          "limits": [
+            0.0001,
+            0.0008726646259971648,
+            0.001,
+            0.003490658503988659
+          ],
+          "rho": 0.007299058831129006,
+          "contact": true,
+          "valid": true
+        },
+        "scope": "actual unchanged guard calls; a single passing call does not establish the 40 ms confirmation or latch/task success"
+      },
+      "last_rejection": {
+        "time": 8.819999999999615,
+        "candidates": [
+          {
+            "fraction": 1.0,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.75,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.5,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.25,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.0,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          }
+        ],
+        "chosen_fraction": null,
+        "latency_s": 2.0953998998738825,
+        "scope": "finite prior, covariance approximation; no recursive-feasibility or hardware guarantee"
+      },
+      "qualification": "NOT_ADMITTED; information and prediction rejection coexist"
+    }
+  },
+  "current_sets": "diagnostics/current_sets.json",
+  "historical_H2_time_s": 7.819999999999361,
+  "no_modified_qpos_recovery": true
+}

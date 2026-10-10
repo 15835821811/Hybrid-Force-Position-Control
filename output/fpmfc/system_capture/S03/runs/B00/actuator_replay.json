@@ -1,0 +1,28 @@
+{
+  "run": "B00",
+  "kind": "actuator",
+  "passed": true,
+  "raw_validation": {
+    "passed": true,
+    "records": 55831,
+    "completed_steps": 13957,
+    "max_verifiable_time_s": 27.913999999995408,
+    "block_count": 281,
+    "index_sha256": "ebf63b6774f20219a7252a47c5e18c223c21e161820ab4a3529938e03efe86bf"
+  },
+  "physics_steps": 13957,
+  "predictive_steps": 0,
+  "state_initializations": 1,
+  "intermediate_plant_state_injections": 0,
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "time_max_error_s": 0.0,
+  "masks_match": true,
+  "event_times": [
+    7.91399999999935
+  ],
+  "final_time_s": 27.913999999995408,
+  "terminal_unapplied_proposals_excluded": true,
+  "cpu_s": 14.515625,
+  "wall_s": 14.640379399992526
+}

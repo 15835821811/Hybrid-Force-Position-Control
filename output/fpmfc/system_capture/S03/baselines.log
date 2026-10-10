@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\tools\s03_baselines.py", line 29, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\tools\s03_baselines.py", line 20, in main
+    result=read(path) if path.exists() else replay_one('B00',kind,context,source_folder=f)
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\v6_mujoco\system_capture\estimation\replay.py", line 26, in replay_one
+    checked=validate(folder/'raw');cpu,wall=time.process_time(),time.perf_counter();remaining=21600-resource_used() if context is None else context.remaining_cpu()
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\v6_mujoco\system_capture\estimation\persistence.py", line 85, in validate
+    for _,r in completed_inputs(directory):count+=1;last=r['time']
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\v6_mujoco\system_capture\estimation\persistence.py", line 73, in completed_inputs
+    for r in records(directory):
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\v6_mujoco\system_capture\estimation\persistence.py", line 62, in records
+    if sha(p)!=b['sha256']:raise RuntimeError('committed chunk checksum mismatch')
+RuntimeError: committed chunk checksum mismatch

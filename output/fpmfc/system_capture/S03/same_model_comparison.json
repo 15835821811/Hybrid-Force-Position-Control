@@ -1,0 +1,645 @@
+{
+  "runs": {
+    "B00": {
+      "end_time_s": 27.913999999995408,
+      "base_peak_rad_s": 0.05153293547554355,
+      "base_rms_rad_s": 0.015342271701428035,
+      "base_attitude_peak_rad": 0.11927183159048084,
+      "load_peak": 0.17775265230556675,
+      "tracking_peak_m": 0.001864067964547959,
+      "min_original_clearance_m": 0.12155756758882547,
+      "max_abs_joint_velocity_rad_s": 1.6234007263211385,
+      "actual_impulse_Ns": [
+        -0.014448594080675135,
+        0.009222294684801461,
+        0.00980137650974077
+      ],
+      "postgrasp_metrics_status": "EVALUATED",
+      "latch_time_s": 7.91399999999935,
+      "full_task": true,
+      "detumbling": true,
+      "status": "COMPLETED",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "COMPLETED",
+        "full_task": true,
+        "detumbling": true,
+        "latch_time_s": 7.91399999999935,
+        "end_time_s": 27.913999999995408
+      }
+    },
+    "B01": {
+      "end_time_s": 5.899999999999572,
+      "base_peak_rad_s": 0.05018624576496677,
+      "base_rms_rad_s": 0.029000424433820702,
+      "base_attitude_peak_rad": 0.11512572410095608,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.0030650027710965914,
+      "min_original_clearance_m": 0.12451971519939305,
+      "max_abs_joint_velocity_rad_s": 1.453752322116201,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "NO_VERIFIED_CONTROL",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "NO_VERIFIED_CONTROL",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 5.899999999999572
+      }
+    },
+    "D00": {
+      "end_time_s": 6.439999999999513,
+      "base_peak_rad_s": 0.03512147801334313,
+      "base_rms_rad_s": 0.02339145404010295,
+      "base_attitude_peak_rad": 0.1217332295316201,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.0018641215657679321,
+      "min_original_clearance_m": 0.23774786765173905,
+      "max_abs_joint_velocity_rad_s": 0.5892286953714184,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "IMPLEMENTATION_ERROR",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "IMPLEMENTATION_ERROR",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 6.439999999999513
+      }
+    },
+    "D00_R1": {
+      "end_time_s": 7.239999999999425,
+      "base_peak_rad_s": 0.03512147801334313,
+      "base_rms_rad_s": 0.022508597924903787,
+      "base_attitude_peak_rad": 0.12247743930727872,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.0018641215657679321,
+      "min_original_clearance_m": 0.19271873463112896,
+      "max_abs_joint_velocity_rad_s": 0.5892286953714184,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "PREDICTION_REJECTED",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "PREDICTION_REJECTED",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 7.239999999999425
+      }
+    },
+    "D01": {
+      "end_time_s": 6.439999999999513,
+      "base_peak_rad_s": 0.04009372755285957,
+      "base_rms_rad_s": 0.02611513894386066,
+      "base_attitude_peak_rad": 0.1236254677999384,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.003065002771096498,
+      "min_original_clearance_m": 0.18063429601736067,
+      "max_abs_joint_velocity_rad_s": 0.7080913916495271,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "PREDICTION_REJECTED",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "PREDICTION_REJECTED",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 6.439999999999513
+      }
+    },
+    "P00": {
+      "end_time_s": 8.039999999999354,
+      "base_peak_rad_s": 0.035682451748038364,
+      "base_rms_rad_s": 0.021480511487171904,
+      "base_attitude_peak_rad": 0.11581678877542029,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.0018641215657679321,
+      "min_original_clearance_m": 0.14191939352800448,
+      "max_abs_joint_velocity_rad_s": 1.1484784644438182,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "PREDICTION_REJECTED",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "PREDICTION_REJECTED",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 8.039999999999354
+      }
+    },
+    "P01": {
+      "end_time_s": 7.239999999999425,
+      "base_peak_rad_s": 0.03512147801334313,
+      "base_rms_rad_s": 0.022508597924903787,
+      "base_attitude_peak_rad": 0.12247743930727872,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.0018641215657679321,
+      "min_original_clearance_m": 0.19271873463112896,
+      "max_abs_joint_velocity_rad_s": 0.5892286953714184,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "PREDICTION_REJECTED",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "PREDICTION_REJECTED",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 7.239999999999425
+      }
+    },
+    "P02": {
+      "end_time_s": 6.439999999999513,
+      "base_peak_rad_s": 0.037319530160702066,
+      "base_rms_rad_s": 0.023646741445043522,
+      "base_attitude_peak_rad": 0.11382733116666915,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.003065002771096498,
+      "min_original_clearance_m": 0.14245186591154435,
+      "max_abs_joint_velocity_rad_s": 0.6858704694415666,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "PREDICTION_REJECTED",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "PREDICTION_REJECTED",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 6.439999999999513
+      }
+    },
+    "P03": {
+      "end_time_s": 6.439999999999513,
+      "base_peak_rad_s": 0.04009372755285957,
+      "base_rms_rad_s": 0.02611513894386066,
+      "base_attitude_peak_rad": 0.1236254677999384,
+      "load_peak": 0.0,
+      "tracking_peak_m": 0.003065002771096498,
+      "min_original_clearance_m": 0.18063429601736067,
+      "max_abs_joint_velocity_rad_s": 0.7080913916495271,
+      "actual_impulse_Ns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "postgrasp_metrics_status": "NOT_EVALUATED",
+      "latch_time_s": null,
+      "full_task": false,
+      "detumbling": false,
+      "status": "PREDICTION_REJECTED",
+      "window_scope": "FULL_EXECUTED_RUN",
+      "run_outcome": {
+        "status": "PREDICTION_REJECTED",
+        "full_task": false,
+        "detumbling": false,
+        "latch_time_s": null,
+        "end_time_s": 6.439999999999513
+      }
+    }
+  },
+  "pairs": {
+    "nominal": {
+      "time_path": {
+        "baseline": "B00",
+        "comparison": "P00",
+        "status": "COMMON_EXECUTED_PREFIX_ONLY",
+        "baseline_metrics": {
+          "end_time_s": 8.039999999999354,
+          "base_peak_rad_s": 0.05153293547554355,
+          "base_rms_rad_s": 0.02857884629159988,
+          "base_attitude_peak_rad": 0.11927183159048084,
+          "load_peak": 0.17775265230556675,
+          "tracking_peak_m": 0.001864067964547959,
+          "min_original_clearance_m": 0.12155756758882547,
+          "max_abs_joint_velocity_rad_s": 1.6234007263211385,
+          "actual_impulse_Ns": [
+            -0.019632583601522126,
+            0.02745718972936285,
+            0.05832238940387761
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": 7.91399999999935,
+          "full_task": false,
+          "detumbling": null,
+          "status": "TRUNCATED_EXECUTED_PREFIX",
+          "window_scope": "TRUNCATED_EXECUTED_PREFIX",
+          "run_outcome": {
+            "status": "COMPLETED",
+            "full_task": true,
+            "detumbling": true,
+            "latch_time_s": 7.91399999999935,
+            "end_time_s": 27.913999999995408
+          }
+        },
+        "comparison_metrics": {
+          "end_time_s": 8.039999999999354,
+          "base_peak_rad_s": 0.035682451748038364,
+          "base_rms_rad_s": 0.021480511487171904,
+          "base_attitude_peak_rad": 0.11581678877542029,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.0018641215657679321,
+          "min_original_clearance_m": 0.14191939352800448,
+          "max_abs_joint_velocity_rad_s": 1.1484784644438182,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": false,
+          "status": "PREDICTION_REJECTED",
+          "window_scope": "FULL_EXECUTED_RUN",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 8.039999999999354
+          }
+        },
+        "full_task_relative_reduction_percent": null,
+        "caveat": "failed runs remain in denominator; prefix values are not complete-task benefit or universal risk evidence"
+      },
+      "shape": {
+        "baseline": "P00",
+        "comparison": "P01",
+        "status": "COMMON_EXECUTED_PREFIX_ONLY",
+        "baseline_metrics": {
+          "end_time_s": 7.239999999999425,
+          "base_peak_rad_s": 0.03444705748475926,
+          "base_rms_rad_s": 0.021458660543618675,
+          "base_attitude_peak_rad": 0.11581678877542029,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.0018641215657679321,
+          "min_original_clearance_m": 0.1504500240877106,
+          "max_abs_joint_velocity_rad_s": 0.5978615704857946,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": null,
+          "status": "TRUNCATED_EXECUTED_PREFIX",
+          "window_scope": "TRUNCATED_EXECUTED_PREFIX",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 8.039999999999354
+          }
+        },
+        "comparison_metrics": {
+          "end_time_s": 7.239999999999425,
+          "base_peak_rad_s": 0.03512147801334313,
+          "base_rms_rad_s": 0.022508597924903787,
+          "base_attitude_peak_rad": 0.12247743930727872,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.0018641215657679321,
+          "min_original_clearance_m": 0.19271873463112896,
+          "max_abs_joint_velocity_rad_s": 0.5892286953714184,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": false,
+          "status": "PREDICTION_REJECTED",
+          "window_scope": "FULL_EXECUTED_RUN",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 7.239999999999425
+          }
+        },
+        "full_task_relative_reduction_percent": null,
+        "caveat": "failed runs remain in denominator; prefix values are not complete-task benefit or universal risk evidence"
+      },
+      "joint": {
+        "baseline": "B00",
+        "comparison": "P01",
+        "status": "COMMON_EXECUTED_PREFIX_ONLY",
+        "baseline_metrics": {
+          "end_time_s": 7.239999999999425,
+          "base_peak_rad_s": 0.05153293547554355,
+          "base_rms_rad_s": 0.030101320820049682,
+          "base_attitude_peak_rad": 0.11927183159048084,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.001864067964547959,
+          "min_original_clearance_m": 0.12155756758882547,
+          "max_abs_joint_velocity_rad_s": 1.6234007263211385,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": null,
+          "status": "TRUNCATED_EXECUTED_PREFIX",
+          "window_scope": "TRUNCATED_EXECUTED_PREFIX",
+          "run_outcome": {
+            "status": "COMPLETED",
+            "full_task": true,
+            "detumbling": true,
+            "latch_time_s": 7.91399999999935,
+            "end_time_s": 27.913999999995408
+          }
+        },
+        "comparison_metrics": {
+          "end_time_s": 7.239999999999425,
+          "base_peak_rad_s": 0.03512147801334313,
+          "base_rms_rad_s": 0.022508597924903787,
+          "base_attitude_peak_rad": 0.12247743930727872,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.0018641215657679321,
+          "min_original_clearance_m": 0.19271873463112896,
+          "max_abs_joint_velocity_rad_s": 0.5892286953714184,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": false,
+          "status": "PREDICTION_REJECTED",
+          "window_scope": "FULL_EXECUTED_RUN",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 7.239999999999425
+          }
+        },
+        "full_task_relative_reduction_percent": null,
+        "caveat": "failed runs remain in denominator; prefix values are not complete-task benefit or universal risk evidence"
+      }
+    },
+    "H2": {
+      "time_path": {
+        "baseline": "B01",
+        "comparison": "P02",
+        "status": "COMMON_EXECUTED_PREFIX_ONLY",
+        "baseline_metrics": {
+          "end_time_s": 5.899999999999572,
+          "base_peak_rad_s": 0.05018624576496677,
+          "base_rms_rad_s": 0.029000424433820702,
+          "base_attitude_peak_rad": 0.11512572410095608,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.0030650027710965914,
+          "min_original_clearance_m": 0.12451971519939305,
+          "max_abs_joint_velocity_rad_s": 1.453752322116201,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": false,
+          "status": "NO_VERIFIED_CONTROL",
+          "window_scope": "FULL_EXECUTED_RUN",
+          "run_outcome": {
+            "status": "NO_VERIFIED_CONTROL",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 5.899999999999572
+          }
+        },
+        "comparison_metrics": {
+          "end_time_s": 5.899999999999572,
+          "base_peak_rad_s": 0.037319530160702066,
+          "base_rms_rad_s": 0.024152144991861763,
+          "base_attitude_peak_rad": 0.11371567276041282,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.003065002771096498,
+          "min_original_clearance_m": 0.1693669759887144,
+          "max_abs_joint_velocity_rad_s": 0.6858704694415666,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": null,
+          "status": "TRUNCATED_EXECUTED_PREFIX",
+          "window_scope": "TRUNCATED_EXECUTED_PREFIX",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 6.439999999999513
+          }
+        },
+        "full_task_relative_reduction_percent": null,
+        "caveat": "failed runs remain in denominator; prefix values are not complete-task benefit or universal risk evidence"
+      },
+      "shape": {
+        "baseline": "P02",
+        "comparison": "P03",
+        "status": "COMMON_EXECUTED_PREFIX_ONLY",
+        "baseline_metrics": {
+          "end_time_s": 6.439999999999513,
+          "base_peak_rad_s": 0.037319530160702066,
+          "base_rms_rad_s": 0.023646741445043522,
+          "base_attitude_peak_rad": 0.11382733116666915,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.003065002771096498,
+          "min_original_clearance_m": 0.14245186591154435,
+          "max_abs_joint_velocity_rad_s": 0.6858704694415666,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": false,
+          "status": "PREDICTION_REJECTED",
+          "window_scope": "FULL_EXECUTED_RUN",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 6.439999999999513
+          }
+        },
+        "comparison_metrics": {
+          "end_time_s": 6.439999999999513,
+          "base_peak_rad_s": 0.04009372755285957,
+          "base_rms_rad_s": 0.02611513894386066,
+          "base_attitude_peak_rad": 0.1236254677999384,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.003065002771096498,
+          "min_original_clearance_m": 0.18063429601736067,
+          "max_abs_joint_velocity_rad_s": 0.7080913916495271,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": false,
+          "status": "PREDICTION_REJECTED",
+          "window_scope": "FULL_EXECUTED_RUN",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 6.439999999999513
+          }
+        },
+        "full_task_relative_reduction_percent": null,
+        "caveat": "failed runs remain in denominator; prefix values are not complete-task benefit or universal risk evidence"
+      },
+      "joint": {
+        "baseline": "B01",
+        "comparison": "P03",
+        "status": "COMMON_EXECUTED_PREFIX_ONLY",
+        "baseline_metrics": {
+          "end_time_s": 5.899999999999572,
+          "base_peak_rad_s": 0.05018624576496677,
+          "base_rms_rad_s": 0.029000424433820702,
+          "base_attitude_peak_rad": 0.11512572410095608,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.0030650027710965914,
+          "min_original_clearance_m": 0.12451971519939305,
+          "max_abs_joint_velocity_rad_s": 1.453752322116201,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": false,
+          "status": "NO_VERIFIED_CONTROL",
+          "window_scope": "FULL_EXECUTED_RUN",
+          "run_outcome": {
+            "status": "NO_VERIFIED_CONTROL",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 5.899999999999572
+          }
+        },
+        "comparison_metrics": {
+          "end_time_s": 5.899999999999572,
+          "base_peak_rad_s": 0.04009372755285957,
+          "base_rms_rad_s": 0.026484876592970566,
+          "base_attitude_peak_rad": 0.12359320343099571,
+          "load_peak": 0.0,
+          "tracking_peak_m": 0.003065002771096498,
+          "min_original_clearance_m": 0.23344958437214242,
+          "max_abs_joint_velocity_rad_s": 0.7080913916495271,
+          "actual_impulse_Ns": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "postgrasp_metrics_status": "NOT_EVALUATED",
+          "latch_time_s": null,
+          "full_task": false,
+          "detumbling": null,
+          "status": "TRUNCATED_EXECUTED_PREFIX",
+          "window_scope": "TRUNCATED_EXECUTED_PREFIX",
+          "run_outcome": {
+            "status": "PREDICTION_REJECTED",
+            "full_task": false,
+            "detumbling": false,
+            "latch_time_s": null,
+            "end_time_s": 6.439999999999513
+          }
+        },
+        "full_task_relative_reduction_percent": null,
+        "caveat": "failed runs remain in denominator; prefix values are not complete-task benefit or universal risk evidence"
+      }
+    }
+  },
+  "measurement": "same original ideal SensorPacket + frozen C2 CA18",
+  "task_denominator_includes_all_attempts": true,
+  "paired_success_count": 0,
+  "paired_attempt_count": 4,
+  "independent_unseen_validation": false
+}

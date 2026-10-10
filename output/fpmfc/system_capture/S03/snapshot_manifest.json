@@ -1,0 +1,41 @@
+{
+  "frozen_before_candidate_evaluation": true,
+  "max_states": 80,
+  "ideal_H2_times_s": [
+    0.04,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    4.6,
+    4.8,
+    5.0,
+    5.2,
+    5.4,
+    5.6,
+    5.8
+  ],
+  "authority_subset_s": [
+    0.04,
+    3.0,
+    4.6,
+    5.2
+  ],
+  "historical_H2": "reuse all 26 archived last-0.5s snapshots; original estimator/identity retained",
+  "S02_readonly": {
+    "E1": [
+      7.52,
+      7.72,
+      7.92,
+      8.02
+    ],
+    "E2": [
+      8.32,
+      8.52,
+      8.72,
+      8.82
+    ]
+  },
+  "count_upper_bound": 46,
+  "selection": "fixed regular approach times plus preregistered terminal windows; no favorable-state selection"
+}

@@ -54,9 +54,9 @@ def style():
 def no_data(ax, message):
     ax.text(.5,.5,message,ha='center',va='center',transform=ax.transAxes,color='.35')
 
-def plot_run(name, only=None):
-    style(); folder,a,m,cfg,digest=load_run(name); t=a['time_s']; latch=m['latch_time_s']
-    dest=OUT/'runs'/name; dest.mkdir(parents=True,exist_ok=True)
+def plot_run(name, only=None, *, loader=None, output=None, stage='S02'):
+    style(); folder,a,m,cfg,digest=(loader or load_run)(name); t=a['time_s']; latch=m['latch_time_s']
+    dest=(OUT if output is None else output)/'runs'/name; dest.mkdir(parents=True,exist_ok=True)
     active=a['approach_reference_applicable'].astype(bool)
     valid=a['estimate_valid'].astype(bool)&a['estimate_current_tick'].astype(bool)
     manifest=read(dest/'figure_manifest.json') if only and (dest/'figure_manifest.json').exists() else {}
@@ -67,6 +67,10 @@ def plot_run(name, only=None):
         assert checks['position_error_max_difference_m']<1e-10
     for key,(title,caption) in CAPTIONS.items():
         if only and only!=key: continue
+        if stage=='S03':
+            caption=caption.replace(' The E0 terminal point at 7.814 s uses the retained reference state before the failed update.','')
+            caption=caption.replace('core F1 retains initialization for historical R03 only, not for these current runs. ','')
+            caption=caption.replace('was not persisted in S02','was not persisted in the source trace')
         count={'trajectory':2,'tracking':3,'reference_progress':4,'state_estimation':5,'capture_and_load':6,
                'detumbling':2,'momentum_energy':4,'joints':3,'geometry':2,'identification':6,'base_motion':3}[key]
         fig,axs=plt.subplots(1,2,figsize=(7.3,4.0),layout='constrained') if key=='trajectory' else plt.subplots(count,1,figsize=(7.3,2.05*count),sharex=True,layout='constrained')
@@ -93,9 +97,11 @@ def plot_run(name, only=None):
             axs[1].plot(t,a['reference_rate']);axs[1].set_ylabel('Virtual-time rate (s/s)')
             axs[2].plot(t,a['reference_acceleration']);axs[2].set_ylabel('Virtual acceleration (1/s)')
             g=read(folder/'progress_governor.json')
+            planned=any('selected' in x for x in g)
             for x in g:
-                y=x['chosen_fraction'];axs[3].plot(x['time'],y if y is not None else -.08,'o' if y is not None else 'x',color=COLORS[0] if y is not None else COLORS[1],ms=3)
-            axs[3].set(ylabel='Accepted demand fraction',ylim=(-.15,1.08))
+                y=x.get('selected') if planned else x['chosen_fraction'];axs[3].plot(x['time'],y if y is not None else -.08,'o' if y is not None else 'x',color=COLORS[0] if y is not None else COLORS[1],ms=3)
+            axs[3].set(ylabel='Selected candidate index' if planned else 'Accepted demand fraction',ylim=(-.3,4.3) if planned else (-.15,1.08))
+            if planned:caption='Normalized progress is u/8. Virtual-time derivatives and accepted local candidate index are shown; red crosses mean no accepted action.'
             if not g:no_data(axs[3],'No governor evaluation recorded')
         elif key=='state_estimation':
             labels=['Position error (mm)','Rotation error (deg)','Velocity error (mm/s)','Angular rate error (deg/s)']
@@ -159,7 +165,11 @@ def plot_run(name, only=None):
             else:no_data(axs[5],'Singular values not retained in this trace');axs[5].set_yticks([])
             axs[5].set_ylabel('Scaled singular value')
         elif key=='base_motion':
-            base=a['qpos'][:,:7];rots=Rotation.from_quat(base[:,[4,5,6,3]])
+            from v6_mujoco.adaptive_capture.plant import Plant,TruthConfig
+            from v6_mujoco.postgrasp.physics import joint_slices
+            model=Plant(TruthConfig(**cfg['truth_evaluation_only']),cfg['dt'],cfg['mission']['solver_tolerance']).model
+            base=a['qpos'][:,joint_slices(model,'base_free_joint')[0]]
+            rots=Rotation.from_quat(base[:,[4,5,6,3]])
             axs[0].plot(t,np.linalg.norm(base[:,:3]-base[0,:3],axis=1)*1000);axs[0].set_ylabel('Base displacement (mm)')
             axs[1].plot(t,np.rad2deg((rots[0].inv()*rots).magnitude()));axs[1].set_ylabel('Base attitude drift (deg)')
             for j in range(3):axs[2].plot(t,np.rad2deg(a['base_omega_world_rad_s'][:,j]),ls=STYLES[j],label='XYZ'[j])
@@ -173,11 +183,11 @@ def plot_run(name, only=None):
         for ext in ['pdf','png']:fig.savefig(dest/(key+'.'+ext),bbox_inches='tight')
         plt.close(fig)
         window_status='EVALUATED' if m['full_window_evaluated'] else 'NOT_EVALUATED (full post-capture horizon absent)'
-        context=f" Run {name}; {m['status']}; actual interval {t[0]:.3f}–{t[-1]:.3f} s; latch {'none' if latch is None else f'{latch:.3f} s'}; final window {window_status}. All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility."
+        context=f" {stage} run {name}; {m['status']}; actual interval {t[0]:.3f}–{t[-1]:.3f} s; latch {'none' if latch is None else f'{latch:.3f} s'}; final window {window_status}. All recorded attempts are retained. Noisy capture compatibility is not established."
         manifest[key]={'title':title,'caption':caption+context,'trace_sha256':digest,'run':name,
             'png_sha256':sha(dest/(key+'.png')),'pdf_sha256':sha(dest/(key+'.pdf')),'source_fields_time_range_s':[float(t[0]),float(t[-1])]}
     save(dest/'figure_manifest.json',manifest);save(dest/'tracking_consistency.json',checks)
-    print('S02 figures',name,len(manifest),flush=True)
+    print(stage,'figures',name,len(manifest),flush=True)
     return manifest
 
 def page(title,body):

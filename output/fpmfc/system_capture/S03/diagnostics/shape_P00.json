@@ -1,0 +1,3216 @@
+{
+  "run": "P00",
+  "samples": [
+    {
+      "time_s": 0.04000000000000002,
+      "actual_rad": 1.5703529684788184,
+      "reference_rad": 1.5703529684788184,
+      "reference_velocity_rad_s": 0.0,
+      "reference_acceleration_rad_s2": 0.0,
+      "singular": false
+    },
+    {
+      "time_s": 0.06000000000000004,
+      "actual_rad": 1.5701393857419876,
+      "reference_rad": 1.5703524916497416,
+      "reference_velocity_rad_s": -7.143404096733115e-05,
+      "reference_acceleration_rad_s2": -0.0071253115892953404,
+      "singular": false
+    },
+    {
+      "time_s": 0.08000000000000006,
+      "actual_rad": 1.5697351685920267,
+      "reference_rad": 1.570349168342422,
+      "reference_velocity_rad_s": -0.0002842831975635494,
+      "reference_acceleration_rad_s2": -0.014141237049836856,
+      "singular": false
+    },
+    {
+      "time_s": 0.10000000000000007,
+      "actual_rad": 1.5691969118577782,
+      "reference_rad": 1.570340192239701,
+      "reference_velocity_rad_s": -0.0006363436516481684,
+      "reference_acceleration_rad_s2": -0.021046185518081316,
+      "singular": false
+    },
+    {
+      "time_s": 0.12000000000000009,
+      "actual_rad": 1.5685899696434125,
+      "reference_rad": 1.5703228014115116,
+      "reference_velocity_rad_s": -0.001125380882574967,
+      "reference_acceleration_rad_s2": -0.027838677265413517,
+      "singular": false
+    },
+    {
+      "time_s": 0.1400000000000001,
+      "actual_rad": 1.5683428886610675,
+      "reference_rad": 1.5702942789068401,
+      "reference_velocity_rad_s": -0.0017491318693132407,
+      "reference_acceleration_rad_s2": -0.034517341636391474,
+      "singular": false
+    },
+    {
+      "time_s": 0.16000000000000011,
+      "actual_rad": 1.5684252650765023,
+      "reference_rad": 1.5702519533020574,
+      "reference_velocity_rad_s": -0.002505307251101108,
+      "reference_acceleration_rad_s2": -0.04108091496413293,
+      "singular": false
+    },
+    {
+      "time_s": 0.18000000000000013,
+      "actual_rad": 1.568504780323517,
+      "reference_rad": 1.5701931992064542,
+      "reference_velocity_rad_s": -0.003391593446199051,
+      "reference_acceleration_rad_s2": -0.047528238465369015,
+      "singular": false
+    },
+    {
+      "time_s": 0.20000000000000015,
+      "actual_rad": 1.5685187060197952,
+      "reference_rad": 1.5701154377258277,
+      "reference_velocity_rad_s": -0.004405654728361747,
+      "reference_acceleration_rad_s2": -0.05385825611762149,
+      "singular": false
+    },
+    {
+      "time_s": 0.22000000000000017,
+      "actual_rad": 1.568505232499354,
+      "reference_rad": 1.57001613688496,
+      "reference_velocity_rad_s": -0.005545135260694619,
+      "reference_acceleration_rad_s2": -0.06007001252088963,
+      "singular": false
+    },
+    {
+      "time_s": 0.24000000000000019,
+      "actual_rad": 1.5684652685117513,
+      "reference_rad": 1.56989281200985,
+      "reference_velocity_rad_s": -0.00680766108660857,
+      "reference_acceleration_rad_s2": -0.06616265074616402,
+      "singular": false
+    },
+    {
+      "time_s": 0.2600000000000002,
+      "actual_rad": 1.568397278315926,
+      "reference_rad": 1.5697430260705587,
+      "reference_velocity_rad_s": -0.00819084207763209,
+      "reference_acceleration_rad_s2": -0.07213541017301553,
+      "singular": false
+    },
+    {
+      "time_s": 0.2800000000000002,
+      "actual_rad": 1.5682991993721762,
+      "reference_rad": 1.5695643899855274,
+      "reference_velocity_rad_s": -0.00969227383788407,
+      "reference_acceleration_rad_s2": -0.07798762431843803,
+      "singular": false
+    },
+    {
+      "time_s": 0.3000000000000002,
+      "actual_rad": 1.5681688133713896,
+      "reference_rad": 1.5693545628882453,
+      "reference_velocity_rad_s": -0.01130953956505369,
+      "reference_acceleration_rad_s2": -0.08371871865905711,
+      "singular": false
+    },
+    {
+      "time_s": 0.32000000000000023,
+      "actual_rad": 1.568003876502709,
+      "reference_rad": 1.5691112523571304,
+      "reference_velocity_rad_s": -0.013040211867775197,
+      "reference_acceleration_rad_s2": -0.08932820844874655,
+      "singular": false
+    },
+    {
+      "time_s": 0.34000000000000025,
+      "actual_rad": 1.567802168321534,
+      "reference_rad": 1.568832214609502,
+      "reference_velocity_rad_s": -0.014881854539325645,
+      "reference_acceleration_rad_s2": -0.09481569653363005,
+      "singular": false
+    },
+    {
+      "time_s": 0.36000000000000026,
+      "actual_rad": 1.5675615088471946,
+      "reference_rad": 1.568515254660514,
+      "reference_velocity_rad_s": -0.016832024287612452,
+      "reference_acceleration_rad_s2": -0.10018087116637588,
+      "singular": false
+    },
+    {
+      "time_s": 0.3800000000000003,
+      "actual_rad": 1.567279764601738,
+      "reference_rad": 1.5681582264479268,
+      "reference_velocity_rad_s": -0.01888827242145523,
+      "reference_acceleration_rad_s2": -0.10542350382162874,
+      "singular": false
+    },
+    {
+      "time_s": 0.4000000000000003,
+      "actual_rad": 1.5669548505782667,
+      "reference_rad": 1.5677590329235913,
+      "reference_velocity_rad_s": -0.021048146493202424,
+      "reference_acceleration_rad_s2": -0.11054344701435595,
+      "singular": false
+    },
+    {
+      "time_s": 0.4200000000000003,
+      "actual_rad": 1.566584730767517,
+      "reference_rad": 1.567315626112514,
+      "reference_velocity_rad_s": -0.023309191897758475,
+      "reference_acceleration_rad_s2": -0.11554063212282108,
+      "singular": false
+    },
+    {
+      "time_s": 0.44000000000000034,
+      "actual_rad": 1.5661674182220222,
+      "reference_rad": 1.566826007140379,
+      "reference_velocity_rad_s": -0.025668953428130366,
+      "reference_acceleration_rad_s2": -0.1204150672178334,
+      "singular": false
+    },
+    {
+      "time_s": 0.46000000000000035,
+      "actual_rad": 1.565700975000627,
+      "reference_rad": 1.5662882262303912,
+      "reference_velocity_rad_s": -0.02812497678763528,
+      "reference_acceleration_rad_s2": -0.12516683489986055,
+      "singular": false
+    },
+    {
+      "time_s": 0.48000000000000037,
+      "actual_rad": 1.5651835120945938,
+      "reference_rad": 1.5657003826703084,
+      "reference_velocity_rad_s": -0.030674810058941907,
+      "reference_acceleration_rad_s2": -0.12979609014552496,
+      "singular": false
+    },
+    {
+      "time_s": 0.5000000000000003,
+      "actual_rad": 1.5646131893527648,
+      "reference_rad": 1.5650606247505217,
+      "reference_velocity_rad_s": -0.03331600513014768,
+      "reference_acceleration_rad_s2": -0.13430305816494864,
+      "singular": false
+    },
+    {
+      "time_s": 0.5200000000000004,
+      "actual_rad": 1.5639882153976266,
+      "reference_rad": 1.5643671496740428,
+      "reference_velocity_rad_s": -0.03604611907812313,
+      "reference_acceleration_rad_s2": -0.13868803227134538,
+      "singular": false
+    },
+    {
+      "time_s": 0.5400000000000004,
+      "actual_rad": 1.5633068474911183,
+      "reference_rad": 1.563618203439249,
+      "reference_velocity_rad_s": -0.03886271550938179,
+      "reference_acceleration_rad_s2": -0.14295137176420253,
+      "singular": false
+    },
+    {
+      "time_s": 0.5600000000000004,
+      "actual_rad": 1.5625673916047473,
+      "reference_rad": 1.5628120806962336,
+      "reference_velocity_rad_s": -0.041763365858760525,
+      "reference_acceleration_rad_s2": -0.14709349982733466,
+      "singular": false
+    },
+    {
+      "time_s": 0.5800000000000004,
+      "actual_rad": 1.561768201921322,
+      "reference_rad": 1.5619471245776015,
+      "reference_velocity_rad_s": -0.044745650646219486,
+      "reference_acceleration_rad_s2": -0.15111490144303275,
+      "singular": false
+    },
+    {
+      "time_s": 0.6000000000000004,
+      "actual_rad": 1.5609076808564728,
+      "reference_rad": 1.5610217265045463,
+      "reference_velocity_rad_s": -0.04780716069209631,
+      "reference_acceleration_rad_s2": -0.1550161213234782,
+      "singular": false
+    },
+    {
+      "time_s": 0.6200000000000004,
+      "actual_rad": 1.5599842789154383,
+      "reference_rad": 1.5600343259690324,
+      "reference_velocity_rad_s": -0.05094549829117011,
+      "reference_acceleration_rad_s2": -0.15879776186053055,
+      "singular": false
+    },
+    {
+      "time_s": 0.6400000000000005,
+      "actual_rad": 1.5589964944048704,
+      "reference_rad": 1.5589834102929072,
+      "reference_velocity_rad_s": -0.05415827834591419,
+      "reference_acceleration_rad_s2": -0.16246048109494876,
+      "singular": false
+    },
+    {
+      "time_s": 0.6600000000000005,
+      "actual_rad": 1.5579428731704272,
+      "reference_rad": 1.557867514364751,
+      "reference_velocity_rad_s": -0.05744312945933548,
+      "reference_acceleration_rad_s2": -0.1660049907060449,
+      "singular": false
+    },
+    {
+      "time_s": 0.6800000000000005,
+      "actual_rad": 1.5568220083209485,
+      "reference_rad": 1.5566852203552715,
+      "reference_velocity_rad_s": -0.06079769498781982,
+      "reference_acceleration_rad_s2": -0.1694320540227239,
+      "singular": false
+    },
+    {
+      "time_s": 0.7000000000000005,
+      "actual_rad": 1.5556325399289193,
+      "reference_rad": 1.5554351574120386,
+      "reference_velocity_rad_s": -0.064219634054419,
+      "reference_acceleration_rad_s2": -0.17274248405680392,
+      "singular": false
+    },
+    {
+      "time_s": 0.7200000000000005,
+      "actual_rad": 1.5543731547098516,
+      "reference_rad": 1.5541160013343436,
+      "reference_velocity_rad_s": -0.06770662252303437,
+      "reference_acceleration_rad_s2": -0.1759371415594668,
+      "singular": false
+    },
+    {
+      "time_s": 0.7400000000000005,
+      "actual_rad": 1.5530425856763017,
+      "reference_rad": 1.5527264742289635,
+      "reference_velocity_rad_s": -0.07125635393396731,
+      "reference_acceleration_rad_s2": -0.17901693310163436,
+      "singular": false
+    },
+    {
+      "time_s": 0.7600000000000006,
+      "actual_rad": 1.5516396117726825,
+      "reference_rad": 1.551265344147595,
+      "reference_velocity_rad_s": -0.07486654040132294,
+      "reference_acceleration_rad_s2": -0.18198280917902074,
+      "singular": false
+    },
+    {
+      "time_s": 0.7800000000000006,
+      "actual_rad": 1.5501630574885363,
+      "reference_rad": 1.549731424706719,
+      "reference_velocity_rad_s": -0.0785349134727673,
+      "reference_acceleration_rad_s2": -0.1848357623425608,
+      "singular": false
+    },
+    {
+      "time_s": 0.8000000000000006,
+      "actual_rad": 1.5486117925383287,
+      "reference_rad": 1.5481235746906417,
+      "reference_velocity_rad_s": -0.08225922495215243,
+      "reference_acceleration_rad_s2": -0.1875768253548698,
+      "singular": false
+    },
+    {
+      "time_s": 0.8200000000000006,
+      "actual_rad": 1.546984731463827,
+      "reference_rad": 1.54644069763845,
+      "reference_velocity_rad_s": -0.08603724768553613,
+      "reference_acceleration_rad_s2": -0.1902070693733442,
+      "singular": false
+    },
+    {
+      "time_s": 0.8400000000000006,
+      "actual_rad": 1.5452808325658944,
+      "reference_rad": 1.544681741415608,
+      "reference_velocity_rad_s": -0.08986677631113499,
+      "reference_acceleration_rad_s2": -0.19272760216046797,
+      "singular": false
+    },
+    {
+      "time_s": 0.8600000000000007,
+      "actual_rad": 1.5434990981824148,
+      "reference_rad": 1.5428457048253243,
+      "reference_velocity_rad_s": -0.09374455573348255,
+      "reference_acceleration_rad_s2": -0.1950295200025534,
+      "singular": false
+    },
+    {
+      "time_s": 0.8800000000000007,
+      "actual_rad": 1.5416385860260826,
+      "reference_rad": 1.5409316605777204,
+      "reference_velocity_rad_s": -0.09766712698423813,
+      "reference_acceleration_rad_s2": -0.19720692153650987,
+      "singular": false
+    },
+    {
+      "time_s": 0.9000000000000007,
+      "actual_rad": 1.5396984222550127,
+      "reference_rad": 1.5389387376835186,
+      "reference_velocity_rad_s": -0.10163200820041397,
+      "reference_acceleration_rad_s2": -0.1992606665292554,
+      "singular": false
+    },
+    {
+      "time_s": 0.9200000000000007,
+      "actual_rad": 1.5376777920993638,
+      "reference_rad": 1.5368661146134193,
+      "reference_velocity_rad_s": -0.1056367355109884,
+      "reference_acceleration_rad_s2": -0.20119169389422997,
+      "singular": false
+    },
+    {
+      "time_s": 0.9400000000000007,
+      "actual_rad": 1.5355759289643445,
+      "reference_rad": 1.5347130189226392,
+      "reference_velocity_rad_s": -0.10967886458893031,
+      "reference_acceleration_rad_s2": -0.20300101860433675,
+      "singular": false
+    },
+    {
+      "time_s": 0.9600000000000007,
+      "actual_rad": 1.5333921143553961,
+      "reference_rad": 1.5324787268450235,
+      "reference_velocity_rad_s": -0.11375597214170405,
+      "reference_acceleration_rad_s2": -0.20468972862751283,
+      "singular": false
+    },
+    {
+      "time_s": 0.9800000000000008,
+      "actual_rad": 1.53112567768068,
+      "reference_rad": 1.5301625628579605,
+      "reference_velocity_rad_s": -0.11786565734073363,
+      "reference_acceleration_rad_s2": -0.20625898188746614,
+      "singular": false
+    },
+    {
+      "time_s": 1.0000000000000007,
+      "actual_rad": 1.5287759958660567,
+      "reference_rad": 1.527763899219312,
+      "reference_velocity_rad_s": -0.12200554319035345,
+      "reference_acceleration_rad_s2": -0.20771000325198766,
+      "singular": false
+    },
+    {
+      "time_s": 1.0200000000000007,
+      "actual_rad": 1.5263424926665385,
+      "reference_rad": 1.525282155477567,
+      "reference_velocity_rad_s": -0.12617327783681978,
+      "reference_acceleration_rad_s2": -0.20904408155112736,
+      "singular": false
+    },
+    {
+      "time_s": 1.0400000000000007,
+      "actual_rad": 1.5238246382771268,
+      "reference_rad": 1.5227167979564056,
+      "reference_velocity_rad_s": -0.13036653581800334,
+      "reference_acceleration_rad_s2": -0.21026256662740248,
+      "singular": false
+    },
+    {
+      "time_s": 1.0600000000000007,
+      "actual_rad": 1.521221949764726,
+      "reference_rad": 1.5200673392148614,
+      "reference_velocity_rad_s": -0.1345830192544225,
+      "reference_acceleration_rad_s2": -0.21136686642008393,
+      "singular": false
+    },
+    {
+      "time_s": 1.0800000000000007,
+      "actual_rad": 1.5185339890941019,
+      "reference_rad": 1.5173333374842406,
+      "reference_velocity_rad_s": -0.1388204589823204,
+      "reference_acceleration_rad_s2": -0.2123584440854981,
+      "singular": false
+    },
+    {
+      "time_s": 1.1000000000000008,
+      "actual_rad": 1.5157603627326326,
+      "reference_rad": 1.514514396082955,
+      "reference_velocity_rad_s": -0.1430766156295223,
+      "reference_acceleration_rad_s2": -0.21323881515515802,
+      "singular": false
+    },
+    {
+      "time_s": 1.1200000000000008,
+      "actual_rad": 1.512900721280469,
+      "reference_rad": 1.5116101628104015,
+      "reference_velocity_rad_s": -0.14734928063484934,
+      "reference_acceleration_rad_s2": -0.2140095447334353,
+      "singular": false
+    },
+    {
+      "time_s": 1.1400000000000008,
+      "actual_rad": 1.509954758846559,
+      "reference_rad": 1.5086203293210139,
+      "reference_velocity_rad_s": -0.1516362772118935,
+      "reference_acceleration_rad_s2": -0.21467224473636665,
+      "singular": false
+    },
+    {
+      "time_s": 1.1600000000000008,
+      "actual_rad": 1.5069222123583874,
+      "reference_rad": 1.5055446304795865,
+      "reference_velocity_rad_s": -0.155935461257993,
+      "reference_acceleration_rad_s2": -0.21522857117308827,
+      "singular": false
+    },
+    {
+      "time_s": 1.1800000000000008,
+      "actual_rad": 1.5038028608548528,
+      "reference_rad": 1.502382843698959,
+      "reference_velocity_rad_s": -0.16024472220927488,
+      "reference_acceleration_rad_s2": -0.21568022147128324,
+      "singular": false
+    },
+    {
+      "time_s": 1.2000000000000008,
+      "actual_rad": 1.5005965247689874,
+      "reference_rad": 1.499134788261134,
+      "reference_velocity_rad_s": -0.16456198384265605,
+      "reference_acceleration_rad_s2": -0.2160289318479238,
+      "singular": false
+    },
+    {
+      "time_s": 1.2200000000000009,
+      "actual_rad": 1.4973030651996926,
+      "reference_rad": 1.4958003246228762,
+      "reference_velocity_rad_s": -0.16888520502572343,
+      "reference_acceleration_rad_s2": -0.2162764747264958,
+      "singular": false
+    },
+    {
+      "time_s": 1.2400000000000009,
+      "actual_rad": 1.4939223831753963,
+      "reference_rad": 1.4923793537068262,
+      "reference_velocity_rad_s": -0.17321238041543208,
+      "reference_acceleration_rad_s2": -0.2164246562017902,
+      "singular": false
+    },
+    {
+      "time_s": 1.260000000000001,
+      "actual_rad": 1.4904544184066315,
+      "reference_rad": 1.4888718161791477,
+      "reference_velocity_rad_s": -0.17754154110658263,
+      "reference_acceleration_rad_s2": -0.21647531355325358,
+      "singular": false
+    },
+    {
+      "time_s": 1.280000000000001,
+      "actual_rad": 1.4868991489990684,
+      "reference_rad": 1.4852776917146948,
+      "reference_velocity_rad_s": -0.18187075523105956,
+      "reference_acceleration_rad_s2": -0.2164303128077987,
+      "singular": false
+    },
+    {
+      "time_s": 1.300000000000001,
+      "actual_rad": 1.48325659254351,
+      "reference_rad": 1.4815969982506827,
+      "reference_velocity_rad_s": -0.18619812850882736,
+      "reference_acceleration_rad_s2": -0.21629154635288517,
+      "singular": false
+    },
+    {
+      "time_s": 1.320000000000001,
+      "actual_rad": 1.4795268024423087,
+      "reference_rad": 1.4778297912298088,
+      "reference_velocity_rad_s": -0.19052180475169603,
+      "reference_acceleration_rad_s2": -0.21606093060059323,
+      "singular": false
+    },
+    {
+      "time_s": 1.340000000000001,
+      "actual_rad": 1.4757098676595637,
+      "reference_rad": 1.4739761628337653,
+      "reference_velocity_rad_s": -0.1948399663208842,
+      "reference_acceleration_rad_s2": -0.2157404037033307,
+      "singular": false
+    },
+    {
+      "time_s": 1.360000000000001,
+      "actual_rad": 1.4718059124628402,
+      "reference_rad": 1.4700362412080523,
+      "reference_velocity_rad_s": -0.19915083453941756,
+      "reference_acceleration_rad_s2": -0.2153319233217286,
+      "singular": false
+    },
+    {
+      "time_s": 1.380000000000001,
+      "actual_rad": 1.4678150956889455,
+      "reference_rad": 1.4660101896789857,
+      "reference_velocity_rad_s": -0.20345267006041026,
+      "reference_acceleration_rad_s2": -0.21483746444520496,
+      "singular": false
+    },
+    {
+      "time_s": 1.400000000000001,
+      "actual_rad": 1.463737609900914,
+      "reference_rad": 1.4618982059637728,
+      "reference_velocity_rad_s": -0.2077437731922889,
+      "reference_acceleration_rad_s2": -0.21425901726559585,
+      "singular": false
+    },
+    {
+      "time_s": 1.420000000000001,
+      "actual_rad": 1.4595736805492368,
+      "reference_rad": 1.4577005213745051,
+      "reference_velocity_rad_s": -0.2120224841820213,
+      "reference_acceleration_rad_s2": -0.2135985851041824,
+      "singular": false
+    },
+    {
+      "time_s": 1.440000000000001,
+      "actual_rad": 1.4553235651567054,
+      "reference_rad": 1.453417400016896,
+      "reference_velocity_rad_s": -0.21628718345742287,
+      "reference_acceleration_rad_s2": -0.21285818239236687,
+      "singular": false
+    },
+    {
+      "time_s": 1.460000000000001,
+      "actual_rad": 1.4509875525074967,
+      "reference_rad": 1.4490491379845745,
+      "reference_velocity_rad_s": -0.2205362918296142,
+      "reference_acceleration_rad_s2": -0.21203983270618504,
+      "singular": false
+    },
+    {
+      "time_s": 1.480000000000001,
+      "actual_rad": 1.4465659618394968,
+      "reference_rad": 1.444596062549718,
+      "reference_velocity_rad_s": -0.22476827065670893,
+      "reference_acceleration_rad_s2": -0.21114556685477318,
+      "singular": false
+    },
+    {
+      "time_s": 1.500000000000001,
+      "actual_rad": 1.4420591420384767,
+      "reference_rad": 1.4400585313507919,
+      "reference_velocity_rad_s": -0.22898162196980942,
+      "reference_acceleration_rad_s2": -0.2101774210228454,
+      "singular": false
+    },
+    {
+      "time_s": 1.5200000000000011,
+      "actual_rad": 1.4374674703391992,
+      "reference_rad": 1.4354369315781337,
+      "reference_velocity_rad_s": -0.23317488856239418,
+      "reference_acceleration_rad_s2": -0.2091374349671741,
+      "singular": false
+    },
+    {
+      "time_s": 1.5400000000000011,
+      "actual_rad": 1.432791351446446,
+      "reference_rad": 1.4307316791581104,
+      "reference_velocity_rad_s": -0.23734665404417307,
+      "reference_acceleration_rad_s2": -0.20802765026700648,
+      "singular": false
+    },
+    {
+      "time_s": 1.5600000000000012,
+      "actual_rad": 1.4280312192990188,
+      "reference_rad": 1.4259432179365423,
+      "reference_velocity_rad_s": -0.241495542860489,
+      "reference_acceleration_rad_s2": -0.2068501086282972,
+      "singular": false
+    },
+    {
+      "time_s": 1.5800000000000012,
+      "actual_rad": 1.4231875356905663,
+      "reference_rad": 1.4210720188620758,
+      "reference_velocity_rad_s": -0.24562022027834265,
+      "reference_acceleration_rad_s2": -0.2056068502415757,
+      "singular": false
+    },
+    {
+      "time_s": 1.6000000000000012,
+      "actual_rad": 1.4182607860400178,
+      "reference_rad": 1.4161185791701605,
+      "reference_velocity_rad_s": -0.249719392340107,
+      "reference_acceleration_rad_s2": -0.2042999121932227,
+      "singular": false
+    },
+    {
+      "time_s": 1.6200000000000012,
+      "actual_rad": 1.4132514796669287,
+      "reference_rad": 1.4110834215682648,
+      "reference_velocity_rad_s": -0.25379180578600014,
+      "reference_acceleration_rad_s2": -0.2029313269298726,
+      "singular": false
+    },
+    {
+      "time_s": 1.6400000000000012,
+      "actual_rad": 1.4081601505059647,
+      "reference_rad": 1.4059670934229476,
+      "reference_velocity_rad_s": -0.25783624794637566,
+      "reference_acceleration_rad_s2": -0.20150312077561777,
+      "singular": false
+    },
+    {
+      "time_s": 1.6600000000000013,
+      "actual_rad": 1.402987357581327,
+      "reference_rad": 1.400770165949376,
+      "reference_velocity_rad_s": -0.26185154660487964,
+      "reference_acceleration_rad_s2": -0.20001731250164184,
+      "singular": false
+    },
+    {
+      "time_s": 1.6800000000000013,
+      "actual_rad": 1.397733681615779,
+      "reference_rad": 1.3954932334038626,
+      "reference_velocity_rad_s": -0.26583656983352355,
+      "reference_acceleration_rad_s2": -0.19847591194786499,
+      "singular": false
+    },
+    {
+      "time_s": 1.7000000000000013,
+      "actual_rad": 1.3923997249028515,
+      "reference_rad": 1.390136912279974,
+      "reference_velocity_rad_s": -0.26979022580070566,
+      "reference_acceleration_rad_s2": -0.19688091869614718,
+      "singular": false
+    },
+    {
+      "time_s": 1.7200000000000013,
+      "actual_rad": 1.38698611110229,
+      "reference_rad": 1.3847018405087406,
+      "reference_velocity_rad_s": -0.2737114625532069,
+      "reference_acceleration_rad_s2": -0.1952343207945532,
+      "singular": false
+    },
+    {
+      "time_s": 1.7400000000000013,
+      "actual_rad": 1.3814934832191823,
+      "reference_rad": 1.3791886766634782,
+      "reference_velocity_rad_s": -0.2775992677731801,
+      "reference_acceleration_rad_s2": -0.1935380935321481,
+      "singular": false
+    },
+    {
+      "time_s": 1.7600000000000013,
+      "actual_rad": 1.3759225041971412,
+      "reference_rad": 1.3735980991697114,
+      "reference_velocity_rad_s": -0.2814526685111343,
+      "reference_acceleration_rad_s2": -0.191794198263757,
+      "singular": false
+    },
+    {
+      "time_s": 1.7800000000000014,
+      "actual_rad": 1.3702738589810817,
+      "reference_rad": 1.3679308055206694,
+      "reference_velocity_rad_s": -0.2852707308959093,
+      "reference_acceleration_rad_s2": -0.1900045812840894,
+      "singular": false
+    },
+    {
+      "time_s": 1.8000000000000014,
+      "actual_rad": 1.3645482483419475,
+      "reference_rad": 1.3621875114988036,
+      "reference_velocity_rad_s": -0.28905255982262174,
+      "reference_acceleration_rad_s2": -0.18817117275060072,
+      "singular": false
+    },
+    {
+      "time_s": 1.8200000000000014,
+      "actual_rad": 1.3587463941727553,
+      "reference_rad": 1.356368950403759,
+      "reference_velocity_rad_s": -0.29279729861954956,
+      "reference_acceleration_rad_s2": -0.18629588565442984,
+      "singular": false
+    },
+    {
+      "time_s": 1.8400000000000014,
+      "actual_rad": 1.3528690366128555,
+      "reference_rad": 1.3504758722872119,
+      "reference_velocity_rad_s": -0.2965041286949106,
+      "reference_acceleration_rad_s2": -0.18438061483872897,
+      "singular": false
+    },
+    {
+      "time_s": 1.8600000000000014,
+      "actual_rad": 1.3469169298137882,
+      "reference_rad": 1.3445090431949611,
+      "reference_velocity_rad_s": -0.3001722691644758,
+      "reference_acceleration_rad_s2": -0.18242723606367905,
+      "singular": false
+    },
+    {
+      "time_s": 1.8800000000000014,
+      "actual_rad": 1.340890843234692,
+      "reference_rad": 1.338469244416656,
+      "reference_velocity_rad_s": -0.3038009764609435,
+      "reference_acceleration_rad_s2": -0.18043760511744986,
+      "singular": false
+    },
+    {
+      "time_s": 1.9000000000000015,
+      "actual_rad": 1.3347915619130193,
+      "reference_rad": 1.3323572717435077,
+      "reference_velocity_rad_s": -0.30738954392598594,
+      "reference_acceleration_rad_s2": -0.17841355697235844,
+      "singular": false
+    },
+    {
+      "time_s": 1.9200000000000015,
+      "actual_rad": 1.3286198858732456,
+      "reference_rad": 1.326173934734328,
+      "reference_velocity_rad_s": -0.31093730138586484,
+      "reference_acceleration_rad_s2": -0.17635690498544593,
+      "singular": false
+    },
+    {
+      "time_s": 1.9400000000000015,
+      "actual_rad": 1.3223766277549802,
+      "reference_rad": 1.3199200559902107,
+      "reference_velocity_rad_s": -0.31444361471149573,
+      "reference_acceleration_rad_s2": -0.17426944014268314,
+      "singular": false
+    },
+    {
+      "time_s": 1.9600000000000015,
+      "actual_rad": 1.3160626141896847,
+      "reference_rad": 1.3135964704381617,
+      "reference_velocity_rad_s": -0.31790788536382597,
+      "reference_acceleration_rad_s2": -0.1721529303459939,
+      "singular": false
+    },
+    {
+      "time_s": 1.9800000000000015,
+      "actual_rad": 1.3096786883309801,
+      "reference_rad": 1.307204024623961,
+      "reference_velocity_rad_s": -0.32132954992537516,
+      "reference_acceleration_rad_s2": -0.17000911974227406,
+      "singular": false
+    },
+    {
+      "time_s": 2.0000000000000013,
+      "actual_rad": 1.3032257030624603,
+      "reference_rad": 1.300743576014523,
+      "reference_velocity_rad_s": -0.3247080796187678,
+      "reference_acceleration_rad_s2": -0.16783972809356867,
+      "singular": false
+    },
+    {
+      "time_s": 2.019999999999999,
+      "actual_rad": 1.2967045256553182,
+      "reference_rad": 1.2942159923100145,
+      "reference_velocity_rad_s": -0.32804297981307523,
+      "reference_acceleration_rad_s2": -0.16564645018755633,
+      "singular": false
+    },
+    {
+      "time_s": 2.039999999999997,
+      "actual_rad": 1.2901160322161085,
+      "reference_rad": 1.2876221507659538,
+      "reference_velocity_rad_s": -0.3313337895187623,
+      "reference_acceleration_rad_s2": -0.16343095528748247,
+      "singular": false
+    },
+    {
+      "time_s": 2.0599999999999947,
+      "actual_rad": 1.2834611087331964,
+      "reference_rad": 1.2809629375255263,
+      "reference_velocity_rad_s": -0.33458008087202096,
+      "reference_acceleration_rad_s2": -0.16119488662067422,
+      "singular": false
+    },
+    {
+      "time_s": 2.0799999999999925,
+      "actual_rad": 1.2767406513551234,
+      "reference_rad": 1.2742392469623074,
+      "reference_velocity_rad_s": -0.3377814586092503,
+      "reference_acceleration_rad_s2": -0.1589398609047565,
+      "singular": false
+    },
+    {
+      "time_s": 2.0999999999999903,
+      "actual_rad": 1.269955565810144,
+      "reference_rad": 1.2674519810335898,
+      "reference_velocity_rad_s": -0.34093755953243443,
+      "reference_acceleration_rad_s2": -0.15666746791069033,
+      "singular": false
+    },
+    {
+      "time_s": 2.119999999999988,
+      "actual_rad": 1.2631067666815408,
+      "reference_rad": 1.2606020486444907,
+      "reference_velocity_rad_s": -0.34404805196613775,
+      "reference_acceleration_rad_s2": -0.15437927006174104,
+      "singular": false
+    },
+    {
+      "time_s": 2.139999999999986,
+      "actual_rad": 1.2561951767291029,
+      "reference_rad": 1.2536903650229916,
+      "reference_velocity_rad_s": -0.3471126352068345,
+      "reference_acceleration_rad_s2": -0.15207680206748792,
+      "singular": false
+    },
+    {
+      "time_s": 2.1599999999999837,
+      "actual_rad": 1.2492217262614946,
+      "reference_rad": 1.2467178511060677,
+      "reference_velocity_rad_s": -0.35013103896526093,
+      "reference_acceleration_rad_s2": -0.1497615705919757,
+      "singular": false
+    },
+    {
+      "time_s": 2.1799999999999815,
+      "actual_rad": 1.2421873525113363,
+      "reference_rad": 1.239685432937031,
+      "reference_velocity_rad_s": -0.3531030228024627,
+      "reference_acceleration_rad_s2": -0.14743505395511577,
+      "singular": false
+    },
+    {
+      "time_s": 2.1999999999999793,
+      "actual_rad": 1.235092999007132,
+      "reference_rad": 1.2325940410742129,
+      "reference_velocity_rad_s": -0.356028375560197,
+      "reference_acceleration_rad_s2": -0.1450987018664343,
+      "singular": false
+    },
+    {
+      "time_s": 2.219999999999977,
+      "actual_rad": 1.2279396149666744,
+      "reference_rad": 1.225444610011086,
+      "reference_velocity_rad_s": -0.35890691478632564,
+      "reference_acceleration_rad_s2": -0.14275393519027307,
+      "singular": false
+    },
+    {
+      "time_s": 2.239999999999975,
+      "actual_rad": 1.220728154676166,
+      "reference_rad": 1.218238077607927,
+      "reference_velocity_rad_s": -0.3617384861558183,
+      "reference_acceleration_rad_s2": -0.14040214574154503,
+      "singular": false
+    },
+    {
+      "time_s": 2.2599999999999727,
+      "actual_rad": 1.2134595768631031,
+      "reference_rad": 1.2109753845350948,
+      "reference_velocity_rad_s": -0.3645229628879697,
+      "reference_acceleration_rad_s2": -0.13804469611115208,
+      "singular": false
+    },
+    {
+      "time_s": 2.2799999999999705,
+      "actual_rad": 1.2061348419945597,
+      "reference_rad": 1.203657473728001,
+      "reference_velocity_rad_s": -0.3672602451604134,
+      "reference_acceleration_rad_s2": -0.13568291952017186,
+      "singular": false
+    },
+    {
+      "time_s": 2.2999999999999683,
+      "actual_rad": 1.198754914685132,
+      "reference_rad": 1.1962852898538243,
+      "reference_velocity_rad_s": -0.3699502595205015,
+      "reference_acceleration_rad_s2": -0.13331811970192928,
+      "singular": false
+    },
+    {
+      "time_s": 2.319999999999966,
+      "actual_rad": 1.1913207663551737,
+      "reference_rad": 1.1888597787900197,
+      "reference_velocity_rad_s": -0.37259295829459405,
+      "reference_acceleration_rad_s2": -0.1309515708110681,
+      "singular": false
+    },
+    {
+      "time_s": 2.339999999999964,
+      "actual_rad": 1.1838333670288563,
+      "reference_rad": 1.18138188711466,
+      "reference_velocity_rad_s": -0.3751883189957974,
+      "reference_acceleration_rad_s2": -0.1285845173587474,
+      "singular": false
+    },
+    {
+      "time_s": 2.3599999999999617,
+      "actual_rad": 1.1762936909408652,
+      "reference_rad": 1.1738525616086317,
+      "reference_velocity_rad_s": -0.3777363437306548,
+      "reference_acceleration_rad_s2": -0.12621817417309308,
+      "singular": false
+    },
+    {
+      "time_s": 2.3799999999999595,
+      "actual_rad": 1.1687027103187617,
+      "reference_rad": 1.1662727487697047,
+      "reference_velocity_rad_s": -0.3802370586052962,
+      "reference_acceleration_rad_s2": -0.12385372638403935,
+      "singular": false
+    },
+    {
+      "time_s": 2.3999999999999573,
+      "actual_rad": 1.1610613969590802,
+      "reference_rad": 1.1586433943384802,
+      "reference_velocity_rad_s": -0.3826905131315187,
+      "reference_acceleration_rad_s2": -0.12149232943170572,
+      "singular": false
+    },
+    {
+      "time_s": 2.419999999999955,
+      "actual_rad": 1.1533707225612444,
+      "reference_rad": 1.150965442836213,
+      "reference_velocity_rad_s": -0.38509677963326416,
+      "reference_acceleration_rad_s2": -0.11913510909746347,
+      "singular": false
+    },
+    {
+      "time_s": 2.439999999999953,
+      "actual_rad": 1.1456316581050778,
+      "reference_rad": 1.143239837114498,
+      "reference_velocity_rad_s": -0.3874559526539375,
+      "reference_acceleration_rad_s2": -0.11678316155684998,
+      "singular": false
+    },
+    {
+      "time_s": 2.4599999999999507,
+      "actual_rad": 1.137845173138858,
+      "reference_rad": 1.1354675179167966,
+      "reference_velocity_rad_s": -0.3897681483649949,
+      "reference_acceleration_rad_s2": -0.11443755345350567,
+      "singular": false
+    },
+    {
+      "time_s": 2.4799999999999485,
+      "actual_rad": 1.1300122351486497,
+      "reference_rad": 1.1276494234517769,
+      "reference_velocity_rad_s": -0.392033503976215,
+      "reference_acceleration_rad_s2": -0.11209932199331119,
+      "singular": false
+    },
+    {
+      "time_s": 2.4999999999999463,
+      "actual_rad": 1.1221338089893511,
+      "reference_rad": 1.119786488978427,
+      "reference_velocity_rad_s": -0.39425217714804656,
+      "reference_acceleration_rad_s2": -0.10976947505791976,
+      "singular": false
+    },
+    {
+      "time_s": 2.519999999999944,
+      "actual_rad": 1.1142108563512332,
+      "reference_rad": 1.1118796464028982,
+      "reference_velocity_rad_s": -0.39642434540641464,
+      "reference_acceleration_rad_s2": -0.10744899133688485,
+      "singular": false
+    },
+    {
+      "time_s": 2.539999999999942,
+      "actual_rad": 1.106244335244192,
+      "reference_rad": 1.1039298238870243,
+      "reference_velocity_rad_s": -0.3985502055603502,
+      "reference_acceleration_rad_s2": -0.10513882047759762,
+      "singular": false
+    },
+    {
+      "time_s": 2.5599999999999397,
+      "actual_rad": 1.0982351995058997,
+      "reference_rad": 1.0959379454684575,
+      "reference_velocity_rad_s": -0.40062997312278764,
+      "reference_acceleration_rad_s2": -0.10283988325225996,
+      "singular": false
+    },
+    {
+      "time_s": 2.5799999999999375,
+      "actual_rad": 1.0901843983291166,
+      "reference_rad": 1.0879049306923516,
+      "reference_velocity_rad_s": -0.4026638817348672,
+      "reference_acceleration_rad_s2": -0.10055307174113175,
+      "singular": false
+    },
+    {
+      "time_s": 2.5999999999999353,
+      "actual_rad": 1.082092875806863,
+      "reference_rad": 1.0798316942545256,
+      "reference_velocity_rad_s": -0.40465218259405905,
+      "reference_acceleration_rad_s2": -0.09827924953130084,
+      "singular": false
+    },
+    {
+      "time_s": 2.619999999999933,
+      "actual_rad": 1.0739615704965289,
+      "reference_rad": 1.07171914565602,
+      "reference_velocity_rad_s": -0.4065951438864113,
+      "reference_acceleration_rad_s2": -0.09601925193024047,
+      "singular": false
+    },
+    {
+      "time_s": 2.639999999999931,
+      "actual_rad": 1.0657914149902483,
+      "reference_rad": 1.063568188868967,
+      "reference_velocity_rad_s": -0.4084930502232106,
+      "reference_acceleration_rad_s2": -0.09377388619342898,
+      "singular": false
+    },
+    {
+      "time_s": 2.6599999999999286,
+      "actual_rad": 1.0575833355239346,
+      "reference_rad": 1.0553797220136807,
+      "reference_velocity_rad_s": -0.41034620208233036,
+      "reference_acceleration_rad_s2": -0.09154393176532358,
+      "singular": false
+    },
+    {
+      "time_s": 2.6799999999999264,
+      "actual_rad": 1.049338251592065,
+      "reference_rad": 1.0471546370468694,
+      "reference_velocity_rad_s": -0.41215491525452663,
+      "reference_acceleration_rad_s2": -0.08933014053298716,
+      "singular": false
+    },
+    {
+      "time_s": 2.6999999999999242,
+      "actual_rad": 1.0410570755800341,
+      "reference_rad": 1.0388938194608737,
+      "reference_velocity_rad_s": -0.41391952029492657,
+      "reference_acceleration_rad_s2": -0.08713323709168982,
+      "singular": false
+    },
+    {
+      "time_s": 2.719999999999922,
+      "actual_rad": 1.0327407124286816,
+      "reference_rad": 1.0305981479938173,
+      "reference_velocity_rad_s": -0.41564036197994314,
+      "reference_acceleration_rad_s2": -0.08495391902181199,
+      "singular": false
+    },
+    {
+      "time_s": 2.73999999999992,
+      "actual_rad": 1.0243900593109219,
+      "reference_rad": 1.0222684943505675,
+      "reference_velocity_rad_s": -0.4173177987698352,
+      "reference_acceleration_rad_s2": -0.08279285717639678,
+      "singular": false
+    },
+    {
+      "time_s": 2.7599999999999176,
+      "actual_rad": 1.016006005316222,
+      "reference_rad": 1.0139057229343822,
+      "reference_velocity_rad_s": -0.41895220227712193,
+      "reference_acceleration_rad_s2": -0.08065069597870793,
+      "singular": false
+    },
+    {
+      "time_s": 2.7799999999999154,
+      "actual_rad": 1.0075894311633131,
+      "reference_rad": 1.005510690589131,
+      "reference_velocity_rad_s": -0.42054395674103934,
+      "reference_acceleration_rad_s2": -0.07852805372917107,
+      "singular": false
+    },
+    {
+      "time_s": 2.7999999999999132,
+      "actual_rad": 0.9991412089282995,
+      "reference_rad": 0.9970842463519636,
+      "reference_velocity_rad_s": -0.4220934585082279,
+      "reference_acceleration_rad_s2": -0.07642552292108075,
+      "singular": false
+    },
+    {
+      "time_s": 2.819999999999911,
+      "actual_rad": 0.990662201793345,
+      "reference_rad": 0.9886272312163047,
+      "reference_velocity_rad_s": -0.42360111551981494,
+      "reference_acceleration_rad_s2": -0.07434367056448106,
+      "singular": false
+    },
+    {
+      "time_s": 2.839999999999909,
+      "actual_rad": 0.9821532638102132,
+      "reference_rad": 0.9801404779050348,
+      "reference_velocity_rad_s": -0.4250673468050527,
+      "reference_acceleration_rad_s2": -0.07228303851763361,
+      "singular": false
+    },
+    {
+      "time_s": 2.8599999999999066,
+      "actual_rad": 0.9736152396670088,
+      "reference_rad": 0.9716248106537387,
+      "reference_velocity_rad_s": -0.42649258198165574,
+      "reference_acceleration_rad_s2": -0.07024414382550627,
+      "singular": false
+    },
+    {
+      "time_s": 2.8799999999999044,
+      "actual_rad": 0.96504896447907,
+      "reference_rad": 0.9630810450038744,
+      "reference_velocity_rad_s": -0.4278772607629747,
+      "reference_acceleration_rad_s2": -0.0682274790647274,
+      "singular": false
+    },
+    {
+      "time_s": 2.899999999999902,
+      "actual_rad": 0.9564552636025101,
+      "reference_rad": 0.9545099876057316,
+      "reference_velocity_rad_s": -0.4292218324721285,
+      "reference_acceleration_rad_s2": -0.06623351269446925,
+      "singular": false
+    },
+    {
+      "time_s": 2.9199999999999,
+      "actual_rad": 0.9478349524616336,
+      "reference_rad": 0.9459124360310357,
+      "reference_velocity_rad_s": -0.4305267555632101,
+      "reference_acceleration_rad_s2": -0.06426268941273379,
+      "singular": false
+    },
+    {
+      "time_s": 2.939999999999898,
+      "actual_rad": 0.9391888363646845,
+      "reference_rad": 0.9372891785950569,
+      "reference_velocity_rad_s": -0.4317924971496666,
+      "reference_acceleration_rad_s2": -0.062315430517531745,
+      "singular": false
+    },
+    {
+      "time_s": 2.9599999999998956,
+      "actual_rad": 0.9305177103544212,
+      "reference_rad": 0.928640994188078,
+      "reference_velocity_rad_s": -0.4330195325399486,
+      "reference_acceleration_rad_s2": -0.06039213427246139,
+      "singular": false
+    },
+    {
+      "time_s": 2.9799999999998934,
+      "actual_rad": 0.9218223590750922,
+      "reference_rad": 0.9199686521160787,
+      "reference_velocity_rad_s": -0.43420834478051074,
+      "reference_acceleration_rad_s2": -0.058493176276204664,
+      "singular": false
+    },
+    {
+      "time_s": 2.999999999999891,
+      "actual_rad": 0.9131035566361765,
+      "reference_rad": 0.91127291195048,
+      "reference_velocity_rad_s": -0.4353594242062371,
+      "reference_acceleration_rad_s2": -0.05661890983547391,
+      "singular": false
+    },
+    {
+      "time_s": 3.019999999999889,
+      "actual_rad": 0.9043620664917937,
+      "reference_rad": 0.9025545233868129,
+      "reference_velocity_rad_s": -0.4364732679983572,
+      "reference_acceleration_rad_s2": -0.05476966634096038,
+      "singular": false
+    },
+    {
+      "time_s": 3.039999999999887,
+      "actual_rad": 0.8955986413379704,
+      "reference_rad": 0.8938142261121478,
+      "reference_velocity_rad_s": -0.4375503797499062,
+      "reference_acceleration_rad_s2": -0.05294575564584389,
+      "singular": false
+    },
+    {
+      "time_s": 3.0599999999998846,
+      "actual_rad": 0.886814023010405,
+      "reference_rad": 0.8850527496811397,
+      "reference_velocity_rad_s": -0.4385912690387784,
+      "reference_acceleration_rad_s2": -0.051147466446441026,
+      "singular": false
+    },
+    {
+      "time_s": 3.0799999999998824,
+      "actual_rad": 0.8780089423932431,
+      "reference_rad": 0.8762708134005381,
+      "reference_velocity_rad_s": -0.43959645100841205,
+      "reference_acceleration_rad_s2": -0.049375066664582745,
+      "singular": false
+    },
+    {
+      "time_s": 3.09999999999988,
+      "actual_rad": 0.869184119346194,
+      "reference_rad": 0.8674691262220063,
+      "reference_velocity_rad_s": -0.44056644595613154,
+      "reference_acceleration_rad_s2": -0.04762880383132735,
+      "singular": false
+    },
+    {
+      "time_s": 3.119999999999878,
+      "actual_rad": 0.8603402626264192,
+      "reference_rad": 0.8586483866430935,
+      "reference_velocity_rad_s": -0.4415017789291818,
+      "reference_acceleration_rad_s2": -0.04590890547162234,
+      "singular": false
+    },
+    {
+      "time_s": 3.139999999999876,
+      "actual_rad": 0.8514780698261218,
+      "reference_rad": 0.8498092826162137,
+      "reference_velocity_rad_s": -0.44240297932845496,
+      "reference_acceleration_rad_s2": -0.044215579489552806,
+      "singular": false
+    },
+    {
+      "time_s": 3.1599999999998736,
+      "actual_rad": 0.8425982273218917,
+      "reference_rad": 0.8409524914654722,
+      "reference_velocity_rad_s": -0.4432705805199284,
+      "reference_acceleration_rad_s2": -0.042549014553817766,
+      "singular": false
+    },
+    {
+      "time_s": 3.1799999999998714,
+      "actual_rad": 0.8337014102302368,
+      "reference_rad": 0.8320786798111828,
+      "reference_velocity_rad_s": -0.44410511945381104,
+      "reference_acceleration_rad_s2": -0.04090938048309367,
+      "singular": false
+    },
+    {
+      "time_s": 3.199999999999869,
+      "actual_rad": 0.8247882823638277,
+      "reference_rad": 0.8231885035019293,
+      "reference_velocity_rad_s": -0.4449071362913937,
+      "reference_acceleration_rad_s2": -0.03929682863095814,
+      "singular": false
+    },
+    {
+      "time_s": 3.219999999999867,
+      "actual_rad": 0.8158594961930428,
+      "reference_rad": 0.8142826075540107,
+      "reference_velocity_rad_s": -0.4456771740395902,
+      "reference_acceleration_rad_s2": -0.037711492270055366,
+      "singular": false
+    },
+    {
+      "time_s": 3.2399999999998648,
+      "actual_rad": 0.8069156928281301,
+      "reference_rad": 0.8053616260981199,
+      "reference_velocity_rad_s": -0.4464157781931508,
+      "reference_acceleration_rad_s2": -0.036153486975205665,
+      "singular": false
+    },
+    {
+      "time_s": 3.2599999999998626,
+      "actual_rad": 0.7979575019952233,
+      "reference_rad": 0.7964261823331003,
+      "reference_velocity_rad_s": -0.44712349638452714,
+      "reference_acceleration_rad_s2": -0.034622911005162876,
+      "singular": false
+    },
+    {
+      "time_s": 3.2799999999998604,
+      "actual_rad": 0.7889855420303531,
+      "reference_rad": 0.7874768884866289,
+      "reference_velocity_rad_s": -0.447800878041354,
+      "reference_acceleration_rad_s2": -0.03311984568274637,
+      "singular": false
+    },
+    {
+      "time_s": 3.299999999999858,
+      "actual_rad": 0.7800004198663492,
+      "reference_rad": 0.778514345782677,
+      "reference_velocity_rad_s": -0.4484484740515176,
+      "reference_acceleration_rad_s2": -0.03164435577307989,
+      "singular": false
+    },
+    {
+      "time_s": 3.319999999999856,
+      "actual_rad": 0.7710027310251485,
+      "reference_rad": 0.7695391444155898,
+      "reference_velocity_rad_s": -0.4490668364357652,
+      "reference_acceleration_rad_s2": -0.030196489859684858,
+      "singular": false
+    },
+    {
+      "time_s": 3.3399999999998538,
+      "actual_rad": 0.7619930596335174,
+      "reference_rad": 0.760551863530641,
+      "reference_velocity_rad_s": -0.44965651802781426,
+      "reference_acceleration_rad_s2": -0.028776280718184666,
+      "singular": false
+    },
+    {
+      "time_s": 3.3599999999998515,
+      "actual_rad": 0.7529719790265168,
+      "reference_rad": 0.7515530712109092,
+      "reference_velocity_rad_s": -0.4502180721619122,
+      "reference_acceleration_rad_s2": -0.02738374568738984,
+      "singular": false
+    },
+    {
+      "time_s": 3.3799999999998493,
+      "actual_rad": 0.743940050724115,
+      "reference_rad": 0.7425433244703314,
+      "reference_velocity_rad_s": -0.45075205236778365,
+      "reference_acceleration_rad_s2": -0.02601888703754686,
+      "singular": false
+    },
+    {
+      "time_s": 3.399999999999847,
+      "actual_rad": 0.734897823469285,
+      "reference_rad": 0.7335231692527838,
+      "reference_velocity_rad_s": -0.45125901207291974,
+      "reference_acceleration_rad_s2": -0.024681692335539338,
+      "singular": false
+    },
+    {
+      "time_s": 3.419999999999845,
+      "actual_rad": 0.7258458359184103,
+      "reference_rad": 0.724493140437039,
+      "reference_velocity_rad_s": -0.4517395043121344,
+      "reference_acceleration_rad_s2": -0.023372134806847536,
+      "singular": false
+    },
+    {
+      "time_s": 3.4399999999998427,
+      "actual_rad": 0.7167846157004318,
+      "reference_rad": 0.7154537618474686,
+      "reference_velocity_rad_s": -0.452194081444328,
+      "reference_acceleration_rad_s2": -0.02209017369407694,
+      "singular": false
+    },
+    {
+      "time_s": 3.4599999999998405,
+      "actual_rad": 0.7077146790831154,
+      "reference_rad": 0.7064055462703307,
+      "reference_velocity_rad_s": -0.452623294876385,
+      "reference_acceleration_rad_s2": -0.020835754611882064,
+      "singular": false
+    },
+    {
+      "time_s": 3.4799999999998383,
+      "actual_rad": 0.6986365310096554,
+      "reference_rad": 0.6973489954755144,
+      "reference_velocity_rad_s": -0.4530276947941325,
+      "reference_acceleration_rad_s2": -0.019608809898117828,
+      "singular": false
+    },
+    {
+      "time_s": 3.499999999999836,
+      "actual_rad": 0.6895506651996819,
+      "reference_rad": 0.6882846002435917,
+      "reference_velocity_rad_s": -0.45340782990028455,
+      "reference_acceleration_rad_s2": -0.018409258961062887,
+      "singular": false
+    },
+    {
+      "time_s": 3.519999999999834,
+      "actual_rad": 0.6804575642289775,
+      "reference_rad": 0.679212840398044,
+      "reference_velocity_rad_s": -0.45376424715928676,
+      "reference_acceleration_rad_s2": -0.017237008622570008,
+      "singular": false
+    },
+    {
+      "time_s": 3.5399999999998317,
+      "actual_rad": 0.671357699575318,
+      "reference_rad": 0.6701341848425221,
+      "reference_velocity_rad_s": -0.45409749154898726,
+      "reference_acceleration_rad_s2": -0.016091953457004537,
+      "singular": false
+    },
+    {
+      "time_s": 3.5599999999998295,
+      "actual_rad": 0.6622515316847322,
+      "reference_rad": 0.6610490916030035,
+      "reference_velocity_rad_s": -0.45440810581903673,
+      "reference_acceleration_rad_s2": -0.014973976125845133,
+      "singular": false
+    },
+    {
+      "time_s": 3.5799999999998273,
+      "actual_rad": 0.6531395100321331,
+      "reference_rad": 0.6519580078747187,
+      "reference_velocity_rad_s": -0.45469663025594353,
+      "reference_acceleration_rad_s2": -0.0138829477078274,
+      "singular": false
+    },
+    {
+      "time_s": 3.599999999999825,
+      "actual_rad": 0.644022073184435,
+      "reference_rad": 0.6428613700737078,
+      "reference_velocity_rad_s": -0.45496360245467815,
+      "reference_acceleration_rad_s2": -0.012818728024521636,
+      "singular": false
+    },
+    {
+      "time_s": 3.619999999999823,
+      "actual_rad": 0.6348996488737892,
+      "reference_rad": 0.6337596038928824,
+      "reference_velocity_rad_s": -0.4552095570967512,
+      "reference_acceleration_rad_s2": -0.011781165961242228,
+      "singular": false
+    },
+    {
+      "time_s": 3.6399999999998207,
+      "actual_rad": 0.6257726540655494,
+      "reference_rad": 0.624653124362459,
+      "reference_velocity_rad_s": -0.45543502573465344,
+      "reference_acceleration_rad_s2": -0.010770099783198497,
+      "singular": false
+    },
+    {
+      "time_s": 3.6599999999998185,
+      "actual_rad": 0.6166414950212175,
+      "reference_rad": 0.6155423359146441,
+      "reference_velocity_rad_s": -0.45564053658257897,
+      "reference_acceleration_rad_s2": -0.009785357446798898,
+      "singular": false
+    },
+    {
+      "time_s": 3.6799999999998163,
+      "actual_rad": 0.6075065673885852,
+      "reference_rad": 0.6064276324524417,
+      "reference_velocity_rad_s": -0.45582661431331845,
+      "reference_acceleration_rad_s2": -0.008826756906035627,
+      "singular": false
+    },
+    {
+      "time_s": 3.699999999999814,
+      "actual_rad": 0.5983682562824385,
+      "reference_rad": 0.5973093974224591,
+      "reference_velocity_rad_s": -0.45599377986123424,
+      "reference_acceleration_rad_s2": -0.007894106413878194,
+      "singular": false
+    },
+    {
+      "time_s": 3.719999999999812,
+      "actual_rad": 0.5892269368069026,
+      "reference_rad": 0.5881880038915992,
+      "reference_velocity_rad_s": -0.4561425502312114,
+      "reference_acceleration_rad_s2": -0.006987204818616241,
+      "singular": false
+    },
+    {
+      "time_s": 3.7399999999998097,
+      "actual_rad": 0.5800829733761004,
+      "reference_rad": 0.5790638146275103,
+      "reference_velocity_rad_s": -0.45627343831348566,
+      "reference_acceleration_rad_s2": -0.006105841855095176,
+      "singular": false
+    },
+    {
+      "time_s": 3.7599999999998075,
+      "actual_rad": 0.5709367190767433,
+      "reference_rad": 0.5699371821826795,
+      "reference_velocity_rad_s": -0.4563869527042425,
+      "reference_acceleration_rad_s2": -0.0052497984308000276,
+      "singular": false
+    },
+    {
+      "time_s": 3.7799999999998053,
+      "actual_rad": 0.561788517753607,
+      "reference_rad": 0.5608084489820657,
+      "reference_velocity_rad_s": -0.4564835975318901,
+      "reference_acceleration_rad_s2": -0.004418846906745447,
+      "singular": false
+    },
+    {
+      "time_s": 3.799999999999803,
+      "actual_rad": 0.5526387033701913,
+      "reference_rad": 0.5516779474141436,
+      "reference_velocity_rad_s": -0.45656387228889284,
+      "reference_acceleration_rad_s2": -0.003612751373139357,
+      "singular": false
+    },
+    {
+      "time_s": 3.819999999999801,
+      "actual_rad": 0.543487599821134,
+      "reference_rad": 0.5425459999252562,
+      "reference_velocity_rad_s": -0.45662827166906966,
+      "reference_acceleration_rad_s2": -0.002831267919790867,
+      "singular": false
+    },
+    {
+      "time_s": 3.8399999999997987,
+      "actual_rad": 0.5343355210533166,
+      "reference_rad": 0.5334129191171737,
+      "reference_velocity_rad_s": -0.4566772854102445,
+      "reference_acceleration_rad_s2": -0.0020741449012451896,
+      "singular": false
+    },
+    {
+      "time_s": 3.8599999999997965,
+      "actual_rad": 0.5251827712088944,
+      "reference_rad": 0.5242790078477422,
+      "reference_velocity_rad_s": -0.4567113981421499,
+      "reference_acceleration_rad_s2": -0.0013411231966261872,
+      "singular": false
+    },
+    {
+      "time_s": 3.8799999999997943,
+      "actual_rad": 0.5160296447522821,
+      "reference_rad": 0.5151445593345212,
+      "reference_velocity_rad_s": -0.4567310892394729,
+      "reference_acceleration_rad_s2": -0.0006319364641796388,
+      "singular": false
+    },
+    {
+      "time_s": 3.899999999999792,
+      "actual_rad": 0.5068764265843206,
+      "reference_rad": 0.5060098572613143,
+      "reference_velocity_rad_s": -0.45673683267993725,
+      "reference_acceleration_rad_s2": 5.3688609486138295e-05,
+      "singular": false
+    },
+    {
+      "time_s": 3.91999999999979,
+      "actual_rad": 0.49772339215537353,
+      "reference_rad": 0.49687517588748675,
+      "reference_velocity_rad_s": -0.4567290969073199,
+      "reference_acceleration_rad_s2": 0.0007160320654619329,
+      "singular": false
+    },
+    {
+      "time_s": 3.9399999999997877,
+      "actual_rad": 0.48857080758450344,
+      "reference_rad": 0.48774078015997224,
+      "reference_velocity_rad_s": -0.45670834469929233,
+      "reference_acceleration_rad_s2": 0.0013553804338936812,
+      "singular": false
+    },
+    {
+      "time_s": 3.9599999999997855,
+      "actual_rad": 0.4794189297769062,
+      "reference_rad": 0.47860692582787756,
+      "reference_velocity_rad_s": -0.4566750330399818,
+      "reference_acceleration_rad_s2": 0.0019720265006211435,
+      "singular": false
+    },
+    {
+      "time_s": 3.9799999999997833,
+      "actual_rad": 0.4702680065383623,
+      "reference_rad": 0.46947385955959064,
+      "reference_velocity_rad_s": -0.4566296129971461,
+      "reference_acceleration_rad_s2": 0.002566269079082008,
+      "singular": false
+    },
+    {
+      "time_s": 3.999999999999781,
+      "actual_rad": 0.4611182767009205,
+      "reference_rad": 0.46034181906229676,
+      "reference_velocity_rad_s": -0.4565725296038604,
+      "reference_acceleration_rad_s2": 0.003138412787460361,
+      "singular": false
+    },
+    {
+      "time_s": 4.019999999999779,
+      "actual_rad": 0.45196997023824104,
+      "reference_rad": 0.45121103320381994,
+      "reference_velocity_rad_s": -0.4565042217446069,
+      "reference_acceleration_rad_s2": 0.0036887678310541586,
+      "singular": false
+    },
+    {
+      "time_s": 4.039999999999777,
+      "actual_rad": 0.4428233083950925,
+      "reference_rad": 0.4420817221366984,
+      "reference_velocity_rad_s": -0.4564251220456652,
+      "reference_acceleration_rad_s2": 0.004217649789827978,
+      "singular": false
+    },
+    {
+      "time_s": 4.059999999999775,
+      "actual_rad": 0.43367850382519146,
+      "reference_rad": 0.4329542237784616,
+      "reference_velocity_rad_s": -0.4563167154433398,
+      "reference_acceleration_rad_s2": 0.006617138668267991,
+      "singular": false
+    },
+    {
+      "time_s": 4.079999999999773,
+      "actual_rad": 0.4245359727273371,
+      "reference_rad": 0.42382937108992946,
+      "reference_velocity_rad_s": -0.45616067364806373,
+      "reference_acceleration_rad_s2": 0.00898105621812257,
+      "singular": false
+    },
+    {
+      "time_s": 4.0999999999997705,
+      "actual_rad": 0.4153965331702279,
+      "reference_rad": 0.4147081096160685,
+      "reference_velocity_rad_s": -0.45595771475435204,
+      "reference_acceleration_rad_s2": 0.011308740847441871,
+      "singular": false
+    },
+    {
+      "time_s": 4.119999999999768,
+      "actual_rad": 0.4062611782049685,
+      "reference_rad": 0.4055913704097176,
+      "reference_velocity_rad_s": -0.45570856977652524,
+      "reference_acceleration_rad_s2": 0.013599562161007127,
+      "singular": false
+    },
+    {
+      "time_s": 4.139999999999766,
+      "actual_rad": 0.3971308674556024,
+      "reference_rad": 0.3964800697794264,
+      "reference_velocity_rad_s": -0.45541398202528954,
+      "reference_acceleration_rad_s2": 0.01585292090299502,
+      "singular": false
+    },
+    {
+      "time_s": 4.159999999999764,
+      "actual_rad": 0.3880065357155248,
+      "reference_rad": 0.38737510904975236,
+      "reference_velocity_rad_s": -0.4550747064858022,
+      "reference_acceleration_rad_s2": 0.018068248866433052,
+      "singular": false
+    },
+    {
+      "time_s": 4.179999999999762,
+      "actual_rad": 0.37888909854554453,
+      "reference_rad": 0.3782773743339718,
+      "reference_velocity_rad_s": -0.4546915091978664,
+      "reference_acceleration_rad_s2": 0.020245008770665165,
+      "singular": false
+    },
+    {
+      "time_s": 4.1999999999997595,
+      "actual_rad": 0.36977945434614656,
+      "reference_rad": 0.36918773631916313,
+      "reference_velocity_rad_s": -0.45426516663888666,
+      "reference_acceleration_rad_s2": 0.022382694108051465,
+      "singular": false
+    },
+    {
+      "time_s": 4.219999999999757,
+      "actual_rad": 0.36067848497489846,
+      "reference_rad": 0.36010705006359767,
+      "reference_velocity_rad_s": -0.4537964651101914,
+      "reference_acceleration_rad_s2": 0.024480828961132628,
+      "singular": false
+    },
+    {
+      "time_s": 4.239999999999755,
+      "actual_rad": 0.35158705584849237,
+      "reference_rad": 0.35103615480636563,
+      "reference_velocity_rad_s": -0.45328620012729165,
+      "reference_acceleration_rad_s2": 0.026538967791490307,
+      "singular": false
+    },
+    {
+      "time_s": 4.259999999999753,
+      "actual_rad": 0.34250601584657503,
+      "reference_rad": 0.3419758737891523,
+      "reference_velocity_rad_s": -0.4527351758146405,
+      "reference_acceleration_rad_s2": 0.028556695201533165,
+      "singular": false
+    },
+    {
+      "time_s": 4.279999999999751,
+      "actual_rad": 0.33343619715497586,
+      "reference_rad": 0.33292701409007264,
+      "reference_velocity_rad_s": -0.4521442043054139,
+      "reference_acceleration_rad_s2": 0.030533625670437263,
+      "singular": false
+    },
+    {
+      "time_s": 4.2999999999997485,
+      "actual_rad": 0.3243784151230444,
+      "reference_rad": 0.32389036646945035,
+      "reference_velocity_rad_s": -0.4515141051468219,
+      "reference_acceleration_rad_s2": 0.0324694032654656,
+      "singular": false
+    },
+    {
+      "time_s": 4.319999999999746,
+      "actual_rad": 0.31533346810888374,
+      "reference_rad": 0.31486670522743454,
+      "reference_velocity_rad_s": -0.45084570471143137,
+      "reference_acceleration_rad_s2": 0.034363701329885796,
+      "singular": false
+    },
+    {
+      "time_s": 4.339999999999744,
+      "actual_rad": 0.30630213735778883,
+      "reference_rad": 0.30585678807332806,
+      "reference_velocity_rad_s": -0.4501398356149505,
+      "reference_acceleration_rad_s2": 0.036216222148692676,
+      "singular": false
+    },
+    {
+      "time_s": 4.359999999999742,
+      "actual_rad": 0.29728518685177363,
+      "reference_rad": 0.29686135600648833,
+      "reference_velocity_rad_s": -0.4493973361409147,
+      "reference_acceleration_rad_s2": 0.038026696593340396,
+      "singular": false
+    },
+    {
+      "time_s": 4.37999999999974,
+      "actual_rad": 0.288283363181898,
+      "reference_rad": 0.2878811332086637,
+      "reference_velocity_rad_s": -0.44861904967267485,
+      "reference_acceleration_rad_s2": 0.0397948837466717,
+      "singular": false
+    },
+    {
+      "time_s": 4.3999999999997375,
+      "actual_rad": 0.2792973955231865,
+      "reference_rad": 0.2789168269476119,
+      "reference_velocity_rad_s": -0.44780582413307696,
+      "reference_acceleration_rad_s2": 0.041520570509220825,
+      "singular": false
+    },
+    {
+      "time_s": 4.419999999999735,
+      "actual_rad": 0.2703279955238185,
+      "reference_rad": 0.26996912749184876,
+      "reference_velocity_rad_s": -0.44695851143219306,
+      "reference_acceleration_rad_s2": 0.043203571188053735,
+      "singular": false
+    },
+    {
+      "time_s": 4.439999999999733,
+      "actual_rad": 0.261375857226459,
+      "reference_rad": 0.26103870803635765,
+      "reference_velocity_rad_s": -0.44607796692343643,
+      "reference_acceleration_rad_s2": 0.04484372706929167,
+      "singular": false
+    },
+    {
+      "time_s": 4.459999999999731,
+      "actual_rad": 0.2524416569932278,
+      "reference_rad": 0.25212622463908496,
+      "reference_velocity_rad_s": -0.44516504886838476,
+      "reference_acceleration_rad_s2": 0.04644090597545045,
+      "singular": false
+    },
+    {
+      "time_s": 4.479999999999729,
+      "actual_rad": 0.2435260534659404,
+      "reference_rad": 0.2432323161680563,
+      "reference_velocity_rad_s": -0.44422061791059614,
+      "reference_acceleration_rad_s2": 0.047995001808704654,
+      "singular": false
+    },
+    {
+      "time_s": 4.499999999999726,
+      "actual_rad": 0.23462968752895239,
+      "reference_rad": 0.23435760425892482,
+      "reference_velocity_rad_s": -0.4432455365586931,
+      "reference_acceleration_rad_s2": 0.04950593408117425,
+      "singular": false
+    },
+    {
+      "time_s": 4.519999999999724,
+      "actual_rad": 0.22575318226796875,
+      "reference_rad": 0.2255026932827544,
+      "reference_velocity_rad_s": -0.44224066867896,
+      "reference_acceleration_rad_s2": 0.050973647433302474,
+      "singular": false
+    },
+    {
+      "time_s": 4.539999999999722,
+      "actual_rad": 0.21689714296148485,
+      "reference_rad": 0.2166681703238611,
+      "reference_velocity_rad_s": -0.4412068789976847,
+      "reference_acceleration_rad_s2": 0.052398111141379856,
+      "singular": false
+    },
+    {
+      "time_s": 4.55999999999972,
+      "actual_rad": 0.20806215707347292,
+      "reference_rad": 0.2078546051675112,
+      "reference_velocity_rad_s": -0.4401450326134493,
+      "reference_acceleration_rad_s2": 0.053779318615244334,
+      "singular": false
+    },
+    {
+      "time_s": 4.579999999999718,
+      "actual_rad": 0.19924879420848127,
+      "reference_rad": 0.1990625502972616,
+      "reference_velocity_rad_s": -0.43905599451955585,
+      "reference_acceleration_rad_s2": 0.05511728688716271,
+      "singular": false
+    },
+    {
+      "time_s": 4.599999999999715,
+      "actual_rad": 0.19045760613407198,
+      "reference_rad": 0.19029254090176084,
+      "reference_velocity_rad_s": -0.43794062913675513,
+      "reference_acceleration_rad_s2": 0.05641205609287864,
+      "singular": false
+    },
+    {
+      "time_s": 4.619999999999713,
+      "actual_rad": 0.18168912684190935,
+      "reference_rad": 0.1815450948907822,
+      "reference_velocity_rad_s": -0.4367997998564254,
+      "reference_acceleration_rad_s2": 0.057663688945786835,
+      "singular": false
+    },
+    {
+      "time_s": 4.639999999999711,
+      "actual_rad": 0.17294387254880245,
+      "reference_rad": 0.17282071292029344,
+      "reference_velocity_rad_s": -0.43563436859432736,
+      "reference_acceleration_rad_s2": 0.05887227020516705,
+      "singular": false
+    },
+    {
+      "time_s": 4.659999999999709,
+      "actual_rad": 0.16422234172704753,
+      "reference_rad": 0.16411987842634002,
+      "reference_velocity_rad_s": -0.4344451953550465,
+      "reference_acceleration_rad_s2": 0.06003790613938665,
+      "singular": false
+    },
+    {
+      "time_s": 4.679999999999707,
+      "actual_rad": 0.15552501515066158,
+      "reference_rad": 0.15544305766753896,
+      "reference_velocity_rad_s": -0.43323313780721523,
+      "reference_acceleration_rad_s2": 0.06116072398495631,
+      "singular": false
+    },
+    {
+      "time_s": 4.699999999999704,
+      "actual_rad": 0.1468523559414936,
+      "reference_rad": 0.14679069977595094,
+      "reference_velocity_rad_s": -0.4319990508695872,
+      "reference_acceleration_rad_s2": 0.062240871402295436,
+      "singular": false
+    },
+    {
+      "time_s": 4.719999999999702,
+      "actual_rad": 0.13820480962906723,
+      "reference_rad": 0.1381632368161294,
+      "reference_velocity_rad_s": -0.430743786308023,
+      "reference_acceleration_rad_s2": 0.06327851592903702,
+      "singular": false
+    },
+    {
+      "time_s": 4.7399999999997,
+      "actual_rad": 0.12958280423093055,
+      "reference_rad": 0.12956108385211307,
+      "reference_velocity_rad_s": -0.42946819234342654,
+      "reference_acceleration_rad_s2": 0.06427384443167566,
+      "singular": false
+    },
+    {
+      "time_s": 4.759999999999698,
+      "actual_rad": 0.12098675032122845,
+      "reference_rad": 0.12098463902215917,
+      "reference_velocity_rad_s": -0.4281731132706606,
+      "reference_acceleration_rad_s2": 0.06522706255633579,
+      "singular": false
+    },
+    {
+      "time_s": 4.779999999999696,
+      "actual_rad": 0.11241704111417233,
+      "reference_rad": 0.11243428362098307,
+      "reference_velocity_rad_s": -0.4268593890884466,
+      "reference_acceleration_rad_s2": 0.0661383941794084,
+      "singular": false
+    },
+    {
+      "time_s": 4.799999999999693,
+      "actual_rad": 0.10387405255639173,
+      "reference_rad": 0.10391038218928506,
+      "reference_velocity_rad_s": -0.4255278551402501,
+      "reference_acceleration_rad_s2": 0.06700808085877806,
+      "singular": false
+    },
+    {
+      "time_s": 4.819999999999691,
+      "actual_rad": 0.09535814343238819,
+      "reference_rad": 0.09541328261036064,
+      "reference_velocity_rad_s": -0.4241793417661272,
+      "reference_acceleration_rad_s2": 0.06783638128633497,
+      "singular": false
+    },
+    {
+      "time_s": 4.839999999999689,
+      "actual_rad": 0.08686965546642135,
+      "reference_rad": 0.086943316213558,
+      "reference_velocity_rad_s": -0.42281467396550554,
+      "reference_acceleration_rad_s2": 0.0686235707424376,
+      "singular": false
+    },
+    {
+      "time_s": 4.859999999999687,
+      "actual_rad": 0.0784089134347979,
+      "reference_rad": 0.0785008840614656,
+      "reference_velocity_rad_s": -0.42142175526699244,
+      "reference_acceleration_rad_s2": 0.07065936159249385,
+      "singular": false
+    },
+    {
+      "time_s": 4.879999999999685,
+      "actual_rad": 0.06997637028887156,
+      "reference_rad": 0.07008671386444032,
+      "reference_velocity_rad_s": -0.41998865741229496,
+      "reference_acceleration_rad_s2": 0.07264146690977846,
+      "singular": false
+    },
+    {
+      "time_s": 4.899999999999682,
+      "actual_rad": 0.06157274246651577,
+      "reference_rad": 0.06170159846123724,
+      "reference_velocity_rad_s": -0.41851645517559355,
+      "reference_acceleration_rad_s2": 0.07456978550146802,
+      "singular": false
+    },
+    {
+      "time_s": 4.91999999999968,
+      "actual_rad": 0.05319885401069196,
+      "reference_rad": 0.05334630917694283,
+      "reference_velocity_rad_s": -0.4170062250471063,
+      "reference_acceleration_rad_s2": 0.07644424686772622,
+      "singular": false
+    },
+    {
+      "time_s": 4.939999999999678,
+      "actual_rad": 0.044855493694494514,
+      "reference_rad": 0.04502159579476084,
+      "reference_velocity_rad_s": -0.41545904462464084,
+      "reference_acceleration_rad_s2": 0.07826481065671051,
+      "singular": false
+    },
+    {
+      "time_s": 4.959999999999676,
+      "actual_rad": 0.03654342111246504,
+      "reference_rad": 0.036728186539847885,
+      "reference_velocity_rad_s": -0.4138759920162718,
+      "reference_acceleration_rad_s2": 0.08003146609713765,
+      "singular": false
+    },
+    {
+      "time_s": 4.979999999999674,
+      "actual_rad": 0.028263370784276255,
+      "reference_rad": 0.028466788074989813,
+      "reference_velocity_rad_s": -0.4122581452545807,
+      "reference_acceleration_rad_s2": 0.08174423141004034,
+      "singular": false
+    },
+    {
+      "time_s": 4.999999999999671,
+      "actual_rad": 0.020016053787303346,
+      "reference_rad": 0.0202380855078641,
+      "reference_velocity_rad_s": -0.4106065817228509,
+      "reference_acceleration_rad_s2": 0.08340315320131458,
+      "singular": false
+    },
+    {
+      "time_s": 5.019999999999669,
+      "actual_rad": 0.01180215837295738,
+      "reference_rad": 0.012042742409668739,
+      "reference_velocity_rad_s": -0.4089223775935947,
+      "reference_acceleration_rad_s2": 0.08500830583664072,
+      "singular": false
+    },
+    {
+      "time_s": 5.039999999999667,
+      "actual_rad": 0.0036223502084817517,
+      "reference_rad": 0.003881400844842231,
+      "reference_velocity_rad_s": -0.4072066072797439,
+      "reference_acceleration_rad_s2": 0.08655979080032662,
+      "singular": false
+    },
+    {
+      "time_s": 5.059999999999665,
+      "actual_rad": -0.004522727513544748,
+      "reference_rad": -0.004245318588364189,
+      "reference_velocity_rad_s": -0.40546034289881094,
+      "reference_acceleration_rad_s2": 0.08805773603959388,
+      "singular": false
+    },
+    {
+      "time_s": 5.079999999999663,
+      "actual_rad": -0.012632453994547193,
+      "reference_rad": -0.012336816706731035,
+      "reference_velocity_rad_s": -0.4036846537502957,
+      "reference_acceleration_rad_s2": 0.08950229529579504,
+      "singular": false
+    },
+    {
+      "time_s": 5.09999999999966,
+      "actual_rad": -0.020706230751592756,
+      "reference_rad": -0.020392515680590417,
+      "reference_velocity_rad_s": -0.40188060580659324,
+      "reference_acceleration_rad_s2": 0.09089364742402288,
+      "singular": false
+    },
+    {
+      "time_s": 5.119999999999658,
+      "actual_rad": -0.028743481540124693,
+      "reference_rad": -0.02841185896231413,
+      "reference_velocity_rad_s": -0.4000492612176053,
+      "reference_acceleration_rad_s2": 0.09223199570252863,
+      "singular": false
+    },
+    {
+      "time_s": 5.139999999999656,
+      "actual_rad": -0.036743652256384866,
+      "reference_rad": -0.03639431120502379,
+      "reference_velocity_rad_s": -0.3981916778292591,
+      "reference_acceleration_rad_s2": 0.09351756713334196,
+      "singular": false
+    },
+    {
+      "time_s": 5.159999999999654,
+      "actual_rad": -0.04470621082659726,
+      "reference_rad": -0.044339358171812115,
+      "reference_velocity_rad_s": -0.396308908716087,
+      "reference_acceleration_rad_s2": 0.09475061173544067,
+      "singular": false
+    },
+    {
+      "time_s": 5.1799999999996515,
+      "actual_rad": -0.05263064709254119,
+      "reference_rad": -0.052246506635758916,
+      "reference_velocity_rad_s": -0.39440200172801043,
+      "reference_acceleration_rad_s2": 0.09593140183178864,
+      "singular": false
+    },
+    {
+      "time_s": 5.199999999999649,
+      "actual_rad": -0.06051647268684253,
+      "reference_rad": -0.06011528427102775,
+      "reference_velocity_rad_s": -0.39247199905143004,
+      "reference_acceleration_rad_s2": 0.09706023133151462,
+      "singular": false
+    },
+    {
+      "time_s": 5.219999999999647,
+      "actual_rad": -0.06836322089351361,
+      "reference_rad": -0.06794523953532461,
+      "reference_velocity_rad_s": -0.3905199367847114,
+      "reference_acceleration_rad_s2": 0.09813741500847109,
+      "singular": false
+    },
+    {
+      "time_s": 5.239999999999645,
+      "actual_rad": -0.07617044649784759,
+      "reference_rad": -0.07573594154401508,
+      "reference_velocity_rad_s": -0.38854684452812605,
+      "reference_acceleration_rad_s2": 0.0991632877773742,
+      "singular": false
+    },
+    {
+      "time_s": 5.259999999999643,
+      "actual_rad": -0.08393772563515858,
+      "reference_rad": -0.08348697993617726,
+      "reference_velocity_rad_s": -0.38655374498828743,
+      "reference_acceleration_rad_s2": 0.10013820396868091,
+      "singular": false
+    },
+    {
+      "time_s": 5.2799999999996405,
+      "actual_rad": -0.09166465563219646,
+      "reference_rad": -0.09119796473289998,
+      "reference_velocity_rad_s": -0.384541653597083,
+      "reference_acceleration_rad_s2": 0.1010625366033205,
+      "singular": false
+    },
+    {
+      "time_s": 5.299999999999638,
+      "actual_rad": -0.0993508548346459,
+      "reference_rad": -0.09886852618809638,
+      "reference_velocity_rad_s": -0.38251157814511727,
+      "reference_acceleration_rad_s2": 0.10193667666836512,
+      "singular": false
+    },
+    {
+      "time_s": 5.319999999999636,
+      "actual_rad": -0.1069959624300159,
+      "reference_rad": -0.10649831463213122,
+      "reference_velocity_rad_s": -0.3804645184296124,
+      "reference_acceleration_rad_s2": 0.10276103239466709,
+      "singular": false
+    },
+    {
+      "time_s": 5.339999999999634,
+      "actual_rad": -0.11459963826461379,
+      "reference_rad": -0.11408700030855323,
+      "reference_velocity_rad_s": -0.3784014659167342,
+      "reference_acceleration_rad_s2": 0.1035360285374653,
+      "singular": false
+    },
+    {
+      "time_s": 5.359999999999632,
+      "actual_rad": -0.1221615626509259,
+      "reference_rad": -0.12163427320422082,
+      "reference_velocity_rad_s": -0.3763234034182651,
+      "reference_acceleration_rad_s2": 0.10426210566091446,
+      "singular": false
+    },
+    {
+      "time_s": 5.3799999999996295,
+      "actual_rad": -0.12968143617440725,
+      "reference_rad": -0.12913984287309144,
+      "reference_velocity_rad_s": -0.37423130478254246,
+      "reference_acceleration_rad_s2": 0.10493971942744788,
+      "singular": false
+    },
+    {
+      "time_s": 5.399999999999627,
+      "actual_rad": -0.13715897949060474,
+      "reference_rad": -0.13660343825399246,
+      "reference_velocity_rad_s": -0.37212613459955163,
+      "reference_acceleration_rad_s2": 0.10556933989284935,
+      "singular": false
+    },
+    {
+      "time_s": 5.419999999999625,
+      "actual_rad": -0.14459393310986937,
+      "reference_rad": -0.14402480748260782,
+      "reference_velocity_rad_s": -0.3700088479200548,
+      "reference_acceleration_rad_s2": 0.10615145080786365,
+      "singular": false
+    },
+    {
+      "time_s": 5.439999999999623,
+      "actual_rad": -0.15198605718994018,
+      "reference_rad": -0.15140371769801542,
+      "reference_velocity_rad_s": -0.3678803899886138,
+      "reference_acceleration_rad_s2": 0.10668654892713669,
+      "singular": false
+    },
+    {
+      "time_s": 5.459999999999621,
+      "actual_rad": -0.15933513131528868,
+      "reference_rad": -0.15873995484399517,
+      "reference_velocity_rad_s": -0.3657416959903587,
+      "reference_acceleration_rad_s2": 0.10717514332623546,
+      "singular": false
+    },
+    {
+      "time_s": 5.4799999999996185,
+      "actual_rad": -0.16664095427380635,
+      "reference_rad": -0.1660333234654292,
+      "reference_velocity_rad_s": -0.3635936908113238,
+      "reference_acceleration_rad_s2": 0.10761775472745765,
+      "singular": false
+    },
+    {
+      "time_s": 5.499999999999616,
+      "actual_rad": -0.17390334382800016,
+      "reference_rad": -0.1732836465000327,
+      "reference_velocity_rad_s": -0.3614372888121792,
+      "reference_acceleration_rad_s2": 0.10801491483510194,
+      "singular": false
+    },
+    {
+      "time_s": 5.519999999999614,
+      "actual_rad": -0.18112213647757136,
+      "reference_rad": -0.1804907650656935,
+      "reference_velocity_rad_s": -0.3592733936151513,
+      "reference_acceleration_rad_s2": 0.10836716568082568,
+      "singular": false
+    },
+    {
+      "time_s": 5.539999999999612,
+      "actual_rad": -0.18829718722933017,
+      "reference_rad": -0.18765453824368206,
+      "reference_velocity_rad_s": -0.35710289790393673,
+      "reference_acceleration_rad_s2": 0.10867505897968907,
+      "singular": false
+    },
+    {
+      "time_s": 5.55999999999961,
+      "actual_rad": -0.19542836935521354,
+      "reference_rad": -0.19477484285798474,
+      "reference_velocity_rad_s": -0.3549266832363784,
+      "reference_acceleration_rad_s2": 0.10893915549743137,
+      "singular": false
+    },
+    {
+      "time_s": 5.5799999999996075,
+      "actual_rad": -0.2025155741475951,
+      "reference_rad": -0.20185157325102177,
+      "reference_velocity_rad_s": -0.35274561986968184,
+      "reference_acceleration_rad_s2": 0.10916002442950079,
+      "singular": false
+    },
+    {
+      "time_s": 5.599999999999605,
+      "actual_rad": -0.2095587106707655,
+      "reference_rad": -0.20888464105598503,
+      "reference_velocity_rad_s": -0.3505605665979323,
+      "reference_acceleration_rad_s2": 0.10933824279231587,
+      "singular": false
+    },
+    {
+      "time_s": 5.619999999999603,
+      "actual_rad": -0.21655770551250428,
+      "reference_rad": -0.21587397496605276,
+      "reference_velocity_rad_s": -0.348372370601652,
+      "reference_acceleration_rad_s2": 0.10947439482719715,
+      "singular": false
+    },
+    {
+      "time_s": 5.639999999999601,
+      "actual_rad": -0.22351250253238095,
+      "reference_rad": -0.2228195205007144,
+      "reference_velocity_rad_s": -0.34618186730915845,
+      "reference_acceleration_rad_s2": 0.10956907141738151,
+      "singular": false
+    },
+    {
+      "time_s": 5.659999999999599,
+      "actual_rad": -0.23042306260066608,
+      "reference_rad": -0.22972117839052153,
+      "reference_velocity_rad_s": -0.34398068149884975,
+      "reference_acceleration_rad_s2": 0.11054113056282006,
+      "singular": false
+    },
+    {
+      "time_s": 5.6799999999995965,
+      "actual_rad": -0.23728925993865096,
+      "reference_rad": -0.23657862149651665,
+      "reference_velocity_rad_s": -0.3417605557677659,
+      "reference_acceleration_rad_s2": 0.11146313803530361,
+      "singular": false
+    },
+    {
+      "time_s": 5.699999999999594,
+      "actual_rad": -0.24411078552626003,
+      "reference_rad": -0.24339148100055885,
+      "reference_velocity_rad_s": -0.33952248662813994,
+      "reference_acceleration_rad_s2": 0.1123355483742566,
+      "singular": false
+    },
+    {
+      "time_s": 5.719999999999592,
+      "actual_rad": -0.2508872582005739,
+      "reference_rad": -0.2501594079228897,
+      "reference_velocity_rad_s": -0.337267461358721,
+      "reference_acceleration_rad_s2": 0.11315883027311699,
+      "singular": false
+    },
+    {
+      "time_s": 5.73999999999959,
+      "actual_rad": -0.25761832645576577,
+      "reference_rad": -0.2568820729346737,
+      "reference_velocity_rad_s": -0.3349964577286274,
+      "reference_acceleration_rad_s2": 0.11393346588595765,
+      "singular": false
+    },
+    {
+      "time_s": 5.759999999999588,
+      "actual_rad": -0.26430366384098053,
+      "reference_rad": -0.26355916616517017,
+      "reference_velocity_rad_s": -0.3327104437350449,
+      "reference_acceleration_rad_s2": 0.1146599501373641,
+      "singular": false
+    },
+    {
+      "time_s": 5.7799999999995855,
+      "actual_rad": -0.2709429657743102,
+      "reference_rad": -0.27019039700377556,
+      "reference_velocity_rad_s": -0.3304103773546825,
+      "reference_acceleration_rad_s2": 0.11533879003649596,
+      "singular": false
+    },
+    {
+      "time_s": 5.799999999999583,
+      "actual_rad": -0.2775359481579124,
+      "reference_rad": -0.27677549389724754,
+      "reference_velocity_rad_s": -0.32809720630889905,
+      "reference_acceleration_rad_s2": 0.11597050399623234,
+      "singular": false
+    },
+    {
+      "time_s": 5.819999999999581,
+      "actual_rad": -0.28408234671535604,
+      "reference_rad": -0.2833142041423662,
+      "reference_velocity_rad_s": -0.3257718678423871,
+      "reference_acceleration_rad_s2": 0.11655562115825235,
+      "singular": false
+    },
+    {
+      "time_s": 5.839999999999579,
+      "actual_rad": -0.29058191661833643,
+      "reference_rad": -0.2898062936742891,
+      "reference_velocity_rad_s": -0.32343528851529385,
+      "reference_acceleration_rad_s2": 0.11709468072487066,
+      "singular": false
+    },
+    {
+      "time_s": 5.859999999999577,
+      "actual_rad": -0.2970344322258892,
+      "reference_rad": -0.2962515468509044,
+      "reference_velocity_rad_s": -0.3210883840086238,
+      "reference_acceleration_rad_s2": 0.11758823129839933,
+      "singular": false
+    },
+    {
+      "time_s": 5.8799999999995745,
+      "actual_rad": -0.30343968678197025,
+      "reference_rad": -0.30264976623340156,
+      "reference_velocity_rad_s": -0.31873205894277995,
+      "reference_acceleration_rad_s2": 0.1180368302287766,
+      "singular": false
+    },
+    {
+      "time_s": 5.899999999999572,
+      "actual_rad": -0.3097974921829043,
+      "reference_rad": -0.30900077236335854,
+      "reference_velocity_rad_s": -0.31636720670905993,
+      "reference_acceleration_rad_s2": 0.1184410429701584,
+      "singular": false
+    },
+    {
+      "time_s": 5.91999999999957,
+      "actual_rad": -0.31610767873899775,
+      "reference_rad": -0.3153044035365813,
+      "reference_velocity_rad_s": -0.31399470931392476,
+      "reference_acceleration_rad_s2": 0.11880144244713071,
+      "singular": false
+    },
+    {
+      "time_s": 5.939999999999568,
+      "actual_rad": -0.32237009491636376,
+      "reference_rad": -0.3215605155739518,
+      "reference_velocity_rad_s": -0.3116154372358465,
+      "reference_acceleration_rad_s2": 0.11911860843116616,
+      "singular": false
+    },
+    {
+      "time_s": 5.959999999999566,
+      "actual_rad": -0.3285846070786174,
+      "reference_rad": -0.32776898158954304,
+      "reference_velocity_rad_s": -0.30923024929451176,
+      "reference_acceleration_rad_s2": 0.11939312692790247,
+      "singular": false
+    },
+    {
+      "time_s": 5.979999999999563,
+      "actual_rad": -0.3347510992342327,
+      "reference_rad": -0.33392969175623244,
+      "reference_velocity_rad_s": -0.3068399925321768,
+      "reference_acceleration_rad_s2": 0.11962558957579367,
+      "singular": false
+    },
+    {
+      "time_s": 5.999999999999561,
+      "actual_rad": -0.34086947276364915,
+      "reference_rad": -0.34004255306907116,
+      "reference_velocity_rad_s": -0.3044455021069201,
+      "reference_acceleration_rad_s2": 0.11981659305663543,
+      "singular": false
+    },
+    {
+      "time_s": 6.019999999999559,
+      "actual_rad": -0.34693964616244094,
+      "reference_rad": -0.3461074891066287,
+      "reference_velocity_rad_s": -0.30204760119757246,
+      "reference_acceleration_rad_s2": 0.11996673851844317,
+      "singular": false
+    },
+    {
+      "time_s": 6.039999999999557,
+      "actual_rad": -0.3529615547788599,
+      "reference_rad": -0.3521244397905483,
+      "reference_velocity_rad_s": -0.2996471009200549,
+      "reference_acceleration_rad_s2": 0.1200766310111126,
+      "singular": false
+    },
+    {
+      "time_s": 6.059999999999555,
+      "actual_rad": -0.3589351505456235,
+      "reference_rad": -0.3580933611435555,
+      "reference_velocity_rad_s": -0.2972448002548765,
+      "reference_acceleration_rad_s2": 0.1201468789352681,
+      "singular": false
+    },
+    {
+      "time_s": 6.079999999999552,
+      "actual_rad": -0.36486040171198636,
+      "reference_rad": -0.3640142250461038,
+      "reference_velocity_rad_s": -0.2948414859855176,
+      "reference_acceleration_rad_s2": 0.12017809350466205,
+      "singular": false
+    },
+    {
+      "time_s": 6.09999999999955,
+      "actual_rad": -0.3707372925796309,
+      "reference_rad": -0.36988701899191523,
+      "reference_velocity_rad_s": -0.2924379326474294,
+      "reference_acceleration_rad_s2": 0.12017088822246083,
+      "singular": false
+    },
+    {
+      "time_s": 6.119999999999548,
+      "actual_rad": -0.37656582323685595,
+      "reference_rad": -0.37571174584259115,
+      "reference_velocity_rad_s": -0.2900349024873623,
+      "reference_acceleration_rad_s2": 0.12012587837171373,
+      "singular": false
+    },
+    {
+      "time_s": 6.139999999999546,
+      "actual_rad": -0.3823460092856279,
+      "reference_rad": -0.3814884235815197,
+      "reference_velocity_rad_s": -0.28763314543274454,
+      "reference_acceleration_rad_s2": 0.1200436805202762,
+      "singular": false
+    },
+    {
+      "time_s": 6.159999999999544,
+      "actual_rad": -0.38807788158107254,
+      "reference_rad": -0.38721708506726205,
+      "reference_velocity_rad_s": -0.2852333990708159,
+      "reference_acceleration_rad_s2": 0.11992491204042266,
+      "singular": false
+    },
+    {
+      "time_s": 6.179999999999541,
+      "actual_rad": -0.39376148596241767,
+      "reference_rad": -0.39289777778661916,
+      "reference_velocity_rad_s": -0.28283638863721783,
+      "reference_acceleration_rad_s2": 0.11977019064335317,
+      "singular": false
+    },
+    {
+      "time_s": 6.199999999999539,
+      "actual_rad": -0.39939688298533765,
+      "reference_rad": -0.3985305636075607,
+      "reference_velocity_rad_s": -0.2804428270137442,
+      "reference_acceleration_rad_s2": 0.1195801339287712,
+      "singular": false
+    },
+    {
+      "time_s": 6.219999999999537,
+      "actual_rad": -0.4049841472839452,
+      "reference_rad": -0.4041155185322063,
+      "reference_velocity_rad_s": -0.2780534147349487,
+      "reference_acceleration_rad_s2": 0.11935535894968263,
+      "singular": false
+    },
+    {
+      "time_s": 6.239999999999535,
+      "actual_rad": -0.41052336802725325,
+      "reference_rad": -0.4096527324500079,
+      "reference_velocity_rad_s": -0.27566884000330594,
+      "reference_acceleration_rad_s2": 0.11909648179253274,
+      "singular": false
+    },
+    {
+      "time_s": 6.259999999999533,
+      "actual_rad": -0.4160146488264961,
+      "reference_rad": -0.41514230889133796,
+      "reference_velocity_rad_s": -0.27328977871260757,
+      "reference_acceleration_rad_s2": 0.11880411717277345,
+      "singular": false
+    },
+    {
+      "time_s": 6.27999999999953,
+      "actual_rad": -0.42145810659929456,
+      "reference_rad": -0.4205843647816139,
+      "reference_velocity_rad_s": -0.27091689447930145,
+      "reference_acceleration_rad_s2": 0.1184788780459315,
+      "singular": false
+    },
+    {
+      "time_s": 6.299999999999528,
+      "actual_rad": -0.42685387149961146,
+      "reference_rad": -0.4259790301961217,
+      "reference_velocity_rad_s": -0.26855083868144924,
+      "reference_acceleration_rad_s2": 0.11812137523421641,
+      "singular": false
+    },
+    {
+      "time_s": 6.319999999999526,
+      "actual_rad": -0.4322020867754331,
+      "reference_rad": -0.4313264481157113,
+      "reference_velocity_rad_s": -0.2661922505049954,
+      "reference_acceleration_rad_s2": 0.11773221706868497,
+      "singular": false
+    },
+    {
+      "time_s": 6.339999999999524,
+      "actual_rad": -0.4375029085684604,
+      "reference_rad": -0.43662677418346285,
+      "reference_velocity_rad_s": -0.263841756997041,
+      "reference_acceleration_rad_s2": 0.11731200904695933,
+      "singular": false
+    },
+    {
+      "time_s": 6.359999999999522,
+      "actual_rad": -0.442756505666864,
+      "reference_rad": -0.441880176462506,
+      "reference_velocity_rad_s": -0.2614999731258043,
+      "reference_acceleration_rad_s2": 0.11686135350646865,
+      "singular": false
+    },
+    {
+      "time_s": 6.379999999999519,
+      "actual_rad": -0.44796305924382096,
+      "reference_rad": -0.44708683519509607,
+      "reference_velocity_rad_s": -0.2591675018469634,
+      "reference_acceleration_rad_s2": 0.11638084931316435,
+      "singular": false
+    },
+    {
+      "time_s": 6.399999999999517,
+      "actual_rad": -0.4531227625956749,
+      "reference_rad": -0.4522469425630724,
+      "reference_velocity_rad_s": -0.256844934176073,
+      "reference_acceleration_rad_s2": 0.11587109156564258,
+      "singular": false
+    },
+    {
+      "time_s": 6.419999999999515,
+      "actual_rad": -0.45823582089008874,
+      "reference_rad": -0.4573607024498314,
+      "reference_velocity_rad_s": -0.2545328492667367,
+      "reference_acceleration_rad_s2": 0.11533267131457671,
+      "singular": false
+    },
+    {
+      "time_s": 6.439999999999513,
+      "actual_rad": -0.46330245091344835,
+      "reference_rad": -0.4624283302039165,
+      "reference_velocity_rad_s": -0.2522318144942503,
+      "reference_acceleration_rad_s2": 0.11476617529736259,
+      "singular": false
+    },
+    {
+      "time_s": 6.459999999999511,
+      "actual_rad": -0.46832288081849627,
+      "reference_rad": -0.46745005240432724,
+      "reference_velocity_rad_s": -0.24994238554439135,
+      "reference_acceleration_rad_s2": 0.1141721856878399,
+      "singular": false
+    },
+    {
+      "time_s": 6.479999999999508,
+      "actual_rad": -0.4732973505887018,
+      "reference_rad": -0.4724261066276638,
+      "reference_velocity_rad_s": -0.24766510650707024,
+      "reference_acceleration_rad_s2": 0.1135512798609543,
+      "singular": false
+    },
+    {
+      "time_s": 6.499999999999506,
+      "actual_rad": -0.47822611303927826,
+      "reference_rad": -0.47735674121717353,
+      "reference_velocity_rad_s": -0.2454005099745381,
+      "reference_acceleration_rad_s2": 0.11290403017219801,
+      "singular": false
+    },
+    {
+      "time_s": 6.519999999999504,
+      "actual_rad": -0.4831094329680032,
+      "reference_rad": -0.48224221505383125,
+      "reference_velocity_rad_s": -0.2431491171438577,
+      "reference_acceleration_rad_s2": 0.11223100375165534,
+      "singular": false
+    },
+    {
+      "time_s": 6.539999999999502,
+      "actual_rad": -0.4879475853132814,
+      "reference_rad": -0.4870827973294791,
+      "reference_velocity_rad_s": -0.24091143792335287,
+      "reference_acceleration_rad_s2": 0.1115327623124678,
+      "singular": false
+    },
+    {
+      "time_s": 6.5599999999995,
+      "actual_rad": -0.49274085430068276,
+      "reference_rad": -0.4918787673221565,
+      "reference_velocity_rad_s": -0.23868797104274425,
+      "reference_acceleration_rad_s2": 0.11080986197351447,
+      "singular": false
+    },
+    {
+      "time_s": 6.579999999999497,
+      "actual_rad": -0.4974895339430184,
+      "reference_rad": -0.4966304141736517,
+      "reference_velocity_rad_s": -0.23647920416668955,
+      "reference_acceleration_rad_s2": 0.11006285309609451,
+      "singular": false
+    },
+    {
+      "time_s": 6.599999999999495,
+      "actual_rad": -0.5021939280640302,
+      "reference_rad": -0.5013380366693687,
+      "reference_velocity_rad_s": -0.23428561401145295,
+      "reference_acceleration_rad_s2": 0.10929228013438767,
+      "singular": false
+    },
+    {
+      "time_s": 6.619999999999493,
+      "actual_rad": -0.5068543493869074,
+      "reference_rad": -0.5060019430205418,
+      "reference_velocity_rad_s": -0.23210766646443237,
+      "reference_acceleration_rad_s2": 0.10849868149945599,
+      "singular": false
+    },
+    {
+      "time_s": 6.639999999999491,
+      "actual_rad": -0.5114711196497971,
+      "reference_rad": -0.5106224506488883,
+      "reference_velocity_rad_s": -0.22994581670626713,
+      "reference_acceleration_rad_s2": 0.10768258943653831,
+      "singular": false
+    },
+    {
+      "time_s": 6.6599999999994886,
+      "actual_rad": -0.5160445694592638,
+      "reference_rad": -0.5151998859736977,
+      "reference_velocity_rad_s": -0.2278005093352764,
+      "reference_acceleration_rad_s2": 0.10684452991538647,
+      "singular": false
+    },
+    {
+      "time_s": 6.679999999999486,
+      "actual_rad": -0.5205750378140638,
+      "reference_rad": -0.5197345842014582,
+      "reference_velocity_rad_s": -0.225672178493956,
+      "reference_acceleration_rad_s2": 0.10598502253337247,
+      "singular": false
+    },
+    {
+      "time_s": 6.699999999999484,
+      "actual_rad": -0.5250628725000401,
+      "reference_rad": -0.5242268891180182,
+      "reference_velocity_rad_s": -0.22356124799729246,
+      "reference_acceleration_rad_s2": 0.10510458043110203,
+      "singular": false
+    },
+    {
+      "time_s": 6.719999999999482,
+      "actual_rad": -0.5295084299583581,
+      "reference_rad": -0.5286771528833316,
+      "reference_velocity_rad_s": -0.22146813146263838,
+      "reference_acceleration_rad_s2": 0.10420371022024821,
+      "singular": false
+    },
+    {
+      "time_s": 6.73999999999948,
+      "actual_rad": -0.5339120742879792,
+      "reference_rad": -0.533085735828817,
+      "reference_velocity_rad_s": -0.21939323244091483,
+      "reference_acceleration_rad_s2": 0.10328291192332556,
+      "singular": false
+    },
+    {
+      "time_s": 6.7599999999994775,
+      "actual_rad": -0.5382741773939502,
+      "reference_rad": -0.5374530062573439,
+      "reference_velocity_rad_s": -0.2173369445488977,
+      "reference_acceleration_rad_s2": 0.10234267892510941,
+      "singular": false
+    },
+    {
+      "time_s": 6.779999999999475,
+      "actual_rad": -0.5425951188331382,
+      "reference_rad": -0.5417793402458899,
+      "reference_velocity_rad_s": -0.21529965160236464,
+      "reference_acceleration_rad_s2": 0.101383497935407,
+      "singular": false
+    },
+    {
+      "time_s": 6.799999999999473,
+      "actual_rad": -0.5468752856355406,
+      "reference_rad": -0.5460651214508505,
+      "reference_velocity_rad_s": -0.2132817277498743,
+      "reference_acceleration_rad_s2": 0.10040584896287763,
+      "singular": false
+    },
+    {
+      "time_s": 6.819999999999471,
+      "actual_rad": -0.5511150721071152,
+      "reference_rad": -0.5503107409160359,
+      "reference_velocity_rad_s": -0.2112835376069608,
+      "reference_acceleration_rad_s2": 0.09941020529959863,
+      "singular": false
+    },
+    {
+      "time_s": 6.839999999999469,
+      "actual_rad": -0.5553148796366177,
+      "reference_rad": -0.5545165968833625,
+      "reference_velocity_rad_s": -0.20930543639053298,
+      "reference_acceleration_rad_s2": 0.09839703351606943,
+      "singular": false
+    },
+    {
+      "time_s": 6.8599999999994665,
+      "actual_rad": -0.5594751161287044,
+      "reference_rad": -0.5586830946062136,
+      "reference_velocity_rad_s": -0.20734777005327024,
+      "reference_acceleration_rad_s2": 0.09736679346634243,
+      "singular": false
+    },
+    {
+      "time_s": 6.879999999999464,
+      "actual_rad": -0.5635961966279761,
+      "reference_rad": -0.5628106461655029,
+      "reference_velocity_rad_s": -0.20541087541782005,
+      "reference_acceleration_rad_s2": 0.09631993830297028,
+      "singular": false
+    },
+    {
+      "time_s": 6.899999999999462,
+      "actual_rad": -0.5676785431634925,
+      "reference_rad": -0.5668996702884155,
+      "reference_velocity_rad_s": -0.20349508031059668,
+      "reference_acceleration_rad_s2": 0.09525691450145285,
+      "singular": false
+    },
+    {
+      "time_s": 6.91999999999946,
+      "actual_rad": -0.5717225835483278,
+      "reference_rad": -0.5709505921698106,
+      "reference_velocity_rad_s": -0.20160070369500224,
+      "reference_acceleration_rad_s2": 0.09417816189387243,
+      "singular": false
+    },
+    {
+      "time_s": 6.939999999999458,
+      "actual_rad": -0.5757287513483532,
+      "reference_rad": -0.5749638432962889,
+      "reference_velocity_rad_s": -0.19972805580388558,
+      "reference_acceleration_rad_s2": 0.09308411371139899,
+      "singular": false
+    },
+    {
+      "time_s": 6.9599999999994555,
+      "actual_rad": -0.5796974865806112,
+      "reference_rad": -0.578939861272904,
+      "reference_velocity_rad_s": -0.19787743827106136,
+      "reference_acceleration_rad_s2": 0.09197519663535027,
+      "singular": false
+    },
+    {
+      "time_s": 6.979999999999453,
+      "actual_rad": -0.583629235548422,
+      "reference_rad": -0.5828790896524756,
+      "reference_velocity_rad_s": -0.19604914426172979,
+      "reference_acceleration_rad_s2": 0.0908518308564932,
+      "singular": false
+    },
+    {
+      "time_s": 6.999999999999451,
+      "actual_rad": -0.5875244496315937,
+      "reference_rad": -0.5867819777675247,
+      "reference_velocity_rad_s": -0.19424345860162687,
+      "reference_acceleration_rad_s2": 0.08971443014227062,
+      "singular": false
+    },
+    {
+      "time_s": 7.019999999999449,
+      "actual_rad": -0.5913835856947659,
+      "reference_rad": -0.5906489805647561,
+      "reference_velocity_rad_s": -0.19246065790475583,
+      "reference_acceleration_rad_s2": 0.08856340191164098,
+      "singular": false
+    },
+    {
+      "time_s": 7.039999999999447,
+      "actual_rad": -0.5952071054954529,
+      "reference_rad": -0.5944805584420922,
+      "reference_velocity_rad_s": -0.1907010106995474,
+      "reference_acceleration_rad_s2": 0.0873991473172193,
+      "singular": false
+    },
+    {
+      "time_s": 7.0599999999994445,
+      "actual_rad": -0.5989954765067529,
+      "reference_rad": -0.5982771770882047,
+      "reference_velocity_rad_s": -0.1889647775533053,
+      "reference_acceleration_rad_s2": 0.08622206133440859,
+      "singular": false
+    },
+    {
+      "time_s": 7.079999999999442,
+      "actual_rad": -0.6027491716924963,
+      "reference_rad": -0.6020393073245243,
+      "reference_velocity_rad_s": -0.18725221119480503,
+      "reference_acceleration_rad_s2": 0.08503253285721714,
+      "singular": false
+    },
+    {
+      "time_s": 7.09999999999944,
+      "actual_rad": -0.6064686681830702,
+      "reference_rad": -0.6057674249496758,
+      "reference_velocity_rad_s": -0.18556355663490917,
+      "reference_acceleration_rad_s2": 0.08383094480045467,
+      "singular": false
+    },
+    {
+      "time_s": 7.119999999999438,
+      "actual_rad": -0.6101544473349968,
+      "reference_rad": -0.6094620105863162,
+      "reference_velocity_rad_s": -0.18389905128507897,
+      "reference_acceleration_rad_s2": 0.08261767420800564,
+      "singular": false
+    },
+    {
+      "time_s": 7.139999999999436,
+      "actual_rad": -0.6138069956755754,
+      "reference_rad": -0.6131235495303062,
+      "reference_velocity_rad_s": -0.182258925073661,
+      "reference_acceleration_rad_s2": 0.08139309236688294,
+      "singular": false
+    },
+    {
+      "time_s": 7.1599999999994335,
+      "actual_rad": -0.6174268046332869,
+      "reference_rad": -0.6167525316021918,
+      "reference_velocity_rad_s": -0.18064340055983893,
+      "reference_acceleration_rad_s2": 0.08015756492676508,
+      "singular": false
+    },
+    {
+      "time_s": 7.179999999999431,
+      "actual_rad": -0.6210143686084064,
+      "reference_rad": -0.6203494510009471,
+      "reference_velocity_rad_s": -0.17905269304514074,
+      "reference_acceleration_rad_s2": 0.07891145202472712,
+      "singular": false
+    },
+    {
+      "time_s": 7.199999999999429,
+      "actual_rad": -0.6245701868139659,
+      "reference_rad": -0.6239148061599089,
+      "reference_velocity_rad_s": -0.17748701068240244,
+      "reference_acceleration_rad_s2": 0.0776551084148765,
+      "singular": false
+    },
+    {
+      "time_s": 7.219999999999427,
+      "actual_rad": -0.62809476293792,
+      "reference_rad": -0.6274490996048689,
+      "reference_velocity_rad_s": -0.17594655458209268,
+      "reference_acceleration_rad_s2": 0.07638888360261256,
+      "singular": false
+    },
+    {
+      "time_s": 7.239999999999425,
+      "actual_rad": -0.6315886031237707,
+      "reference_rad": -0.630952837814273,
+      "reference_velocity_rad_s": -0.17443151891590825,
+      "reference_acceleration_rad_s2": 0.07511312198322981,
+      "singular": false
+    },
+    {
+      "time_s": 7.2599999999994225,
+      "actual_rad": -0.6350522180005745,
+      "reference_rad": -0.6344267776632535,
+      "reference_velocity_rad_s": -0.17297899918139087,
+      "reference_acceleration_rad_s2": 0.07015314923057264,
+      "singular": false
+    },
+    {
+      "time_s": 7.27999999999942,
+      "actual_rad": -0.63848653499194,
+      "reference_rad": -0.6378726534058925,
+      "reference_velocity_rad_s": -0.17162482361368914,
+      "reference_acceleration_rad_s2": 0.06527857729481487,
+      "singular": false
+    },
+    {
+      "time_s": 7.299999999999418,
+      "actual_rad": -0.6418932742753829,
+      "reference_rad": -0.6412924148961292,
+      "reference_velocity_rad_s": -0.17036729178996293,
+      "reference_acceleration_rad_s2": 0.06048865117699333,
+      "singular": false
+    },
+    {
+      "time_s": 7.319999999999416,
+      "actual_rad": -0.6452744918937984,
+      "reference_rad": -0.6446879781287065,
+      "reference_velocity_rad_s": -0.1692047181258685,
+      "reference_acceleration_rad_s2": 0.05578264204541115,
+      "singular": false
+    },
+    {
+      "time_s": 7.339999999999414,
+      "actual_rad": -0.648632169345192,
+      "reference_rad": -0.6480612255306959,
+      "reference_velocity_rad_s": -0.1681354313513299,
+      "reference_acceleration_rad_s2": 0.05115984731145405,
+      "singular": false
+    },
+    {
+      "time_s": 7.3599999999994115,
+      "actual_rad": -0.6519682342549314,
+      "reference_rad": -0.6514140062425369,
+      "reference_velocity_rad_s": -0.16715777398553194,
+      "reference_acceleration_rad_s2": 0.04661959063222504,
+      "singular": false
+    },
+    {
+      "time_s": 7.379999999999409,
+      "actual_rad": -0.6552845700777115,
+      "reference_rad": -0.654748136388571,
+      "reference_velocity_rad_s": -0.16627010181254587,
+      "reference_acceleration_rad_s2": 0.04216122184595911,
+      "singular": false
+    },
+    {
+      "time_s": 7.399999999999407,
+      "actual_rad": -0.6585830214833356,
+      "reference_rad": -0.6580653993371184,
+      "reference_velocity_rad_s": -0.16547078335887036,
+      "reference_acceleration_rad_s2": 0.03778411684580202,
+      "singular": false
+    },
+    {
+      "time_s": 7.419999999999405,
+      "actual_rad": -0.6618653983907119,
+      "reference_rad": -0.6613675459501163,
+      "reference_velocity_rad_s": -0.1647581993740691,
+      "reference_acceleration_rad_s2": 0.03348767739718545,
+      "singular": false
+    },
+    {
+      "time_s": 7.439999999999403,
+      "actual_rad": -0.6651334741520537,
+      "reference_rad": -0.6646562948224346,
+      "reference_velocity_rad_s": -0.16413074231558497,
+      "reference_acceleration_rad_s2": 0.029271330903694062,
+      "singular": false
+    },
+    {
+      "time_s": 7.4599999999994,
+      "actual_rad": -0.6683889866991305,
+      "reference_rad": -0.6679333325109054,
+      "reference_velocity_rad_s": -0.16358681583871346,
+      "reference_acceleration_rad_s2": 0.025134530125996212,
+      "singular": false
+    },
+    {
+      "time_s": 7.479999999999398,
+      "actual_rad": -0.6716336404639351,
+      "reference_rad": -0.6712003137532536,
+      "reference_velocity_rad_s": -0.16312483429263014,
+      "reference_acceleration_rad_s2": 0.02107675285810471,
+      "singular": false
+    },
+    {
+      "time_s": 7.499999999999396,
+      "actual_rad": -0.6748691054138681,
+      "reference_rad": -0.6744588616769651,
+      "reference_velocity_rad_s": -0.1627432222232863,
+      "reference_acceleration_rad_s2": 0.017097501564941067,
+      "singular": false
+    },
+    {
+      "time_s": 7.519999999999394,
+      "actual_rad": -0.6780970174971528,
+      "reference_rad": -0.6777105679983328,
+      "reference_velocity_rad_s": -0.1624404138839113,
+      "reference_acceleration_rad_s2": 0.013196302984900397,
+      "singular": false
+    },
+    {
+      "time_s": 7.539999999999392,
+      "actual_rad": -0.6813189789998504,
+      "reference_rad": -0.680956993211771,
+      "reference_velocity_rad_s": -0.16221485275378147,
+      "reference_acceleration_rad_s2": 0.009372707700847149,
+      "singular": false
+    },
+    {
+      "time_s": 7.559999999999389,
+      "actual_rad": -0.684536558858416,
+      "reference_rad": -0.6841996667695904,
+      "reference_velocity_rad_s": -0.1620649910658615,
+      "reference_acceleration_rad_s2": 0.005626289682723751,
+      "singular": false
+    },
+    {
+      "time_s": 7.579999999999387,
+      "actual_rad": -0.6877512929750385,
+      "reference_rad": -0.6874400872524353,
+      "reference_velocity_rad_s": -0.1619892893438499,
+      "reference_acceleration_rad_s2": 0.0019566458047129403,
+      "singular": false
+    },
+    {
+      "time_s": 7.599999999999385,
+      "actual_rad": -0.6909646845314122,
+      "reference_rad": -0.6906797225305501,
+      "reference_velocity_rad_s": -0.16198621594911425,
+      "reference_acceleration_rad_s2": -0.0016366046603302903,
+      "singular": false
+    },
+    {
+      "time_s": 7.619999999999383,
+      "actual_rad": -0.6941782043214526,
+      "reference_rad": -0.6939200099160765,
+      "reference_velocity_rad_s": -0.16205424663794527,
+      "reference_acceleration_rad_s2": -0.005153820566677011,
+      "singular": false
+    },
+    {
+      "time_s": 7.639999999999381,
+      "actual_rad": -0.6973932903684716,
+      "reference_rad": -0.6971623563066311,
+      "reference_velocity_rad_s": -0.16219186412950665,
+      "reference_acceleration_rad_s2": -0.008595339439455552,
+      "singular": false
+    },
+    {
+      "time_s": 7.659999999999378,
+      "actual_rad": -0.7006113502171204,
+      "reference_rad": -0.7004081383203185,
+      "reference_velocity_rad_s": -0.1623975576848251,
+      "reference_acceleration_rad_s2": -0.011961478034213529,
+      "singular": false
+    },
+    {
+      "time_s": 7.679999999999376,
+      "actual_rad": -0.7038337596840468,
+      "reference_rad": -0.7036587024224634,
+      "reference_velocity_rad_s": -0.16266982269710953,
+      "reference_acceleration_rad_s2": -0.015252532910386927,
+      "singular": false
+    },
+    {
+      "time_s": 7.699999999999374,
+      "actual_rad": -0.7070618636401343,
+      "reference_rad": -0.7069153650442439,
+      "reference_velocity_rad_s": -0.16300716029366827,
+      "reference_acceleration_rad_s2": -0.01846878101692992,
+      "singular": false
+    },
+    {
+      "time_s": 7.719999999999372,
+      "actual_rad": -0.7102969763660775,
+      "reference_rad": -0.710179412693501,
+      "reference_velocity_rad_s": -0.16340807694964457,
+      "reference_acceleration_rad_s2": -0.0216104802885188,
+      "singular": false
+    },
+    {
+      "time_s": 7.73999999999937,
+      "actual_rad": -0.7135403815517655,
+      "reference_rad": -0.7134521020579256,
+      "reference_velocity_rad_s": -0.16387108411376897,
+      "reference_acceleration_rad_s2": -0.02467787025089841,
+      "singular": false
+    },
+    {
+      "time_s": 7.759999999999367,
+      "actual_rad": -0.7167933354559668,
+      "reference_rad": -0.7167346601008917,
+      "reference_velocity_rad_s": -0.1643946978463029,
+      "reference_acceleration_rad_s2": -0.027671172634084643,
+      "singular": false
+    },
+    {
+      "time_s": 7.779999999999365,
+      "actual_rad": -0.7200570629375331,
+      "reference_rad": -0.7200282841501726,
+      "reference_velocity_rad_s": -0.1649774384693105,
+      "reference_acceleration_rad_s2": -0.030590591992271973,
+      "singular": false
+    },
+    {
+      "time_s": 7.799999999999363,
+      "actual_rad": -0.7233327620512829,
+      "reference_rad": -0.7233341419797783,
+      "reference_velocity_rad_s": -0.16561783022939144,
+      "reference_acceleration_rad_s2": -0.03343631632942524,
+      "singular": false
+    },
+    {
+      "time_s": 7.819999999999361,
+      "actual_rad": -0.7266216051636967,
+      "reference_rad": -0.7266533718851755,
+      "reference_velocity_rad_s": -0.16631440097297134,
+      "reference_acceleration_rad_s2": -0.03620851772965235,
+      "singular": false
+    },
+    {
+      "time_s": 7.839999999999359,
+      "actual_rad": -0.7299247357485776,
+      "reference_rad": -0.7299870827521502,
+      "reference_velocity_rad_s": -0.1670656818342435,
+      "reference_acceleration_rad_s2": -0.0389073529915704,
+      "singular": false
+    },
+    {
+      "time_s": 7.859999999999356,
+      "actual_rad": -0.73324327337442,
+      "reference_rad": -0.7333363541195463,
+      "reference_velocity_rad_s": -0.16787020693583016,
+      "reference_acceleration_rad_s2": -0.04153296426598012,
+      "singular": false
+    },
+    {
+      "time_s": 7.879999999999354,
+      "actual_rad": -0.7365783153219538,
+      "reference_rad": -0.7367022362361422,
+      "reference_velocity_rad_s": -0.16872651310222525,
+      "reference_acceleration_rad_s2": -0.044085479696265424,
+      "singular": false
+    },
+    {
+      "time_s": 7.899999999999352,
+      "actual_rad": -0.7399309338002293,
+      "reference_rad": -0.7400857501119351,
+      "reference_velocity_rad_s": -0.16963313958607065,
+      "reference_acceleration_rad_s2": -0.0465650140610233,
+      "singular": false
+    },
+    {
+      "time_s": 7.91999999999935,
+      "actual_rad": -0.74330218177403,
+      "reference_rad": -0.7434878875640754,
+      "reference_velocity_rad_s": -0.17058862780730072,
+      "reference_acceleration_rad_s2": -0.04897166941851551,
+      "singular": false
+    },
+    {
+      "time_s": 7.939999999999348,
+      "actual_rad": -0.7466930935646819,
+      "reference_rad": -0.7469096112576994,
+      "reference_velocity_rad_s": -0.17159152110519427,
+      "reference_acceleration_rad_s2": -0.05130553575261513,
+      "singular": false
+    },
+    {
+      "time_s": 7.959999999999345,
+      "actual_rad": -0.7501046856329467,
+      "reference_rad": -0.7503518547419599,
+      "reference_velocity_rad_s": -0.17264036450335551,
+      "reference_acceleration_rad_s2": -0.05356669161998829,
+      "singular": false
+    },
+    {
+      "time_s": 7.979999999999343,
+      "actual_rad": -0.7535379607309698,
+      "reference_rad": -0.7538155224814622,
+      "reference_velocity_rad_s": -0.17373370448765107,
+      "reference_acceleration_rad_s2": -0.05575520479832468,
+      "singular": false
+    },
+    {
+      "time_s": 7.999999999999341,
+      "actual_rad": -0.7569939072288641,
+      "reference_rad": -0.7573014898833959,
+      "reference_velocity_rad_s": -0.1748700887971205,
+      "reference_acceleration_rad_s2": -0.057871132935487124,
+      "singular": false
+    },
+    {
+      "time_s": 8.019999999999348,
+      "actual_rad": -0.760473503802525,
+      "reference_rad": -0.7608106033206294,
+      "reference_velocity_rad_s": -0.17604806622787855,
+      "reference_acceleration_rad_s2": -0.059914524199511016,
+      "singular": false
+    },
+    {
+      "time_s": 8.039999999999354,
+      "actual_rad": -0.7639777186685164,
+      "reference_rad": -0.7608106033206294,
+      "reference_velocity_rad_s": -0.17604806622787855,
+      "reference_acceleration_rad_s2": -0.059914524199511016,
+      "singular": false
+    }
+  ],
+  "physics_steps": 0,
+  "scope": "read-only forward kinematics on saved actual qpos and recorded task reference; not controller feedback",
+  "source_raw_sha256": "a4abd9f6944f523dd609e36e22f6829217ad66cb0b25213d404f14b431c193ba"
+}

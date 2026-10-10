@@ -1,0 +1,98 @@
+{
+  "status": "PASS_WITH_RETAINED_HISTORICAL_GAPS",
+  "baseline": "b048891c57d3ec0df72ec53ab87e20f2fe9aa1ac",
+  "branch": "codex/system-s03-pm-feasible-planning",
+  "files_sha256": {
+    "output/fpmfc/system_capture/S02/report.md": "8bf51677aaaf0569cf8f6140095bbd2f8c55c6fdfe3768e9108bf1172d91b0e0",
+    "output/fpmfc/system_capture/S02/qualification.json": "703a9c6bedfaf99182f0f2f29f30c240325b5f6367d18ed8dc1d1edb28286685",
+    "output/fpmfc/system_capture/S02/handoff.json": "9e7f0da578e887b792c4b0fb2a34e17d2d45af9decaad673eecf294dd2bfdcd7",
+    "output/fpmfc/system_capture/S02/run_ledger.json": "49c554cf36827f70c21679fde29854ba5a959928ab3f6ea76b8056653be9828b",
+    "output/fpmfc/system_capture/S02/sensor_requirement_budget.md": "45086cc4bd630d7b2a0014d971e92c41b9cd30ce41c7bc1165f6e599034da209",
+    "output/fpmfc/system_capture/S02/online_relative_guard_budget.json": "3e935a58135c15ec38c8e69e322ba0e2bfd4f17fb168ac3c39389d5cd41decc9",
+    "output/fpmfc/system_capture/S02/runs/E0_C2/guard_call_analysis.json": "8227009334eb3bc3efa9474cdb612dc28a0610b5b2c520de7bb3532901180ce0",
+    "output/fpmfc/system_capture/S02/runs/E1/guard_call_analysis.json": "1631bc86595f8b96adab8f6b6b86bf29b8e1dd8f3d20ddd1e53771c881e399f5",
+    "output/fpmfc/system_capture/S02/runs/E2/guard_call_analysis.json": "1e99277f72de3f0ab6be96d8b7291cb035166928b431f18dec898c0dd8352f04",
+    "output/fpmfc/system_capture/S00/report.md": "015dd0b3d19552e0eada2ca190a122fa4c8687ecc0d37f1d976e3848a338161a",
+    "output/fpmfc/system_capture/S00/qualification.json": "de205b4e4ba280afa0ef9b177c5ea748d33adc8ea5db666fb7280b98f1149aaf",
+    "output/fpmfc/system_capture/S00/handoff.json": "fd90183406794eb7a41d14270909d177787e5448a0b679b5057b5fdc2bf7e150",
+    "output/fpmfc/system_capture/S01/report.md": "c03a8668fcd2ddc3b9e3d83f7369290b723b7c7cb23bdc760abcf4f8d71f74f7",
+    "output/fpmfc/system_capture/S01/qualification.json": "1986e44b9f7b44a764a4237060e5762c66b039742fb6e4ee87d2f5cd5105bc9d",
+    "output/fpmfc/system_capture/S01/handoff.json": "d33318ad068c0946449891c23c37dfcf4a959da1d54d29e6e7cb2ba03b988c39",
+    "output/fpmfc/n209_paper_system/qp_failure_diagnosis.json": "e1ba635c439125ffbb2b9f7c3c041a1efb3ba50b3aedd64d61d5c30c6995d2db",
+    "output/fpmfc/n209_paper_system/diagnostics/H2_prior/snapshots.json": "3c33b67ab4048980edfb4942f974c5ba43a427236488028fcbb5ab57727433df",
+    "output/fpmfc/n209_paper_system/diagnostics/H2_prior/diagnosis.json": "6e2f0ab48830b80ee4638a3b09e5b2992297e22165176fcfc4e9520e6cacbf17",
+    "output/fpmfc/system_capture/S00/source_traceability.csv": "7771fecd07406152bd6232595bbded171a4495143881341bc28637b6c7d4729b",
+    "output/fpmfc/system_capture/S02/runs/E0/config.json": "15b5fc17682743731620cfb5619b86d1abcdc38fe3ab20b1c0d6531a899cd276",
+    "output/fpmfc/system_capture/S02/runs/E0/completion.json": "8b981bcefb4302b4d795882a6596de9f88d9fd037479cdfe3f6ad35a8dd5a866",
+    "output/fpmfc/system_capture/S02/runs/E0/raw/index.json": "303f77e6f7a7eb22c64a55d1dcadb0267e6c358607d4becfc7f5ce0f40bc9c10",
+    "output/fpmfc/system_capture/S02/runs/E0_C2/config.json": "b7c535cd2a12799052d120b0cc5e1c07c0a94a84d08a1aafdc27dc0fba5a847e",
+    "output/fpmfc/system_capture/S02/runs/E0_C2/completion.json": "361cb217fcfb681511d1841ea893a9e5de57b29f1f2e1056042b31cff6e84038",
+    "output/fpmfc/system_capture/S02/runs/E0_C2/raw/index.json": "ebf63b6774f20219a7252a47c5e18c223c21e161820ab4a3529938e03efe86bf",
+    "output/fpmfc/system_capture/S02/runs/E1/config.json": "51ed334800db091e760ff5a66b3ffa29013cd213dc6ce063e4b6d8c9e56f4d6d",
+    "output/fpmfc/system_capture/S02/runs/E1/completion.json": "3b256d15660489932b3cce27a113ca688f5e1b2f8006a8745723e72fdd3ac905",
+    "output/fpmfc/system_capture/S02/runs/E1/raw/index.json": "9bb648c5cdc4b10fd12b30b377fec9950b534f13f18d191cf0b42a96a7120708",
+    "output/fpmfc/system_capture/S02/runs/E2/config.json": "3753b383dfe7d130178c37c3e64f7e91c8373845e3beaa58f95b929d96c3e41f",
+    "output/fpmfc/system_capture/S02/runs/E2/completion.json": "e6bbd6688a40e8252de8a66f9f1568b086e45a41ed9cdf98310859f249ebe963",
+    "output/fpmfc/system_capture/S02/runs/E2/raw/index.json": "5be0c75cf3174498c6c8e2391b02b2f7ed270875143002caa3ae645b5ff28ba5"
+  },
+  "archived_runs": {
+    "E0": {
+      "status": "IMPLEMENTATION_ERROR",
+      "end_time_s": 7.8139999999993615,
+      "physical_steps": 3907,
+      "source_digest": "6b5d0e2371f69a5dac5c3acca1b0d5494887dc9686331e141ff05d421f9ffe6a",
+      "raw_index_sha256": "303f77e6f7a7eb22c64a55d1dcadb0267e6c358607d4becfc7f5ce0f40bc9c10"
+    },
+    "E0_C2": {
+      "status": "COMPLETED",
+      "end_time_s": 27.913999999995408,
+      "physical_steps": 13957,
+      "source_digest": "4900f5f94473b272d0b86a94fc094c85d894faee81c45a6891950ff4f1eda964",
+      "raw_index_sha256": "ebf63b6774f20219a7252a47c5e18c223c21e161820ab4a3529938e03efe86bf"
+    },
+    "E1": {
+      "status": "NO_VERIFIED_CONTROL",
+      "end_time_s": 8.019999999999348,
+      "physical_steps": 4010,
+      "source_digest": "4900f5f94473b272d0b86a94fc094c85d894faee81c45a6891950ff4f1eda964",
+      "raw_index_sha256": "9bb648c5cdc4b10fd12b30b377fec9950b534f13f18d191cf0b42a96a7120708"
+    },
+    "E2": {
+      "status": "NO_VERIFIED_CONTROL",
+      "end_time_s": 8.819999999999615,
+      "physical_steps": 4410,
+      "source_digest": "4900f5f94473b272d0b86a94fc094c85d894faee81c45a6891950ff4f1eda964",
+      "raw_index_sha256": "5be0c75cf3174498c6c8e2391b02b2f7ed270875143002caa3ae645b5ff28ba5"
+    }
+  },
+  "S02_retained": "ACCURACY_IMPROVED_GUARD_NOT_COMPATIBLE",
+  "S01": "PARTIAL",
+  "C1": "MISSING_ORIGINAL_TRACE",
+  "environment": {
+    "python": "3.10.19",
+    "executable": "C:\\Users\\admin\\.codex\\worktrees\\n200-postgrasp-baseline\\力位形混合控制\\.venv310\\Scripts\\python.exe",
+    "mujoco": "3.3.2",
+    "numpy": "1.26.4",
+    "scipy": "1.11.2",
+    "pyyaml": "6.0.1",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpu_count": 32,
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1"
+    }
+  },
+  "H2_snapshot_materialization": {
+    "initial_pointer_sha256": "27d5cf858f02a7330ee25a61504329955e030c56d187d60ac7e7b2f37a499f5d",
+    "materialized_sha256": "3c33b67ab4048980edfb4942f974c5ba43a427236488028fcbb5ab57727433df",
+    "matched_original_snapshot_sha": true,
+    "original_window_s": [
+      7.319999999999416,
+      7.819999999999361
+    ],
+    "count": 26,
+    "new_physics_steps": 0
+  }
+}

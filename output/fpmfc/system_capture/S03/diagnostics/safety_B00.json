@@ -1,0 +1,9 @@
+{
+  "run": "B00",
+  "checked_completed_steps": 13957,
+  "expected_completed_steps": 13957,
+  "passed": true,
+  "violations": [],
+  "physics_steps": 0,
+  "scope": "unchanged physical safety evaluator on every committed completed-step observation, including the terminal D00 prefix; does not prove future safety or recovery"
+}

@@ -1,0 +1,35 @@
+{
+  "main": "IDEAL_SENSOR_PACKET_CA18",
+  "noise_domain": "NOT_ADMITTED",
+  "sensor": {
+    "pose_period_s": 0.002,
+    "delay_s": 0.0,
+    "position_sigma_m": 0.0,
+    "rotation_sigma_rad": 0.0,
+    "position_bias_m": [
+      0,
+      0,
+      0
+    ],
+    "rotation_bias_rad": [
+      0,
+      0,
+      0
+    ],
+    "force_sigma_n": 0.0,
+    "moment_sigma_nm": 0.0,
+    "seed": 20801
+  },
+  "estimator": {
+    "linear_jerk_density": 0.0013536209515421882,
+    "angular_jerk_density": 0.016185201664205662,
+    "contact_multiplier": 10.0,
+    "initial_velocity_variance": 0.1,
+    "initial_omega_variance": 0.1,
+    "initial_accel_variance": 0.01,
+    "initial_alpha_variance": 1.0,
+    "minimum_samples": 3,
+    "max_step_s": 0.002
+  },
+  "startup_contact_issue": "retained independently for S02R; no new S02R attempts"
+}

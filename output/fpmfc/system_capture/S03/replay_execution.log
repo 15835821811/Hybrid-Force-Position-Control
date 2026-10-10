@@ -1,0 +1,14 @@
+{'run': 'B01', 'replay': 'actuator', 'passed': True, 'cpu_s': 2.9375}
+{'run': 'B01', 'replay': 'decision', 'passed': True, 'cpu_s': 208.0}
+{'run': 'D00_R1', 'replay': 'actuator', 'passed': True, 'cpu_s': 4.59375}
+{'run': 'D00_R1', 'replay': 'decision', 'passed': True, 'cpu_s': 210.890625}
+{'run': 'D01', 'replay': 'actuator', 'passed': True, 'cpu_s': 4.0625}
+{'run': 'D01', 'replay': 'decision', 'passed': True, 'cpu_s': 185.515625}
+{'run': 'P00', 'replay': 'actuator', 'passed': True, 'cpu_s': 5.078125}
+{'run': 'P00', 'replay': 'decision', 'passed': True, 'cpu_s': 236.34375}
+{'run': 'P01', 'replay': 'actuator', 'passed': True, 'cpu_s': 4.53125}
+{'run': 'P01', 'replay': 'decision', 'passed': True, 'cpu_s': 213.125}
+{'run': 'P02', 'replay': 'actuator', 'passed': True, 'cpu_s': 4.078125}
+{'run': 'P02', 'replay': 'decision', 'passed': True, 'cpu_s': 185.984375}
+{'run': 'P03', 'replay': 'actuator', 'passed': True, 'cpu_s': 4.078125}
+{'run': 'P03', 'replay': 'decision', 'passed': True, 'cpu_s': 182.125}

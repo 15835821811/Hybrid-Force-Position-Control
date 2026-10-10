@@ -1,0 +1,266 @@
+{
+  "schema": "review-trace-inputs-v1",
+  "review_phase": "final_science_before_delivery_gates",
+  "reviewer": "/root/s03_evidence_review",
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "pending_external_review": false,
+  "dual_replay_at_review": "PENDING",
+  "final_media_gate": "PENDING",
+  "captured_at_utc": "2026-10-10T08:55:54.7284819Z",
+  "note": "Initial input identities retained before executor fixes. Later fixes require addendum rather than retroactive replacement.",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\search_coverage.json",
+      "sha256": "bc7639f78750ff48c9021556114051b8a25bc7fa69316cac43e13f6a8a32f80f",
+      "last_write_time_utc": "2026-10-10T08:51:29.2926262Z",
+      "size_bytes": 207166,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\same_model_comparison.json",
+      "sha256": "914dc2f1c96c88eeed058976fffb51ab5d22c35211063367bd42c38a72b2f54a",
+      "last_write_time_utc": "2026-10-10T08:53:08.5346552Z",
+      "size_bytes": 17195,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\planner_vs_plant_errors.json",
+      "sha256": "084269373db3b0d42d9c2887d6e334a1b4b6c7139c1a9ee3c6d415162718232f",
+      "last_write_time_utc": "2026-10-10T08:53:08.5925091Z",
+      "size_bytes": 626057,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\authority_signed_margins.csv",
+      "sha256": "1210173c2ebd6b5886b15f758e9dbfa322faaccfe1798e0e99c7e72d4d2e680c",
+      "last_write_time_utc": "2026-10-10T08:51:29.2458858Z",
+      "size_bytes": 282716,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\report.md",
+      "sha256": "21dfc9ea0de9ecd071f6bec15dcbd989bb329ad59c6f287d2b8900a6a04140d2",
+      "last_write_time_utc": "2026-10-10T08:53:08.6101682Z",
+      "size_bytes": 6530,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\qualification.json",
+      "sha256": "57e69827b80fbb0a06e5b3994c702e05d0ea03a1bbdce6446d450b6593c2c8c1",
+      "last_write_time_utc": "2026-10-10T08:53:08.6039107Z",
+      "size_bytes": 1565,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\source_recoverability.json",
+      "sha256": "10a88efa9ffe4ab3b8982434b4482a311d96cd7574afdd74725729ef90675fa5",
+      "last_write_time_utc": "2026-10-10T08:51:10.0428324Z",
+      "size_bytes": 4843,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\visualizations\\figures\\scientific_manifest.json",
+      "sha256": "214d78477dbd76e61135bc5a65e664a18e8e02356f9ebbada099ce673893444d",
+      "last_write_time_utc": "2026-10-10T08:53:29.6476745Z",
+      "size_bytes": 2812,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\visualizations\\figures\\authority_signed.png",
+      "sha256": "e9b10f4b80a2ab0191e9b3971c348f0917cb653aca3a81a76b422a23b0234146",
+      "last_write_time_utc": "2026-10-10T08:53:27.7909258Z",
+      "size_bytes": 201810,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\visualizations\\figures\\common_prefix.png",
+      "sha256": "2e2c8e72a53d53d93cba57f857ef201e7f25116850f6f4283e4feb29f5b735ff",
+      "last_write_time_utc": "2026-10-10T08:53:28.7417059Z",
+      "size_bytes": 380477,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\visualizations\\figures\\forecast_errors.png",
+      "sha256": "d74f4a83f6f715d883ab144775c899e903781f341d52750d49b726df8ed10b6c",
+      "last_write_time_utc": "2026-10-10T08:53:29.3959481Z",
+      "size_bytes": 450879,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\planning_contract.json",
+      "sha256": "91063364a06791d3fcbbf1cf7e29e949471c1d28eb86f3b1dccaadd3dddf690c",
+      "last_write_time_utc": "2026-10-10T08:24:30.1093469Z",
+      "size_bytes": 2404,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\candidate_authority.json",
+      "sha256": "e84b23bd0d76c28f81a055a64ea01b689b5c0ac08c97c12dfd2ee9f0309cd6c5",
+      "last_write_time_utc": "2026-10-10T08:18:15.5752468Z",
+      "size_bytes": 863219,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\module_tests.json",
+      "sha256": "e2e459f6493a3078035e1924f8ea231095e800c33848c070d0bb7142ec964b17",
+      "last_write_time_utc": "2026-10-10T08:25:48.8464728Z",
+      "size_bytes": 228,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\v2_module_tests.log",
+      "sha256": "5c9089f5f20df69ba553087168d611853c51a9f11d2e075e8008eba486718360",
+      "last_write_time_utc": "2026-10-10T08:25:48.8498844Z",
+      "size_bytes": 2182,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\system_capture\\planning\\report.py",
+      "sha256": "d6a072a2eacbbb508db34805b02d72e81e9f6d62eae7df8e73d415ae2ecdff6e",
+      "last_write_time_utc": "2026-10-10T08:53:07.6262033Z",
+      "size_bytes": 15826,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\system_capture\\planning\\planner.py",
+      "sha256": "bf02c9b6d872d7884d27469c941aa3609a6e34de9c5c6fd704fdb528817a0df0",
+      "last_write_time_utc": "2026-10-10T08:02:55.2275423Z",
+      "size_bytes": 8560,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\system_capture\\planning\\screening.py",
+      "sha256": "84f6941d143247f14d334b84e529fe25b0a755008140929838e509ded85583d3",
+      "last_write_time_utc": "2026-10-10T08:00:37.6661829Z",
+      "size_bytes": 3558,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\system_capture\\planning\\prediction.py",
+      "sha256": "57b1b14033c218d3a7d3e446a260ebcfd5af22bd9176cd77ca4d92bce347b74d",
+      "last_write_time_utc": "2026-10-10T08:16:59.2577075Z",
+      "size_bytes": 6635,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\tools\\s03_evidence.py",
+      "sha256": "4d752952c4f88fec55d14d7faf7e639a3626da5ef78eef90ff4be105ffe2491b",
+      "last_write_time_utc": "2026-10-10T08:51:28.6205945Z",
+      "size_bytes": 8036,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\tools\\s03_scientific_figures.py",
+      "sha256": "3f49f2db9cb3009a23db0f6e8066637f761fcf315285f2282d2585986a8a0847",
+      "last_write_time_utc": "2026-10-10T08:40:49.0778229Z",
+      "size_bytes": 6440,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\adaptive_capture\\plant.py",
+      "sha256": "75d8888d5da73c171114e3e5c9f51ec77eced7716401c5ea957ba6d0a560d6e0",
+      "last_write_time_utc": "2026-10-10T07:52:21.6891768Z",
+      "size_bytes": 3047,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\adaptive_capture\\evaluation.py",
+      "sha256": "2203a0c710508262b74a6a4819f4b96aa9d80949ad3073888fe390998f563585",
+      "last_write_time_utc": "2026-10-10T07:52:21.6861471Z",
+      "size_bytes": 9693,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\postgrasp\\physics.py",
+      "sha256": "468c04e34430c64d11331b25a8e1a1e2ac45c115a3a1f7f13179a6045d8fd44e",
+      "last_write_time_utc": "2026-10-10T07:52:21.7492778Z",
+      "size_bytes": 12541,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\v6_mujoco\\geometry_capture\\design.py",
+      "sha256": "c552b78ea5706c87a6c52692c84c65e55ec0044bf9cac833bbf24ded615f1e7c",
+      "last_write_time_utc": "2026-10-10T07:52:21.7421586Z",
+      "size_bytes": 8034,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\models\\flexiv_rizon4s_n206_tool_scene.xml",
+      "sha256": "a7f52ac06d97a1b26a61c063fd5c37b58d9c3685f46e6977abaae701ae9474a6",
+      "last_write_time_utc": "2026-10-10T07:52:14.4813972Z",
+      "size_bytes": 9394,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\paper\\PAPER_CLAIM_AUDIT.json",
+      "sha256": "3554b9546a050fe59b5027b0223921698a4ba1ddf423ec8e497b804056c766f5",
+      "last_write_time_utc": "2026-10-10T07:52:21.6149873Z",
+      "size_bytes": 506499,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_B00.json",
+      "sha256": "0b6dd60658fe6ad19a523fc93ada6b800f9db55c369da2c7731e44bc83a12e9d",
+      "last_write_time_utc": "2026-10-10T08:51:49.0087276Z",
+      "size_bytes": 334,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_B01.json",
+      "sha256": "2e6841712fb50e147458eccbd92a1b89516965f6c376f0de748c0d7aefa4eaec",
+      "last_write_time_utc": "2026-10-10T08:51:53.0082557Z",
+      "size_bytes": 332,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_D00_R1.json",
+      "sha256": "bbb26d812954a59a182306a57914852cdd06418796798977db1621b1ee6163d6",
+      "last_write_time_utc": "2026-10-10T08:52:04.2995461Z",
+      "size_bytes": 335,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_D00.json",
+      "sha256": "6ff5680684f5e782d9f0fb1d4c8bffc8cf9dee24e3f10221c359d95f280e4706",
+      "last_write_time_utc": "2026-10-10T08:51:58.2985653Z",
+      "size_bytes": 332,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_D01.json",
+      "sha256": "731e6044aa27ecbdd788cf53ccfbf004bc28f7896bd72678eaba148866319b02",
+      "last_write_time_utc": "2026-10-10T08:52:09.5631927Z",
+      "size_bytes": 332,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_P00.json",
+      "sha256": "cf3ca0cfb7457da36f8751df3260e6c4a4e252f81d6715252a515db49b9e0974",
+      "last_write_time_utc": "2026-10-10T08:52:16.1467609Z",
+      "size_bytes": 332,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_P01.json",
+      "sha256": "11702bb21833ee38521b3074b9f6e49868ce919abacb57e2c9af5e8c1b2c501d",
+      "last_write_time_utc": "2026-10-10T08:52:22.4158113Z",
+      "size_bytes": 332,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_P02.json",
+      "sha256": "3439dc3c76c22e08c27d0703402c66b6a6f95ca4dc919617c738cbee8f2427f3",
+      "last_write_time_utc": "2026-10-10T08:52:27.7697225Z",
+      "size_bytes": 332,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    },
+    {
+      "path": "C:\\Users\\admin\\.codex\\worktrees\\system-s03-pm-planning\\力位形混合控制\\output\\fpmfc\\system_capture\\S03\\diagnostics\\safety_P03.json",
+      "sha256": "bf1dd1f32d64e59cc378b1de196cc63ed06d94ee5c4b188781c4987f6f78a4dc",
+      "last_write_time_utc": "2026-10-10T08:52:33.0258378Z",
+      "size_bytes": 332,
+      "hash_captured_at_utc": "2026-10-10T08:55:54.7284819Z"
+    }
+  ]
+}

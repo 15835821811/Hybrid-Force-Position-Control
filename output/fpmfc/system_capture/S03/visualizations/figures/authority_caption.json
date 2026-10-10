@@ -1,0 +1,4 @@
+{
+  "caption": "Maximum absolute paired change over four preregistered states with 0.6 s independent-prior forecasts. Each maximum may belong to a different state, pair and candidate; they are not simultaneous improvements. See the signed-margin table and figure. This demonstrates local authority, not continuous-task success. Shape alters joint motion without altering the commanded end-effector pose.",
+  "source_sha256": "e84b23bd0d76c28f81a055a64ea01b689b5c0ac08c97c12dfd2ee9f0309cd6c5"
+}

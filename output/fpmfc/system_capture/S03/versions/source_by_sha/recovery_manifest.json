@@ -1,0 +1,98 @@
+{
+  "recovered": {
+    "8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d": {
+      "path": "v6_mujoco/system_capture/estimation/runner.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d/runner.py"
+    },
+    "046d2b95d9772cdaa3faf5d2e0a55c37c77b0854e97edf5c4399a87d2d327a3d": {
+      "path": "v6_mujoco/system_capture/cli.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/046d2b95d9772cdaa3faf5d2e0a55c37c77b0854e97edf5c4399a87d2d327a3d/cli.py"
+    },
+    "5399fb36bc9591dbca92a3265001e0e83989c8d6cc2d60c80226e7ae514f22c7": {
+      "path": "v6_mujoco/system_capture/planning/__init__.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/5399fb36bc9591dbca92a3265001e0e83989c8d6cc2d60c80226e7ae514f22c7/__init__.py"
+    },
+    "f64c36a60297dc82ca9c7376314526f571aca9d882f9ffb36180554aed84c081": {
+      "path": "v6_mujoco/system_capture/planning/controller_adapter.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/f64c36a60297dc82ca9c7376314526f571aca9d882f9ffb36180554aed84c081/controller_adapter.py"
+    },
+    "ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a": {
+      "path": "v6_mujoco/system_capture/estimation/replay.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a/replay.py"
+    },
+    "839e623cbd3defa270195f763265c5b8a6a9e5c291662bd0019aeb0fc8ee36cf": {
+      "path": "v6_mujoco/system_capture/planning/trajectory_segment.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/839e623cbd3defa270195f763265c5b8a6a9e5c291662bd0019aeb0fc8ee36cf/trajectory_segment.py"
+    },
+    "61d594c16584bc3a1acb95f8db5165b85ab45aba3c81bc1b86e9b202dfeb0e0d": {
+      "path": "v6_mujoco/system_capture/planning/parameterization.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/61d594c16584bc3a1acb95f8db5165b85ab45aba3c81bc1b86e9b202dfeb0e0d/parameterization.py"
+    },
+    "84f6941d143247f14d334b84e529fe25b0a755008140929838e509ded85583d3": {
+      "path": "v6_mujoco/system_capture/planning/screening.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/84f6941d143247f14d334b84e529fe25b0a755008140929838e509ded85583d3/screening.py"
+    },
+    "75519db5d70e8ac03cefc39eb6fa987312648bdbc49f1aaf1643b06797eefc46": {
+      "path": "v6_mujoco/system_capture/planning/prediction.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/75519db5d70e8ac03cefc39eb6fa987312648bdbc49f1aaf1643b06797eefc46/prediction.py"
+    },
+    "bf02c9b6d872d7884d27469c941aa3609a6e34de9c5c6fd704fdb528817a0df0": {
+      "path": "v6_mujoco/system_capture/planning/planner.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/bf02c9b6d872d7884d27469c941aa3609a6e34de9c5c6fd704fdb528817a0df0/planner.py"
+    },
+    "49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4": {
+      "path": "v6_mujoco/system_capture/planning/tests.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4/tests.py"
+    },
+    "e1426ebd6f69666e905aa7517fb040df44318044fa7447259d577f8cc679029d": {
+      "path": "v6_mujoco/system_capture/planning/contracts.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/e1426ebd6f69666e905aa7517fb040df44318044fa7447259d577f8cc679029d/contracts.py"
+    },
+    "bcaacce7509d80590bcfc5cfb897e9d1ef1004d4588713c710b463ed41691665": {
+      "path": "v6_mujoco/system_capture/planning/phase.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/bcaacce7509d80590bcfc5cfb897e9d1ef1004d4588713c710b463ed41691665/phase.py"
+    },
+    "8eb3abb1f9a7166b6e7006a83f03fff24312305f88b425078381a14c3a5d5e24": {
+      "path": "v6_mujoco/system_capture/planning/diagnostics.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/8eb3abb1f9a7166b6e7006a83f03fff24312305f88b425078381a14c3a5d5e24/diagnostics.py"
+    },
+    "4f562b2aee26c1234a0d9adcb81e6a23d504bbf2bd65bfe424850ccf2d2cb598": {
+      "path": "v6_mujoco/system_capture/planning/contracts.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/4f562b2aee26c1234a0d9adcb81e6a23d504bbf2bd65bfe424850ccf2d2cb598/contracts.py"
+    },
+    "fd282667e75604326c11e77c331ece27a52197130aba8e5827c27019d8f69bcf": {
+      "path": "v6_mujoco/system_capture/estimation/runner.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/fd282667e75604326c11e77c331ece27a52197130aba8e5827c27019d8f69bcf/runner.py"
+    },
+    "d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1": {
+      "path": "v6_mujoco/system_capture/planning/phase.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1/phase.py"
+    },
+    "57b1b14033c218d3a7d3e446a260ebcfd5af22bd9176cd77ca4d92bce347b74d": {
+      "path": "v6_mujoco/system_capture/planning/prediction.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/57b1b14033c218d3a7d3e446a260ebcfd5af22bd9176cd77ca4d92bce347b74d/prediction.py"
+    },
+    "bec73415769a838e5762bd3f79a5fa00507c25bd4ecbdc4a0d1182f6929b266f": {
+      "path": "v6_mujoco/system_capture/estimation/replay.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/bec73415769a838e5762bd3f79a5fa00507c25bd4ecbdc4a0d1182f6929b266f/replay.py"
+    },
+    "a32b702b5569c4d50e2869880e8333825b304b77d896c52197844e46f892ca97": {
+      "path": "v6_mujoco/system_capture/planning/diagnostics.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/a32b702b5569c4d50e2869880e8333825b304b77d896c52197844e46f892ca97/diagnostics.py"
+    },
+    "4785d8ba337aaf1c7c077a3bea58b12420457fc1a3ff8cf659819136ec36d381": {
+      "path": "v6_mujoco/system_capture/planning/contracts.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/4785d8ba337aaf1c7c077a3bea58b12420457fc1a3ff8cf659819136ec36d381/contracts.py"
+    },
+    "92b36d439743da3a2fc672cd0a92fcde3149d5a846194bd6bc2c9d619f4da437": {
+      "path": "v6_mujoco/system_capture/planning/tests.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/92b36d439743da3a2fc672cd0a92fcde3149d5a846194bd6bc2c9d619f4da437/tests.py"
+    },
+    "4b217cd69b36939abd39295baceb7545b99f1d489a011234ceab355507357eea": {
+      "path": "v6_mujoco/system_capture/planning/phase.py",
+      "archive": "output/fpmfc/system_capture/S03/versions/source_by_sha/4b217cd69b36939abd39295baceb7545b99f1d489a011234ceab355507357eea/phase.py"
+    }
+  },
+  "skipped": [],
+  "provenance": "Exact task file-patch history, accepted only when SHA256 equals a recorded run config. No transcript text is exported."
+}

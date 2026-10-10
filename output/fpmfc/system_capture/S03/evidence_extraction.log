@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\tools\s03_evidence.py", line 99, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--defer-ledger',action='store_true');extract(p.parse_args().defer_ledger)
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\tools\s03_evidence.py", line 94, in extract
+    for name in ['B00']+[r['name'] for r in book['attempts']]:shape_trajectory(name)
+  File "C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\tools\s03_evidence.py", line 19, in shape_trajectory
+    f=folder_for(name);m=mujoco.MjModel.from_xml_path(str(NEW_MODEL));d=mujoco.MjData(m)
+ValueError: ParseXML: Error opening file 'C:\Users\admin\.codex\worktrees\system-s03-pm-planning\力位形混合控制\models\flexiv_rizon4s_n206_tool_scene.xml': No such file or directory

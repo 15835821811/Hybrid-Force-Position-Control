@@ -1,0 +1,3 @@
+base qpos slice slice(7, 14, None)
+B00 drift 0.11927183159048084
+nominal prefix outcome {'end_time_s': 7.239999999999425, 'base_peak_rad_s': 0.05153293547554355, 'base_rms_rad_s': 0.030101320820049682, 'base_attitude_peak_rad': 0.11927183159048084, 'load_peak': 0.0, 'tracking_peak_m': 0.001864067964547959, 'min_original_clearance_m': 0.12155756758882547, 'max_abs_joint_velocity_rad_s': 1.6234007263211385, 'actual_impulse_Ns': [0.0, 0.0, 0.0], 'postgrasp_metrics_status': 'NOT_EVALUATED', 'latch_time_s': None, 'full_task': False, 'detumbling': None, 'status': 'COMPLETED', 'window_scope': 'TRUNCATED_EXECUTED_PREFIX', 'run_outcome': {'full_task': True, 'detumbling': True, 'latch_time_s': 7.91399999999935, 'end_time_s': 27.913999999995408}}

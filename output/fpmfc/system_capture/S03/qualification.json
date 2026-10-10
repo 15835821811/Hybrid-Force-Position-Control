@@ -1,0 +1,56 @@
+{
+  "S02_retained": "ACCURACY_IMPROVED_GUARD_NOT_COMPATIBLE",
+  "historical_source_gap": "RETAINED",
+  "implementation": "MODULE_TESTED",
+  "planning_authority": "PASS",
+  "nominal_continuous_task": "NOT_ADMITTED",
+  "H2_ideal_task": "NOT_ADMITTED",
+  "H1_seen_regression": "NOT_RUN_ADMISSION_NOT_MET",
+  "time_path_benefit": "NOT_DEMONSTRATED",
+  "shape_incremental_benefit": "NOT_DEMONSTRATED",
+  "base_disturbance_tradeoff": "COMMON_PREFIX_ONLY_NO_FULL_TASK_BENEFIT",
+  "noise_domain": "NOT_ADMITTED",
+  "full_inertia_benefit": "NOT_EVALUATED",
+  "dual_replay": "PASS",
+  "dual_replay_details": {
+    "B00": {
+      "actuator": true,
+      "decision": true
+    },
+    "B01": {
+      "actuator": true,
+      "decision": true
+    },
+    "D00": {
+      "actuator": true,
+      "decision": true
+    },
+    "D00_R1": {
+      "actuator": true,
+      "decision": true
+    },
+    "D01": {
+      "actuator": true,
+      "decision": true
+    },
+    "P00": {
+      "actuator": true,
+      "decision": true
+    },
+    "P01": {
+      "actuator": true,
+      "decision": true
+    },
+    "P02": {
+      "actuator": true,
+      "decision": true
+    },
+    "P03": {
+      "actuator": true,
+      "decision": true
+    }
+  },
+  "real_time": "NOT_CERTIFIED",
+  "next_stage_admission": "NOT_ADMITTED",
+  "scope": "finite deterministic family and seen conditions; no general impossibility, robustness, hardware, or independent unseen-domain claim"
+}

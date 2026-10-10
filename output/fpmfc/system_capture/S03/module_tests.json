@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "count": 19,
+  "failures": 0,
+  "errors": 0,
+  "new_plant_steps": 0,
+  "scope": "bounded synthetic/reference/interface/CA18/persistence; candidate authority and B0 equivalence are separate gates"
+}

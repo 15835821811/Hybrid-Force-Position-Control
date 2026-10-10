@@ -1,0 +1,106 @@
+{
+  "stage": "S03",
+  "evidence_entries": 9,
+  "figures": 110,
+  "videos": 72,
+  "physics_steps": 0,
+  "historical_media_regenerated": false,
+  "checks": {
+    "B00": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "B01": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "D00": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "D00_R1": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "D01": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "P00": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "P01": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "P02": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    },
+    "P03": {
+      "trace_sha": true,
+      "actual_end": true,
+      "eight_videos": true,
+      "eleven_diagnostics": true,
+      "zero_new_physics": true,
+      "body_basis": true,
+      "tracking": true,
+      "hashes": true
+    }
+  },
+  "sources": {
+    "tools/s03_visualization.py": "151fc5218e21d742751c7cd590bf13fe005f087a25ff9e93128fbca2bc3fcb1c",
+    "tools/s03_scientific_figures.py": "13464a9ab5ec5c732f62aca7a2962413593e66156c2d3b707b7e71c1d931d3a1",
+    "tools/s02_visualization.py": "7a95e1c783dca1e9059ef6fe69a9c5af0f6ac78e99640fcab031707da9cdc62f",
+    "tools/s02_render.py": "8dcb5d32296dc12e9813b5bf7c04be8f77041d948e999205ed20840300ea97e0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "run": "B00",
+  "kind": "decision",
+  "passed": true,
+  "raw_validation": {
+    "passed": true,
+    "records": 55831,
+    "completed_steps": 13957,
+    "max_verifiable_time_s": 27.913999999995408,
+    "block_count": 281,
+    "index_sha256": "ebf63b6774f20219a7252a47c5e18c223c21e161820ab4a3529938e03efe86bf"
+  },
+  "physics_steps": 0,
+  "predictive_steps": 39400,
+  "state_initializations": 1,
+  "intermediate_plant_state_injections": 0,
+  "packets": 13958,
+  "max_intermediate_error": 0.0,
+  "proposals_and_snapshots_match": true,
+  "mismatches": [],
+  "terminal_decision": "CONTROL",
+  "recorded_stop_reason": "COMPLETED",
+  "stop_reason_match": true,
+  "actual_guard_calls": 37,
+  "cpu_s": 672.09375,
+  "wall_s": 684.2556171002798
+}

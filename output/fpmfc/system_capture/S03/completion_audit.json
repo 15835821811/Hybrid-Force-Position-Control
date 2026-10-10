@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "checks": {
+    "attempt_cap": true,
+    "candidate_cap": true,
+    "predictive_cap": true,
+    "cpu_cap": true,
+    "wall_cap": true,
+    "two_implementations": true,
+    "one_scientific_parameter_family": true,
+    "all_sources_recoverable": true,
+    "dual_replay": true,
+    "all_completed_steps_safety_checked": true,
+    "H1_skip_explicit": true,
+    "historical_gaps_retained": true,
+    "paired_fairness": true,
+    "base_joint_named_layout": true,
+    "base_drift_angular_path_bound": true,
+    "failed_pair_scope": true,
+    "truncated_window_labels": true,
+    "media": true
+  },
+  "details": {
+    "safety_completed_steps": {
+      "B00": 13957,
+      "B01": 2950,
+      "D00": 3220,
+      "D00_R1": 3620,
+      "D01": 3220,
+      "P00": 4020,
+      "P01": 3620,
+      "P02": 3220,
+      "P03": 3220
+    },
+    "paired_fairness": {
+      "nominal": {
+        "same_mission_except_method": true,
+        "same_truth": true,
+        "same_sensor": true,
+        "same_prior": true
+      },
+      "H2": {
+        "same_mission_except_method": true,
+        "same_truth": true,
+        "same_sensor": true,
+        "same_prior": true
+      }
+    },
+    "deterministic_repeats_not_independent_samples": {
+      "D00_R1/P01": {
+        "time_s": true,
+        "qpos": true,
+        "qvel": true,
+        "ctrl_nm": true,
+        "estimate_covariance": true,
+        "progress_s": true
+      },
+      "D01/P03": {
+        "time_s": true,
+        "qpos": true,
+        "qvel": true,
+        "ctrl_nm": true,
+        "estimate_covariance": true,
+        "progress_s": true
+      }
+    },
+    "media": {
+      "B00": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "B01": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "D00": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "D00_R1": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "D01": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "P00": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "P01": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "P02": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      },
+      "P03": {
+        "trace_sha": true,
+        "actual_end": true,
+        "eight_videos": true,
+        "eleven_diagnostics": true,
+        "zero_new_physics": true,
+        "body_basis": true,
+        "tracking": true,
+        "hashes": true
+      }
+    }
+  },
+  "scope": "saved evidence integrity and bounded negative-result delivery; no task success promotion"
+}

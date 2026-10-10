@@ -1,0 +1,31 @@
+{
+  "authority_signed": {
+    "title": "authority signed",
+    "caption": "Signed changes for six named pairs at four preregistered B01 states, each using the same 0.6 s prior forecast. Columns change one dimension with its negative/positive perturbation. Positive means increased predicted minimum distance, not task success. All finite pairs and thresholds are in authority_signed_margins.csv; absent-distance sentinels are excluded.",
+    "source_sha256": {
+      "output/fpmfc/system_capture/S03/diagnostics/authority_signed_margins.csv": "1210173c2ebd6b5886b15f758e9dbfa322faaccfe1798e0e99c7e72d4d2e680c"
+    }
+  },
+  "common_prefix": {
+    "title": "common prefix",
+    "caption": "B0/B1/B2 actual base angular speed and active-reference tracking error, truncated to the shortest executed interval in each scene. This figure excludes later baseline capture and does not establish complete-task benefit, risk reduction or postgrasp performance. Runs are deterministic seen-condition comparisons, not independent statistical samples.",
+    "source_sha256": {
+      "output/fpmfc/system_capture/S02/runs/E0_C2/trace.npz": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75",
+      "output/fpmfc/system_capture/S03/runs/P00/trace.npz": "9cb90ef8bb2e9d0a580bdbdf3a357cd95bc989032b680a05e3af9e5ae1f9d073",
+      "output/fpmfc/system_capture/S03/runs/P01/trace.npz": "a322db43d1195f9c3111c15f52432cd72ec71d2c19f7abbb723df87c7f17b800",
+      "output/fpmfc/system_capture/S03/runs/B01/trace.npz": "3eeaddbea2c1575a962a5abca0e32ca447ee705c8d928ba9b46c754a706654c8",
+      "output/fpmfc/system_capture/S03/runs/P02/trace.npz": "7dd43f730853c47705da29253a267d337e8b8e5e1e7584e9d88ebd0ece683141",
+      "output/fpmfc/system_capture/S03/runs/P03/trace.npz": "fd29487f6e4fc9f4432e37fd6a70582aa2a35345d9302a8da3851da066ab5431"
+    }
+  },
+  "forecast_errors": {
+    "title": "forecast errors",
+    "caption": "Public joint measurements and CA18 target estimates against the selected independent-prior cached forecast at actual cache-validation ticks. Traces end at the last cache check before termination (P00/P01/P02/P03: 8.02/7.22/6.42/6.42 s). Replanning resets the forecast horizon. These are cache-domain diagnostics, not a global prediction error guarantee; truth is not fed to the planner.",
+    "source_sha256": {
+      "output/fpmfc/system_capture/S03/runs/P00/planner_cache_errors.json": "01fe361cbc5f0f58a011459a71b4bc3dfce5dad6955e6b812574cc2281e50c6e",
+      "output/fpmfc/system_capture/S03/runs/P01/planner_cache_errors.json": "a991d1fb984abcf333e59851c9e77f6ae8286205076658a7ee585456d56ae210",
+      "output/fpmfc/system_capture/S03/runs/P02/planner_cache_errors.json": "273d4bdab977cc243cd07a5d36522f6ec15c3ef6a1efe2956ceae8509ded3a2e",
+      "output/fpmfc/system_capture/S03/runs/P03/planner_cache_errors.json": "33d2fe861cb153fffad1bb92df507f731bd8a037a9c39a5f7cb765df46283984"
+    }
+  }
+}

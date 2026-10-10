@@ -35,10 +35,10 @@ def child_cpu(proc):
     if not fn(wintypes.HANDLE(int(proc._handle)),*(ctypes.byref(x) for x in values)):return None
     return sum((x.dwHighDateTime<<32)+x.dwLowDateTime for x in values[2:])/1e7
 
-def run(name=SELECTED, samples_only=False):
+def run(name=SELECTED, samples_only=False, *, root=None, loader=None, stage='S02'):
     global OUT
-    OUT=ROOT/'visualizations'/'runs'/name
-    start=time.time();cpu=time.process_time();folder,a,result,cfg,digest=load_run(name)
+    OUT=(ROOT if root is None else root)/'visualizations'/'runs'/name
+    start=time.time();cpu=time.process_time();folder,a,result,cfg,digest=(loader or load_run)(name)
     OUT.mkdir(parents=True,exist_ok=True);ffmpeg=shutil.which('ffmpeg');ffprobe=shutil.which('ffprobe')
     if not ffmpeg or not ffprobe:raise RuntimeError('ffmpeg and ffprobe are required')
     t=a['time_s'];n=int(np.ceil(t[-1]*FPS))+1;presentation=np.minimum(np.arange(n)/FPS,t[-1])
@@ -72,7 +72,7 @@ def run(name=SELECTED, samples_only=False):
         error=f"tracking {a['approach_position_error_m'][i]*1000:.4f} mm" if a['approach_reference_applicable'][i] else f"grasp gap {a['interface_translation_error_m'][i]*1000:.4f} mm"
         if i==len(t)-1:phase=result['status']
         overlay='red: distance witness; axes: true grasp' if close else ('red: actual flange; blue: active reference' if a['approach_reference_applicable'][i] else 'reference inactive after latch; actual geometry shown')
-        lines=[f'S02 | {name} | {title}',f't={t[i]:.3f}s | post-latch {local} | {phase}',f"target {np.rad2deg(np.linalg.norm(a['target_omega_world_rad_s'][i])):.4f} deg/s | {error}",f'{overlay} | simulation only']
+        lines=[f'{stage} | {name} | {title}',f't={t[i]:.3f}s | post-latch {local} | {phase}',f"target {np.rad2deg(np.linalg.norm(a['target_omega_world_rad_s'][i])):.4f} deg/s | {error}",f'{overlay} | simulation only']
         sensor=cfg['sensors'];condition='ideal pose' if sensor['position_sigma_m']==0 and sensor['rotation_sigma_rad']==0 else 'noisy pose'
         lines.append(f"{condition} | period {sensor['pose_period_s']*1000:g} ms | delay {sensor['delay_s']*1000:g} ms | saved trajectory")
         for j,line in enumerate(lines):draw.text((10,3+24*j),line,font=font,fill='white' if j<2 else '#8ad5dc')
@@ -118,7 +118,7 @@ def run(name=SELECTED, samples_only=False):
                 if not samples_only:encoders[key].stdin.write(np.asarray(pic,dtype=np.uint8).tobytes())
                 if frame in requested:pic.save(preview/(key+f'_{frame:04d}.png'))
                 if frame==n-1:pic.save(OUT/(key+'_last.png'))
-            if frame%100==0 or samples_only:print(f'S02 render {frame+1}/{n}',flush=True)
+            if frame%100==0 or samples_only:print(f'{stage} render {frame+1}/{n}',flush=True)
         for key,proc in encoders.items():
             proc.stdin.close();code=proc.wait();encoder_cpu[key]=child_cpu(proc);logs[key].close()
             if code:raise RuntimeError('FFmpeg failed: '+key)
@@ -138,7 +138,8 @@ def run(name=SELECTED, samples_only=False):
     max_angle=0.
     for l,r in zip(camera_checks[:-1],camera_checks[1:]):max_angle=max(max_angle,float(np.arccos(np.clip(np.dot(l['forward_world'],r['forward_world']),-1,1))))
     save(OUT/'body_camera_samples.json',camera_checks)
-    save(OUT/'video_manifest.json',{'run':name,'trace_sha256':digest,'actuator_replay_sha256':sha(folder/'actuator_replay.json'),'decision_replay_sha256':sha(folder/'decision_replay.json'),
+    replay_folder=folder if root is None else root/'runs'/name
+    save(OUT/'video_manifest.json',{'run':name,'trace_sha256':digest,'actuator_replay_sha256':sha(replay_folder/'actuator_replay.json'),'decision_replay_sha256':sha(replay_folder/'decision_replay.json'),
         'model_sha256':sha(NEW_MODEL),'source_identity':{str(Path(__file__).relative_to(PROJECT_ROOT)):sha(Path(__file__))},
         'physical_end_time_s':float(t[-1]),'latch_time_s':result['latch_time_s'],'physics_steps':0,'new_physical_attempts':0,
         'fps':FPS,'frames':n,'indices':indices.tolist(),'physical_times_s':t[indices].tolist(),'videos':videos,

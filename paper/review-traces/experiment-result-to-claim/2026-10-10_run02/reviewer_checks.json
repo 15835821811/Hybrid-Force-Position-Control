@@ -1,0 +1,164 @@
+{
+  "scope": "Read-only raw-data arithmetic; no model stepping or new experiment",
+  "base_quaternion_evidence": "XML declares target free joint before base free joint: target qpos 0:7, base qpos 7:14",
+  "base_drift_check": [
+    {
+      "run": "B00",
+      "correct_base_peak_rad": 0.11927183159048084,
+      "published_target_as_base_rad": 0.7117193321822878,
+      "base_angular_speed_integral_rad": 0.20457228364170632,
+      "source_sha256": "9e0d367c31a61889a24353d7ae34b56cb3687ffec9e804d033d9b481761e8c75"
+    },
+    {
+      "run": "B01",
+      "correct_base_peak_rad": 0.11512572410095608,
+      "published_target_as_base_rad": 0.5756665194652821,
+      "base_angular_speed_integral_rad": 0.1554599087113327,
+      "source_sha256": "3eeaddbea2c1575a962a5abca0e32ca447ee705c8d928ba9b46c754a706654c8"
+    },
+    {
+      "run": "D00",
+      "correct_base_peak_rad": 0.1217332295316201,
+      "published_target_as_base_rad": 0.5619960191421742,
+      "base_angular_speed_integral_rad": 0.13572570102113068,
+      "source_sha256": "7b605633dd051d243a28e5a10b8e6b528fda184e0d56568657ce55a8eee276cb"
+    },
+    {
+      "run": "D00_R1",
+      "correct_base_peak_rad": 0.12247743930727872,
+      "published_target_as_base_rad": 0.631809189221946,
+      "base_angular_speed_integral_rad": 0.14644712631406015,
+      "source_sha256": "a322db43d1195f9c3111c15f52432cd72ec71d2c19f7abbb723df87c7f17b800"
+    },
+    {
+      "run": "D01",
+      "correct_base_peak_rad": 0.1236254677999384,
+      "published_target_as_base_rad": 0.6283543301852735,
+      "base_angular_speed_integral_rad": 0.15376503502350167,
+      "source_sha256": "fd29487f6e4fc9f4432e37fd6a70582aa2a35345d9302a8da3851da066ab5431"
+    },
+    {
+      "run": "P00",
+      "correct_base_peak_rad": 0.11581678877542029,
+      "published_target_as_base_rad": 0.7016223593017197,
+      "base_angular_speed_integral_rad": 0.1562317616948317,
+      "source_sha256": "9cb90ef8bb2e9d0a580bdbdf3a357cd95bc989032b680a05e3af9e5ae1f9d073"
+    },
+    {
+      "run": "P01",
+      "correct_base_peak_rad": 0.12247743930727872,
+      "published_target_as_base_rad": 0.631809189221946,
+      "base_angular_speed_integral_rad": 0.14644712631406015,
+      "source_sha256": "a322db43d1195f9c3111c15f52432cd72ec71d2c19f7abbb723df87c7f17b800"
+    },
+    {
+      "run": "P02",
+      "correct_base_peak_rad": 0.11382733116666915,
+      "published_target_as_base_rad": 0.6283543301852735,
+      "base_angular_speed_integral_rad": 0.13828296870334827,
+      "source_sha256": "7dd43f730853c47705da29253a267d337e8b8e5e1e7584e9d88ebd0ece683141"
+    },
+    {
+      "run": "P03",
+      "correct_base_peak_rad": 0.1236254677999384,
+      "published_target_as_base_rad": 0.6283543301852735,
+      "base_angular_speed_integral_rad": 0.15376503502350167,
+      "source_sha256": "fd29487f6e4fc9f4432e37fd6a70582aa2a35345d9302a8da3851da066ab5431"
+    }
+  ],
+  "signed_csv_check": {
+    "rows": 2200,
+    "states": 4,
+    "dimensions": [
+      "normal_bump_m",
+      "psi_end_correction_rad",
+      "psi_mid_correction_rad",
+      "remaining_time_s",
+      "tangent_bump_m"
+    ],
+    "pairs": 55,
+    "sentinels": 0,
+    "arithmetic_max_error_m": 0.0,
+    "positive_rows": 406,
+    "negative_rows": 407
+  },
+  "source_recovery_hash_checks": [
+    {
+      "run": "B01",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a/replay.py",
+      "expected": "ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a",
+      "actual": "ffa0fc65ee1f80e0e7b44520d47524f586d853eb7e21c18e09109dded53c1d4a",
+      "passed": true
+    },
+    {
+      "run": "B01",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d/runner.py",
+      "expected": "8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d",
+      "actual": "8d9673a5185cdeb7085689b58fc7828812448de89aba95767e25d07428bfea1d",
+      "passed": true
+    },
+    {
+      "run": "B01",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/e1426ebd6f69666e905aa7517fb040df44318044fa7447259d577f8cc679029d/contracts.py",
+      "expected": "e1426ebd6f69666e905aa7517fb040df44318044fa7447259d577f8cc679029d",
+      "actual": "e1426ebd6f69666e905aa7517fb040df44318044fa7447259d577f8cc679029d",
+      "passed": true
+    },
+    {
+      "run": "B01",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/8eb3abb1f9a7166b6e7006a83f03fff24312305f88b425078381a14c3a5d5e24/diagnostics.py",
+      "expected": "8eb3abb1f9a7166b6e7006a83f03fff24312305f88b425078381a14c3a5d5e24",
+      "actual": "8eb3abb1f9a7166b6e7006a83f03fff24312305f88b425078381a14c3a5d5e24",
+      "passed": true
+    },
+    {
+      "run": "B01",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/bcaacce7509d80590bcfc5cfb897e9d1ef1004d4588713c710b463ed41691665/phase.py",
+      "expected": "bcaacce7509d80590bcfc5cfb897e9d1ef1004d4588713c710b463ed41691665",
+      "actual": "bcaacce7509d80590bcfc5cfb897e9d1ef1004d4588713c710b463ed41691665",
+      "passed": true
+    },
+    {
+      "run": "B01",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/75519db5d70e8ac03cefc39eb6fa987312648bdbc49f1aaf1643b06797eefc46/prediction.py",
+      "expected": "75519db5d70e8ac03cefc39eb6fa987312648bdbc49f1aaf1643b06797eefc46",
+      "actual": "75519db5d70e8ac03cefc39eb6fa987312648bdbc49f1aaf1643b06797eefc46",
+      "passed": true
+    },
+    {
+      "run": "B01",
+      "path": "output/fpmfc/system_capture/S03/versions/V1/v6_mujoco/system_capture/planning/tests.py",
+      "expected": "49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4",
+      "actual": "49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4",
+      "passed": true
+    },
+    {
+      "run": "D00",
+      "path": "output/fpmfc/system_capture/S03/versions/V1/v6_mujoco/system_capture/planning/contracts.py",
+      "expected": "4f562b2aee26c1234a0d9adcb81e6a23d504bbf2bd65bfe424850ccf2d2cb598",
+      "actual": "4f562b2aee26c1234a0d9adcb81e6a23d504bbf2bd65bfe424850ccf2d2cb598",
+      "passed": true
+    },
+    {
+      "run": "D00",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1/phase.py",
+      "expected": "d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1",
+      "actual": "d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1",
+      "passed": true
+    },
+    {
+      "run": "D00",
+      "path": "output/fpmfc/system_capture/S03/versions/V1/v6_mujoco/system_capture/planning/tests.py",
+      "expected": "49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4",
+      "actual": "49ea41b0676d0ab5bb476b5ebf8e02541f82671b9f52cf0e35c92b05a4fcd7c4",
+      "passed": true
+    },
+    {
+      "run": "D00_R1",
+      "path": "output/fpmfc/system_capture/S03/versions/source_by_sha/d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1/phase.py",
+      "expected": "d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1",
+      "actual": "d9b570e7b4042dc9cc32ba6941be7b587d3297b4d8190a0f5316b0ce408ca9c1",
+      "passed": true
+    }
+  ]
+}

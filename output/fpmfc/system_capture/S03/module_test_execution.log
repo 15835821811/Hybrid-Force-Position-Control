@@ -1,0 +1,24 @@
+test_fixed_baseline_and_tool (v6_mujoco.system_capture.planning.tests.ReferenceTests) ... ok
+test_independent_derivatives_and_transport (v6_mujoco.system_capture.planning.tests.ReferenceTests) ... ok
+test_named_gradient_at_same_state (v6_mujoco.system_capture.planning.tests.ReferenceTests) ... ok
+test_no_truth_and_expiry (v6_mujoco.system_capture.planning.tests.ReferenceTests) ... ok
+test_quintic_and_bump_jets (v6_mujoco.system_capture.planning.tests.ReferenceTests) ... ok
+test_switch_C2_and_unwrapped_shape (v6_mujoco.system_capture.planning.tests.ReferenceTests) ... ok
+test_angular_white_jerk_Q_PSD_tiny_measurement_contact_switch (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_causality_missing_duplicate_old_nonfinite (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_guard_uses_raw_estimate_and_public_only_boundary (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_history_contact_not_rewritten (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_left_reset_jacobian_and_quaternion_sign (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_legacy_identity_and_predictor_only_diff (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_noncommuting_rotation_and_variational_jacobian (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_reference_point_jacobian (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_snapshot_psd_marginal_segmentation_and_no_pollution (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_translation_units_and_jerk_integral (v6_mujoco.system_capture.estimation.tests.FilterProperties) ... ok
+test_faults (v6_mujoco.system_capture.estimation.tests.PersistenceProperties) ... ok
+test_uncommitted_tail_and_corruption_not_repaired (v6_mujoco.system_capture.estimation.tests.PersistenceProperties) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.845s
+
+OK
+
