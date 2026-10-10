@@ -1,0 +1,63 @@
+{
+  "model_and_frames": {
+    "title": "SRS 模型与坐标",
+    "caption": "Initial SRS centerlines in three world-coordinate projections, from the published DH table and separately recorded joint angles. S, E and W denote shoulder, elbow and wrist. The DH0 mount is the declared Rx(pi) assumption; initial base and world frames coincide. Graphics are schematic, not collision envelopes or mass-support geometry. Published masses total 524 kg; link COMs and inertia axes require declared assumptions.",
+    "inputs": {
+      "models/paper_compat/srs.xml": "14fb254502c4ecbf5a17468b874e2bec3e96c853d63f9aa5a217435cbbe80155",
+      "configs/system_capture/paper_compat/source_parameters.yaml": "d0bfae7b6157da825540d3a31ddc67ff35a33bdb049e1870f4ef8990b5b414d3",
+      "configs/system_capture/paper_compat/assumptions.yaml": "0da2ffc03bec5ec632bbbc81f89789782d89be6f94b1dea4ccec22b01603c4a4"
+    },
+    "files": {
+      "png": "466caf6af6f83ba7e5840c4ab9eb37dcafb64cf1aebe08ddd15e26eca9138b51",
+      "pdf": "5dcca5131e6dea03f2548b5c98cbca71335aacf3bc65406016d4637286c6c4d7"
+    },
+    "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+  },
+  "mathematics_and_hierarchy": {
+    "title": "数学核验与层级残差",
+    "caption": "Eleven preregistered configurations: index 0 is the initial state, and indices 1-10 follow the fixed sine-perturbation rule in s01.json. (a) Each residual is normalized by its corresponding numerical tolerance; unity is the acceptance boundary. FK position is maximum component error (tolerance 1e-10 m); full Jacobian is maximum entry error (1e-8 in the stated mixed linear/angular coordinates); zero-momentum map is maximum entry residual (1e-10 in its stated SI coordinates); A/B shape rate is absolute difference (1e-6 rad/s). (b) Eq. (23) under two readings of its undefined vector l, versus the independent derivative of Eq. (18). (c,d) Translational and angular base motion per unit nullspace speed, shown separately with zero as the reactionless reference. Values below 1e-17 in logarithmic displays are plotted at 1e-17, a display floor only.",
+    "inputs": {
+      "output/fpmfc/system_capture/S01/equation_tests.json": "0c6b5df816c055799dbeeef8ba4baad36981892fef7ece4216f7784e543e7254"
+    },
+    "files": {
+      "png": "a9756896f69408b592741004d2d2783fea675ff4cd77716661141dc30369d676",
+      "pdf": "c507dfcfb8d2463b08fe68c6bac18f44d5fad5436e251dbbdd2b23d362c46ad4"
+    },
+    "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+  },
+  "optimization_and_base_comparison": {
+    "title": "优化与基座扰动比较",
+    "caption": "Three strategies (fixed shape 0, fixed shape pi/2, and joint time/shape optimization) and two fixed seeds (240601,240602) receive 120 kinematic evaluations each. G is squared world base angular-speed peak normalized by 5 deg/s plus squared grasp-direction alignment normalized by pi, with weights 1/1; definitions and gates are frozen in assumptions.yaml. (a) Feasible-only best objective by generation; gaps mean no feasible incumbent. (b) Selected time and shape; numbers refer to the legend, with a gray x for an infeasible candidate. (c,d) Actual dynamic base angular-speed peaks and attitude drift for the common-time protocol A. An x denotes an unqualified trajectory, annotated with its actual end time; its statistic uses that recorded interval only and is not an admissible benefit comparison. Two seeds provide descriptive results only; reduced-budget stagnation does not establish convergence. Protocol A uses the joint result of seed 240601 by the preregistered rule, independent of which seed has the lower objective. Qualification covers the declared inertial model and gates, not physical collision clearance or contact. Common time = 18.451817 s. psi0: COMPLETED, qualified=True; psi90: COMPLETED, qualified=True; joint: COMPLETED, qualified=True.",
+    "inputs": {
+      "output/fpmfc/system_capture/S01/optimization_runs/240601_fixed_0/result.json": "429ecc9749092fe9a49bfac0f9c6f7fe98d84cf6e074979ddbebb6ce730a837a",
+      "output/fpmfc/system_capture/S01/optimization_runs/240601_fixed_pi2/result.json": "8fd6af213da898f84e62a0b67c91103a8522349fa5e3b4dcccdd4db32ad1e787",
+      "output/fpmfc/system_capture/S01/optimization_runs/240601_joint/result.json": "8bfdced8b21741c449ec78164f6c51b8fee936bf1d0141492f69992128ec8033",
+      "output/fpmfc/system_capture/S01/optimization_runs/240602_fixed_0/result.json": "063e5c07140981766af1352100b411de2b194012074d0e7090ae8d8b1f85e69c",
+      "output/fpmfc/system_capture/S01/optimization_runs/240602_fixed_pi2/result.json": "3e441d69cbdef73ed0e350993d3ff1c0f62315f94a5dde72f8655184208409aa",
+      "output/fpmfc/system_capture/S01/optimization_runs/240602_joint/result.json": "02ba2ea1ff6145b04c5913e479d7ad859bdb0689d8e2697b5c55d44c4a0157a0",
+      "output/fpmfc/system_capture/S01/fixed_time_comparison.json": "7585aea95a7e7826b9df6e8c0e0cb6c6d6994d42870dec69c571a05a73374c86"
+    },
+    "files": {
+      "png": "bbf24e6d341cfcf86bb06c43d4f67d7baffd6d19af79a8c46004030914bf2a6d",
+      "pdf": "2efc737bd5b4ce4b188cfadca935d16f3da88baa0b7fe1a3426b2c9703a66cb0"
+    },
+    "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+  },
+  "tracking_and_dynamics": {
+    "title": "实际轨迹跟踪与动力学",
+    "caption": "Actual torque-driven SRS traces at the author-reported point (15.6 s, 0.2686 rad; source-nullspace and adapted HQP) and at the preregistered common-time joint result. Position, rotation and shape errors, world base speed, separate P/H drift about the fixed world origin, actual applied torque and actual joint speed are shown. Curves end at the true stopping time: x marks an unqualified run and a circle a qualified run. Horizontal dotted lines are frozen path gates (5 mm, 1 deg, 2 deg), P/H drift gates (1e-6 kg m/s and 1e-6 kg m²/s), and torque/joint-speed limits (50 N m, 0.8 rad/s). There is no fabricated terminal segment. Plotted failed trajectories do not establish source reproduction. Qualification covers the declared inertial model and gates, not physical collision clearance or contact. Author / source: JOINT_VELOCITY_COMMAND_LIMIT, end=6.120000 s; Author / HQP: ACTUAL_JOINT_VELOCITY_LIMIT, end=7.120000 s; Common / joint: COMPLETED, end=18.451817 s.",
+    "inputs": {
+      "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_source/trace.npz": "cc6b31e4c3623e0fd9046af58540d5abfbe4f23af34c02e3fb6b6de85e0d1f8e",
+      "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_source/metrics.json": "55c55ee71b0cc968e95224be918519fa857a0e198f07b3f56b8be4bb376181b6",
+      "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_hqp/trace.npz": "eaf529c3c203e4a11bdb991b9ef1932c90559a6ff946f168007bc341858fc3bd",
+      "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_hqp/metrics.json": "3969916b5c2b71eecf6cea327ba78a7373da5c8d00a959dca20f434d8a0ed07c",
+      "output/fpmfc/system_capture/S01/dynamics_runs/C2_common_time_joint/trace.npz": "8ec5974b86c81e92c07230ff02836e9cb2ece9d1df1fb51aa24f6778a63e3ce6",
+      "output/fpmfc/system_capture/S01/dynamics_runs/C2_common_time_joint/metrics.json": "7b59d595fca48591e8bb25d6698d6da08130fd5b1d13503438c9ed4ddb88f5bb"
+    },
+    "files": {
+      "png": "f49d4727d3bf7671ffb4c2e4088cd6b9030153d3298ab60168be7d2dd9f42530",
+      "pdf": "e3e2e55eab223ec7bcd57c58a0baa61bc51ae5c76d456c95ef0bc7ed06c66cc9"
+    },
+    "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+  }
+}

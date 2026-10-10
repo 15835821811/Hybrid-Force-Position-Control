@@ -1,0 +1,17 @@
+{
+  "title": "实际轨迹跟踪与动力学",
+  "caption": "Actual torque-driven SRS traces at the author-reported point (15.6 s, 0.2686 rad; source-nullspace and adapted HQP) and at the preregistered common-time joint result. Position, rotation and shape errors, world base speed, separate P/H drift about the fixed world origin, actual applied torque and actual joint speed are shown. Curves end at the true stopping time: x marks an unqualified run and a circle a qualified run. Horizontal dotted lines are frozen path gates (5 mm, 1 deg, 2 deg), P/H drift gates (1e-6 kg m/s and 1e-6 kg m²/s), and torque/joint-speed limits (50 N m, 0.8 rad/s). There is no fabricated terminal segment. Plotted failed trajectories do not establish source reproduction. Qualification covers the declared inertial model and gates, not physical collision clearance or contact. Author / source: JOINT_VELOCITY_COMMAND_LIMIT, end=6.120000 s; Author / HQP: ACTUAL_JOINT_VELOCITY_LIMIT, end=7.120000 s; Common / joint: COMPLETED, end=18.451817 s.",
+  "inputs": {
+    "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_source/trace.npz": "cc6b31e4c3623e0fd9046af58540d5abfbe4f23af34c02e3fb6b6de85e0d1f8e",
+    "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_source/metrics.json": "55c55ee71b0cc968e95224be918519fa857a0e198f07b3f56b8be4bb376181b6",
+    "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_hqp/trace.npz": "eaf529c3c203e4a11bdb991b9ef1932c90559a6ff946f168007bc341858fc3bd",
+    "output/fpmfc/system_capture/S01/dynamics_runs/C2_author_point_hqp/metrics.json": "3969916b5c2b71eecf6cea327ba78a7373da5c8d00a959dca20f434d8a0ed07c",
+    "output/fpmfc/system_capture/S01/dynamics_runs/C2_common_time_joint/trace.npz": "8ec5974b86c81e92c07230ff02836e9cb2ece9d1df1fb51aa24f6778a63e3ce6",
+    "output/fpmfc/system_capture/S01/dynamics_runs/C2_common_time_joint/metrics.json": "7b59d595fca48591e8bb25d6698d6da08130fd5b1d13503438c9ed4ddb88f5bb"
+  },
+  "files": {
+    "png": "f49d4727d3bf7671ffb4c2e4088cd6b9030153d3298ab60168be7d2dd9f42530",
+    "pdf": "e3e2e55eab223ec7bcd57c58a0baa61bc51ae5c76d456c95ef0bc7ed06c66cc9"
+  },
+  "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+}

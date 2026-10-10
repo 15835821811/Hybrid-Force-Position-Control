@@ -1,0 +1,20 @@
+{
+  "paper_compat_srs": {
+    "model_id": "paper_compat_srs",
+    "domain": "paper_compat_srs",
+    "status": "AVAILABLE",
+    "hardware": {
+      "active_joint_count": 7,
+      "base_actuators": false,
+      "target_actuators": false,
+      "base": "free",
+      "gravity": "zero",
+      "scope": "precontact inertial model under explicit assumptions; physical clearance source-limited"
+    },
+    "source_identity": {
+      "models/paper_compat/srs.xml": "14fb254502c4ecbf5a17468b874e2bec3e96c853d63f9aa5a217435cbbe80155",
+      "configs/system_capture/paper_compat/source_parameters.yaml": "d0bfae7b6157da825540d3a31ddc67ff35a33bdb049e1870f4ef8990b5b414d3",
+      "configs/system_capture/paper_compat/assumptions.yaml": "0da2ffc03bec5ec632bbbc81f89789782d89be6f94b1dea4ccec22b01603c4a4"
+    }
+  }
+}

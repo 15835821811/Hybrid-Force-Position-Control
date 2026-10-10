@@ -1,0 +1,14 @@
+{
+  "title": "SRS 模型与坐标",
+  "caption": "Initial SRS centerlines in three world-coordinate projections, from the published DH table and separately recorded joint angles. S, E and W denote shoulder, elbow and wrist. The DH0 mount is the declared Rx(pi) assumption; initial base and world frames coincide. Graphics are schematic, not collision envelopes or mass-support geometry. Published masses total 524 kg; link COMs and inertia axes require declared assumptions.",
+  "inputs": {
+    "models/paper_compat/srs.xml": "14fb254502c4ecbf5a17468b874e2bec3e96c853d63f9aa5a217435cbbe80155",
+    "configs/system_capture/paper_compat/source_parameters.yaml": "d0bfae7b6157da825540d3a31ddc67ff35a33bdb049e1870f4ef8990b5b414d3",
+    "configs/system_capture/paper_compat/assumptions.yaml": "0da2ffc03bec5ec632bbbc81f89789782d89be6f94b1dea4ccec22b01603c4a4"
+  },
+  "files": {
+    "png": "466caf6af6f83ba7e5840c4ab9eb37dcafb64cf1aebe08ddd15e26eca9138b51",
+    "pdf": "5dcca5131e6dea03f2548b5c98cbca71335aacf3bc65406016d4637286c6c4d7"
+  },
+  "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "DYNAMICS",
+  "T_s": 20.0,
+  "psi_f_rad": 1.5707963267948966,
+  "completed_horizon": true,
+  "status": "COMPLETED",
+  "feasible": true,
+  "feasibility_scope": "declared inertial SRS and explicit joint/tracking/momentum gates; physical collision clearance is SOURCE_LIMITED",
+  "objective_G": 0.2600607146502579,
+  "ranking_objective": 0.2600607146502579,
+  "normalized_violation_sum": 0.0,
+  "base_peak_angular_speed_rad_s": 0.010585440113130786,
+  "base_rms_angular_speed_rad_s": 0.006799386740613432,
+  "base_peak_linear_speed_m_s": 0.0019081870331626308,
+  "base_max_attitude_drift_rad": 0.1015846915352415,
+  "base_final_attitude_drift_rad": 0.10158454503680164,
+  "base_peak_abs_linear_components_m_s": [
+    0.0013105316031149067,
+    0.001688361372848034,
+    0.0008587995378283538
+  ],
+  "base_peak_abs_angular_components_rad_s": [
+    0.00952631758359878,
+    0.006289667873538294,
+    0.004514168159936113
+  ],
+  "alignment_angle_rad": 1.5561097567096291,
+  "constraints": {
+    "path_position_error_m": {
+      "value": 0.00022621022067261524,
+      "limit": 0.005,
+      "units": "m",
+      "passed": true
+    },
+    "path_rotation_error_rad": {
+      "value": 0.0011416639490781115,
+      "limit": 0.017453292519943295,
+      "units": "rad",
+      "passed": true
+    },
+    "path_shape_error_rad": {
+      "value": 0.0007033172646675467,
+      "limit": 0.03490658503988659,
+      "units": "rad",
+      "passed": true
+    },
+    "terminal_position_error_m": {
+      "value": 1.435126647325699e-05,
+      "limit": 0.001,
+      "units": "m",
+      "passed": true
+    },
+    "terminal_rotation_error_rad": {
+      "value": 2.957323359515537e-05,
+      "limit": 0.003490658503988659,
+      "units": "rad",
+      "passed": true
+    },
+    "terminal_shape_error_rad": {
+      "value": 2.2995825000649006e-05,
+      "limit": 0.008726646259971648,
+      "units": "rad",
+      "passed": true
+    },
+    "terminal_linear_velocity_error_m_s": {
+      "value": 4.4230237554396525e-05,
+      "limit": 0.002,
+      "units": "s",
+      "passed": true
+    },
+    "terminal_angular_velocity_error_rad_s": {
+      "value": 9.115290117091755e-05,
+      "limit": 0.003490658503988659,
+      "units": "s",
+      "passed": true
+    },
+    "linear_momentum_drift_kg_m_s": {
+      "value": 2.612741280515782e-11,
+      "limit": 1e-06,
+      "units": "s",
+      "passed": true
+    },
+    "angular_momentum_drift_world_origin_kg_m2_s": {
+      "value": 3.1391645090611175e-13,
+      "limit": 1e-06,
+      "units": "s",
+      "passed": true
+    },
+    "joint_position": {
+      "value": 3.4590647346738845,
+      "limit": 6.283185307179586,
+      "units": "rad",
+      "passed": true
+    },
+    "joint_velocity": {
+      "value": 0.5596256811873581,
+      "limit": 0.8,
+      "units": "rad/s",
+      "passed": true
+    },
+    "torque": {
+      "value": 0.12167105333279693,
+      "limit": 50,
+      "units": "N m",
+      "passed": true
+    }
+  },
+  "minimum_centerline_distance_m": 0.30337717083654564,
+  "physical_clearance": "NOT_EVALUATED_SOURCE_GEOMETRY_MISSING",
+  "end_time_s": 19.999999999999794,
+  "samples": 10001,
+  "dt_s": 0.002,
+  "cpu_s": 9.84375,
+  "wall_s": 10.047061999794096,
+  "new_physical_attempts": 1,
+  "no_contact": true,
+  "rms_position_error_m": 0.00013392137717771696,
+  "rms_rotation_error_rad": 0.000631188319462228,
+  "rms_linear_velocity_error_m_s": 5.556880754212066e-05,
+  "rms_angular_velocity_error_rad_s": 0.0003576570780283174,
+  "max_hierarchy_linear_residual_m_s": 1.4044876636304131e-15,
+  "max_hierarchy_angular_residual_rad_s": 8.548086457801636e-16,
+  "method": "source_nullspace",
+  "physics_steps": 10000,
+  "initializations": 1,
+  "intermediate_state_injections": 0,
+  "actuator_channels": 7,
+  "actual_applied_peak_torque_nm": 0.12167105333279693,
+  "torque_trace_scope": "proposed pre-step torque; actual applied inputs are saved separately, final/aborted proposals are not applied"
+}

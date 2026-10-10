@@ -13,6 +13,7 @@ from v6_mujoco.feasible_capture.visualization import OUT,CAPTIONS
 
 videos=read(OUT/'video_manifest.json');selected=videos['run'];refresh=read(OUT/'refresh_manifest.json')
 branch=subprocess.check_output(['git','branch','--show-current'],cwd=PROJECT_ROOT,text=True).strip()
+s01_current=(PROJECT_ROOT/'output/fpmfc/system_capture/S01/phase_manifest.json').exists()
 s00_snapshot=subprocess.check_output(['git','log','-1','--format=%H','--','output/fpmfc/system_capture/S00/handoff.json'],cwd=PROJECT_ROOT,text=True).strip() if (PROJECT_ROOT/'output/fpmfc/system_capture/S00/handoff.json').exists() else None
 errors=[];run_rows=[]
 for name in refresh['all_run_names']:
@@ -82,6 +83,8 @@ markdown+='## 复现与发布范围\n\n```powershell\npython -m v6_mujoco.feasib
 if s00_snapshot:
     old_scope='本次是用户在原 N209 任务完成后另行要求的可视化刷新与 GitHub 独立分支上传。原 `commands.md` 的“本地提交、不推送”描述原任务范围；本次新增授权允许推送 `codex/n209-paper-ready-feasible-capture`，不合并主分支。显示刷新不重启实验账本、不产生新候选或新机器人尝试。'
     scope=f'本次按用户新授权发布当前 S00 版本及完整可视化，发布分支 `{branch}`，S00 验收快照 `{s00_snapshot}`。S00 报告与 handoff 的“本地提交、不推送”描述验收快照产生时的范围；本次发布记录在 refresh_manifest.json。图表与视频由原 N209 trace 重新生成，S00 未产生新物理轨迹；未启动 S01—S08、未合并主分支。S00 验收复现应检出其快照提交，避免把后续媒体刷新当作验收时的文件状态。'
+    if s01_current:
+        scope=f'本次按用户新授权发布当前 S01 分支 `{branch}` 并刷新保存的 N209 媒体。S01 是独立 SRS 接触前基准，N209 视频仍为历史 Flexiv 连续捕获记录。S00 验收快照 `{s00_snapshot}` 及阶段文件保留；此次显示刷新不推进动力学、不改判任何历史结果。'
     markdown=markdown.replace(old_scope,scope)
     (OUT/'README.md').write_text(markdown,encoding='utf-8')
 readme=PROJECT_ROOT/'README.md';text=readme.read_text(encoding='utf-8');start='<!-- N209 CURRENT START -->';end='<!-- N209 CURRENT END -->'
@@ -126,6 +129,10 @@ if s00_snapshot:
 <!-- S00 CURRENT END -->
 
 '''
+if s01_current:
+    s00_block=s00_block.replace('## 当前版本：S00','## 历史基础：S00').replace('未执行 S01—S08','验收时未执行 S01—S08')
+    s00_block=s00_block.replace('发布分支：`'+branch+'`。','S00 历史发布分支：`codex/system-s00-visual-refresh`。')
+    block=block.replace('## 当前物理结果 N209：','## 保存的完整捕获结果 N209：')
 readme.write_text(head+'\n\n'+s00_block+block+tail,encoding='utf-8')
 class Links(HTMLParser):
     def __init__(self):super().__init__();self.links=[]
@@ -142,6 +149,7 @@ refresh['run_readme_sha256']={p.relative_to(OUT).as_posix():sha(p) for p in (OUT
 refresh['quality_review_sha256']=sha(OUT/'visual_quality_review.md')
 refresh['delivery_generator_sha256']=sha(Path(__file__));save(OUT/'refresh_manifest.json',refresh)
 refresh['publication']={'branch':branch,'s00_acceptance_commit':s00_snapshot,'authorization':'User requested current version on a separate GitHub branch and all current visualizations refreshed.','scope':'Display regeneration from all eight retained N209 traces; S00 acceptance artifacts unchanged; no later research phase.','merged':False}
+if s01_current:refresh['publication']['scope']='Historical N209 media regenerated for current S01 publication; SRS results remain separate; no new Flexiv dynamics or S02-S08.'
 save(OUT/'refresh_manifest.json',refresh)
 result={'passed':not errors,'errors':errors,'run_count':len(refresh['all_run_names']),'diagnostic_figures':refresh['run_figure_count'],
     'videos_decoded':len(probes),'decoded_streams':probes,'paper_audit_inputs_unchanged':not any('paper-audit' in e for e in errors),

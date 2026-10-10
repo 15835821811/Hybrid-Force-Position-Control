@@ -1,0 +1,358 @@
+{
+  "source": {
+    "source": {
+      "title": "自由漂浮空间机器人捕获翻滚目标的力-位-型融合控制方法",
+      "authors": [
+        "梁斌",
+        "徐文福",
+        "王学谦",
+        "闫磊"
+      ],
+      "publication": "宇航学报 2024 45(6) 958-969",
+      "doi": "10.3873/j.issn.1000-1328.2024.06.014",
+      "file": "reference_papers/自由漂浮空间机器人捕获翻滚...标的力-位-型融合控制方法_梁斌.pdf",
+      "sha256": "3e3068b8431c55221241a3b91febd0e6c4024a19797348fbb43647a118232c3f"
+    },
+    "dh": {
+      "locator": "Table 2, PDF 8, printed 965; frame drawing Fig 3 printed 963",
+      "theta_table_deg": [
+        -90,
+        180,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_deg": [
+        90,
+        90,
+        -90,
+        90,
+        -90,
+        90,
+        0
+      ],
+      "a_m": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "d_m": [
+        0.15,
+        0,
+        0.4,
+        0,
+        0.4,
+        0,
+        0.1
+      ]
+    },
+    "inertia": {
+      "locator": "Table 3, PDF 9, printed 966",
+      "body_names": [
+        "base",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ],
+      "mass_kg": [
+        500,
+        4,
+        2,
+        6,
+        2,
+        6,
+        2,
+        2
+      ],
+      "diagonal_kg_m2": [
+        [
+          50,
+          50,
+          50
+        ],
+        [
+          0.52,
+          0.52,
+          0.14
+        ],
+        [
+          0.003,
+          0.003,
+          0.0008
+        ],
+        [
+          0.052,
+          0.052,
+          0.006
+        ],
+        [
+          0.003,
+          0.003,
+          0.0008
+        ],
+        [
+          0.052,
+          0.052,
+          0.006
+        ],
+        [
+          0.003,
+          0.003,
+          0.0008
+        ],
+        [
+          0.003,
+          0.003,
+          0.0008
+        ]
+      ],
+      "products_kg_m2": [
+        0,
+        0,
+        0
+      ]
+    },
+    "initial": {
+      "locator": "PDF 9, printed 966, left column",
+      "joint_angles_deg": [
+        0,
+        45,
+        0,
+        90,
+        0,
+        45,
+        0
+      ],
+      "target_origin_in_initial_base_m": [
+        0,
+        0,
+        -0.7657
+      ],
+      "target_origin_orientation_reported_rad": [
+        0,
+        0,
+        0
+      ],
+      "grasp_position_in_initial_base_m": [
+        0,
+        -0.25,
+        -0.7657
+      ],
+      "grasp_orientation_reported_rad": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "target_spin_deg_s": 5
+    },
+    "reference": {
+      "locator": "Eq 26 printed 964; text printed 966; conclusion printed 968",
+      "interpolation": "quintic",
+      "terminal_end_effector_velocity_assumption": "zero",
+      "desired_end_effector_wrench": "zero",
+      "demonstrated_scope": "precontact_only"
+    },
+    "pso": {
+      "locator": "section 4.2 printed 966",
+      "population": 20,
+      "max_iterations": 1000,
+      "inertia": 0.9,
+      "velocity_range_fraction": 0.1,
+      "cognitive": 1.5,
+      "social": 2.0,
+      "adjacent_best_threshold": 1e-05
+    },
+    "author_reported": {
+      "locator": "printed 966-967; Fig 9-10",
+      "time_s": 15.6,
+      "shape_rad": 0.2686,
+      "disturbance_reductions_percent": [
+        5.22,
+        25.27
+      ],
+      "figure_linear_velocity_unit": "mm/s",
+      "figure_angular_velocity_unit": "deg/s"
+    }
+  },
+  "assumptions": {
+    "classification": "DECLARED_ADAPTATION",
+    "missing_source_fields": {
+      "link_com": "NOT_SPECIFIED_IN_SOURCE",
+      "inertia_reference_point_and_axes": "NOT_SPECIFIED_IN_SOURCE",
+      "base_to_DH0_mount": "NOT_SPECIFIED_IN_SOURCE",
+      "solid_geometry_and_collision_envelopes": "NOT_SPECIFIED_IN_SOURCE",
+      "target_spin_axis_and_initial_velocity_convention": "NOT_SPECIFIED_IN_SOURCE",
+      "target_inertia": "NOT_SPECIFIED_IN_SOURCE",
+      "optimization_bounds": "NOT_SPECIFIED_IN_SOURCE",
+      "w1_w2_and_scales": "NOT_SPECIFIED_IN_SOURCE",
+      "delta_o_aggregation": "NOT_SPECIFIED_IN_SOURCE",
+      "orientation_interpolation": "NOT_SPECIFIED_IN_SOURCE",
+      "actuator_limits_and_low_level_servo": "NOT_SPECIFIED_IN_SOURCE",
+      "target_contact_parameters": "NOT_APPLICABLE_PRECONTACT"
+    },
+    "model": {
+      "dh_convention": "standard_Rz(theta_table+q)_Tz(d)_Tx(a)_Rx(alpha",
+      "offsets_applied_once": true,
+      "mount_translation_base_m": [
+        0,
+        0,
+        0
+      ],
+      "mount_rotation_x_rad": 3.141592653589793,
+      "mount_rationale": "DH0 z points toward the negative base-z target half-space; Rx(pi) is a declared underslung installation. Identity placement was rejected during static geometry construction, before any trajectory evaluation, because target distance from shoulder exceeds the link reach.",
+      "com_rule": "B_i midpoint of its standard-DH translation, expressed in post-Rz pre-Rx body; zero-translation wrist bodies at joint origin",
+      "inertia_rule": "table diagonal interpreted about COM, principal axes aligned to post-Rz pre-Rx body; not asserted to be author axes",
+      "base_com_m": [
+        0,
+        0,
+        0
+      ],
+      "base_initial_pose": "identity_at_world_origin",
+      "gravity_m_s2": [
+        0,
+        0,
+        0
+      ],
+      "collision_geometry": "NOT_VERIFIED; link centerlines are schematic only, no massless graphics claimed as physical envelopes",
+      "inertia_realizability": "positive equivalent ellipsoid radii derived from table mass/inertia; no inertia fitting or scaling",
+      "external_contacts": "disabled; no target rigid body, prescribed target is planning reference only"
+    },
+    "target": {
+      "spin_axis_initial_base": [
+        0,
+        0,
+        1
+      ],
+      "center_linear_velocity_m_s": [
+        0,
+        0,
+        0
+      ],
+      "spin_model": "constant principal-axis rotation; satisfies free Euler motion for an unspecified axisymmetric inertia, no dynamic target or contact claim",
+      "reported_orientation_interpretation": "active extrinsic xyz roll-pitch-yaw, Rz(yaw)Ry(pitch)Rx(roll)",
+      "grasp_offset_target_m": [
+        0,
+        -0.25,
+        0
+      ]
+    },
+    "reference": {
+      "position": "quintic blend in inertial world coordinates",
+      "orientation": "shortest SO3 geodesic with same quintic scalar; zero first and second endpoint derivatives",
+      "shape": "continuous initial-to-terminal scalar with terminal in [-pi,pi]; no shortest-wrap substitution of the prescribed terminal scalar",
+      "nullspace_interpretation": "Eq 29-31 shape demand is residual desired shape rate minus Jpsi times primary velocity; literal printed sum tested separately",
+      "shape_reference_axis": "positive first joint axis in DH0, V=[0,0,1]"
+    },
+    "optimization": {
+      "time_bounds_s": [
+        10,
+        20
+      ],
+      "time_bounds_rationale": "bounded 50-100 degree target rotation at published 5 deg/s, surrounding author point, fixed before any rollout; a declared 20-second rendezvous deadline",
+      "shape_bounds_rad": [
+        -3.141592653589793,
+        3.141592653589793
+      ],
+      "delta_o": "peak norm of world base angular velocity over complete approach",
+      "base_scale_rad_s": 0.08726646259971647,
+      "alignment_scale_rad": 3.141592653589793,
+      "weights": [
+        1,
+        1
+      ],
+      "objective": "(peak_world_base_angular_speed/base_scale)^2 + (capture_alignment_angle/pi)^2",
+      "alignment": "acos of signed dot product between prescribed grasp velocity and initial-system-COM to final grasp vector; endpoint robot reference velocity zero",
+      "feasibility_order": "feasible candidates precede every infeasible candidate; infeasible rank uses fixed normalized violation sum, then objective",
+      "planning_method": "source_nullspace; kinematic integration only, not true dynamics",
+      "planning_dt_s": 0.02
+    },
+    "controller": {
+      "pose_gain_s_inv": 3.0,
+      "shape_gain_s_inv": 3.0,
+      "hqp_position_weight": 1.0,
+      "hqp_orientation_weight": 1.0,
+      "hqp_shape_weight": 1.0,
+      "hqp_base_weight": 0.0,
+      "hqp_smoothness_weight": 1e-08,
+      "hqp_primary_regularization": 1e-10,
+      "hqp_lock_tolerance": 1e-08,
+      "numerical_rank_tolerance": 1e-09,
+      "torque_servo": "floating-base Schur-complement computed torque with common joint reference integration",
+      "servo_natural_frequency_rad_s": 20,
+      "servo_damping_ratio": 1,
+      "joint_position_limit_rad": 6.283185307179586,
+      "joint_velocity_limit_rad_s": 0.8,
+      "joint_acceleration_limit_rad_s2": 4,
+      "torque_limit_nm": 50,
+      "task_period_s": 0.02,
+      "physics_dt_s": 0.002,
+      "integrator": "RK4"
+    },
+    "gates": {
+      "source": "S01 engineering assumptions, independent of Flexiv gates",
+      "path_position_error_m": 0.005,
+      "path_rotation_error_rad": 0.017453292519943295,
+      "path_shape_error_rad": 0.03490658503988659,
+      "terminal_position_error_m": 0.001,
+      "terminal_rotation_error_rad": 0.003490658503988659,
+      "terminal_shape_error_rad": 0.008726646259971648,
+      "terminal_linear_velocity_error_m_s": 0.002,
+      "terminal_angular_velocity_error_rad_s": 0.003490658503988659,
+      "linear_momentum_drift_kg_m_s": 1e-06,
+      "angular_momentum_drift_world_origin_kg_m2_s": 1e-06,
+      "physical_clearance": "NOT_EVALUATED_SOURCE_GEOMETRY_MISSING",
+      "early_stop": "nonfinite; matrix/shape singularity; commanded or actual joint bound breach; torque clipping; position error >0.10m; rotation error >0.5rad"
+    },
+    "numerical_tests": {
+      "finite_difference_step": 1e-06,
+      "fk_m_rad": 1e-10,
+      "jacobian": 1e-08,
+      "momentum_map": 1e-10,
+      "kinetic_energy_j": 1e-10,
+      "shape_derivative": 1e-07,
+      "hierarchy": 1e-06,
+      "replay_qpos": 1e-10,
+      "replay_qvel": 1e-09,
+      "rationale": "centered double-precision finite differences at h=1e-6, with h/2 and 2h consistency checks; dimensioned quantities tested separately"
+    }
+  },
+  "pdf_visual_review": {
+    "pdf_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "printed_pages": [
+      961,
+      962,
+      963,
+      964,
+      965,
+      966,
+      967,
+      968
+    ],
+    "method": "pdftoppm page images and text independently inspected; tables and formulas checked against images"
+  },
+  "source_parameter_completeness": "SOURCE_LIMITED",
+  "classification": "SOURCE_COMPATIBLE_UNDER_ASSUMPTIONS",
+  "config_hashes": {
+    "assumptions.yaml": "0da2ffc03bec5ec632bbbc81f89789782d89be6f94b1dea4ccec22b01603c4a4",
+    "source_parameters.yaml": "d0bfae7b6157da825540d3a31ddc67ff35a33bdb049e1870f4ef8990b5b414d3"
+  }
+}

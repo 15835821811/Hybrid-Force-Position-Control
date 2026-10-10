@@ -1,0 +1,17 @@
+{
+  "run": "C2_common_time_joint",
+  "passed": true,
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "time_max_error_s": 0.0,
+  "physics_steps": 9226,
+  "state_initializations": 1,
+  "saved_intermediate_state_injections": 0,
+  "actuator_channels": 7,
+  "trace_sha256": "8ec5974b86c81e92c07230ff02836e9cb2ece9d1df1fb51aa24f6778a63e3ce6",
+  "original_status": "COMPLETED",
+  "cpu_s": 14.515625,
+  "wall_s": 14.65312229981646,
+  "independent_replay": true,
+  "not_a_new_performance_attempt": true
+}

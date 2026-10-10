@@ -1,0 +1,19 @@
+{
+  "phase": "S01",
+  "input_commit": "382d3b36287f84f68e6a458331c45d895fd9fe40",
+  "branch": "codex/system-s01-paper-bridge",
+  "budgets": {"implementation_candidates": 2, "srs_dynamics": 12, "flexiv_dynamics": 0, "kinematic_evaluations": 800, "cpu_s": 28800},
+  "candidate": "C1_frozen_source_compatible_residual_hierarchy",
+  "seeds": [240601, 240602],
+  "pso": {"population": 20, "generations": 6, "evaluations_per_cell": 120, "early_convergence_streak": 1000, "status": "REDUCED_BUDGET", "note": "All six cells receive exactly 120 evaluations. Adjacent-best threshold is recorded but not used to truncate the equal-budget comparison."},
+  "prescreen_limit": 80,
+  "planned_prescreens": ["AUTHOR_REPORTED_POINT_CHECK", "common_time_psi0", "common_time_psi90", "author_point_kinematic_half_step"],
+  "optimization_strategies": ["fixed_0", "fixed_pi2", "joint"],
+  "common_time_rule": "joint strategy seed 240601 selected time, whether its feasibility passes or fails; no outcome-based alternative",
+  "dynamics_plan": ["author_point_source", "author_point_hqp", "common_time_psi0", "common_time_psi90", "common_time_joint", "seed240601_fixed0", "seed240601_fixedpi2", "seed240601_joint", "seed240602_fixed0", "seed240602_fixedpi2", "seed240602_joint", "author_point_source_half_dt"],
+  "deduplication": "Exact repeated parameters, method, time step and frozen identity reuse the same dynamics attempt. Failed attempts are never retried.",
+  "math_configurations": {"count": 11, "generator": "initial q plus 0.18*sin((i+1)*(j+1)) radians for i=1..10,j=0..6; fixed before testing", "no_reselection": true},
+  "figure_groups": ["model_and_frames", "mathematics_and_hierarchy", "optimization_and_base_comparison", "tracking_and_dynamics"],
+  "videos_max": 1,
+  "next_phase_authorized": false
+}

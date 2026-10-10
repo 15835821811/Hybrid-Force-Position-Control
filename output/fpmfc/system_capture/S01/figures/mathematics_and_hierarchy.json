@@ -1,0 +1,12 @@
+{
+  "title": "数学核验与层级残差",
+  "caption": "Eleven preregistered configurations: index 0 is the initial state, and indices 1-10 follow the fixed sine-perturbation rule in s01.json. (a) Each residual is normalized by its corresponding numerical tolerance; unity is the acceptance boundary. FK position is maximum component error (tolerance 1e-10 m); full Jacobian is maximum entry error (1e-8 in the stated mixed linear/angular coordinates); zero-momentum map is maximum entry residual (1e-10 in its stated SI coordinates); A/B shape rate is absolute difference (1e-6 rad/s). (b) Eq. (23) under two readings of its undefined vector l, versus the independent derivative of Eq. (18). (c,d) Translational and angular base motion per unit nullspace speed, shown separately with zero as the reactionless reference. Values below 1e-17 in logarithmic displays are plotted at 1e-17, a display floor only.",
+  "inputs": {
+    "output/fpmfc/system_capture/S01/equation_tests.json": "0c6b5df816c055799dbeeef8ba4baad36981892fef7ece4216f7784e543e7254"
+  },
+  "files": {
+    "png": "a9756896f69408b592741004d2d2783fea675ff4cd77716661141dc30369d676",
+    "pdf": "c507dfcfb8d2463b08fe68c6bac18f44d5fad5436e251dbbdd2b23d362c46ad4"
+  },
+  "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+}

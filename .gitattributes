@@ -98,3 +98,10 @@ output/fpmfc/system_capture/** -text whitespace=cr-at-eol
 paper/system_framework/** -text whitespace=cr-at-eol
 # Preserve the published navigation digest across Windows/Linux checkouts.
 README.md -text whitespace=cr-at-eol
+# S01 source/model bytes and compact trace archives.
+models/paper_compat/** -text whitespace=cr-at-eol
+output/fpmfc/system_capture/S01/**/*.npz filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/system_capture/S01/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+tools/s01_*.py -text whitespace=cr-at-eol
+# Exact user objective attachment: retain its original trailing spaces.
+experiments/system_capture/manifests/CODEX_S01_PAPER_BRIDGE_AFTER_S00.md -text whitespace=cr-at-eol,-blank-at-eol

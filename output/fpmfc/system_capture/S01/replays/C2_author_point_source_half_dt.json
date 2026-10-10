@@ -1,0 +1,17 @@
+{
+  "run": "C2_author_point_source_half_dt",
+  "passed": true,
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "time_max_error_s": 0.0,
+  "physics_steps": 6120,
+  "state_initializations": 1,
+  "saved_intermediate_state_injections": 0,
+  "actuator_channels": 7,
+  "trace_sha256": "f72c4b132abd9752bee1eecf0c5a09e951fd8ab9d327b987bfbcf93caf67da81",
+  "original_status": "JOINT_VELOCITY_COMMAND_LIMIT",
+  "cpu_s": 9.609375,
+  "wall_s": 9.710871499963105,
+  "independent_replay": true,
+  "not_a_new_performance_attempt": true
+}

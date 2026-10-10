@@ -1,0 +1,17 @@
+{
+  "run": "C2_seed240601_fixed_pi2",
+  "passed": true,
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "time_max_error_s": 0.0,
+  "physics_steps": 10000,
+  "state_initializations": 1,
+  "saved_intermediate_state_injections": 0,
+  "actuator_channels": 7,
+  "trace_sha256": "c5cbeb51bbdd90bd5e7a6535fc3f82e70f1517606b07f266cac60cd5d076dc31",
+  "original_status": "COMPLETED",
+  "cpu_s": 15.84375,
+  "wall_s": 16.023915499914438,
+  "independent_replay": true,
+  "not_a_new_performance_attempt": true
+}

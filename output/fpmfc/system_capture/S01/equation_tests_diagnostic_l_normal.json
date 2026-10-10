@@ -1,0 +1,721 @@
+{
+  "passed": true,
+  "states": [
+    {
+      "index": 0,
+      "joint_rad": [
+        0.0,
+        0.7853981633974483,
+        0.0,
+        1.5707963267948966,
+        0.0,
+        0.7853981633974483,
+        0.0
+      ],
+      "base_pose_wxyz": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "fk_position_m": 2.220446049250313e-16,
+      "fk_rotation_rad": 2.0832402783027653e-16,
+      "full_mass_matrix_max_abs": 1.4210854715202004e-14,
+      "full_jacobian_max_abs": 5.551115123125783e-16,
+      "finite_difference_jacobian_errors": [
+        3.8848724237539045e-10,
+        3.913224189133757e-10,
+        1.2163670071174693e-10
+      ],
+      "momentum_zero_map": 4.440892098500626e-15,
+      "independent_momentum_sum_error": 1.7763568394002505e-15,
+      "generalized_projection_error": 4.440892098500626e-16,
+      "reaction_map_difference": 7.632783294297951e-17,
+      "kinetic_energy_error_j": 0.0,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 5.551115123125783e-16,
+      "shape_fd_errors": [
+        5.024616278603844e-10,
+        1.6367218691470953e-10,
+        1.1102237625939307e-10
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 1.4824772750429474e-16,
+      "Jg_N_norm": 2.1281858718067168e-16,
+      "A_N_world_twist": [
+        -0.001762219044470446,
+        -1.7666514128594687e-18,
+        1.0992149874683876e-19,
+        -3.1273395352921816e-18,
+        0.00620767504558481,
+        -0.0062083632212154155
+      ],
+      "AB_primary_velocity_error": 4.6891815366096e-12,
+      "AB_shape_velocity_error": 3.581739026534438e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 1.438356721209042e-18,
+      "hqp_hierarchy_angular_error": 3.0742437412494137e-18,
+      "literal_eq31_shape_residual_rad_s": -2.847722544144747e-05,
+      "residual_interpretation_shape_residual_rad_s": 8.673617379884035e-19,
+      "min_generalized_singular_value": 0.21798476800474248,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "joint_rad": [
+        0.1636735368286227,
+        0.6491737142420212,
+        -0.05029478967580665,
+        1.7488808111871053,
+        -0.09792379996008656,
+        0.68881503815737,
+        0.17830932402507665
+      ],
+      "base_pose_wxyz": [
+        0.013,
+        -0.007,
+        0.021,
+        0.9998093810562382,
+        0.009999364595445854,
+        -0.014999046893168779,
+        0.007499523446584389
+      ],
+      "fk_position_m": 3.3306690738754696e-16,
+      "fk_rotation_rad": 1.4870385163263405e-16,
+      "full_mass_matrix_max_abs": 4.973799150320701e-14,
+      "full_jacobian_max_abs": 1.1102230246251565e-15,
+      "finite_difference_jacobian_errors": [
+        6.020699494513337e-10,
+        3.109754710683976e-10,
+        2.351107086795423e-10
+      ],
+      "momentum_zero_map": 7.549516567451064e-15,
+      "independent_momentum_sum_error": 1.7763568394002505e-15,
+      "generalized_projection_error": 9.992007221626409e-16,
+      "reaction_map_difference": 7.979727989493313e-17,
+      "kinetic_energy_error_j": 1.6653345369377348e-16,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 4.734941638258389e-16,
+      "shape_fd_errors": [
+        1.993692155810578e-10,
+        2.447199942690048e-10,
+        8.834691311854215e-11
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.047858193839680846,
+      "Jg_N_norm": 3.1405549298801035e-16,
+      "A_N_world_twist": [
+        -0.0016165702216284663,
+        0.00017622010634953225,
+        5.483274609672134e-06,
+        0.0007092240712399268,
+        0.006274460186472078,
+        -0.00515365071210451
+      ],
+      "AB_primary_velocity_error": 4.740698341915875e-12,
+      "AB_shape_velocity_error": 4.96252116788632e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 4.097079365809536e-18,
+      "hqp_hierarchy_angular_error": 6.22449144935573e-18,
+      "literal_eq31_shape_residual_rad_s": -9.306292971061978e-05,
+      "residual_interpretation_shape_residual_rad_s": 0.0,
+      "min_generalized_singular_value": 0.23483462106618297,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "joint_rad": [
+        0.025401601450776096,
+        0.7351033737216416,
+        0.07418132734351618,
+        1.4742132015548184,
+        0.11705181122828102,
+        0.6502204589785465,
+        0.15059801493649008
+      ],
+      "base_pose_wxyz": [
+        0.026,
+        -0.014,
+        0.042,
+        0.999237596896116,
+        0.01999491705425676,
+        -0.02999237558138514,
+        0.01499618779069257
+      ],
+      "fk_position_m": 5.551115123125783e-16,
+      "fk_rotation_rad": 3.6985020521841443e-16,
+      "full_mass_matrix_max_abs": 8.43769498715119e-15,
+      "full_jacobian_max_abs": 1.2212453270876722e-15,
+      "finite_difference_jacobian_errors": [
+        6.342101219192209e-10,
+        3.032046835826918e-10,
+        1.4803634360016638e-10
+      ],
+      "momentum_zero_map": 8.43769498715119e-15,
+      "independent_momentum_sum_error": 1.7763568394002505e-15,
+      "generalized_projection_error": 1.2212453270876722e-15,
+      "reaction_map_difference": 9.71445146547012e-17,
+      "kinetic_energy_error_j": 5.551115123125783e-17,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 6.661338147750939e-16,
+      "shape_fd_errors": [
+        4.440891192507728e-10,
+        1.333204050629755e-10,
+        3.942357551522946e-11
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.09966647055170565,
+      "Jg_N_norm": 2.0422322912526422e-16,
+      "A_N_world_twist": [
+        -0.0015373464512491238,
+        8.209761431952531e-05,
+        -0.0001665088282257834,
+        0.0008098526423444901,
+        0.005928439277006855,
+        -0.0051086646200895446
+      ],
+      "AB_primary_velocity_error": 5.279435785577504e-12,
+      "AB_shape_velocity_error": 3.057375440702434e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 1.245653460271122e-18,
+      "hqp_hierarchy_angular_error": 3.012443590898933e-18,
+      "literal_eq31_shape_residual_rad_s": 0.001587705939772116,
+      "residual_interpretation_shape_residual_rad_s": 8.673617379884035e-19,
+      "min_generalized_singular_value": 0.20586901657828816,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "joint_rad": [
+        -0.13622444915542706,
+        0.963482647789657,
+        -0.09658312524007828,
+        1.5189737297951849,
+        0.16433014513097297,
+        0.622394058236256,
+        0.04876304189541643
+      ],
+      "base_pose_wxyz": [
+        0.039,
+        -0.021,
+        0.063,
+        0.998284865505419,
+        0.02998284669312869,
+        -0.04497427003969304,
+        0.02248713501984652
+      ],
+      "fk_position_m": 8.881784197001252e-16,
+      "fk_rotation_rad": 6.784748349646535e-16,
+      "full_mass_matrix_max_abs": 3.552713678800501e-14,
+      "full_jacobian_max_abs": 1.7763568394002505e-15,
+      "finite_difference_jacobian_errors": [
+        7.711425942247274e-10,
+        5.133835023762856e-10,
+        1.4615372800896864e-10
+      ],
+      "momentum_zero_map": 1.2434497875801753e-14,
+      "independent_momentum_sum_error": 1.7763568394002505e-15,
+      "generalized_projection_error": 1.7763568394002505e-15,
+      "reaction_map_difference": 1.942890293094024e-16,
+      "kinetic_energy_error_j": 0.0,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 8.198014199919991e-16,
+      "shape_fd_errors": [
+        2.9722022586164965e-10,
+        2.2204452847858834e-10,
+        8.72013572461583e-11
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.1489513802141834,
+      "Jg_N_norm": 2.9204856695915513e-16,
+      "A_N_world_twist": [
+        -0.0016396991224520334,
+        -0.00039526987833291363,
+        -3.4461086545105346e-05,
+        -0.0010456900607111698,
+        0.005211929022410602,
+        -0.006117159013627819
+      ],
+      "AB_primary_velocity_error": 5.899744172981415e-12,
+      "AB_shape_velocity_error": 3.4571335225457436e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 1.6935779332544402e-18,
+      "hqp_hierarchy_angular_error": 2.917289683928108e-18,
+      "literal_eq31_shape_residual_rad_s": 0.00043927820864853116,
+      "residual_interpretation_shape_residual_rad_s": 8.673617379884035e-19,
+      "min_generalized_singular_value": 0.2118492668860304,
+      "passed": true
+    },
+    {
+      "index": 4,
+      "joint_rad": [
+        -0.17260636943936492,
+        0.6874743634373617,
+        0.11705181122828102,
+        1.7351264719258694,
+        -0.023823315017599146,
+        0.6075524710607332,
+        -0.07707288050930718
+      ],
+      "base_pose_wxyz": [
+        0.052,
+        -0.028,
+        0.084,
+        0.9969515501014496,
+        0.039959345734865384,
+        -0.059939018602298076,
+        0.029969509301149038
+      ],
+      "fk_position_m": 5.551115123125783e-16,
+      "fk_rotation_rad": 7.409442406212043e-16,
+      "full_mass_matrix_max_abs": 2.842170943040401e-14,
+      "full_jacobian_max_abs": 1.3322676295501878e-15,
+      "finite_difference_jacobian_errors": [
+        5.785527612545138e-10,
+        3.748181764962055e-10,
+        1.7764511389684046e-10
+      ],
+      "momentum_zero_map": 7.993605777301127e-15,
+      "independent_momentum_sum_error": 3.552713678800501e-15,
+      "generalized_projection_error": 1.2212453270876722e-15,
+      "reaction_map_difference": 1.249000902703301e-16,
+      "kinetic_energy_error_j": 5.551115123125783e-17,
+      "shape_engine_angle_error_rad": 4.440892098500626e-16,
+      "shape_engine_jacobian_error": 5.407824545620879e-16,
+      "shape_fd_errors": [
+        4.449542401196993e-10,
+        2.2204466445868335e-10,
+        8.34140534422545e-11
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.01907020227550243,
+      "Jg_N_norm": 4.1760765535236353e-16,
+      "A_N_world_twist": [
+        -0.0015314982174940786,
+        -0.00020599257948305592,
+        -0.0003184442926707303,
+        4.411094282443743e-05,
+        0.006261383215657915,
+        -0.004716340502555988
+      ],
+      "AB_primary_velocity_error": 5.3628261852048774e-12,
+      "AB_shape_velocity_error": 4.1519940839434827e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 2.4628339063450876e-18,
+      "hqp_hierarchy_angular_error": 1.5023145987371592e-18,
+      "literal_eq31_shape_residual_rad_s": 0.0011574227974579746,
+      "residual_interpretation_shape_residual_rad_s": 0.0,
+      "min_generalized_singular_value": 0.23410728700356634,
+      "passed": true
+    },
+    {
+      "index": 5,
+      "joint_rad": [
+        -0.05029478967580665,
+        0.68881503815737,
+        -0.1351777044189017,
+        1.4077922216337042,
+        -0.17784569233671513,
+        0.6068779697776874,
+        -0.16497387862481408
+      ],
+      "base_pose_wxyz": [
+        0.065,
+        -0.035,
+        0.10500000000000001,
+        0.9952381589945561,
+        0.04992061076004729,
+        -0.07488091614007093,
+        0.037440458070035466
+      ],
+      "fk_position_m": 2.220446049250313e-16,
+      "fk_rotation_rad": 6.685148043200373e-16,
+      "full_mass_matrix_max_abs": 4.440892098500626e-15,
+      "full_jacobian_max_abs": 6.661338147750939e-16,
+      "finite_difference_jacobian_errors": [
+        6.354619053183796e-10,
+        4.339558712374014e-10,
+        1.6606738206803584e-10
+      ],
+      "momentum_zero_map": 4.440892098500626e-15,
+      "independent_momentum_sum_error": 5.329070518200751e-15,
+      "generalized_projection_error": 6.661338147750939e-16,
+      "reaction_map_difference": 4.85722573273506e-17,
+      "kinetic_energy_error_j": 5.551115123125783e-17,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 2.220446049250313e-16,
+      "shape_fd_errors": [
+        7.840517124435564e-11,
+        1.8416161824685862e-10,
+        1.1102219413469876e-10
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.18615872274349088,
+      "Jg_N_norm": 2.278096337578185e-16,
+      "A_N_world_twist": [
+        -0.0014029200626817233,
+        -0.00032769682479530604,
+        -0.00011417328027865789,
+        -0.0008976174933499209,
+        0.005859473100873569,
+        -0.0045225359592724786
+      ],
+      "AB_primary_velocity_error": 7.99371733211635e-12,
+      "AB_shape_velocity_error": 2.988341301277541e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 1.3884562417838567e-18,
+      "hqp_hierarchy_angular_error": 3.0665868333667483e-18,
+      "literal_eq31_shape_residual_rad_s": 0.001936194402545957,
+      "residual_interpretation_shape_residual_rad_s": 0.0,
+      "min_generalized_singular_value": 0.19492225978843267,
+      "passed": true
+    },
+    {
+      "index": 6,
+      "joint_rad": [
+        0.11825758776938203,
+        0.9637074874225249,
+        0.15059801493649008,
+        1.619559368690313,
+        -0.07707288050930718,
+        0.6204242847726342,
+        -0.17167547749670492
+      ],
+      "base_pose_wxyz": [
+        0.078,
+        -0.042,
+        0.126,
+        0.9931453453943446,
+        0.05986284415703914,
+        -0.08979426623555871,
+        0.044897133117779355
+      ],
+      "fk_position_m": 3.3306690738754696e-16,
+      "fk_rotation_rad": 4.450850510743313e-16,
+      "full_mass_matrix_max_abs": 2.1316282072803006e-14,
+      "full_jacobian_max_abs": 1.7208456881689926e-15,
+      "finite_difference_jacobian_errors": [
+        5.478872355801911e-10,
+        3.7125080787347997e-10,
+        1.2879655675313018e-10
+      ],
+      "momentum_zero_map": 6.217248937900877e-15,
+      "independent_momentum_sum_error": 3.552713678800501e-15,
+      "generalized_projection_error": 1.7208456881689926e-15,
+      "reaction_map_difference": 8.326672684688674e-17,
+      "kinetic_energy_error_j": 5.551115123125783e-17,
+      "shape_engine_angle_error_rad": 4.440892098500626e-16,
+      "shape_engine_jacobian_error": 5.37974047061841e-16,
+      "shape_fd_errors": [
+        4.440893072373352e-10,
+        2.2204450753775876e-10,
+        1.110222050752431e-10
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.20141991125520067,
+      "Jg_N_norm": 3.520302777334484e-16,
+      "A_N_world_twist": [
+        -0.0016475783381605653,
+        0.00023778012859779755,
+        -0.00048197952950954954,
+        0.00226668750677038,
+        0.005794093849604165,
+        -0.0053548546809363395
+      ],
+      "AB_primary_velocity_error": 4.28836895974659e-12,
+      "AB_shape_velocity_error": 3.7466373058541696e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 8.940560153363745e-19,
+      "hqp_hierarchy_angular_error": 3.3871558665088805e-18,
+      "literal_eq31_shape_residual_rad_s": 0.0002524224826669797,
+      "residual_interpretation_shape_residual_rad_s": 1.734723475976807e-18,
+      "min_generalized_singular_value": 0.22319032172659725,
+      "passed": true
+    },
+    {
+      "index": 7,
+      "joint_rad": [
+        0.17808448439220873,
+        0.7335755663977366,
+        -0.16300410516119226,
+        1.670053129418401,
+        0.1341203688862828,
+        0.6471123243591883,
+        -0.09387918037564413
+      ],
+      "base_pose_wxyz": [
+        0.091,
+        -0.049,
+        0.14700000000000002,
+        0.990673907160651,
+        0.0697822555697834,
+        -0.10467338335467509,
+        0.052336691677337545
+      ],
+      "fk_position_m": 1.3877787807814457e-16,
+      "fk_rotation_rad": 1.9930455364337933e-16,
+      "full_mass_matrix_max_abs": 7.105427357601002e-15,
+      "full_jacobian_max_abs": 9.159339953157541e-16,
+      "finite_difference_jacobian_errors": [
+        4.868228320464851e-10,
+        4.673666176291391e-10,
+        1.4153922478499226e-10
+      ],
+      "momentum_zero_map": 4.440892098500626e-15,
+      "independent_momentum_sum_error": 3.552713678800501e-15,
+      "generalized_projection_error": 9.159339953157541e-16,
+      "reaction_map_difference": 4.163336342344337e-17,
+      "kinetic_energy_error_j": 1.1102230246251565e-16,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 5.681629126072109e-16,
+      "shape_fd_errors": [
+        1.2971120878779718e-10,
+        2.2204453802156745e-10,
+        2.1162765984072962e-11
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.008773461784056512,
+      "Jg_N_norm": 3.231711153019002e-16,
+      "A_N_world_twist": [
+        -0.001633377637097816,
+        -7.913438180411598e-05,
+        -0.00016265693104041963,
+        0.00026699634039579296,
+        0.006700811457939417,
+        -0.004621994710182018
+      ],
+      "AB_primary_velocity_error": 5.527646567811767e-12,
+      "AB_shape_velocity_error": 4.0488362153647144e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 2.7769124835677133e-18,
+      "hqp_hierarchy_angular_error": 3.556447555475522e-18,
+      "literal_eq31_shape_residual_rad_s": 0.0005908972360838859,
+      "residual_interpretation_shape_residual_rad_s": 0.0,
+      "min_generalized_singular_value": 0.22783283704654614,
+      "passed": true
+    },
+    {
+      "index": 8,
+      "joint_rad": [
+        0.07418132734351618,
+        0.6502204589785465,
+        0.17214766711281054,
+        1.3922761331751357,
+        0.1531626344161413,
+        0.6848161346041574,
+        0.030124026054505242
+      ],
+      "base_pose_wxyz": [
+        0.104,
+        -0.056,
+        0.168,
+        0.9878247864993664,
+        0.07967506334282758,
+        -0.11951259501424137,
+        0.059756297507120686
+      ],
+      "fk_position_m": 2.498001805406602e-16,
+      "fk_rotation_rad": 5.192592726319027e-16,
+      "full_mass_matrix_max_abs": 2.1316282072803006e-14,
+      "full_jacobian_max_abs": 9.992007221626409e-16,
+      "finite_difference_jacobian_errors": [
+        4.075496468081141e-10,
+        2.864590786799681e-10,
+        1.9271173545831743e-10
+      ],
+      "momentum_zero_map": 2.6645352591003757e-15,
+      "independent_momentum_sum_error": 4.440892098500626e-16,
+      "generalized_projection_error": 9.992007221626409e-16,
+      "reaction_map_difference": 2.2985086056692694e-17,
+      "kinetic_energy_error_j": 5.551115123125783e-17,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 5.680805338463166e-16,
+      "shape_fd_errors": [
+        3.04455571864537e-10,
+        2.2204460544922998e-10,
+        1.1102230298671433e-10
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.22829613495182854,
+      "Jg_N_norm": 3.664395478227681e-16,
+      "A_N_world_twist": [
+        -0.001386025938278221,
+        0.00018479020038912594,
+        -0.00045643091252158474,
+        0.0018956227343756601,
+        0.006535497750225955,
+        -0.0035212223171685363
+      ],
+      "AB_primary_velocity_error": 5.705415638066592e-12,
+      "AB_shape_velocity_error": 2.5054245960418864e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 1.8526854844795106e-18,
+      "hqp_hierarchy_angular_error": 3.6606878587738234e-18,
+      "literal_eq31_shape_residual_rad_s": 0.0023955655674389904,
+      "residual_interpretation_shape_residual_rad_s": -1.734723475976807e-18,
+      "min_generalized_singular_value": 0.19356578957731962,
+      "passed": true
+    },
+    {
+      "index": 9,
+      "joint_rad": [
+        -0.09792379996008656,
+        0.9497283085284213,
+        -0.17784569233671513,
+        1.7049166956811794,
+        -0.047227473666707175,
+        0.7305322515990493,
+        0.13930032268042003
+      ],
+      "base_pose_wxyz": [
+        0.11699999999999999,
+        -0.063,
+        0.189,
+        0.9845990696032333,
+        0.08953749596303465,
+        -0.13430624394455198,
+        0.06715312197227599
+      ],
+      "fk_position_m": 3.3306690738754696e-16,
+      "fk_rotation_rad": 7.418498853919929e-16,
+      "full_mass_matrix_max_abs": 7.105427357601002e-15,
+      "full_jacobian_max_abs": 5.551115123125783e-16,
+      "finite_difference_jacobian_errors": [
+        9.084774044154642e-10,
+        4.010176080093686e-10,
+        1.3909212670526472e-10
+      ],
+      "momentum_zero_map": 3.1086244689504383e-15,
+      "independent_momentum_sum_error": 1.7763568394002505e-15,
+      "generalized_projection_error": 5.551115123125783e-16,
+      "reaction_map_difference": 3.122502256758253e-17,
+      "kinetic_energy_error_j": 5.551115123125783e-17,
+      "shape_engine_angle_error_rad": 0.0,
+      "shape_engine_jacobian_error": 4.163336342344337e-16,
+      "shape_fd_errors": [
+        2.4027924094838227e-10,
+        2.2204465223122874e-10,
+        1.7768134186191276e-10
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.21967323799460786,
+      "Jg_N_norm": 2.557187761182338e-16,
+      "A_N_world_twist": [
+        -0.0017927037993662684,
+        -0.0006247962543583699,
+        -0.00031046033976352334,
+        -0.0009920530591151853,
+        0.006476393591848227,
+        -0.0062476052889595774
+      ],
+      "AB_primary_velocity_error": 5.464632568130619e-12,
+      "AB_shape_velocity_error": 3.690779807345027e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 3.309925580683608e-18,
+      "hqp_hierarchy_angular_error": 2.211347213673311e-18,
+      "literal_eq31_shape_residual_rad_s": -0.00045662527517935977,
+      "residual_interpretation_shape_residual_rad_s": 0.0,
+      "min_generalized_singular_value": 0.23125217086922423,
+      "passed": true
+    },
+    {
+      "index": 10,
+      "joint_rad": [
+        -0.1799982371791266,
+        0.7838049277251756,
+        0.17998413481930808,
+        1.573982673313871,
+        -0.17995593120455156,
+        0.7806189556731342,
+        0.17991362854453163
+      ],
+      "base_pose_wxyz": [
+        0.13,
+        -0.07,
+        0.21000000000000002,
+        0.9809979862377468,
+        0.09936579349742658,
+        -0.14904869024613987,
+        0.07452434512306993
+      ],
+      "fk_position_m": 4.440892098500626e-16,
+      "fk_rotation_rad": 3.5632419449670874e-16,
+      "full_mass_matrix_max_abs": 4.263256414560601e-14,
+      "full_jacobian_max_abs": 1.6653345369377348e-15,
+      "finite_difference_jacobian_errors": [
+        4.0986847249513403e-10,
+        3.498984990635279e-10,
+        1.7862600287799069e-10
+      ],
+      "momentum_zero_map": 6.217248937900877e-15,
+      "independent_momentum_sum_error": 4.440892098500626e-16,
+      "generalized_projection_error": 1.6653345369377348e-15,
+      "reaction_map_difference": 1.1102230246251565e-16,
+      "kinetic_energy_error_j": 5.551115123125783e-17,
+      "shape_engine_angle_error_rad": 4.440892098500626e-16,
+      "shape_engine_jacobian_error": 5.195869417474687e-16,
+      "shape_fd_errors": [
+        2.8073288138585895e-10,
+        2.2204472335316043e-10,
+        5.2334026001688017e-11
+      ],
+      "eq23_diagnostic_l_equals_w_cross_V_error": 0.00807675440595846,
+      "Jg_N_norm": 3.0525342002714644e-16,
+      "A_N_world_twist": [
+        -0.001578850206192101,
+        -0.00024650314156418927,
+        -0.0007685210091378133,
+        0.0008868164686161601,
+        0.007471590743468759,
+        -0.0045761012796793
+      ],
+      "AB_primary_velocity_error": 5.662872357345302e-12,
+      "AB_shape_velocity_error": 2.859787642076408e-10,
+      "hqp_success": true,
+      "hqp_hierarchy_linear_error": 1.6371093793252837e-18,
+      "hqp_hierarchy_angular_error": 4.868055680924091e-18,
+      "literal_eq31_shape_residual_rad_s": 0.0011408303329270902,
+      "residual_interpretation_shape_residual_rad_s": 0.0,
+      "min_generalized_singular_value": 0.21768949365562743,
+      "passed": true
+    }
+  ],
+  "reference_checks": [
+    {
+      "time": 0.0,
+      "endpoint_derivatives_zero": true
+    },
+    {
+      "time": 3.0,
+      "position_derivative_error": 2.249845458383334e-12,
+      "rotation_derivative_error": 2.4003275871473294e-12
+    },
+    {
+      "time": 7.8,
+      "position_derivative_error": 4.6650906699929666e-12,
+      "rotation_derivative_error": 4.995979854682456e-12
+    },
+    {
+      "time": 12.0,
+      "position_derivative_error": 1.1251737704787831e-11,
+      "rotation_derivative_error": 2.947616773938556e-12
+    },
+    {
+      "time": 15.6,
+      "endpoint_derivatives_zero": true
+    }
+  ],
+  "periodic_wrap_error_rad": 3.95516952522712e-16,
+  "non_reactionless_counterexample_max_norm": 0.009255320522248641,
+  "eq23_interpretation": "l=w cross V; Eq18 differentiated independently and compared with engine-based central differences at three step sizes; see residuals, not an assumed equivalence",
+  "eq31_interpretation": "Literal sum double counts primary shape motion in general; total shape tracking uses residual rate under an explicit assumption",
+  "tolerances": {
+    "finite_difference_step": 1e-06,
+    "fk_m_rad": 1e-10,
+    "jacobian": 1e-08,
+    "momentum_map": 1e-10,
+    "kinetic_energy_j": 1e-10,
+    "shape_derivative": 1e-07,
+    "hierarchy": 1e-06,
+    "replay_qpos": 1e-10,
+    "replay_qvel": 1e-09,
+    "rationale": "centered double-precision finite differences at h=1e-6, with h/2 and 2h consistency checks; dimensioned quantities tested separately"
+  },
+  "cpu_s": 0.25,
+  "wall_s": 0.2554378001950681,
+  "new_dynamics_attempts": 0,
+  "kinematic_rollouts": 0
+}

@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "total_mass_kg": 524.0,
+  "joint_inputs": 7,
+  "free_base": true,
+  "gravity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "inertia_positive_definite": true,
+  "inertia_triangle_conditions": true,
+  "equivalent_uniform_ellipsoid_semiaxes_m": [
+    [
+      0.5,
+      0.5,
+      0.5
+    ],
+    [
+      0.2958039891549809,
+      0.2958039891549809,
+      0.7500000000000001
+    ],
+    [
+      0.0316227766016838,
+      0.0316227766016838,
+      0.0806225774829855
+    ],
+    [
+      0.050000000000000024,
+      0.050000000000000024,
+      0.20207259421636903
+    ],
+    [
+      0.0316227766016838,
+      0.0316227766016838,
+      0.0806225774829855
+    ],
+    [
+      0.050000000000000024,
+      0.050000000000000024,
+      0.20207259421636903
+    ],
+    [
+      0.0316227766016838,
+      0.0316227766016838,
+      0.0806225774829855
+    ],
+    [
+      0.0316227766016838,
+      0.0316227766016838,
+      0.0806225774829855
+    ]
+  ],
+  "geometry_inertia_scope": "Table inertias admit positive mass distributions; centerline rendering is schematic, not a mass geometry or collision envelope. Physical clearance SOURCE_LIMITED.",
+  "no_target_physical_body": true,
+  "contact_disabled": true,
+  "model_sha256": "14fb254502c4ecbf5a17468b874e2bec3e96c853d63f9aa5a217435cbbe80155"
+}

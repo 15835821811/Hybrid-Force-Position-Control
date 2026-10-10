@@ -1,0 +1,153 @@
+{
+  "fixed_time_comparison": {
+    "common": {
+      "all_three_qualified": true,
+      "pairs": [
+        {
+          "baseline": "psi0",
+          "admissible": true,
+          "metrics": {
+            "base_peak_angular_speed_rad_s": {
+              "baseline": 0.011168736714727541,
+              "joint": 0.00999805482145236,
+              "relative_reduction_percent": 10.48177536257501
+            },
+            "base_rms_angular_speed_rad_s": {
+              "baseline": 0.0064993342884959605,
+              "joint": 0.00643941460288496,
+              "relative_reduction_percent": 0.9219357391273196
+            },
+            "base_max_attitude_drift_rad": {
+              "baseline": 0.07911266485076199,
+              "joint": 0.07068207573976312,
+              "relative_reduction_percent": 10.65643424716171
+            }
+          },
+          "status": "QUALIFIED_PAIR"
+        },
+        {
+          "baseline": "psi90",
+          "admissible": true,
+          "metrics": {
+            "base_peak_angular_speed_rad_s": {
+              "baseline": 0.011231981601428553,
+              "joint": 0.00999805482145236,
+              "relative_reduction_percent": 10.985833344129182
+            },
+            "base_rms_angular_speed_rad_s": {
+              "baseline": 0.007227657469936569,
+              "joint": 0.00643941460288496,
+              "relative_reduction_percent": 10.905924503621044
+            },
+            "base_max_attitude_drift_rad": {
+              "baseline": 0.10112071314368429,
+              "joint": 0.07068207573976312,
+              "relative_reduction_percent": 30.101288309419203
+            }
+          },
+          "status": "QUALIFIED_PAIR"
+        }
+      ]
+    }
+  },
+  "equal_budget_comparison": {
+    "240601": {
+      "all_three_qualified": true,
+      "pairs": [
+        {
+          "baseline": "fixed_0",
+          "admissible": true,
+          "metrics": {
+            "base_peak_angular_speed_rad_s": {
+              "baseline": 0.01047549341980075,
+              "joint": 0.00999805482145236,
+              "relative_reduction_percent": 4.557671693496909
+            },
+            "base_rms_angular_speed_rad_s": {
+              "baseline": 0.006130591664875977,
+              "joint": 0.00643941460288496,
+              "relative_reduction_percent": -5.037408375741672
+            },
+            "base_max_attitude_drift_rad": {
+              "baseline": 0.07957592164527118,
+              "joint": 0.07068207573976312,
+              "relative_reduction_percent": 11.176554065128537
+            }
+          },
+          "status": "QUALIFIED_PAIR"
+        },
+        {
+          "baseline": "fixed_pi2",
+          "admissible": true,
+          "metrics": {
+            "base_peak_angular_speed_rad_s": {
+              "baseline": 0.010585440113130786,
+              "joint": 0.00999805482145236,
+              "relative_reduction_percent": 5.548992629506252
+            },
+            "base_rms_angular_speed_rad_s": {
+              "baseline": 0.006799386740613432,
+              "joint": 0.00643941460288496,
+              "relative_reduction_percent": 5.294185364958306
+            },
+            "base_max_attitude_drift_rad": {
+              "baseline": 0.1015846915352415,
+              "joint": 0.07068207573976312,
+              "relative_reduction_percent": 30.42054400958408
+            }
+          },
+          "status": "QUALIFIED_PAIR"
+        }
+      ]
+    },
+    "240602": {
+      "all_three_qualified": true,
+      "pairs": [
+        {
+          "baseline": "fixed_0",
+          "admissible": true,
+          "metrics": {
+            "base_peak_angular_speed_rad_s": {
+              "baseline": 0.01047549341980075,
+              "joint": 0.00959754255274464,
+              "relative_reduction_percent": 8.38099774275653
+            },
+            "base_rms_angular_speed_rad_s": {
+              "baseline": 0.006130591664875977,
+              "joint": 0.006154136207968312,
+              "relative_reduction_percent": -0.3840500946626274
+            },
+            "base_max_attitude_drift_rad": {
+              "baseline": 0.07957592164527118,
+              "joint": 0.0723165459354966,
+              "relative_reduction_percent": 9.122578236837754
+            }
+          },
+          "status": "QUALIFIED_PAIR"
+        },
+        {
+          "baseline": "fixed_pi2",
+          "admissible": true,
+          "metrics": {
+            "base_peak_angular_speed_rad_s": {
+              "baseline": 0.010585440113130786,
+              "joint": 0.00959754255274464,
+              "relative_reduction_percent": 9.332607334490518
+            },
+            "base_rms_angular_speed_rad_s": {
+              "baseline": 0.006799386740613432,
+              "joint": 0.006154136207968312,
+              "relative_reduction_percent": 9.489834263889895
+            },
+            "base_max_attitude_drift_rad": {
+              "baseline": 0.1015846915352415,
+              "joint": 0.0723165459354966,
+              "relative_reduction_percent": 28.811571071799985
+            }
+          },
+          "status": "QUALIFIED_PAIR"
+        }
+      ]
+    }
+  }
+}

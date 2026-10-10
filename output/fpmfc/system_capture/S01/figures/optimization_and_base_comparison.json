@@ -1,0 +1,18 @@
+{
+  "title": "优化与基座扰动比较",
+  "caption": "Three strategies (fixed shape 0, fixed shape pi/2, and joint time/shape optimization) and two fixed seeds (240601,240602) receive 120 kinematic evaluations each. G is squared world base angular-speed peak normalized by 5 deg/s plus squared grasp-direction alignment normalized by pi, with weights 1/1; definitions and gates are frozen in assumptions.yaml. (a) Feasible-only best objective by generation; gaps mean no feasible incumbent. (b) Selected time and shape; numbers refer to the legend, with a gray x for an infeasible candidate. (c,d) Actual dynamic base angular-speed peaks and attitude drift for the common-time protocol A. An x denotes an unqualified trajectory, annotated with its actual end time; its statistic uses that recorded interval only and is not an admissible benefit comparison. Two seeds provide descriptive results only; reduced-budget stagnation does not establish convergence. Protocol A uses the joint result of seed 240601 by the preregistered rule, independent of which seed has the lower objective. Qualification covers the declared inertial model and gates, not physical collision clearance or contact. Common time = 18.451817 s. psi0: COMPLETED, qualified=True; psi90: COMPLETED, qualified=True; joint: COMPLETED, qualified=True.",
+  "inputs": {
+    "output/fpmfc/system_capture/S01/optimization_runs/240601_fixed_0/result.json": "429ecc9749092fe9a49bfac0f9c6f7fe98d84cf6e074979ddbebb6ce730a837a",
+    "output/fpmfc/system_capture/S01/optimization_runs/240601_fixed_pi2/result.json": "8fd6af213da898f84e62a0b67c91103a8522349fa5e3b4dcccdd4db32ad1e787",
+    "output/fpmfc/system_capture/S01/optimization_runs/240601_joint/result.json": "8bfdced8b21741c449ec78164f6c51b8fee936bf1d0141492f69992128ec8033",
+    "output/fpmfc/system_capture/S01/optimization_runs/240602_fixed_0/result.json": "063e5c07140981766af1352100b411de2b194012074d0e7090ae8d8b1f85e69c",
+    "output/fpmfc/system_capture/S01/optimization_runs/240602_fixed_pi2/result.json": "3e441d69cbdef73ed0e350993d3ff1c0f62315f94a5dde72f8655184208409aa",
+    "output/fpmfc/system_capture/S01/optimization_runs/240602_joint/result.json": "02ba2ea1ff6145b04c5913e479d7ad859bdb0689d8e2697b5c55d44c4a0157a0",
+    "output/fpmfc/system_capture/S01/fixed_time_comparison.json": "7585aea95a7e7826b9df6e8c0e0cb6c6d6994d42870dec69c571a05a73374c86"
+  },
+  "files": {
+    "png": "bbf24e6d341cfcf86bb06c43d4f67d7baffd6d19af79a8c46004030914bf2a6d",
+    "pdf": "2efc737bd5b4ce4b188cfadca935d16f3da88baa0b7fe1a3426b2c9703a66cb0"
+  },
+  "generator_sha256": "4174713aaf0ec326c9837a54bd316093abdcce9b567fe81df19cbb3d6308ba1c"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "DYNAMICS",
+  "status": "IMPLEMENTATION_ERROR",
+  "feasible": false,
+  "error": "TypeError: bad operand type for abs(): list in actual_applied_peak_torque_nm, after dynamics loop and summary. Process 148044 exited code 1.",
+  "raw_trace_available": false,
+  "trace_status": "NOT_RECOVERABLE_FROM_ORIGINAL_PROCESS",
+  "physics_steps": "NOT_RECORDED",
+  "initial_state_definition": "Archived C1 initial() from source initial joints, zero free-base velocity and identity pose.",
+  "new_physical_attempts": 1,
+  "scope": "Counted failed implementation attempt, never silently repeated/overwritten. C2 is a separately identified software repair; this original attempt cannot be claimed replay-verified."
+}

@@ -1,0 +1,8 @@
+{
+  "input_commit": "382d3b36287f84f68e6a458331c45d895fd9fe40",
+  "scope": "Exact historical bytes before S01 route/registry extension; original S00 artifacts are immutable. Reproduce historical S00 at its acceptance commit.",
+  "files": {
+    "v6_mujoco/system_capture/cli.py": "a308a7478ee842d33af4f4230e6479a25d2efa64d975755a3d6d85b9f60f2162",
+    "v6_mujoco/system_capture/registry.py": "08536f3cb5e88d04c39296ba984cf58cde7c0115b142ed3cff770c5d0c1e4366"
+  }
+}

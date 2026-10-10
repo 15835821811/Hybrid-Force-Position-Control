@@ -1,0 +1,18 @@
+{
+  "source_nullspace": {
+    "algorithm_id": "source_nullspace",
+    "domain": "paper_compat_srs",
+    "status": "AVAILABLE",
+    "module": "v6_mujoco.system_capture.paper_bridge.control",
+    "class_name": "source_velocity",
+    "scope": "Eq18 and residual interpretation of Eq29-31, independently derived DH/momentum"
+  },
+  "project_hqp": {
+    "algorithm_id": "project_hqp",
+    "domain": "paper_compat_srs",
+    "status": "AVAILABLE",
+    "module": "v6_mujoco.system_capture.paper_bridge.control",
+    "class_name": "SRSHQP",
+    "scope": "Actual project two-level HQP, SRS shape and declared common bounds; no Flexiv geometry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "run": "C2_common_time_psi90",
+  "passed": true,
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "time_max_error_s": 0.0,
+  "physics_steps": 9226,
+  "state_initializations": 1,
+  "saved_intermediate_state_injections": 0,
+  "actuator_channels": 7,
+  "trace_sha256": "ff56f7c89ff30112d33f7dd1019c9b24f8294ac9e385db45fe23b54e0177443b",
+  "original_status": "COMPLETED",
+  "cpu_s": 14.46875,
+  "wall_s": 14.684546899981797,
+  "independent_replay": true,
+  "not_a_new_performance_attempt": true
+}

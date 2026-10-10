@@ -1,0 +1,8 @@
+{
+  "run": "author_point_source",
+  "passed": false,
+  "status": "NOT_REPLAYABLE_MISSING_TRACE",
+  "original_status": "IMPLEMENTATION_ERROR",
+  "physics_steps": 0,
+  "scope": "Retained C1 serialization failure; cannot invent original recorded inputs or claim it was replayed."
+}

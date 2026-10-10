@@ -1719,7 +1719,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 2.765625
+      "encoder_process_cpu_s": 3.15625
     },
     "front": {
       "title": "正面视角",
@@ -1741,7 +1741,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 2.71875
+      "encoder_process_cpu_s": 2.9375
     },
     "right": {
       "title": "右侧视角",
@@ -1763,7 +1763,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 2.6875
+      "encoder_process_cpu_s": 2.90625
     },
     "top": {
       "title": "俯视视角",
@@ -1785,7 +1785,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 2.921875
+      "encoder_process_cpu_s": 3.265625
     },
     "rear": {
       "title": "后方视角",
@@ -1807,7 +1807,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 2.859375
+      "encoder_process_cpu_s": 3.265625
     },
     "overview_five_views_and_body_side": {
       "title": "五个固定视角 + 连续基座体侧总览",
@@ -1829,7 +1829,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 19.03125
+      "encoder_process_cpu_s": 19.46875
     },
     "body_side": {
       "title": "独立连续基座体侧视角",
@@ -1851,7 +1851,7 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.078125
+      "encoder_process_cpu_s": 3.46875
     },
     "interface_closeup": {
       "title": "接口与实际几何近景",
@@ -1873,14 +1873,14 @@
           "duration": "28.033333"
         }
       },
-      "encoder_process_cpu_s": 3.90625
+      "encoder_process_cpu_s": 4.140625
     }
   },
   "body_camera_max_adjacent_forward_angle_rad": 0.001524965395756377,
   "body_camera_max_orthogonality_error": 1.1102230246251565e-16,
   "body_camera": "continuous base-rotation forward/up vectors including roll; scene center framing; no angle wrap",
   "display_only": "recorded integration states restored for display; no mj_step, no new physics, no historical splicing; target transparency and trajectory overlays only",
-  "parent_process_cpu_s": 51.078125,
-  "encoder_process_cpu_s": 39.96875,
-  "wall_s": 42.48782396316528
+  "parent_process_cpu_s": 57.796875,
+  "encoder_process_cpu_s": 42.609375,
+  "wall_s": 49.33934283256531
 }

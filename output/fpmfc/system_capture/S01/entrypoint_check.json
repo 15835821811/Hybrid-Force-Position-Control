@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "S02_remains_unimplemented": true,
+  "S01_modes_forwarded": [
+    [
+      "prepare",
+      true
+    ],
+    [
+      "test",
+      true
+    ],
+    [
+      "run",
+      true
+    ],
+    [
+      "replay",
+      true
+    ],
+    [
+      "report",
+      true
+    ]
+  ],
+  "S00_prepare_dispatch_unchanged": true,
+  "model_ids": [
+    "flexiv_system",
+    "paper_compat_srs"
+  ],
+  "algorithm_ids": [
+    "n208_baseline",
+    "n209_scalar_governor",
+    "paper_compat_reserved",
+    "source_nullspace",
+    "project_hqp"
+  ],
+  "physics_steps": 0,
+  "new_attempts": 0,
+  "historical_S00_reproduction": "Use commit 80ac0f69faa258cba61a2623a4f55961e7ffbebb; its archived selftest expects S01 not implemented. Do not rerun or overwrite historical S00 evidence from this S01 checkout.",
+  "scope": "Dispatch uses explicit local mocks only in this integration check; production execution is not patched",
+  "validator_sha256": "9533d315d0e9ddcdfc129475c8bedd830956e44e4112e10ad37780d66cde036d"
+}

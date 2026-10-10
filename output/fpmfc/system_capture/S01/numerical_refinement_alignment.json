@@ -1,0 +1,14 @@
+{
+  "scope": "Offline absolute-time intersection, no added trajectory or state injection",
+  "coarse_end_time_s": 6.119999999999548,
+  "fine_end_time_s": 6.1200000000003785,
+  "stop_time_difference_s": 8.304468224196171e-13,
+  "comparison_end_s": 6.119999999999548,
+  "common_samples": 3061,
+  "joint_position_max_abs_difference_rad": 4.3959385853664656e-07,
+  "qvel_max_abs_component_difference": 1.4338189125717715e-06,
+  "flange_position_max_norm_difference_m": 1.0068067254385366e-07,
+  "base_position_max_norm_difference_m": 2.2652080622624473e-09,
+  "interpretation": "No predeclared dynamic convergence acceptance bound; descriptive sensitivity only. Early stopping is not a successful full-horizon refinement.",
+  "base_rotation_max_difference_rad": 1.248446304116402e-08
+}

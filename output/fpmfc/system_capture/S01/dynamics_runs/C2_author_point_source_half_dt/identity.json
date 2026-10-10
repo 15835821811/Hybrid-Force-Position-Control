@@ -1,0 +1,41 @@
+{
+  "parameters": {
+    "T": 15.6,
+    "psi": 0.2686,
+    "method": "source_nullspace",
+    "dt": 0.001
+  },
+  "runtime_hash": "b9a501b8fbc888d5da4ed7f1bdac392c63af28bec38bed12911fd69d0204a4df",
+  "trace_sha256": "f72c4b132abd9752bee1eecf0c5a09e951fd8ab9d327b987bfbcf93caf67da81",
+  "initial_state_qpos": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.7853981633974483,
+    0.0,
+    1.5707963267948966,
+    0.0,
+    0.7853981633974483,
+    0.0
+  ],
+  "initial_state_qvel": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

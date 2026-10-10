@@ -1,0 +1,62 @@
+{
+  "implementation": {
+    "status": "C2_IMPLEMENTED_C1_RECORDING_FAILURE_RETAINED",
+    "candidates_used": 2,
+    "C2_runtime": "b9a501b8fbc888d5da4ed7f1bdac392c63af28bec38bed12911fd69d0204a4df",
+    "missing_C1_trace": true
+  },
+  "mathematical_consistency": {
+    "status": "PASS",
+    "states": 11
+  },
+  "source_parameter_completeness": {
+    "status": "SOURCE_LIMITED",
+    "gaps": {
+      "link_com": "NOT_SPECIFIED_IN_SOURCE",
+      "inertia_reference_point_and_axes": "NOT_SPECIFIED_IN_SOURCE",
+      "base_to_DH0_mount": "NOT_SPECIFIED_IN_SOURCE",
+      "solid_geometry_and_collision_envelopes": "NOT_SPECIFIED_IN_SOURCE",
+      "target_spin_axis_and_initial_velocity_convention": "NOT_SPECIFIED_IN_SOURCE",
+      "target_inertia": "NOT_SPECIFIED_IN_SOURCE",
+      "optimization_bounds": "NOT_SPECIFIED_IN_SOURCE",
+      "w1_w2_and_scales": "NOT_SPECIFIED_IN_SOURCE",
+      "delta_o_aggregation": "NOT_SPECIFIED_IN_SOURCE",
+      "orientation_interpolation": "NOT_SPECIFIED_IN_SOURCE",
+      "actuator_limits_and_low_level_servo": "NOT_SPECIFIED_IN_SOURCE",
+      "target_contact_parameters": "NOT_APPLICABLE_PRECONTACT"
+    }
+  },
+  "reproduction_scope": {
+    "status": "SOURCE_COMPATIBLE_UNDER_ASSUMPTIONS",
+    "exact_source_numerical_reproduction": false,
+    "protocol_A": "DECLARED_ADAPTATION",
+    "protocol_B": "NEW_EXTENSION",
+    "planning_budget": "REDUCED_BUDGET"
+  },
+  "dynamic_feasibility": {
+    "status": "QUALIFIED_SUBSET",
+    "C2_qualified": 6,
+    "C2_attempts": 9,
+    "C1_failed_attempts": 1,
+    "physical_collision_clearance": "SOURCE_LIMITED"
+  },
+  "base_disturbance_comparison": {
+    "status": "BENEFIT_IN_QUALIFIED_PAIRS_ONLY",
+    "qualified_pairs": 6,
+    "total_declared_pairs": 6,
+    "population_or_original_percentage_claim": false
+  },
+  "replay": {
+    "status": "PARTIAL_C1_RECORDING_LOSS",
+    "whole_campaign_passed": false,
+    "available_recordings_passed": true,
+    "missing_original_recordings": 1
+  },
+  "next_stage_admission": {
+    "status": "S02_SEPARATE_AUTHORIZATION_REQUIRED",
+    "automatically_started": false,
+    "source_gaps_alone_block_engineering_line": false,
+    "cannot_claim_positive_reproduction_without_qualified_evidence": true,
+    "C1_recording_gap_requires_explicit_acceptance_for_strict_all_attempt_archival_admission": true
+  }
+}

@@ -1,0 +1,49 @@
+source:
+  title: 自由漂浮空间机器人捕获翻滚目标的力-位-型融合控制方法
+  authors: [梁斌, 徐文福, 王学谦, 闫磊]
+  publication: 宇航学报 2024 45(6) 958-969
+  doi: 10.3873/j.issn.1000-1328.2024.06.014
+  file: reference_papers/自由漂浮空间机器人捕获翻滚...标的力-位-型融合控制方法_梁斌.pdf
+  sha256: 3e3068b8431c55221241a3b91febd0e6c4024a19797348fbb43647a118232c3f
+dh:
+  locator: Table 2, PDF 8, printed 965; frame drawing Fig 3 printed 963
+  theta_table_deg: [-90, 180, 0, 0, 0, 0, 0]
+  alpha_deg: [90, 90, -90, 90, -90, 90, 0]
+  a_m: [0, 0, 0, 0, 0, 0, 0]
+  d_m: [0.15, 0, 0.4, 0, 0.4, 0, 0.1]
+inertia:
+  locator: Table 3, PDF 9, printed 966
+  body_names: [base, B1, B2, B3, B4, B5, B6, B7]
+  mass_kg: [500, 4, 2, 6, 2, 6, 2, 2]
+  diagonal_kg_m2: [[50,50,50], [0.52,0.52,0.14], [0.003,0.003,0.0008], [0.052,0.052,0.006], [0.003,0.003,0.0008], [0.052,0.052,0.006], [0.003,0.003,0.0008], [0.003,0.003,0.0008]]
+  products_kg_m2: [0,0,0]
+initial:
+  locator: PDF 9, printed 966, left column
+  joint_angles_deg: [0,45,0,90,0,45,0]
+  target_origin_in_initial_base_m: [0,0,-0.7657]
+  target_origin_orientation_reported_rad: [0,0,0]
+  grasp_position_in_initial_base_m: [0,-0.25,-0.7657]
+  grasp_orientation_reported_rad: [1.5707963267948966,1.5707963267948966,0]
+  target_spin_deg_s: 5
+reference:
+  locator: Eq 26 printed 964; text printed 966; conclusion printed 968
+  interpolation: quintic
+  terminal_end_effector_velocity_assumption: zero
+  desired_end_effector_wrench: zero
+  demonstrated_scope: precontact_only
+pso:
+  locator: section 4.2 printed 966
+  population: 20
+  max_iterations: 1000
+  inertia: 0.9
+  velocity_range_fraction: 0.1
+  cognitive: 1.5
+  social: 2.0
+  adjacent_best_threshold: 0.00001
+author_reported:
+  locator: printed 966-967; Fig 9-10
+  time_s: 15.6
+  shape_rad: 0.2686
+  disturbance_reductions_percent: [5.22,25.27]
+  figure_linear_velocity_unit: mm/s
+  figure_angular_velocity_unit: deg/s

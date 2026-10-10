@@ -109,6 +109,6 @@ python tools/n209_visualization_delivery.py
 
 `--visualize --resume` 重建图表，并在核对 trace、渲染器和视频哈希后复用已有视频。原始实验、失败记录、审计输入和历史 N208 图均保留。
 
-本次按用户新授权发布当前 S00 版本及完整可视化，发布分支 `codex/system-s00-visual-refresh`，S00 验收快照 `80ac0f69faa258cba61a2623a4f55961e7ffbebb`。S00 报告与 handoff 的“本地提交、不推送”描述验收快照产生时的范围；本次发布记录在 refresh_manifest.json。图表与视频由原 N209 trace 重新生成，S00 未产生新物理轨迹；未启动 S01—S08、未合并主分支。S00 验收复现应检出其快照提交，避免把后续媒体刷新当作验收时的文件状态。
+本次按用户新授权发布当前 S01 分支 `codex/system-s01-paper-bridge` 并刷新保存的 N209 媒体。S01 是独立 SRS 接触前基准，N209 视频仍为历史 Flexiv 连续捕获记录。S00 验收快照 `80ac0f69faa258cba61a2623a4f55961e7ffbebb` 及阶段文件保留；此次显示刷新不推进动力学、不改判任何历史结果。
 
 [显示质量复核](visual_quality_review.md) · [完整解码及文件核验](visualization_audit.json)
