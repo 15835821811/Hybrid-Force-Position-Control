@@ -1,0 +1,14 @@
+{
+  "original_experiment_commit": "7198178ad798624f6ea163244e03641b78a56a3c",
+  "run_names": [
+    "E0",
+    "E0_C2",
+    "E1",
+    "E2"
+  ],
+  "physics_steps": 0,
+  "new_physical_attempts": 0,
+  "parent_cpu_s": 56.421875,
+  "wall_s": 57.20994250010699,
+  "scope": "User-authorized post-completion visual refresh, separate from the completed S02 experiment budget."
+}

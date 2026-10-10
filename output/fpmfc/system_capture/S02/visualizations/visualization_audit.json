@@ -1,0 +1,571 @@
+{
+  "passed": true,
+  "errors": [],
+  "original_evidence_hash_checks": 1119,
+  "tracking_definition_checks": {
+    "E0": {
+      "position_max_difference_m": 2.168404344971009e-19,
+      "rotation_max_difference_rad": 1.1362438767648086e-16
+    },
+    "E0_C2": {
+      "position_max_difference_m": 2.168404344971009e-19,
+      "rotation_max_difference_rad": 1.1796119636642288e-16
+    },
+    "E1": {
+      "position_max_difference_m": 4.336808689942018e-19,
+      "rotation_max_difference_rad": 1.0711917464156784e-16
+    },
+    "E2": {
+      "position_max_difference_m": 4.336808689942018e-19,
+      "rotation_max_difference_rad": 1.231653667943533e-16
+    }
+  },
+  "all_32_videos_decoded": {
+    "E0/isometric": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0/front": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0/right": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0/top": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0/rear": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0/overview_five_views_and_body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 2880,
+          "height": 1200,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0/body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0/interface_closeup": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "236"
+        }
+      ],
+      "format": {
+        "duration": "7.866667"
+      }
+    },
+    "E0_C2/isometric": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E0_C2/front": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E0_C2/right": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E0_C2/top": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E0_C2/rear": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E0_C2/overview_five_views_and_body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 2880,
+          "height": 1200,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E0_C2/body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E0_C2/interface_closeup": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "839"
+        }
+      ],
+      "format": {
+        "duration": "27.966667"
+      }
+    },
+    "E1/isometric": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E1/front": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E1/right": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E1/top": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E1/rear": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E1/overview_five_views_and_body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 2880,
+          "height": 1200,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E1/body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E1/interface_closeup": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "242"
+        }
+      ],
+      "format": {
+        "duration": "8.066667"
+      }
+    },
+    "E2/isometric": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    },
+    "E2/front": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    },
+    "E2/right": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    },
+    "E2/top": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    },
+    "E2/rear": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    },
+    "E2/overview_five_views_and_body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 2880,
+          "height": 1200,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    },
+    "E2/body_side": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    },
+    "E2/interface_closeup": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "pix_fmt": "yuv420p",
+          "avg_frame_rate": "30/1",
+          "nb_read_frames": "266"
+        }
+      ],
+      "format": {
+        "duration": "8.866667"
+      }
+    }
+  },
+  "physics_steps": 0,
+  "new_physical_attempts": 0
+}

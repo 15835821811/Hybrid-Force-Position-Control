@@ -1,7 +1,24 @@
 # Flexiv Rizon 4s：Simscape → MuJoCo 仿真环境
 
+<!-- S02 CURRENT START -->
+## 当前版本：S02 估计器与捕获门兼容性
+
+S02：ACCURACY_IMPROVED_GUARD_NOT_COMPATIBLE。E0_C2 完成完整捕获与抓后消旋；原 E0 实现失败、E1/E2 噪声条件控制拒绝均保留，E3 未运行。估计 RMS 改善不等于噪声捕获合格，启动峰值反而变大。
+
+分支：`codex/system-s02-estimation-capture-contract`。已刷新48组图（44组逐运行诊断＋4组科学主图）和32个同步视频。
+
+- [全部可视化](output/fpmfc/system_capture/S02/visualizations/README.md) · [本地交互图集](output/fpmfc/system_capture/S02/visualizations/index.html) · [核验与来源](output/fpmfc/system_capture/S02/visualizations/refresh_manifest.json)
+- [五视角总览](output/fpmfc/system_capture/S02/visualizations/runs/E0_C2/overview_five_views_and_body_side.mp4) · [连续体侧视频](output/fpmfc/system_capture/S02/visualizations/runs/E0_C2/body_side.mp4) · [接口近景](output/fpmfc/system_capture/S02/visualizations/runs/E0_C2/interface_closeup.mp4)
+- [末端轨迹](output/fpmfc/system_capture/S02/visualizations/runs/E0_C2/trajectory.png) · [轨迹跟踪误差](output/fpmfc/system_capture/S02/visualizations/runs/E0_C2/tracking.png) · [S02报告](output/fpmfc/system_capture/S02/report.md)
+
+视频来自E0_C2：7.914 s锁紧，实际运行至27.914 s；全部失败运行另有图表和视频，绝不补齐缺失时域。下方S01/N209为独立历史证据。
+
+![S02 五视角与体侧终帧](output/fpmfc/system_capture/S02/visualizations/runs/E0_C2/overview_five_views_and_body_side_last.png)
+![S02 末端跟踪误差](output/fpmfc/system_capture/S02/visualizations/runs/E0_C2/tracking.png)
+<!-- S02 CURRENT END -->
+
 <!-- S01 CURRENT START -->
-## 当前版本：S01 原文兼容 SRS 基准与完整可视化
+## 历史 S01：原文兼容 SRS 基准与可视化
 
 发布分支：`codex/system-s01-paper-bridge`。数学检查11/11；来源参数为 **SOURCE_LIMITED**。
 C2动力学合格 **6/9**；可用C2记录均独立重放通过，但C1有1次不可恢复的原始输入记录缺口，全批重放为 **PARTIAL**。
@@ -12,7 +29,7 @@ C2动力学合格 **6/9**；可用C2记录均独立重放通过，但C1有1次�
 - [完整捕获五视角与连续体侧总览](output/fpmfc/n209_paper_system/visualizations/overview_five_views_and_body_side.mp4) · [独立体侧视频](output/fpmfc/n209_paper_system/visualizations/body_side.mp4)
 - [完整捕获末端轨迹](output/fpmfc/n209_paper_system/visualizations/trajectory.png) · [跟踪误差](output/fpmfc/n209_paper_system/visualizations/tracking.png)
 
-本次刷新4组S01核心图及1段SRS视频，同时重新生成保存的N209全部88组诊断图、5组论文主图及8段同步视频。新SRS为接触前基准，N209视频为已有Flexiv连续捕获记录；各自的模型、数据来源和失败结论在图集中明确标注。未运行S02—S08。
+本次刷新4组S01核心图及1段SRS视频，同时重新生成保存的N209全部88组诊断图、5组论文主图及8段同步视频。新SRS为接触前基准，N209视频为已有Flexiv连续捕获记录；各自的模型、数据来源和失败结论在图集中明确标注。该历史验收时该历史验收时该历史验收时未运行S02—S08。
 
 ![S01实际轨迹跟踪与动力学](output/fpmfc/system_capture/S01/figures/tracking_and_dynamics.png)
 

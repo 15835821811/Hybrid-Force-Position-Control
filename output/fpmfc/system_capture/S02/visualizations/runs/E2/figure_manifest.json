@@ -1,0 +1,134 @@
+{
+  "trajectory": {
+    "title": "末端实际与参考轨迹",
+    "caption": "World XY/XZ paths of the actual flange and the recorded observer-evaluated approach reference, only while the approach reference is applicable. Equal spatial scales. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "141fba8eb5c9ab61f68f31e05468f5cdf8b4e746c5935413824d6111c907c855",
+    "pdf_sha256": "f9bd50f6178cdf9f0a258ee047f722c3b8bfd548d861c06ec23e10f62d7326d3",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "tracking": {
+    "title": "末端轨迹跟踪误差",
+    "caption": "Actual flange minus the recorded observer-evaluated approach reference during approach: world position components, position norm, and SO(3) rotation error. No inactive post-latch reference is extended. This observer-sampled reference is not a freshly issued HQP task command at every servo tick. The E0 terminal point at 7.814 s uses the retained reference state before the failed update. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "800569989c735b976b69cb0a25fc36cfea73bb663689e88655295b64760ad3d1",
+    "pdf_sha256": "fa210445802bb431057f185ca75c6fbef0c595400e83ebfc557a8074318651a4",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "reference_progress": {
+    "title": "参考进度与治理候选",
+    "caption": "Virtual path time in seconds, virtual-time rate, acceleration and selected candidate. A red x means no verified candidate, not an accepted zero-speed command. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "b1f42852e720ba80e198cf829e6d9f2924972b688bf7882e37d98ba8bbb2dfac",
+    "pdf_sha256": "8116c1f0162d9202b1350384fd9ec23e87264a9bc9f51c8386250b0c05148fec",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "state_estimation": {
+    "title": "状态估计误差与测量年龄",
+    "caption": "Initialization ticks without a valid estimate and stale terminal estimates are excluded here; core F1 retains initialization for historical R03 only, not for these current runs. Geometric-origin estimation errors at valid estimator-output ticks. Shading is the maximum of three marginal 3-sigma values, not joint coverage or a safety certificate. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "3870126a9786ad770ca3c0149a606efc7c3fb4d72dbf813bcc8d2f967b58774e",
+    "pdf_sha256": "e9ff317c69ed2bde76ca80e55d7bab6456c9568af4bb5917d957809b167b82c3",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "capture_and_load": {
+    "title": "实际捕获量与接口载荷",
+    "caption": "Independent physical capture quantities and actual load. Dashed pose lines denote capture gates; dotted post-latch lines denote holding gates. Values are not corrected by subtracting numerical residuals. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "9b80c86e72fc9766023e54aae3f762925253e332d0945b88dee8a1aa1116dfa2",
+    "pdf_sha256": "af9ec159985854a1985473a6c03e2477eba7b9cfca3378c9d20e54e796b175a5",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "detumbling": {
+    "title": "世界与相对角速度",
+    "caption": "Target world and target-base relative angular-speed norms. The fixed final two-second window is shaded only for completed full-horizon runs. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "9b1f453889666b8efea2383820ffa34ca5ee4e81ba191a9bcd6fca02bed77ef0",
+    "pdf_sha256": "2f202ece4da35eab414921ed4b7167cc5a528fba901ec518512ea4c1b5f2e97d",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "momentum_energy": {
+    "title": "动量、能量与功",
+    "caption": "Separate linear/angular momentum drift, kinetic/relative energy and integrated work. Momentum and actual safety quantities retain their original SI definitions. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "095347f8d6dff716eae063c0b3546e083b375a2b06839566445b3c6a9e06adfb",
+    "pdf_sha256": "676f273f24e4e8b2cf986f29fc7d3d81ffbf262e727ca0205d4bf174a5a38d1a",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "joints": {
+    "title": "七关节状态与实际力矩",
+    "caption": "All seven joint positions, velocities and actual actuator forces from the saved physical trajectory. Line style and color identify each joint. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "a6844ba889f6fc2705900284334fffa52f35f2853e03ea45379819f4d5c95644",
+    "pdf_sha256": "1c7a85813709a64ec1f8d80f622f48e5bde4b79bcba400ff1d2f01d8db51f625",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "geometry": {
+    "title": "碰撞距离与接口几何",
+    "caption": "Original and added robot-clearance pairs, other target pairs and intended interface contact are shown with their separate original thresholds. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "66ecce2332fb2338e92fdaeeaf467b9bceeb7745e9e8f09493a358f761d6ed15",
+    "pdf_sha256": "802145af5235c7b6944ef77789105d98f14f80c0f19e7705e949eb3c2e3c6713",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "identification": {
+    "title": "影子惯性辨识",
+    "caption": "Saved shadow parameter and rank diagnostics; singular-value series was not persisted in S02 and its panel is explicitly unavailable; evaluation-only truth is dashed in the matching component color. Parameter feedback remains disabled. Numerical rank is not parameter accuracy or control benefit. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "57baa6b85389a27e35aea98007e8a7b74d4b9ffc49f780636836308cd7214bd5",
+    "pdf_sha256": "d1c9e06654726912692d66ed8517cb79f6cf5a0d63dfcc7eec23d53c81b8fe37",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  },
+  "base_motion": {
+    "title": "被动基座漂移与角速度",
+    "caption": "Passive-base translation and geodesic attitude change relative to its initial pose, followed by world angular-velocity components. No base actuator is introduced. Run E2; NO_VERIFIED_CONTROL; actual interval 0.000–8.820 s; latch none; final window NOT_EVALUATED (full post-capture horizon absent). All attempts, including the original implementation failure, are retained. S02 does not establish noisy capture compatibility.",
+    "trace_sha256": "0eff9b2fbab506dc31a09ac82ccd6dba397af46c093ef0157533f6589cb7e002",
+    "run": "E2",
+    "png_sha256": "e15dcc7de2102c457b94e818e7f42b57a2ac9c51d570980d7b8371732e9674d1",
+    "pdf_sha256": "3f989fc38d793c0bd3ddb4783736ed32317c9e5f61a81e6c39ac8c076f00270f",
+    "source_fields_time_range_s": [
+      0.0,
+      8.819999999999615
+    ]
+  }
+}
