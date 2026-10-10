@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "fault": "metrics_serialization",
+      "passed": true,
+      "records": 2,
+      "completed_steps": 1,
+      "max_verifiable_time_s": 0.002,
+      "block_count": 1,
+      "index_sha256": "fba19d0552bc04c1f519dc45bd53349b9cc52b184a8dfcfc6c10e53ab5703431",
+      "formal_robot_run": false
+    },
+    {
+      "fault": "plot_exception",
+      "passed": true,
+      "records": 2,
+      "completed_steps": 1,
+      "max_verifiable_time_s": 0.002,
+      "block_count": 1,
+      "index_sha256": "fba19d0552bc04c1f519dc45bd53349b9cc52b184a8dfcfc6c10e53ab5703431",
+      "formal_robot_run": false
+    },
+    {
+      "fault": "integration_exception",
+      "passed": true,
+      "records": 3,
+      "completed_steps": 1,
+      "max_verifiable_time_s": 0.002,
+      "block_count": 2,
+      "index_sha256": "a4d4e8b01defe04686668b5b01c3a782691d864b92ceddf6f383a20fc2b09aec",
+      "formal_robot_run": false
+    },
+    {
+      "fault": "block_write",
+      "passed": true,
+      "records": 2,
+      "completed_steps": 1,
+      "max_verifiable_time_s": 0.002,
+      "block_count": 1,
+      "index_sha256": "fba19d0552bc04c1f519dc45bd53349b9cc52b184a8dfcfc6c10e53ab5703431",
+      "formal_robot_run": false
+    },
+    {
+      "fault": "rename",
+      "passed": true,
+      "records": 2,
+      "completed_steps": 1,
+      "max_verifiable_time_s": 0.002,
+      "block_count": 1,
+      "index_sha256": "fba19d0552bc04c1f519dc45bd53349b9cc52b184a8dfcfc6c10e53ab5703431",
+      "formal_robot_run": false
+    }
+  ],
+  "commit_period": "200 records, normally 0.1 s for four events per 2 ms cycle; final and initial blocks explicitly flushed",
+  "forced_termination_scope": "only indexed committed blocks guaranteed recoverable; in-memory tail deliberately ignored; no power-loss guarantee"
+}

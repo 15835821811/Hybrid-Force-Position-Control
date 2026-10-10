@@ -1,0 +1,42 @@
+{
+  "E0": {
+    "passed": true,
+    "completed_steps_checked": 3907,
+    "max_time_s": 7.8139999999993615,
+    "violations": [],
+    "raw_index_sha256": "303f77e6f7a7eb22c64a55d1dcadb0267e6c358607d4becfc7f5ce0f40bc9c10",
+    "audit_code_sha256": "b96beff21e2a237afa06f3ffc6725951de4b0f21e5030d5737e0d427894147cf",
+    "new_physics_steps": 0,
+    "scope": "unchanged original safety evaluator on all committed completed observations, including exception endpoint"
+  },
+  "E0_C2": {
+    "passed": true,
+    "completed_steps_checked": 13957,
+    "max_time_s": 27.913999999995408,
+    "violations": [],
+    "raw_index_sha256": "ebf63b6774f20219a7252a47c5e18c223c21e161820ab4a3529938e03efe86bf",
+    "audit_code_sha256": "b96beff21e2a237afa06f3ffc6725951de4b0f21e5030d5737e0d427894147cf",
+    "new_physics_steps": 0,
+    "scope": "unchanged original safety evaluator on all committed completed observations, including exception endpoint"
+  },
+  "E1": {
+    "passed": true,
+    "completed_steps_checked": 4010,
+    "max_time_s": 8.019999999999348,
+    "violations": [],
+    "raw_index_sha256": "9bb648c5cdc4b10fd12b30b377fec9950b534f13f18d191cf0b42a96a7120708",
+    "audit_code_sha256": "b96beff21e2a237afa06f3ffc6725951de4b0f21e5030d5737e0d427894147cf",
+    "new_physics_steps": 0,
+    "scope": "unchanged original safety evaluator on all committed completed observations, including exception endpoint"
+  },
+  "E2": {
+    "passed": true,
+    "completed_steps_checked": 4410,
+    "max_time_s": 8.819999999999615,
+    "violations": [],
+    "raw_index_sha256": "5be0c75cf3174498c6c8e2391b02b2f7ed270875143002caa3ae645b5ff28ba5",
+    "audit_code_sha256": "b96beff21e2a237afa06f3ffc6725951de4b0f21e5030d5737e0d427894147cf",
+    "new_physics_steps": 0,
+    "scope": "unchanged original safety evaluator on all committed completed observations, including exception endpoint"
+  }
+}

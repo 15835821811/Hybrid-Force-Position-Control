@@ -1,0 +1,421 @@
+{
+  "overall": "ACCURACY_IMPROVED_GUARD_NOT_COMPATIBLE",
+  "implementation": {
+    "status": "C2_PSD_REPAIR_IMPLEMENTED_ORIGINAL_E0_FAILURE_RETAINED",
+    "tests": {
+      "passed": true,
+      "tests_run": 12,
+      "failures": 0,
+      "errors": 0,
+      "physics_steps": 0,
+      "scope": "bounded synthetic, model initialization and isolated persistence tests; no complete robot attempts"
+    },
+    "repair": {
+      "passed": true,
+      "packets": 3908,
+      "min_eigenvalue": -1.1133340894899032e-16,
+      "last_time_s": 7.8139999999993615,
+      "failures": [],
+      "source": "original E0 public packets, including terminal failed packet",
+      "physics_steps": 0,
+      "parameter_change": false,
+      "noise_matrix": "positive Gauss-Legendre noise-factor integral, no clipping or shrink"
+    }
+  },
+  "legacy_C1_record_loss_retained": "MISSING_ORIGINAL_TRACE; S01 PARTIAL unchanged; limited user-authorized exception only",
+  "source_compatibility_scope": "S01 SOURCE_COMPATIBLE_UNDER_ASSUMPTIONS retained; CA18 is a new local motion model, not the source paper algorithm",
+  "timestamp_causality": "TESTED: measurement-time assimilation, arrived-only observations, historical modes, stale/duplicate/out-of-order rejection",
+  "truth_isolation": "TESTED_PUBLIC_PACKET_BOUNDARY: no target qvel/qacc/mass/COM/inertia in estimator; truth evaluation separate",
+  "covariance_prediction_consistency": "TESTED_FULL_P18: acceleration cross terms retained, correct P12 marginal, no online mutation; predictor prior mean/covariance combination remains approximate",
+  "state_error_validation": {
+    "scope": "six held-out signal suffixes plus four already-seen archive regressions; startup and contact peaks retained",
+    "seen_noisy_velocity_rms_mm_s": {
+      "CV": 0.386655520646627,
+      "CA": 0.07411592089509203
+    },
+    "seen_noisy_scoring_interval_s": [
+      0.2,
+      7.839999999999359
+    ],
+    "seen_noisy_all_valid_velocity_rms_mm_s": {
+      "CV": 0.3939839438902868,
+      "CA": 0.23429765316730372
+    },
+    "seen_noisy_all_valid_velocity_peak_mm_s": {
+      "CV": 1.3923091436204005,
+      "CA": 3.7437753161349607
+    },
+    "startup_caveat": "CA valid-startup peak is larger than CV; initial covariance consumes the budget, so low settled RMS is not a peak guarantee",
+    "ideal_contact_caveat": "CA has larger ideal contact peak/NIS than CV; no uniform improvement claim"
+  },
+  "uncertainty_calibration_scope": "development-only density calibration; empirical marginal coverage and NIS/NEES on correlated signals, no joint/all-time confidence certificate",
+  "guard_information_compatibility": {
+    "free_noisy_prefix": "NECESSARY_CONDITION_SUPPORTED_AFTER_INITIALIZATION_IN_TESTED_SIGNALS",
+    "sustained_contact": "NOT_QUALIFIED: numerical contact-mode periodic linear/angular margins exceed unchanged gates",
+    "actual_calls": {
+      "E0": 0,
+      "E0_C2": 37,
+      "E1": 90,
+      "E2": 490
+    },
+    "actual_call_analysis": {
+      "E0": {
+        "calls": 0,
+        "scope": "no actual guard invocation; counterfactual budgets remain separate"
+      },
+      "E0_C2": {
+        "calls": 37,
+        "instantaneous_passes": 21,
+        "start_time_s": 7.841999999999358,
+        "end_time_s": 7.91399999999935,
+        "four_gate_exceedance_counts": {
+          "translation": 0,
+          "rotation": 0,
+          "linear_velocity": 0,
+          "angular_velocity": 16
+        },
+        "information_alone_exceedance_counts": {
+          "translation": 0,
+          "rotation": 0,
+          "linear_velocity": 0,
+          "angular_velocity": 0
+        },
+        "last_actual_call": {
+          "time": 7.91399999999935,
+          "passed": true,
+          "values": [
+            7.483541153721297e-05,
+            0.0001230564958336712,
+            0.00018409471573426866,
+            0.0020201444997270416
+          ],
+          "margins": [
+            3.3453788589197635e-09,
+            2.996411626549947e-09,
+            4.6876505445536e-06,
+            1.1866279186177602e-05
+          ],
+          "limits": [
+            0.0001,
+            0.0008726646259971648,
+            0.001,
+            0.003490658503988659
+          ],
+          "rho": 0.014937847989097204,
+          "contact": true,
+          "valid": true,
+          "geometry_ok": true,
+          "reference_feasible": true
+        },
+        "scope": "actual unchanged guard calls; a single passing call does not establish the 40 ms confirmation or latch/task success"
+      },
+      "E1": {
+        "calls": 90,
+        "instantaneous_passes": 0,
+        "start_time_s": 7.841999999999358,
+        "end_time_s": 8.019999999999348,
+        "four_gate_exceedance_counts": {
+          "translation": 90,
+          "rotation": 0,
+          "linear_velocity": 90,
+          "angular_velocity": 90
+        },
+        "information_alone_exceedance_counts": {
+          "translation": 0,
+          "rotation": 0,
+          "linear_velocity": 64,
+          "angular_velocity": 68
+        },
+        "last_actual_call": {
+          "time": 8.019999999999348,
+          "passed": false,
+          "values": [
+            0.00011282736320512872,
+            0.0002702031516778678,
+            0.00026164532728568794,
+            0.002970969741915192
+          ],
+          "margins": [
+            4.6775332694163063e-05,
+            0.00012427669261661092,
+            0.0013555550132178253,
+            0.004713972913815709
+          ],
+          "limits": [
+            0.0001,
+            0.0008726646259971648,
+            0.001,
+            0.003490658503988659
+          ],
+          "rho": 0.011093355747886467,
+          "contact": true,
+          "valid": true
+        },
+        "scope": "actual unchanged guard calls; a single passing call does not establish the 40 ms confirmation or latch/task success"
+      },
+      "E2": {
+        "calls": 490,
+        "instantaneous_passes": 0,
+        "start_time_s": 7.841999999999358,
+        "end_time_s": 8.819999999999615,
+        "four_gate_exceedance_counts": {
+          "translation": 335,
+          "rotation": 0,
+          "linear_velocity": 490,
+          "angular_velocity": 490
+        },
+        "information_alone_exceedance_counts": {
+          "translation": 0,
+          "rotation": 0,
+          "linear_velocity": 469,
+          "angular_velocity": 474
+        },
+        "last_actual_call": {
+          "time": 8.819999999999615,
+          "passed": false,
+          "values": [
+            4.333177953720734e-05,
+            0.0002380128155596565,
+            0.0006600572061324891,
+            0.002106189023081557
+          ],
+          "margins": [
+            4.2378974320940795e-05,
+            0.00010816779810270703,
+            0.0012660778642028126,
+            0.004312404377200147
+          ],
+          "limits": [
+            0.0001,
+            0.0008726646259971648,
+            0.001,
+            0.003490658503988659
+          ],
+          "rho": 0.007299058831129006,
+          "contact": true,
+          "valid": true
+        },
+        "scope": "actual unchanged guard calls; a single passing call does not establish the 40 ms confirmation or latch/task success"
+      }
+    },
+    "overall_scope": "no capture information claim for approach prefixes where guard was never called"
+  },
+  "sensor_profile": "E1/E2 original 6 ms,12 ms,10 um,35 urad and biases; E0/E0_C2 ideal; E3 NOT_RUN (its plan changed only target pose delay)",
+  "full_task_status_by_run": {
+    "E0": {
+      "status": "IMPLEMENTATION_ERROR",
+      "end_time_s": 7.8139999999993615,
+      "task_completed": false,
+      "postgrasp_detumbling": false,
+      "final_window": "NOT_EVALUATED"
+    },
+    "E0_C2": {
+      "status": "COMPLETED",
+      "end_time_s": 27.913999999995408,
+      "task_completed": true,
+      "postgrasp_detumbling": true,
+      "final_window": "EVALUATED"
+    },
+    "E1": {
+      "status": "NO_VERIFIED_CONTROL",
+      "end_time_s": 8.019999999999348,
+      "task_completed": false,
+      "postgrasp_detumbling": false,
+      "final_window": "NOT_EVALUATED"
+    },
+    "E2": {
+      "status": "NO_VERIFIED_CONTROL",
+      "end_time_s": 8.819999999999615,
+      "task_completed": false,
+      "postgrasp_detumbling": false,
+      "final_window": "NOT_EVALUATED"
+    },
+    "E3": {
+      "status": "NOT_RUN",
+      "reason": "sequential admission or four-attempt repair budget; no empty result directory"
+    }
+  },
+  "planning_or_governor_failure_remaining": {
+    "E1": {
+      "time": 8.019999999999348,
+      "candidates": [
+        {
+          "fraction": 1.0,
+          "verified": false,
+          "reason": "PREDICTED_GEOMETRY",
+          "steps": 90,
+          "horizon_reached_s": 0.18,
+          "max_tracking_error_m": 5.357595980009289e-05,
+          "max_linear_residual_m_s": 0.004076148447815069,
+          "max_angular_residual_rad_s": 5.344240262308824e-05,
+          "min_linear_constraint_slack_mixed_units": -9.999999999999593e-05,
+          "max_rho": 0.010244685683171337,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.75,
+          "verified": false,
+          "reason": "PREDICTED_GEOMETRY",
+          "steps": 90,
+          "horizon_reached_s": 0.18,
+          "max_tracking_error_m": 5.357595980009408e-05,
+          "max_linear_residual_m_s": 0.004076147588699784,
+          "max_angular_residual_rad_s": 5.344238861451241e-05,
+          "min_linear_constraint_slack_mixed_units": -0.00010000000000000286,
+          "max_rho": 0.01024468541945036,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.5,
+          "verified": false,
+          "reason": "PREDICTED_GEOMETRY",
+          "steps": 90,
+          "horizon_reached_s": 0.18,
+          "max_tracking_error_m": 5.357595980013092e-05,
+          "max_linear_residual_m_s": 0.004076148002836371,
+          "max_angular_residual_rad_s": 5.3442396170830686e-05,
+          "min_linear_constraint_slack_mixed_units": -9.99999999999994e-05,
+          "max_rho": 0.010244685477869551,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.25,
+          "verified": false,
+          "reason": "PREDICTED_GEOMETRY",
+          "steps": 90,
+          "horizon_reached_s": 0.18,
+          "max_tracking_error_m": 5.357595980001774e-05,
+          "max_linear_residual_m_s": 0.004076148228816362,
+          "max_angular_residual_rad_s": 5.344239824040347e-05,
+          "min_linear_constraint_slack_mixed_units": -9.99999999999994e-05,
+          "max_rho": 0.010244685315957559,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.0,
+          "verified": false,
+          "reason": "PREDICTED_GEOMETRY",
+          "steps": 90,
+          "horizon_reached_s": 0.18,
+          "max_tracking_error_m": 5.3575959800182794e-05,
+          "max_linear_residual_m_s": 0.004076148270765537,
+          "max_angular_residual_rad_s": 5.344239850231269e-05,
+          "min_linear_constraint_slack_mixed_units": -9.999999999999593e-05,
+          "max_rho": 0.010244685650681214,
+          "terminal_progress": 8.0
+        }
+      ],
+      "chosen_fraction": null,
+      "latency_s": 3.904597300104797,
+      "scope": "finite prior, covariance approximation; no recursive-feasibility or hardware guarantee"
+    },
+    "E2": {
+      "time": 8.819999999999615,
+      "candidates": [
+        {
+          "fraction": 1.0,
+          "verified": false,
+          "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+          "steps": 40,
+          "horizon_reached_s": 0.08,
+          "max_tracking_error_m": 4.388576043662574e-05,
+          "max_linear_residual_m_s": 0.02042707307659828,
+          "max_angular_residual_rad_s": 0.032042089173739116,
+          "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+          "max_rho": 0.005983816313757151,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.75,
+          "verified": false,
+          "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+          "steps": 40,
+          "horizon_reached_s": 0.08,
+          "max_tracking_error_m": 4.388576043662574e-05,
+          "max_linear_residual_m_s": 0.02042707307659828,
+          "max_angular_residual_rad_s": 0.032042089173739116,
+          "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+          "max_rho": 0.005983816313757151,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.5,
+          "verified": false,
+          "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+          "steps": 40,
+          "horizon_reached_s": 0.08,
+          "max_tracking_error_m": 4.388576043662574e-05,
+          "max_linear_residual_m_s": 0.02042707307659828,
+          "max_angular_residual_rad_s": 0.032042089173739116,
+          "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+          "max_rho": 0.005983816313757151,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.25,
+          "verified": false,
+          "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+          "steps": 40,
+          "horizon_reached_s": 0.08,
+          "max_tracking_error_m": 4.388576043662574e-05,
+          "max_linear_residual_m_s": 0.02042707307659828,
+          "max_angular_residual_rad_s": 0.032042089173739116,
+          "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+          "max_rho": 0.005983816313757151,
+          "terminal_progress": 8.0
+        },
+        {
+          "fraction": 0.0,
+          "verified": false,
+          "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+          "steps": 40,
+          "horizon_reached_s": 0.08,
+          "max_tracking_error_m": 4.388576043662574e-05,
+          "max_linear_residual_m_s": 0.02042707307659828,
+          "max_angular_residual_rad_s": 0.032042089173739116,
+          "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+          "max_rho": 0.005983816313757151,
+          "terminal_progress": 8.0
+        }
+      ],
+      "chosen_fraction": null,
+      "latency_s": 2.0953998998738825,
+      "scope": "finite prior, covariance approximation; no recursive-feasibility or hardware guarantee"
+    }
+  },
+  "real_safety_violations": [],
+  "dual_replay": {
+    "passed": true,
+    "by_run": {
+      "E0": {
+        "actuator": true,
+        "decision": true
+      },
+      "E0_C2": {
+        "actuator": true,
+        "decision": true
+      },
+      "E1": {
+        "actuator": true,
+        "decision": true
+      },
+      "E2": {
+        "actuator": true,
+        "decision": true
+      }
+    }
+  },
+  "next_stage_admission": {
+    "S03_automatically_started": false,
+    "ideal_measurement": "FROZEN_CA_INTERFACE_SUPPORTED",
+    "nonideal_measurement": "NOT_ADMITTED",
+    "outstanding": [
+      "contact uncertainty/innovation validation",
+      "governor/planning failures retained",
+      "hardware sensing/calibration not validated"
+    ]
+  },
+  "hardware": "NOT_VALIDATED",
+  "full_inertia_identification": "NOT_CLAIMED_BY_S02",
+  "realtime": "NOT_CERTIFIED"
+}

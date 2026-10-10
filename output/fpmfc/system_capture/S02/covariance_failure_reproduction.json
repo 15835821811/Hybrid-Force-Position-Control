@@ -1,0 +1,13 @@
+{
+  "bad": [
+    {
+      "time": 7.8139999999993615,
+      "min_eigenvalue": -3.5426301243771304e-05,
+      "contact": true
+    }
+  ],
+  "Q_min_eigenvalue": -4.07504644713535e-17,
+  "Q_theta_variance": 0.0,
+  "expected_Q_theta_variance": 4.191372046576092e-17,
+  "scope": "exact recorded E0 public packets; estimator only, no robot steps"
+}

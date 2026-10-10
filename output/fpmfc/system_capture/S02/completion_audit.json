@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "errors": [],
+  "hash_checks": 1626,
+  "runs": {
+    "E0": {
+      "status": "IMPLEMENTATION_ERROR",
+      "completed_steps": 3907,
+      "index_sha256": "303f77e6f7a7eb22c64a55d1dcadb0267e6c358607d4becfc7f5ce0f40bc9c10",
+      "preserved_failure": true
+    },
+    "E0_C2": {
+      "status": "COMPLETED",
+      "completed_steps": 13957,
+      "index_sha256": "ebf63b6774f20219a7252a47c5e18c223c21e161820ab4a3529938e03efe86bf",
+      "preserved_failure": false
+    },
+    "E1": {
+      "status": "NO_VERIFIED_CONTROL",
+      "completed_steps": 4010,
+      "index_sha256": "9bb648c5cdc4b10fd12b30b377fec9950b534f13f18d191cf0b42a96a7120708",
+      "preserved_failure": false
+    },
+    "E2": {
+      "status": "NO_VERIFIED_CONTROL",
+      "completed_steps": 4410,
+      "index_sha256": "5be0c75cf3174498c6c8e2391b02b2f7ed270875143002caa3ae645b5ff28ba5",
+      "preserved_failure": false
+    }
+  },
+  "legacy_source_and_history_unchanged": true,
+  "new_robot_attempts": 4,
+  "parameter_candidates": 2,
+  "physics_steps": 0,
+  "source_commit_base": "71caa4149176f9becd76f95020cb43e97dabc851",
+  "scope": "source, frozen evidence, configuration and recorded-prefix closure; not an additional robot experiment"
+}

@@ -1,0 +1,26 @@
+{
+  "run": "E2",
+  "kind": "actuator",
+  "passed": true,
+  "raw_validation": {
+    "passed": true,
+    "records": 17643,
+    "completed_steps": 4410,
+    "max_verifiable_time_s": 8.819999999999615,
+    "block_count": 90,
+    "index_sha256": "5be0c75cf3174498c6c8e2391b02b2f7ed270875143002caa3ae645b5ff28ba5"
+  },
+  "physics_steps": 4410,
+  "predictive_steps": 0,
+  "state_initializations": 1,
+  "intermediate_plant_state_injections": 0,
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "time_max_error_s": 0.0,
+  "masks_match": true,
+  "event_times": [],
+  "final_time_s": 8.819999999999615,
+  "terminal_unapplied_proposals_excluded": true,
+  "cpu_s": 4.453125,
+  "wall_s": 4.45661330036819
+}

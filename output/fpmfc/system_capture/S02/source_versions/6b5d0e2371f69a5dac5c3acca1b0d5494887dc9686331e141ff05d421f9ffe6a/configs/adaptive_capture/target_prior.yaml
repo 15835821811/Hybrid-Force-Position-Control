@@ -1,0 +1,9 @@
+mass_kg: 20.0
+com_m: [0, 0, 0]
+inertia_com_kg_m2: [[0.3, 0, 0], [0, 0.3, 0], [0, 0, 0.3]]
+mass_bounds_kg: [10, 40]
+com_bound_m: 0.020
+support_half_extent_m: 0.15
+parameter_scales: [20, 3, 3, 3, 0.45, 0.45, 0.45, 0.45, 0.45, 0.45]
+prior_covariance_scaled_diagonal: [0.25, 0.018, 0.018, 0.018, 0.25, 0.25, 0.25, 0.1, 0.1, 0.1]
+momentum_noise_floor: [0.0002, 0.0002, 0.0002, 0.00002, 0.00002, 0.00002]

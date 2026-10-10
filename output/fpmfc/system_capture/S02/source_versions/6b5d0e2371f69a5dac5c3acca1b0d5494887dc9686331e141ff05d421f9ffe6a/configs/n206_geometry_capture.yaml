@@ -1,0 +1,45 @@
+schema: n206_v1
+source_commit: f2c4cf5cc12dd299589dc4e0a3f32d52ed085403
+latch_time_s: 8.0
+end_time_s: 18.0
+evaluation_window_s: [16.0, 18.0]
+task_period_s: 0.02
+servo_period_s: 0.002
+maximum_formal_attempts: 4
+scenario_order: [nominal, fine, light, heavy]
+scenarios:
+  nominal: {mass: 20.0, inertia: [0.30, 0.30, 0.30], dt: 0.002}
+  fine: {mass: 20.0, inertia: [0.30, 0.30, 0.30], dt: 0.001}
+  light: {mass: 16.0, inertia: [0.24, 0.24, 0.24], dt: 0.002}
+  heavy: {mass: 24.0, inertia: [0.36, 0.36, 0.36], dt: 0.002}
+new_collision_margin_m: 0.001
+numerical_penetration_tolerance_m: 0.00001
+target_planning_margin_m: 0.002
+original_planning_margin_m: 0.045
+original_execution_margin_m: 0.040
+query_distmax_m: 2.0
+precontact_force_threshold_n: 0.20
+target_propagation_position_tolerance_m: 1.0e-9
+target_propagation_rotation_tolerance_rad: 1.0e-8
+stop_after_nominal_physical_failure: true
+installation_candidates_m: [0.002, 0.005, 0.010, 0.020]
+installation:
+  hypothesis: SIMULATION_DESIGN_CANDIDATE_NOT_APPROVED_HARDWARE
+  axis: flange local +Z moves tool face; aligned robot retreats along grasp local -Z
+  seat_plane_flange_z_m: 0.0
+  pad_radius_m: 0.035
+  pad_thickness_m: 0.010
+  original_pad_front_flange_z_m: -0.0002
+  spacer_radius_m: 0.035
+  assumed_density_kg_m3: 2700.0
+  material_assumption: homogeneous aluminium-equivalent solid spacer and pad; no strength certification
+  connection_assumption: rigid full circular flange seat; finite positive spacer length; no hole or fastener CAD is available
+  minimum_spacer_length_m: 0.0001
+  preserved_site_offset: translate frozen tool site and physical pad equally; no historical-state fitting
+  old_robot_inertias: explicitly unchanged; new fixed tool body has analytic positive inertia
+reference_candidates:
+  - {name: standard_C1}
+  - {name: normal_approach_40mm, start_s: 6.0, amplitude_m: 0.040}
+  - {name: normal_approach_80mm, start_s: 6.0, amplitude_m: 0.080}
+selection_policy: smallest structurally supported geometry passing terminal margins; reference by kinematics and geometry only
+unchanged_parameters: N205 candidate2 weld, load envelope, damping, seven actuator limits, controller gains, target and T

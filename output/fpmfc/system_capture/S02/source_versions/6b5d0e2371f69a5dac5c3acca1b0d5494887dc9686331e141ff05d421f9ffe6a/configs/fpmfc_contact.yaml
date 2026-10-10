@@ -1,0 +1,70 @@
+schema_version: fpmfc_contact_extension_v1
+experiment_id: flexiv_rizon4s_fpmfc_contact
+precontact_config: configs/fpmfc_paper_planning45_effective.yaml
+
+physical_target:
+  mass_kg: 20.0
+  diagonal_inertia_kg_m2: [0.30, 0.30, 0.30]
+  parameter_sensitivity_fraction: 0.20
+
+interface:
+  tool_pad_radius_m: 0.035
+  tool_pad_half_thickness_m: 0.005
+  tool_pad_face_recess_m: 0.0002
+  target_plate_half_size_m: [0.05, 0.05, 0.005]
+  friction: [0.8, 0.005, 0.0001]
+  contact_margin_m: 0.0
+  solver_time_constant_s: 0.05
+  solver_damping_ratio: 1.0
+  contact_detection_force_n: 0.20
+  contact_release_force_n: 0.10
+
+force_control:
+  desired_normal_force_n: 3.0
+  force_ramp_duration_s: 0.50
+  contact_stage_duration_s: 1.0
+  steady_evaluation_window_s: 0.20
+  rigid_normal_offset_m: 0.0012
+  virtual_mass_kg: 1.0
+  stiffness_n_m: 2500.0
+  damping_ratio: 1.0
+  maximum_offset_m: 0.003
+  maximum_velocity_m_s: 0.020
+  reset_on_contact_loss: true
+
+acceptance:
+  maximum_peak_contact_force_n: 20.0
+  maximum_steady_force_rmse_fraction: 0.10
+  maximum_penetration_m: 0.002
+  maximum_sustained_contact_loss_s: 0.10
+
+provenance:
+  precontact_config: user
+  physical_target.mass_kg: calibrated
+  physical_target.diagonal_inertia_kg_m2: calibrated
+  physical_target.parameter_sensitivity_fraction: calibrated
+  interface.tool_pad_radius_m: calibrated
+  interface.tool_pad_half_thickness_m: calibrated
+  interface.tool_pad_face_recess_m: calibrated
+  interface.target_plate_half_size_m: calibrated
+  interface.friction: user
+  interface.contact_margin_m: calibrated
+  interface.solver_time_constant_s: calibrated
+  interface.solver_damping_ratio: calibrated
+  interface.contact_detection_force_n: calibrated
+  interface.contact_release_force_n: calibrated
+  force_control.desired_normal_force_n: calibrated
+  force_control.force_ramp_duration_s: calibrated
+  force_control.contact_stage_duration_s: calibrated
+  force_control.steady_evaluation_window_s: calibrated
+  force_control.rigid_normal_offset_m: calibrated
+  force_control.virtual_mass_kg: calibrated
+  force_control.stiffness_n_m: calibrated
+  force_control.damping_ratio: calibrated
+  force_control.maximum_offset_m: calibrated
+  force_control.maximum_velocity_m_s: calibrated
+  force_control.reset_on_contact_loss: calibrated
+  acceptance.maximum_peak_contact_force_n: calibrated
+  acceptance.maximum_steady_force_rmse_fraction: calibrated
+  acceptance.maximum_penetration_m: calibrated
+  acceptance.maximum_sustained_contact_loss_s: calibrated

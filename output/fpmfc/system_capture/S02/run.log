@@ -1,0 +1,8 @@
+{'run': 'E0', 't': 0.0, 'phase': 'OBSERVE', 'status': 'RUNNING', 'steps': 0}
+{'run': 'E0', 't': 1.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 500}
+{'run': 'E0', 't': 2.0, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1000}
+{'run': 'E0', 't': 3.002, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 1501}
+{'run': 'E0', 't': 4.004, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2002}
+{'run': 'E0', 't': 5.006, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 2503}
+{'run': 'E0', 't': 6.008, 'phase': 'RENDEZVOUS', 'status': 'RUNNING', 'steps': 3004}
+{'run': 'E0', 't': 7.01, 'phase': 'RELATIVE_APPROACH', 'status': 'RUNNING', 'steps': 3505}

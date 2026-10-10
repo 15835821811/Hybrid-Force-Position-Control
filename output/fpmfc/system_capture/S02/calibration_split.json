@@ -1,0 +1,88 @@
+{
+  "schema": "S02_calibration_v1",
+  "frozen_epoch": 1791599164.953839,
+  "development": {
+    "seeds": [
+      52020,
+      52021,
+      52022,
+      52023,
+      52024,
+      52025
+    ],
+    "interval_s": [
+      0.0,
+      2.0
+    ],
+    "usage": "two candidate calibration and selection only"
+  },
+  "validation": {
+    "seeds": [
+      52120,
+      52121,
+      52122,
+      52123,
+      52124,
+      52125
+    ],
+    "interval_s": [
+      2.0,
+      6.0
+    ],
+    "usage": "frozen before parameter selection; first 2 s causal warmup excluded from validation summaries, all prefixes retained"
+  },
+  "archived": {
+    "runs": [
+      "R01_V2_nominal",
+      "R04_V2_H1",
+      "R02_V2_H2",
+      "R03_V2_S01"
+    ],
+    "usage": "already-seen regression only; never tuning"
+  },
+  "families": [
+    "constant",
+    "multiaxis",
+    "offset_COM",
+    "smooth_transition",
+    "jitter_dropout",
+    "bias_noise"
+  ],
+  "signal_dt_s": 0.002,
+  "formal_new_noise_seed": 210102,
+  "candidates": {
+    "count": 2,
+    "structure": "18-state CA SO3 left error",
+    "density_rule": "4x and 8x maximum-axis RMS acceleration increments / sqrt(dt), normalized by declared contact multiplier, on independent development signals only",
+    "selection": "min mean of normalized current-state squared error + blind 12ms squared error + 0.02*abs(log(NIS/6)) + 2*max(0,0.95-minimum marginal 3sigma coverage); no covariance-only selection"
+  },
+  "initialization": {
+    "velocity_mean": [
+      0,
+      0,
+      0
+    ],
+    "omega_mean": [
+      0,
+      0,
+      0
+    ],
+    "accel_mean": [
+      0,
+      0,
+      0
+    ],
+    "alpha_mean": [
+      0,
+      0,
+      0
+    ],
+    "initial_velocity_variance": 0.1,
+    "initial_omega_variance": 0.1,
+    "initial_accel_variance": 0.01,
+    "initial_alpha_variance": 1.0,
+    "minimum_samples": 3
+  },
+  "independence": "six deterministic signal families and separate noise seeds; temporally correlated ticks are not independent experiments",
+  "excitation": "mathematical trajectories, including prescribed smooth acceleration; not driven targets in formal robot runs"
+}

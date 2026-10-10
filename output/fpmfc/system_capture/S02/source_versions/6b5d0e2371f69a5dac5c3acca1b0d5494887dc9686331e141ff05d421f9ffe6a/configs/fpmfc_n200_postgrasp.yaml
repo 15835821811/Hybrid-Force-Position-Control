@@ -1,0 +1,41 @@
+schema_version: n200_postgrasp_v1
+model_scope: idealized_postgrasp_connection
+dynamic_capture_validated: false
+hardware_load_rating_validated: false
+gripper_mass_added: false
+source_trace: output/fpmfc/n110/live_twist_handoff/precontact/C1/trace.npz
+source_trace_sha256: 6dd7f31ac102c015b2e43ca5f0b4db244511ef8bc2d7e8e89b5c78fd292a6998
+source_target_config: configs/fpmfc_paper_planning45_effective.yaml
+model_xml: models/flexiv_rizon4s_postgrasp_scene.xml
+interface:
+  equality_name: postgrasp_latch
+  tool_body: flange
+  target_body: tumbling_target
+  tool_site: postgrasp_tool_interface
+  target_site: target_grasp_site
+  solref: [0.02, 1.0]
+  solimp: [0.95, 0.99, 0.001]
+  torquescale_m: 0.15
+  excluded_collision_pair: [gripper_contact_pad, target_contact_plate]
+  load_envelope:
+    force_scale_n: 50.0
+    moment_scale_nm: 2.0
+    provenance: simulation_assumption
+controller:
+  nominal_damping_time_s: 1.0
+  update_period_s: 0.002
+  torque_limits_nm: [123.0, 123.0, 64.0, 64.0, 39.0, 39.0, 39.0]
+run:
+  duration_s: 10.0
+  standard_timestep_s: 0.002
+  fine_timestep_s: 0.001
+  conditions: [Z, D, D_fine]
+gates:
+  absolute_linear_momentum_drift_kg_m_s: 1.0e-4
+  absolute_angular_momentum_drift_kg_m2_s: 1.0e-5
+  interface_translation_m: 0.0005
+  interface_rotation_deg: 0.1
+  minimum_noncontact_clearance_m: 0.04
+  joint_velocity_rad_s: [2.0944, 2.0944, 2.4435, 2.4435, 4.8869, 4.8869, 4.8869]
+  target_spin_deg_s: 0.1
+  target_base_relative_spin_deg_s: 0.02

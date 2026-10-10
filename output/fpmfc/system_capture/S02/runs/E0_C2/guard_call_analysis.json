@@ -1,0 +1,46 @@
+{
+  "calls": 37,
+  "instantaneous_passes": 21,
+  "start_time_s": 7.841999999999358,
+  "end_time_s": 7.91399999999935,
+  "four_gate_exceedance_counts": {
+    "translation": 0,
+    "rotation": 0,
+    "linear_velocity": 0,
+    "angular_velocity": 16
+  },
+  "information_alone_exceedance_counts": {
+    "translation": 0,
+    "rotation": 0,
+    "linear_velocity": 0,
+    "angular_velocity": 0
+  },
+  "last_actual_call": {
+    "time": 7.91399999999935,
+    "passed": true,
+    "values": [
+      7.483541153721297e-05,
+      0.0001230564958336712,
+      0.00018409471573426866,
+      0.0020201444997270416
+    ],
+    "margins": [
+      3.3453788589197635e-09,
+      2.996411626549947e-09,
+      4.6876505445536e-06,
+      1.1866279186177602e-05
+    ],
+    "limits": [
+      0.0001,
+      0.0008726646259971648,
+      0.001,
+      0.003490658503988659
+    ],
+    "rho": 0.014937847989097204,
+    "contact": true,
+    "valid": true,
+    "geometry_ok": true,
+    "reference_feasible": true
+  },
+  "scope": "actual unchanged guard calls; a single passing call does not establish the 40 ms confirmation or latch/task success"
+}

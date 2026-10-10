@@ -1,0 +1,46 @@
+{
+  "source": "archived R03 public packets; no robot integration",
+  "source_sha256": "f41292f07c4a7c94d05235a6391baf58a000b1530a8ac1cb001584a6995f59aa",
+  "raw_sha256": "b87bf558be6763a94c8aa69c45a6ea73e2b5de1265472f4e1b510e9ef50c95ef",
+  "by_method": {
+    "CV": {
+      "calls": 3921,
+      "update_quantiles_s": [
+        0.00025509996339678764,
+        0.00036610011011362076,
+        0.00045568021014332773,
+        0.0007006996311247349
+      ],
+      "blind_12ms_quantiles_s": [
+        3.190012648701668e-05,
+        3.400025889277458e-05,
+        5.34598715603352e-05,
+        0.0002826000563800335
+      ]
+    },
+    "CA": {
+      "calls": 3921,
+      "update_quantiles_s": [
+        0.0018360000103712082,
+        0.0024943999014794827,
+        0.0027997999452054503,
+        0.0037031997926533222
+      ],
+      "blind_12ms_quantiles_s": [
+        0.0010119997896254063,
+        0.0012560002505779266,
+        0.0015121600590646271,
+        0.0021001999266445637
+      ]
+    }
+  },
+  "quantiles": [
+    0.5,
+    0.95,
+    0.99,
+    1.0
+  ],
+  "scope": "single host sample, sequential method order, concurrent robot process; includes Python logging and snapshot copies; no hardware realtime certification",
+  "physics_steps": 0,
+  "additional_parameter_selection": false
+}

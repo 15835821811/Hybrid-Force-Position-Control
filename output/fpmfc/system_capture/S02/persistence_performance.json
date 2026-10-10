@@ -1,0 +1,46 @@
+{
+  "E0": {
+    "blocks": 80,
+    "records": 15631,
+    "io_wall_s": 5.197320300620049,
+    "serialization_wall_s": 11.513473443686962,
+    "io_fraction_of_run_wall": 0.016745674536938954,
+    "serialization_fraction_of_run_wall": 0.03709620880103737,
+    "nominal_commit_period_s": 0.1,
+    "max_verifiable_time_s": 7.8139999999993615,
+    "scope": "measured within run; I/O and serialization separate; no isolated no-journal speedup claim"
+  },
+  "E0_C2": {
+    "blocks": 281,
+    "records": 55831,
+    "io_wall_s": 19.822742098011076,
+    "serialization_wall_s": 42.129628045950085,
+    "io_fraction_of_run_wall": 0.0315589182867933,
+    "serialization_fraction_of_run_wall": 0.06707273304476562,
+    "nominal_commit_period_s": 0.1,
+    "max_verifiable_time_s": 27.913999999995408,
+    "scope": "measured within run; I/O and serialization separate; no isolated no-journal speedup claim"
+  },
+  "E1": {
+    "blocks": 82,
+    "records": 16043,
+    "io_wall_s": 5.405809196643531,
+    "serialization_wall_s": 11.594824003055692,
+    "io_fraction_of_run_wall": 0.01630562343689989,
+    "serialization_fraction_of_run_wall": 0.03497364171276008,
+    "nominal_commit_period_s": 0.1,
+    "max_verifiable_time_s": 8.019999999999348,
+    "scope": "measured within run; I/O and serialization separate; no isolated no-journal speedup claim"
+  },
+  "E2": {
+    "blocks": 90,
+    "records": 17643,
+    "io_wall_s": 6.001814999617636,
+    "serialization_wall_s": 12.737822789233178,
+    "io_fraction_of_run_wall": 0.015800518601098396,
+    "serialization_fraction_of_run_wall": 0.03353389032011084,
+    "nominal_commit_period_s": 0.1,
+    "max_verifiable_time_s": 8.819999999999615,
+    "scope": "measured within run; I/O and serialization separate; no isolated no-journal speedup claim"
+  }
+}

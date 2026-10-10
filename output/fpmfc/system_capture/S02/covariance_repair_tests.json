@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "packets": 3908,
+  "min_eigenvalue": -1.1133340894899032e-16,
+  "last_time_s": 7.8139999999993615,
+  "failures": [],
+  "source": "original E0 public packets, including terminal failed packet",
+  "physics_steps": 0,
+  "parameter_change": false,
+  "noise_matrix": "positive Gauss-Legendre noise-factor integral, no clipping or shrink"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "CONFIRMED_COVARIANCE_DISCRETIZATION_DEFECT",
+  "run": "E0",
+  "time_s": 7.814,
+  "source_key": "6b5d0e2371f69a5dac5c3acca1b0d5494887dc9686331e141ff05d421f9ffe6a",
+  "cause": "RK4 integration of angular Q from zero omits the positive h^5 theta variance of white angular jerk; contact density change with tiny ideal-measurement covariance can make the approximated Q and P indefinite",
+  "repair_plan": "positive-weight Gauss-Legendre integral of transition noise factors; no eigenvalue clipping or covariance shrink",
+  "parameter_change": false,
+  "counts_as_new_parameter_candidate": false,
+  "remaining_robot_attempts": 3,
+  "amended_order": [
+    "E0_C2",
+    "E1",
+    "E2"
+  ],
+  "E3": "NOT_RUN_IF_BUDGET_CONSUMED_BY_IMPLEMENTATION_REPAIR",
+  "condition": "only corrected offline properties/recorded-prefix replay then E0_C2 full task qualifies E1; no changed physical baseline",
+  "recorded_epoch": 1791599989.967797
+}

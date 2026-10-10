@@ -1,0 +1,11 @@
+{
+  "status": "MISSING_ORIGINAL_TRACE",
+  "authorization_source": "User /goal attachment explicitly authorizes S02 and limited C1 exception",
+  "authorization_file": "experiments/system_capture/manifests/CODEX_S02_ESTIMATION_CAPTURE_AFTER_S01.md",
+  "authorization_sha256": "9bd355b03a6d157cb2aceb6b280adf8f21a3ffb05fea54ba8302c42c46a2c3d0",
+  "recorded_at_epoch": 1791598759.170671,
+  "authorization_timestamp": "NOT_SEPARATELY_ASSERTED",
+  "scope": "C1 gap does not block independent S02; no retroactive pass, calibration use or fabricated trace",
+  "S01_status_retained": "PARTIAL",
+  "signed_approval": "NOT_FABRICATED"
+}

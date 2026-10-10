@@ -1,0 +1,5 @@
+E0 actuator {'passed': True, 'qpos_max_error': 0.0, 'qvel_max_error': 0.0, 'physics_steps': 3907, 'final_time_s': 7.8139999999993615, 'state_initializations': 1, 'intermediate_plant_state_injections': 0, 'cpu_s': 3.703125, 'wall_s': 3.8953307000920177, 'scope': 'completed committed input prefix only; E0 implementation error retained'}
+E0 decisions 1000
+E0 decisions 2000
+E0 decisions 3000
+E0 decision {'passed': True, 'packets': 3908, 'max_intermediate_error': 0.0, 'proposals_and_snapshots_match': True, 'stop_reason_match': True, 'recorded_exception': 'ValueError: covariance not PSD', 'replay_exception': 'ValueError: covariance not PSD', 'exception_time_s': 7.8139999999993615, 'predictive_steps': 38900, 'cpu_s': 316.859375, 'wall_s': 321.7191615998745, 'scope': 'exact original frozen implementation, no repaired data; expected failure reproduced'}

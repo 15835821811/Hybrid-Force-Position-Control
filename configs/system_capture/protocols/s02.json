@@ -1,0 +1,26 @@
+{
+  "phase": "S02",
+  "baseline": "71caa4149176f9becd76f95020cb43e97dabc851",
+  "branch": "codex/system-s02-estimation-capture-contract",
+  "cpu_budget_s": 21600,
+  "maximum_full_robot_attempts": 4,
+  "maximum_parameter_candidates": 2,
+  "run_order": ["E0_C2", "E1", "E2"],
+  "retained_original_attempt": "E0: covariance implementation error, consumes attempt 1",
+  "repair_budget_amendment": "E0_C2 repeats ideal regression after PSD implementation repair; E3 omitted because total four-attempt budget includes E0 failure; no parameter tuning or physical changes",
+  "run_matrix": {
+    "E0": {"archived_config": "R01_V2_nominal", "sensor_changes": {}},
+    "E0_C2": {"archived_config": "R01_V2_nominal", "sensor_changes": {}},
+    "E1": {"archived_config": "R03_V2_S01", "sensor_changes": {}},
+    "E2": {"archived_config": "R03_V2_S01", "sensor_changes": {"seed": 210102}},
+    "E3": {"archived_config": "R03_V2_S01", "sensor_changes": {"delay_s": 0.0}}
+  },
+  "E2_E3_admission": "E0 preserves full task, E1 has safe physical prefix and no interface/data error; algorithm NO_VERIFIED_CONTROL permits diagnostic controls",
+  "offline_gate": "tests pass; both actual-error and innovation/coverage evidence examined; information compatibility evaluated per sample. If no accuracy/credibility improvement AND incompatible, skip nonideal runs. Information-compatible limited diagnostic runs allowed even if task may be planning-blocked.",
+  "evaluation": "unchanged 20 s maximum approach, 20 s after latch, fixed final 2 s; early stops NOT_EVALUATED",
+  "journal_block_records": 200,
+  "journal_nominal_commit_period_s": 0.1,
+  "replay_tolerance": {"qpos": 1e-10, "qvel": 1e-9, "torque": 1e-10, "state": 1e-10},
+  "automatic_next_phase": false,
+  "push": false
+}

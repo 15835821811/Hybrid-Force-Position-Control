@@ -105,3 +105,12 @@ output/fpmfc/system_capture/S01/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
 tools/s01_*.py -text whitespace=cr-at-eol
 # Exact user objective attachment: retain its original trailing spaces.
 experiments/system_capture/manifests/CODEX_S01_PAPER_BRIDGE_AFTER_S00.md -text whitespace=cr-at-eol,-blank-at-eol
+
+# S02 immutable raw blocks and scientific array evidence.
+output/fpmfc/system_capture/S02/**/*.npz filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/system_capture/S02/**/*.jsonl.gz filter=lfs diff=lfs merge=lfs -text
+output/fpmfc/system_capture/S02/runs/**/estimator_events.json filter=lfs diff=lfs merge=lfs -text
+tools/s02_*.py -text whitespace=cr-at-eol
+experiments/system_capture/manifests/CODEX_S02_ESTIMATION_CAPTURE_AFTER_S01.md -text whitespace=cr-at-eol,-blank-at-eol
+# Retain original archived source EOF bytes for exact failed-run replay.
+output/fpmfc/system_capture/S02/source_versions/** whitespace=cr-at-eol,-blank-at-eof

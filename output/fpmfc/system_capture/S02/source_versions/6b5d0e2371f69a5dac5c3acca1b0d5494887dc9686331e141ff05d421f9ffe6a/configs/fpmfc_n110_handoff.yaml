@@ -1,0 +1,50 @@
+schema_version: fpmfc_n110_live_twist_handoff_v1
+baseline_commit: 31377e8a1f95d1ac0b7eeed11397e594c702522f
+source_trace: output/fpmfc/precontact/n073_controller_ablation_rk4_formal_planning45/seed_00/full/trace.npz
+source_metrics: output/fpmfc/precontact/n073_controller_ablation_rk4_formal_planning45/seed_00/full/metrics.json
+precontact_config: configs/fpmfc_paper_planning45_effective.yaml
+contact_config: configs/fpmfc_contact.yaml
+contact_mapping_mode: homogeneous
+paired_conditions:
+  C0: zero_terminal_linear_and_angular_velocity_and_acceleration
+  C1: target_grasp_and_tool_offset_terminal_twist_and_acceleration
+terminal_reference:
+  point: flange_site
+  tool_face: flange_site_minus_local_positive_z_times_existing_face_recess
+  target_point: target_grasp_site
+  target_absolute_time: archived_capture_time
+  contact_local_time: resets_to_zero_at_handoff
+  post_handoff: physical_target_and_S_contact_runner_take_over
+reference_numerical_tolerances:
+  position_m: 1.0e-11
+  rotation_rad: 1.0e-10
+  linear_velocity_m_s: 1.0e-11
+  angular_velocity_rad_s: 1.0e-11
+  linear_acceleration_m_s2: 1.0e-10
+  angular_acceleration_rad_s2: 1.0e-10
+finite_difference_tolerances:
+  position_velocity_m_s: 2.0e-8
+  linear_acceleration_m_s2: 2.0e-8
+  angular_velocity_rad_s: 2.0e-8
+  angular_acceleration_rad_s2: 2.0e-8
+replay_tolerances:
+  qpos: 1.0e-11
+  qvel: 1.0e-10
+  flange_position_m: 1.0e-10
+  flange_twist: 1.0e-9
+  clearance_m: 1.0e-10
+handoff_gates:
+  position_error_m: 0.001
+  orientation_error_rad: 0.003490658503988659
+  arm_angle_error_rad: 0.017453292519943295
+  C0_absolute_linear_speed_m_s: 0.001
+  C0_absolute_angular_speed_rad_s: 0.003490658503988659
+  C1_tool_face_relative_linear_speed_m_s: 0.001
+  C1_relative_angular_speed_rad_s: 0.003490658503988659
+  initial_contact_max_penetration_m: 0.002
+  initial_contact_max_force_n: 20.0
+run_budget:
+  precontact_dynamics_trajectories: 2
+  contact_dynamics_trajectories_if_qualified: 6
+  contact_duration_s: 1.0
+  no_candidate_search: true

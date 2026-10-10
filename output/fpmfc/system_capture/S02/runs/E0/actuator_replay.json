@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "qpos_max_error": 0.0,
+  "qvel_max_error": 0.0,
+  "physics_steps": 3907,
+  "final_time_s": 7.8139999999993615,
+  "state_initializations": 1,
+  "intermediate_plant_state_injections": 0,
+  "cpu_s": 3.703125,
+  "wall_s": 3.8953307000920177,
+  "scope": "completed committed input prefix only; E0 implementation error retained"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "LIMITED_DIAGNOSTIC_ADMISSION",
+  "accuracy_improved_in_seen_noisy_prefix": true,
+  "necessary_information_compatible_in_seen_prefix": true,
+  "actual_guard_called_in_offline_comparison": false,
+  "contact_covariance_limit": "fixed contact periodic margins exceed original velocity/angular gates; not qualified for general contact",
+  "ideal_limit": "ideal replay has larger peak error and NIS around contact; E0 must preserve full task before E1",
+  "sequential_gates": "E0 preserves full task, E1 has safe physical prefix and no interface/data error; algorithm NO_VERIFIED_CONTROL permits diagnostic controls"
+}

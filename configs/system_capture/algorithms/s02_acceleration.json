@@ -1,0 +1,11 @@
+{
+  "linear_jerk_density": 0.0013536209515421882,
+  "angular_jerk_density": 0.016185201664205662,
+  "contact_multiplier": 10.0,
+  "initial_velocity_variance": 0.1,
+  "initial_omega_variance": 0.1,
+  "initial_accel_variance": 0.01,
+  "initial_alpha_variance": 1.0,
+  "minimum_samples": 3,
+  "max_step_s": 0.002
+}

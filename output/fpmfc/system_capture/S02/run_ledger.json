@@ -1,0 +1,535 @@
+{
+  "phase": "S02",
+  "cpu_budget_s": 21600,
+  "max_attempts": 4,
+  "attempts": [
+    {
+      "name": "E0",
+      "status": "IMPLEMENTATION_ERROR",
+      "started_epoch": 1791599550.7390301,
+      "config_sha256": "15b5fc17682743731620cfb5619b86d1abcdc38fe3ab20b1c0d6531a899cd276",
+      "reason": "Traceback (most recent call last):\n  File \"C:\\Users\\admin\\.codex\\worktrees\\system-s02-estimation\\力位形混合控制\\v6_mujoco\\system_capture\\estimation\\runner.py\", line 67, in run_one\n    try:proposal=wrapped.update(p,clocks.task_tick(t))\n  File \"C:\\Users\\admin\\.codex\\worktrees\\system-s02-estimation\\力位形混合控制\\v6_mujoco\\system_capture\\adapters.py\", line 66, in update\n    self.estimate=estimate_from_legacy(c.estimate,c.cfg,mode)\n  File \"C:\\Users\\admin\\.codex\\worktrees\\system-s02-estimation\\力位形混合控制\\v6_mujoco\\system_capture\\adapters.py\", line 21, in estimate_from_legacy\n    return StateEstimate(e.measurement_time,e.time,e.p,e.R,e.v,e.w,e.covariance,bias,e.valid,process_mode)\n  File \"<string>\", line 15, in __init__\n  File \"C:\\Users\\admin\\.codex\\worktrees\\system-s02-estimation\\力位形混合控制\\v6_mujoco\\system_capture\\contracts.py\", line 188, in __post_init__\n    rotation(self.R); covariance(self.P, 12); b=array(self.bias_bound, (12,), 'bias')\n  File \"C:\\Users\\admin\\.codex\\worktrees\\system-s02-estimation\\力位形混合控制\\v6_mujoco\\system_capture\\contracts.py\", line 33, in covariance\n    require(np.linalg.eigvalsh((a+a.T)/2).min() >= -1e-10, 'covariance not PSD')\n  File \"C:\\Users\\admin\\.codex\\worktrees\\system-s02-estimation\\力位形混合控制\\v6_mujoco\\system_capture\\contracts.py\", line 11, in require\n    raise ValueError(message)\nValueError: covariance not PSD\n",
+      "end_time_s": 7.8139999999993615,
+      "physical_steps": 3907,
+      "raw_validation": {
+        "passed": true,
+        "records": 15631,
+        "completed_steps": 3907,
+        "max_verifiable_time_s": 7.8139999999993615,
+        "block_count": 80,
+        "index_sha256": "303f77e6f7a7eb22c64a55d1dcadb0267e6c358607d4becfc7f5ce0f40bc9c10"
+      },
+      "persistence_error": null,
+      "max_verifiable_time_s": 7.8139999999993615,
+      "actual_safety_violations": [],
+      "journal_io_wall_s": 5.197320300620049,
+      "journal_serialization_wall_s": 11.513473443686962,
+      "cpu_s": 306.453125,
+      "wall_s": 310.3679275000468,
+      "latch_time_s": null,
+      "predictive_steps": 38900,
+      "predictive_task_solves": 4279,
+      "actual_guard_calls": 0,
+      "parameter_feedback_used": false
+    },
+    {
+      "name": "E0_C2",
+      "status": "COMPLETED",
+      "started_epoch": 1791600584.3836136,
+      "config_sha256": "b7c535cd2a12799052d120b0cc5e1c07c0a94a84d08a1aafdc27dc0fba5a847e",
+      "reason": null,
+      "end_time_s": 27.913999999995408,
+      "physical_steps": 13957,
+      "raw_validation": {
+        "passed": true,
+        "records": 55831,
+        "completed_steps": 13957,
+        "max_verifiable_time_s": 27.913999999995408,
+        "block_count": 281,
+        "index_sha256": "ebf63b6774f20219a7252a47c5e18c223c21e161820ab4a3529938e03efe86bf"
+      },
+      "persistence_error": null,
+      "max_verifiable_time_s": 27.913999999995408,
+      "actual_safety_violations": [],
+      "journal_io_wall_s": 19.822742098011076,
+      "journal_serialization_wall_s": 42.129628045950085,
+      "cpu_s": 616.328125,
+      "wall_s": 628.1185532999225,
+      "latch_time_s": 7.91399999999935,
+      "predictive_steps": 39400,
+      "predictive_task_solves": 4334,
+      "actual_guard_calls": 37,
+      "parameter_feedback_used": false
+    },
+    {
+      "name": "E1",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791601250.9165957,
+      "config_sha256": "51ed334800db091e760ff5a66b3ffa29013cd213dc6ce063e4b6d8c9e56f4d6d",
+      "reason": {
+        "time": 8.019999999999348,
+        "candidates": [
+          {
+            "fraction": 1.0,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980009289e-05,
+            "max_linear_residual_m_s": 0.004076148447815069,
+            "max_angular_residual_rad_s": 5.344240262308824e-05,
+            "min_linear_constraint_slack_mixed_units": -9.999999999999593e-05,
+            "max_rho": 0.010244685683171337,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.75,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980009408e-05,
+            "max_linear_residual_m_s": 0.004076147588699784,
+            "max_angular_residual_rad_s": 5.344238861451241e-05,
+            "min_linear_constraint_slack_mixed_units": -0.00010000000000000286,
+            "max_rho": 0.01024468541945036,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.5,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980013092e-05,
+            "max_linear_residual_m_s": 0.004076148002836371,
+            "max_angular_residual_rad_s": 5.3442396170830686e-05,
+            "min_linear_constraint_slack_mixed_units": -9.99999999999994e-05,
+            "max_rho": 0.010244685477869551,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.25,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.357595980001774e-05,
+            "max_linear_residual_m_s": 0.004076148228816362,
+            "max_angular_residual_rad_s": 5.344239824040347e-05,
+            "min_linear_constraint_slack_mixed_units": -9.99999999999994e-05,
+            "max_rho": 0.010244685315957559,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.0,
+            "verified": false,
+            "reason": "PREDICTED_GEOMETRY",
+            "steps": 90,
+            "horizon_reached_s": 0.18,
+            "max_tracking_error_m": 5.3575959800182794e-05,
+            "max_linear_residual_m_s": 0.004076148270765537,
+            "max_angular_residual_rad_s": 5.344239850231269e-05,
+            "min_linear_constraint_slack_mixed_units": -9.999999999999593e-05,
+            "max_rho": 0.010244685650681214,
+            "terminal_progress": 8.0
+          }
+        ],
+        "chosen_fraction": null,
+        "latency_s": 3.904597300104797,
+        "scope": "finite prior, covariance approximation; no recursive-feasibility or hardware guarantee"
+      },
+      "end_time_s": 8.019999999999348,
+      "physical_steps": 4010,
+      "raw_validation": {
+        "passed": true,
+        "records": 16043,
+        "completed_steps": 4010,
+        "max_verifiable_time_s": 8.019999999999348,
+        "block_count": 82,
+        "index_sha256": "9bb648c5cdc4b10fd12b30b377fec9950b534f13f18d191cf0b42a96a7120708"
+      },
+      "persistence_error": null,
+      "max_verifiable_time_s": 8.019999999999348,
+      "actual_safety_violations": [],
+      "journal_io_wall_s": 5.405809196643531,
+      "journal_serialization_wall_s": 11.594824003055692,
+      "cpu_s": 327.140625,
+      "wall_s": 331.53035929985344,
+      "latch_time_s": null,
+      "predictive_steps": 40350,
+      "predictive_task_solves": 4439,
+      "actual_guard_calls": 90,
+      "parameter_feedback_used": false
+    },
+    {
+      "name": "E2",
+      "status": "NO_VERIFIED_CONTROL",
+      "started_epoch": 1791601592.3123066,
+      "config_sha256": "3753b383dfe7d130178c37c3e64f7e91c8373845e3beaa58f95b929d96c3e41f",
+      "reason": {
+        "time": 8.819999999999615,
+        "candidates": [
+          {
+            "fraction": 1.0,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.75,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.5,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.25,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          },
+          {
+            "fraction": 0.0,
+            "verified": false,
+            "reason": "PREDICTED_HQP_OR_BOUND_FAILURE",
+            "steps": 40,
+            "horizon_reached_s": 0.08,
+            "max_tracking_error_m": 4.388576043662574e-05,
+            "max_linear_residual_m_s": 0.02042707307659828,
+            "max_angular_residual_rad_s": 0.032042089173739116,
+            "min_linear_constraint_slack_mixed_units": -0.004405387006291291,
+            "max_rho": 0.005983816313757151,
+            "terminal_progress": 8.0
+          }
+        ],
+        "chosen_fraction": null,
+        "latency_s": 2.0953998998738825,
+        "scope": "finite prior, covariance approximation; no recursive-feasibility or hardware guarantee"
+      },
+      "end_time_s": 8.819999999999615,
+      "physical_steps": 4410,
+      "raw_validation": {
+        "passed": true,
+        "records": 17643,
+        "completed_steps": 4410,
+        "max_verifiable_time_s": 8.819999999999615,
+        "block_count": 90,
+        "index_sha256": "5be0c75cf3174498c6c8e2391b02b2f7ed270875143002caa3ae645b5ff28ba5"
+      },
+      "persistence_error": null,
+      "max_verifiable_time_s": 8.819999999999615,
+      "actual_safety_violations": [],
+      "journal_io_wall_s": 6.001814999617636,
+      "journal_serialization_wall_s": 12.737822789233178,
+      "cpu_s": 375.0,
+      "wall_s": 379.8492411002517,
+      "latch_time_s": null,
+      "predictive_steps": 44100,
+      "predictive_task_solves": 4854,
+      "actual_guard_calls": 490,
+      "parameter_feedback_used": false
+    }
+  ],
+  "operations": [
+    {
+      "kind": "entry_identity_audit",
+      "cpu_s": 0.546875,
+      "wall_s": 1.072451100219041,
+      "files": 597,
+      "new_physics_steps": 0
+    },
+    {
+      "kind": "development_calibration",
+      "cpu_s": 25.5,
+      "wall_s": 25.895393299870193,
+      "signal_families": 6,
+      "candidates": 2,
+      "new_robot_steps": 0,
+      "estimator_streams": 12
+    },
+    {
+      "kind": "heldout_synthetic_validation",
+      "cpu_s": 50.15625,
+      "wall_s": 50.96411339985207,
+      "signal_families": 6,
+      "estimator_streams": 12,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "archival_estimator_only_redecision",
+      "cpu_s": 15.65625,
+      "wall_s": 15.824112799949944,
+      "streams": 8,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "covariance_periodic_diagnostic",
+      "cpu_s": 2.28125,
+      "wall_s": 2.302370199933648,
+      "recursion_updates": 6000,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "properties_and_fault_injection",
+      "cpu_s": 0.28125,
+      "wall_s": 0.6977912001311779,
+      "passed": false,
+      "tests_run": 11,
+      "failures": 0,
+      "errors": 1,
+      "physics_steps": 0,
+      "scope": "bounded synthetic, model initialization and isolated persistence tests; no complete robot attempts"
+    },
+    {
+      "kind": "properties_and_fault_injection",
+      "cpu_s": 0.21875,
+      "wall_s": 0.6420637001283467,
+      "passed": true,
+      "tests_run": 11,
+      "failures": 0,
+      "errors": 0,
+      "physics_steps": 0,
+      "scope": "bounded synthetic, model initialization and isolated persistence tests; no complete robot attempts"
+    },
+    {
+      "kind": "covariance_repair_recorded_packets",
+      "cpu_s": 6.375,
+      "wall_s": 6.452189200092107,
+      "passed": true,
+      "packets": 3908,
+      "min_eigenvalue": -1.1133340894899032e-16,
+      "last_time_s": 7.8139999999993615,
+      "failures": [],
+      "source": "original E0 public packets, including terminal failed packet",
+      "physics_steps": 0,
+      "parameter_change": false,
+      "noise_matrix": "positive Gauss-Legendre noise-factor integral, no clipping or shrink"
+    },
+    {
+      "kind": "properties_and_fault_injection",
+      "cpu_s": 0.359375,
+      "wall_s": 0.7754819002002478,
+      "passed": true,
+      "tests_run": 12,
+      "failures": 0,
+      "errors": 0,
+      "physics_steps": 0,
+      "scope": "bounded synthetic, model initialization and isolated persistence tests; no complete robot attempts"
+    },
+    {
+      "kind": "heldout_synthetic_validation",
+      "cpu_s": 63.28125,
+      "wall_s": 63.933014899957925,
+      "signal_families": 6,
+      "estimator_streams": 12,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "archival_estimator_only_redecision",
+      "cpu_s": 74.796875,
+      "wall_s": 75.60030419984832,
+      "streams": 8,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "covariance_periodic_diagnostic",
+      "cpu_s": 3.578125,
+      "wall_s": 3.6289550000801682,
+      "recursion_updates": 6000,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "timing_loader_schema_error",
+      "cpu_s": null,
+      "budget_charge_s": 2.0,
+      "actual_cpu_s": "NOT_RECORDED",
+      "failure": "KeyError: poses; diagnostic-only loader omitted packet envelope, before estimator update",
+      "repair": "read JSON packet field, matching original archive reader",
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "per_call_estimator_timing",
+      "cpu_s": 12.984375,
+      "wall_s": 13.092434199992567,
+      "new_robot_steps": 0,
+      "updates": 7842,
+      "blind_forecasts": 7842
+    },
+    {
+      "kind": "preflight_accounting_amendment",
+      "cpu_s": null,
+      "budget_charge_s": 300.0,
+      "actual_cpu_s": "NOT_RECORDED",
+      "basis": "conservative 300 s charge for initial archival summary failure, early manual tests and postprocessing before ledger instrumentation",
+      "failure": "undefined correlation for constant H2 innovation caused JSON NaN rejection; comparison.npz was already written",
+      "repair": "correlation explicitly null; saved completed comparisons reused, remaining H2/noisy comparisons executed",
+      "full_robot_attempts": 0,
+      "not_an_exact_cpu_measurement": true
+    },
+    {
+      "kind": "completed_prefix_safety_audit",
+      "cpu_s": 61.328125,
+      "wall_s": 62.024062199983746,
+      "new_robot_steps": 0,
+      "scope": "standalone read-only completed-prefix safety audit; charged once when report runs"
+    },
+    {
+      "kind": "offline_sensing_requirement_diagnostic",
+      "cpu_s": 0.3125,
+      "wall_s": 0.32073589973151684,
+      "new_robot_steps": 0,
+      "estimator_parameter_change": false,
+      "scope": "zero-angular-rate isotropic steady local CA contact model; numerical sensing-design necessary conditions only, no robot rollout or new estimator tuning"
+    },
+    {
+      "kind": "report_and_scientific_figures",
+      "cpu_s": 75.75,
+      "wall_s": 76.43824499985203,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "completion_identity_and_record_audit",
+      "cpu_s": 26.28125,
+      "wall_s": 26.939535100013018,
+      "passed": true,
+      "hash_checks": 1626,
+      "new_robot_steps": 0
+    },
+    {
+      "kind": "uninstrumented_completion_reserve",
+      "cpu_s": null,
+      "budget_charge_s": 360.0,
+      "actual_cpu_s": "NOT_RECORDED",
+      "basis": "conservative reservation: 60 s per attempted-run derived summary, plus 120 s for imports, manual reporting/figure iterations and final version-control/hashing overhead; not an exact measurement",
+      "new_robot_steps": 0
+    }
+  ],
+  "replays": [
+    {
+      "name": "E0",
+      "kind": "actuator",
+      "passed": true,
+      "qpos_max_error": 0.0,
+      "qvel_max_error": 0.0,
+      "physics_steps": 3907,
+      "final_time_s": 7.8139999999993615,
+      "state_initializations": 1,
+      "intermediate_plant_state_injections": 0,
+      "cpu_s": 3.703125,
+      "wall_s": 3.8953307000920177,
+      "scope": "completed committed input prefix only; E0 implementation error retained"
+    },
+    {
+      "name": "E0",
+      "kind": "decision",
+      "passed": true,
+      "packets": 3908,
+      "max_intermediate_error": 0.0,
+      "proposals_and_snapshots_match": true,
+      "stop_reason_match": true,
+      "recorded_exception": "ValueError: covariance not PSD",
+      "replay_exception": "ValueError: covariance not PSD",
+      "exception_time_s": 7.8139999999993615,
+      "predictive_steps": 38900,
+      "cpu_s": 316.859375,
+      "wall_s": 321.7191615998745,
+      "scope": "exact original frozen implementation, no repaired data; expected failure reproduced"
+    },
+    {
+      "run": "E0_C2",
+      "kind": "actuator",
+      "passed": true,
+      "cpu_s": 14.296875,
+      "wall_s": 14.497005400247872,
+      "result_sha256": "124f19a67f9e62f27f1c86dbff53099a5e79aef0fbc425b5820064c5329e6c0c",
+      "physics_steps": 13957,
+      "predictive_steps": 0
+    },
+    {
+      "run": "E0_C2",
+      "kind": "decision",
+      "passed": true,
+      "cpu_s": 674.890625,
+      "wall_s": 683.9020671001635,
+      "result_sha256": "7d2d12e667f73d26fac288d06433cac6a5441013cd995fa4be47d1e3fe98c56f",
+      "physics_steps": 0,
+      "predictive_steps": 39400
+    },
+    {
+      "run": "E1",
+      "kind": "actuator",
+      "passed": true,
+      "cpu_s": 4.0,
+      "wall_s": 4.069391599856317,
+      "result_sha256": "e002de3bd7efe87fc1c702f86054feba8f478274d40a304afaee1de61290cecc",
+      "physics_steps": 4010,
+      "predictive_steps": 0
+    },
+    {
+      "run": "E1",
+      "kind": "decision",
+      "passed": true,
+      "cpu_s": 345.40625,
+      "wall_s": 349.10653009964153,
+      "result_sha256": "8d942c7f4c6d60d14c074188f6bc915bafcd7e0fcd688d3c59bfd99dded36edc",
+      "physics_steps": 0,
+      "predictive_steps": 40350
+    },
+    {
+      "run": "E2",
+      "kind": "actuator",
+      "passed": true,
+      "cpu_s": 4.453125,
+      "wall_s": 4.45661330036819,
+      "result_sha256": "8dc96cc9aec4546a8994e19a372bb868e583fa63cb280e5174328b1445f7fe31",
+      "physics_steps": 4410,
+      "predictive_steps": 0
+    },
+    {
+      "run": "E2",
+      "kind": "decision",
+      "passed": true,
+      "cpu_s": 392.96875,
+      "wall_s": 396.7972508999519,
+      "result_sha256": "528507655cf12f924a804abb7f1f6ffd2467b762aa00cb13bf3e7c267e17023b",
+      "physics_steps": 0,
+      "predictive_steps": 44100
+    }
+  ],
+  "next_phases_started": [],
+  "started_epoch": 1791598744.8898811
+}

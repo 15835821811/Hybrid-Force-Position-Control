@@ -1,0 +1,18 @@
+{
+  "phase": "S00",
+  "input_commit": "007abc48fe3d804a96d4feee0a1c304444048669",
+  "branch": "codex/system-s00-contracts",
+  "selected_runs": ["R01_V2_nominal", "R03_V2_S01"],
+  "selection_rule": "final V2 nominal and final V2 noisy S01 regression; both original tagged dual validations PASS; S01 physical failure retained",
+  "budgets": {"new_physical_attempts": 0, "replays": 4, "static_or_single_states": 100, "cpu_s": 14400},
+  "profile_states_per_run": 8,
+  "profile_selection_rule": "8 equally spaced integer task ticks from t0 through the last saved task tick, fixed before replay; no outcome-based selection",
+  "replay_order": ["R01_V2_nominal__actuator", "R03_V2_S01__actuator", "R01_V2_nominal__decision", "R03_V2_S01__decision"],
+  "allowed_changes": ["v6_mujoco/system_capture", "configs/system_capture", "experiments/system_capture", "output/fpmfc/system_capture/S00", "paper/system_framework", "append-only Git attributes for the new paths"],
+  "candidate_policy": "zero new algorithm candidates; versioned compatibility wrappers only",
+  "tolerances": {"qpos": 1e-10, "qvel": 1e-9, "tau": 1e-10, "intermediate_state": 1e-10},
+  "ts_audit": "only invalid t=0 estimate covariance may use the independently copied same-tick trace; preserve both original files and original failed validator",
+  "no_new_controller_performance": true,
+  "push": false,
+  "automatic_next_phase": false
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "physics_steps": 0,
+  "scope": "bounded synthetic, model initialization and isolated persistence tests; no complete robot attempts"
+}

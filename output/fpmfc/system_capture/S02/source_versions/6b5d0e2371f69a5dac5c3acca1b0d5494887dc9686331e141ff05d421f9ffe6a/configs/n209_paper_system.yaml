@@ -1,0 +1,20 @@
+schema: n209_candidate_v2
+baseline_commit: b1af09f89226fa6f2ae1b362f3d6225b3363cc17
+method: B1
+parameter_feedback: false
+approach_deadline_s: 20.0
+post_duration_s: 20.0
+evaluation_width_s: 2.0
+n209:
+  version: V2
+  task_residual_startup_s: 0.20
+  horizon_s: 0.20
+  candidate_fractions: [1.0, 0.75, 0.5, 0.25, 0.0]
+  progress_tau_s: 0.30
+  reference_bandwidth_rad_s: 20.0
+  tracking_error_limit_m: 0.008
+  linear_residual_limit_m_s: 0.05
+  angular_residual_limit_rad_s: 0.10
+  noisy_process_linear_accel: 0.003
+  noisy_process_angular_accel: 0.02
+  model_uncertainty_scope: finite_nominal_prior_no_global_error_bound

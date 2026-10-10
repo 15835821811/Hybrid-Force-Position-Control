@@ -1,0 +1,216 @@
+{
+  "scope": "zero-angular-rate isotropic steady local CA contact model; numerical sensing-design necessary conditions only, no robot rollout or new estimator tuning",
+  "preserved_estimator_parameters": {
+    "linear_jerk_density": 0.0013536209515421882,
+    "angular_jerk_density": 0.016185201664205662,
+    "contact_multiplier": 10.0,
+    "initial_velocity_variance": 0.1,
+    "initial_omega_variance": 0.1,
+    "initial_accel_variance": 0.01,
+    "initial_alpha_variance": 1.0,
+    "minimum_samples": 3,
+    "max_step_s": 0.002
+  },
+  "original_bias_bounds_unchanged": true,
+  "additional_hardware_uncertainty": "not budgeted: clock, calibration, encoder/navigation uncertainty and correlations must consume remaining reserve",
+  "actual_error_validation": "NOT_PERFORMED_FOR_HYPOTHETICAL_SENSORS",
+  "deployed": false,
+  "robot_attempts": 0,
+  "baseline_floor_agreement_max_abs": 3.469446951953614e-18,
+  "rows": [
+    {
+      "pose_period_s": 0.006,
+      "delay_s": 0.012,
+      "noise_scale": 1.0,
+      "position_sigma_m": 1e-05,
+      "rotation_sigma_rad": 3.5e-05,
+      "ages_s": [
+        0.012,
+        0.014,
+        0.016
+      ],
+      "maximum_legacy_margins": [
+        4.704539556101565e-05,
+        0.00012434388519465156,
+        0.0013672032489188612,
+        0.004718915016075394
+      ],
+      "minimum_remaining_budget": [
+        5.295460443898435e-05,
+        0.0007483207408025132,
+        -0.0003672032489188612,
+        -0.001228256512086735
+      ],
+      "necessary_only_all_four_positive": false
+    },
+    {
+      "pose_period_s": 0.006,
+      "delay_s": 0.0,
+      "noise_scale": 1.0,
+      "position_sigma_m": 1e-05,
+      "rotation_sigma_rad": 3.5e-05,
+      "ages_s": [
+        0.0,
+        0.002,
+        0.004
+      ],
+      "maximum_legacy_margins": [
+        3.43849150904484e-05,
+        8.112392830966551e-05,
+        0.0010746653243642156,
+        0.003548408001464857
+      ],
+      "minimum_remaining_budget": [
+        6.56150849095516e-05,
+        0.0007915406976874993,
+        -7.466532436421563e-05,
+        -5.774949747619799e-05
+      ],
+      "necessary_only_all_four_positive": false
+    },
+    {
+      "pose_period_s": 0.006,
+      "delay_s": 0.012,
+      "noise_scale": 0.5,
+      "position_sigma_m": 5e-06,
+      "rotation_sigma_rad": 1.75e-05,
+      "ages_s": [
+        0.012,
+        0.014,
+        0.016
+      ],
+      "maximum_legacy_margins": [
+        3.1453442269735746e-05,
+        8.10930697736619e-05,
+        0.0010308266875021037,
+        0.0035964100292127793
+      ],
+      "minimum_remaining_budget": [
+        6.854655773026427e-05,
+        0.0007915715562235029,
+        -3.0826687502103715e-05,
+        -0.00010575152522412012
+      ],
+      "necessary_only_all_four_positive": false
+    },
+    {
+      "pose_period_s": 0.006,
+      "delay_s": 0.0,
+      "noise_scale": 0.5,
+      "position_sigma_m": 5e-06,
+      "rotation_sigma_rad": 1.75e-05,
+      "ages_s": [
+        0.0,
+        0.002,
+        0.004
+      ],
+      "maximum_legacy_margins": [
+        2.2046212460178813e-05,
+        4.871118605629297e-05,
+        0.0007656007133359805,
+        0.00253264679012656
+      ],
+      "minimum_remaining_budget": [
+        7.795378753982119e-05,
+        0.0008239534399408718,
+        0.0002343992866640195,
+        0.0009580117138620991
+      ],
+      "necessary_only_all_four_positive": true
+    },
+    {
+      "pose_period_s": 0.002,
+      "delay_s": 0.002,
+      "noise_scale": 1.0,
+      "position_sigma_m": 1e-05,
+      "rotation_sigma_rad": 3.5e-05,
+      "ages_s": [
+        0.002
+      ],
+      "maximum_legacy_margins": [
+        2.3988556046744732e-05,
+        5.371756561868893e-05,
+        0.0008178319306484981,
+        0.002699804965667959
+      ],
+      "minimum_remaining_budget": [
+        7.601144395325528e-05,
+        0.0008189470603784759,
+        0.00018216806935150189,
+        0.0007908535383207003
+      ],
+      "necessary_only_all_four_positive": true
+    },
+    {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "noise_scale": 1.0,
+      "position_sigma_m": 1e-05,
+      "rotation_sigma_rad": 3.5e-05,
+      "ages_s": [
+        0.0
+      ],
+      "maximum_legacy_margins": [
+        2.2686703220682975e-05,
+        4.944198493221034e-05,
+        0.0007764658553698859,
+        0.0025360496427389158
+      ],
+      "minimum_remaining_budget": [
+        7.731329677931703e-05,
+        0.0008232226410649545,
+        0.00022353414463011415,
+        0.0009546088612497434
+      ],
+      "necessary_only_all_four_positive": true
+    },
+    {
+      "pose_period_s": 0.002,
+      "delay_s": 0.002,
+      "noise_scale": 0.5,
+      "position_sigma_m": 5e-06,
+      "rotation_sigma_rad": 1.75e-05,
+      "ages_s": [
+        0.002
+      ],
+      "maximum_legacy_margins": [
+        1.6153991076455457e-05,
+        3.3120984750285135e-05,
+        0.0005823321175591871,
+        0.0019251840894351664
+      ],
+      "minimum_remaining_budget": [
+        8.384600892354454e-05,
+        0.0008395436412468797,
+        0.00041766788244081295,
+        0.0015654744145534927
+      ],
+      "necessary_only_all_four_positive": true
+    },
+    {
+      "pose_period_s": 0.002,
+      "delay_s": 0.0,
+      "noise_scale": 0.5,
+      "position_sigma_m": 5e-06,
+      "rotation_sigma_rad": 1.75e-05,
+      "ages_s": [
+        0.0
+      ],
+      "maximum_legacy_margins": [
+        1.523301554755309e-05,
+        3.0095736957768687e-05,
+        0.0005454709490111599,
+        0.0017792527623417243
+      ],
+      "minimum_remaining_budget": [
+        8.476698445244691e-05,
+        0.0008425688890393961,
+        0.00045452905098884017,
+        0.0017114057416469349
+      ],
+      "necessary_only_all_four_positive": true
+    }
+  ],
+  "cpu_s": 0.3125,
+  "wall_s": 0.32073589973151684
+}

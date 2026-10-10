@@ -1,0 +1,15 @@
+{
+  "measured_instrumented_cpu_s": 3801.1875,
+  "total_budget_charge_s": 4463.1875,
+  "explicit_nonmeasured_reservations_s": 662.0,
+  "cpu_budget_s": 21600,
+  "within_budget": true,
+  "elapsed_wall_s": 4999.715537786484,
+  "operation_wall_s_sum": 3854.9126852001064,
+  "scope": "measured timer scopes plus separately named conservative reservations; operation wall times may overlap and are not summed elapsed time",
+  "formal_robot_attempts": 4,
+  "physical_steps": 26284,
+  "online_predictive_steps": 162750,
+  "replay_physical_steps": 26284,
+  "replay_predictive_steps": 162750
+}

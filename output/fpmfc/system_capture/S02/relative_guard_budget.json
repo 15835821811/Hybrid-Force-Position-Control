@@ -1,0 +1,9 @@
+{
+  "per_time_arrays": "offline/*/comparison.npz: legacy_remaining_budget and full_remaining_budget",
+  "full_geometry": "Jp_theta=-skew(Rr), Jv_theta=-skew(omega)skew(Rr), Jv_omega=-skew(Rr)",
+  "cross_terms": "all target state cross terms preserved; optional robot/target cross covariance and calibration/time terms implemented",
+  "robot_and_clock": "SIMULATION_ASSUMPTION: exact; no hardware conclusion",
+  "guard": "unchanged legacy marginal norm formula; full propagation diagnostic only",
+  "bias": "norm bounded pose bias; missing orientation-to-velocity bias term disclosed and included in full diagnostic",
+  "condition": "uncertainty plus bias < physical gate is necessary only; actual relative error, geometry, loads, 40 ms and latch checks remain required"
+}

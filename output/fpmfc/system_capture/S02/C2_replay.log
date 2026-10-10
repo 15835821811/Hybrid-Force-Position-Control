@@ -1,0 +1,6 @@
+{'run': 'E0_C2', 'replay': 'actuator', 'passed': True, 'cpu_s': 14.296875}
+{'run': 'E0_C2', 'replay': 'decision', 'passed': True, 'cpu_s': 674.890625}
+{'run': 'E1', 'replay': 'actuator', 'passed': True, 'cpu_s': 4.0}
+{'run': 'E1', 'replay': 'decision', 'passed': True, 'cpu_s': 345.40625}
+{'run': 'E2', 'replay': 'actuator', 'passed': True, 'cpu_s': 4.453125}
+{'run': 'E2', 'replay': 'decision', 'passed': True, 'cpu_s': 392.96875}
